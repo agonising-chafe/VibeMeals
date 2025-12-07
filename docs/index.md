@@ -1,51 +1,107 @@
 # VibeMeals Documentation Hub
 
-**Version:** 4.0.0 (Living Document)  
+**Version:** 5.0.0 (Post-Vision Lock)  
 **Last Updated:** December 7, 2025  
-**Status:** Active Development
+**Status:** Implementation Ready
 
 ---
 
 ## 📚 Documentation Structure
 
-This documentation suite is organized into focused files for clarity and maintainability:
+### Vision (LOCKED)
 
-### Core Documents
-
-1. **[Vision](vision.md)** - Why VibeMeals exists, philosophy, and value proposition
-2. **[UX Specification](ux-spec.md)** - Detailed UI/UX specs, flows, and interaction patterns
-3. **[Technical Architecture](technical.md)** - State management, data models, algorithms, and APIs
-4. **[Policies & Rules](policies.md)** - Non-negotiables, business logic, and edge case handling
-5. **[Changelog](changelog.md)** - Version history and major decisions
+- **[vision.md](./vision.md)** – Why VibeMeals exists, who it's for, Golden Experience Tests [G1–G6], week shapes, tone, learning, catalog, and system boundaries.  
+  - Status: **Locked – v4.6.0**
+  - Use this as north star for all product decisions.
 
 ---
 
-## 🚀 Quick Start for Developers
+### v1 Surface Specs
 
-### Building VibeMeals from Scratch
+These specs translate vision into implementation-ready definitions for the core v1 surfaces.  
+All are wired to `vision.md` and must respect Golden Tests.
 
-**Step 1: Understand the Vision**
-- Read [vision.md](vision.md) to understand the "why" and core philosophy
-- Key principle: **Safe defaults over gates**. The app should work with zero friction; optimization is optional.
+**Core Surfaces:**
 
-**Step 2: Review UX Specifications**
-- Read [ux-spec.md](ux-spec.md) for detailed UI requirements
-- Golden Path: Generate → Shop (immediately available, no blocking gates)
-- All review/optimization steps are optional
+- **[spec-planner.md](./spec-planner.md) – Planner (Week View)**
+  - Purpose: Weekly planning (5–10 min check-in).
+  - Golden Tests: G1, G2, G4, G5, G6.
+  - Covers: Week grid, Generate/Regenerate, lighter weeks, Plan Stability
 
-**Step 3: Review Technical Architecture**
-- Read [technical.md](technical.md) for implementation details
-- State management: Modular Pinia stores
-- Key algorithms provided in pseudocode
-- API contracts with example requests/responses
+- **[data-model.md](./data-model.md) – Shared Data Model (TypeScript)**
+  - Purpose: Interface definitions for Plan, Recipe, ShoppingItem, TonightState.
+  - Referenced by: All 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).
+  - Unblocks: Shop S2, S7, Today T2 (data layer work in Sprint 1).
 
-**Step 4: Understand Business Rules**
-- Read [policies.md](policies.md) for locked behaviors
-- Deterministic rerolls, smart staples, time flexibility, graceful degradation
+- **[recipe-spec.md](./recipe-spec.md) – Recipe Catalog Contract**
+  - Purpose: Defines what makes a VibeMeals-grade recipe (metadata, ingredients, preflight, steps, tags).
+  - Referenced by: Planner (P2, P3, P5, P6), Shop (S2, S3, S4, S7, S8, S9), Today (T2, T4, T5, T8), Cooking (C1–C4).
+  - Unblocks: Catalog authoring (manual or AI), consistent ingredient criticality for Shop/Today.
+
+- **[recipe-examples.md](./recipe-examples.md) – Seed Recipes & Edge Cases**
+  - Purpose: Ready-to-use recipes that exercise time bands, criticality, Quick Review, and preflight/missed-preflight paths.
+  - Unblocks: Domain helper tests, seed catalog fixtures, and manual/AI authoring calibration.
+
+- **[spec-today.md](./spec-today.md) – Today (Tonight's Dinner)**
+  - Purpose: "What's for dinner tonight?" and making it actually cookable.
+  - Golden Tests: G1, G4, G6.
+  - Covers: All good state, missed preflight, escape hatches
+
+- **[spec-shop.md](./spec-shop.md) – Shop (Shopping List & Cart)**
+  - Purpose: Turn plan into trustworthy list/cart with optional Quick Review.
+  - Golden Tests: G2, G3, G5, G6.
+  - Covers: List generation, Quick Review, exports, missing items
+
+- **[spec-cooking.md](./spec-cooking.md) – Cooking Mode**
+  - Purpose: Step-by-step recipe execution that hits time band promises.
+  - Golden Tests: G1, G4, G6.
+  - Covers: Step display, preflight issues, bail-out flows, timers
 
 ---
 
-## 🎯 Quick Reference
+### Implementation Tickets
+
+Ready-to-use ticket breakdowns for each surface, with acceptance criteria wired to Vision and Golden Tests.
+
+- **[tickets-planner.md](./tickets-planner.md)** – Epic: Planner v1 (P1–P9)
+- **[tickets-today.md](./tickets-today.md)** – Epic: Today v1 (T1–T7)
+- **[tickets-shop.md](./tickets-shop.md)** – Epic: Shop v1 (S1–S6)
+- **[tickets-cooking.md](./tickets-cooking.md)** – Epic: Cooking Mode v1 (C1–C4)
+- **[epic-dependencies.md](./epic-dependencies.md)** – Build sequencing guide
+
+---
+
+### Reference & Supporting Docs
+
+- **[persona-checklists.md](./persona-checklists.md)** – Regression test checklists (Ashley, Brianna, Kayla, Jake & Maya, Ellen & Mark)
+- **[changelog.md](./changelog.md)** – Version history for vision and specs
+- **[ux-spec.md](./ux-spec.md)** – Legacy UX spec (superseded by surface specs)
+- **[technical.md](./technical.md)** – Technical architecture notes
+- **[policies.md](./policies.md)** – Business rules and edge cases
+
+---
+
+## 🚀 How to Use These Docs
+
+### For Product & Design
+1. Start with **vision.md** (philosophy, Golden Tests, constraints)
+2. Reference **spec-*.md** for surface-specific flows
+3. Use **persona-checklists.md** for regression testing
+
+### For Engineering
+1. Start with **spec-*.md** for implementation requirements
+2. Break work using **tickets-*.md** 
+3. Check **epic-dependencies.md** for build sequencing
+4. Validate against **vision.md** Golden Tests (G1–G6)
+
+### For QA
+1. Use **tickets-*.md** for acceptance criteria
+2. Reference **persona-checklists.md** for regression suites
+3. Test against **vision.md** Golden Tests for non-negotiables
+
+---
+
+## 🎯 Quick Reference: Golden Tests (G1–G6)
 
 ### The Golden Path (Zero-Friction)
 1. **Generate Plan** → Week fills with recipes
