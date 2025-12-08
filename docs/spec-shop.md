@@ -1,6 +1,7 @@
 # Shop – v1 Specification
 
-**Status:** Draft  
+**Version:** 1.0.0  
+**Status:** Implementation-Ready  
 **Wired to:** VibeMeals Vision v4.6.0 (`vision.md`)  
 **Golden Tests:** G2, G3, G5, G6  
 **Last Updated:** December 7, 2025  

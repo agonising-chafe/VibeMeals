@@ -1,6 +1,7 @@
 # Cooking Mode – v1 Specification
 
-**Status:** Draft  
+**Version:** 1.0.0  
+**Status:** Implementation-Ready  
 **Wired to:** VibeMeals Vision v4.6.0 (`vision.md`)  
 **Golden Tests:** G1, G4, G6  
 **Last Updated:** December 7, 2025  

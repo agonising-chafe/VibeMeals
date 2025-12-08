@@ -6,6 +6,23 @@
 
 ---
 
+## ⚙️ Spec-Code Sync Workflow
+
+**CRITICAL:** All data structures must follow this workflow to prevent drift between specs and code:
+
+1. **Update the spec first:** Modify `docs/data-model.md` with the new/changed types
+2. **Update types.ts:** Mirror the changes exactly in `src/domain/types.ts`
+3. **Update versions:** Increment version numbers and update dates in both files
+4. **Implement code:** Write implementation using the updated types
+5. **Verify:** Ensure all Golden Tests still pass
+
+**Spec Status Definitions:**
+- **Locked:** No changes allowed without approval (e.g., `vision.md` v4.6.0)
+- **Implementation-Ready:** Stable contract for implementation, changes require version bump
+- **Draft:** Still evolving, subject to change
+
+---
+
 ## 📚 Documentation Structure
 
 ### Vision (LOCKED)

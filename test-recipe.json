@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Test Sheet Pan Chicken",
+  "recipeIngredient": [
+    "1.5 lbs boneless chicken breast",
+    "2 tbsp olive oil",
+    "1 tsp salt",
+    "1 bell pepper, sliced"
+  ],
+  "recipeInstructions": [
+    "Preheat oven to 425°F",
+    "Toss chicken and vegetables with oil and salt",
+    "Spread on sheet pan",
+    "Bake for 25-30 minutes"
+  ],
+  "totalTime": "PT35M",
+  "prepTime": "PT10M",
+  "cookTime": "PT25M"
+}
