@@ -20,7 +20,7 @@ export const bakedMacAndCheese: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_chicken-broth-016",
-      "displayName": "chicken broth ($0.16)",
+      "displayName": "chicken broth",
       "amount": 1,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -29,7 +29,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_heavy-cream-149",
-      "displayName": "heavy cream ($1.49)",
+      "displayName": "heavy cream",
       "amount": 1,
       "unit": "CUP",
       "criticality": "NON_CRITICAL",
@@ -38,7 +38,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_italian-seasoning-002",
-      "displayName": "Italian seasoning ($0.02)",
+      "displayName": "Italian seasoning",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -46,8 +46,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "OTHER"
     },
     {
-      "ingredientId": "ing_arlic-powder-002",
-      "displayName": "arlic powder ($0.02)",
+      "ingredientId": "ing_garlic-powder-002",
+      "displayName": "garlic powder",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -55,8 +55,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_moked-paprika-002",
-      "displayName": "moked paprika ($0.02)",
+      "ingredientId": "ing_smoked-paprika-002",
+      "displayName": "smoked paprika",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -64,8 +64,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "PANTRY_DRY"
     },
     {
-      "ingredientId": "ing_ayenne-pepper-001",
-      "displayName": "ayenne pepper ($0.01)",
+      "ingredientId": "ing_cayenne-pepper-001",
+      "displayName": "cayenne pepper",
       "amount": 0.125,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -73,8 +73,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_lack-pepper-freshly-cracked-002",
-      "displayName": "lack pepper (freshly cracked, $0.02)",
+      "ingredientId": "ing_black-pepper-freshly-cracked-002",
+      "displayName": "black pepper",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -82,8 +82,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_alt-002",
-      "displayName": "alt ($0.02)",
+      "ingredientId": "ing_salt-002",
+      "displayName": "salt",
       "amount": 0.5,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -92,7 +92,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_cheddar-cheese-shredded-124",
-      "displayName": "cheddar cheese (shredded, $1.24)",
+      "displayName": "cheddar cheese",
       "amount": 1,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -101,7 +101,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_italian-cheese-blend-shredded-124",
-      "displayName": "Italian cheese blend (shredded, $1.24)",
+      "displayName": "Italian cheese blend",
       "amount": 1,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -110,7 +110,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_-macaroni-uncooked-067-",
-      "displayName": ". macaroni (uncooked, $0.67 *)",
+      "displayName": "macaroni",
       "amount": 8,
       "unit": "OZ",
       "criticality": "NON_CRITICAL",
@@ -119,7 +119,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_butter-028",
-      "displayName": "butter ($0.28)",
+      "displayName": "butter",
       "amount": 2,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -127,8 +127,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "DAIRY_EGGS"
     },
     {
-      "ingredientId": "ing_anko-breadcrumbs-025",
-      "displayName": "anko breadcrumbs ($0.25)",
+      "ingredientId": "ing_panko-breadcrumbs-025",
+      "displayName": "panko breadcrumbs",
       "amount": 0.5,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -136,8 +136,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_talian-seasoning-002",
-      "displayName": "talian seasoning ($0.02)",
+      "ingredientId": "ing_italian-seasoning-002",
+      "displayName": "Italian seasoning",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -145,8 +145,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "OTHER"
     },
     {
-      "ingredientId": "ing_arlic-powder-002",
-      "displayName": "arlic powder ($0.02)",
+      "ingredientId": "ing_garlic-powder-002",
+      "displayName": "garlic powder",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -154,8 +154,8 @@ export const bakedMacAndCheese: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_moked-paprika-002",
-      "displayName": "moked paprika ($0.02)",
+      "ingredientId": "ing_smoked-paprika-002",
+      "displayName": "smoked paprika",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -164,7 +164,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_lack-pepper-freshly-cracked-002",
-      "displayName": "lack pepper (freshly cracked, $0.02)",
+      "displayName": "lack pepper",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -173,7 +173,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_alt-002",
-      "displayName": "alt ($0.02)",
+      "displayName": "alt",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -182,7 +182,7 @@ export const bakedMacAndCheese: Recipe = {
     },
     {
       "ingredientId": "ing_cheddar-cheese-shredded-029",
-      "displayName": "cheddar cheese (shredded, $0.29)",
+      "displayName": "cheddar cheese",
       "amount": 0.25,
       "unit": "CUP",
       "criticality": "CRITICAL",

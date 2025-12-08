@@ -20,7 +20,7 @@ export const lasagnaSoup: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_cooking-oil-004",
-      "displayName": "cooking oil ($0.04)",
+      "displayName": "cooking oil",
       "amount": 1,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -29,7 +29,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_-italian-sausage-469",
-      "displayName": ". Italian sausage* ($4.69)",
+      "displayName": "Italian sausage*",
       "amount": 1,
       "unit": "LB",
       "criticality": "CRITICAL",
@@ -38,7 +38,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_onion-diced-032",
-      "displayName": "onion, diced ($0.32)",
+      "displayName": "onion, diced",
       "amount": 1,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -47,7 +47,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_bell-pepper-diced-150",
-      "displayName": "bell pepper, diced ($1.50)",
+      "displayName": "bell pepper, diced",
       "amount": 1,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -55,8 +55,8 @@ export const lasagnaSoup: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_of-garlic-minced-032",
-      "displayName": "of garlic, minced ($0.32)",
+      "ingredientId": "ing_garlic-minced-032",
+      "displayName": "garlic, minced",
       "amount": 4,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -65,7 +65,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_tomato-paste-030",
-      "displayName": "tomato paste ($0.30)",
+      "displayName": "tomato paste",
       "amount": 2,
       "unit": "TBSP",
       "criticality": "CRITICAL",
@@ -73,8 +73,8 @@ export const lasagnaSoup: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_-can-crushed-tomatoes-150",
-      "displayName": ". can crushed tomatoes ($1.50)",
+      "ingredientId": "ing_can-crushed-tomatoes-150",
+      "displayName": "crushed tomatoes (28 oz can)",
       "amount": 1,
       "unit": "OZ",
       "criticality": "CRITICAL",
@@ -82,8 +82,8 @@ export const lasagnaSoup: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_-can-diced-tomatoes-150",
-      "displayName": ". can diced tomatoes ($1.50)",
+      "ingredientId": "ing_can-diced-tomatoes-150",
+      "displayName": "diced tomatoes (15 oz can)",
       "amount": 1,
       "unit": "OZ",
       "criticality": "CRITICAL",
@@ -92,7 +92,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_italian-seasoning-020",
-      "displayName": "Italian seasoning ($0.20)",
+      "displayName": "Italian seasoning",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -100,8 +100,8 @@ export const lasagnaSoup: Recipe = {
       "shoppingCategory": "OTHER"
     },
     {
-      "ingredientId": "ing_alt-005",
-      "displayName": "alt ($0.05)",
+      "ingredientId": "ing_salt-005",
+      "displayName": "salt",
       "amount": 0.75,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -109,8 +109,8 @@ export const lasagnaSoup: Recipe = {
       "shoppingCategory": "PANTRY_DRY"
     },
     {
-      "ingredientId": "ing_reshly-cracked-black-pepper-002",
-      "displayName": "reshly cracked black pepper ($0.02)",
+      "ingredientId": "ing_freshly-cracked-black-pepper-002",
+      "displayName": "freshly cracked black pepper",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -119,7 +119,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_sugar-005",
-      "displayName": "sugar ($0.05)",
+      "displayName": "sugar",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -127,8 +127,8 @@ export const lasagnaSoup: Recipe = {
       "shoppingCategory": "OTHER"
     },
     {
-      "ingredientId": "ing_ed-pepper-flakes-005",
-      "displayName": "ed pepper flakes ($0.05)",
+      "ingredientId": "ing_red-pepper-flakes-005",
+      "displayName": "red pepper flakes",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -137,7 +137,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_chicken-broth-091",
-      "displayName": "chicken broth ($0.91)",
+      "displayName": "chicken broth",
       "amount": 5,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -146,7 +146,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_noodles-115",
-      "displayName": "noodles ($1.15)",
+      "displayName": "noodles",
       "amount": 8,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -155,7 +155,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_whole-milk-ricotta-cheese-193",
-      "displayName": "whole milk ricotta cheese ($1.93)",
+      "displayName": "whole milk ricotta cheese",
       "amount": 1,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -164,7 +164,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_hredded-mozzarella-cheese-057",
-      "displayName": "hredded mozzarella cheese ($0.57)",
+      "displayName": "hredded mozzarella cheese",
       "amount": 0.5,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -173,7 +173,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_rated-parmesan-cheese-040",
-      "displayName": "rated parmesan cheese ($0.40)",
+      "displayName": "rated parmesan cheese",
       "amount": 0.25,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -182,7 +182,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_fresh-chopped-parsley-015",
-      "displayName": "fresh chopped parsley ($0.15)",
+      "displayName": "fresh chopped parsley",
       "amount": 1,
       "unit": "TBSP",
       "criticality": "CRITICAL",
@@ -191,7 +191,7 @@ export const lasagnaSoup: Recipe = {
     },
     {
       "ingredientId": "ing_reshly-cracked-black-pepper-002",
-      "displayName": "reshly cracked black pepper ($0.02)",
+      "displayName": "reshly cracked black pepper",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",

@@ -20,7 +20,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_smoked-paprika-010",
-      "displayName": "smoked paprika ($0.10)",
+      "displayName": "smoked paprika",
       "amount": 1,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -29,7 +29,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
     },
     {
       "ingredientId": "ing_garlic-powder-005",
-      "displayName": "garlic powder ($0.05)",
+      "displayName": "garlic powder",
       "amount": 0.5,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -38,7 +38,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
     },
     {
       "ingredientId": "ing_onion-powder-003",
-      "displayName": "onion powder ($0.03)",
+      "displayName": "onion powder",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -47,7 +47,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
     },
     {
       "ingredientId": "ing_cayenne-pepper-002",
-      "displayName": "cayenne pepper ($0.02)",
+      "displayName": "cayenne pepper",
       "amount": 0.125,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -56,7 +56,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
     },
     {
       "ingredientId": "ing_dried-oregano-003",
-      "displayName": "dried oregano ($0.03)",
+      "displayName": "dried oregano",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -65,7 +65,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
     },
     {
       "ingredientId": "ing_salt-002",
-      "displayName": "salt ($0.02)",
+      "displayName": "salt",
       "amount": 0.5,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -74,7 +74,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
     },
     {
       "ingredientId": "ing_black-pepper-freshly-cracked-002",
-      "displayName": "black pepper (freshly cracked, $0.02)",
+      "displayName": "black pepper",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -83,7 +83,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
     },
     {
       "ingredientId": "ing_-chicken-drumsticks-6-pieces-423-",
-      "displayName": ". chicken drumsticks (6 pieces, $4.23 *)",
+      "displayName": "chicken drumsticks",
       "amount": 1.75,
       "unit": "LB",
       "criticality": "CRITICAL",
@@ -92,7 +92,7 @@ export const ovenBakedChickenDrumsticks: Recipe = {
     },
     {
       "ingredientId": "ing_cooking-oil-032-",
-      "displayName": "cooking oil ($0.32 **)",
+      "displayName": "cooking oil",
       "amount": 2,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",

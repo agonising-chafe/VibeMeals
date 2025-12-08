@@ -2,7 +2,7 @@
  * src/domain/fixtures/recipes.seed.ts
  * 
  * Production-ready MVP recipe catalog
- * 14 curated recipes covering all time bands, personas, and dietary needs
+ * 16 curated recipes covering all time bands, personas, and dietary needs
  * Auto-generated from src/domain/recipes/ directory (imported Dec 2025)
  */
 
@@ -18,6 +18,8 @@ import { beefStroganoff } from '../recipes/beef-stroganoff';
 import { lasagnaSoup } from '../recipes/lasagna-soup';
 import { onePotCreamyCajunChickenPasta } from '../recipes/one-pot-creamy-cajun-chicken-pasta';
 import { onePotTeriyakiChickenAndRice } from '../recipes/one-pot-teriyaki-chicken-and-rice';
+import { onePotChickenRice } from '../recipes/one-pot-chicken-rice';
+import { southernMeatloafRecipe } from '../recipes/southern-meatloaf';
 
 // PROJECT (>60 min) - Weekend Batch Cooking
 import { bakedMacAndCheese } from '../recipes/baked-mac-and-cheese';
@@ -33,7 +35,7 @@ import { slowCookerWhiteChickenChili } from '../recipes/slow-cooker-white-chicke
  * 
  * Coverage:
  * ✅ 3 FAST recipes (chaos nights)
- * ✅ 4 NORMAL recipes (weeknights)  
+ * ✅ 6 NORMAL recipes (weeknights)
  * ✅ 7 PROJECT recipes (weekend/batch)
  * ✅ Equipment: sheet pan, Dutch oven, slow cooker
  * ✅ Preflight: SLOW_COOK detection
@@ -51,6 +53,8 @@ export const mvpRecipeCatalog: Recipe[] = [
   lasagnaSoup,
   onePotCreamyCajunChickenPasta,
   onePotTeriyakiChickenAndRice,
+  onePotChickenRice,
+  southernMeatloafRecipe,
   
   // PROJECT
   bakedMacAndCheese,

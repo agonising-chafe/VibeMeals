@@ -18,7 +18,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_garlic-016",
-      "displayName": "garlic ($0.16)",
+      "displayName": "garlic",
       "amount": 4,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -27,7 +27,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
     },
     {
       "ingredientId": "ing_-baby-bella-mushrooms-237",
-      "displayName": ". baby bella mushrooms ($2.37)",
+      "displayName": "baby bella mushrooms",
       "amount": 8,
       "unit": "OZ",
       "criticality": "CRITICAL",
@@ -36,7 +36,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
     },
     {
       "ingredientId": "ing_butter-020",
-      "displayName": "butter ($0.20)",
+      "displayName": "butter",
       "amount": 2,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -45,7 +45,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
     },
     {
       "ingredientId": "ing_salt-001",
-      "displayName": "salt ($0.01)",
+      "displayName": "salt",
       "amount": 0.125,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -54,7 +54,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
     },
     {
       "ingredientId": "ing_freshly-cracked-pepper-002",
-      "displayName": "freshly cracked pepper ($0.02)",
+      "displayName": "freshly cracked pepper",
       "amount": 0.125,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -63,7 +63,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
     },
     {
       "ingredientId": "ing_-fettuccine-059",
-      "displayName": ". fettuccine* ($0.59)",
+      "displayName": "fettuccine*",
       "amount": 8,
       "unit": "OZ",
       "criticality": "NON_CRITICAL",
@@ -72,7 +72,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
     },
     {
       "ingredientId": "ing_vegetable-broth-020",
-      "displayName": "vegetable broth ($0.20)",
+      "displayName": "vegetable broth",
       "amount": 2.5,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -81,7 +81,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
     },
     {
       "ingredientId": "ing_heavy-cream-098",
-      "displayName": "heavy cream** ($0.98)",
+      "displayName": "heavy cream**",
       "amount": 0.3333333333333333,
       "unit": "CUP",
       "criticality": "NON_CRITICAL",
@@ -90,7 +90,7 @@ export const onePotCreamyMushroomPasta: Recipe = {
     },
     {
       "ingredientId": "ing_grated-parmesan-044",
-      "displayName": "grated Parmesan ($0.44)",
+      "displayName": "grated Parmesan",
       "amount": 0.25,
       "unit": "CUP",
       "criticality": "CRITICAL",

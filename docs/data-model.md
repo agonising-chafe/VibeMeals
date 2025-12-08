@@ -1,7 +1,7 @@
 # VibeMeals v1 Data Model
 
-> **Status:** v1.0.0 - Reference schema for implementation  
-> **Last Updated:** December 7, 2025  
+> **Status:** v1.2.0 - Reference schema for implementation  
+> **Last Updated:** December 8, 2025  
 > **Purpose:** Shared TypeScript data model covering Plan → Shop → Today → Cook flows
 
 This document defines the core data structures referenced by all tickets (P1-P9, T1-T9, S1-S9, C1-C4). These are **interface definitions only** - not implementation code, but contracts that prevent architecture drift during parallel development.
@@ -150,12 +150,15 @@ export interface Recipe {
   name: string;
   slug: string;
   metadata: RecipeMetadata;
+  // Whether the recipe scales cleanly (defaults to true if omitted)
+  scalable?: boolean;
   ingredients: RecipeIngredientRequirement[];
   preflight: RecipePreflightRequirement[];
   // Cooking steps (for Cooking Mode C1)
   steps: {
     stepNumber: number;
     instruction: string;     // Max 2-3 sentences, beginner-friendly
+    duration?: number;       // Minutes for this step (for timers in Cooking Mode)
     timerMinutes?: number;   // Duration for timer (3+ minutes)
     timer?: boolean;         // Should show [Set Timer] button (default: false)
     parallel?: boolean;      // "Meanwhile" or "while X cooks" (default: false)
@@ -207,6 +210,8 @@ export interface Plan {
   householdId: HouseholdId;
   weekStartDate: IsoDate;   // Monday of that week
   status: PlanStatus;       // once SHOPPED, Regenerate gets guardrails (Planner P7, Shop S6)
+  // Optional per-week override for servings; defaults to household.headcount
+  servingsThisWeek?: number;
   days: PlanDay[];          // always length 7, Monday–Sunday
   // summary fields: for quick access in UI without recomputing
   summary: {

@@ -6,15 +6,9 @@
 // P1: Header, grid layout, week summary panel
 // P2: Generate Plan with error handling, constraint validation, one-click generation
 
-import { generatePlan } from '../domain/planner.js';
-import { generatePlanForHousehold } from '../domain/planner-service.js';
-import {
-  formatWeekRange,
-  formatHouseholdSummary,
-  computeSummaryStats,
-} from '../domain/planner-ui.js';
-import { mvpRecipeCatalog } from '../domain/fixtures/recipes.seed.js';
-import type { HouseholdProfile, IsoDate } from '../domain/types.js';
+import { generatePlan } from '../domain/planner';
+import { mvpRecipeCatalog } from '../domain/fixtures/recipes.seed';
+import type { HouseholdProfile, IsoDate, Plan, Recipe } from '../domain/types';
 
 // Mock household profile
 const mockHousehold: HouseholdProfile = {
@@ -32,6 +26,50 @@ function getMonday(): IsoDate {
   const diff = today.getDate() - day + (day === 0 ? -6 : 1); // Adjust when day is Sunday
   const monday = new Date(today.setDate(diff));
   return monday.toISOString().split('T')[0] as IsoDate;
+}
+
+function formatWeekRange(startDate: IsoDate): string {
+  const start = new Date(startDate);
+  const end = new Date(start);
+  end.setDate(start.getDate() + 6);
+  const formatter = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' });
+  return `${formatter.format(start)} – ${formatter.format(end)}`;
+}
+
+function formatHouseholdSummary(household: HouseholdProfile): string {
+  return `${household.mode} | headcount ${household.headcount} | dinners ${household.targetDinnersPerWeek}`;
+}
+
+function computeSummaryStats(plan: Plan, recipes: Recipe[]) {
+  const dinners = plan.days.filter(d => d.dinner);
+  const counts = { FAST: 0, NORMAL: 0, PROJECT: 0 } as Record<'FAST' | 'NORMAL' | 'PROJECT', number>;
+  dinners.forEach(day => {
+    const recipe = recipes.find(r => r.id === day.dinner?.recipeId);
+    if (recipe) counts[recipe.metadata.timeBand] += 1;
+  });
+  const timeBandBreakdown = `FAST ${counts.FAST} | NORMAL ${counts.NORMAL} | PROJECT ${counts.PROJECT}`;
+  const preflightOverview = 'Prep: none detected';
+  return {
+    totalDinners: dinners.length,
+    timeBandBreakdown,
+    preflightOverview,
+    isShopEnabled: dinners.length > 0,
+  };
+}
+
+function generatePlanForHousehold(household: HouseholdProfile, recipes: Recipe[], startDate: IsoDate, options?: { recentRecipeIds?: string[] }) {
+  try {
+    const plan = generatePlan(household, recipes, startDate, { recentRecipeIds: options?.recentRecipeIds });
+    return { success: true as const, plan };
+  } catch (error) {
+    return {
+      success: false as const,
+      error: {
+        code: 'PLAN_GENERATION_FAILED',
+        message: error instanceof Error ? error.message : 'Unknown error generating plan',
+      },
+    };
+  }
 }
 
 function renderHeader(weekRange: string, householdSummary: string, generating: boolean): string {

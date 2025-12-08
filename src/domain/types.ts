@@ -1,8 +1,8 @@
 // Shared domain types (aligned with docs/data-model.md)
 //
-// CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.0.0
+// CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.2.0
 // Any change to types here requires updating the spec, and vice versa.
-// Last sync: December 7, 2025
+// Last sync: December 8, 2025
 //
 // See .github/copilot-instructions.md for the sync workflow.
 
@@ -99,6 +99,7 @@ export interface RecipeMetadata {
 export interface RecipeStep {
   stepNumber: number;
   instruction: string;     // Max 2-3 sentences, beginner-friendly
+  duration?: number;       // Minutes for this step (for timers in Cooking Mode)
   timerMinutes?: number;   // Duration for timer (3+ minutes)
   timer?: boolean;         // Should show [Set Timer] button in Cooking Mode (default: false)
   parallel?: boolean;      // "Meanwhile" or "while X cooks" (for UI hints) (default: false)
@@ -109,6 +110,7 @@ export interface Recipe {
   name: string;
   slug: string;
   metadata: RecipeMetadata;
+  scalable?: boolean; // Defaults to true; set false for non-scalable dishes
   ingredients: RecipeIngredientRequirement[];
   preflight: RecipePreflightRequirement[];
   steps: RecipeStep[];
@@ -138,6 +140,8 @@ export interface Plan {
   householdId: HouseholdId;
   weekStartDate: IsoDate;
   status: PlanStatus;
+   // Optional per-week override for servings; defaults to household.headcount
+  servingsThisWeek?: number;
   // Indicates whether the main shop has been completed for this plan
   // Once true, regenerate flows should warn and respect locked slots (Vision §7)
   isShoppingDone?: boolean;

@@ -21,7 +21,7 @@ export const slowCookerPulledPork: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_-pork-butt-807",
-      "displayName": ". pork butt ($8.07)",
+      "displayName": "pork butt",
       "amount": 3,
       "unit": "LB",
       "criticality": "CRITICAL",
@@ -30,7 +30,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_onion-cut-into-chunks-037",
-      "displayName": "onion, cut into chunks ($0.37)",
+      "displayName": "onion, cut into chunks",
       "amount": 1,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -39,7 +39,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_garlic-roughly-chopped-032",
-      "displayName": "garlic, roughly chopped ($0.32)",
+      "displayName": "garlic, roughly chopped",
       "amount": 4,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -48,7 +48,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_paprika-020",
-      "displayName": "paprika ($0.20)",
+      "displayName": "paprika",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -57,7 +57,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_smoked-paprika-010",
-      "displayName": "smoked paprika ($0.10)",
+      "displayName": "smoked paprika",
       "amount": 1,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -66,7 +66,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_brown-sugar-008",
-      "displayName": "brown sugar ($0.08)",
+      "displayName": "brown sugar",
       "amount": 2,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -75,7 +75,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_garlic-powder-010",
-      "displayName": "garlic powder ($0.10)",
+      "displayName": "garlic powder",
       "amount": 1,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -84,7 +84,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_onion-powder-010",
-      "displayName": "onion powder ($0.10)",
+      "displayName": "onion powder",
       "amount": 1,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -93,7 +93,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_salt-010",
-      "displayName": "salt ($0.10)",
+      "displayName": "salt",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -102,7 +102,7 @@ export const slowCookerPulledPork: Recipe = {
     },
     {
       "ingredientId": "ing_freshly-cracked-black-pepper-004",
-      "displayName": "freshly cracked black pepper ($0.04)",
+      "displayName": "freshly cracked black pepper",
       "amount": 0.5,
       "unit": "TSP",
       "criticality": "CRITICAL",

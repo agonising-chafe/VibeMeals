@@ -18,7 +18,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_smoked-paprika-020",
-      "displayName": "smoked paprika ($0.20)",
+      "displayName": "smoked paprika",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -27,7 +27,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_oregano-010",
-      "displayName": "oregano ($0.10)",
+      "displayName": "oregano",
       "amount": 1,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -36,7 +36,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_thyme-010",
-      "displayName": "thyme ($0.10)",
+      "displayName": "thyme",
       "amount": 1,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -45,7 +45,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_garlic-powder-005",
-      "displayName": "garlic powder ($0.05)",
+      "displayName": "garlic powder",
       "amount": 0.5,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -54,7 +54,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_onion-powder-005",
-      "displayName": "onion powder ($0.05)",
+      "displayName": "onion powder",
       "amount": 0.5,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -63,7 +63,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_cayenne-pepper-003",
-      "displayName": "cayenne pepper ($0.03)",
+      "displayName": "cayenne pepper",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -72,7 +72,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_black-pepper-002",
-      "displayName": "black pepper ($0.02)",
+      "displayName": "black pepper",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -81,7 +81,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_salt-002",
-      "displayName": "salt ($0.02)",
+      "displayName": "salt",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -90,7 +90,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_olive-oil-016",
-      "displayName": "olive oil ($0.16)",
+      "displayName": "olive oil",
       "amount": 1,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -99,7 +99,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_butter-013",
-      "displayName": "butter ($0.13)",
+      "displayName": "butter",
       "amount": 1,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -108,7 +108,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_-boneless-skinless-chicken-breast-547",
-      "displayName": ". boneless, skinless chicken breast ($5.47)",
+      "displayName": "boneless, skinless chicken breast",
       "amount": 1,
       "unit": "LB",
       "criticality": "CRITICAL",
@@ -117,7 +117,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_onion-diced-032",
-      "displayName": "onion, diced ($0.32)",
+      "displayName": "onion, diced",
       "amount": 1,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -126,7 +126,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_-penne-pasta-uncooked-075",
-      "displayName": ". penne pasta (uncooked) ($0.75)",
+      "displayName": "penne pasta (uncooked)",
       "amount": 0.5,
       "unit": "LB",
       "criticality": "CRITICAL",
@@ -135,7 +135,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_-fire-roasted-diced-tomatoes-100",
-      "displayName": ". fire roasted diced tomatoes ($1.00)",
+      "displayName": "fire roasted diced tomatoes",
       "amount": 15,
       "unit": "OZ",
       "criticality": "CRITICAL",
@@ -144,7 +144,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_chicken-broth-026",
-      "displayName": "chicken broth ($0.26)",
+      "displayName": "chicken broth",
       "amount": 2,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -153,7 +153,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_-cream-cheese-050",
-      "displayName": ". cream cheese ($0.50)",
+      "displayName": "cream cheese",
       "amount": 2,
       "unit": "OZ",
       "criticality": "NON_CRITICAL",
@@ -162,7 +162,7 @@ export const onePotCreamyCajunChickenPasta: Recipe = {
     },
     {
       "ingredientId": "ing_onions-sliced-025",
-      "displayName": "onions, sliced ($0.25)",
+      "displayName": "onions, sliced",
       "amount": 3,
       "unit": "UNIT",
       "criticality": "CRITICAL",

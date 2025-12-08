@@ -20,7 +20,7 @@ export const easyBakedZiti: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_-ground-italian-sausage-sweet-mild-or-hot-499",
-      "displayName": ". ground Italian sausage (sweet, mild, or hot) ($4.99)",
+      "displayName": "ground Italian sausage (sweet, mild, or hot)",
       "amount": 1,
       "unit": "LB",
       "criticality": "CRITICAL",
@@ -29,7 +29,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_onion-027",
-      "displayName": "onion ($0.27)",
+      "displayName": "onion",
       "amount": 1,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -38,7 +38,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_-tomato-paste-050",
-      "displayName": ". tomato paste ($0.50)",
+      "displayName": "tomato paste",
       "amount": 3,
       "unit": "OZ",
       "criticality": "CRITICAL",
@@ -47,7 +47,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_-can-crushed-tomatoes-189",
-      "displayName": ". can crushed tomatoes ($1.89)",
+      "displayName": "can crushed tomatoes",
       "amount": 1,
       "unit": "OZ",
       "criticality": "CRITICAL",
@@ -56,7 +56,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_italian-seasoning-blend-030",
-      "displayName": "Italian seasoning blend ($0.30)",
+      "displayName": "Italian seasoning blend",
       "amount": 1,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -65,7 +65,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_water-000",
-      "displayName": "water ($0.00)",
+      "displayName": "water",
       "amount": 0.5,
       "unit": "CUP",
       "criticality": "NON_CRITICAL",
@@ -74,7 +74,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_-ziti-167",
-      "displayName": ". ziti ($1.67)",
+      "displayName": "ziti",
       "amount": 1,
       "unit": "LB",
       "criticality": "NON_CRITICAL",
@@ -83,7 +83,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_salt-for-pasta-water-005",
-      "displayName": "salt (for pasta water) ($0.05)",
+      "displayName": "salt (for pasta water)",
       "amount": 0.5,
       "unit": "TBSP",
       "criticality": "CRITICAL",
@@ -92,7 +92,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_-ricotta-339",
-      "displayName": ". ricotta ($3.39)",
+      "displayName": "ricotta",
       "amount": 15,
       "unit": "OZ",
       "criticality": "CRITICAL",
@@ -101,7 +101,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_italian-cheese-blend-124",
-      "displayName": "Italian cheese blend* ($1.24)",
+      "displayName": "Italian cheese blend*",
       "amount": 1,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -110,7 +110,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_freshly-cracked-black-pepper-005",
-      "displayName": "freshly cracked black pepper ($0.05)",
+      "displayName": "freshly cracked black pepper",
       "amount": 0.25,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -119,7 +119,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_shredded-mozzarella-229",
-      "displayName": "shredded mozzarella ($2.29)",
+      "displayName": "shredded mozzarella",
       "amount": 2,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -128,7 +128,7 @@ export const easyBakedZiti: Recipe = {
     },
     {
       "ingredientId": "ing_chopped-parsley-optional-for-garnish-020",
-      "displayName": "chopped parsley (optional, for garnish) ($0.20)",
+      "displayName": "chopped parsley (optional, for garnish)",
       "amount": 1,
       "unit": "UNIT",
       "criticality": "CRITICAL",

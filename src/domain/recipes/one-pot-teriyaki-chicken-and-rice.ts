@@ -18,7 +18,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_-skinless-chicken-breast-about-23-lb-281",
-      "displayName": ", skinless chicken breast (about 2/3 lb.) ($2.81)",
+      "displayName": ", skinless chicken breast (about 2/3 lb.)",
       "amount": 1,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -27,7 +27,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_cooking-oil-004",
-      "displayName": "cooking oil ($0.04)",
+      "displayName": "cooking oil",
       "amount": 1,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -36,7 +36,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_garlic-minced-016",
-      "displayName": "garlic, minced ($0.16)",
+      "displayName": "garlic, minced",
       "amount": 2,
       "unit": "UNIT",
       "criticality": "CRITICAL",
@@ -45,7 +45,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_grated-fresh-ginger-010",
-      "displayName": "grated fresh ginger ($0.10)",
+      "displayName": "grated fresh ginger",
       "amount": 1,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -54,7 +54,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_uncooked-jasmine-rice-099",
-      "displayName": "uncooked jasmine rice ($0.99)",
+      "displayName": "uncooked jasmine rice",
       "amount": 1.5,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -63,7 +63,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_water-000",
-      "displayName": "water ($0.00)",
+      "displayName": "water",
       "amount": 2.5,
       "unit": "CUP",
       "criticality": "NON_CRITICAL",
@@ -72,7 +72,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_-frozen-stir-fry-vegetables-159",
-      "displayName": ". frozen stir fry vegetables ($1.59)",
+      "displayName": "frozen stir fry vegetables",
       "amount": 12,
       "unit": "OZ",
       "criticality": "CRITICAL",
@@ -81,7 +81,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_soy-sauce-024",
-      "displayName": "soy sauce ($0.24)",
+      "displayName": "soy sauce",
       "amount": 0.25,
       "unit": "CUP",
       "criticality": "NON_CRITICAL",
@@ -90,7 +90,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_brown-sugar-008",
-      "displayName": "brown sugar ($0.08)",
+      "displayName": "brown sugar",
       "amount": 2,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -99,7 +99,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_toasted-sesame-oil-010",
-      "displayName": "toasted sesame oil ($0.10)",
+      "displayName": "toasted sesame oil",
       "amount": 1,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -108,7 +108,7 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
     },
     {
       "ingredientId": "ing_onions-sliced-015",
-      "displayName": "onions, sliced ($0.15)",
+      "displayName": "onions, sliced",
       "amount": 2,
       "unit": "UNIT",
       "criticality": "CRITICAL",

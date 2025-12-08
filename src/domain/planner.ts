@@ -259,6 +259,7 @@ export function generatePlan(
     householdId: household.id,
     weekStartDate: startDate,
     status: 'DRAFT' as const,
+    servingsThisWeek: servings,
     days,
     summary: {
       totalDinners: days.filter(d => d.dinner).length,

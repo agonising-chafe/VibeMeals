@@ -21,7 +21,7 @@ export const bbqRibs: Recipe = {
   "ingredients": [
     {
       "ingredientId": "ing_pork-ribs-882",
-      "displayName": "pork ribs ($8.82)",
+      "displayName": "pork ribs",
       "amount": 3,
       "unit": "LB",
       "criticality": "CRITICAL",
@@ -30,7 +30,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_butter-melted-037",
-      "displayName": "butter, melted ($0.37)",
+      "displayName": "butter, melted",
       "amount": 4,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -39,7 +39,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_salt-010",
-      "displayName": "salt ($0.10)",
+      "displayName": "salt",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -48,7 +48,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_black-pepper-010",
-      "displayName": "black pepper ($0.10)",
+      "displayName": "black pepper",
       "amount": 1,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -57,7 +57,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_garlic-powder-020",
-      "displayName": "garlic powder ($0.20)",
+      "displayName": "garlic powder",
       "amount": 2,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -66,7 +66,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_onion-powder-020",
-      "displayName": "onion powder ($0.20)",
+      "displayName": "onion powder",
       "amount": 2,
       "unit": "TSP",
       "criticality": "CRITICAL",
@@ -75,7 +75,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_smoked-paprika-020",
-      "displayName": "smoked paprika ($0.20)",
+      "displayName": "smoked paprika",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -84,7 +84,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_brown-sugar-004",
-      "displayName": "brown sugar ($0.04)",
+      "displayName": "brown sugar",
       "amount": 1,
       "unit": "TBSP",
       "criticality": "NON_CRITICAL",
@@ -93,7 +93,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_cayenne-020",
-      "displayName": "cayenne ($0.20)",
+      "displayName": "cayenne",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -102,7 +102,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_ground-mustard-020",
-      "displayName": "ground mustard ($0.20)",
+      "displayName": "ground mustard",
       "amount": 2,
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
@@ -111,7 +111,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_chicken-broth-039",
-      "displayName": "chicken broth ($0.39)",
+      "displayName": "chicken broth",
       "amount": 3,
       "unit": "CUP",
       "criticality": "CRITICAL",
@@ -120,7 +120,7 @@ export const bbqRibs: Recipe = {
     },
     {
       "ingredientId": "ing_bbq-sauce-094",
-      "displayName": "BBQ sauce ($0.94)",
+      "displayName": "BBQ sauce",
       "amount": 1.5,
       "unit": "CUP",
       "criticality": "NON_CRITICAL",
