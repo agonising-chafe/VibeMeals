@@ -101,8 +101,7 @@ export interface HouseholdProfile {
     preferredProjectCount?: number;
   };
   dietConstraints: DietConstraint[];
-}
-```
+
 
 **Referenced by:**
 - Planner P2 (Generate Plan)
@@ -165,17 +164,11 @@ export interface Recipe {
   preflight: RecipePreflightRequirement[];
   // Cooking steps (for Cooking Mode C1)
   steps: RecipeStep[];
+
 }
 ```
 
 **Referenced by:**
-- Planner P2 (Generate Plan - reads recipe catalog)
-- Shop S2 (Ingredient Expansion - reads `ingredients[]`)
-- Shop S3 (Item Grouping - uses `shoppingCategory`)
-- Shop S7 (Critical Classification - uses `criticality`)
-- Today T2 (Preflight State Engine - reads `preflight[]`)
-- Cooking C1 (Layout - reads `steps[]`)
-- Cooking C2 (Timer Cues - uses `timerMinutes`)
 
 ---
 
@@ -228,6 +221,7 @@ export interface Plan {
 ```
 
 **Referenced by:**
+
 - Planner P1 (Grid Skeleton - renders `Plan.days[]`)
 - Planner P2 (Generate Plan - creates/updates `Plan`)
 - Planner P3 (Swap/Reroll - mutates `PlannedDinner.recipeId`)
@@ -250,32 +244,27 @@ Normalized shopping items built from recipes.
 export interface ShoppingItemSourceUsage {
   recipeId: RecipeId;
   recipeName: string;
-  // fraction of total amount for display if you want (optional)
-  amountPortion?: number;
+  amountPortion?: number; // fraction of total amount for display (optional)
 }
 
 export interface ShoppingItem {
   id: ShoppingItemId;
   planId: PlanId;
-  ingredientId: string;            // canonical
-  displayName: string;             // "Yellow onion"
-  shoppingCategory: ShoppingCategory; // Shop S3
+  ingredientId: string; // canonical
+  displayName: string; // "Yellow onion"
+  shoppingCategory: ShoppingCategory;
   totalAmount: number;
   unit: RecipeIngredientRequirement['unit'];
-  // Full list of where this is used (Shop S3)
   usedIn: ShoppingItemSourceUsage[];
-
-  // For UI:
-  checked: boolean;                // user-checked while shopping
-  manualOverrideAmount?: number;   // if user edits quantity
-  notes?: string;                  // free text if you want
-  criticality: IngredientCriticality; // for Quick Review / missing-ingredient behavior (Shop S7)
+  checked: boolean;
+  manualOverrideAmount?: number;
+  notes?: string;
+  criticality: IngredientCriticality;
 }
 
 export interface QuickReviewCandidate {
   shoppingItemId: ShoppingItemId;
   reason: 'PANTRY_STAPLE' | 'BULK_STAPLE';
-  // UI selection state (Shop S4)
   decision: 'NEED_IT' | 'HAVE_IT' | 'NOT_SURE';
 }
 
@@ -287,6 +276,7 @@ export interface ShoppingList {
 ```
 
 **Referenced by:**
+
 - Shop S1 (Shop UI Layout - renders `ShoppingList`)
 - Shop S2 (Ingredient Expansion - creates `ShoppingItem[]`)
 - Shop S3 (Item Grouping - assigns `shoppingCategory`)
@@ -310,26 +300,22 @@ export interface MissingItem {
   ingredientId: string;
   ingredientName: string;
   reason: MissingReason;
-  // derived flags: does this affect tonight or the future (Shop S8 / Today T4)
   affectsTonight: boolean;
   affectsFuture: boolean;
-  // optional free text
   note?: string;
 }
 
-// A simple substitution model (Shop S8)
 export interface Substitution {
   shoppingItemId: ShoppingItemId;
   planId: PlanId;
-  // what they actually got
-  substituteName: string;          // "ground turkey" instead of "ground beef"
-  // optional link to another canonical ingredient if known
+  substituteName: string;
   substituteIngredientId?: string;
   note?: string;
 }
 ```
 
 **Referenced by:**
+
 - Shop S8 (Missing Items Flow - creates `MissingItem[]`, `Substitution[]`)
 - Today T4 (Missed Preflight/Missing Items - reads `MissingItem[]`)
 
@@ -343,9 +329,8 @@ Single object that Today binds to for rendering.
 export interface TonightPlanContext {
   date: IsoDate;
   dayOfWeek: DayOfWeek;
-  // There might be no dinner planned
   dinner?: PlannedDinner;
-  recipe?: Recipe; // resolved recipe (or null if not found)
+  recipe?: Recipe;
 }
 
 export interface TonightIssues {
@@ -367,14 +352,12 @@ export interface TonightActions {
   canChangeDinner: boolean;
 }
 
-// For "tomorrow preview" (Today T8)
 export interface TomorrowPreview {
   date: IsoDate;
   dayOfWeek: DayOfWeek;
   dinnerPlanned: boolean;
   recipeName?: string;
   timeBand?: TimeBand;
-  // e.g. "start by 9am", "thaw tonight"
   keyPreflightNote?: string;
 }
 
@@ -382,15 +365,11 @@ export interface TonightState {
   planId: PlanId;
   householdId: HouseholdId;
   status: TonightStatus;
-  // e.g. "You're all set for tonight." / "Looks like we didn't thaw chicken."
   primaryMessage: string;
-  // optional secondary explanation
   secondaryMessage?: string;
-
   context: TonightPlanContext;
   issues: TonightIssues;
   actions: TonightActions;
-
   tomorrowPreview?: TomorrowPreview;
 }
 ```
@@ -398,12 +377,14 @@ export interface TonightState {
 **Examples:**
 
 **READY:**
+
 - `status: 'READY'`
 - `issues.preflightStatus = 'ALL_GOOD'`
 - `issues.missingCoreIngredients = []`
 - `actions.canStartCooking = true`
 
 **MISSED_PREFLIGHT:**
+
 - `status: 'MISSED_PREFLIGHT'`
 - `issues.preflightStatus = 'MISSED'`
 - `primaryMessage: "Looks like we didn't get the chicken thawed in time."`
@@ -411,34 +392,38 @@ export interface TonightState {
 - `actions.canChangeDinner = true`
 
 **MISSING_INGREDIENT:**
+
 - `status: 'MISSING_INGREDIENT'`
 - `issues.missingCoreIngredients` non-empty (from `MissingItem` + `criticality`)
 - Options: swap tonight / move dinner / safe fallback
 
 **OUT_EATING:**
+
 - `status: 'OUT_EATING'`
 - `primaryMessage: "You're marked as eating out tonight."`
 - `actions.canStartCooking = false`
 
 **Referenced by:**
+
 - Today T1 (View Skeleton - renders based on `TonightState`)
 - Today T2 (Preflight State Engine - computes `TonightState`)
 - Today T3 (Start Cooking - checks `actions.canStartCooking`)
 - Today T4 (Missed Preflight - triggered by `status: 'MISSED_PREFLIGHT'`)
 - Today T5 (Too Much → Easier - uses `actions.canUseEasierOption`)
 - Today T6 (Eating Out - sets `status: 'OUT_EATING'`)
-- Today T8 (Tomorrow Preview - populates `tomorrowPreview`)
 
 ---
 
 ## 7. How It All Ties Together
 
 ### **Planner:**
+
 - Reads `HouseholdProfile`, `Recipe` catalog
 - Writes `Plan` (with `PlanDay[]`, `PlannedDinner`)
 - Updates `Plan.status` from `DRAFT` → `PLANNED` → `SHOPPED` when Shop export happens
 
 ### **Shop:**
+
 - Reads `Plan` + `Recipe.ingredients`
 - Builds `ShoppingList` (`ShoppingItem[]`, `QuickReviewCandidate[]`)
 - User actions create/update:
@@ -447,6 +432,7 @@ export interface TonightState {
   - `Substitution[]`
 
 ### **Today:**
+
 - Reads `Plan`, `Recipe[]`, `MissingItem[]`, `Substitution[]`
 - Computes `TonightState` via:
   - Preflight requirement vs current time → `PreflightStatus`
@@ -455,6 +441,7 @@ export interface TonightState {
 - UI binds directly to `TonightState`
 
 ### **Cooking:**
+
 - Reads `Recipe.steps[]`
 - Renders step-by-step UI
 - Handles timers via `step.timerMinutes`
@@ -464,17 +451,20 @@ export interface TonightState {
 ## 8. Implementation Notes
 
 ### **For Sprint 1 (Data Layer):**
+
 - Implement `Recipe`, `RecipeIngredientRequirement`, `RecipePreflightRequirement` first
 - Mock recipe catalog with 5–10 hardcoded recipes
 - Implement `Plan`, `PlanDay`, `PlannedDinner` for Planner P1, P2
 - Implement `ShoppingItem` builder for Shop S2
 
 ### **For Sprint 2 (Enrichment):**
+
 - Implement `QuickReviewCandidate` filtering logic (Shop S4)
 - Implement `TonightState` computation (Today T2)
 - Wire `MissingItem` annotations (Shop S8)
 
 ### **Storage Considerations:**
+
 - `Recipe` catalog: Static JSON or DB table (read-only in v1)
 - `Plan`: DB table with JSON column for `days[]` or normalized PlanDay table
 - `ShoppingList`: Computed on-demand from `Plan` + `Recipe` (no storage in v1)
@@ -482,6 +472,7 @@ export interface TonightState {
 - `TonightState`: Computed on-demand (no storage)
 
 ### **Validation Rules:**
+
 - `Plan.days.length` must always equal 7
 - `PlannedDinner.servings` must be > 0
 - `ShoppingItem.totalAmount` must be > 0
@@ -538,7 +529,7 @@ export interface TonightState {
 
 **Who Owns What:**
 
-```
+```text
 ┌───────────────────────────────────────────────────┐
 │ CATALOG (Read-Only)                              │
 │ Owns: Recipe, RecipeIngredientRequirement,       │
@@ -1087,7 +1078,7 @@ renderTodayView(tonightState); // UI layer
 ## 13. Cross-Reference to Tickets
 
 | Data Structure | Tickets That Use It |
-|----------------|---------------------|
+| --- | --- |
 | `HouseholdProfile` | P2, P6 |
 | `Recipe` | P2, S2, S3, S7, T2, C1, C2 |
 | `Plan` | P1, P2, P3, P4, P5, P7, P8, S2, S6, T1, T2 |
@@ -1102,5 +1093,4 @@ renderTodayView(tonightState); // UI layer
 ## Version History
 
 - **v1.1.0** (2025-12-07): Added hardening - Invariants, Ownership diagram, Sample instances, Domain helpers API
-- **v1.0.0** (2025-12-07): Initial data model for v1 implementation. Covers all 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).
-
+- **v1.0.0** (2025-12-07): Initial data model for v1 implementation. Covers all 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).\
