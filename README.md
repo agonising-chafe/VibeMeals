@@ -11,39 +11,7 @@ npm test
 
 ## Environment
 
-- `GEMINI_API_KEY` (optional): Enables AI metadata enrichment for recipe import.
-- `USE_WALMART_PRICING` (default `false`): Turn on hardened Walmart price lookup.
-- `WALMART_CLIENT_ID` / `WALMART_CLIENT_SECRET` (required when pricing is on): Walmart OAuth credentials.
-
-Behavior:
-- If Walmart pricing is on but keys are missing, the service logs a warning once and returns graceful fallbacks (null price, in-stock true, no itemId).
-- If pricing is off, shopping uses the existing fallback data.
-
-## Recipe Import
-
-Import recipes from URLs with AI-enhanced metadata:
-
-```bash
-# Set your Gemini API key (optional but recommended)
-export GEMINI_API_KEY="your_key_here"
-
-# Import a recipe
-npm run import:url -- https://www.budgetbytes.com/sheet-pan-chicken-fajitas/
-```
-
-The importer will:
-1. ✅ Scrape recipe from URL (JSON-LD schema)
-2. 🤖 Enhance with AI (criticality, preflight, time band)
-3. 📝 Interactive review session
-4. 💾 Save to `src/domain/recipes/`
-
-### Without AI (manual enhancement)
-
-Works fine without API key - you'll just do more manual review:
-
-```bash
-npm run import:url -- https://www.seriouseats.com/easy-skillet-chicken/
-```
+No external integrations are active in this scope. Recipe import pipeline is disabled; add recipes manually per `docs/recipe-spec.md`.
 
 ## Project Structure
 
@@ -61,7 +29,7 @@ docs/                       # Comprehensive specifications
   └── spec-*.md             # Surface specifications
 
 scripts/
-  ├── import-recipe-url.ts  # Recipe URL importer
+  ├── import-recipe-url.ts  # Stub (disabled). Add recipes manually.
   └── validate-type-sync.ts # Type/spec sync checker
 ```
 
