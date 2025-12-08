@@ -227,6 +227,55 @@ describe('Today domain – computeTonightState', () => {
     expect(tonightState.primaryMessage.toLowerCase()).toContain('marinate');
   });
 
+  it('treats missing preflight as MISSED when recipe declares requirements but status is NONE_REQUIRED', () => {
+    const preflightRecipeId = 'r_test_preflight';
+
+    const preflightRecipe = {
+      id: preflightRecipeId,
+      name: 'Overnight Marinated Chicken',
+      slug: 'overnight-marinated-chicken',
+      metadata: { timeBand: 'NORMAL' as const, estimatedMinutes: 45 },
+      ingredients: [
+        {
+          ingredientId: 'ing_chicken',
+          displayName: 'Chicken thighs',
+          amount: 1,
+          unit: 'LB' as const,
+          criticality: 'CRITICAL' as IngredientCriticality,
+          kind: 'PROTEIN' as IngredientKind,
+          shoppingCategory: 'MEAT_SEAFOOD' as const,
+        },
+      ],
+      preflight: [
+        {
+          type: 'MARINATE' as const,
+          description: 'Marinate at least 4 hours before cooking',
+          hoursBeforeCook: 4,
+        },
+      ],
+      steps: [
+        { stepNumber: 1, instruction: 'Mix marinade.' },
+        { stepNumber: 2, instruction: 'Cook chicken.' },
+      ],
+    };
+
+    const plan = makePlanWithDinners({
+      '2025-01-06': preflightRecipeId,
+    });
+
+    const tonightState = computeTonightState(
+      plan,
+      [...seedRecipes, preflightRecipe],
+      [],
+      [],
+      '2025-01-06',
+      new Date('2025-01-06T17:00:00Z'),
+    );
+
+    expect(tonightState.status).toBe<TonightStatus>('MISSED_PREFLIGHT');
+    expect(tonightState.actions.canStartCooking).toBe(false);
+  });
+
   it('returns MISSING_INGREDIENT when a core ingredient is missing for tonight', () => {
     // Plan: Monday = sheet pan
     const plan = makePlanWithDinners({

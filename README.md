@@ -9,6 +9,16 @@ npm install
 npm test
 ```
 
+## Environment
+
+- `GEMINI_API_KEY` (optional): Enables AI metadata enrichment for recipe import.
+- `USE_WALMART_PRICING` (default `false`): Turn on hardened Walmart price lookup.
+- `WALMART_CLIENT_ID` / `WALMART_CLIENT_SECRET` (required when pricing is on): Walmart OAuth credentials.
+
+Behavior:
+- If Walmart pricing is on but keys are missing, the service logs a warning once and returns graceful fallbacks (null price, in-stock true, no itemId).
+- If pricing is off, shopping uses the existing fallback data.
+
 ## Recipe Import
 
 Import recipes from URLs with AI-enhanced metadata:

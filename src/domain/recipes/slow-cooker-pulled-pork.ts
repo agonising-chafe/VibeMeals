@@ -1,7 +1,7 @@
 // Spec: recipe-spec.md §2.1, version 4.6.0
 // Slow Cooker Pulled Pork
 // Source: https://www.budgetbytes.com/slow-cooker-pulled-pork/
-// Imported: 2025-12-08T02:05:39.399Z
+// Imported: 2025-12-08T14:50:46.505Z
 
 import { Recipe } from '../types';
 
@@ -13,23 +13,23 @@ export const slowCookerPulledPork: Recipe = {
     "timeBand": "PROJECT",
     "estimatedMinutes": 319,
     "equipmentTags": [
-      "SLOW_COOKER",
-      "SHEET_PAN"
+      "SHEET_PAN",
+      "SLOW_COOKER"
     ],
-    "leftoverStrategy": "NONE"
+    "leftoverStrategy": "EXPECTED"
   },
   "ingredients": [
     {
-      "ingredientId": "ing_lbs-pork-butt-8-07",
-      "displayName": "lbs. pork butt ($8.07)",
+      "ingredientId": "ing_-pork-butt-807",
+      "displayName": ". pork butt ($8.07)",
       "amount": 3,
-      "unit": "UNIT",
+      "unit": "LB",
       "criticality": "CRITICAL",
       "kind": "PROTEIN",
       "shoppingCategory": "MEAT_SEAFOOD"
     },
     {
-      "ingredientId": "ing_onion-cut-into-chunks-0-37",
+      "ingredientId": "ing_onion-cut-into-chunks-037",
       "displayName": "onion, cut into chunks ($0.37)",
       "amount": 1,
       "unit": "UNIT",
@@ -38,52 +38,52 @@ export const slowCookerPulledPork: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_garlic-roughly-chopped-0-32",
+      "ingredientId": "ing_garlic-roughly-chopped-032",
       "displayName": "garlic, roughly chopped ($0.32)",
       "amount": 4,
       "unit": "UNIT",
       "criticality": "CRITICAL",
-      "kind": "OTHER",
-      "shoppingCategory": "OTHER"
+      "kind": "PROTEIN",
+      "shoppingCategory": "MEAT_SEAFOOD"
     },
     {
-      "ingredientId": "ing_paprika-0-20",
+      "ingredientId": "ing_paprika-020",
       "displayName": "paprika ($0.20)",
       "amount": 2,
       "unit": "TSP",
-      "criticality": "CRITICAL",
+      "criticality": "NON_CRITICAL",
       "kind": "SPICE",
-      "shoppingCategory": "OTHER"
-    },
-    {
-      "ingredientId": "ing_smoked-paprika-0-10",
-      "displayName": "smoked paprika ($0.10)",
-      "amount": 1,
-      "unit": "TSP",
-      "criticality": "CRITICAL",
-      "kind": "SPICE",
-      "shoppingCategory": "OTHER"
-    },
-    {
-      "ingredientId": "ing_brown-sugar-0-08",
-      "displayName": "brown sugar ($0.08)",
-      "amount": 2,
-      "unit": "TBSP",
-      "criticality": "CRITICAL",
-      "kind": "OTHER",
       "shoppingCategory": "PANTRY_DRY"
     },
     {
-      "ingredientId": "ing_garlic-powder-0-10",
-      "displayName": "garlic powder ($0.10)",
+      "ingredientId": "ing_smoked-paprika-010",
+      "displayName": "smoked paprika ($0.10)",
       "amount": 1,
       "unit": "TSP",
+      "criticality": "NON_CRITICAL",
+      "kind": "SPICE",
+      "shoppingCategory": "PANTRY_DRY"
+    },
+    {
+      "ingredientId": "ing_brown-sugar-008",
+      "displayName": "brown sugar ($0.08)",
+      "amount": 2,
+      "unit": "TBSP",
       "criticality": "NON_CRITICAL",
       "kind": "OTHER",
       "shoppingCategory": "OTHER"
     },
     {
-      "ingredientId": "ing_onion-powder-0-10",
+      "ingredientId": "ing_garlic-powder-010",
+      "displayName": "garlic powder ($0.10)",
+      "amount": 1,
+      "unit": "TSP",
+      "criticality": "CRITICAL",
+      "kind": "VEG",
+      "shoppingCategory": "PRODUCE"
+    },
+    {
+      "ingredientId": "ing_onion-powder-010",
       "displayName": "onion powder ($0.10)",
       "amount": 1,
       "unit": "TSP",
@@ -92,7 +92,7 @@ export const slowCookerPulledPork: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_salt-0-10",
+      "ingredientId": "ing_salt-010",
       "displayName": "salt ($0.10)",
       "amount": 2,
       "unit": "TSP",
@@ -101,54 +101,98 @@ export const slowCookerPulledPork: Recipe = {
       "shoppingCategory": "PANTRY_DRY"
     },
     {
-      "ingredientId": "ing_freshly-cracked-black-pepper-0-04",
+      "ingredientId": "ing_freshly-cracked-black-pepper-004",
       "displayName": "freshly cracked black pepper ($0.04)",
       "amount": 0.5,
       "unit": "TSP",
-      "criticality": "NON_CRITICAL",
+      "criticality": "CRITICAL",
       "kind": "VEG",
       "shoppingCategory": "PRODUCE"
     }
   ],
-  "preflight": [],
+  "preflight": [
+    {
+      "type": "SLOW_COOK",
+      "description": "Slow cooker recipe: plan 6-8 hours cook time.",
+      "hoursBeforeCook": 0
+    }
+  ],
   "steps": [
     {
       "stepNumber": 1,
-      "instruction": "Combine the spices for the spice rub in a bowl."
+      "instruction": "Combine the spices for the spice rub in a bowl.",
+      "timer": false,
+      "parallel": false
     },
     {
       "stepNumber": 2,
-      "instruction": "Cut the pork butt into large chunks. If the pork butt has a bone you can either remove it before cooking or wait until you are shredding the cooked meat to remove it. Keep in mind the pork will require extra cooking time if cooking with the bone in."
+      "instruction": "Cut the pork butt into large chunks.",
+      "timer": false,
+      "parallel": false
     },
     {
       "stepNumber": 3,
-      "instruction": "Add the pork pieces to a large bowl and sprinkle the spice rub over top. Toss until the pork is evenly coated in spices."
+      "instruction": "If the pork butt has a bone you can either remove it before cooking or wait until you are shredding the cooked meat to remove it.",
+      "timer": false,
+      "parallel": true
     },
     {
       "stepNumber": 4,
-      "instruction": "Dice the yellow onion and add it to the bottom of the slow cooker. Place the seasoned pork on top of the onion, then add the roughly chopped garlic on top."
+      "instruction": "Keep in mind the pork will require extra cooking time if cooking with the bone in.",
+      "timer": false,
+      "parallel": false
     },
     {
       "stepNumber": 5,
-      "instruction": "Place the lid on the slow cooker and cook on high for four hours or low for eight hours. Test the pork with a fork to make sure the meat is tender. It should shred easily with a fork. If not, cook for one hour longer. The total cooking time will depend on the size of your pork butt."
+      "instruction": "Add the pork pieces to a large bowl and sprinkle the spice rub over top.",
+      "timer": false,
+      "parallel": false
     },
     {
       "stepNumber": 6,
-      "instruction": "Once the pork is tender, use two forks to shred the meat."
+      "instruction": "Toss until the pork is evenly coated in spices.",
+      "timer": false,
+      "parallel": false
     },
     {
       "stepNumber": 7,
-      "instruction": "If you prefer crispy edges on your pork, place some of the pork on a sheet pan and broil for a few minutes, or just until the edges are browned and crispy. Keep a close eye on the pork as it broils!"
+      "instruction": "Dice the yellow onion and add it to the bottom of the slow cooker.",
+      "timer": false,
+      "parallel": false
     },
     {
       "stepNumber": 8,
-      "instruction": "Serve the pulled pork on sandwiches, tacos, bowl meals, and more!"
+      "instruction": "Place the seasoned pork on top of the onion, then add the roughly chopped garlic on top.",
+      "timer": false,
+      "parallel": false
+    },
+    {
+      "stepNumber": 9,
+      "instruction": "Place the lid on the slow cooker and cook on high for four hours or low for eight hours.",
+      "timer": false,
+      "parallel": false
+    },
+    {
+      "stepNumber": 10,
+      "instruction": "Test the pork with a fork to make sure the meat is tender.",
+      "timer": false,
+      "parallel": false
+    },
+    {
+      "stepNumber": 11,
+      "instruction": "It should shred easily with a fork.",
+      "timer": false,
+      "parallel": false
+    },
+    {
+      "stepNumber": 12,
+      "instruction": "If not, cook for one hour longer.",
+      "timer": false,
+      "parallel": false
     }
   ],
   "tags": [
-    "american",
-    "comfort_food",
-    "slow_cooker",
-    "meal_prep"
+    "sheet_pan",
+    "slow_cooker"
   ]
 };

@@ -43,6 +43,16 @@ Added `recipe-examples.md` with three fully-specified recipes that exercise FAST
 
 ---
 
+## Version 5.1.2 - December 8, 2025
+
+### 🧹 Cleanup: removed unreviewed integrations
+
+- Purged Walmart pricing notes and related guidance (feature removed).
+- Removed recipe-scrapers and step-parser docs pending future reviewed pipeline.
+- Clarified that current scope is the TypeScript domain only; no external integrations are active.
+
+---
+
 ## Version 4.6.0 - December 7, 2025 🔒 LOCKED
 
 ### 🎯 Vision Complete: Tradeoff Principles & v1 Thin Slice
@@ -417,7 +427,7 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
   - Pantry drawer available but not required for value
 
 #### 5. **Auto-Confirm Where Possible**
-- **Decision:** Reduce manual confirmation steps. Walmart checkout success → auto-mark purchased. Opening Cook Mode → infer ingredients available.
+- **Decision:** Reduce manual confirmation steps. After shopping/export → allow one-tap purchased. Opening Cook Mode → infer ingredients available.
 - **Rationale:** Each confirmation step adds friction. Automate wherever safe; provide Undo for mistakes.
 - **Impact:**
   - Mark Purchased becomes one-tap: "Did you get everything? [Yes]"
@@ -457,10 +467,10 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
   - Expiry estimates with gentle prompts
 
 #### 10. **Graceful Degradation**
-- **Decision:** Always provide fallbacks. Walmart API fails → auto-export CSV. No recipes match → offer to loosen constraints.
+- **Decision:** Always provide fallbacks. If exports fail → provide alternate format. No recipes match → offer to loosen constraints.
 - **Rationale:** Third-party dependencies will fail. Don't let them break the user experience.
 - **Impact:**
-  - Walmart deep-link → CSV → Text (three-tier fallback)
+  - CSV → Text fallback (no external carts)
   - Generate Plan failures offer solutions, not dead ends
   - Cook Mode resume after crash
 
@@ -483,7 +493,7 @@ Created modular documentation suite:
 #### Core Surfaces
 1. **Planner** - 7-day grid with slot actions (Lock, Swap, Reroll, Expand)
 2. **Quick Review** (optional) - Save money by confirming what's on-hand
-3. **Shopping** - Grouped list with Walmart deep-link and CSV fallback
+3. **Shopping** - Grouped list with CSV/text export
 4. **Cook Mode** - Step-by-step cooking with timers and parallelization
 5. **Weekly Recap** - Thumbs/favorites/tags feed taste profile
 6. **Pantry** (optional) - Manual inventory for power users
@@ -493,7 +503,7 @@ Created modular documentation suite:
 1. Generate Plan (2-3 min)
 2. Optionally tweak (Swap/Reroll/Lock)
 3. Next: Shop (immediately available, no gates)
-4. Checkout (Walmart or CSV)
+4. Checkout (CSV or text export)
 5. Mark Purchased (auto where possible)
 6. Cook throughout week
 7. Weekly Recap (optional feedback)
@@ -501,7 +511,7 @@ Created modular documentation suite:
 #### Technical Stack
 - **Frontend:** Nuxt 3, Pinia, Tailwind CSS
 - **Backend:** Nitro/NestJS, PostgreSQL, Prisma, Redis
-- **Third-Party:** Walmart API, FCM, SendGrid
+- **Third-Party:** FCM, SendGrid
 - **Infrastructure:** Vercel/Railway, Supabase/Neon, Cloudflare
 
 ---
@@ -566,7 +576,7 @@ For future versions, migration guides will be added here.
 - Single household account (no multi-user)
 - Dinner only (no breakfast, lunch as primary meal)
 - English language only
-- US-based stores (Walmart integration)
+- US-based stores (no active grocer integration)
 - Recipe catalog curated by VibeMeals (no user-submitted recipes)
 - No meal kit delivery integration
 

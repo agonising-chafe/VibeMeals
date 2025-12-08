@@ -41,9 +41,28 @@ export type TonightStatus =
   | 'OUT_EATING'
   | 'EASIER_OPTION_SELECTED';
 
+/**
+ * Household Mode – Core lifestyle categories for week shapes & planning
+ *
+ * - SOLO: Single person, 2-4 dinners/week, minimizes waste
+ * - FAMILY: Household with kids (3-7+ people), 4-7 dinners/week
+ * - DINK: Dual-Income, No Kids (2 adults), 3-5 dinners/week, flexible social calendar
+ * - EMPTY_NEST: Older couple or mature household (2+ adults), 3-4 dinners/week, comfort rotation
+ * - LARGE: Multi-generational or extended household (5-8+ people), 3-5 dinners/week, portion scaling
+ *
+ * Vision: §5.2 (Household Modes & Default Week Shapes)
+ * Each mode has different week shape defaults (see planner.ts WEEK_SHAPE_DEFAULTS)
+ */
+export type HouseholdMode =
+  | 'SOLO'       // Single person
+  | 'FAMILY'     // Household with kids
+  | 'DINK'       // Dual-income, no kids (2 adults, social & flexible)
+  | 'EMPTY_NEST' // Mature couple, comfort rotation
+  | 'LARGE';     // Multi-generational or extended household
+
 export interface HouseholdProfile {
   id: HouseholdId;
-  mode: 'SOLO' | 'FAMILY' | 'DINK' | 'EMPTY_NEST' | 'LARGE';
+  mode: HouseholdMode;
   headcount: number;
   targetDinnersPerWeek: number;
   dietConstraints: string[];
@@ -79,8 +98,10 @@ export interface RecipeMetadata {
 
 export interface RecipeStep {
   stepNumber: number;
-  instruction: string;
-  timerMinutes?: number;
+  instruction: string;     // Max 2-3 sentences, beginner-friendly
+  timerMinutes?: number;   // Duration for timer (3+ minutes)
+  timer?: boolean;         // Should show [Set Timer] button in Cooking Mode (default: false)
+  parallel?: boolean;      // "Meanwhile" or "while X cooks" (for UI hints) (default: false)
 }
 
 export interface Recipe {
@@ -117,6 +138,9 @@ export interface Plan {
   householdId: HouseholdId;
   weekStartDate: IsoDate;
   status: PlanStatus;
+  // Indicates whether the main shop has been completed for this plan
+  // Once true, regenerate flows should warn and respect locked slots (Vision §7)
+  isShoppingDone?: boolean;
   days: PlanDay[];
   summary: {
     totalDinners: number;

@@ -155,8 +155,10 @@ export interface Recipe {
   // Cooking steps (for Cooking Mode C1)
   steps: {
     stepNumber: number;
-    instruction: string;
-    timerMinutes?: number; // for Cooking C2 timer cues
+    instruction: string;     // Max 2-3 sentences, beginner-friendly
+    timerMinutes?: number;   // Duration for timer (3+ minutes)
+    timer?: boolean;         // Should show [Set Timer] button (default: false)
+    parallel?: boolean;      // "Meanwhile" or "while X cooks" (default: false)
   }[];
 }
 ```
@@ -195,6 +197,8 @@ export interface PlanDay {
   dayOfWeek: DayOfWeek;     // convenience for UI
   dinner?: PlannedDinner;   // undefined if no dinner planned
 }
+  // Shop S6: once shopping is done, regenerations must respect locked slots and warn the user
+  isShoppingDone?: boolean;
 
 export type PlanStatus = 'DRAFT' | 'PLANNED' | 'SHOPPED';
 

@@ -110,7 +110,7 @@ seed = "user-123-2025-W50-monday:dinner-1"
 **Rule:** Minimize manual confirmation steps.
 
 **Implementation:**
-- Walmart checkout success → auto-mark as purchased
+- When checkout is supported, auto-mark as purchased; otherwise keep status manual.
 - Opening Cook Mode for a recipe → infer ingredients were available
 - Bulk confirm: "Did you get everything? [Yes]" (not item-by-item)
 
@@ -118,34 +118,15 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 ---
 
-### 1.7 Walmart Deep-Link + CSV Fallback
+### 1.7 Shopping Export
 
-**Rule:** Always provide a working export, even if integrations fail.
+**Rule:** Always provide a working export without depending on external carts.
 
 **Implementation:**
-- Primary: Walmart deep-link with pre-filled cart
-- Fallback 1: CSV download
-- Fallback 2: Plain text list
+- Primary: CSV download
+- Secondary: Plain text list
 
-**Graceful Degradation:**
-```typescript
-async function exportShopping() {
-  try {
-    const response = await exportWalmart();
-    if (response.deepLink) {
-      window.open(response.deepLink);
-      return;
-    }
-  } catch (error) {
-    console.error('Walmart export failed:', error);
-  }
-  
-  // Fallback to CSV
-  await exportCSV();
-}
-```
-
-**Rationale:** Don't let third-party API failures block the user's workflow.
+**Rationale:** Keep exports reliable while store integrations are out of scope.
 
 ---
 
@@ -560,37 +541,27 @@ Want to use it this week?
 
 ---
 
-### 6.2 Walmart API Failures
+### 6.2 Shopping Export Failures
 
-**Scenario: Walmart deep-link request fails**
+**Scenario:** CSV export fails.
 
 **Implementation:**
 ```typescript
 async function exportShopping() {
   try {
-    const response = await fetch('/api/shopping/export', {
-      method: 'POST',
-      body: { format: 'walmart' },
-    });
-    
-    if (response.ok) {
-      const data = await response.json();
-      window.open(data.deepLink, '_blank');
-      return;
-    }
+    await exportCSV();
+    toast('Shopping list exported as CSV.');
   } catch (error) {
-    console.error('Walmart export failed:', error);
+    console.error('Shopping export failed:', error);
+    toast('Could not export CSV. Copying a plain text list instead.');
+    copyPlainTextList();
   }
-  
-  // Fallback: CSV
-  toast('Walmart isn't available right now. Here's your list as a CSV.');
-  await exportCSV();
 }
 ```
 
 **User Experience:**
 - No scary error messages
-- Automatic fallback to CSV
+- Automatic fallback to plain text
 - Toast explains what happened
 
 ---

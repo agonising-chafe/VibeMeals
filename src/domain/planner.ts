@@ -120,6 +120,7 @@ function distributeRecipesToDays(
   recipes: Recipe[],
   weekDays: { date: IsoDate; dayOfWeek: DayOfWeek }[],
   targetDinners: number,
+  servings: number = 4,
 ): PlanDay[] {
   const shuffledRecipes = shuffleArray(recipes);
   const days: PlanDay[] = [];
@@ -137,9 +138,10 @@ function distributeRecipesToDays(
   let assignedCount = 0;
   
   // Helper to create dinner with preflight detection
+  // Uses the passed servings parameter (plan-time override)
   const createDinner = (recipe: Recipe, date: IsoDate): PlannedDinner => ({
     recipeId: recipe.id,
-    servings: 4,
+    servings,
     locked: false,
     outEating: false,
     preflightStatus: detectPreflightStatus(recipe, date),
@@ -225,6 +227,7 @@ export function generatePlan(
   options: {
     targetDinners?: number;
     recentRecipeIds?: string[];
+    weekServings?: number;
   } = {},
 ): Plan {
   // Get week shape defaults for household mode
@@ -248,7 +251,9 @@ export function generatePlan(
   const weekDays = getWeekDays(startDate);
   
   // Distribute recipes to days
-  const days = distributeRecipesToDays(selectedRecipes.slice(0, targetDinners), weekDays, targetDinners);  
+  // Pass weekServings through to set servings in PlannedDinner
+  const servings = options.weekServings ?? household.headcount;
+  const days = distributeRecipesToDays(selectedRecipes.slice(0, targetDinners), weekDays, targetDinners, servings);  
   return {
     id: generatePlanId(),
     householdId: household.id,

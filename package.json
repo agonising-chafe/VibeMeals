@@ -6,9 +6,14 @@
   "scripts": {
     "test": "vitest run",
     "dev:preview": "tsx src/dev/preview-week.ts",
+    "dev:planner": "tsx src/dev/preview-planner.ts",
     "validate:types": "tsx scripts/validate-type-sync.ts",
     "import:url": "tsx scripts/import-recipe-url.ts",
-    "test:gemini": "tsx scripts/test-gemini.ts"
+    "test:gemini": "tsx scripts/test-gemini.ts",
+    "test:step-parser": "tsx scripts/test-step-parser.ts",
+    "import:batch": "powershell -ExecutionPolicy Bypass -File ./scripts/import-40-recipes.ps1",
+    "import:batch:resume": "powershell -ExecutionPolicy Bypass -File ./scripts/import-40-recipes.ps1 -Resume",
+    "import:diagnostics": "tsx scripts/batch-import-diagnostics.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
@@ -17,6 +22,7 @@
     "vitest": "^1.2.0"
   },
   "dependencies": {
-    "pdf-parse-fork": "^1.2.0"
+    "pdf-parse-fork": "^1.2.0",
+    "recipe-scrapers": "^14.48.0"
   }
 }

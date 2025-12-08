@@ -176,6 +176,15 @@ export function computeTonightState(
 
   const preflightStatus: PreflightStatus = dinner.preflightStatus ?? 'NONE_REQUIRED';
 
+  // If the recipe declares preflight requirements but the dinner status is NONE_REQUIRED/UNKNOWN,
+  // treat as MISSED to avoid false READY (Vision G1 safety).
+  const hasPreflightRequirements = recipe?.preflight && recipe.preflight.length > 0;
+  const effectivePreflightStatus: PreflightStatus = hasPreflightRequirements
+    ? preflightStatus === 'NONE_REQUIRED' || preflightStatus === 'UNKNOWN'
+      ? 'MISSED'
+      : preflightStatus
+    : preflightStatus;
+
   let status: TonightStatus = 'READY';
   let primaryMessage = "You're all set for tonight.";
   let secondaryMessage: string | undefined;
@@ -186,12 +195,12 @@ export function computeTonightState(
     primaryMessage = "It looks like we're missing a key ingredient for tonight.";
     secondaryMessage = 'Swap, move, or pick a backup recipe.';
     actions.canStartCooking = false;
-  } else if (preflightStatus === 'MISSED') {
+  } else if (effectivePreflightStatus === 'MISSED') {
     status = 'MISSED_PREFLIGHT';
     primaryMessage = 'It looks like we missed the marinate/prep for tonight.';
     secondaryMessage = 'Swap, move, or pick a backup recipe.';
     actions.canStartCooking = false;
-  } else if (preflightStatus === 'ALL_GOOD' || preflightStatus === 'NONE_REQUIRED') {
+  } else if (effectivePreflightStatus === 'ALL_GOOD' || effectivePreflightStatus === 'NONE_REQUIRED') {
     status = 'READY';
     primaryMessage = "You're all set for tonight.";
     actions.canStartCooking = true;

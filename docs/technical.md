@@ -1,7 +1,7 @@
 # VibeMeals Technical Architecture
 
-**Version:** 4.0.0  
-**Last Updated:** December 7, 2025
+**Version:** 4.0.1  
+**Last Updated:** December 8, 2025
 
 ---
 
@@ -12,6 +12,7 @@
 4. [Key Algorithms](#4-key-algorithms)
 5. [API Contracts](#5-api-contracts)
 6. [Database Schema](#6-database-schema)
+7. [Environment & Keys](#7-environment--keys)
 
 ---
 
@@ -36,7 +37,7 @@
 - **Queue:** BullMQ - Background jobs (preflight reminders, email)
 
 ### Third-Party Services
-- **Store Integration:** Walmart API (or Instacart API)
+- **Store Integration:** None enabled in current scope (future: grocer APIs TBD)
 - **Recipe Data:** Internal curated database
 - **Notifications:** 
   - Push: Firebase Cloud Messaging (FCM)
@@ -48,6 +49,13 @@
 - **Database:** Supabase or Neon (managed PostgreSQL)
 - **CDN:** Cloudflare - Images and static assets
 - **Monitoring:** Sentry - Error tracking
+
+---
+
+## 7) Environment & Keys
+
+- `GEMINI_API_KEY` (optional): Enables AI enrichment during recipe import; importer still works without it.
+- No external store integrations are active; no shopping-related keys required.
 
 ---
 
@@ -364,27 +372,6 @@ export const useShoppingStore = defineStore('shopping', {
       this.reviewedItems.clear();
       this.reviewConfirmed = false;
       this.estimatedSavings = 0;
-    },
-    
-    async exportWalmartCart() {
-      const list = await this.buildShoppingList();
-      
-      const response = await $fetch('/api/shopping/export', {
-        method: 'POST',
-        body: {
-          items: list,
-          format: 'walmart',
-        },
-      });
-      
-      if (response.deepLink) {
-        window.open(response.deepLink, '_blank');
-        
-        // Auto-mark as purchased if API succeeds
-        useInventoryStore().markPurchased(list);
-      }
-      
-      return response;
     },
     
     async exportCSV() {
@@ -1143,7 +1130,7 @@ function estimateExpiry(canonicalId: string): number {
 
 ### 5.3 POST /api/shopping/export
 
-**Purpose:** Export shopping list to Walmart, CSV, or text
+**Purpose:** Export shopping list to CSV or text (no active store integrations)
 
 **Request:**
 ```json
@@ -1157,15 +1144,7 @@ function estimateExpiry(canonicalId: string): number {
       "category": "Protein"
     }
   ],
-  "format": "walmart" // or "csv" or "text"
-}
-```
-
-**Response (Walmart):**
-```json
-{
-  "deepLink": "https://www.walmart.com/cart?items=12345:1,67890:2",
-  "cartId": "cart-abc123"
+  "format": "csv" // or "text"
 }
 ```
 
@@ -1173,6 +1152,13 @@ function estimateExpiry(canonicalId: string): number {
 ```json
 {
   "csv": "Category,Item,Quantity,Unit\nProtein,Chicken thighs,1.5,lb\n..."
+}
+```
+
+**Response (Text):**
+```json
+{
+  "text": "Protein: Chicken thighs (1.5 lb)\nProduce: Onions (2)\n..."
 }
 ```
 

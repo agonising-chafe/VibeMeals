@@ -1,7 +1,7 @@
 # VibeMeals Recipe Specification – v1.0.0
 
 **Status:** Implementation-Ready (Draft → Adopt)  
-**Last Updated:** December 7, 2025  
+**Last Updated:** December 8, 2025  
 **Wired to:**  
 - `vision.md` (Golden Tests G1–G6)  
 - `spec-planner.md`, `spec-today.md`, `spec-shop.md`, `spec-cooking.md`  
@@ -171,19 +171,21 @@ Use `Recipe.steps` from `data-model.md`. Shape:
 ```ts
 interface RecipeStep {
   stepNumber: number;          // 1-based
-  instruction: string;         // short, imperative
-  timerMinutes?: number;       // rough duration for timers
-  // Optional extension fields you may carry alongside for future parallelization:
-  // canOverlapWith?: number[];
-  // isHandsOff?: boolean;
+  instruction: string;         // short, imperative (2–3 sentences max)
+  timerMinutes?: number;       // duration in minutes (only if >= 3 min)
+  timer?: boolean;             // show [Set Timer] button (default: false)
+  parallel?: boolean;          // can happen alongside other steps (default: false)
 }
 ```
 
 **Guidelines:**
 
-- Instructions short and direct: ✅ “Preheat oven to 425°F.” / ✅ “Chop broccoli into florets.”
-- Use `timerMinutes` for hands-off segments (oven, simmer, slow cooker stretches).
-- If adding `canOverlapWith` or `isHandsOff` as extensions, keep the base fields above intact for compatibility.
+- Instructions short and direct: ✅ "Preheat oven to 425°F." / ✅ "Chop broccoli into florets."
+- Keep steps to 2–3 sentences max for Cooking Mode readability.
+- Use `timer: true` when step has explicit time cue ("roast for 15 min", "simmer 5–7 min").
+- Set `timerMinutes` to the parsed duration (only if >= 3 min, to reduce timer fatigue).
+- Use `parallel: true` for steps that can overlap ("Meanwhile, prepare vegetables" or "While dough rises...").
+- Each step is a logical chunk, not a word-for-word recipe instruction. Aggregation is OK if it improves clarity.
 
 ---
 

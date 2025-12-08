@@ -1,4 +1,4 @@
-# Copilot Instructions for VibeMeals
+   # Copilot Instructions for VibeMeals
 
 
 ## Project Overview
@@ -30,7 +30,7 @@
 
 ## Workflows
 - **Build**: Use `tsc` (TypeScript compiler). No custom build scripts detected.
-- **Test**: Place tests in `src/domain/__tests__/`. Use `npm test` or `npx jest` (see `package.json` for config). Coverage: run `npx jest --coverage` if needed. No custom test runners detected.
+- **Test**: Place tests in `src/domain/__tests__/`. Use `npm test` (Vitest). No coverage script is defined yet.
 - **Fixtures/Seeding**: Use `src/domain/fixtures/recipes.seed.ts` for test/dev data. No post-install scripts required unless noted in `package.json`.
 - **Debug**: Run scripts in `src/dev/` with `npx ts-node` or after compiling with `node`.
 - **Lint/Type Check**: Run `npx tsc --noEmit` for type checks. Linting is not enforced unless configured in `package.json`.
@@ -47,8 +47,8 @@
 
 
 ## Integration & Dependencies
-- **External dependencies**: Review `package.json` for libraries (e.g., Jest, ts-node, etc.). Install with `npm install`.
-- **No detected API integrations**: All logic appears local to the codebase.
+- **External dependencies**: Review `package.json` for libraries (e.g., Vitest, ts-node, etc.). Install with `npm install`.
+- **API integration (feature-flagged)**: Walmart pricing via `USE_WALMART_PRICING=true` plus `WALMART_CLIENT_ID` / `WALMART_CLIENT_SECRET`. Missing/invalid creds keep service in fallback (null price, in-stock true, no itemId) and log a one-time warning.
 - **Cross-domain communication**: Domains interact via shared types in `src/domain/types.ts`. Direct imports between domains are allowed only for type-safe, explicit data flows.
 
 

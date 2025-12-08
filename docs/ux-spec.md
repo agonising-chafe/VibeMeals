@@ -181,19 +181,15 @@
 - Sorted roughly by store aisle order
 - Shows quantity, pack size, and context ("For Tuesday's tacos")
 - Checkboxes for in-store use
-- Estimated pricing when available from store API
+- Estimated pricing (historical/fixture-based only; no live store API)
 - Historical cost tracking: "Last week: $71 • 4-week avg: $68"
 
 **Primary CTAs:**
-- **Checkout** 🏪 - Deep-link to Walmart cart with all items pre-added
-- **Download CSV** 📥 - Fallback for stores without integration
+- **Download CSV** 📥 - Primary export
 - **Text List** 📱 - Plain text format for copy/paste
 
-**Walmart Integration:**
-- Builds cart URL with normalized SKUs
-- Opens in new tab/window
-- If Walmart API succeeds, auto-marks as "Purchased" when cart is checked out
-- If API fails, shows: "Walmart isn't available right now. Here's your CSV." (graceful degradation)
+**Integrations:**
+- No grocer integrations are active; exports are file/text only.
 
 ---
 
@@ -552,7 +548,7 @@ If user didn't confirm thaw and it's day-of:
 - User taps "Next: Shop"
 - Optional Quick Review badge: "New! Save money by reviewing" (can skip)
 - Proceeds to Shopping list
-- Checkout with Walmart or CSV
+- Export via CSV or plain text
 
 **Step 6: First Cook (Days Later)**
 
@@ -595,14 +591,12 @@ If user didn't confirm thaw and it's day-of:
 - Sticky bar shows: **[Next: Shop]** and **[💡 Quick Review]**
 - Quick Review is optional optimization (save money)
 
-### Step 4: Checkout
-- Walmart deep-link with pre-filled cart OR
-- CSV download for other stores OR
+### Step 4: Checkout / Export
+- CSV download
 - Text list for manual shopping
 
 ### Step 5: Mark Purchased (Auto Where Possible)
-- If Walmart checkout succeeds → auto-marked
-- Otherwise, one-tap confirmation: "Did you get everything?" [Yes]
+- After export/shopping, one-tap confirmation: "Did you get everything?" [Yes]
 - Not item-by-item; bulk confirm or skip
 
 ### Step 6: Cook (Throughout Week)
@@ -849,8 +843,8 @@ If system can't find enough recipes:
 | Quick Review | **Use leftovers** | Don't buy fresh |
 | Quick Review footer | **Skip for now** | Proceed with full list |
 | Quick Review footer | **Done** | Save changes, update list |
-| Shopping | **Checkout** | Open Walmart cart |
-| Shopping | **Download CSV** | Export for other stores |
+| Shopping | **Download CSV** | Export shopping list |
+| Shopping | **Copy Text** | Plain text list for copy/paste |
 | Cook Mode | **Start Cooking** | Begin recipe |
 | Cook Mode | **Cooked** | Mark complete, deduct ingredients |
 | Cook Mode footer | **Undo: Mark as not cooked** | Reverse completion |
@@ -907,9 +901,9 @@ If system can't find enough recipes:
 
 ### 6.4 Error Messages
 
-**Walmart API Failure:**
+**Shopping Export Failure:**
 ```
-Walmart isn't available right now.
+Shopping export isn't available right now.
 Here's your list as a CSV instead.
 [Download CSV]
 ```

@@ -124,7 +124,7 @@ Ready-to-use ticket breakdowns for each surface, with acceptance criteria wired 
 1. **Generate Plan** → Week fills with recipes
 2. **Next: Shop** → Immediately available (no gates)
 3. *(Optional) Quick Review* → Save money by optimizing
-4. **Checkout** → Walmart cart or CSV
+4. **Checkout** → CSV export (no external carts)
 5. *(Optional) Mark Purchased* → Auto-confirm where possible
 6. **Cook → Cooked** → Auto-deduct ingredients
 7. *(Optional) Recap* → Thumbs/favorites teach taste
