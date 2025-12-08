@@ -14,15 +14,18 @@ import {
 } from '../domain/types';
 
 import {
-  sheetPanChickenVeg,
-  slowCookerChili,
-  pantryRescuePasta,
-  beefTacoNight,
-  marinatedChickenBowls,
-  seedRecipes,
+  mvpRecipeCatalog,
 } from '../domain/fixtures/recipes.seed';
 import { buildShoppingList } from '../domain/shop';
 import { computeTonightState } from '../domain/today';
+
+// Recipe mapping for tests
+const seedRecipes = mvpRecipeCatalog;
+const sheetPanChickenVeg = seedRecipes.find(r => r.id === 'r_oven-baked-chicken-drumsticks')!;
+const slowCookerChili = seedRecipes.find(r => r.id === 'r_slow-cooker-white-chicken-chili')!;
+const pantryRescuePasta = seedRecipes.find(r => r.id === 'r_one-pot-creamy-mushroom-pasta')!;
+const beefTacoNight = seedRecipes.find(r => r.id === 'r_beef-stroganoff')!;
+const marinatedChickenBowls = seedRecipes.find(r => r.id === 'r_simple-chicken-fajitas')!;
 
 const HOUSEHOLD_ID: HouseholdId = 'hh_demo';
 const PLAN_ID: PlanId = 'plan_demo_week';

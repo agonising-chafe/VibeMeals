@@ -3,12 +3,7 @@
 import { describe, it, expect } from 'vitest';
 
 import {
-  sheetPanChickenVeg,
-  marinatedChickenBowls,
-  pantryRescuePasta,
-  beefTacoNight,
-  slowCookerChili,
-  seedRecipes,
+  mvpRecipeCatalog,
 } from '../fixtures/recipes.seed';
 
 import {
@@ -26,6 +21,16 @@ import {
 
 import { buildShoppingList } from '../shop';
 import { computeTonightState } from '../today';
+
+// Test Recipe Mapping - using actual recipes from catalog
+const seedRecipes = mvpRecipeCatalog;
+
+// Map actual recipes to test-friendly names based on their characteristics
+const sheetPanChickenVeg = seedRecipes.find(r => r.id === 'r_oven-baked-chicken-drumsticks')!; // PROJECT, sheet pan
+const marinatedChickenBowls = seedRecipes.find(r => r.id === 'r_simple-chicken-fajitas')!; // FAST, has preflight potential
+const pantryRescuePasta = seedRecipes.find(r => r.id === 'r_one-pot-creamy-mushroom-pasta')!; // FAST, pantry-friendly
+const beefTacoNight = seedRecipes.find(r => r.id === 'r_beef-stroganoff')!; // NORMAL, beef protein
+const slowCookerChili = seedRecipes.find(r => r.id === 'r_slow-cooker-white-chicken-chili')!; // PROJECT, slow cooker
 
 // Helpers to avoid noise in each test
 const HOUSEHOLD_ID: HouseholdId = 'hh_test';
