@@ -113,7 +113,13 @@ export const beefStroganoff = {
             "shoppingCategory": "PRODUCE"
         }
     ],
-    "preflight": [],
+    "preflight": [
+        {
+            "type": "MARINATE",
+            "description": "Marinate beef for 2+ hours to tenderize and flavor",
+            "hoursBeforeCook": 2
+        }
+    ],
     "steps": [
         {
             "stepNumber": 1,

@@ -1,5 +1,6 @@
 // Spec: spec-planner.md v1.0.0, vision.md v4.6.0 §5.2, §7
 // src/domain/planner.ts
+import { detectPreflightStatus } from './preflight';
 // ============================================================================
 // Week Shape Defaults (from vision.md §5.2)
 // ============================================================================
@@ -93,6 +94,14 @@ function distributeRecipesToDays(recipes, weekDays, targetDinners) {
     const projectRecipes = shuffledRecipes.filter(r => r.metadata.timeBand === 'PROJECT');
     let recipeIndex = 0;
     let assignedCount = 0;
+    // Helper to create dinner with preflight detection
+    const createDinner = (recipe, date) => ({
+        recipeId: recipe.id,
+        servings: 4,
+        locked: false,
+        outEating: false,
+        preflightStatus: detectPreflightStatus(recipe, date),
+    });
     // Assign PROJECT recipes to weekend first
     for (const day of weekends) {
         if (assignedCount >= targetDinners)
@@ -102,13 +111,7 @@ function distributeRecipesToDays(recipes, weekDays, targetDinners) {
             days.push({
                 date: day.date,
                 dayOfWeek: day.dayOfWeek,
-                dinner: {
-                    recipeId: recipe.id,
-                    servings: 4, // Default servings
-                    locked: false,
-                    outEating: false,
-                    preflightStatus: 'NONE_REQUIRED',
-                },
+                dinner: createDinner(recipe, day.date),
             });
             assignedCount++;
         }
@@ -122,13 +125,7 @@ function distributeRecipesToDays(recipes, weekDays, targetDinners) {
             days.push({
                 date: day.date,
                 dayOfWeek: day.dayOfWeek,
-                dinner: {
-                    recipeId: recipe.id,
-                    servings: 4,
-                    locked: false,
-                    outEating: false,
-                    preflightStatus: 'NONE_REQUIRED',
-                },
+                dinner: createDinner(recipe, day.date),
             });
             assignedCount++;
         }
@@ -149,13 +146,7 @@ function distributeRecipesToDays(recipes, weekDays, targetDinners) {
             days.push({
                 date: day.date,
                 dayOfWeek: day.dayOfWeek,
-                dinner: {
-                    recipeId: recipe.id,
-                    servings: 4,
-                    locked: false,
-                    outEating: false,
-                    preflightStatus: 'NONE_REQUIRED',
-                },
+                dinner: createDinner(recipe, day.date),
             });
             assignedCount++;
         }

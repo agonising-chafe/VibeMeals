@@ -12,6 +12,7 @@ import {
   DayOfWeek,
   TimeBand,
 } from './types';
+import { detectPreflightStatus } from './preflight';
 
 // ============================================================================
 // Week Shape Defaults (from vision.md §5.2)
@@ -135,6 +136,15 @@ function distributeRecipesToDays(
   let recipeIndex = 0;
   let assignedCount = 0;
   
+  // Helper to create dinner with preflight detection
+  const createDinner = (recipe: Recipe, date: IsoDate): PlannedDinner => ({
+    recipeId: recipe.id,
+    servings: 4,
+    locked: false,
+    outEating: false,
+    preflightStatus: detectPreflightStatus(recipe, date),
+  });
+  
   // Assign PROJECT recipes to weekend first
   for (const day of weekends) {
     if (assignedCount >= targetDinners) break;
@@ -143,13 +153,7 @@ function distributeRecipesToDays(
       days.push({
         date: day.date,
         dayOfWeek: day.dayOfWeek,
-        dinner: {
-          recipeId: recipe.id,
-          servings: 4, // Default servings
-          locked: false,
-          outEating: false,
-          preflightStatus: 'NONE_REQUIRED' as const,
-        },
+        dinner: createDinner(recipe, day.date),
       });
       assignedCount++;
     }
@@ -163,13 +167,7 @@ function distributeRecipesToDays(
       days.push({
         date: day.date,
         dayOfWeek: day.dayOfWeek,
-        dinner: {
-          recipeId: recipe.id,
-          servings: 4,
-          locked: false,
-          outEating: false,
-          preflightStatus: 'NONE_REQUIRED' as const,
-        },
+        dinner: createDinner(recipe, day.date),
       });
       assignedCount++;
     }
@@ -191,13 +189,7 @@ function distributeRecipesToDays(
       days.push({
         date: day.date,
         dayOfWeek: day.dayOfWeek,
-        dinner: {
-          recipeId: recipe.id,
-          servings: 4,
-          locked: false,
-          outEating: false,
-          preflightStatus: 'NONE_REQUIRED' as const,
-        },
+        dinner: createDinner(recipe, day.date),
       });
       assignedCount++;
     } else {
