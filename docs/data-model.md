@@ -1,7 +1,7 @@
 # VibeMeals v1 Data Model
 
 > **Status:** v1.2.0 - Reference schema for implementation  
-> **Last Updated:** December 8, 2025  
+> **Last Updated:** December 8, 2025 — VALIDATION COMPLETE ✅  
 > **Purpose:** Shared TypeScript data model covering Plan → Shop → Today → Cook flows
 
 This document defines the core data structures referenced by all tickets (P1-P9, T1-T9, S1-S9, C1-C4). These are **interface definitions only** - not implementation code, but contracts that prevent architecture drift during parallel development.
@@ -145,6 +145,15 @@ export interface RecipeMetadata {
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
 }
 
+export interface RecipeStep {
+  stepNumber: number;
+  instruction: string;     // Max 2-3 sentences, beginner-friendly
+  duration?: number;       // Minutes for this step (for timers in Cooking Mode)
+  timerMinutes?: number;   // Duration for timer (3+ minutes)
+  timer?: boolean;         // Should show [Set Timer] button (default: false)
+  parallel?: boolean;      // "Meanwhile" or "while X cooks" (default: false)
+}
+
 export interface Recipe {
   id: RecipeId;
   name: string;
@@ -155,14 +164,7 @@ export interface Recipe {
   ingredients: RecipeIngredientRequirement[];
   preflight: RecipePreflightRequirement[];
   // Cooking steps (for Cooking Mode C1)
-  steps: {
-    stepNumber: number;
-    instruction: string;     // Max 2-3 sentences, beginner-friendly
-    duration?: number;       // Minutes for this step (for timers in Cooking Mode)
-    timerMinutes?: number;   // Duration for timer (3+ minutes)
-    timer?: boolean;         // Should show [Set Timer] button (default: false)
-    parallel?: boolean;      // "Meanwhile" or "while X cooks" (default: false)
-  }[];
+  steps: RecipeStep[];
 }
 ```
 
@@ -1101,3 +1103,4 @@ renderTodayView(tonightState); // UI layer
 
 - **v1.1.0** (2025-12-07): Added hardening - Invariants, Ownership diagram, Sample instances, Domain helpers API
 - **v1.0.0** (2025-12-07): Initial data model for v1 implementation. Covers all 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).
+

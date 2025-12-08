@@ -7,7 +7,9 @@
     "test": "vitest run",
     "dev:preview": "tsx src/dev/preview-week.ts",
     "dev:planner": "tsx src/dev/preview-planner.ts",
-    "validate:types": "tsx scripts/validate-type-sync.ts"
+    "validate:types": "tsx scripts/validate-type-sync.ts",
+    "generate:types": "tsx scripts/generate-types-from-data-model.ts",
+    "report:golden": "tsx scripts/report-golden-coverage.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

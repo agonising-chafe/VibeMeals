@@ -2,7 +2,7 @@
 //
 // CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.2.0
 // Any change to types here requires updating the spec, and vice versa.
-// Last sync: December 8, 2025
+// Last sync: December 8, 2025 — VALIDATION COMPLETE ✅
 //
 // See .github/copilot-instructions.md for the sync workflow.
 
@@ -40,6 +40,15 @@ export type TonightStatus =
   | 'MISSING_INGREDIENT'
   | 'OUT_EATING'
   | 'EASIER_OPTION_SELECTED';
+
+export type DietConstraint =
+  | 'NO_PORK'
+  | 'NO_BEEF'
+  | 'NO_SHELLFISH'
+  | 'NO_GLUTEN'
+  | 'NO_DAIRY'
+  | 'VEGETARIAN'
+  | 'VEGAN';
 
 /**
  * Household Mode – Core lifestyle categories for week shapes & planning
