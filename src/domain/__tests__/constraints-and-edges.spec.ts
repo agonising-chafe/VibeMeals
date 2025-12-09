@@ -41,7 +41,7 @@ describe('Edge Cases & Constraint Handling', () => {
       const plan = generatePlan(veganHousehold, recipes, testDate);
       expect(plan.id).toBeDefined();
       // Constraint is stored on household profile passed to plan generation
-      expect(veganHousehold.dietConstraints).toContain('vegan');
+      expect(veganHousehold.dietConstraints).toContain('VEGETARIAN');
     });
   });
 
