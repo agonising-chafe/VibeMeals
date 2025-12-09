@@ -66,8 +66,7 @@ export GEMINI_API_KEY="your_key_here"
 npm run import:url -- https://www.budgetbytes.com/sheet-pan-chicken/
 ``` text
 
-#### Interactive review:
-
+#### Interactive review
 1. ✅ Adjust time estimate (automatic 1.25x buffer applied)
 
 2. ✅ Confirm/change time band (FAST ≤30min, NORMAL 30-50min, PROJECT >50min)
@@ -80,8 +79,7 @@ npm run import:url -- https://www.budgetbytes.com/sheet-pan-chicken/
 
 ### Phase 2: Testing (1-2 hours per recipe)
 
-#### Cook the recipe yourself:
-
+#### Cook the recipe yourself
 - Time the actual cooking process
 
 - Note any preflight you forgot
@@ -90,8 +88,7 @@ npm run import:url -- https://www.budgetbytes.com/sheet-pan-chicken/
 
 - Adjust metadata based on reality
 
-#### Update the recipe file:
-
+#### Update the recipe file
 - Correct time estimate if off by >10 minutes
 
 - Add missed preflight requirements
@@ -102,7 +99,7 @@ npm run import:url -- https://www.budgetbytes.com/sheet-pan-chicken/
 
 ### Phase 3: Integration (5 min per recipe)
 
-#### Add to fixtures:
+#### Add to fixtures
 ```typescript
 // src/domain/fixtures/recipes.seed.ts
 import { sheetPanChicken } from '../recipes/sheet-pan-chicken';
@@ -113,7 +110,7 @@ export const SEED_RECIPES: Recipe[] = [
 ];
 ``` text
 
-#### Run tests:
+#### Run tests
 ```bash
 npm test
 ``` text
@@ -124,24 +121,21 @@ npm test
 
 **Focus:** Weeknight rotation staples
 
-#### Time band mix:
-
+#### Time band mix
 - 8 FAST (≤30min) - weeknight heroes
 
 - 5 NORMAL (30-50min) - standard dinners  
 
 - 2 PROJECT (>50min) - weekend meals
 
-#### Preflight mix:
-
+#### Preflight mix
 - 10 NO_PREFLIGHT - spontaneous cooking
 
 - 3 THAW - frozen protein planning
 
 - 2 MARINATE - flavor building
 
-#### Categories to cover:
-
+#### Categories to cover
 - 4 chicken recipes
 
 - 3 ground beef recipes
@@ -158,8 +152,7 @@ npm test
 
 **Focus:** Variety and dietary coverage
 
-#### Add:
-
+#### Add
 - 2 pork recipes
 
 - 2 fish/seafood recipes
@@ -174,8 +167,7 @@ npm test
 
 **Focus:** Fill gaps identified during testing
 
-#### Criteria:
-
+#### Criteria
 - Address missing equipment types
 
 - Cover missing dietary needs
@@ -228,8 +220,7 @@ npm test
 
 - **PROJECT (>50min):** Weekend projects, slow cooker, marinating
 
-#### Common mistakes:
-
+#### Common mistakes
 - ❌ Ignoring prep time (chopping, measuring)
 
 - ❌ Ignoring cleanup time (pots, pans, dishes)
@@ -262,30 +253,26 @@ npm test
 
 ### Preflight Requirements
 
-#### THAW (12+ hours):
-
+#### THAW (12+ hours)
 - Frozen chicken breast → THAW
 
 - Frozen ground beef → THAW (unless you know the microwave trick)
 
 - Frozen fish → THAW
 
-#### MARINATE (2-12 hours):
-
+#### MARINATE (2-12 hours)
 - Chicken marinade for flavor → MARINATE
 
 - Beef marinade for tenderness → MARINATE
 
 - Quick 15-min marinades → NO PREFLIGHT (not worth the planning overhead)
 
-#### SLOW_COOK (4-8 hours):
-
+#### SLOW_COOK (4-8 hours)
 - Slow cooker pot roast → SLOW_COOK
 
 - Slow cooker chili → SLOW_COOK
 
-#### LONG_PREP (2-4 hours non-active):
-
+#### LONG_PREP (2-4 hours non-active)
 - Bread dough rising → LONG_PREP
 
 - Overnight oats → LONG_PREP (or MARINATE)
@@ -343,8 +330,7 @@ npm run dev:preview
 ### "Failed to extract recipe schema from URL"
 **Cause:** Site doesn't expose JSON-LD or uses JavaScript rendering
 
-#### Solutions:
-
+#### Solutions
 1. Try a different recipe from the same site
 
 2. Check browser DevTools → Network → look for `application/ld+json`
@@ -382,8 +368,7 @@ metadata: {
 
 ---
 
-#### Next Steps:
-
+#### Next Steps
 1. Import first batch of 5 recipes this weekend
 
 2. Cook 1-2 to validate time estimates
@@ -391,3 +376,4 @@ metadata: {
 3. Iterate on metadata accuracy
 
 4. Scale to 25 recipes over 2-3 weeks
+

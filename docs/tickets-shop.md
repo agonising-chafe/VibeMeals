@@ -390,8 +390,7 @@ S4 (Quick Review) + S5 (Export) + S6 (Done Shopping) + S8 (Missing Items)
 S9 (Tone audit)
 ``` text
 
-#### Suggested Sprint Sequencing:
-
+#### Suggested Sprint Sequencing
 - Sprint 1: S2, S3, S7 (core data logic + classification)
 
 - Sprint 2: S1, S5 (UI + export to enable real-world use)
@@ -413,3 +412,4 @@ S6 (Tone audit)
 - S4 depends on S7 (critical classification) to avoid suggesting critical items
 - S6 syncs with Planner P7 (Plan Stability)
 - S8 triggers Today T4/T5 (swap flows) for critical missing items
+

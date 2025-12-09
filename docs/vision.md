@@ -52,16 +52,14 @@ further additions without breaking into separate specs
 This vision document serves different audiences. Here's where to focus based on
 your role:
 
-#### Executive / Product Leadership:
-
+#### Executive / Product Leadership
 - Start with: Sections 1–3 (Why we exist, North Star, What we are/aren't)
 
 - Focus on: Section 11 (Golden v1.1 Tests – the 6 non-negotiable experiences)
 
 - Skim: Section 13 (Roadmap) for MVP/V2/V3 phasing
 
-#### Product Managers / Designers:
-
+#### Product Managers / Designers
 - Start with: Section 4 (Core Philosophy + Tone Contract)
 
 - Deep-dive: Section 5 (Personas + Week Shapes), Section 6 (Pain Map)
@@ -70,8 +68,7 @@ your role:
 
 - Use for boundaries: Section 15 (System Boundaries)
 
-#### Engineers / Technical Leads:
-
+#### Engineers / Technical Leads
 - Start with: Section 7 (DLE Promise – architectural requirements)
 
 - Focus on: Section 8 (Recipe Catalog rules), Section 14 (Learning principles)
@@ -80,8 +77,7 @@ your role:
 
 - Use for integration: Section 15 (what we own vs delegate)
 
-#### Content / Recipe Teams:
-
+#### Content / Recipe Teams
 - Start with: Section 8 (Recipe Catalog & Time Bands – the hard rules)
 
 - Reference: Section 5.2 (Household Modes for filtering), Section 4.1 (Tone)
@@ -89,16 +85,14 @@ your role:
 - Test against: Section 11 Golden Tests (especially G1: "Tonight is actually
   cookable")
 
-#### QA / Testing:
-
+#### QA / Testing
 - Primary focus: Section 11 (Golden v1.1 – the 6 core experience tests G1-G6)
 
 - Reference: Section 12 (Traceability mapping stories to gates)
 
 - Use: `persona-checklists.md` for regression testing checklists
 
-#### Logical Reading Flow (Full Document):
-
+#### Logical Reading Flow (Full Document)
 1. **Foundation (Sections 1–4):** Why we exist → What we promise → How we talk
 
   2. **Who & What Hurts (Sections 5–6):** Personas + Week Shapes → Pain
@@ -189,8 +183,7 @@ If you give VibeMeals one weekly planning session (5–10 minutes), it will:
 
 ## 3) What VibeMeals Is (and Isn't)
 
-### VibeMeals IS:
-
+### VibeMeals IS
 - A **dinner logistics co-pilot** that handles the planning, shopping, and
   cooking workflow
 
@@ -203,8 +196,7 @@ If you give VibeMeals one weekly planning session (5–10 minutes), it will:
 - An app that **respects your time** (5–10 minute weekly check-in, not 45-minute
   admin sessions)
 
-### VibeMeals IS NOT:
-
+### VibeMeals IS NOT
 - A recipe database or browser (we curate for logistics, not discovery)
 
 - A calorie tracker or macro calculator
@@ -225,15 +217,13 @@ invisible**.
 
 ### Safe Defaults Over Gates
 
-#### Bad UX:
-
+#### Bad UX
 - "You have 5 unresolved items. You can't proceed until you answer these
   questions."
 
 - "Low confidence detected. Please review."
 
-#### Good UX:
-
+#### Good UX
 - "Your list is ready. Want to save ~$12 by reviewing what you already have?"
   (optional)
 
@@ -242,15 +232,13 @@ invisible**.
 
 ### Learn from Behavior, Not Surveys
 
-#### Bad UX:
-
+#### Bad UX
 - "Set up your pantry before you can use the app."
 
 - "Tell us about your dietary preferences, cooking skill level, favorite
   cuisines..."
 
-#### Good UX:
-
+#### Good UX
 - Week 1: System makes conservative assumptions (add everything, suggest popular
   recipes)
 
@@ -261,8 +249,7 @@ invisible**.
 
 ### Assume People Are Tired
 
-#### Design principles:
-
+#### Design principles
 - One primary action per surface (big button, clear outcome)
 
 - Short text, binary choices: "Use leftovers" vs "Buy fresh"
@@ -275,8 +262,7 @@ invisible**.
 
 ### Never Punish Exploration
 
-#### Guarantees:
-
+#### Guarantees
 - Rerolling a recipe is instant and reversible
 
 - Swapping a meal doesn't affect other days
@@ -371,12 +357,10 @@ judgmental.
 
     - Move this meal to another day."
 
-##### We do NOT say:
-
+##### We do NOT say
 - "You forgot to thaw your chicken. You can't make this now."
 
-##### We do say:
-
+##### We do say
 - "Looks like the chicken is still frozen. Here are your options:"
 
   - Swap to this backup dinner tonight.
@@ -1124,7 +1108,7 @@ Use each persona as a **lens for decisions**:
 
   - Kayla: "Does this acknowledge she's cooking for herself and that's enough?"
 
-#### Critical Design Check:
+#### Critical Design Check
 If a feature, flow, or default only makes sense for "family of 4 with kids,"
 you're accidentally excluding Kayla and similar users. The system must flex for
 household size 1–2 as a first-class use case, not an afterthought.
@@ -1159,8 +1143,7 @@ For v1, we treat these as the primary modes:
 **Examples:** Ashley (FT working mom), Brianna (budget-stretched single mom)
 **Typical size:** 3–5 people
 
-#### Default week shape:
-
+#### Default week shape
 - **Dinners planned:** 4–7 per week
 
   - 1–2 nights can be intentionally "open" (leftovers / takeout / events).
@@ -1179,8 +1162,7 @@ For v1, we treat these as the primary modes:
 
   - Leftover events slotted intentionally (not random fridge surprises)
 
-#### What "good" looks like:
-
+#### What "good" looks like
 - They do one main shop that actually covers dinners.
 
 - 5pm feels calm because **tonight is realistic** for that day's schedule.
@@ -1195,8 +1177,7 @@ For v1, we treat these as the primary modes:
 
 **Example:** Kayla **Typical size:** 1 person (sometimes 1 + occasional guest)
 
-#### Default week shape:
-
+#### Default week shape
 - **Dinners planned:** 2–4 per week
 
   - Not a full grid. Intentionally small by default.
@@ -1214,8 +1195,7 @@ For v1, we treat these as the primary modes:
   - Avoid drowning them in repeats; use leftovers intentionally (remix, not
     punishment)
 
-#### What "good" looks like:
-
+#### What "good" looks like
 - They actually cook **2–3 times**, instead of ordering delivery every night.
 
 - Leftovers are used or remixed, not a pile of guilt.
@@ -1228,8 +1208,7 @@ For v1, we treat these as the primary modes:
 
 **Examples:** Jake & Maya **Typical size:** 2 adults
 
-#### Default week shape:
-
+#### Default week shape
 - **Dinners planned:** 3–5 per week
 
   - The rest is assumed to be eating out, leftovers, or ad-hoc.
@@ -1246,8 +1225,7 @@ For v1, we treat these as the primary modes:
 
   - No expectation that they eat at home every night
 
-#### What "good" looks like:
-
+#### What "good" looks like
 - They have a few solid "at home" dinners anchored in the week.
 
 - When they decide to go out, one tap moves or rescues the planned meal.
@@ -1260,8 +1238,7 @@ For v1, we treat these as the primary modes:
 
 **Examples:** Ellen & Mark **Typical size:** 2 people
 
-#### Default week shape:
-
+#### Default week shape
 - **Dinners planned:** 3–4 per week
 
   - They fill the gaps with their own long-standing habits.
@@ -1282,8 +1259,7 @@ For v1, we treat these as the primary modes:
 
   - ~1 "small twist" (variation on something familiar)
 
-#### What "good" looks like:
-
+#### What "good" looks like
 - They see their usual meals, plus **tiny, low-effort variations**.
 
 - They're not forced to buy 10 new ingredients for "variety."
@@ -1297,8 +1273,7 @@ For v1, we treat these as the primary modes:
 **Examples:** 5–8+ people, often multi-gen or blended households **Typical
 size:** 5–8+ people
 
-#### Default week shape:
-
+#### Default week shape
 - **Dinners planned:** 3–5 per week
 
   - Some nights may rely on leftovers / simple standbys.
@@ -1313,8 +1288,7 @@ size:** 5–8+ people
 
   - Slightly conservative upsizing on core components (meat, starch, main veg)
 
-#### What "good" looks like:
-
+#### What "good" looks like
 - There is **enough food** every planned night without constant manual scaling.
 
 - Second trips and missing-core-ingredient disasters are rare.
@@ -1372,8 +1346,7 @@ from solo → family of 4, from family → empty nest, from "2 dinners/week" →
 dinners/week"), VibeMeals should treat this as a **new baseline**, not just a
 subtle "learning nudge."
 
-#### Examples of mode-changing events:
-
+#### Examples of mode-changing events
 - Headcount change:
 
   - 1 → 2 (new partner)
@@ -1392,8 +1365,7 @@ subtle "learning nudge."
 
   - Moving from "beginner cook" to "comfortable cook"
 
-#### When a mode change happens:
-
+#### When a mode change happens
 VibeMeals should:
 
 - **Re-anchor week shapes** to the new mode:
@@ -1430,14 +1402,13 @@ VibeMeals should **not**:
 
   - or budget behavior still applies unchanged.
 
-#### Connection to Section 14 (Learning & Adaptation):
-
+#### Connection to Section 14 (Learning & Adaptation)
 Mode changes are **resets**, not gradual adaptations. Section 14.4 covers how
 learning tunes *within* a mode over time. This section covers what happens when
 the mode itself changes—we start fresh with new defaults rather than letting old
 patterns thrash.
 
-#### Goal:
+#### Goal
 Mode changes are treated as "**start a new chapter with some remembered
 tastes**," not "keep pretending this is the same household and let learning
 thrash for months."
@@ -1503,8 +1474,7 @@ This job includes:
 - **Surviving chaos weeks** (sick kid, late practice, work fire) without the
   whole plan collapsing
 
-#### Success, from the user's perspective:
-
+#### Success, from the user's perspective
 - Weekly planning feels like a quick check-in, not a project (<10 minutes,
   ideally ~5).
 
@@ -3797,7 +3767,7 @@ scheduled as cook nights **And** she returns to VibeMeals later in the week
 Learning and optimization are allowed to influence **future weeks**, but once a
 plan is accepted and shopped for, it becomes a contract.
 
-#### Principle:
+#### Principle
 After the user has accepted a plan and completed the main shop, VibeMeals must
 **not silently change the ground under their feet.**
 
@@ -3816,8 +3786,7 @@ Concretely, for the **current week**:
 …without the user taking an explicit action (swap, move, delete, change
 servings).
 
-#### Allowed changes:
-
+#### Allowed changes
 - User-initiated:
 
   - "Swap this dinner"
@@ -3832,8 +3801,7 @@ servings).
 
   - "We slightly adjusted onion amount to match common pack sizes."
 
-#### Not allowed:
-
+#### Not allowed
 - "Smart" behind-the-scenes re-planning that:
 
   - changes recipes,
@@ -3848,8 +3816,7 @@ We treat "accepted plan + main shop done" as **stable ground** the user can
 trust. Learning, DLE improvements, and catalog changes shape **next week**, not
 last week's plan.
 
-#### Connection to G4:
-
+#### Connection to G4
 This stability rule protects G4 (Plans bend, they don't break). "Bend" =
 user-initiated swaps/moves are easy and encouraged. "Don't break" = system never
 silently replans without user action.
@@ -3984,8 +3951,7 @@ PROJECT recipes must be:
 
 - Clearly surfaced as "weekend / special energy" meals
 
-#### Connection to household modes (Section 5.2):
-
+#### Connection to household modes (Section 5.2)
 - **Family with Kids / Solo / Busy Weeknights:** Default to FAST on Mon–Thu,
   NORMAL on Fri, PROJECT opt-in for weekends
 
@@ -4137,8 +4103,7 @@ Rules:
 
 Not every recipe belongs in every household's default pool.
 
-#### Catalog filtering by household mode (Section 5.2):
-
+#### Catalog filtering by household mode (Section 5.2)
 - **Solo / Planning for One (Kayla):**
 
   - Prioritize: Small-batch recipes, ones that store well as leftovers, easily
@@ -4297,8 +4262,7 @@ Pains touched: fewer **second trips**, lower **food waste guilt**, lighter
 - User makes quick in-app swaps and rerolls without rebuilding the whole week or
   cart.
 
-#### Result:
-
+#### Result
 - The plan **bends instead of breaking** when life happens.
 
 - No spiral into "forget it, let's just order out all week."
@@ -5064,7 +5028,7 @@ doesn’t require 10 new ingredients or fancy skills.
 
 ---
 
-#### Rule of thumb:
+#### Rule of thumb
 If a new feature or change makes any of these stories **less true, less
 reliable, or more fragile**, we don’t ship it without fixing that regression.
 
@@ -5748,8 +5712,7 @@ tests, and constraints defined in this document.
 
 - Simple constraints (no pork, no gluten, ADHD-friendly, beginner cook)
 
-#### Success Metrics:
-
+#### Success Metrics
 - Golden Test G1 (Tonight Is Cookable) passes 95%+ of the time
 
 - Golden Test G2 (Planning ≤10 min) for 90%+ of plans
@@ -5760,8 +5723,7 @@ tests, and constraints defined in this document.
 
 ### 13.2 V2 (Months 5–8): Intelligence & Flexibility
 
-#### Add:
-
+#### Add
 - Pack-size reuse (leftover magnets)
 
 - Budget bands ($/$$/$$$) and light cost signals
@@ -5774,8 +5736,7 @@ tests, and constraints defined in this document.
 
 - Leftover remix suggestions
 
-#### Success Metrics:
-
+#### Success Metrics
 - Golden Test 4 (Plans Bend) recovery rate >90%
 
 - Golden Test 5 (Budget/Waste) user satisfaction >80%
@@ -5786,8 +5747,7 @@ tests, and constraints defined in this document.
 
 ### 13.3 V3+ (Months 9+): Scale & Polish
 
-#### Consider:
-
+#### Consider
 - Multi-store support (Costco + regular)
 
 - Household sharing (Planner + Cook roles)
@@ -5798,8 +5758,7 @@ tests, and constraints defined in this document.
 
 - Nutrition visibility (optional, never required)
 
-#### Defer/Never:
-
+#### Defer/Never
 - Social features / recipe sharing
 
 - Calorie tracking / macro goals
@@ -5855,8 +5814,7 @@ system.
 
 We learn primarily from **behavior**, not long questionnaires.
 
-#### Explicit signals:
-
+#### Explicit signals
 - Thumbs up / thumbs down on recipes
 
 - Marking a meal as "cooked," "skipped," or "swapped"
@@ -5865,8 +5823,7 @@ We learn primarily from **behavior**, not long questionnaires.
 
 - Adding/removing specific recipes from the plan
 
-#### Implicit signals:
-
+#### Implicit signals
 - Edits to the shopping list (especially recurring removals / additions)
 
 - Quick Review choices ("have it" vs "need it")
@@ -5880,8 +5837,7 @@ We learn primarily from **behavior**, not long questionnaires.
 
 We **do not** assume every one-off choice is a preference; we look for patterns.
 
-#### Signal weighting:
-
+#### Signal weighting
 - Explicit signals (thumbs up/down, "don't show again") are weighted **higher**
   than implicit signals.
 
@@ -5898,8 +5854,7 @@ We **do not** assume every one-off choice is a preference; we look for patterns.
 Over time, VibeMeals forms a **lightweight household profile**, not a
 psychoanalysis.
 
-#### We learn things like:
-
+#### We learn things like
 - **Time & effort patterns**
 
   - How often they actually cook "Project" meals vs Fast/Normal
@@ -5930,8 +5885,7 @@ psychoanalysis.
 
   - Whether they enjoy planned leftovers or get bored quickly
 
-#### We explicitly do *not* learn or infer:
-
+#### We explicitly do *not* learn or infer
 - Weight, diet morality, or any judgmental framing ("you should eat healthier")
 
 - Deep psychological traits ("you're impulsive," "you lack discipline")
@@ -5973,8 +5927,7 @@ For safety-critical constraints (e.g., no gluten, no nuts):
 - Adaptation there is about **variety within the constraint**, not whether to
   honor it.
 
-#### Connection to household modes (Section 5.2):
-
+#### Connection to household modes (Section 5.2)
 - Learning tunes preferences **within** a household mode's default week shape,
   not wholesale redefinition.
 
@@ -6055,8 +6008,7 @@ Principles:
 - Users should be able to say "yes, that matches my reality" or "no, stop doing
   that."
 
-#### Tone guardrails (connects to Section 4.1):
-
+#### Tone guardrails (connects to Section 4.1)
 - ❌ **Never say:** "Based on your behavior patterns, we've detected inconsistent
   meal completion rates."
 
@@ -6277,8 +6229,7 @@ medical choices**; we stay in our logistics lane.
 VibeMeals integrates with stores and carts as a **smart front-end** for
 planning, not a replacement for store apps.
 
-#### We do:
-
+#### We do
 - Generate store-ready lists and cart "blueprints":
 
   - Generic product specs (e.g., "2 lb chicken breast," "1× 1 lb dry pasta").
@@ -6291,8 +6242,7 @@ planning, not a replacement for store apps.
 
   - CSV / copy-paste / printable lists for everything else.
 
-#### We don't:
-
+#### We don't
 - Guarantee exact product availability or price.
 
 - Meddle with:
@@ -6303,8 +6253,7 @@ planning, not a replacement for store apps.
 
   - how orders get picked or delivered.
 
-#### Failure handling:
-
+#### Failure handling
 If the store is missing something or substitutes:
 
 - VibeMeals should offer:
@@ -6323,8 +6272,7 @@ If the store is missing something or substitutes:
 
 VibeMeals uses a **fuzzy pantry brain**, not an exact inventory.
 
-#### We infer that you probably have:
-
+#### We infer that you probably have
 - pantry staples (oil, salt, basic spices) after you've bought them once,
 
 - pack-based leftovers (half a bag of rice, half a carton of broth, tortillas,
@@ -6332,15 +6280,13 @@ VibeMeals uses a **fuzzy pantry brain**, not an exact inventory.
 
 - recent purchases (within a reasonable time window for shelf life).
 
-#### We must not:
-
+#### We must not
 - Drop critical ingredients from the list solely because "we think you still
   have them."
 
 - Require users to log every pantry item, expiration date, or quantity.
 
-#### We may:
-
+#### We may
 - Suggest:
 
   - "You likely still have this—want to skip buying more?"
@@ -6362,8 +6308,7 @@ user in a position of missing essentials.
 
 We cooperate with external tools; we don't try to replace them.
 
-#### Possible integrations:
-
+#### Possible integrations
 - Calendar:
 
   - Show major events alongside plan creation ("Tue: late practice → pick a Fast
@@ -6377,8 +6322,7 @@ We cooperate with external tools; we don't try to replace them.
 
   - "Start slow cooker by 9am"
 
-#### Boundaries:
-
+#### Boundaries
 - We never require users to live inside our app all day.
 
 - We avoid spamming reminders; preflight and "tonight's dinner" are the main
@@ -6393,16 +6337,14 @@ We cooperate with external tools; we don't try to replace them.
 
 This is not a full privacy policy, but a product stance.
 
-#### We use data to:
-
+#### We use data to
 - Make planning faster and smarter.
 
 - Reduce second trips, waste, and 5pm panic.
 
 - Learn household patterns in line with Section 14.
 
-#### We do not use data to:
-
+#### We do not use data to
 - Shame users for behavior (takeout, waste, missed meals).
 
 - Sell individual user patterns to third parties for targeting/ads (if that's
@@ -6901,3 +6843,4 @@ captured in the app
 - If rejected, bias future weeks to other gentle twists, not to more novelty
 
 ---
+

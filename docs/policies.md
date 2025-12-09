@@ -71,7 +71,7 @@ seed = "user-123-2025-W50-monday:dinner-2"
 // Undo + redo (attemptCount = 1 again)
 seed = "user-123-2025-W50-monday:dinner-1"
 → Recipe A (same as first time)
-```
+```text
 
 ---
 
@@ -274,7 +274,7 @@ function learnStaplesFromBehavior() {
     }
   }
 }
-```
+```text
 
 ---
 
@@ -289,7 +289,7 @@ function learnStaplesFromBehavior() {
 │   ✅ Covered by staples  [Why?]     │
 │   [Include this week]                │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Tapping "Why?"
 
@@ -305,7 +305,7 @@ function learnStaplesFromBehavior() {
 │ [Include this week only]             │
 │ [Always add to my lists]             │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Options
 
@@ -353,7 +353,7 @@ function learnStaplesFromBehavior() {
 │ [Show 30-minute options]             │
 │ [Stick with original]                │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Less time available
 
@@ -368,7 +368,7 @@ function learnStaplesFromBehavior() {
 │ [Show under-20 options]              │
 │ [Stick with original]                │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -378,7 +378,7 @@ function learnStaplesFromBehavior() {
 
 ... (truncated for brevity in patch)
 
-```
+```text
 ## 1) Non-Negotiables (Locked Behaviors)
 
 These are core behaviors that define VibeMeals and must not be compromised:
@@ -427,7 +427,7 @@ seed = "user-123-2025-W50-monday:dinner-2"
 // Undo + redo (attemptCount = 1 again)
 seed = "user-123-2025-W50-monday:dinner-1"
 → Recipe A (same as first time)
-```
+```text
 
 ---
 
@@ -583,7 +583,7 @@ function undoMarkCooked(slot: Slot) {
   slot.status = 'provisioned';
   slot.cookedAt = undefined;
 }
-```
+```text
 
 **Rationale:** Mistakes happen (marked wrong meal); make it easy to fix.
 
@@ -657,7 +657,7 @@ function learnStaplesFromBehavior() {
     }
   }
 }
-```
+```text
 
 ---
 
@@ -672,7 +672,7 @@ function learnStaplesFromBehavior() {
 │   ✅ Covered by staples  [Why?]     │
 │   [Include this week]                │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Tapping "Why?"
 
@@ -688,7 +688,7 @@ function learnStaplesFromBehavior() {
 │ [Include this week only]             │
 │ [Always add to my lists]             │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Options
 
@@ -736,7 +736,7 @@ function learnStaplesFromBehavior() {
 │ [Show 30-minute options]             │
 │ [Stick with original]                │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Less time available
 
@@ -751,7 +751,7 @@ function learnStaplesFromBehavior() {
 │ [Show under-20 options]              │
 │ [Stick with original]                │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -773,7 +773,7 @@ function learnStaplesFromBehavior() {
 🔔 Tomorrow: Spicy Chicken Tacos
 Move chicken thighs from freezer to fridge tonight.
 [Done] [Skip]
-```
+```text
 
 #### Day-Of Fail-Safe (If Missed)
 
@@ -789,7 +789,7 @@ Move chicken thighs from freezer to fridge tonight.
 │ [Oops, swap to a faster recipe]     │
 │ [I'll adjust timing]                 │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Options
 
@@ -820,7 +820,7 @@ Recipe needs: 8 oz chicken stock
 User purchased: 32 oz can
 After cooking: 24 oz leftover
 → Track in inventory with expiry estimate
-```
+```text
 
 ---
 
@@ -840,7 +840,7 @@ After cooking: 24 oz leftover
 Rice (1 cup)
 For Thursday's stir-fry
 [Use leftovers] [Buy fresh]
-```
+```text
 
 #### Dismissal
 
@@ -874,7 +874,7 @@ For Thursday's stir-fry
 You have rice expiring tomorrow.
 Want to use it this week?
 [Show recipes] [Dismiss]
-```
+```text
 
 ---
 
@@ -907,7 +907,7 @@ Want to use it this week?
 │ ← This Week (Dec 9-15) →            │
 │              Active                  │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Tapping week label
 
@@ -922,7 +922,7 @@ Want to use it this week?
 │                                      │
 │ [Close]                              │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -939,7 +939,7 @@ Want to use it this week?
 │                                      │
 │ [Review Now] [Plan Next Week Anyway]│
 └─────────────────────────────────────┘
-```
+```text
 
 **Does NOT block:** User can still plan future weeks.
 
@@ -983,7 +983,7 @@ Want to use it this week?
 │                                      │
 │ [Adjust Preferences] [Pick Manually]│
 └─────────────────────────────────────┘
-```
+```text
 
 #### Fallback Logic
 
@@ -1012,7 +1012,7 @@ async function exportShopping() {
     copyPlainTextList();
   }
 }
-```
+```text
 
 #### User Experience
 
@@ -1045,7 +1045,7 @@ function validateRecipe(recipe: Recipe): boolean {
 
 // In Generate Plan:
 const validRecipes = candidates.filter(validateRecipe);
-```
+```text
 
 #### If recipe slips through and user discovers
 
@@ -1057,7 +1057,7 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Swap Recipe] [Remove This Meal]    │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -1079,7 +1079,7 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Resume at Step 4] [Start Over]     │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -1095,7 +1095,7 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Retry]                              │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Offline Mode (Future)
 
@@ -1173,7 +1173,7 @@ const validRecipes = candidates.filter(validateRecipe);
 
 #### [Back to Index](index.md)
 
-````
+````text
 
 # VibeMeals Policies & Business Rules
 
@@ -1248,7 +1248,7 @@ seed = "user-123-2025-W50-monday:dinner-2"
 // Undo + redo (attemptCount = 1 again)
 seed = "user-123-2025-W50-monday:dinner-1"
 → Recipe A (same as first time)
-```
+```text
 
 ---
 
@@ -1404,7 +1404,7 @@ function undoMarkCooked(slot: Slot) {
   slot.status = 'provisioned';
   slot.cookedAt = undefined;
 }
-```
+```text
 
 **Rationale:** Mistakes happen (marked wrong meal); make it easy to fix.
 
@@ -1478,7 +1478,7 @@ function learnStaplesFromBehavior() {
     }
   }
 }
-```
+```text
 
 ---
 
@@ -1493,7 +1493,7 @@ function learnStaplesFromBehavior() {
 │   ✅ Covered by staples  [Why?]     │
 │   [Include this week]                │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Tapping "Why?"
 
@@ -1509,7 +1509,7 @@ function learnStaplesFromBehavior() {
 │ [Include this week only]             │
 │ [Always add to my lists]             │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Options
 
@@ -1557,7 +1557,7 @@ function learnStaplesFromBehavior() {
 │ [Show 30-minute options]             │
 │ [Stick with original]                │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Less time available
 
@@ -1572,7 +1572,7 @@ function learnStaplesFromBehavior() {
 │ [Show under-20 options]              │
 │ [Stick with original]                │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -1594,7 +1594,7 @@ function learnStaplesFromBehavior() {
 🔔 Tomorrow: Spicy Chicken Tacos
 Move chicken thighs from freezer to fridge tonight.
 [Done] [Skip]
-```
+```text
 
 #### Day-Of Fail-Safe (If Missed)
 
@@ -1610,7 +1610,7 @@ Move chicken thighs from freezer to fridge tonight.
 │ [Oops, swap to a faster recipe]     │
 │ [I'll adjust timing]                 │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Options
 
@@ -1641,7 +1641,7 @@ Recipe needs: 8 oz chicken stock
 User purchased: 32 oz can
 After cooking: 24 oz leftover
 → Track in inventory with expiry estimate
-```
+```text
 
 ---
 
@@ -1695,7 +1695,7 @@ After cooking: 24 oz leftover
 You have rice expiring tomorrow.
 Want to use it this week?
 [Show recipes] [Dismiss]
-```
+```text
 
 ---
 
@@ -1728,7 +1728,7 @@ Want to use it this week?
 │ ← This Week (Dec 9-15) →            │
 │              Active                  │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Tapping week label
 
@@ -1743,7 +1743,7 @@ Want to use it this week?
 │                                      │
 │ [Close]                              │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -1760,7 +1760,7 @@ Want to use it this week?
 │                                      │
 │ [Review Now] [Plan Next Week Anyway]│
 └─────────────────────────────────────┘
-```
+```text
 
 **Does NOT block:** User can still plan future weeks.
 
@@ -1804,7 +1804,7 @@ Want to use it this week?
 │                                      │
 │ [Adjust Preferences] [Pick Manually]│
 └─────────────────────────────────────┘
-```
+```text
 
 #### Fallback Logic
 
@@ -1833,7 +1833,7 @@ async function exportShopping() {
     copyPlainTextList();
   }
 }
-```
+```text
 
 #### User Experience
 
@@ -1866,7 +1866,7 @@ function validateRecipe(recipe: Recipe): boolean {
 
 // In Generate Plan:
 const validRecipes = candidates.filter(validateRecipe);
-```
+```text
 
 #### If recipe slips through and user discovers
 
@@ -1878,7 +1878,7 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Swap Recipe] [Remove This Meal]    │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -1900,7 +1900,7 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Resume at Step 4] [Start Over]     │
 └─────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -1916,7 +1916,7 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Retry]                              │
 └─────────────────────────────────────┘
-```
+```text
 
 #### Offline Mode (Future)
 
@@ -1993,3 +1993,4 @@ const validRecipes = candidates.filter(validateRecipe);
 ---
 
 #### [Back to Index](index.md)
+

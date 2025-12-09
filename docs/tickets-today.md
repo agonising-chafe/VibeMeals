@@ -427,16 +427,14 @@ T3 (Start Cooking handoff) + T4 (Missed Preflight) + T5 (Too much → Easier) + 
 T9 (Tone audit)
 ``` text
 
-#### Suggested Sprint Sequencing:
-
+#### Suggested Sprint Sequencing
 - Sprint 1: T1, T2, T3 (prove happy path + preflight logic)
 
 - Sprint 2: T4, T5, T6 (escape hatches)
 
 - Sprint 3: T7, T8, T9 (polish + tomorrow preview)
 
-#### Integration Points:
-
+#### Integration Points
 - T1 depends on Planner P2 (need a plan)
 
 - T2 computes preflight state from recipe metadata
@@ -446,3 +444,4 @@ T9 (Tone audit)
 - T4/T5/T6/T7 interact with Planner for swaps/moves
 
 - T8 reads tomorrow's plan data
+

@@ -1113,7 +1113,7 @@ function estimateExpiry(canonicalId: string): number {
 
 **Purpose:** Generate a week of recipes based on constraints
 
-#### Request:
+#### Request
 ```json
 {
   "week": "2025-W50",
@@ -1130,7 +1130,7 @@ function estimateExpiry(canonicalId: string): number {
 }
 ``` text
 
-#### Response:
+#### Response
 ```json
 {
   "slots": [
@@ -1176,7 +1176,7 @@ function estimateExpiry(canonicalId: string): number {
 
 **Purpose:** Reroll a single slot with a new recipe
 
-#### Request:
+#### Request
 ```json
 {
   "slotId": "2025-W50:monday:dinner",
@@ -1185,7 +1185,7 @@ function estimateExpiry(canonicalId: string): number {
 }
 ``` text
 
-#### Response:
+#### Response
 ```json
 {
   "recipe": {
@@ -1207,7 +1207,7 @@ function estimateExpiry(canonicalId: string): number {
 
 **Purpose:** Export shopping list to CSV or text (no active store integrations)
 
-#### Request:
+#### Request
 ```json
 {
   "items": [
@@ -1223,14 +1223,14 @@ function estimateExpiry(canonicalId: string): number {
 }
 ``` text
 
-#### Response (CSV):
+#### Response (CSV)
 ```json
 {
   "csv": "Category,Item,Quantity,Unit\nProtein,Chicken thighs,1.5,lb\n..."
 }
 ``` text
 
-#### Response (Text):
+#### Response (Text)
 ```json
 {
   "text": "Protein: Chicken thighs (1.5 lb)\nProduce: Onions (2)\n..."
@@ -1243,7 +1243,7 @@ function estimateExpiry(canonicalId: string): number {
 
 **Purpose:** Submit Weekly Recap feedback
 
-#### Request:
+#### Request
 ```json
 {
   "week": "2025-W50",
@@ -1263,7 +1263,7 @@ function estimateExpiry(canonicalId: string): number {
 }
 ``` text
 
-#### Response:
+#### Response
 ```json
 {
   "success": true,
@@ -1419,3 +1419,4 @@ model Feedback {
 ---
 
 #### [Back to Index](index.md)
+

@@ -363,10 +363,10 @@ P7 (Plan Stability after shop)
 P9 (Tone audit)
 ``` text
 
-#### Suggested Sprint Sequencing:
-
+#### Suggested Sprint Sequencing
 - Sprint 1: P1, P2 (prove core loop)
 
 - Sprint 2: P3, P4, P6 (make it tweakable)
 
 - Sprint 3: P5, P7, P8, P9 (polish + stability)
+

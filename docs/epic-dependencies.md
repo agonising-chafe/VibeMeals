@@ -21,8 +21,7 @@ S3 (Grouping) + S7 (Critical Classification)
 S1 (Shop UI)
 ``` text
 
-#### Reasoning:
-
+#### Reasoning
 - **P1 + P2** are foundational: Without a plan, no other surface has data to display.
 
 - **S2** (ingredient expansion logic) must come before **S1** (Shop UI) – the UI needs data to display.
@@ -62,8 +61,7 @@ P2 (Generate Plan) → S2 (Ingredient Expansion) → S3 (Grouping) + S7 (Critica
                                         ↓ (S8 triggers T4/T5)
 ``` text
 
-#### Shop Implementation Layers (Critical Sequencing):
-
+#### Shop Implementation Layers (Critical Sequencing)
 - **Layer 1 – Data:** S2 (Ingredient Expansion & Consolidation) ← **MUST BUILD FIRST**
 
 - **Layer 2 – Enrichment:** S3 (Category Grouping) + S7 (Critical/Non-Critical Classification)
@@ -208,8 +206,7 @@ T2 (Today handoff) → C1 (Layout) → {C2, C3, C4}
 
 ## Parallelization Opportunities
 
-#### After P1 + P2 are complete:
-
+#### After P1 + P2 are complete
 | Sprint | Team A (Planner) | Team B (Today) | Team C (Shop) | Team D (Cooking) |
 |--------|------------------|----------------|---------------|------------------|
 | 1 | P3 (Swap) | T1 (Skeleton) + T2 (Preflight Engine) | S2 (Expansion) + S3 (Grouping) + S7 (Classification) → S1 (UI) | C1 (Layout) |
@@ -233,8 +230,7 @@ T2 (Today handoff) → C1 (Layout) → {C2, C3, C4}
 | **G5** (Quick Picks) | P3 | — | S2, S3, S4 | — |
 | **G6** (Adaptability) | P3, P4 | T4, T5, T6, T7 | S7, S8 | C3, C4 |
 
-#### Key Coverage Notes:
-
+#### Key Coverage Notes
 - **G2 (Plan in 5–10 min, shop ready quickly):** Requires Planner P2 + Shop data layer (S2, S3) + UI (S1) + Export (S5)
 
 - **G3 (No missing essentials):** Requires Shop ingredient expansion (S2, S3) + Quick Review (S4) + Missing Items handling (S8)
@@ -377,8 +373,7 @@ See `vision.md` §13 (Roadmap) for complete sequencing.
 
 **Goal:** Build the absolute minimum to prove the core loop works: Plan → Shop → Today → Cook.
 
-#### Tickets Required (9 total):
-
+#### Tickets Required (9 total)
 ### **Phase 1: Foundation (Week 1–2)**
 
 - **P1** – Planner Grid Skeleton
@@ -403,8 +398,7 @@ See `vision.md` §13 (Roadmap) for complete sequencing.
 
 - **C1** – Cooking Mode Layout & Happy Path
 
-#### What You Can Demo After Phase 3:
-
+#### What You Can Demo After Phase 3
 1. Open Planner → see a week of dinners (P1, P2)
 
 2. Open Shop → see consolidated shopping list grouped by category (S2, S3, S1)
@@ -413,8 +407,7 @@ See `vision.md` §13 (Roadmap) for complete sequencing.
 
 4. Tap "Start Cooking" → step through recipe in Cooking Mode (T3, C1)
 
-#### What’s Missing (Acceptable for Vertical Slice):
-
+#### What’s Missing (Acceptable for Vertical Slice)
 - No swap/reroll (P3)
 
 - No Quick Review (S4)
@@ -430,3 +423,4 @@ See `vision.md` §13 (Roadmap) for complete sequencing.
 **Timeline:** 4 weeks for a **demoable but minimal** end-to-end experience.
 
 **Next Step After Vertical Slice:** Add adaptability (P3, T4, S4, S8) in Sprint 2 to prove "life happens" flows work.
+

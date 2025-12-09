@@ -45,8 +45,7 @@ const pantryRescuePasta: Recipe = {
 };
 ``` text
 
-#### Exercises:
-
+#### Exercises
 - Shop S2/S3: critical carbs + sauce; staples surfaced for Quick Review.
 
 - Shop S4: garlic powder, olive oil, salt, Parmesan are candidates; spaghetti/sauce never offered to drop.
@@ -94,8 +93,7 @@ const beefTacoNight: Recipe = {
 };
 ``` text
 
-#### Exercises:
-
+#### Exercises
 - Leftovers: EXPECTED signals reuse options for bowls/nachos.
 
 - S7: strong `kind` + `shoppingCategory` for grouping.
@@ -145,8 +143,7 @@ const marinatedChickenBowls: Recipe = {
 };
 ``` text
 
-#### Exercises:
-
+#### Exercises
 - Today T2/T4: if marinade not started by cook time → `MISSED_PREFLIGHT`; else READY.
 
 - Shop S4: rice/chicken/broccoli protected; soy/oil/garlic powder can be Quick Review candidates.
@@ -160,3 +157,4 @@ const marinatedChickenBowls: Recipe = {
 - **Seed fixtures:** Drop into `src/domain/fixtures/recipes.seed.ts` with the two examples already in `recipe-spec.md`.
 
 - **Tests:** Use to validate `buildShoppingList(...)` (critical vs optional) and `computeTonightState(...)` (marinade missed vs done).
+

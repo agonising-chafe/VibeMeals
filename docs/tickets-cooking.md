@@ -165,14 +165,12 @@ C1 (Layout + Happy Path)
 C2 (Timer Cues) + C3 (Missed Preflight Mid-Cook) + C4 (Bail-Out Flow)
 ``` text
 
-#### Suggested Sprint Sequencing:
-
+#### Suggested Sprint Sequencing
 - Sprint 1: C1, C2 (prove core cooking flow + timers)
 
 - Sprint 2: C3, C4 (add escape hatches)
 
-#### Integration Points:
-
+#### Integration Points
 - C1 depends on Today T2 (handoff from Today → Cooking)
 
 - C3/C4 may trigger swaps (Today T3/T4 logic)
@@ -200,3 +198,4 @@ If C4 (Bail-Out) is triggered, it's a signal to:
 - Ensure time estimates are realistic (not aspirational)
 
 This connects to Vision §14 (Learning & Adaptation Principles) – system should adapt time bands based on real completions over time.
+

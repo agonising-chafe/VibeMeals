@@ -78,8 +78,7 @@ interface RecipeMetadata {
 
 - **PROJECT**: 45+ minutes or high coordination; reserve for calmer nights.
 
-#### Musts:
-
+#### Musts
 - `timeBand` must align with `estimatedMinutes` (no fake FAST).
 
 - If a recipe regularly runs 45+ minutes for typical households, tag `NORMAL`→`PROJECT`, not FAST.
@@ -94,8 +93,7 @@ interface RecipeMetadata {
 
 - `COOK_ONCE_EAT_TWICE` – Explicitly designed to feed a second meal.
 
-#### Musts:
-
+#### Musts
 - If designed to feed a second night, mark `COOK_ONCE_EAT_TWICE` and portion accordingly.
 
 - Don’t mark leftover strategy unless quantities and structure support it.
@@ -138,8 +136,7 @@ interface RecipeIngredientRequirement {
 
 - “Extra” cheese, lime wedges, sour cream topping, etc.
 
-#### Hard rules:
-
+#### Hard rules
 - Never mark the main protein as `NON_CRITICAL`.
 
 - Never put CRITICAL items into Quick Review suggestions (Shop logic depends on this flag).
@@ -184,8 +181,7 @@ Examples:
 
 - `{ type: 'LONG_PREP', description: 'Allow at least 30 minutes for slow onion cooking', hoursBeforeCook: 0 }`
 
-#### Musts:
-
+#### Musts
 - If missing a preflight that materially affects viability (frozen protein, slow cook, long prep), Today cannot correctly detect “missed preflight.”
 
 - If no preflight is needed, use `preflight: []` (v1 normalization).
@@ -206,8 +202,7 @@ interface RecipeStep {
 }
 ``` text
 
-#### Guidelines:
-
+#### Guidelines
 - Instructions short and direct: ✅ "Preheat oven to 425°F." / ✅ "Chop broccoli into florets."
 
 - Keep steps to 2–3 sentences max for Cooking Mode readability.
@@ -249,8 +244,7 @@ interface VariantHint {
 }
 ``` text
 
-#### Examples:
-
+#### Examples
 - Sheet-pan chicken → `['kid_friendly', 'sheet_pan', 'mild', 'comfort_food']`
 
 - Tacos → `['kid_friendly', 'taco_format', 'tex_mex']`
