@@ -5,6 +5,27 @@
 
 ---
 
+## Current Implementation Status (v1.0.0)
+
+> **v1.0.0 is a pure TypeScript/Node.js backend implementation** of the core meal planning, shopping, and cooking logic.
+> 
+> ✅ **Implemented:**
+> - Domain logic: Planner, Shop, Today, Preflight (467+ lines of production code)
+> - Type contracts: types.ts perfectly synced with data-model.md v1.2.0
+> - Recipe catalog: 14 curated recipes with full ingredient metadata
+> - Test suite: 62 tests passing (56 unit/spec + 6 acceptance covering Golden Tests G1-G6)
+> - Specs: Complete surface specs for Planner, Shop, Today aligned to vision.md v4.6.0
+>
+> ⏳ **Not yet implemented (v1.1+):**
+> - Frontend: Nuxt 3 UI / Web app (architecture designed below)
+> - Database: PostgreSQL persistence (schema defined below)
+> - API: REST/GraphQL endpoints (contracts defined below)
+> - State management: Pinia stores (patterns shown below)
+>
+> **The sections below describe the planned full-stack architecture for v1.1+.**
+
+---
+
 ## Table of Contents
 1. [Technology Stack](#1-technology-stack)
 2. [State Management](#2-state-management)

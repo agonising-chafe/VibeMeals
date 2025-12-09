@@ -5,9 +5,13 @@
 **Wired to:** VibeMeals Vision v4.6.0 (`vision.md`)  
 **Golden Tests:** G1, G2, G4, G5, G6  
 **Last Updated:** December 7, 2025  
+**v1.0.0 Implementation:** Domain logic only (generatePlan, swapRecipe, toggleLock, removeDinner in `src/domain/planner.ts`)  
+**UI Implementation:** Planned for v1.1+ (Nuxt 3 / Pinia stores)
 
 > This spec translates the Vision into an implementation-ready definition for the **Planner (Week View)** surface.  
 > All flows must respect Golden Tests and constraints defined in `vision.md`.
+>
+> **Note:** The section 3 (Layout & Wireframes) describes the eventual UI. In v1.0.0, the core domain logic (plan generation, recipe selection, swaps, locks) is implemented and tested. The UI will be built in v1.1+.
 
 ---
 

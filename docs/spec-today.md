@@ -5,9 +5,13 @@
 **Wired to:** VibeMeals Vision v4.6.0 (`vision.md`)  
 **Golden Tests:** G1, G4, G6  
 **Last Updated:** December 7, 2025  
+**v1.0.0 Implementation:** Domain logic only (computeTonightState in `src/domain/today.ts`)  
+**UI Implementation:** Planned for v1.1+ (Nuxt 3 / Pinia stores)
 
 > This spec defines the **Today** surface: the answer to "What's for dinner tonight?"  
 > All flows must keep tonight actually cookable and let plans bend without shaming the user.
+>
+> **Note:** The sections below describe the eventual UI layout and flows. In v1.0.0, the core tonight-readiness logic (preflight detection, missing ingredients, status computation) is implemented and tested. The UI will be built in v1.1+.
 
 ---
 

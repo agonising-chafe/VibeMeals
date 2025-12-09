@@ -5,9 +5,13 @@
 **Wired to:** VibeMeals Vision v4.6.0 (`vision.md`)  
 **Golden Tests:** G2, G3, G5, G6  
 **Last Updated:** December 7, 2025  
+**v1.0.0 Implementation:** Domain logic only (buildShoppingList in `src/domain/shop.ts`)  
+**UI Implementation:** Planned for v1.1+ (Nuxt 3 / Pinia stores)
 
 > This spec defines the **Shop** surface: turning a plan into a trustworthy list/cart,  
 > with optional, low-burden optimization for budget and waste.
+>
+> **Note:** The sections below describe the eventual UI layout and flows. In v1.0.0, the core shopping logic (ingredient consolidation, categorization, criticality marking) is implemented and tested. The UI will be built in v1.1+.
 
 ---
 
