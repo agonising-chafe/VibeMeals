@@ -114,9 +114,11 @@ export interface HouseholdProfile {
 ## 2. Recipes & Ingredients (Catalog Side)
 
 ### RecipeIngredientRequirement
+
 Describes a single ingredient needed for a recipe, including canonical ID, display name, amount, unit, criticality level (CRITICAL or NON_CRITICAL), ingredient kind (PROTEIN, VEG, etc.), and shopping category. Used by Planner (P2), Shop (S2, S3, S7), and Today (T2) for meal planning and ingredient grouping.
 
 Enough info for:
+
 - Planner (time band, difficulty, leftovers)
 - Shop (ingredient breakdown, critical vs non-critical, categories)
 - Today (preflight metadata)
