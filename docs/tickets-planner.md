@@ -27,30 +27,30 @@ Build the core Planner UI shell:
 * **Given** I open Planner with no plan generated  
   **Then** I see:
 
-  * A header with week range (e.g. "This Week – Jan 12–18")
+* A header with week range (e.g. "This Week – Jan 12–18")
 
-  * A household summary (stubbed text is fine initially)
+* A household summary (stubbed text is fine initially)
 
-  * A primary **Generate Plan** button
+* A primary **Generate Plan** button
 
-  * A 7-row grid (Mon–Sun) with empty slots or placeholders
+* A 7-row grid (Mon–Sun) with empty slots or placeholders
 
-  * A summary panel with:
+* A summary panel with:
 
-    * "0 dinners planned"
+* "0 dinners planned"
 
-    * **Next: Shop** button disabled
+* **Next: Shop** button disabled
 
 * **Given** I have a populated plan (can be mocked)  
   **Then** each day's card can show:
 
-  * Recipe title (e.g. "Sheet-Pan Chicken & Veg")
+* Recipe title (e.g. "Sheet-Pan Chicken & Veg")
 
-  * Time band pill (Fast/Normal/Project)
+* Time band pill (Fast/Normal/Project)
 
-  * Servings text
+* Servings text
 
-  * Optional lock + preflight icons
+* Optional lock + preflight icons
 
 ---
 
@@ -126,7 +126,7 @@ Suggestions must respect:
 
 #### When**I click**Swap
 
-  **Then** I see a small panel with 2–4 alternative recipes that:
+**Then** I see a small panel with 2–4 alternative recipes that:
 
 * Fit the same or easier time band
 
@@ -141,7 +141,7 @@ Suggestions must respect:
 
 #### When**I click**Reroll
 
-  **Then** the recipe on that card is replaced with another of similar type (e.g., tacos ↔ burrito bowls), with no additional UI required.
+**Then** the recipe on that card is replaced with another of similar type (e.g., tacos ↔ burrito bowls), with no additional UI required.
 
 * **Given** I Swap or Reroll  
   **Then** the **total dinners planned** and **time band mix** in the summary panel remain consistent with week shape constraints (no surprise "all Project" week).
@@ -175,7 +175,7 @@ Later, this works together with the "main shop done" flag (P7).
 
 #### When**I click**Regenerate
 
-  **Then**:
+**Then**:
 
 * All locked dinners remain unchanged.
 
@@ -185,7 +185,7 @@ Later, this works together with the "main shop done" flag (P7).
 
 #### When**I click**Regenerate
 
-  **Then** nothing changes (no cards are updated).
+**Then** nothing changes (no cards are updated).
 
 ---
 
@@ -239,7 +239,7 @@ Expose a control that lets users select how many dinners they want covered this 
 
 #### **Given** I change that control from 5 → 3 and click **Regenerate*
 
-  **Then** only 3 dinner slots are filled and the other nights are visibly "open" (leftovers / out), with no guilt-y copy.
+**Then** only 3 dinner slots are filled and the other nights are visibly "open" (leftovers / out), with no guilt-y copy.
 
 * **Given** I am a solo user  
   **Then** the available values are constrained to solo ranges (e.g., 2–4) per Vision §5.2.
@@ -273,7 +273,7 @@ Once the user has shopped for the current plan (triggered from Shop or a simple 
 
 #### When**I click**Regenerate
 
-  **Then**:
+**Then**:
 
 * I see a modal warning:  
     "This will change your shopping list. You may need to adjust your cart. Continue?"
@@ -304,19 +304,19 @@ Allow users to move dinners across days and delete dinners entirely. Ensure the 
   **When** I drag it to Friday (or use a "Move to Friday" action)  
   **Then**:
 
-  * Friday shows that dinner.
+* Friday shows that dinner.
 
-  * Wednesday is empty.
+* Wednesday is empty.
 
-  * The summary panel shows the same number of dinners as before (only days changed).
+* The summary panel shows the same number of dinners as before (only days changed).
 
 * **Given** a planned dinner on Thursday  
   **When** I delete it  
   **Then**:
 
-  * Thursday shows an empty slot / "open" state.
+* Thursday shows an empty slot / "open" state.
 
-  * Total dinners planned decreases by one in the summary.
+* Total dinners planned decreases by one in the summary.
 
 ---
 

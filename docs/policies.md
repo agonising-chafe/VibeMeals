@@ -205,12 +205,12 @@ seed = "user-123-2025-W50-monday:dinner-1"
 function markCooked(slot: Slot) {
   // Deduct ingredients from inventory
   inventoryStore.deductIngredients(slot.recipe, slot.servings);
-  
-  // Log cooking event
+
+// Log cooking event
   slot.status = 'cooked';
   slot.cookedAt = Date.now();
-  
-  // Show toast with Undo
+
+// Show toast with Undo
   toast('Marked as cooked', {
 - Olive oil
 
@@ -257,17 +257,17 @@ function markCooked(slot: Slot) {
 ```typescript
 function learnStaplesFromBehavior() {
   const recentReviews = getQuickReviewHistory(21); // last 21 days
-  
-  for (const [canonicalId, decisions] of recentReviews) {
+
+for (const [canonicalId, decisions] of recentReviews) {
     const consecutiveHaves = decisions.filter(d => d === 'have').length;
-  
-    // Promotion
+
+// Promotion
     if (consecutiveHaves >= 3 and !staples.has(canonicalId)) {
       staples.add(canonicalId);
       toast(`We'll assume you always have ${getName(canonicalId)}`);
     }
-  
-    // Demotion
+
+// Demotion
     if (decisions.includes('dont_have') and staples.has(canonicalId)) {
       staples.delete(canonicalId);
       toast(`We'll add ${getName(canonicalId)} to your lists from now on`);
@@ -561,12 +561,12 @@ seed = "user-123-2025-W50-monday:dinner-1"
 function markCooked(slot: Slot) {
   // Deduct ingredients from inventory
   inventoryStore.deductIngredients(slot.recipe, slot.servings);
-  
-  // Log cooking event
+
+// Log cooking event
   slot.status = 'cooked';
   slot.cookedAt = Date.now();
-  
-  // Show toast with Undo
+
+// Show toast with Undo
   toast('Marked as cooked', {
     action: {
       label: 'Undo',
@@ -578,8 +578,8 @@ function markCooked(slot: Slot) {
 function undoMarkCooked(slot: Slot) {
   // Reverse ingredient deduction
   inventoryStore.addIngredients(slot.recipe, slot.servings);
-  
-  // Reverse cooking log
+
+// Reverse cooking log
   slot.status = 'provisioned';
   slot.cookedAt = undefined;
 }
@@ -640,17 +640,17 @@ function undoMarkCooked(slot: Slot) {
 ```typescript
 function learnStaplesFromBehavior() {
   const recentReviews = getQuickReviewHistory(21); // last 21 days
-  
-  for (const [canonicalId, decisions] of recentReviews) {
+
+for (const [canonicalId, decisions] of recentReviews) {
     const consecutiveHaves = decisions.filter(d => d === 'have').length;
-  
-    // Promotion
+
+// Promotion
     if (consecutiveHaves >= 3 && !staples.has(canonicalId)) {
       staples.add(canonicalId);
       toast(`We'll assume you always have ${getName(canonicalId)}`);
     }
-  
-    // Demotion
+
+// Demotion
     if (decisions.includes('dont_have') && staples.has(canonicalId)) {
       staples.delete(canonicalId);
       toast(`We'll add ${getName(canonicalId)} to your lists from now on`);
@@ -1382,12 +1382,12 @@ seed = "user-123-2025-W50-monday:dinner-1"
 function markCooked(slot: Slot) {
   // Deduct ingredients from inventory
   inventoryStore.deductIngredients(slot.recipe, slot.servings);
-  
-  // Log cooking event
+
+// Log cooking event
   slot.status = 'cooked';
   slot.cookedAt = Date.now();
-  
-  // Show toast with Undo
+
+// Show toast with Undo
   toast('Marked as cooked', {
     action: {
       label: 'Undo',
@@ -1399,8 +1399,8 @@ function markCooked(slot: Slot) {
 function undoMarkCooked(slot: Slot) {
   // Reverse ingredient deduction
   inventoryStore.addIngredients(slot.recipe, slot.servings);
-  
-  // Reverse cooking log
+
+// Reverse cooking log
   slot.status = 'provisioned';
   slot.cookedAt = undefined;
 }
@@ -1461,17 +1461,17 @@ function undoMarkCooked(slot: Slot) {
 ```typescript
 function learnStaplesFromBehavior() {
   const recentReviews = getQuickReviewHistory(21); // last 21 days
-  
-  for (const [canonicalId, decisions] of recentReviews) {
+
+for (const [canonicalId, decisions] of recentReviews) {
     const consecutiveHaves = decisions.filter(d => d === 'have').length;
-  
-    // Promotion
+
+// Promotion
     if (consecutiveHaves >= 3 && !staples.has(canonicalId)) {
       staples.add(canonicalId);
       toast(`We'll assume you always have ${getName(canonicalId)}`);
     }
-  
-    // Demotion
+
+// Demotion
     if (decisions.includes('dont_have') && staples.has(canonicalId)) {
       staples.delete(canonicalId);
       toast(`We'll add ${getName(canonicalId)} to your lists from now on`);
@@ -1657,7 +1657,7 @@ After cooking: 24 oz leftover
 
 - When ingredient is needed and leftover exists:
 
-  ```text
+```text
   Rice (1 cup)
   For Thursday's stir-fry
   [Use leftovers] [Buy fresh]

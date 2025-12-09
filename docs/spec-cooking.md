@@ -49,15 +49,15 @@ Large, centered:
 
 - **Instruction text:** (2-3 sentences max)
 
-  - "While chicken bakes, chop broccoli into bite-sized florets."
+- "While chicken bakes, chop broccoli into bite-sized florets."
 
 - **Optional inline timing:**
 
-  - "This should take ~3 minutes."
+- "This should take ~3 minutes."
 
 - **Optional inline tip:**
 
-  - "Pro tip: Florets about 1-2 inches work best for even roasting."
+- "Pro tip: Florets about 1-2 inches work best for even roasting."
 
 ### 2.3 Navigation Controls
 
@@ -109,11 +109,11 @@ For steps that can run concurrently:
 
 - Steps must be written/ordered so that:
 
-  - Fast recipes: ~20-30 min total execution
+- Fast recipes: ~20-30 min total execution
 
-  - Normal recipes: ~30-50 min total execution
+- Normal recipes: ~30-50 min total execution
 
-  - Project recipes: >50 min, clearly communicated upfront
+- Project recipes: >50 min, clearly communicated upfront
 
 #### Guardrails (G1)
 
@@ -161,11 +161,11 @@ For steps that can run concurrently:
 
 - On tap:
 
-  - "Want to finish this later or switch to something easier?"
+- "Want to finish this later or switch to something easier?"
 
-    - [Resume later] (saves progress, returns to Today)
+- [Resume later] (saves progress, returns to Today)
 
-    - [Switch to easier option] → returns to Today's "Too much tonight" flow
+- [Switch to easier option] → returns to Today's "Too much tonight" flow
 
 #### Guardrails
 
@@ -189,9 +189,9 @@ For parallel steps:
 
 - Example:
 
-  - Step 3: "Put chicken in oven (25 min)."
+- Step 3: "Put chicken in oven (25 min)."
 
-  - Step 4: "Meanwhile, chop vegetables."
+- Step 4: "Meanwhile, chop vegetables."
 
 #### v1 scope
 
@@ -207,15 +207,15 @@ For parallel steps:
 
 - **No walls of text.**
 
-  - Max 2-3 sentences per step.
+- Max 2-3 sentences per step.
 
 - **No assumed techniques.**
 
-  - If a step says "julienne," include a one-line inline tip or link.
+- If a step says "julienne," include a one-line inline tip or link.
 
 - **Clear sequencing.**
 
-  - Steps must be numbered and linear (avoid "go back to step 2" loops).
+- Steps must be numbered and linear (avoid "go back to step 2" loops).
 
 ### 4.2 Time Band Promise (G1)
 
@@ -223,9 +223,9 @@ For parallel steps:
 
 - If testing reveals consistent overruns:
 
-  - Recipe is retagged (Fast → Normal) or
+- Recipe is retagged (Fast → Normal) or
 
-  - Steps are rewritten for efficiency.
+- Steps are rewritten for efficiency.
 
 ### 4.3 Tone (§4.1: Supportive, not bossy)
 
@@ -258,4 +258,5 @@ For parallel steps:
 - Inline video clips for complex techniques.
 
 - "How does this look?" photo checkpoints for key steps.
+
 

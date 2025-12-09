@@ -36,9 +36,9 @@
 
 - **[vision.md](./vision.md)** – Why VibeMeals exists, who it's for, Golden Experience Tests [G1–G6], week shapes, tone, learning, catalog, and system boundaries.  
 
-  - Status: **Locked – v4.6.0**
+- Status: **Locked – v4.6.0**
 
-  - Use this as north star for all product decisions.
+- Use this as north star for all product decisions.
 
 ---
 
@@ -51,57 +51,57 @@ All are wired to `vision.md` and must respect Golden Tests.
 
 - **[spec-planner.md](./spec-planner.md) – Planner (Week View)**
 
-  - Purpose: Weekly planning (5–10 min check-in).
+- Purpose: Weekly planning (5–10 min check-in).
 
-  - Golden Tests: G1, G2, G4, G5, G6.
+- Golden Tests: G1, G2, G4, G5, G6.
 
-  - Covers: Week grid, Generate/Regenerate, lighter weeks, Plan Stability
+- Covers: Week grid, Generate/Regenerate, lighter weeks, Plan Stability
 
 - **[data-model.md](./data-model.md) – Shared Data Model (TypeScript)**
 
-  - Purpose: Interface definitions for Plan, Recipe, ShoppingItem, TonightState.
+- Purpose: Interface definitions for Plan, Recipe, ShoppingItem, TonightState.
 
-  - Referenced by: All 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).
+- Referenced by: All 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).
 
-  - Unblocks: Shop S2, S7, Today T2 (data layer work in Sprint 1).
+- Unblocks: Shop S2, S7, Today T2 (data layer work in Sprint 1).
 
 - **[recipe-spec.md](./recipe-spec.md) – Recipe Catalog Contract**
 
-  - Purpose: Defines what makes a VibeMeals-grade recipe (metadata, ingredients, preflight, steps, tags).
+- Purpose: Defines what makes a VibeMeals-grade recipe (metadata, ingredients, preflight, steps, tags).
 
-  - Referenced by: Planner (P2, P3, P5, P6), Shop (S2, S3, S4, S7, S8, S9), Today (T2, T4, T5, T8), Cooking (C1–C4).
+- Referenced by: Planner (P2, P3, P5, P6), Shop (S2, S3, S4, S7, S8, S9), Today (T2, T4, T5, T8), Cooking (C1–C4).
 
-  - Unblocks: Catalog authoring (manual or AI), consistent ingredient criticality for Shop/Today.
+- Unblocks: Catalog authoring (manual or AI), consistent ingredient criticality for Shop/Today.
 
 - **[recipe-examples.md](./recipe-examples.md) – Seed Recipes & Edge Cases**
 
-  - Purpose: Ready-to-use recipes that exercise time bands, criticality, Quick Review, and preflight/missed-preflight paths.
+- Purpose: Ready-to-use recipes that exercise time bands, criticality, Quick Review, and preflight/missed-preflight paths.
 
-  - Unblocks: Domain helper tests, seed catalog fixtures, and manual/AI authoring calibration.
+- Unblocks: Domain helper tests, seed catalog fixtures, and manual/AI authoring calibration.
 
 - **[spec-today.md](./spec-today.md) – Today (Tonight's Dinner)**
 
-  - Purpose: "What's for dinner tonight?" and making it actually cookable.
+- Purpose: "What's for dinner tonight?" and making it actually cookable.
 
-  - Golden Tests: G1, G4, G6.
+- Golden Tests: G1, G4, G6.
 
-  - Covers: All good state, missed preflight, escape hatches
+- Covers: All good state, missed preflight, escape hatches
 
 - **[spec-shop.md](./spec-shop.md) – Shop (Shopping List & Cart)**
 
-  - Purpose: Turn plan into trustworthy list/cart with optional Quick Review.
+- Purpose: Turn plan into trustworthy list/cart with optional Quick Review.
 
-  - Golden Tests: G2, G3, G5, G6.
+- Golden Tests: G2, G3, G5, G6.
 
-  - Covers: List generation, Quick Review, exports, missing items
+- Covers: List generation, Quick Review, exports, missing items
 
 - **[spec-cooking.md](./spec-cooking.md) – Cooking Mode**
 
-  - Purpose: Step-by-step recipe execution that hits time band promises.
+- Purpose: Step-by-step recipe execution that hits time band promises.
 
-  - Golden Tests: G1, G4, G6.
+- Golden Tests: G1, G4, G6.
 
-  - Covers: Step display, preflight issues, bail-out flows, timers
+- Covers: Step display, preflight issues, bail-out flows, timers
 
 ---
 
@@ -292,4 +292,5 @@ See [changelog.md](changelog.md) for detailed version history and major decision
 This is a living document. As implementation progresses and new insights emerge, update the relevant sections and log changes in the changelog.
 
 **Document Status:** 🟢 Active Development
+
 

@@ -21,11 +21,11 @@ Build the core Today UI shell and wire it to the current plan:
 
 * Primary action buttons:
 
-  * Start Cooking
+* Start Cooking
 
-  * Too much for today → Easier option
+* Too much for today → Easier option
 
-  * We're eating out instead
+* We're eating out instead
 
 * Tomorrow preview strip (stub is fine initially, full implementation in T9)
 
@@ -35,29 +35,29 @@ Build the core Today UI shell and wire it to the current plan:
   * **When** I open Today
   * **Then** I see:
 
-  * Header like "Today – Monday"
+* Header like "Today – Monday"
 
-  * Summary like "Tonight: Sheet-Pan Chicken & Veg · Fast · Serves 4"
+* Summary like "Tonight: Sheet-Pan Chicken & Veg · Fast · Serves 4"
 
-  * A preflight card area (even if showing "No special prep needed" for now)
+* A preflight card area (even if showing "No special prep needed" for now)
 
-  * Buttons:
+* Buttons:
 
-    * Start Cooking
+* Start Cooking
 
-    * Too much for today → Easier option
+* Too much for today → Easier option
 
-    * We're eating out instead
+* We're eating out instead
 
 * **Given** there is **no** dinner planned for tonight  
   **When** I open Today  
   **Then** I see a neutral state like:
 
-  * "No dinner is planned for tonight."
+* "No dinner is planned for tonight."
 
-  * A CTA to "Open Planner" (or similar)
+* A CTA to "Open Planner" (or similar)
 
-  * And **no** broken/empty buttons
+* And **no** broken/empty buttons
 
 ---
 
@@ -84,17 +84,17 @@ This is a simple v1 "is tonight actually viable?" check feeding the Today prefli
   **When** I open Today  
   **Then** the preflight card shows:
 
-  * ✅ style message like "No special prep needed today."
+* ✅ style message like "No special prep needed today."
 
-  * And **does not** show a warning
+* And **does not** show a warning
 
 * **Given** tonight's recipe requires thawing starting this morning and there is no indication it was done  
   **When** I open Today after the preflight window has passed  
   **Then**:
 
-  * The preflight card shows a ⚠️ message like "It looks like we didn't get the chicken thawed in time."
+* The preflight card shows a ⚠️ message like "It looks like we didn't get the chicken thawed in time."
 
-  * The view is considered in MISSED state (used for flows in T4)
+* The view is considered in MISSED state (used for flows in T4)
 
 * **Given** we later add a simple "mark preflight done" input (even a stub toggle)  
   **When** that is set  
@@ -128,20 +128,20 @@ Connect Today's **[Start Cooking]** button to a Cooking Mode experience for toni
 * **When** I tap **[Start Cooking]**
   * **Then**:
 
-  * I am taken to a Cooking Mode view for that recipe
+* I am taken to a Cooking Mode view for that recipe
 
-  * I see numbered steps (1, 2, 3, …)
+* I see numbered steps (1, 2, 3, …)
 
-  * I see the time band label somewhere (e.g., "Fast · ~25 min")
+* I see the time band label somewhere (e.g., "Fast · ~25 min")
 
 * **Given** there is **no** dinner planned for tonight
 
 * **When** I tap **[Start Cooking]**
   * **Then**:
 
-  * The button is disabled or not shown
+* The button is disabled or not shown
 
-  * I am not taken to a broken Cooking Mode
+* I am not taken to a broken Cooking Mode
 
 ---
 
@@ -168,35 +168,35 @@ When preflight is MISSED, Today should show a warning and give a minimal set of 
   **When** I open Today  
   **Then** I see:
 
-  * A ⚠️ card like "It looks like we didn't get the chicken thawed in time."
+* A ⚠️ card like "It looks like we didn't get the chicken thawed in time."
 
-  * And an option group (buttons or list) including at least:
+* And an option group (buttons or list) including at least:
 
-    * Swap tonight's dinner
+* Swap tonight's dinner
 
-    * Move this dinner
+* Move this dinner
 
 #### **Given** I choose **Swap tonight's dinner*
 
-  **Then**:
+**Then**:
 
 * I see 1–3 alternative recipes:
 
-  * That do not require the missed preflight
+* That do not require the missed preflight
 
-  * That are at most the same time band (or easier)
+* That are at most the same time band (or easier)
 
 * If I pick one:
 
-  * Tonight's recipe in the plan is updated
+* Tonight's recipe in the plan is updated
 
-  * Today immediately reflects the new recipe/info
+* Today immediately reflects the new recipe/info
 
-  * Planner is updated behind the scenes
+* Planner is updated behind the scenes
 
 #### **Given** I choose **Move this dinner*
 
-  **Then**:
+**Then**:
 
 * I can pick a later day this week
 
@@ -231,31 +231,31 @@ Support the "I don't have energy for this" path:
 
 #### When**I tap**[Too much for today → Easier option]
 
-  **Then**:
+**Then**:
 
 * I see a small list of 1–3 suggested alternatives
 
 * Each alternative shows:
 
-  * Name
+* Name
 
-  * Time band
+* Time band
 
-  * Short effort description (e.g., "~20 min, 1 pan")
+* Short effort description (e.g., "~20 min, 1 pan")
 
 * **Given** I select one of those alternatives  
   **Then**:
 
-  * Tonight's dinner in the plan is swapped to that recipe
+* Tonight's dinner in the plan is swapped to that recipe
 
-  * Today immediately updates to show the new dinner
+* Today immediately updates to show the new dinner
 
-  * Planner is updated behind the scenes (no need to open Planner)
+* Planner is updated behind the scenes (no need to open Planner)
 
 * **Given** I cancel the Easier Option dialog  
   **Then**:
 
-  * Tonight's original dinner remains unchanged
+* Tonight's original dinner remains unchanged
 
 * Guardrail: suggestions must not require more effort or more complex preflight than the original (G6)
 
@@ -282,36 +282,36 @@ Allow users to mark tonight as "out" and decide what to do with the planned dinn
 
 #### When**I tap**[We're eating out instead]
 
-  **Then**:
+**Then**:
 
 * Tonight's slot is marked as "Out / Skipped" in Today
 
 * I see a simple prompt:
     "What should we do with tonight's planned dinner?"
 
-  * [Move it to another day this week]
+* [Move it to another day this week]
 
-  * [Leave it off the plan]
+* [Leave it off the plan]
 
 * **Given** I choose "Move it to another day this week" and pick a day  
   **Then**:
 
-  * That day gets the dinner in the plan
+* That day gets the dinner in the plan
 
-  * Tonight remains marked as "Out"
+* Tonight remains marked as "Out"
 
 * **Given** I choose "Leave it off the plan"  
   **Then**:
 
-  * The dinner is removed from the plan for tonight
+* The dinner is removed from the plan for tonight
 
-  * Planner no longer shows that dinner anywhere
+* Planner no longer shows that dinner anywhere
 
 * Tone requirement:
 
-  * The final message is something like "Got it, enjoy your night out."
+* The final message is something like "Got it, enjoy your night out."
 
-  * No shaming language (no "you skipped your plan" scolding)
+* No shaming language (no "you skipped your plan" scolding)
 
 ---
 
@@ -334,24 +334,24 @@ Provide a small "Change tonight's dinner" link/CTA that lets users quickly swap 
 * **When** I tap it  
   **Then**:
 
-  * I see a small overlay/panel with 3–6 alternative recipes
+* I see a small overlay/panel with 3–6 alternative recipes
 
-  * Suggestions respect:
+* Suggestions respect:
 
-    * time band,
+* time band,
 
-    * constraints,
+* constraints,
 
-    * household mode
+* household mode
 
 * **When** I choose a new dinner  
   **Then**:
 
-  * Tonight's dinner in the plan is updated
+* Tonight's dinner in the plan is updated
 
-  * Today updates to show the new dinner
+* Today updates to show the new dinner
 
-  * Planner reflects the same change
+* Planner reflects the same change
 
 * **Given** I cancel the mini swap  
   **Then** no changes are applied
@@ -375,9 +375,9 @@ Show a small, non-intrusive preview of tomorrow's dinner and any notable preflig
   **When** I open Today  
   **Then** I see a strip like:
 
-  * "Tomorrow: Slow Cooker Chili (start by 9am)"
+* "Tomorrow: Slow Cooker Chili (start by 9am)"
 
-  * with a link or button "View tomorrow"
+* with a link or button "View tomorrow"
 
 * **Given** tomorrow's dinner has important preflight (e.g., early start)  
   **Then** the preview includes that cue (e.g., "start by 9am", "thaw tonight")
@@ -385,9 +385,9 @@ Show a small, non-intrusive preview of tomorrow's dinner and any notable preflig
 * **Given** there is no dinner planned for tomorrow  
   **Then** the preview either:
 
-  * Shows nothing, or
+* Shows nothing, or
 
-  * Shows neutral text like "No dinner planned for tomorrow yet", with a link to Planner
+* Shows neutral text like "No dinner planned for tomorrow yet", with a link to Planner
 
 ---
 

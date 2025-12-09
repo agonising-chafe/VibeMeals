@@ -43,23 +43,23 @@ Planner uses:
 
 - **Household profile**
 
-  - Mode (family, solo, DINK, empty nest, large household)
+- Mode (family, solo, DINK, empty nest, large household)
 
-  - Headcount
+- Headcount
 
-  - Target dinners/week (derived from mode, editable)
+- Target dinners/week (derived from mode, editable)
 
-  - Time/effort preference (mix of Fast/Normal/Project)
+- Time/effort preference (mix of Fast/Normal/Project)
 
-  - Simple constraints (e.g., no pork, no gluten)
+- Simple constraints (e.g., no pork, no gluten)
 
 - **Historical behavior**
 
-  - Favorites / successful recipes
+- Favorites / successful recipes
 
-  - Repeat guard (avoid spamming same meals)
+- Repeat guard (avoid spamming same meals)
 
-  - Waste signals (recipes that lead to unused ingredients)
+- Waste signals (recipes that lead to unused ingredients)
 
 - **Store choice** (optional in v1; improves SKU hints, not required)
 
@@ -85,21 +85,21 @@ Planner output is a **week of dinners** aligned to the **week shapes** in `visio
 
 - Each day shows:
 
-  - **Dinner card** (or "Empty")
+- **Dinner card** (or "Empty")
 
-    - Recipe title
+- Recipe title
 
-    - Time band pill: Fast / Normal / Project
+- Time band pill: Fast / Normal / Project
 
-    - Servings count
+- Servings count
 
-    - Leftover icon if "cook once, eat twice"
+- Leftover icon if "cook once, eat twice"
 
-  - Small indicators:
+- Small indicators:
 
-    - Preflight badge (if notable preflight that day)
+- Preflight badge (if notable preflight that day)
 
-    - Lock icon if user locked the slot
+- Lock icon if user locked the slot
 
 ### 3.3 Week Summary Panel
 
@@ -137,11 +137,11 @@ Planner output is a **week of dinners** aligned to the **week shapes** in `visio
 
 - Picks recipes that:
 
-  - Fit time bands (Fast/Normal/Project mix)
+- Fit time bands (Fast/Normal/Project mix)
 
-  - Respect constraints (diet, equipment, ability)
+- Respect constraints (diet, equipment, ability)
 
-  - Avoid recent repeats
+- Avoid recent repeats
 
 1. Grid populates with dinner cards per night.
 
@@ -149,9 +149,9 @@ Planner output is a **week of dinners** aligned to the **week shapes** in `visio
 
 - Swap / Reroll on a card:
 
-  - **Swap:** choose from a small set (2–4) of suitable alternatives.
+- **Swap:** choose from a small set (2–4) of suitable alternatives.
 
-  - **Reroll:** one-tap "similar vibe, different recipe."
+- **Reroll:** one-tap "similar vibe, different recipe."
 
 - Lock slots they're happy with.
 
@@ -173,46 +173,46 @@ Users can adjust the current week without redoing everything.
 
 - **Swap**
 
-  - Opens a small panel with 2–4 recipe suggestions:
+- Opens a small panel with 2–4 recipe suggestions:
 
-    - Same or easier time band
+- Same or easier time band
 
-    - Compatible with constraints
+- Compatible with constraints
 
-    - Similar cost/ingredient footprint where possible
+- Similar cost/ingredient footprint where possible
 
 - **Reroll**
 
-  - Instantly replaces with a similar recipe (same general pattern: tacos ↔ bowls ↔ nachos).
+- Instantly replaces with a similar recipe (same general pattern: tacos ↔ bowls ↔ nachos).
 
 - **Move**
 
-  - Drag-and-drop card to another day **or**
+- Drag-and-drop card to another day **or**
 
-  - "Move to…" menu with day list.
+- "Move to…" menu with day list.
 
 - **Delete**
 
-  - Clears that day's dinner (marked as "Open" / "Leftovers / Out").
+- Clears that day's dinner (marked as "Open" / "Leftovers / Out").
 
 #### Plan stability (from `vision.md` §7.X)
 
 - If the user has **not** yet completed the main shop:
 
-  - **[Regenerate]** can recalc any unlocked slots.
+- **[Regenerate]** can recalc any unlocked slots.
 
 - If the user **has** indicated the main shop is done (e.g., "I've shopped for this plan" flag):
 
-  - **[Regenerate]** must:
+- **[Regenerate]** must:
 
-    - Show a warning:  
+- Show a warning:  
       > "This will change your shopping list. You may need to adjust your cart. Continue?"
 
-    - Respect all **locked slots** (never change them).
+- Respect all **locked slots** (never change them).
 
-    - Prefer to only adjust **future days** and non-critical recipes.
+- Prefer to only adjust **future days** and non-critical recipes.
 
-  - Silent background changes to the current week are **not allowed** (see Plan Stability in vision).
+- Silent background changes to the current week are **not allowed** (see Plan Stability in vision).
 
 ---
 
@@ -224,27 +224,27 @@ Planner must support intentionally lighter weeks (G4).
 
 - A small "This Week" control (dropdown or slider):
 
-  - `Number of dinners this week: [2–7]`
+- `Number of dinners this week: [2–7]`
 
 - Defaults from week shape by mode:
 
-  - Family: 4–7
+- Family: 4–7
 
-  - Solo: 2–4
+- Solo: 2–4
 
-  - DINK: 3–5
+- DINK: 3–5
 
-  - Empty nest: 3–4
+- Empty nest: 3–4
 
-  - Large: 3–5
+- Large: 3–5
 
 #### Behavior
 
 - When user reduces count and regenerates:
 
-  - Planner fills only that many dinners.
+- Planner fills only that many dinners.
 
-  - Remaining nights are implicitly "leftovers / out / flex," shown as open blocks.
+- Remaining nights are implicitly "leftovers / out / flex," shown as open blocks.
 
 - No guilt copy; we do **not** frame fewer dinners as failure.
 
@@ -254,23 +254,23 @@ Planner must support intentionally lighter weeks (G4).
 
 - **No forced 7×7 grid.**
 
-  - Plan shape **must** respect household mode definitions.
+- Plan shape **must** respect household mode definitions.
 
 - **No heavy setup gating Generate Plan.**
 
-  - No pantry setup, long preference wizards, or tagging marathons as prerequisites.
+- No pantry setup, long preference wizards, or tagging marathons as prerequisites.
 
 - **Locks are sacred.**
 
-  - Regenerate **never** touches locked slots.
+- Regenerate **never** touches locked slots.
 
 - **Preflight visibility.**
 
-  - Planner shows a simple overview of preflight-heavy days (icons per card + weekly summary).
+- Planner shows a simple overview of preflight-heavy days (icons per card + weekly summary).
 
 - **Tone.**
 
-  - Copy must follow Tone & Emotional Contract: no shame for light weeks or changes.
+- Copy must follow Tone & Emotional Contract: no shame for light weeks or changes.
 
 ---
 
@@ -285,4 +285,5 @@ Planner must support intentionally lighter weeks (G4).
 - Per-day "energy" sliders that modify time band targets dynamically.
 
 - Calendar integration to show "late practice" or "work event" alongside plan.
+
 

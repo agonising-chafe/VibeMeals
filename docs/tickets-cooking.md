@@ -31,13 +31,13 @@ Build Cooking Mode with step-by-step interface:
   * **When** Cooking Mode opens
   * **Then** I see:
 
-  * Header: "Sheet-Pan Chicken & Veg · Fast (20–30 min)"
+* Header: "Sheet-Pan Chicken & Veg · Fast (20–30 min)"
 
-  * Step 1 of 6: "Preheat your oven to 425°F."
+* Step 1 of 6: "Preheat your oven to 425°F."
 
-  * [Next Step] button prominent at bottom
+* [Next Step] button prominent at bottom
 
-  * Optional [Back] button (disabled on Step 1)
+* Optional [Back] button (disabled on Step 1)
 
 * **Given** I tap [Next Step] 5 times  
   **Then** I progress through steps 2–6  
@@ -67,9 +67,9 @@ Embed timer cues directly into step copy with optional quick-set timer action.
 * **Given** Step 4 reads: "Put the pan in the oven and bake for 20 minutes."
   * **Then** The step includes:
 
-  * Inline copy: "bake for 20 minutes"
+* Inline copy: "bake for 20 minutes"
 
-  * Optional [Set 20-min timer] button below the step text
+* Optional [Set 20-min timer] button below the step text
 
 * **Given** I tap [Set 20-min timer]  
   **Then** A system timer starts (platform-dependent: browser notification, OS timer, etc.)  
@@ -100,11 +100,11 @@ If user discovers preflight issue mid-cook (e.g., chicken not thawed), provide c
   * **When** I tap [Help] or [Something's wrong]
   * **Then** I see options:
 
-  * "Chicken not ready? Swap to a backup recipe."
+* "Chicken not ready? Swap to a backup recipe."
 
-  * "Pause and thaw quickly" (if viable)
+* "Pause and thaw quickly" (if viable)
 
-  * "Cancel cooking" (returns to Today)
+* "Cancel cooking" (returns to Today)
 
 * **Given** I choose "Swap to a backup recipe"  
   **Then** I see 1–2 Fast recipes that don't require chicken  
@@ -136,13 +136,13 @@ Allow user to exit mid-cook if the recipe is taking longer than expected, with c
   * **When** I tap [Help] or [This is taking too long]
   * **Then** I see:
 
-  * "Want to switch to something faster?"
+* "Want to switch to something faster?"
 
-  * Option 1: "Pick a 15-min backup"
+* Option 1: "Pick a 15-min backup"
 
-  * Option 2: "Order takeout instead" (exits to Today)
+* Option 2: "Order takeout instead" (exits to Today)
 
-  * Option 3: "Keep going" (stays in Cooking Mode)
+* Option 3: "Keep going" (stays in Cooking Mode)
 
 * **Given** I choose "Pick a 15-min backup"  
   **Then** I see 1–2 ultra-fast recipes  

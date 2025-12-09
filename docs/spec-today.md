@@ -43,7 +43,7 @@ Today is the **"do it tonight"** surface.
 
 - One-line summary:
 
-  - `Tonight: Sheet-Pan Chicken & Veg · Fast · Serves 4`
+- `Tonight: Sheet-Pan Chicken & Veg · Fast · Serves 4`
 
 ### 2.2 Preflight Status Card
 
@@ -108,19 +108,19 @@ Small strip:
 
 - **Start Cooking**
 
-  - Opens Cooking Mode:
+- Opens Cooking Mode:
 
-    - Step-by-step, numbered instructions.
+- Step-by-step, numbered instructions.
 
-    - Time-aware steps, simple and clear.
+- Time-aware steps, simple and clear.
 
 - **Too much → Easier**
 
-  - See 3.3.
+- See 3.3.
 
 - **We're eating out instead**
 
-  - See 3.4.
+- See 3.4.
 
 ---
 
@@ -140,17 +140,17 @@ Small strip:
 
 - Offers 2–3 options:
 
-  1. **Swap tonight's dinner**  
+1. **Swap tonight's dinner**  
 
-  - Choose a Fast recipe that doesn't require the missed preflight.
+- Choose a Fast recipe that doesn't require the missed preflight.
 
-  1. **Move this dinner**  
+1. **Move this dinner**  
 
-  - Move to a later day and adjust plan accordingly.
+- Move to a later day and adjust plan accordingly.
 
-  1. **Use a backup (if viable)**  
+1. **Use a backup (if viable)**  
 
-  - E.g., "Use pantry pasta and jarred sauce tonight instead."
+- E.g., "Use pantry pasta and jarred sauce tonight instead."
 
 Tone must be supportive and non-blaming (vision §4.1).
 
@@ -204,9 +204,9 @@ Tone must be supportive and non-blaming (vision §4.1).
 
 - "What should we do with tonight's planned dinner?"
 
-  - [Move it to another day this week]  
+- [Move it to another day this week]  
 
-  - [Leave it off the plan for now]
+- [Leave it off the plan for now]
 
 1. If moved:
 
@@ -220,9 +220,9 @@ Tone must be supportive and non-blaming (vision §4.1).
 
 - Normalize going out:
 
-  - "Got it, enjoy your night out."
+- "Got it, enjoy your night out."
 
-  - No "you didn't stick to your plan."
+- No "you didn't stick to your plan."
 
 ---
 
@@ -234,9 +234,9 @@ Tone must be supportive and non-blaming (vision §4.1).
 
 - All escape flows (Too much / Out instead) must:
 
-  - Preserve Plan Stability rules (no silent changes to other nights).
+- Preserve Plan Stability rules (no silent changes to other nights).
 
-  - Be guilt-free and low friction.
+- Be guilt-free and low friction.
 
 - No configuration or deep settings here; Today is about **execution**.
 
@@ -249,4 +249,5 @@ Tone must be supportive and non-blaming (vision §4.1).
 - Special handling for multi-dish nights (main + side) in Today vs Cooking Mode.
 
 - Integration with calendar to surface "late night" or "busy day" context automatically.
+
 

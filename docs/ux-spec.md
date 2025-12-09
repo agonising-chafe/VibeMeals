@@ -466,11 +466,11 @@ After final step:
 
 - Derived badges:
 
-  - ⚠️ **Low soon** - Quantity dropping, consider restocking
+- ⚠️ **Low soon** - Quantity dropping, consider restocking
 
-  - 🚫 **Expiring** - Use within 3 days
+- 🚫 **Expiring** - Use within 3 days
 
-  - ❗ **Expired** - Past use-by date
+- ❗ **Expired** - Past use-by date
 
 - **Not required for value**: System works without pantry via implicit inventory
 
@@ -775,11 +775,11 @@ Pantry (drawer, optional)
 
 - **Behavior:** Opens drawer with 3-5 alternatives:
 
-  - Same time band
+- Same time band
 
-  - Similar vibes/cuisine
+- Similar vibes/cuisine
 
-  - Different enough to feel like a choice
+- Different enough to feel like a choice
 
 - **Drawer layout:**
 
@@ -824,15 +824,15 @@ Pantry (drawer, optional)
 
 - **Behavior:** Opens full-height drawer with:
 
-  - Full ingredient list (scaled to servings)
+- Full ingredient list (scaled to servings)
 
-  - Complete step-by-step instructions
+- Complete step-by-step instructions
 
-  - Estimated time, difficulty, equipment needed
+- Estimated time, difficulty, equipment needed
 
-  - Nutritional info (if available)
+- Nutritional info (if available)
 
-  - "Start Cooking" button
+- "Start Cooking" button
 
 - **User can start cooking from here** without leaving drawer
 

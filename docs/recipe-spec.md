@@ -43,13 +43,13 @@ interface Recipe {
   name: string;
   slug: string;
 
-  metadata: RecipeMetadata;
+metadata: RecipeMetadata;
   ingredients: RecipeIngredientRequirement[];
   preflight: RecipePreflightRequirement[];
 
-  steps: RecipeStep[]; // see Section 6 (can start minimal)
+steps: RecipeStep[]; // see Section 6 (can start minimal)
 
-  // optional personalization hooks
+// optional personalization hooks
   tags?: RecipeTag[];
   variantHints?: VariantHint[];
 }

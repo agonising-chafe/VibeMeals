@@ -172,19 +172,19 @@ This final version completes the vision document as handoff-ready foundation for
 
 - Decision framework for resolving product tradeoffs with explicit Golden Test references:
 
-  - Clever vs Safe → Choose safe (G1, G3)
+- Clever vs Safe → Choose safe (G1, G3)
 
-  - Variety vs Cookability → Choose cookability (G1, G6)
+- Variety vs Cookability → Choose cookability (G1, G6)
 
-  - Save $3 vs Avoid second trip → Avoid second trip (G3, G5)
+- Save $3 vs Avoid second trip → Avoid second trip (G3, G5)
 
-  - Precision inventory vs Low user effort → Choose low effort (G2)
+- Precision inventory vs Low user effort → Choose low effort (G2)
 
-  - Perfect adherence vs Plans that bend → Choose bend (G4)
+- Perfect adherence vs Plans that bend → Choose bend (G4)
 
-  - Learning fast vs Learning stable → Choose stable (Section 14.4)
+- Learning fast vs Learning stable → Choose stable (Section 14.4)
 
-  - More features vs Core promises → Choose core promises (Golden Tests non-negotiable)
+- More features vs Core promises → Choose core promises (Golden Tests non-negotiable)
 
 - Explicit enforcement clause: "When a feature conflicts with these, feature must change or be dropped"
 
@@ -192,15 +192,15 @@ This final version completes the vision document as handoff-ready foundation for
 
 - Defines 5 required surfaces in user-facing terms (not capabilities):
 
-  - **Planner (Week View):** 5-10min check-in, household mode shapes, lock/swap/reroll, preflight visibility
+- **Planner (Week View):** 5-10min check-in, household mode shapes, lock/swap/reroll, preflight visibility
 
-  - **Today View:** Single answer ("tonight's dinner"), preflight state, one-tap downgrade/skip
+- **Today View:** Single answer ("tonight's dinner"), preflight state, one-tap downgrade/skip
 
-  - **Shop / List → Cart:** De-duplicated + grouped, optional Quick Review (non-critical only), export options
+- **Shop / List → Cart:** De-duplicated + grouped, optional Quick Review (non-critical only), export options
 
-  - **Cooking Mode:** Step-by-step numbered, time-aware bands, parallelized without confusion
+- **Cooking Mode:** Step-by-step numbered, time-aware bands, parallelized without confusion
 
-  - **Settings / Household Profile:** Mode + headcount, dinners/week, constraints (lightweight)
+- **Settings / Household Profile:** Mode + headcount, dinners/week, constraints (lightweight)
 
 - Success metrics tied directly to G1/G2/G3
 
@@ -234,13 +234,13 @@ This final version completes the vision document as handoff-ready foundation for
 
 - Next steps are NOT more vision; they are:
 
-  - UX spec (flows, wireframes, interaction patterns)
+- UX spec (flows, wireframes, interaction patterns)
 
-  - Technical spec (DLE architecture, data models, APIs)
+- Technical spec (DLE architecture, data models, APIs)
 
-  - Design spec (visual design, component library, copy examples)
+- Design spec (visual design, component library, copy examples)
 
-  - Implementation tickets (scoped against v1 thin slice)
+- Implementation tickets (scoped against v1 thin slice)
 
 Any attempt to add user flows, UI mockups, technical architecture, or more persona stories to this document should be redirected to appropriate spec.
 
@@ -318,19 +318,19 @@ Added comprehensive scope definition clarifying what VibeMeals owns vs what stor
 
 - **New Section 15: System Boundaries & Integrations** (inserted after Learning & Adaptation, Appendices renumbered to Section 16)
 
-  - 15.1: What VibeMeals Owns – weekly plan logic, DLE, shopping lists, cooking flow, learning/personalization
+- 15.1: What VibeMeals Owns – weekly plan logic, DLE, shopping lists, cooking flow, learning/personalization
 
-  - 15.2: What VibeMeals Does *Not* Own – real-time store inventory, payments/fulfillment, precise pantry inventory, nutrition/diet coaching, social features
+- 15.2: What VibeMeals Does *Not* Own – real-time store inventory, payments/fulfillment, precise pantry inventory, nutrition/diet coaching, social features
 
-  - 15.3: Store & Cart Integrations – smart front-end for planning, not replacement for store apps; failure handling for missing items
+- 15.3: Store & Cart Integrations – smart front-end for planning, not replacement for store apps; failure handling for missing items
 
-  - 15.4: Pantry Brain Boundaries – fuzzy inference, never drops critical ingredients, optional suggestions with quick overrides
+- 15.4: Pantry Brain Boundaries – fuzzy inference, never drops critical ingredients, optional suggestions with quick overrides
 
-  - 15.5: Calendar, Reminders & External Tools – cooperation not replacement, minimal reminder spam, calendar as planning input
+- 15.5: Calendar, Reminders & External Tools – cooperation not replacement, minimal reminder spam, calendar as planning input
 
-  - 15.6: Data & Privacy Posture – high-level product stance on data use aligned with G1-G6, no shaming/selling patterns
+- 15.6: Data & Privacy Posture – high-level product stance on data use aligned with G1-G6, no shaming/selling patterns
 
-  - 15.7: Boundary Checks for New Features – 3-question framework referencing G1-G6, Section 14 (Learning), Section 8 (Catalog), Section 4.1 (Tone)
+- 15.7: Boundary Checks for New Features – 3-question framework referencing G1-G6, Section 14 (Learning), Section 8 (Catalog), Section 4.1 (Tone)
 
 #### Impact
 
@@ -372,23 +372,23 @@ Added comprehensive operational constraints defining what recipes belong in Vibe
 
 - **New Section 8: Recipe Catalog & Time Bands** (inserted after DLE Promise, all subsequent sections renumbered)
 
-  - 8.1: Catalog Purpose – logistics first, not infinite discovery
+- 8.1: Catalog Purpose – logistics first, not infinite discovery
 
-  - 8.2: Time Bands – The Contract (FAST ≤30min, NORMAL 30-50min, PROJECT >50min) with explicit connection to Section 5.2 household modes
+- 8.2: Time Bands – The Contract (FAST ≤30min, NORMAL 30-50min, PROJECT >50min) with explicit connection to Section 5.2 household modes
 
-  - 8.3: Preflight – no hidden time bombs (thawing, marinating, slow-cooker start times)
+- 8.3: Preflight – no hidden time bombs (thawing, marinating, slow-cooker start times)
 
-  - 8.4: Equipment Expectations – baseline vs optional equipment, tagging requirements
+- 8.4: Equipment Expectations – baseline vs optional equipment, tagging requirements
 
-  - 8.5: Ingredient Philosophy – boring-but-available over exotic-but-impressive
+- 8.5: Ingredient Philosophy – boring-but-available over exotic-but-impressive
 
-  - 8.6: Portions & Scaling – canonical servings, graceful scaling for large households
+- 8.6: Portions & Scaling – canonical servings, graceful scaling for large households
 
-  - 8.7: Household-Mode Sensitivity – catalog filtering rules by mode (tightened from persona re-explanation to actionable filtering)
+- 8.7: Household-Mode Sensitivity – catalog filtering rules by mode (tightened from persona re-explanation to actionable filtering)
 
-  - 8.8: Catalog Hygiene – when to retag or remove recipes based on real-world behavior
+- 8.8: Catalog Hygiene – when to retag or remove recipes based on real-world behavior
 
-  - 8.9: Alignment with Golden Experiences – catalog rules as G1-G6 enforcement mechanisms
+- 8.9: Alignment with Golden Experiences – catalog rules as G1-G6 enforcement mechanisms
 
 #### Refinements Applied
 
@@ -444,23 +444,23 @@ Added comprehensive framework for how VibeMeals learns from user behavior withou
 
 - **New Section 13: Learning & Adaptation Principles**
 
-  - 13.1: Day-One Contract (system must work before it "knows you")
+- 13.1: Day-One Contract (system must work before it "knows you")
 
-  - 13.2: Signals We Learn From (explicit vs implicit, with weighting rules to prevent false positives)
+- 13.2: Signals We Learn From (explicit vs implicit, with weighting rules to prevent false positives)
 
-  - 13.3: What We Learn (And What We Don't) – lightweight household profile, not psychoanalysis
+- 13.3: What We Learn (And What We Don't) – lightweight household profile, not psychoanalysis
 
-  - 13.4: How Fast We Adapt – stability over hyper-reactive personalization; explicit connection to Section 5.2 household modes
+- 13.4: How Fast We Adapt – stability over hyper-reactive personalization; explicit connection to Section 5.2 household modes
 
-  - 13.5: Guardrails – what learning must never do to protect G1-G6
+- 13.5: Guardrails – what learning must never do to protect G1-G6
 
-  - 13.6: Transparency – legible one-sentence explanations with tone guardrails matching Section 4.1 voice
+- 13.6: Transparency – legible one-sentence explanations with tone guardrails matching Section 4.1 voice
 
-  - 13.7: User Control – easy nudges and local resets without starting over
+- 13.7: User Control – easy nudges and local resets without starting over
 
-  - 13.8: Baseline Behavior – defaults for low-data states ("a bit generic" not "wildly wrong")
+- 13.8: Baseline Behavior – defaults for low-data states ("a bit generic" not "wildly wrong")
 
-  - 13.9: How This Connects to the DLE – learning within DLE safety guarantees
+- 13.9: How This Connects to the DLE – learning within DLE safety guarantees
 
 #### Impact
 
@@ -498,17 +498,17 @@ Added explicit voice and emotional contract guidelines to prevent the pain-drive
 
 - **New Section 4.1: Tone & Emotional Contract**
 
-  - Defines VibeMeals voice: "tired but competent friend" who is good at logistics, never judgmental
+- Defines VibeMeals voice: "tired but competent friend" who is good at logistics, never judgmental
 
-  - 4 core emotional promises: normalize chaos, celebrate small wins, never weaponize data, side with user not system
+- 4 core emotional promises: normalize chaos, celebrate small wins, never weaponize data, side with user not system
 
-  - Concrete "do/don't say" examples for common pain points (5pm panic, missed preflight, takeout, waste, constraints)
+- Concrete "do/don't say" examples for common pain points (5pm panic, missed preflight, takeout, waste, constraints)
 
-  - Special guidance for health constraints, low-confidence cooks, and confident cooks
+- Special guidance for health constraints, low-confidence cooks, and confident cooks
 
-  - Copy guardrails with litmus test: "Does this make user feel helped or judged?"
+- Copy guardrails with litmus test: "Does this make user feel helped or judged?"
 
-  - Explicit connection to Golden Experience Tests (G1, G2, G4, G5, G6)
+- Explicit connection to Golden Experience Tests (G1, G2, G4, G5, G6)
 
 #### Impact
 
@@ -536,15 +536,15 @@ Added critical operational anchor that defines what a "successful week" looks li
 
 - **New Section 5.2: Household Modes & Default Week Shapes**
 
-  - Defines 5 primary household modes: Family with Kids, Solo/Planning for One, DINK, Empty Nest, Large/Multi-Gen
+- Defines 5 primary household modes: Family with Kids, Solo/Planning for One, DINK, Empty Nest, Large/Multi-Gen
 
-  - Specifies default week shape for each mode (# dinners, time mix, leftover patterns)
+- Specifies default week shape for each mode (# dinners, time mix, leftover patterns)
 
-  - Establishes "what good looks like" metrics per household type
+- Establishes "what good looks like" metrics per household type
 
-  - Adds cross-mode principles (5-10 min planning, one shop, flexible plans, visible preflight)
+- Adds cross-mode principles (5-10 min planning, one shop, flexible plans, visible preflight)
 
-  - Prevents regression to "7-dinner grid for everyone" default
+- Prevents regression to "7-dinner grid for everyone" default
 
 #### Impact
 
@@ -666,11 +666,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - `canProceedToShop()` always returns `true`
+- `canProceedToShop()` always returns `true`
 
-  - Quick Review becomes optional cost-saving tool, not requirement
+- Quick Review becomes optional cost-saving tool, not requirement
 
-  - Eliminates "Low confidence detected" error states
+- Eliminates "Low confidence detected" error states
 
 #### 2. **Learn from Behavior, Not Surveys**
 
@@ -680,11 +680,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - FTUE reduced to 2 questions (servings, time preference), both optional
+- FTUE reduced to 2 questions (servings, time preference), both optional
 
-  - Smart staples learn from Quick Review behavior (3+ weeks → promote to staple)
+- Smart staples learn from Quick Review behavior (3+ weeks → promote to staple)
 
-  - Taste profile builds from Weekly Recap feedback, not surveys
+- Taste profile builds from Weekly Recap feedback, not surveys
 
 #### 3. **Modular Store Architecture**
 
@@ -694,11 +694,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - Each store has clear boundaries and purpose
+- Each store has clear boundaries and purpose
 
-  - Easier to unit test
+- Easier to unit test
 
-  - Reduces merge conflicts in team development
+- Reduces merge conflicts in team development
 
 #### 4. **Implicit Inventory Over Manual Entry**
 
@@ -708,11 +708,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - Mark Purchased updates inventory automatically
+- Mark Purchased updates inventory automatically
 
-  - Cook Mode auto-deducts ingredients
+- Cook Mode auto-deducts ingredients
 
-  - Pantry drawer available but not required for value
+- Pantry drawer available but not required for value
 
 #### 5. **Auto-Confirm Where Possible**
 
@@ -722,11 +722,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - Mark Purchased becomes one-tap: "Did you get everything? [Yes]"
+- Mark Purchased becomes one-tap: "Did you get everything? [Yes]"
 
-  - No item-by-item confirmation
+- No item-by-item confirmation
 
-  - Global Undo makes mistakes reversible
+- Global Undo makes mistakes reversible
 
 #### 6. **Deterministic Rerolls**
 
@@ -736,11 +736,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - Rerolling with same inputs produces same output
+- Rerolling with same inputs produces same output
 
-  - Undo is perfectly reversible
+- Undo is perfectly reversible
 
-  - Easier to debug issues ("Show me the seed")
+- Easier to debug issues ("Show me the seed")
 
 #### 7. **Two-Stop Navigation (Plan → Shop)**
 
@@ -750,11 +750,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - Clearer user flow
+- Clearer user flow
 
-  - Fewer "where am I?" moments
+- Fewer "where am I?" moments
 
-  - Mobile-friendly (vertical navigation)
+- Mobile-friendly (vertical navigation)
 
 #### 8. **Questions, Not Errors**
 
@@ -764,11 +764,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - Quick Review feels collaborative, not punitive
+- Quick Review feels collaborative, not punitive
 
-  - Lower bounce rate on review step
+- Lower bounce rate on review step
 
-  - Aligns with "calm automation" philosophy
+- Aligns with "calm automation" philosophy
 
 #### 9. **Leftover Tracking & Reuse**
 
@@ -778,11 +778,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - "🍚 Uses leftover rice" badges on recipe cards
+- "🍚 Uses leftover rice" badges on recipe cards
 
-  - Quick Review offers "Use leftovers" option
+- Quick Review offers "Use leftovers" option
 
-  - Expiry estimates with gentle prompts
+- Expiry estimates with gentle prompts
 
 #### 10. **Graceful Degradation**
 
@@ -792,11 +792,11 @@ Complete rewrite of VibeMeals documentation with focus on implementation-readine
 
 - **Impact:**
 
-  - CSV → Text fallback (no external carts)
+- CSV → Text fallback (no external carts)
 
-  - Generate Plan failures offer solutions, not dead ends
+- Generate Plan failures offer solutions, not dead ends
 
-  - Cook Mode resume after crash
+- Cook Mode resume after crash
 
 ---
 
@@ -1023,4 +1023,5 @@ For future versions, migration guides will be added here.
 ---
 
 #### [Back to Index](index.md)
+
 

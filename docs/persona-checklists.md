@@ -152,19 +152,20 @@ For any feature, ask:
 - Then: **"Does this make life worse for Brianna / Kayla / Danielle / Jake & Maya / Ellen & Mark?"**  
   The others are contrast tests:
 
-  - **Kayla:** planning-for-one + delivery competition
+- **Kayla:** planning-for-one + delivery competition
 
-  - **Brianna:** budget stress
+- **Brianna:** budget stress
 
-  - **Danielle:** interrupted time + emotional load
+- **Danielle:** interrupted time + emotional load
 
-  - **Jake & Maya:** volatility + low kid-chaos
+- **Jake & Maya:** volatility + low kid-chaos
 
-  - **Ellen & Mark:** small plans + grooves
+- **Ellen & Mark:** small plans + grooves
 
 If any checklist box gets checked, either redesign or consciously accept that trade-off.
 
 ---
 
 **Related:** See [vision.md](./vision.md) for complete persona profiles, Golden Stories, and experience tests.
+
 

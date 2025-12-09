@@ -31,13 +31,13 @@ Build the Shop UI shell and wire it to ingredient data:
   **When** I open Shop  
   **Then** I see:
 
-  * Header: "Shop – 5 dinners this week"
+* Header: "Shop – 5 dinners this week"
 
-  * Grouped ingredient list (Produce, Meat/Fish, Pantry, Dairy, etc.)
+* Grouped ingredient list (Produce, Meat/Fish, Pantry, Dairy, etc.)
 
-  * Each item: [ ] 1 lb chicken breast, [ ] 2 bell peppers, etc.
+* Each item: [ ] 1 lb chicken breast, [ ] 2 bell peppers, etc.
 
-  * Items organized logically within each category
+* Items organized logically within each category
 
 * **Given** a recipe requires "2 bell peppers"  
   **Then** The shopping list includes "2 bell peppers" (conservative estimate)  
@@ -104,18 +104,18 @@ Assign each consolidated ingredient to a category and surface which recipes use 
 * **Given** I have items: chicken, onions, milk, rice  
   **Then** I see them grouped roughly as:
 
-  * Meat & Seafood: Chicken breast
+* Meat & Seafood: Chicken breast
 
-  * Produce: Onions
+* Produce: Onions
 
-  * Dairy & Eggs: Milk
+* Dairy & Eggs: Milk
 
-  * Pantry & Dry: Rice
+* Pantry & Dry: Rice
 
 * **Given** `Onions` are used in 2 recipes  
   **Then** the row shows something like:
 
-  * "Used in: Chili, Sheet-Pan Chicken" (truncated is fine for many recipes).
+* "Used in: Chili, Sheet-Pan Chicken" (truncated is fine for many recipes).
 
 * **Given** a row is clicked (if you support expansion)  
   **Then** I can see a bit more detail about which recipes and how many times it's used (optional v1).
@@ -140,11 +140,11 @@ Add **[Quick Review]** button that shows 5–10 common pantry items user might a
 * **When** I tap **[Quick Review]**
   * **Then** I see a focused panel with ~5-10 common pantry staples:
 
-  * "Do you already have these?"
+* "Do you already have these?"
 
-  * [ ] Olive oil, [ ] Garlic, [ ] Onions, [ ] Salt, [ ] Black pepper (example)
+* [ ] Olive oil, [ ] Garlic, [ ] Onions, [ ] Salt, [ ] Black pepper (example)
 
-  * "Hide these from my list" button at bottom
+* "Hide these from my list" button at bottom
 
 * **Given** I check 3 items and tap "Hide these"  
   **Then** Those items are removed from the main list  
@@ -159,11 +159,11 @@ Add **[Quick Review]** button that shows 5–10 common pantry items user might a
 
 * Quick Review must **never** include:
 
-  * Core proteins (e.g., chicken, ground beef)
+* Core proteins (e.g., chicken, ground beef)
 
-  * Main carbs for mains
+* Main carbs for mains
 
-  * Key vegetables that define a recipe
+* Key vegetables that define a recipe
 
 * Skipping Quick Review must not block proceeding.
 
@@ -193,11 +193,11 @@ Allow user to export shopping list via:
 * **When** I tap **[Share]** or **[Copy]**
   * **Then** The full list is formatted cleanly:
 
-  * "VibeMeals – Shopping List for Week of [date]"
+* "VibeMeals – Shopping List for Week of [date]"
 
-  * Grouped by category (Produce, Meat/Fish, Pantry, etc.)
+* Grouped by category (Produce, Meat/Fish, Pantry, etc.)
 
-  * Checked items excluded (or marked separately)
+* Checked items excluded (or marked separately)
 
 * **Given** I select "Copy to clipboard"  
   **Then** The list is copied as plain text  
@@ -263,21 +263,21 @@ This will inform:
 * **Given** the ingredient model  
   **Then** each ingredient can be classified at least as:
 
-  * `critical = true/false` or similar.
+* `critical = true/false` or similar.
 
 * **Given** critical ingredients  
   **Then**:
 
-  * They are **never** surfaced in Quick Review as "you might already have this."
+* They are **never** surfaced in Quick Review as "you might already have this."
 
-  * Missing them triggers a full "missing ingredient" state in Today (see S8).
+* Missing them triggers a full "missing ingredient" state in Today (see S8).
 
 * **Given** non-critical ingredients  
   **Then**:
 
-  * They may appear in Quick Review.
+* They may appear in Quick Review.
 
-  * Missing them leads to a minor note in Today (if anything), not full "we can't cook this".
+* Missing them leads to a minor note in Today (if anything), not full "we can't cook this".
 
 #### **Examples for v1:*
 
@@ -310,18 +310,18 @@ If user discovers missing ingredients while shopping, provide a clear path:
   **When** I long-press or tap menu on an ingredient (e.g., "chicken thighs")  
   **Then** I see options:
 
-  * "Couldn't find this item"
+* "Couldn't find this item"
 
-  * "Mark as substituted" (optional v1)
+* "Mark as substituted" (optional v1)
 
 * **Given** I mark "chicken thighs" as "Couldn't find"  
   **Then** System prompts:
 
-  * "Do you want to swap tonight's dinner to something else?"
+* "Do you want to swap tonight's dinner to something else?"
 
-  * Yes → Opens Today view with swap suggestions
+* Yes → Opens Today view with swap suggestions
 
-  * No → Item remains unchecked, user can handle manually
+* No → Item remains unchecked, user can handle manually
 
 * **Given** I choose "Yes, swap tonight's dinner"  
   **Then** Today opens and shows alternatives that don't require chicken thighs  
@@ -330,16 +330,16 @@ If user discovers missing ingredients while shopping, provide a clear path:
 * **Given** I mark an item as **substituted** and enter "ground turkey instead of ground beef" (optional v1)  
   **Then**:
 
-  * The item row shows that note
+* The item row shows that note
 
-  * This substitution info is accessible to cooking logic (future: suggest safe adaptations)
+* This substitution info is accessible to cooking logic (future: suggest safe adaptations)
 
 * **Given** a missing item is **non-critical** (per S7, e.g., cilantro)  
   **Then**:
 
-  * Today shows a minor note: "You're missing cilantro; you can still cook this recipe without it."
+* Today shows a minor note: "You're missing cilantro; you can still cook this recipe without it."
 
-  * It does **not** trigger full swap flow.
+* It does **not** trigger full swap flow.
 
 * **Tone check:** "No problem, let's find something else." (supportive)
 

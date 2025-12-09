@@ -233,21 +233,21 @@ npm test
 
 - **CRITICAL:** Defines the dish, can't substitute easily
 
-  - Main protein (chicken, beef, tofu)
+- Main protein (chicken, beef, tofu)
 
-  - Primary carb (pasta, rice, tortillas)
+- Primary carb (pasta, rice, tortillas)
 
-  - Key vegetables (the "broccoli" in chicken-broccoli)
-  
+- Key vegetables (the "broccoli" in chicken-broccoli)
+
 - **NON_CRITICAL:** Optional, easily substituted, or pantry staples
 
-  - Garnishes (cilantro, parsley)
+- Garnishes (cilantro, parsley)
 
-  - Most spices (unless it defines the dish)
+- Most spices (unless it defines the dish)
 
-  - Optional toppings
+- Optional toppings
 
-  - Common pantry items you probably have
+- Common pantry items you probably have
 
 **Safe over clever:** If unsure, mark CRITICAL. G3 (Safe over clever) means preventing 5pm panic.
 

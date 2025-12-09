@@ -43,9 +43,9 @@ Shop is the **bridge between Plan and Store**.
 
 - Summary:
 
-  - `5 dinners · Family of 4`
+- `5 dinners · Family of 4`
 
-  - `You'll need ~24 items`
+- `You'll need ~24 items`
 
 ### 2.2 Shopping List
 
@@ -71,7 +71,7 @@ Each row:
 
 - Context (hover/expand):
 
-  - "Used in: Tacos, Chili"
+- "Used in: Tacos, Chili"
 
 ### 2.3 Quick Review (Optional Panel)
 
@@ -81,13 +81,13 @@ Collapsible area:
 
 - List of 5–10 **non-critical** items (staples):
 
-  - e.g., oil, salt, common spices, rice, pasta
+- e.g., oil, salt, common spices, rice, pasta
 
 - For each:
 
-  - Control: [Have it] [Not sure] [Need it]
+- Control: [Have it] [Not sure] [Need it]
 
-  - Default: **Need it** (include on list)
+- Default: **Need it** (include on list)
 
 ### 2.4 Export Controls
 
@@ -117,11 +117,11 @@ Collapsible area:
 
 - Consolidates duplicates:
 
-  - e.g., `1 onion` + `2 onions` → `3 onions`.
+- e.g., `1 onion` + `2 onions` → `3 onions`.
 
 - Maps ingredients to generic product specs:
 
-  - "Chicken breast, boneless skinless (~2 lb)"
+- "Chicken breast, boneless skinless (~2 lb)"
 
 1. UI:
 
@@ -149,7 +149,7 @@ Collapsible area:
 
 - Show up to ~5–10 items the system believes are staples or likely remaining:
 
-  - e.g., oil, salt, pepper, basic spices, rice, flour, sugar.
+- e.g., oil, salt, pepper, basic spices, rice, flour, sugar.
 
 1. For each item:
 
@@ -157,9 +157,9 @@ Collapsible area:
 
 - User may choose:
 
-  - "Have it" → remove from list.
+- "Have it" → remove from list.
 
-  - "Not sure" → keep on list.
+- "Not sure" → keep on list.
 
 1. After Quick Review is closed, list reflects these changes.
 
@@ -167,11 +167,11 @@ Collapsible area:
 
 - Quick Review **must never** surface:
 
-  - Core proteins (chicken, ground beef),
+- Core proteins (chicken, ground beef),
 
-  - Main carbs (pasta, rice for mains),
+- Main carbs (pasta, rice for mains),
 
-  - Key veg for main dishes
+- Key veg for main dishes
   as "you probably have this."
 
 - Users can skip Quick Review entirely and still proceed.
@@ -184,31 +184,31 @@ Collapsible area:
 
 - **[Send to Store App]**
 
-  - Best-effort mapping of generic product specs → store SKUs.
+- Best-effort mapping of generic product specs → store SKUs.
 
-  - Creates or updates a store cart / list.
+- Creates or updates a store cart / list.
 
-  - User completes purchase within the store app.
+- User completes purchase within the store app.
 
 - **[Download CSV]**
 
-  - Simple file with columns:
+- Simple file with columns:
 
-    - Category, Name, Quantity, Unit, Notes/Recipes.
+- Category, Name, Quantity, Unit, Notes/Recipes.
 
 - **[Print / Copy]**
 
-  - Printer-friendly and plain-text versions.
+- Printer-friendly and plain-text versions.
 
 #### System boundaries (from `vision.md` §15)
 
 - VibeMeals does **not**:
 
-  - Guarantee real-time stock.
+- Guarantee real-time stock.
 
-  - Own substitutions chosen by the store.
+- Own substitutions chosen by the store.
 
-  - Handle payments, fees, or delivery schedules.
+- Handle payments, fees, or delivery schedules.
 
 ---
 
@@ -226,29 +226,29 @@ User completes store shop and later realizes:
 
 - User can mark an item as **missing** or **subbed** in Shop or Today:
 
-  - "Mark as missing"  
+- "Mark as missing"  
 
-  - "Mark as substituted: [free text or simple dropdown]"
+- "Mark as substituted: [free text or simple dropdown]"
 
 - When an ingredient is marked missing for **tonight's** dinner:
 
-  1. Today enters a **"missing ingredient"** state for that meal (similar to missed preflight):
+1. Today enters a **"missing ingredient"** state for that meal (similar to missed preflight):
 
-  - "Looks like we don't have chicken for tonight."
+- "Looks like we don't have chicken for tonight."
 
-  1. Today offers options:
+1. Today offers options:
 
-  - **Swap tonight's dinner** to a recipe that doesn't need the missing item.
+- **Swap tonight's dinner** to a recipe that doesn't need the missing item.
 
-  - **Move this dinner** to another day (user can buy missing item later).
+- **Move this dinner** to another day (user can buy missing item later).
 
-  - **Use a safe fallback**, when known:
+- **Use a safe fallback**, when known:
 
-    - e.g., "Use ground turkey instead of ground beef" (only if we know this is a safe substitution).
+- e.g., "Use ground turkey instead of ground beef" (only if we know this is a safe substitution).
 
 - For missing/non-critical items (e.g., garnish):
 
-  - Today can suggest continuing with minor adjustments (e.g., "Skip cilantro; recipe will still work").
+- Today can suggest continuing with minor adjustments (e.g., "Skip cilantro; recipe will still work").
 
 #### Guardrails
 
@@ -264,23 +264,23 @@ User completes store shop and later realizes:
 
 - Default list must be **complete and conservative**:
 
-  - It's okay to slightly overspecify; not okay to miss essentials.
+- It's okay to slightly overspecify; not okay to miss essentials.
 
 - Quick Review is:
 
-  - Optional,
+- Optional,
 
-  - Bounded (small set of items),
+- Bounded (small set of items),
 
-  - Focused on staples and low-risk items.
+- Focused on staples and low-risk items.
 
 - No heavy budgeting UI in v1:
 
-  - No requirement to enter prices or receipts.
+- No requirement to enter prices or receipts.
 
 - Tone follows the emotional contract:
 
-  - No shame around cost or waste.
+- No shame around cost or waste.
 
 ---
 
@@ -293,4 +293,5 @@ User completes store shop and later realizes:
 - Tracking which staples the user explicitly always stocks (e.g., "never add oil to my list again" toggle).
 
 - Store pickup time slot integration.
+
 

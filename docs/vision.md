@@ -12,15 +12,15 @@ further additions without breaking into separate specs
    Isn't)](#3-what-vibemeals-is-and-isnt) 4. [Core Philosophy: Calm
    Automation](#4-core-philosophy-calm-automation)
 
-  - [Tone & Emotional Contract](#41-tone--emotional-contract) 5. [Who This Is
+- [Tone & Emotional Contract](#41-tone--emotional-contract) 5. [Who This Is
      For & The Job To Be Done](#5-who-this-is-for--the-job-to-be-done)
 
-  - [Core User Personas](#core-user-personas)
+- [Core User Personas](#core-user-personas)
 
-  - [Household Modes & Default Week
+- [Household Modes & Default Week
      Shapes](#52-household-modes--default-week-shapes)
 
-  - [Cross-Persona Pain Matrix](#1-cross-persona-pain-matrix) 6. [Pain Map –
+- [Cross-Persona Pain Matrix](#1-cross-persona-pain-matrix) 6. [Pain Map –
      Deep Dive](#6-pain-map--deep-dive) 7. [The Dinner Logistics Engine (DLE)
      Promise](#7-the-dinner-logistics-engine-dle-promise) 8. [Recipe Catalog &
      Time Bands](#8-recipe-catalog--time-bands) 9. [Experience Tests – Golden
@@ -36,13 +36,13 @@ further additions without breaking into separate specs
      Integrations](#15-system-boundaries--integrations) 16.
      [Appendices](#appendices)
 
-    - [Appendix A: Detailed Guarantees & Acceptance
+- [Appendix A: Detailed Guarantees & Acceptance
       Tests](#appendix-a-detailed-guarantees--acceptance-tests)
 
-    - [Appendix B: Storyboard – Ashley's Monday with
+- [Appendix B: Storyboard – Ashley's Monday with
       VibeMeals](#appendix-b-storyboard--ashleys-monday-with-vibemeals)
 
-    - [Appendix C: Persona Experience
+- [Appendix C: Persona Experience
       Stories](#appendix-c-persona-experience-stories-pain-lens--acceptance-tests)
 
 ---
@@ -95,13 +95,13 @@ your role:
 #### Logical Reading Flow (Full Document)
 1. **Foundation (Sections 1–4):** Why we exist → What we promise → How we talk
 
-  2. **Who & What Hurts (Sections 5–6):** Personas + Week Shapes → Pain
+2. **Who & What Hurts (Sections 5–6):** Personas + Week Shapes → Pain
    deep-dive 3. **How We Solve It (Sections 7–8):** DLE architecture + Recipe
    catalog rules 4. **Testing & Validation (Sections 9–12):** Golden Stories →
    Special constraints → Golden v1.1 tests → Traceability 5. **Operational
    Anchors (Sections 13–15):** Roadmap → Learning principles → System boundaries
 
-  6. **Appendices:** Detailed stories and acceptance tests
+6. **Appendices:** Detailed stories and acceptance tests
 
 > **Quick reference for "Is this allowed?" questions:** > Check in order: Golden
 Tests (Section 11) → System Boundaries (Section 15) → Catalog Rules (Section 8)
@@ -304,28 +304,28 @@ judgmental.
 
 1. **We normalize chaos.**
 
-  - Kids get sick, shifts move, practices run late, people go out last minute.
+- Kids get sick, shifts move, practices run late, people go out last minute.
 
-  - Skipping or moving a meal is normal, not a moral failure.
+- Skipping or moving a meal is normal, not a moral failure.
 
 2. **We celebrate small wins, not streaks.**
 
-  - "You cooked at home twice this week 👏"
+- "You cooked at home twice this week 👏"
 
-  - Never: "You broke your streak" or "You missed your goals."
+- Never: "You broke your streak" or "You missed your goals."
 
 3. **We never weaponize data.**
 
-  - Waste, takeout, skipped meals, and budget are used for gentle suggestions,
+- Waste, takeout, skipped meals, and budget are used for gentle suggestions,
      not guilt.
 
-  - No "You wasted X" or "You ordered delivery Y times" as shaming.
+- No "You wasted X" or "You ordered delivery Y times" as shaming.
 
 4. **We side with the user, not the system.**
 
-  - If reality conflicts with the plan, we help the plan adapt.
+- If reality conflicts with the plan, we help the plan adapt.
 
-  - We're on your side when life happens.
+- We're on your side when life happens.
 
 ---
 
@@ -335,27 +335,27 @@ judgmental.
 
 - **We do NOT say:**
 
-  - "You should have planned better."
+- "You should have planned better."
 
 - **We DO say:**
 
-  - "Here's the easiest way to get dinner done tonight."
+- "Here's the easiest way to get dinner done tonight."
 
-  - "Too much for today? Want something simpler?"
+- "Too much for today? Want something simpler?"
 
 #### Missed Preflight (Thaw/Marinate/etc.)
 
 - **We do NOT say:**
 
-  - "You forgot to thaw your chicken. You can't make this now."
+- "You forgot to thaw your chicken. You can't make this now."
 
 - **We DO say:**
 
-  - "Looks like the chicken is still frozen. Here are your options:
+- "Looks like the chicken is still frozen. Here are your options:
 
-    - Swap to this backup dinner tonight.
+- Swap to this backup dinner tonight.
 
-    - Move this meal to another day."
+- Move this meal to another day."
 
 ##### We do NOT say
 - "You forgot to thaw your chicken. You can't make this now."
@@ -363,46 +363,46 @@ judgmental.
 ##### We do say
 - "Looks like the chicken is still frozen. Here are your options:"
 
-  - Swap to this backup dinner tonight.
+- Swap to this backup dinner tonight.
 
-  - Move this meal to another day.
+- Move this meal to another day.
 
 #### Skipped Meals / Eating Out Instead
 
 - **We do NOT say:**
 
-  - "You didn't stick to your plan."
+- "You didn't stick to your plan."
 
 - **We DO say:**
 
-  - "Got it, enjoy your night out. Want to move this dinner to another day or
+- "Got it, enjoy your night out. Want to move this dinner to another day or
     swap in something simpler later?"
 
 #### Takeout & Delivery
 
 - **We do NOT say:**
 
-  - "You ordered delivery 4 times this week."
+- "You ordered delivery 4 times this week."
 
-  - "You relied on delivery too often."
+- "You relied on delivery too often."
 
 - **We DO say:**
 
-  - "You cooked at home 2 nights this week—nice. That probably saved you around
+- "You cooked at home 2 nights this week—nice. That probably saved you around
     $40 compared to delivery."
 
 #### Waste & Leftovers
 
 - **We do NOT say:**
 
-  - "You threw away food."
+- "You threw away food."
 
 - **We DO say:**
 
-  - "You bought tortillas and beans recently. Want to plan a cheap dinner that
+- "You bought tortillas and beans recently. Want to plan a cheap dinner that
     uses them up?"
 
-  - "If this ingredient keeps going unused, we can suggest it less."
+- "If this ingredient keeps going unused, we can suggest it less."
 
 ---
 
@@ -412,11 +412,11 @@ judgmental.
 
 - **We do NOT say:**
 
-  - "This may not be safe for you, use at your own risk."
+- "This may not be safe for you, use at your own risk."
 
 - **We DO say:**
 
-  - "We're avoiding gluten because you told us it's important. We swapped this
+- "We're avoiding gluten because you told us it's important. We swapped this
     dinner because your store didn't have a gluten-free pasta we trust."
 
 We avoid practicing medicine or giving medical advice; we simply respect the
@@ -426,31 +426,31 @@ user's constraints and are transparent about substitutions.
 
 - **We do NOT say:**
 
-  - "This is an easy recipe anyone can do" (when it isn't).
+- "This is an easy recipe anyone can do" (when it isn't).
 
-  - "Season to taste" with no guidance.
+- "Season to taste" with no guidance.
 
 - **We DO say:**
 
-  - "Sprinkle on about 1 teaspoon of salt to start, then taste and add a little
+- "Sprinkle on about 1 teaspoon of salt to start, then taste and add a little
     more if you'd like."
 
-  - "If it browned faster than expected, just turn the heat down a bit and keep
+- "If it browned faster than expected, just turn the heat down a bit and keep
     going—no problem."
 
 #### Confident Cooks
 
 - **We do NOT:**
 
-  - Over-explain basic cooking techniques in a condescending way.
+- Over-explain basic cooking techniques in a condescending way.
 
 - **We DO:**
 
-  - Focus on logistics: timing, coordination, consolidated lists.
+- Focus on logistics: timing, coordination, consolidated lists.
 
-  - Give them room to improvise: "Use your favorite spice blend here."
+- Give them room to improvise: "Use your favorite spice blend here."
 
-  - "You know your stove—adjust heat as needed. We're just here to coordinate
+- "You know your stove—adjust heat as needed. We're just here to coordinate
     the timing."
 
 ---
@@ -461,19 +461,19 @@ When writing any message, dialog, or flow:
 
 - **No blame language.**
 
-  - Avoid "you forgot," "you didn't," "you should have."
+- Avoid "you forgot," "you didn't," "you should have."
 
 - **No shame framing.**
 
-  - Avoid guilt around takeout, waste, or missed meals.
+- Avoid guilt around takeout, waste, or missed meals.
 
 - **Assume fatigue.**
 
-  - Keep text short; lead with the main action, offer context second.
+- Keep text short; lead with the main action, offer context second.
 
 - **Offer choices, not lectures.**
 
-  - "Here are your options…" rather than "you must…"
+- "Here are your options…" rather than "you must…"
 
 A simple litmus test:
 
@@ -530,29 +530,29 @@ pain profile.
 
 - **Weekdays:**
 
-  - 6:30–7:30 am: Get kids up, breakfast, school drop-off
+- 6:30–7:30 am: Get kids up, breakfast, school drop-off
 
-  - 8–4:30: Work (in office)
+- 8–4:30: Work (in office)
 
-  - 5:15–6:00: Home, kids often already hungry
+- 5:15–6:00: Home, kids often already hungry
 
-  - 6:30–8:30: Sports, homework, bath, "did you do your reading?"
+- 6:30–8:30: Sports, homework, bath, "did you do your reading?"
 
 - **Weekends:**
 
-  - Errands, birthday parties, laundry, "catch up" tasks
+- Errands, birthday parties, laundry, "catch up" tasks
 
-  - Sunday evening is the *ideal* planning window that rarely happens
+- Sunday evening is the *ideal* planning window that rarely happens
 
 #### Dinner Reality
 
 - Mix of:
 
-  - Frozen standbys (nuggets, pizza)
+- Frozen standbys (nuggets, pizza)
 
-  - A few "rotation" meals (spaghetti, tacos, burgers)
+- A few "rotation" meals (spaghetti, tacos, burgers)
 
-  - Wishful Pinterest saves she never gets to
+- Wishful Pinterest saves she never gets to
 
 - Half the time she's walking into the house at 5:30 with **no concrete plan**
   for that night.
@@ -609,15 +609,15 @@ pain profile.
 
 - **Workdays:**
 
-  - M/W/F mornings on-site, afternoons remote
+- M/W/F mornings on-site, afternoons remote
 
-  - Juggles client calls, daycare pickup, homework
+- Juggles client calls, daycare pickup, homework
 
 - **Non-workdays:**
 
-  - Errands, appointments, cleaning, life admin
+- Errands, appointments, cleaning, life admin
 
-  - "I'll plan later" is a loop she gets stuck in
+- "I'll plan later" is a loop she gets stuck in
 
 #### Dinner Reality
 
@@ -673,15 +673,15 @@ pain profile.
 
 - Not currently employed outside the home, but:
 
-  - PTA
+- PTA
 
-  - Carpool
+- Carpool
 
-  - Sports
+- Sports
 
-  - Kid appointments
+- Kid appointments
 
-  - Managing the house
+- Managing the house
 
 - Everyone assumes she has "time to cook," but her days are chopped into tiny
   pieces.
@@ -690,15 +690,15 @@ pain profile.
 
 - **Daytime:**
 
-  - School drop-offs/pickups staggered
+- School drop-offs/pickups staggered
 
-  - Toddler management
+- Toddler management
 
-  - Appointments, errands, volunteering, cleaning
+- Appointments, errands, volunteering, cleaning
 
 - **Afternoons/Evenings:**
 
-  - Activities, homework, sibling fights, "Mom, can you help with…"
+- Activities, homework, sibling fights, "Mom, can you help with…"
 
 - Weekends: games, events, extended family, church, etc.
 
@@ -708,11 +708,11 @@ pain profile.
 
 - In practice, she falls back to:
 
-  - safe kid meals
+- safe kid meals
 
-  - sheet-pan "dump and bake" dinners
+- sheet-pan "dump and bake" dinners
 
-  - takeout on especially chaotic days
+- takeout on especially chaotic days
 
 She often starts "fun" recipes and then gets interrupted 20 times.
 
@@ -769,25 +769,25 @@ She often starts "fun" recipes and then gets interrupted 20 times.
 
 - **Workdays:**
 
-  - Hybrid schedule: some office days, some WFH
+- Hybrid schedule: some office days, some WFH
 
-  - Evenings are unpredictable: gym, social plans, or exhaustion
+- Evenings are unpredictable: gym, social plans, or exhaustion
 
 - **Weekends:**
 
-  - Brunch with friends, errands, self-care
+- Brunch with friends, errands, self-care
 
-  - Sometimes meal prep attempts; often abandoned
+- Sometimes meal prep attempts; often abandoned
 
 #### Dinner Reality
 
 - Mix of:
 
-  - DoorDash/delivery (too often, she feels)
+- DoorDash/delivery (too often, she feels)
 
-  - Simple one-pan meals when motivated
+- Simple one-pan meals when motivated
 
-  - Snack dinners or leftovers
+- Snack dinners or leftovers
 
 - Gets excited about cooking, then life happens and groceries go bad
 
@@ -814,15 +814,15 @@ She often starts "fun" recipes and then gets interrupted 20 times.
 
 - Support **tiny plans** by default:
 
-  - 2–4 dinners/week, not automatically "7 dinner slots"
+- 2–4 dinners/week, not automatically "7 dinner slots"
 
 - Prefer **low-dish, low-fuss recipes** for 1–2 servings:
 
-  - one-pan, sheet-pan, skillet meals
+- one-pan, sheet-pan, skillet meals
 
 - Make leftovers feel like a feature, not a burden:
 
-  - Tag some meals as "Cook once, eat twice" on purpose
+- Tag some meals as "Cook once, eat twice" on purpose
 
 #### 2. Portion Chaos & Leftover Fatigue
 
@@ -847,24 +847,24 @@ She often starts "fun" recipes and then gets interrupted 20 times.
 
 - Treat "planning for one" as:
 
-  - 1 cook → 2–3 eating events, *max*
+- 1 cook → 2–3 eating events, *max*
 
 - When suggesting a recipe:
 
-  - Explicitly show: "You'll cook once and get 2 dinners. We'll schedule the
+- Explicitly show: "You'll cook once and get 2 dinners. We'll schedule the
     second one on Thursday or for lunch."
 
 - Offer **leftover remix recipes**:
 
-  - Fried rice from leftover rice
+- Fried rice from leftover rice
 
-  - Quesadillas from leftover chicken
+- Quesadillas from leftover chicken
 
-  - Bowls/wraps using leftover protein + veg
+- Bowls/wraps using leftover protein + veg
 
 - Help her **opt out** of too-much-leftover scenarios:
 
-  - "Don't give me anything that makes more than 2–3 servings unless it's
+- "Don't give me anything that makes more than 2–3 servings unless it's
     freezer-friendly."
 
 #### 3. Social & Schedule Whiplash
@@ -874,11 +874,11 @@ She often starts "fun" recipes and then gets interrupted 20 times.
 
 - Plans to cook… then:
 
-  - friend invites her out
+- friend invites her out
 
-  - date pops up
+- date pops up
 
-  - stays late at work or goes to the gym
+- stays late at work or goes to the gym
 
 - Now fresh ingredients sit unused
 
@@ -892,19 +892,19 @@ She often starts "fun" recipes and then gets interrupted 20 times.
 
 - Embrace **flexible, low-commitment planning**:
 
-  - "This week: plan 2–3 cook nights; we'll keep the rest open."
+- "This week: plan 2–3 cook nights; we'll keep the rest open."
 
 - Prefer ingredients that:
 
-  - keep a bit longer
+- keep a bit longer
 
-  - or are frozen / pantry-based
+- or are frozen / pantry-based
 
 - Make it super easy to:
 
-  - *bump* a cook-night
+- *bump* a cook-night
 
-  - automatically slide ingredients/recipes forward
+- automatically slide ingredients/recipes forward
 
 #### 4. Takeout Guilt + Financial Drag
 
@@ -914,17 +914,17 @@ that happens."
 
 - Competing forces:
 
-  - Wants to "be an adult" and cook / save $$
+- Wants to "be an adult" and cook / save $$
 
-  - Wants to not be miserable after work
+- Wants to not be miserable after work
 
 - Feels guilty:
 
-  - about cost
+- about cost
 
-  - about health
+- about health
 
-  - about wasting groceries she *did* buy
+- about wasting groceries she *did* buy
 
 #### Why it happens
 
@@ -932,22 +932,22 @@ that happens."
 
 - Planning/cooking feels like an all-or-nothing habit:
 
-  - one chaotic week → "why do I even try?"
+- one chaotic week → "why do I even try?"
 
 #### What VibeMeals should do
 
 - Aim for **a small win, not perfection**:
 
-  - "Plan 2 home-cooked dinners this week you'll actually do."
+- "Plan 2 home-cooked dinners this week you'll actually do."
 
 - Provide a **visible "you saved X vs delivery" narrative**, but light-touch:
 
-  - not precise budgeting, more "You cooked twice, that's probably ~$40–$60
+- not precise budgeting, more "You cooked twice, that's probably ~$40–$60
     saved."
 
 - Make a "fallback dinner" set:
 
-  - pantry-based 10–20 min options that feel better than DoorDash but close in
+- pantry-based 10–20 min options that feel better than DoorDash but close in
     effort
 
 #### 5. Decision Fatigue & Loneliness at Dinner
@@ -958,7 +958,7 @@ Why am I doing this?"
 
 - Emotional drag:
 
-  - Not just "what's for dinner?" but also "why bother?"
+- Not just "what's for dinner?" but also "why bother?"
 
 - Cooking can feel lonely, performative, or pointless
 
@@ -972,16 +972,16 @@ Why am I doing this?"
 
 - Keep decisions **tiny**:
 
-  - "Here are 2–3 good options for your week. Want them?" vs "pick from 100
+- "Here are 2–3 good options for your week. Want them?" vs "pick from 100
     recipes."
 
 - Celebrate small wins:
 
-  - "You cooked 2 nice dinners for yourself this week 💛."
+- "You cooked 2 nice dinners for yourself this week 💛."
 
 - Nudge toward "rituals" she can enjoy solo:
 
-  - "Cozy pasta night," "Friday takeout-at-home" style, without being cheesy or
+- "Cozy pasta night," "Friday takeout-at-home" style, without being cheesy or
     over-social
 
 #### 6. Kitchen Constraints
@@ -997,26 +997,26 @@ Why am I doing this?"
 
 - Recipes assume:
 
-  - multiple burners
+- multiple burners
 
-  - big oven
+- big oven
 
-  - lots of counter and dish drying space
+- lots of counter and dish drying space
 
 #### What VibeMeals should do
 
 - For 1–2 person households, skew toward:
 
-  - one-pan, one-pot, sheet-pan, or air-fryer/toaster-oven friendly recipes (if
+- one-pan, one-pot, sheet-pan, or air-fryer/toaster-oven friendly recipes (if
     she has one)
 
 - Show an **"effort footprint"**:
 
-  - prep effort
+- prep effort
 
-  - number of pans
+- number of pans
 
-  - cleanup complexity
+- cleanup complexity
 
 #### What VibeMeals *must* do for Kayla
 
@@ -1100,13 +1100,13 @@ Use each persona as a **lens for decisions**:
 
 - When writing copy, gut check:
 
-  - Ashley: "Would this feel like it respects how slammed she is at 5:15?"
+- Ashley: "Would this feel like it respects how slammed she is at 5:15?"
 
-  - Brianna: "Is this clearly worth her attention and money anxiety?"
+- Brianna: "Is this clearly worth her attention and money anxiety?"
 
-  - Danielle: "Does this reduce overwhelm, not add clever complexity?"
+- Danielle: "Does this reduce overwhelm, not add clever complexity?"
 
-  - Kayla: "Does this acknowledge she's cooking for herself and that's enough?"
+- Kayla: "Does this acknowledge she's cooking for herself and that's enough?"
 
 #### Critical Design Check
 If a feature, flow, or default only makes sense for "family of 4 with kids,"
@@ -1146,21 +1146,21 @@ For v1, we treat these as the primary modes:
 #### Default week shape
 - **Dinners planned:** 4–7 per week
 
-  - 1–2 nights can be intentionally "open" (leftovers / takeout / events).
+- 1–2 nights can be intentionally "open" (leftovers / takeout / events).
 
 - **Time mix:**
 
-  - At least **3 "Fast" nights** (≤30 min, minimal mess)
+- At least **3 "Fast" nights** (≤30 min, minimal mess)
 
-  - 1–3 "Normal" nights
+- 1–3 "Normal" nights
 
-  - Optional 0–1 "Project" / nicer weekend dinner
+- Optional 0–1 "Project" / nicer weekend dinner
 
 - **Leftover pattern:**
 
-  - Some meals explicitly planned as "cook once, eat twice"
+- Some meals explicitly planned as "cook once, eat twice"
 
-  - Leftover events slotted intentionally (not random fridge surprises)
+- Leftover events slotted intentionally (not random fridge surprises)
 
 #### What "good" looks like
 - They do one main shop that actually covers dinners.
@@ -1180,19 +1180,19 @@ For v1, we treat these as the primary modes:
 #### Default week shape
 - **Dinners planned:** 2–4 per week
 
-  - Not a full grid. Intentionally small by default.
+- Not a full grid. Intentionally small by default.
 
 - **Time mix:**
 
-  - Mostly "Fast" and very simple "Normal" nights
+- Mostly "Fast" and very simple "Normal" nights
 
-  - Optional rare "Project" night if they opt in
+- Optional rare "Project" night if they opt in
 
 - **Leftover pattern:**
 
-  - Each cook night → **1–2 extra meals max**
+- Each cook night → **1–2 extra meals max**
 
-  - Avoid drowning them in repeats; use leftovers intentionally (remix, not
+- Avoid drowning them in repeats; use leftovers intentionally (remix, not
     punishment)
 
 #### What "good" looks like
@@ -1211,19 +1211,19 @@ For v1, we treat these as the primary modes:
 #### Default week shape
 - **Dinners planned:** 3–5 per week
 
-  - The rest is assumed to be eating out, leftovers, or ad-hoc.
+- The rest is assumed to be eating out, leftovers, or ad-hoc.
 
 - **Time mix:**
 
-  - 2–3 "Fast" or straightforward "Normal" dinners
+- 2–3 "Fast" or straightforward "Normal" dinners
 
-  - Optional 1 "Project" / nicer meal on a chosen night
+- Optional 1 "Project" / nicer meal on a chosen night
 
 - **Leftover pattern:**
 
-  - Light leftovers, often next-day lunch
+- Light leftovers, often next-day lunch
 
-  - No expectation that they eat at home every night
+- No expectation that they eat at home every night
 
 #### What "good" looks like
 - They have a few solid "at home" dinners anchored in the week.
@@ -1241,23 +1241,23 @@ For v1, we treat these as the primary modes:
 #### Default week shape
 - **Dinners planned:** 3–4 per week
 
-  - They fill the gaps with their own long-standing habits.
+- They fill the gaps with their own long-standing habits.
 
 - **Time mix:**
 
-  - Mostly "Normal" and "Fast"
+- Mostly "Normal" and "Fast"
 
-  - Occasional low-key "Project" if they want it
+- Occasional low-key "Project" if they want it
 
 - **Leftover pattern:**
 
-  - Smaller portions; leftovers are fine but not an endless parade
+- Smaller portions; leftovers are fine but not an endless parade
 
 - **Variety pattern:**
 
-  - ~2 "comfort rotation" meals
+- ~2 "comfort rotation" meals
 
-  - ~1 "small twist" (variation on something familiar)
+- ~1 "small twist" (variation on something familiar)
 
 #### What "good" looks like
 - They see their usual meals, plus **tiny, low-effort variations**.
@@ -1276,17 +1276,17 @@ size:** 5–8+ people
 #### Default week shape
 - **Dinners planned:** 3–5 per week
 
-  - Some nights may rely on leftovers / simple standbys.
+- Some nights may rely on leftovers / simple standbys.
 
 - **Time mix:**
 
-  - A mix of "Fast" crowd-pleasers and a few hearty "Normal" meals
+- A mix of "Fast" crowd-pleasers and a few hearty "Normal" meals
 
 - **Portion pattern:**
 
-  - Plans always sized to **actual headcount**, not a default "serves 4"
+- Plans always sized to **actual headcount**, not a default "serves 4"
 
-  - Slightly conservative upsizing on core components (meat, starch, main veg)
+- Slightly conservative upsizing on core components (meat, starch, main veg)
 
 #### What "good" looks like
 - There is **enough food** every planned night without constant manual scaling.
@@ -1325,10 +1325,10 @@ These week shapes are **targets**, not rigid rules:
 
 - Metrics should be read through this lens:
 
-  - A "good" week for a solo user is **2–3 successful cook nights**, not 7
+- A "good" week for a solo user is **2–3 successful cook nights**, not 7
     filled slots.
 
-  - A "good" week for a family might be **4–6 dinners cooked as planned**, not
+- A "good" week for a family might be **4–6 dinners cooked as planned**, not
     perfect adherence to every slot.
 
 If a feature or algorithm change pushes week shapes back toward a
@@ -1349,58 +1349,58 @@ subtle "learning nudge."
 #### Examples of mode-changing events
 - Headcount change:
 
-  - 1 → 2 (new partner)
+- 1 → 2 (new partner)
 
-  - 2 → 4 (kids or blended households)
+- 2 → 4 (kids or blended households)
 
-  - 4 → 2 (kids leaving home)
+- 4 → 2 (kids leaving home)
 
 - Intent change:
 
-  - "Cover 2 dinners/week" → "Cover 5 dinners/week"
+- "Cover 2 dinners/week" → "Cover 5 dinners/week"
 
 - Lifestyle change:
 
-  - Starting shift work pattern
+- Starting shift work pattern
 
-  - Moving from "beginner cook" to "comfortable cook"
+- Moving from "beginner cook" to "comfortable cook"
 
 #### When a mode change happens
 VibeMeals should:
 
 - **Re-anchor week shapes** to the new mode:
 
-  - New default number of dinners
+- New default number of dinners
 
-  - New typical time band mix
+- New typical time band mix
 
 - **Preserve only the most stable preferences:**
 
-  - Strong likes/dislikes (e.g., "no pork," "hate mushrooms")
+- Strong likes/dislikes (e.g., "no pork," "hate mushrooms")
 
-  - Clear health constraints (e.g., "no gluten")
+- Clear health constraints (e.g., "no gluten")
 
 - **Re-ask a few key intent questions**, if needed:
 
-  - "How many dinners do you want covered now?"
+- "How many dinners do you want covered now?"
 
-  - "How much cooking energy do you usually have on weeknights?"
+- "How much cooking energy do you usually have on weeknights?"
 
 VibeMeals should **not**:
 
 - Drag forward overly specific patterns from an incompatible past mode:
 
-  - Solo leftover patterns into a big family
+- Solo leftover patterns into a big family
 
-  - "2 easy wins" logic into a 5-dinner family plan
+- "2 easy wins" logic into a 5-dinner family plan
 
 - Assume that old learning about:
 
-  - week shape,
+- week shape,
 
-  - leftover tolerance,
+- leftover tolerance,
 
-  - or budget behavior still applies unchanged.
+- or budget behavior still applies unchanged.
 
 #### Connection to Section 14 (Learning & Adaptation)
 Mode changes are **resets**, not gradual adaptations. Section 14.4 covers how
@@ -1432,28 +1432,28 @@ In practice, VibeMeals usually shows up like this:
 
 - **The Planner**
 
-  - Owns the weekly setup.
+- Owns the weekly setup.
 
-  - Feels the brunt of decision fatigue and scattered workflows.
+- Feels the brunt of decision fatigue and scattered workflows.
 
-  - Wants a fast way to say "this is the week" without spreadsheets, tags, or
+- Wants a fast way to say "this is the week" without spreadsheets, tags, or
      research rabbit holes.
 
 - **The Cook**
 
-  - Follows the plan day-to-day.
+- Follows the plan day-to-day.
 
-  - Wants clear steps, realistic time estimates, and **no 5:47 pm surprises**
+- Wants clear steps, realistic time estimates, and **no 5:47 pm surprises**
      ("wait, we're out of chicken?").
 
 - **The Household**
 
-  - Has opinions, constraints, and evolving tastes.
+- Has opinions, constraints, and evolving tastes.
 
-  - "Votes" on meals by eating, complaining, asking for repeats, or quietly
+- "Votes" on meals by eating, complaining, asking for repeats, or quietly
      skipping.
 
-  - Doesn't want to argue about dinner; just wants it to work.
+- Doesn't want to argue about dinner; just wants it to work.
 
 ### The Job To Be Done
 
@@ -1521,29 +1521,29 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - No weekly plan, or plans that are too fragile to trust.
+- No weekly plan, or plans that are too fragile to trust.
 
-  - Past attempts at planning felt like too much work (spreadsheets, apps with
+- Past attempts at planning felt like too much work (spreadsheets, apps with
     heavy setup).
 
-  - The "mental cost" of planning on Sunday is high, so they skip it.
+- The "mental cost" of planning on Sunday is high, so they skip it.
 
 - **How it shows up**
 
-  - Lots of takeout on random weekdays.
+- Lots of takeout on random weekdays.
 
-  - Repeating the same 3–4 "emergency" dinners (frozen pizza, nuggets, etc.).
+- Repeating the same 3–4 "emergency" dinners (frozen pizza, nuggets, etc.).
 
-  - People say things like "We never know what's for dinner" or "We just wing
+- People say things like "We never know what's for dinner" or "We just wing
     it."
 
 - **What VibeMeals should do**
 
-  - Make "Generate a plan" a **one-tap, <3 minute** operation.
+- Make "Generate a plan" a **one-tap, <3 minute** operation.
 
-  - Make the **default** plan good enough that they will actually follow it.
+- Make the **default** plan good enough that they will actually follow it.
 
-  - Ensure that the plan **survives the week** (doesn't crumble at the first
+- Ensure that the plan **survives the week** (doesn't crumble at the first
     schedule hiccup).
 
 - **MVP Severity:** **High** – this is the anchor pain.
@@ -1557,34 +1557,34 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Previous planning experiences required:
+- Previous planning experiences required:
 
-    - Multiple tabs and apps.
+- Multiple tabs and apps.
 
-    - Copy/paste, manual lists, and calendar juggling.
+- Copy/paste, manual lists, and calendar juggling.
 
-  - It feels like a big, open-ended project instead of a guided flow.
+- It feels like a big, open-ended project instead of a guided flow.
 
 - **How it shows up**
 
-  - "We *should* meal plan" but never do.
+- "We *should* meal plan" but never do.
 
-  - Intent to plan on Sunday… but they end up scrolling instead.
+- Intent to plan on Sunday… but they end up scrolling instead.
 
-  - Occasional giant planning effort followed by weeks of not doing it again.
+- Occasional giant planning effort followed by weeks of not doing it again.
 
 - **What VibeMeals should do**
 
-  - Make the weekly planning session feel like **a short check-in**, not a
+- Make the weekly planning session feel like **a short check-in**, not a
     project:
 
-    - Single screen, clear steps.
+- Single screen, clear steps.
 
-    - "You're done" moment.
+- "You're done" moment.
 
-  - Show immediate payoff: plan + list/cart right away.
+- Show immediate payoff: plan + list/cart right away.
 
-  - Default to a simple path; advanced tweaks are off to the side.
+- Default to a simple path; advanced tweaks are off to the side.
 
 - **MVP Severity:** **High** – if the weekly ritual feels heavy, retention dies.
 
@@ -1597,30 +1597,30 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Plans are built in a vacuum, without time context.
+- Plans are built in a vacuum, without time context.
 
-  - Users don't want to manually tag every day as "busy/medium/chill."
+- Users don't want to manually tag every day as "busy/medium/chill."
 
 - **How it shows up**
 
-  - They skip or reorder meals constantly.
+- They skip or reorder meals constantly.
 
-  - They complain that meal plans are "unrealistic for our week."
+- They complain that meal plans are "unrealistic for our week."
 
-  - Patterns: Tuesdays are always insane, but the app doesn't treat them
+- Patterns: Tuesdays are always insane, but the app doesn't treat them
     differently.
 
 - **What VibeMeals should do**
 
-  - Give a **lightweight way** to express time reality:
+- Give a **lightweight way** to express time reality:
 
-    - Simple per-day time bands ("Fast / Normal / Project").
+- Simple per-day time bands ("Fast / Normal / Project").
 
-    - Or one-time "typical week" pattern it learns from behavior.
+- Or one-time "typical week" pattern it learns from behavior.
 
-  - Respect those time bands when choosing recipes.
+- Respect those time bands when choosing recipes.
 
-  - Make reassigning meals to other days frictionless.
+- Make reassigning meals to other days frictionless.
 
 - **MVP Severity:** **High** – directly drives whether they stick to the plan.
 
@@ -1633,27 +1633,27 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Infinite recipe inventory with no opinionated "good for this week" filter.
+- Infinite recipe inventory with no opinionated "good for this week" filter.
 
-  - Lack of constraints or curated sets.
+- Lack of constraints or curated sets.
 
 - **How it shows up**
 
-  - Users bounce between apps and never firm up a list.
+- Users bounce between apps and never firm up a list.
 
-  - They ask "What's easy for tonight?" rather than search.
+- They ask "What's easy for tonight?" rather than search.
 
-  - They reuse the same 4–5 recipes because the alternative is too much work.
+- They reuse the same 4–5 recipes because the alternative is too much work.
 
 - **What VibeMeals should do**
 
-  - Offer **small, curated sets** per day ("Here are 3 good options for
+- Offer **small, curated sets** per day ("Here are 3 good options for
     Tuesday").
 
-  - Lead with pre-filtered collections: time band + familiarity +
+- Lead with pre-filtered collections: time band + familiarity +
     kid-friendliness.
 
-  - Provide an easy "reroll" button instead of a giant search.
+- Provide an easy "reroll" button instead of a giant search.
 
 - **MVP Severity:** **Medium–High** – key for your "5–10 minute plan" promise.
 
@@ -1668,28 +1668,28 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Lists are incomplete or wrong.
+- Lists are incomplete or wrong.
 
-  - They assumed they had an ingredient but were mistaken.
+- They assumed they had an ingredient but were mistaken.
 
-  - Apps try to be "smart" about pantry but end up under-adding.
+- Apps try to be "smart" about pantry but end up under-adding.
 
 - **How it shows up**
 
-  - Emergency runs to the store.
+- Emergency runs to the store.
 
-  - Abandoned recipes mid-stream.
+- Abandoned recipes mid-stream.
 
-  - Swearing off apps that "missed stuff."
+- Swearing off apps that "missed stuff."
 
 - **What VibeMeals should do**
 
-  - Default to **over-including** ingredients unless the user explicitly
+- Default to **over-including** ingredients unless the user explicitly
     confirms ownership.
 
-  - Make "I already have this" a **quick, optional** step (Quick Review).
+- Make "I already have this" a **quick, optional** step (Quick Review).
 
-  - Maintain clear bias in copy: "We'd rather give you extra sour cream than
+- Maintain clear bias in copy: "We'd rather give you extra sour cream than
     send you back to the store."
 
 - **MVP Severity:** **Highest** – this is your core trust contract.
@@ -1703,28 +1703,28 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - No connection between plan complexity and cost.
+- No connection between plan complexity and cost.
 
-  - No guidance on cheaper alternatives.
+- No guidance on cheaper alternatives.
 
-  - Heavy reliance on "gut feel" in the aisle.
+- Heavy reliance on "gut feel" in the aisle.
 
 - **How it shows up**
 
-  - "Groceries are killing us" sentiment.
+- "Groceries are killing us" sentiment.
 
-  - Avoidance of slightly nicer ingredients because of fear of cost.
+- Avoidance of slightly nicer ingredients because of fear of cost.
 
-  - They may blame meal planning for making them overspend.
+- They may blame meal planning for making them overspend.
 
 - **What VibeMeals should do**
 
-  - Provide **rough cost bands** for weeks and meals ("$ / $$ / $$$").
+- Provide **rough cost bands** for weeks and meals ("$ / $$ / $$$").
 
-  - Offer one-tap cheaper swaps ("Swap this steak fajita to chicken fajita to
+- Offer one-tap cheaper swaps ("Swap this steak fajita to chicken fajita to
     save ~$X").
 
-  - Allow users to set a simple "budget target" and nudge them toward staying in
+- Allow users to set a simple "budget target" and nudge them toward staying in
     that lane.
 
 - **MVP Severity:** **Medium** – strong differentiator, but can be rough at
@@ -1739,25 +1739,25 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Recipes treat ingredients in abstract units (e.g., "2 tbsp cilantro")
+- Recipes treat ingredients in abstract units (e.g., "2 tbsp cilantro")
     without pack awareness.
 
-  - No planning across meals to reuse packs.
+- No planning across meals to reuse packs.
 
 - **How it shows up**
 
-  - Half-used herbs, sour cream, greens regularly thrown out.
+- Half-used herbs, sour cream, greens regularly thrown out.
 
-  - Users say "I don't want recipes that use weird one-off things."
+- Users say "I don't want recipes that use weird one-off things."
 
 - **What VibeMeals should do**
 
-  - Treat some ingredients as **pack-based** (bag of spinach, bunch of cilantro,
+- Treat some ingredients as **pack-based** (bag of spinach, bunch of cilantro,
     tub of sour cream).
 
-  - Try to schedule **downstream recipes** that use those packs.
+- Try to schedule **downstream recipes** that use those packs.
 
-  - Label these gently: "Uses the rest of your sour cream from Tuesday."
+- Label these gently: "Uses the rest of your sour cream from Tuesday."
 
 - **MVP Severity:** **Medium–High** – central to food waste story, can start
   simple.
@@ -1771,26 +1771,26 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Apps assume a single store.
+- Apps assume a single store.
 
-  - No modeling of "this item usually at Store A vs Store B."
+- No modeling of "this item usually at Store A vs Store B."
 
 - **How it shows up**
 
-  - Duplicated items across stores.
+- Duplicated items across stores.
 
-  - Wrong pack sizes at wrong stores.
+- Wrong pack sizes at wrong stores.
 
-  - Users maintain manual side-lists ("Costco list") anyway.
+- Users maintain manual side-lists ("Costco list") anyway.
 
 - **What VibeMeals should do (later)**
 
-  - Allow a **simple two-store mode**: bulk vs regular.
+- Allow a **simple two-store mode**: bulk vs regular.
 
-  - Let users mark certain ingredients as "usually Costco" and reflect that in
+- Let users mark certain ingredients as "usually Costco" and reflect that in
     lists.
 
-  - Not MVP-critical, but important for many families.
+- Not MVP-critical, but important for many families.
 
 - **MVP Severity:** **Low–Medium** – can be v2.
 
@@ -1805,28 +1805,28 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Recipe authors under-report time.
+- Recipe authors under-report time.
 
-  - Doesn't account for normal home speed (interruptions, kids, cleanup).
+- Doesn't account for normal home speed (interruptions, kids, cleanup).
 
-  - Unrealistic multitasking assumptions.
+- Unrealistic multitasking assumptions.
 
 - **How it shows up**
 
-  - Kids melt down around dinner.
+- Kids melt down around dinner.
 
-  - Users avoid recipes that "look complicated" even if they're not.
+- Users avoid recipes that "look complicated" even if they're not.
 
-  - Trust in time estimates collapses.
+- Trust in time estimates collapses.
 
 - **What VibeMeals should do**
 
-  - Have **honest time bands**: "Fast (≤25m hands-on), Normal (30–45m), Project
+- Have **honest time bands**: "Fast (≤25m hands-on), Normal (30–45m), Project
     (60+)."
 
-  - Design steps and order explicitly to fit the band.
+- Design steps and order explicitly to fit the band.
 
-  - Let users choose "I prefer mostly Fast meals for weeknights."
+- Let users choose "I prefer mostly Fast meals for weeknights."
 
 - **MVP Severity:** **High** – directly affects 5:00 pm panic.
 
@@ -1839,25 +1839,25 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Preflight steps buried in prose.
+- Preflight steps buried in prose.
 
-  - No separation between "things you should have done earlier" and "things you
+- No separation between "things you should have done earlier" and "things you
     do at cook time."
 
 - **How it shows up**
 
-  - Skipped meals and last-minute junk food.
+- Skipped meals and last-minute junk food.
 
-  - "We never use our plans because we forget to thaw."
+- "We never use our plans because we forget to thaw."
 
 - **What VibeMeals should do**
 
-  - Mark steps as **Preflight** vs **Cook-time** in the recipe model.
+- Mark steps as **Preflight** vs **Cook-time** in the recipe model.
 
-  - Send optional, small nudges: "Tonight's chicken should come out of the
+- Send optional, small nudges: "Tonight's chicken should come out of the
     freezer by 10 am."
 
-  - Offer same-day pivots: "Too late to thaw? Swap to this pantry-friendly
+- Offer same-day pivots: "Too late to thaw? Swap to this pantry-friendly
     backup."
 
 - **MVP Severity:** **High** – key differentiator vs static planners.
@@ -1871,22 +1871,22 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Plans don't consider mental load.
+- Plans don't consider mental load.
 
-  - People are bad at forecasting how fried they'll be on Thursday.
+- People are bad at forecasting how fried they'll be on Thursday.
 
 - **How it shows up**
 
-  - Skipped "project" recipes.
+- Skipped "project" recipes.
 
-  - Frequent "we just did nuggets instead."
+- Frequent "we just did nuggets instead."
 
 - **What VibeMeals should do**
 
-  - Allow the user to broadly say: "Weeknights: mostly Fast, 1 Normal. Weekends:
+- Allow the user to broadly say: "Weeknights: mostly Fast, 1 Normal. Weekends:
     ok with a Project."
 
-  - During the day, allow one-tap **"downgrade tonight's dinner"** to something
+- During the day, allow one-tap **"downgrade tonight's dinner"** to something
     simpler that still fits ingredients.
 
 - **MVP Severity:** **Medium–High** – contributes a lot to plan adherence.
@@ -1900,24 +1900,24 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Recipes assume certain gear without calling it out upfront.
+- Recipes assume certain gear without calling it out upfront.
 
-  - Most apps don't model equipment constraints.
+- Most apps don't model equipment constraints.
 
 - **How it shows up**
 
-  - Frustration mid-cook.
+- Frustration mid-cook.
 
-  - Avoidance of new recipes.
+- Avoidance of new recipes.
 
 - **What VibeMeals should do**
 
-  - Ask **one tiny question** early: "Do you have these?" with a short list of
+- Ask **one tiny question** early: "Do you have these?" with a short list of
     key gear.
 
-  - Tag recipes that require "special gear."
+- Tag recipes that require "special gear."
 
-  - Default away from recipes needing gear they don't have.
+- Default away from recipes needing gear they don't have.
 
 - **MVP Severity:** **Medium** – nice quality-of-life win.
 
@@ -1930,23 +1930,23 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Recipes are solo; they don't coordinate sides + mains.
+- Recipes are solo; they don't coordinate sides + mains.
 
-  - Instructions aren't sequenced for real humans.
+- Instructions aren't sequenced for real humans.
 
 - **How it shows up**
 
-  - Everything done at weird times (sides cold, mains hot).
+- Everything done at weird times (sides cold, mains hot).
 
-  - Anxiety around more-than-one-pan meals.
+- Anxiety around more-than-one-pan meals.
 
 - **What VibeMeals should do**
 
-  - Present **coordinated steps** for main + sides.
+- Present **coordinated steps** for main + sides.
 
-  - Use simple labels: "Hands-on vs Wait" time.
+- Use simple labels: "Hands-on vs Wait" time.
 
-  - Show "You can breathe for 8 minutes now" moments.
+- Show "You can breathe for 8 minutes now" moments.
 
 - **MVP Severity:** **Medium** – this is where you add a lot of "this feels
   magical."
@@ -1962,23 +1962,23 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - App doesn't learn dislikes.
+- App doesn't learn dislikes.
 
-  - No way to cheaply reroll without blowing up the plan.
+- No way to cheaply reroll without blowing up the plan.
 
 - **How it shows up**
 
-  - Families gravitate to the same 4–5 safe meals.
+- Families gravitate to the same 4–5 safe meals.
 
-  - Avoidance of anything new because conflict is too draining.
+- Avoidance of anything new because conflict is too draining.
 
 - **What VibeMeals should do**
 
-  - Make 👎 + reroll **cheap and safe**.
+- Make 👎 + reroll **cheap and safe**.
 
-  - Gradually reduce suggestions for recipes repeatedly vetoed.
+- Gradually reduce suggestions for recipes repeatedly vetoed.
 
-  - Show small "variations" on accepted meals for gentle expansion.
+- Show small "variations" on accepted meals for gentle expansion.
 
 - **MVP Severity:** **High** – key to emotional buy-in.
 
@@ -1991,23 +1991,23 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - The person planning isn't always the person cooking.
+- The person planning isn't always the person cooking.
 
-  - No easy visibility or coordination between them.
+- No easy visibility or coordination between them.
 
 - **How it shows up**
 
-  - Last-minute "We're not doing that tonight."
+- Last-minute "We're not doing that tonight."
 
-  - Planner feels unappreciated; cook feels ambushed.
+- Planner feels unappreciated; cook feels ambushed.
 
 - **What VibeMeals should do**
 
-  - Make tonight's plan and time band **super visible** on a "Today" view.
+- Make tonight's plan and time band **super visible** on a "Today" view.
 
-  - Provide a tiny "Is this realistic?" nudge for the Cook.
+- Provide a tiny "Is this realistic?" nudge for the Cook.
 
-  - Allow quick downgrade: "Too much for tonight → pick a simpler alternative."
+- Allow quick downgrade: "Too much for tonight → pick a simpler alternative."
 
 - **MVP Severity:** **Medium–High** – important for multi-adult households.
 
@@ -2020,23 +2020,23 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Teens/social lives, shift work, sports.
+- Teens/social lives, shift work, sports.
 
-  - Plans assume fixed headcount.
+- Plans assume fixed headcount.
 
 - **How it shows up**
 
-  - Too many leftovers some weeks, not enough others.
+- Too many leftovers some weeks, not enough others.
 
-  - Frustration with "the plan doesn't match reality."
+- Frustration with "the plan doesn't match reality."
 
 - **What VibeMeals should do**
 
-  - Let users express simple patterns: "Usually 4, sometimes 3 on XYZ nights."
+- Let users express simple patterns: "Usually 4, sometimes 3 on XYZ nights."
 
-  - Allow lightweight same-day adjustment: "Cooking for 3 instead of 5 tonight."
+- Allow lightweight same-day adjustment: "Cooking for 3 instead of 5 tonight."
 
-  - Factor this into leftover suggestions.
+- Factor this into leftover suggestions.
 
 - **MVP Severity:** **Medium** – can be iterative.
 
@@ -2049,25 +2049,25 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - One person silently shoulders planning/shopping/cooking.
+- One person silently shoulders planning/shopping/cooking.
 
-  - Failures (waste, second trips) feel like *their* failure.
+- Failures (waste, second trips) feel like *their* failure.
 
 - **How it shows up**
 
-  - Spats about "we always eat the same thing" or "you never plan."
+- Spats about "we always eat the same thing" or "you never plan."
 
-  - Emotional friction around dinner decisions.
+- Emotional friction around dinner decisions.
 
 - **What VibeMeals should do**
 
-  - Make the **work visible and shared**:
+- Make the **work visible and shared**:
 
-    - Clear weekly plan both can see.
+- Clear weekly plan both can see.
 
-    - Simple ways to tag who's cooking what.
+- Simple ways to tag who's cooking what.
 
-  - Remove as many failure modes as possible (second trips, unrealistic plans)
+- Remove as many failure modes as possible (second trips, unrealistic plans)
     so they don't get blamed.
 
 - **MVP Severity:** **High** – this is the emotional payoff.
@@ -2081,25 +2081,25 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Stranded ingredients.
+- Stranded ingredients.
 
-  - Over-buying without a plan for leftovers.
+- Over-buying without a plan for leftovers.
 
-  - Life chaos causing unmade meals.
+- Life chaos causing unmade meals.
 
 - **How it shows up**
 
-  - People say "We just throw so much food away."
+- People say "We just throw so much food away."
 
-  - They feel bad looking in their fridge.
+- They feel bad looking in their fridge.
 
 - **What VibeMeals should do**
 
-  - Track common leftover-friendly items (rice, tortillas, proteins, greens).
+- Track common leftover-friendly items (rice, tortillas, proteins, greens).
 
-  - Gently suggest "use-it-up" recipes.
+- Gently suggest "use-it-up" recipes.
 
-  - Never shame; always frame as "Want to get extra mileage from…?"
+- Never shame; always frame as "Want to get extra mileage from…?"
 
 - **MVP Severity:** **High** – core to your story.
 
@@ -2114,24 +2114,24 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Tools try to model everything upfront.
+- Tools try to model everything upfront.
 
-  - Designers front-load preference capture.
+- Designers front-load preference capture.
 
 - **How it shows up**
 
-  - Users abandon during onboarding.
+- Users abandon during onboarding.
 
-  - They say "I don't want another thing to set up."
+- They say "I don't want another thing to set up."
 
 - **What VibeMeals should do**
 
-  - Provide immediate value without setup ("Generate my week" works on first
+- Provide immediate value without setup ("Generate my week" works on first
     run).
 
-  - Ask for tiny bits of info over time, only when necessary.
+- Ask for tiny bits of info over time, only when necessary.
 
-  - Onboarding is essentially: choose servings + broad time preference → get a
+- Onboarding is essentially: choose servings + broad time preference → get a
     plan.
 
 - **MVP Severity:** **Highest** – your Calm Automation philosophy depends on
@@ -2146,24 +2146,24 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Apps treat schedules as fixed contracts.
+- Apps treat schedules as fixed contracts.
 
-  - No built-in recovery paths.
+- No built-in recovery paths.
 
 - **How it shows up**
 
-  - Users drop apps after one bad week.
+- Users drop apps after one bad week.
 
-  - They say "We fell off the wagon."
+- They say "We fell off the wagon."
 
 - **What VibeMeals should do**
 
-  - Make skipping, swapping, and rerolling **safe & encouraged**.
+- Make skipping, swapping, and rerolling **safe & encouraged**.
 
-  - Provide recovery flows ("We missed these two meals: here's how to reuse,
+- Provide recovery flows ("We missed these two meals: here's how to reuse,
     freeze, or re-plan.").
 
-  - Messaging: "Real weeks are messy; we'll adapt with you."
+- Messaging: "Real weeks are messy; we'll adapt with you."
 
 - **MVP Severity:** **High** – this is your resilience story.
 
@@ -2176,23 +2176,23 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Feature creep: tags, labels, boards, collections.
+- Feature creep: tags, labels, boards, collections.
 
-  - Tools built for power users, not tired parents.
+- Tools built for power users, not tired parents.
 
 - **How it shows up**
 
-  - Users say "It's just too much to keep up with."
+- Users say "It's just too much to keep up with."
 
-  - Usage drops after initial enthusiasm.
+- Usage drops after initial enthusiasm.
 
 - **What VibeMeals should do**
 
-  - Ruthlessly limit required user actions.
+- Ruthlessly limit required user actions.
 
-  - Hide power features behind "Advanced" affordances.
+- Hide power features behind "Advanced" affordances.
 
-  - Design flows around **1–2 big buttons** and 0–2 small decisions per screen.
+- Design flows around **1–2 big buttons** and 0–2 small decisions per screen.
 
 - **MVP Severity:** **High** – directly aligned with "Assume people are tired."
 
@@ -2205,25 +2205,25 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Missed items, weird SKUs, irrelevant substitutions.
+- Missed items, weird SKUs, irrelevant substitutions.
 
-  - Inconsistent quantity logic.
+- Inconsistent quantity logic.
 
 - **How it shows up**
 
-  - Manual cross-checks with recipes.
+- Manual cross-checks with recipes.
 
-  - "I don't trust these lists" feedback.
+- "I don't trust these lists" feedback.
 
-  - Churn after a bad week.
+- Churn after a bad week.
 
 - **What VibeMeals should do**
 
-  - Bias toward **safe, generic SKUs** that are universally available.
+- Bias toward **safe, generic SKUs** that are universally available.
 
-  - Make quantity logic understandable ("2 meals worth of chicken breasts").
+- Make quantity logic understandable ("2 meals worth of chicken breasts").
 
-  - Provide a clear Quick Review stage that feels like optional safe proofing.
+- Provide a clear Quick Review stage that feels like optional safe proofing.
 
 - **MVP Severity:** **Highest** – trust is everything.
 
@@ -2236,23 +2236,23 @@ into actionable design guidance.
 
 - **Why it happens**
 
-  - Most tools model a "user," not a household.
+- Most tools model a "user," not a household.
 
-  - No explicit support for Planner vs Cook.
+- No explicit support for Planner vs Cook.
 
 - **How it shows up**
 
-  - One person does all the work.
+- One person does all the work.
 
-  - The other doesn't know what's planned or how to see steps.
+- The other doesn't know what's planned or how to see steps.
 
 - **What VibeMeals should do**
 
-  - Make household access dead simple (at least read-only for the Cook).
+- Make household access dead simple (at least read-only for the Cook).
 
-  - Explicit "Today" view that is idiot-proof for whoever is cooking.
+- Explicit "Today" view that is idiot-proof for whoever is cooking.
 
-  - Lightweight role hints ("Who's cooking tonight?" might be v2+).
+- Lightweight role hints ("Who's cooking tonight?" might be v2+).
 
 - **MVP Severity:** **Medium** – nice to have, but even simple sharing helps.
 
@@ -2267,12 +2267,12 @@ into actionable design guidance.
 
 - **What VibeMeals should do**
 
-  - Use empathetic, casual language: "Life happens. Want to reuse this chicken
+- Use empathetic, casual language: "Life happens. Want to reuse this chicken
     or just move on?"
 
-  - Never show "failure counters."
+- Never show "failure counters."
 
-  - No red error states for normal human behavior.
+- No red error states for normal human behavior.
 
 ---
 
@@ -2283,11 +2283,11 @@ into actionable design guidance.
 
 - **What VibeMeals should do**
 
-  - Treat changes as **first-class flows**, not errors.
+- Treat changes as **first-class flows**, not errors.
 
-  - Use copy like "Let's adjust your week" instead of "You missed…"
+- Use copy like "Let's adjust your week" instead of "You missed…"
 
-  - Make recovery easy and framed as normal.
+- Make recovery easy and framed as normal.
 
 ---
 
@@ -2298,11 +2298,11 @@ into actionable design guidance.
 
 - **What VibeMeals should do**
 
-  - Keep explicit logging to a minimum (maybe just "Cooked / Skipped").
+- Keep explicit logging to a minimum (maybe just "Cooked / Skipped").
 
-  - Infer as much as possible from minimal signals.
+- Infer as much as possible from minimal signals.
 
-  - If a flow starts to look like admin, we redesign it.
+- If a flow starts to look like admin, we redesign it.
 
 ---
 
@@ -2330,11 +2330,11 @@ mood?"
 
 - Every calendar square is a **maybe**:
 
-  - "Might hit the gym"
+- "Might hit the gym"
 
-  - "Might grab drinks"
+- "Might grab drinks"
 
-  - "Might crash on the couch"
+- "Might crash on the couch"
 
 - Planning feels like making promises to Future Her that Future Her probably
   won't keep.
@@ -2375,9 +2375,9 @@ Each question feels like work.
 
 - There's no one else to share the load:
 
-  - No "what do *we* want?"
+- No "what do *we* want?"
 
-  - No kid hunger as a forcing function.
+- No kid hunger as a forcing function.
 
 - Cooking feels like a grand gesture for an audience of one.
 
@@ -2400,11 +2400,11 @@ She's trying to "shop like an adult," but:
 
 - Packs are sized for families:
 
-  - full bags of spinach
+- full bags of spinach
 
-  - 10–12 tortillas
+- 10–12 tortillas
 
-  - big meat packs
+- big meat packs
 
 - Recipes online are for 4 servings, not 1–2.
 
@@ -2412,11 +2412,11 @@ She's trying to "shop like an adult," but:
 
 - She overbuys "because that's the pack size," thinking:
 
-  - "I'll totally use this spinach in salads too." (She usually won't.)
+- "I'll totally use this spinach in salads too." (She usually won't.)
 
 - She does vague mental math:
 
-  - "I can eat this meal two nights and maybe lunch… I guess that's okay?"
+- "I can eat this meal two nights and maybe lunch… I guess that's okay?"
 
 #### Raw pain
 
@@ -2425,7 +2425,7 @@ She's trying to "shop like an adult," but:
 
 - **Future guilt baked in at purchase time:**
 
-  - She can *see* the future waste while putting it in the cart.
+- She can *see* the future waste while putting it in the cart.
 
 ---
 
@@ -2452,11 +2452,11 @@ away."
 
 - No clear, appealing way to "use it up":
 
-  - Everything she can imagine is either:
+- Everything she can imagine is either:
 
-    - another repeat of the same meal, or
+- another repeat of the same meal, or
 
-    - more effort than it's worth.
+- more effort than it's worth.
 
 #### Raw pain
 
@@ -2490,9 +2490,9 @@ She orders. Again, relief → guilt.
 
 - Every unused "healthy grocery plan" becomes:
 
-  - a symbol of **failed self-control**
+- a symbol of **failed self-control**
 
-  - AND eventual **smelly trash**.
+- AND eventual **smelly trash**.
 
 #### Raw pain
 
@@ -2501,11 +2501,11 @@ She orders. Again, relief → guilt.
 
 - **Financial double-hit:**
 
-  - Money on groceries **and** money on delivery.
+- Money on groceries **and** money on delivery.
 
 - **Motivation erosion:**
 
-  - Each failure makes the *next* planning attempt feel more doomed.
+- Each failure makes the *next* planning attempt feel more doomed.
 
 ---
 
@@ -2664,69 +2664,69 @@ for dinner."
 
 - Too many decisions still open at 5pm:
 
-  - what to cook
+- what to cook
 
-  - is it realistic for my energy
+- is it realistic for my energy
 
-  - do we even have what we need
+- do we even have what we need
 
 - "Plans" in other tools are either:
 
-  - too aspirational (don't match real nights), or
+- too aspirational (don't match real nights), or
 
-  - too brittle (one disruption and they're ignored)
+- too brittle (one disruption and they're ignored)
 
 #### What VibeMeals must guarantee
 
 - **Every day has a realistic, known dinner** by mid-day:
 
-  - Matched to the *type* of day (fast vs normal vs project).
+- Matched to the *type* of day (fast vs normal vs project).
 
-  - Already tied to ingredients that are provisioned.
+- Already tied to ingredients that are provisioned.
 
 - At 5pm, Ashley doesn't have to choose a recipe. At most she chooses:
 
-  - "Do tonight's plan"
+- "Do tonight's plan"
 
-  - *or* "downgrade to something simpler."
+- *or* "downgrade to something simpler."
 
 #### System-level behaviors / levers
 
 - **Time-band classification** is real, not marketing:
 
-  - Each recipe must have a trusted band (Fast / Normal / Project).
+- Each recipe must have a trusted band (Fast / Normal / Project).
 
-  - The engine uses those bands when slotting dinners into days.
+- The engine uses those bands when slotting dinners into days.
 
 - **Household "tempo profile"**:
 
-  - Even a rough map: "Mon–Thu: mostly Fast, Fri: Normal, Sat: Project allowed."
+- Even a rough map: "Mon–Thu: mostly Fast, Fri: Normal, Sat: Project allowed."
 
-  - Can be learned over time if she doesn't set it explicitly.
+- Can be learned over time if she doesn't set it explicitly.
 
 - **Pre-commitment by the system**:
 
-  - On Sunday, the engine generates a specific dinner for each day.
+- On Sunday, the engine generates a specific dinner for each day.
 
-  - Unless the user changes it, that is tonight's plan.
+- Unless the user changes it, that is tonight's plan.
 
 - **Mid-day confirmation loop (lightweight)**:
 
-  - System quietly checks: "Is tonight still realistic?" (energy, schedule).
+- System quietly checks: "Is tonight still realistic?" (energy, schedule).
 
-  - If not, it gently proposes: "Want to switch tonight to a Fast option?"
+- If not, it gently proposes: "Want to switch tonight to a Fast option?"
 
 #### Failure modes to avoid
 
 - Asking her to re-decide everything every day in disguise:
 
-  - e.g., "Pick between these 10 dinners for tonight" at 4pm.
+- e.g., "Pick between these 10 dinners for tonight" at 4pm.
 
 - Time bands that lie (everything is "30 min") → she stops trusting the app.
 
 - Plans that don't adapt when a day is extra insane:
 
-  - She needs a one-tap escape hatch ("make tonight simpler") that preserves
+- She needs a one-tap escape hatch ("make tonight simpler") that preserves
     tomorrow.
 
 ---
@@ -2748,60 +2748,60 @@ dinner."
 
 - If a dinner is in the plan and she did the shop, she will not hit:
 
-  - "We are missing a core ingredient" as a surprise while cooking.
+- "We are missing a core ingredient" as a surprise while cooking.
 
 - When in doubt, the system errs on the side of:
 
-  - **extra sour cream** not
+- **extra sour cream** not
 
-  - **no sour cream**.
+- **no sour cream**.
 
 #### System-level behaviors / levers
 
 - **Critical vs nice-to-have ingredients**:
 
-  - Recipes explicitly tag certain ingredients as "critical" to success.
+- Recipes explicitly tag certain ingredients as "critical" to success.
 
-  - DLE treats those as non-optional in the shopping logic.
+- DLE treats those as non-optional in the shopping logic.
 
 - **Bias toward inclusion**:
 
-  - Default: assume the user *doesn't* have something unless she explicitly says
+- Default: assume the user *doesn't* have something unless she explicitly says
     yes.
 
-  - Quick Review is purely optimization, not correctness.
+- Quick Review is purely optimization, not correctness.
 
 - **Conservative "pantry inference"**:
 
-  - Even if you think she likely has salt, oil, basics:
+- Even if you think she likely has salt, oil, basics:
 
-    - either treat them as free assumptions *or*
+- either treat them as free assumptions *or*
 
-    - surface a tiny static baseline list she can accept once ("assume I always
+- surface a tiny static baseline list she can accept once ("assume I always
       have X/Y/Z")
 
 - **Substitution safety rails**:
 
-  - If the store doesn't have the exact SKU, the engine must:
+- If the store doesn't have the exact SKU, the engine must:
 
-    - pick a safe, generic alternative
+- pick a safe, generic alternative
 
-    - never silently drop a critical ingredient.
+- never silently drop a critical ingredient.
 
 #### Failure modes to avoid
 
 - Clever algorithms that aggressively remove items:
 
-  - "We think you still have cumin from three months ago" → user hits a
+- "We think you still have cumin from three months ago" → user hits a
     missing-ingredient wall once and never trusts you again.
 
 - Making list correctness dependent on full pantry setup:
 
-  - She should not need to barcode-scan her kitchen to get a trustworthy list.
+- She should not need to barcode-scan her kitchen to get a trustworthy list.
 
 - Mapping to weird SKUs:
 
-  - If the recipe calls for "cheddar," mapping to "vegan artisan cheddar crumbs"
+- If the recipe calls for "cheddar," mapping to "vegan artisan cheddar crumbs"
     as default breaks trust.
 
 ---
@@ -2814,9 +2814,9 @@ dinner."
 
 - Recipe preflight steps are:
 
-  - hidden in the text, or
+- hidden in the text, or
 
-  - mentally pushed onto the user ("of course you know to thaw").
+- mentally pushed onto the user ("of course you know to thaw").
 
 - Apps treat recipe as one block, not split into "earlier today" vs "at cook
   time."
@@ -2826,58 +2826,58 @@ dinner."
 - She should almost never discover **for the first time** at 5 pm that she
   needed to:
 
-  - thaw chicken
+- thaw chicken
 
-  - marinate for hours
+- marinate for hours
 
-  - soak beans overnight.
+- soak beans overnight.
 
 - When she *does* miss it, the system handles it gracefully with:
 
-  - backup options or rescheduling, not failure.
+- backup options or rescheduling, not failure.
 
 #### System-level behaviors / levers
 
 - **Structured preflight** in the recipe schema:
 
-  - preflight_steps[]: each with required lead time (e.g., 6 hours, overnight).
+- preflight_steps[]: each with required lead time (e.g., 6 hours, overnight).
 
-  - cook_steps[]: for actual cooking.
+- cook_steps[]: for actual cooking.
 
 - **Household "dinner time" estimate**:
 
-  - Doesn't need to be exact — "We usually eat around 6–7 pm."
+- Doesn't need to be exact — "We usually eat around 6–7 pm."
 
-  - Enough to anchor preflight timing.
+- Enough to anchor preflight timing.
 
 - **Early, low-friction warnings**:
 
-  - Day-before or same-morning alerts:
+- Day-before or same-morning alerts:
 
-    - "Tomorrow's meal needs thawing in the morning. Keep or swap?"
+- "Tomorrow's meal needs thawing in the morning. Keep or swap?"
 
 - **Fail-soft path**:
 
-  - If it's too late:
+- If it's too late:
 
-    - propose no-thaw alternatives (using similar or pantry ingredients)
+- propose no-thaw alternatives (using similar or pantry ingredients)
 
-    - or push that meal to another day and bring in a backup.
+- or push that meal to another day and bring in a backup.
 
 #### Failure modes to avoid
 
 - Nagging / over-notifying:
 
-  - If she feels harassed by preflight pings, she'll disable them and you're
+- If she feels harassed by preflight pings, she'll disable them and you're
     back to surprise city.
 
 - Treating preflight as "optional note":
 
-  - It needs to be part of the logistics engine, not just a line of text.
+- It needs to be part of the logistics engine, not just a line of text.
 
 - Offering only "too bad, you failed" when preflight is missed:
 
-  - That directly reintroduces guilt and planning resentment.
+- That directly reintroduces guilt and planning resentment.
 
 ---
 
@@ -2890,27 +2890,27 @@ week."
 
 - Planning is fragmented across tools, and mentally heavy:
 
-  - checking schedules
+- checking schedules
 
-  - finding recipes
+- finding recipes
 
-  - balancing variety vs picky eaters vs time vs cost
+- balancing variety vs picky eaters vs time vs cost
 
-  - building a list.
+- building a list.
 
 - Many apps *move* the work but don't reduce it:
 
-  - they ask her to configure everything, tag everything, sort everything.
+- they ask her to configure everything, tag everything, sort everything.
 
 #### What VibeMeals must guarantee
 
 - Weekly planning feels like a **short check-in**, not a project:
 
-  - 5–10 minutes max for "normal use."
+- 5–10 minutes max for "normal use."
 
 - The engine does most of the heavy thinking:
 
-  - schedule-aware, taste-aware, cost-aware.
+- schedule-aware, taste-aware, cost-aware.
 
 - She makes a few small decisions, not a hundred.
 
@@ -2918,40 +2918,40 @@ week."
 
 - **Defaults that don't suck**:
 
-  - On first use, a one-tap "Give me a normal week of 5–7 dinners for a family
+- On first use, a one-tap "Give me a normal week of 5–7 dinners for a family
     of 4, mostly Fast on weeknights."
 
 - **Strong opinions in the engine**:
 
-  - Constrained pattern: maybe 3 "anchor" nights (tacos/pasta/sheet pan), 1–2
+- Constrained pattern: maybe 3 "anchor" nights (tacos/pasta/sheet pan), 1–2
     lighter experiments, 1 leftovers / flex night.
 
 - **Progressive disclosure of control**:
 
-  - Basic view: just shows the week, "Generate," and "Reroll" on any slot.
+- Basic view: just shows the week, "Generate," and "Reroll" on any slot.
 
-  - Advanced knobs (explicit budget, cuisine filters, etc.) are behind "more
+- Advanced knobs (explicit budget, cuisine filters, etc.) are behind "more
     options" and not needed for a good plan.
 
 - **Re-use of "hits"**:
 
-  - Engine leans on known winners and known no-gos over time, so planning gets
+- Engine leans on known winners and known no-gos over time, so planning gets
     easier, not harder.
 
 #### Failure modes to avoid
 
 - Asking too many questions up front:
 
-  - "Favorite cuisines, macros, cooking skill, equipment, etc." → onboarding
+- "Favorite cuisines, macros, cooking skill, equipment, etc." → onboarding
     feels like admin.
 
 - Dropping her into a blank planner grid with no strong default suggestions:
 
-  - "Add dinners to each day" invites paralysis.
+- "Add dinners to each day" invites paralysis.
 
 - Treating every week as a blank slate:
 
-  - If you ignore past behavior, you force full-brain planning every time.
+- If you ignore past behavior, you force full-brain planning every time.
 
 ---
 
@@ -2973,11 +2973,11 @@ money."
 - When she buys something that typically creates leftovers (like sour cream,
   spinach, tortillas), the system:
 
-  - tries to **pair it** with at least one more recipe in a reasonable window.
+- tries to **pair it** with at least one more recipe in a reasonable window.
 
 - She gets easy opportunities to use things up:
 
-  - "Want to use the rest of X in one of these?"
+- "Want to use the rest of X in one of these?"
 
 - If food still goes bad, she's not shamed; it's just a data point.
 
@@ -2985,51 +2985,51 @@ money."
 
 - **Pack-aware modeling**:
 
-  - Ingredients with known pack-style behavior are treated differently:
+- Ingredients with known pack-style behavior are treated differently:
 
-    - Tub/small: sour cream
+- Tub/small: sour cream
 
-    - Bundle/bunch: herbs, greens
+- Bundle/bunch: herbs, greens
 
-    - Bulk base: rice, tortillas, potatoes
+- Bulk base: rice, tortillas, potatoes
 
 - **Residual capacity tracking (lightweight)**:
 
-  - Not exact quantities — just:
+- Not exact quantities — just:
 
-    - "We planned 1 pack of spinach; one recipe used 1/2 pack; we *assume* some
+- "We planned 1 pack of spinach; one recipe used 1/2 pack; we *assume* some
       remains."
 
 - **Week-to-week linking**:
 
-  - After a week, VibeMeals asks:
+- After a week, VibeMeals asks:
 
-    - "You bought X and we only planned one use. Want to lean on it next week?"
+- "You bought X and we only planned one use. Want to lean on it next week?"
 
 - **Use-it-up candidate recipes**:
 
-  - A special tier of recipes that are:
+- A special tier of recipes that are:
 
-    - simple
+- simple
 
-    - flexible
+- flexible
 
-    - designed to soak up a type of leftover ("leftover rice fried rice",
+- designed to soak up a type of leftover ("leftover rice fried rice",
       "tortilla quesadillas," etc.)
 
 #### Failure modes to avoid
 
 - Turning this into inventory management:
 
-  - If she has to tell you "we used half, then used more at lunch," it's dead.
+- If she has to tell you "we used half, then used more at lunch," it's dead.
 
 - Introducing guilt:
 
-  - "You wasted spinach 3 weeks in a row" is a fast way to lose her.
+- "You wasted spinach 3 weeks in a row" is a fast way to lose her.
 
 - Over-optimizing at the cost of reliability:
 
-  - Don't let pack reuse logic break the bigger guarantee of "you have what you
+- Don't let pack reuse logic break the bigger guarantee of "you have what you
     need when you cook."
 
 ---
@@ -3038,41 +3038,41 @@ money."
 
 1. **Provisioning**
 
-  - You have what you need in sensible pack sizes
+- You have what you need in sensible pack sizes
 
-  - Safe substitutes chosen automatically when exact items unavailable
+- Safe substitutes chosen automatically when exact items unavailable
 
-  - Safe default: When in doubt, add it to the list
+- Safe default: When in doubt, add it to the list
 
 2. **Preflight**
 
-  - Tiny, timely prompts for thaw/marinate/soak/pre-chop
+- Tiny, timely prompts for thaw/marinate/soak/pre-chop
 
-  - Make "Tuesday's dinner" actually possible at 5:30pm without panic
+- Make "Tuesday's dinner" actually possible at 5:30pm without panic
 
 3. **Cooking**
 
-  - Steps are parallelized to hit the promised time band
+- Steps are parallelized to hit the promised time band
 
-  - Built-in timers for hands-off tasks
+- Built-in timers for hands-off tasks
 
-  - Clear progress: "Step 3 of 7"
+- Clear progress: "Step 3 of 7"
 
 4. **Waste Minimization**
 
-  - Leftovers and residual pack sizes tracked for reuse
+- Leftovers and residual pack sizes tracked for reuse
 
-  - Gentle suggestions: "You have leftover rice; want to use it Thursday?"
+- Gentle suggestions: "You have leftover rice; want to use it Thursday?"
 
-  - Not guilt-based; dismissible with "We ate it all" or "It went bad"
+- Not guilt-based; dismissible with "We ate it all" or "It went bad"
 
 5. **Trust**
 
-  - No blocking gates; safe defaults let you proceed immediately
+- No blocking gates; safe defaults let you proceed immediately
 
-  - Optional optimization saves money/waste
+- Optional optimization saves money/waste
 
-  - System learns from actions, not surveys
+- System learns from actions, not surveys
 
 ### DLE Stories: Guarantees in Action
 
@@ -3227,9 +3227,9 @@ what they have.
 
 - Each preflight step includes:
 
-  - Recommended lead time (e.g., 6 hours before desired eat time).
+- Recommended lead time (e.g., 6 hours before desired eat time).
 
-  - The specific ingredient(s) impacted.
+- The specific ingredient(s) impacted.
 
 - The UI can display preflight tasks separately ("Earlier Today") from cook-time
   steps ("Start Cooking").
@@ -3263,9 +3263,9 @@ what they have.
 - Choosing "Pick a backup" opens a curated list of **no-preflight alternates**
   that:
 
-  - Use similar ingredients when possible, or
+- Use similar ingredients when possible, or
 
-  - Are pantry-friendly "emergency" meals.
+- Are pantry-friendly "emergency" meals.
 
 #### Design/Eng Notes
 
@@ -3295,9 +3295,9 @@ what they have.
 
 - The app immediately offers options:
 
-  - "Use a no-thaw backup for tonight" (pantry/quick recipe suggestions).
+- "Use a no-thaw backup for tonight" (pantry/quick recipe suggestions).
 
-  - "Bump this meal to tomorrow and pick something else for tonight."
+- "Bump this meal to tomorrow and pick something else for tonight."
 
 - If the user chooses to bump, the schedule updates and any preflight
   requirements are re-timed to tomorrow.
@@ -3347,18 +3347,18 @@ He doesn't feel like he broke the system; he feels like the system adapted.
 
 - The app:
 
-  - Marks that dinner as "Skipped."
+- Marks that dinner as "Skipped."
 
-  - Asks one lightweight follow-up: "What happened?" with simple options (Too
+- Asks one lightweight follow-up: "What happened?" with simple options (Too
     busy / No ingredients / Just didn't want it / Other).
 
-  - Offers immediate follow-ons:
+- Offers immediate follow-ons:
 
-    - "Reschedule this meal later this week."
+- "Reschedule this meal later this week."
 
-    - "Push this to next week."
+- "Push this to next week."
 
-    - "Just drop it and move on."
+- "Just drop it and move on."
 
 - No error state, no scolding.
 
@@ -3385,15 +3385,15 @@ He doesn't feel like he broke the system; he feels like the system adapted.
 
 - The plan updates cleanly:
 
-  - Thursday now shows the simpler meal.
+- Thursday now shows the simpler meal.
 
-  - Friday now shows the more complex meal.
+- Friday now shows the more complex meal.
 
 - Any existing preflight tasks are recalculated:
 
-  - Thursday's preflight cancels (if needed).
+- Thursday's preflight cancels (if needed).
 
-  - Friday's preflight is scheduled appropriately.
+- Friday's preflight is scheduled appropriately.
 
 - The shopping list/cart **does not** need to be rebuilt unless ingredient needs
   change materially.
@@ -3423,20 +3423,20 @@ He doesn't feel like he broke the system; he feels like the system adapted.
 - VibeMeals surfaces a gentle recovery card: "You still have ingredients for
   these meals: [Chicken Tacos], [Veggie Stir-fry]. Want to:
 
-  - ✅ Use them next week
+- ✅ Use them next week
 
-  - 🧊 Freeze and skip
+- 🧊 Freeze and skip
 
-  - 🗑️ We used or lost them"
+- 🗑️ We used or lost them"
 
 - If the user chooses "Use them next week":
 
-  - Those meals (or similar ones using those ingredients) are prioritized for
+- Those meals (or similar ones using those ingredients) are prioritized for
     next week's plan.
 
 - If the user chooses "Freeze and skip" or "We used/lost them":
 
-  - The system updates its internal state and doesn't push them forward by
+- The system updates its internal state and doesn't push them forward by
     default.
 
 #### Design/Eng Notes
@@ -3459,10 +3459,10 @@ He doesn't feel like he broke the system; he feels like the system adapted.
 
 - The app responds with a calm, reset-friendly experience:
 
-  - "Looks like this week was wild. Want to reset and build a fresh plan for
+- "Looks like this week was wild. Want to reset and build a fresh plan for
     next week?"
 
-  - One-tap "Reset & Plan Next Week" action.
+- One-tap "Reset & Plan Next Week" action.
 
 - The user is not forced to reconcile everything in detail; they're given a
   fresh start with optional recovery for remaining ingredients.
@@ -3541,9 +3541,9 @@ likely still has some items (e.g., rice, spices, oil)
 - Present a **short list** of "You might already have these" items, prioritized
   by:
 
-  - pantry-style items (rice, spices, oil)
+- pantry-style items (rice, spices, oil)
 
-  - recently purchased items from the last 1–2 weeks
+- recently purchased items from the last 1–2 weeks
 
 - Let her **easily uncheck** those items to remove them from the list
 
@@ -3634,7 +3634,7 @@ she wants to start small (e.g., "Help me cook at home ~2 nights this week")
 
 - Each cook night producing **1–2 extra portions**, explicitly planned as:
 
-  - "You'll cook once and get 2 meals out of it" (e.g., Mon dinner + Tue
+- "You'll cook once and get 2 meals out of it" (e.g., Mon dinner + Tue
     lunch/dinner)
 
 - No default assumption of a full 7-dinner grid
@@ -3662,14 +3662,14 @@ no major conflict scheduled that evening
 
 - Show **one clear, low-friction option** for tonight:
 
-  - "Tonight: One-pan lemon chicken & potatoes (~25–30 minutes, 1 pan, 2 meals
+- "Tonight: One-pan lemon chicken & potatoes (~25–30 minutes, 1 pan, 2 meals
     for you)"
 
 - Emphasize:
 
-  - small effort (time, dishes)
+- small effort (time, dishes)
 
-  - clear payoff (tonight + one more meal without extra cooking)
+- clear payoff (tonight + one more meal without extra cooking)
 
 **And Then** starting this recipe should **feel easier** than:
 
@@ -3698,23 +3698,23 @@ the remaining portion **And** she sometimes reschedules or skips meals
 
 - Clearly remind her of the **planned leftover meal**:
 
-  - "Tonight: Leftover lemon chicken & potatoes (~5 min, reheat)"
+- "Tonight: Leftover lemon chicken & potatoes (~5 min, reheat)"
 
 - Offer a **low-effort remix option** if straightforward repeats fail often:
 
-  - "Too bored of this? Try this 10–15 min remix (e.g., turn into a wrap/bowl)."
+- "Too bored of this? Try this 10–15 min remix (e.g., turn into a wrap/bowl)."
 
 **And Then** if she skips the leftover event:
 
 - The app should **not** shame her:
 
-  - No "You wasted food" messaging
+- No "You wasted food" messaging
 
 - But it may adjust her model:
 
-  - Decrease leftover tolerance for future plans
+- Decrease leftover tolerance for future plans
 
-  - Offer more "1 cook → 1–2 eats max" patterns rather than 4+ portions
+- Offer more "1 cook → 1–2 eats max" patterns rather than 4+ portions
 
 #### Design/Eng Notes
 
@@ -3745,9 +3745,9 @@ scheduled as cook nights **And** she returns to VibeMeals later in the week
 
 - Use these signals to gently tune future recommendations:
 
-  - maybe more ultra-fast fallback options
+- maybe more ultra-fast fallback options
 
-  - maybe fewer planned cook nights if 3+ repeatedly fail
+- maybe fewer planned cook nights if 3+ repeatedly fail
 
 #### Design/Eng Notes
 
@@ -3773,13 +3773,13 @@ Concretely, for the **current week**:
 
 - We do **not** silently:
 
-  - swap tonight's recipe,
+- swap tonight's recipe,
 
-  - change core ingredients (e.g., chicken → tofu),
+- change core ingredients (e.g., chicken → tofu),
 
-  - reduce portion sizes, or
+- reduce portion sizes, or
 
-  - remove planned dinners
+- remove planned dinners
 
 …without the user taking an explicit action (swap, move, delete, change
 servings).
@@ -3787,26 +3787,26 @@ servings).
 #### Allowed changes
 - User-initiated:
 
-  - "Swap this dinner"
+- "Swap this dinner"
 
-  - "Move this to another day"
+- "Move this to another day"
 
-  - "Change servings to 6 instead of 4"
+- "Change servings to 6 instead of 4"
 
-  - "We're eating out instead"
+- "We're eating out instead"
 
 - Small, transparent clarifications:
 
-  - "We slightly adjusted onion amount to match common pack sizes."
+- "We slightly adjusted onion amount to match common pack sizes."
 
 #### Not allowed
 - "Smart" behind-the-scenes re-planning that:
 
-  - changes recipes,
+- changes recipes,
 
-  - drops ingredients,
+- drops ingredients,
 
-  - or alters portions
+- or alters portions
 
 #### without a clear user-triggered action.
 
@@ -3886,17 +3886,17 @@ We define:
 
 - **Structure:**
 
-  - 1 pan/pot/sheet where possible (2 max, and only for good reason)
+- 1 pan/pot/sheet where possible (2 max, and only for good reason)
 
-  - Minimal chopping, minimal "babysitting"
+- Minimal chopping, minimal "babysitting"
 
 - **Examples:**
 
-  - Sheet-pan chicken + veg
+- Sheet-pan chicken + veg
 
-  - Tacos with simple toppings
+- Tacos with simple toppings
 
-  - One-pot pasta
+- One-pot pasta
 
 FAST recipes must be:
 
@@ -3911,17 +3911,17 @@ FAST recipes must be:
 
 - **Structure:**
 
-  - 1–2 main vessels (e.g., pan + pot, or pan + sheet)
+- 1–2 main vessels (e.g., pan + pot, or pan + sheet)
 
-  - Some chopping and sequencing, but not complex techniques
+- Some chopping and sequencing, but not complex techniques
 
 - **Examples:**
 
-  - Stir-fries, skillet pastas
+- Stir-fries, skillet pastas
 
-  - Simple bakes or chilis
+- Simple bakes or chilis
 
-  - Mildly more involved sheet-pan meals
+- Mildly more involved sheet-pan meals
 
 NORMAL is the **default band** for "regular cooking energy" nights.
 
@@ -3931,17 +3931,17 @@ NORMAL is the **default band** for "regular cooking energy" nights.
 
 - **Structure:**
 
-  - Multi-step, potentially multi-pot
+- Multi-step, potentially multi-pot
 
-  - May involve marinating, simmering, baking, resting
+- May involve marinating, simmering, baking, resting
 
 - **Examples:**
 
-  - Lasagna
+- Lasagna
 
-  - Braises, roasts, or multi-component meals
+- Braises, roasts, or multi-component meals
 
-  - Fancy weekend dinners
+- Fancy weekend dinners
 
 PROJECT recipes must be:
 
@@ -3986,13 +3986,13 @@ Rules:
 
 - Preflight must be modeled as:
 
-  - structured metadata on the recipe
+- structured metadata on the recipe
 
-  - surfaced in:
+- surfaced in:
 
-    - planning (summary of the week)
+- planning (summary of the week)
 
-    - Today view ("You're good" vs "You missed this step; here's Plan B")
+- Today view ("You're good" vs "You missed this step; here's Plan B")
 
 - We aim to **avoid** recipes where missing preflight makes the meal impossible
   that night for ordinary users.
@@ -4046,24 +4046,24 @@ We favor **boring-but-available** over exotic-but-impressive.
 
 - Bias toward ingredients that:
 
-  - Are widely available at big-box / mainstream grocery stores
+- Are widely available at big-box / mainstream grocery stores
 
-  - Come in reasonably-sized packs for our target households
+- Come in reasonably-sized packs for our target households
 
 - Limit recipes that:
 
-  - Require many one-off ingredients users will use once and forget
+- Require many one-off ingredients users will use once and forget
 
-  - Depend on niche specialty items outside Project recipes
+- Depend on niche specialty items outside Project recipes
 
 We allow:
 
 - Occasional "twist" ingredients (e.g., smoked paprika, fresh herbs) especially
   for:
 
-  - Project meals
+- Project meals
 
-  - Ellen & Mark's "small twist" pattern
+- Ellen & Mark's "small twist" pattern
 
 But:
 
@@ -4083,15 +4083,15 @@ Rules:
 
 - Scaling must:
 
-  - Preserve ratios so flavor and cooking behavior remain sane
+- Preserve ratios so flavor and cooking behavior remain sane
 
-  - Respect pan capacity and oven space (no "just triple it" without thought)
+- Respect pan capacity and oven space (no "just triple it" without thought)
 
 - For large households (5–8+):
 
-  - Some recipes may require **double-batch** or "cook in two pans" instructions
+- Some recipes may require **double-batch** or "cook in two pans" instructions
 
-  - The system should prefer recipes that scale gracefully for them
+- The system should prefer recipes that scale gracefully for them
 
 > Portion logic is a first-class part of the recipe, not an afterthought.
 
@@ -4104,33 +4104,33 @@ Not every recipe belongs in every household's default pool.
 #### Catalog filtering by household mode (Section 5.2)
 - **Solo / Planning for One (Kayla):**
 
-  - Prioritize: Small-batch recipes, ones that store well as leftovers, easily
+- Prioritize: Small-batch recipes, ones that store well as leftovers, easily
     halved recipes
 
-  - Deprioritize: "Feeds 8" casseroles unless clear share/freeze intention
+- Deprioritize: "Feeds 8" casseroles unless clear share/freeze intention
 
 - **Family with Kids (Ashley / Brianna):**
 
-  - Prioritize: Kid-tolerant flavors, "add heat at table" options for adults
+- Prioritize: Kid-tolerant flavors, "add heat at table" options for adults
 
-  - Deprioritize: Extremely polarizing flavors or rare ingredients as defaults
+- Deprioritize: Extremely polarizing flavors or rare ingredients as defaults
 
 - **Empty Nest / Older Couple (Ellen & Mark):**
 
-  - Prioritize: Comfort rotation + gentle variations
+- Prioritize: Comfort rotation + gentle variations
 
-  - Deprioritize: Endless heavy leftovers, complex multi-stage meals as defaults
+- Deprioritize: Endless heavy leftovers, complex multi-stage meals as defaults
 
 - **Large / Multi-Gen Households:**
 
-  - Prioritize: Crowd-friendly meals that scale well and tolerate holding time
+- Prioritize: Crowd-friendly meals that scale well and tolerate holding time
 
-  - Deprioritize: Extremely fiddly individual portions (e.g., 12 hand-assembled
+- Deprioritize: Extremely fiddly individual portions (e.g., 12 hand-assembled
     items)
 
 - **DINKs / Hobbyist Cooks:**
 
-  - Can opt into more ambitious recipes and multi-dish nights (opt-in behavior)
+- Can opt into more ambitious recipes and multi-dish nights (opt-in behavior)
 
 These are **catalog filtering rules**, not persona re-explanations—they
 determine which recipes appear in default weekly plans for each mode.
@@ -4153,11 +4153,11 @@ We must:
 
 - **Adjust or remove recipes** that:
 
-  - Repeatedly fail G1 (not actually cookable tonight)
+- Repeatedly fail G1 (not actually cookable tonight)
 
-  - Cause frequent waste (uncommon ingredients never used again)
+- Cause frequent waste (uncommon ingredients never used again)
 
-  - Routinely trip preflight or equipment constraints for a meaningful user
+- Routinely trip preflight or equipment constraints for a meaningful user
     segment
 
 We treat the catalog as **curated**, not static:
@@ -4171,30 +4171,30 @@ breaks our promises.
 
 - **G1 – Tonight is actually cookable**
 
-  - Time bands and preflight modeling are the core defense.
+- Time bands and preflight modeling are the core defense.
 
 - **G2 – Planning is a 5–10 min check-in**
 
-  - A curated catalog means less thrash and fewer "looks good but not realistic"
+- A curated catalog means less thrash and fewer "looks good but not realistic"
     picks.
 
 - **G3 – Safe over clever**
 
-  - Ingredients and portions are specified in a way that makes provisioning
+- Ingredients and portions are specified in a way that makes provisioning
     reliable.
 
 - **G4 – Plans bend, they don't break**
 
-  - Recipes chosen are flexible enough to move days without collapsing.
+- Recipes chosen are flexible enough to move days without collapsing.
 
 - **G5 – Budget & waste respected**
 
-  - Limiting one-off ingredients and pack-size disasters reduces waste and
+- Limiting one-off ingredients and pack-size disasters reduces waste and
     regret.
 
 - **G6 – Respect constraints & ability**
 
-  - Equipment, difficulty, and health constraints are baked into catalog tags,
+- Equipment, difficulty, and health constraints are baked into catalog tags,
     not patched on top.
 
 **These catalog rules are enforcement mechanisms for G1-G6, not
@@ -4253,9 +4253,9 @@ Pains touched: fewer **second trips**, lower **food waste guilt**, lighter
 
 - Planner suggests:
 
-  - Reusing Monday's ingredients on Friday or next week.
+- Reusing Monday's ingredients on Friday or next week.
 
-  - Freezing Wednesday's protein and pulling in a pantry-friendly backup meal.
+- Freezing Wednesday's protein and pulling in a pantry-friendly backup meal.
 
 - User makes quick in-app swaps and rerolls without rebuilding the whole week or
   cart.
@@ -4509,11 +4509,11 @@ dinner planner.
 
 - Time spent **thinking about dinner** is scattered across the entire day:
 
-  - Commute rumination
+- Commute rumination
 
-  - Mental inventory checks
+- Mental inventory checks
 
-  - Ad-hoc recipe hunting
+- Ad-hoc recipe hunting
 
 - Effort is mostly **cognitive**: planning, remembering, juggling steps amidst
   chaos.
@@ -4525,21 +4525,21 @@ dinner planner.
 
 - Time spent on dinner **decisions** is compressed into:
 
-  - One short weekly session (Sun)
+- One short weekly session (Sun)
 
-  - A few tiny check-ins (Today view, Tomorrow Preview)
+- A few tiny check-ins (Today view, Tomorrow Preview)
 
 - Effort is mostly **tapping through clear options**:
 
-  - Start planned meal / downgrade / swap / quick feedback.
+- Start planned meal / downgrade / swap / quick feedback.
 
 - Emotional load: feels supported by a system that:
 
-  - remembers preflight
+- remembers preflight
 
-  - gives realistic meals
+- gives realistic meals
 
-  - flexes when life blows up
+- flexes when life blows up
 
 If Monday feels this different, the rest of the week benefits from the same
 underlying rhythms (plan → preflight → today view → flexible execution → light
@@ -4652,11 +4652,11 @@ Before she starts the car, she glances quickly at VibeMeals:
 
 - The **Today** tab shows:
 
-  - "Tonight: Skillet Chicken & Veggies (Fast, ~25 min)."
+- "Tonight: Skillet Chicken & Veggies (Fast, ~25 min)."
 
-  - A tiny note: "No preflight needed. You're good to start when you get home."
+- A tiny note: "No preflight needed. You're good to start when you get home."
 
-  - Big button: **"Start Cooking When I'm Home"**
+- Big button: **"Start Cooking When I'm Home"**
 
 #### Impact
 
@@ -4684,9 +4684,9 @@ hands-on > • 12 min stovetop simmer > Start whenever you're ready."
 
 - Two big options:
 
-  - **Start Now**
+- **Start Now**
 
-  - **Too Tired? Show Easier Options**
+- **Too Tired? Show Easier Options**
 
 She taps **"Start Now"**.
 
@@ -4706,9 +4706,9 @@ She taps **"Start Now"**.
 
 - Kids interrupt her every few minutes:
 
-  - "Can you help with this worksheet?"
+- "Can you help with this worksheet?"
 
-  - "I can't find my shin guards."
+- "I can't find my shin guards."
 
 #### VibeMeals touchpoint – Guided Steps
 
@@ -4716,16 +4716,16 @@ In **Cooking Mode**, the app:
 
 - Shows just **one step at a time**, with a progress indicator:
 
-  - Step 1/7: "Chop chicken into bite-size pieces (about 5 minutes). Tap when
+- Step 1/7: "Chop chicken into bite-size pieces (about 5 minutes). Tap when
     done."
 
 - Marks tasks as:
 
-  - **Hands-on** vs **Hands-off / Wait**
+- **Hands-on** vs **Hands-off / Wait**
 
 - Auto-suggests small breaks:
 
-  - After she gets it simmering, it says:
+- After she gets it simmering, it says:
 
 > "You've got 10 minutes while this simmers. > Good time to: help with homework
 / set the table / just sit."
@@ -4761,7 +4761,7 @@ She taps **👍 Keep in rotation**.
 
 - System learns:
 
-  - "This Fast, skillet-style recipe worked on a Monday."
+- "This Fast, skillet-style recipe worked on a Monday."
 
 - But she didn't have to write a review or do paperwork.
 
@@ -4784,14 +4784,14 @@ tomorrow morning. > ✅ I'll thaw it tonight > 🔁 Swap to a no-thaw meal"
 
 - If she taps **"I'll thaw it tonight"**:
 
-  - The app gently suggests:
+- The app gently suggests:
 
 > "Great. Toss the chicken into the fridge when you head to bed. We'll assume
 it's handled, and you can still change tomorrow if needed."
 
 - If she taps **"Swap to a no-thaw meal"**:
 
-  - The app shows 2–3 no-preflight alternatives using similar ingredients.
+- The app shows 2–3 no-preflight alternatives using similar ingredients.
 
 #### Impact
 
@@ -4807,11 +4807,11 @@ it's handled, and you can still change tomorrow if needed."
 
 - Ashley goes to sleep **not needing** to mentally rehearse:
 
-  - what's for dinner tomorrow
+- what's for dinner tomorrow
 
-  - whether she bought the right stuff
+- whether she bought the right stuff
 
-  - whether she'll remember to thaw or marinate anything.
+- whether she'll remember to thaw or marinate anything.
 
 #### VibeMeals' role
 
@@ -4819,11 +4819,11 @@ it's handled, and you can still change tomorrow if needed."
 
 - The app has:
 
-  - Handled tonight.
+- Handled tonight.
 
-  - Partially prepared tomorrow.
+- Partially prepared tomorrow.
 
-  - Stored a tiny bit of preference data (👍 on tonight's meal).
+- Stored a tiny bit of preference data (👍 on tonight's meal).
 
 #### Net "Time & Effort" Change for Monday
 
@@ -4835,9 +4835,9 @@ Compared to her old normal, Ashley:
 
 - Spent **maybe 1–2 minutes total** on micro interactions:
 
-  - confirming she'd thaw chicken for tomorrow
+- confirming she'd thaw chicken for tomorrow
 
-  - giving quick feedback on tonight's meal
+- giving quick feedback on tonight's meal
 
 But she **saved**:
 
@@ -4876,26 +4876,26 @@ Legend:
 
 - **Near-universal pains (must never regress):**
 
-  - Planning dread / decision fatigue
+- Planning dread / decision fatigue
 
-  - Food waste guilt
+- Food waste guilt
 
-  - Second trips / missing ingredients
+- Second trips / missing ingredients
 
-  - Hidden preflight (even if intensity differs)
+- Hidden preflight (even if intensity differs)
 
 - **Persona-specific “spikes”:**
 
-  - **Ashley:** 5pm panic, preflight, second trips, emotional blame, volatility
+- **Ashley:** 5pm panic, preflight, second trips, emotional blame, volatility
 
-  - **Brianna:** budget + waste as *sharp* pains
+- **Brianna:** budget + waste as *sharp* pains
 
-  - **Kayla:** leftovers, volatility, “why bother cooking for one?” decision
+- **Kayla:** leftovers, volatility, “why bother cooking for one?” decision
     fatigue
 
-  - **Jake & Maya:** volatility & “we went out instead” → waste
+- **Jake & Maya:** volatility & “we went out instead” → waste
 
-  - **Ellen & Mark:** rut/boredom + “don’t make me buy a new pantry”
+- **Ellen & Mark:** rut/boredom + “don’t make me buy a new pantry”
 
 This is the lens for “are we making any of these worse by accident?”
 
@@ -4917,15 +4917,15 @@ realistic, provisioned, preflight-safe dinner lined up.
 
 - **Then** VibeMeals must:
 
-  - Show exactly one clear, realistic answer to “What’s for dinner tonight?”
+- Show exactly one clear, realistic answer to “What’s for dinner tonight?”
 
-  - Ensure all **critical ingredients** for that dinner are on hand (no mid-cook
+- Ensure all **critical ingredients** for that dinner are on hand (no mid-cook
     surprises)
 
-  - Surface any thaw/marinate/soak steps **earlier in the day**, not as fine
+- Surface any thaw/marinate/soak steps **earlier in the day**, not as fine
     print at 5pm
 
-  - Let her either **do tonight’s plan** or **downgrade to something easier** in
+- Let her either **do tonight’s plan** or **downgrade to something easier** in
     one or two taps
 
 ---
@@ -4941,14 +4941,14 @@ what she has and see they’re affordable *before* she commits.
 
 - **Then** VibeMeals must:
 
-  - Favor **cheap, familiar recipes** and reuse likely-on-hand staples
+- Favor **cheap, familiar recipes** and reuse likely-on-hand staples
 
-  - Make it obvious that this is a **low-cost week** (even with rough cost)
+- Make it obvious that this is a **low-cost week** (even with rough cost)
 
-  - Use Quick Review only to **optionally** remove items she truly has, never to
+- Use Quick Review only to **optionally** remove items she truly has, never to
     drop critical ingredients automatically
 
-  - Never require detailed budgeting/admin work to get value
+- Never require detailed budgeting/admin work to get value
 
 ---
 
@@ -4964,15 +4964,15 @@ them, without being forced into a full 7-day grid.
 
 - **Then** VibeMeals must:
 
-  - Plan only **2–3 cook nights**, not a full family-style week
+- Plan only **2–3 cook nights**, not a full family-style week
 
-  - Make each cook night feel “worth it” (1 cook → 1–2 extra easy meals, not a
+- Make each cook night feel “worth it” (1 cook → 1–2 extra easy meals, not a
     mountain of leftovers)
 
-  - Offer super low-friction cooking flows that genuinely **compete with
+- Offer super low-friction cooking flows that genuinely **compete with
     delivery** on effort
 
-  - Treat delivery as allowed and normal; only highlight **small wins** (“you
+- Treat delivery as allowed and normal; only highlight **small wins** (“you
     cooked twice”) rather than guilt
 
 ---
@@ -4988,15 +4988,15 @@ VibeMeals, and the meal/ingredients are gracefully rescheduled or rescued.
 
 - **Then** VibeMeals must:
 
-  - Treat this as a **first-class, normal** action (no sense of failure)
+- Treat this as a **first-class, normal** action (no sense of failure)
 
-  - Offer simple options to **move** or **swap** that meal (e.g., move to
+- Offer simple options to **move** or **swap** that meal (e.g., move to
     tomorrow, to weekend, or replace with a freezer/pantry meal)
 
-  - Adjust internal freshness so that ingredients are either used soon, frozen,
+- Adjust internal freshness so that ingredients are either used soon, frozen,
     or consciously skipped
 
-  - Later, gently remind them to **use or freeze** borderline-fresh items,
+- Later, gently remind them to **use or freeze** borderline-fresh items,
     without shaming
 
 ---
@@ -5013,15 +5013,15 @@ doesn’t require 10 new ingredients or fancy skills.
 
 - **Then** VibeMeals must:
 
-  - Include **comfort meals** they recognize plus at least one **small twist**
+- Include **comfort meals** they recognize plus at least one **small twist**
 
-  - Make twists structurally familiar (same general pattern, slightly different
+- Make twists structurally familiar (same general pattern, slightly different
     veg/seasoning)
 
-  - Introduce at most **1–2 new ingredients** per week, and avoid big one-off
+- Introduce at most **1–2 new ingredients** per week, and avoid big one-off
     pantry buys
 
-  - Let them easily say “keep/ditch this twist” and evolve variety slowly, not
+- Let them easily say “keep/ditch this twist” and evolve variety slowly, not
     all at once
 
 ---
@@ -5058,11 +5058,11 @@ that was heavy”:
 
 - **Substitution & SKU mapping** become scary:
 
-  - Hidden gluten/sugar/allergens in sauces, spice blends, broths.
+- Hidden gluten/sugar/allergens in sauces, spice blends, broths.
 
 - **Waste guilt** competes with **safety fear**:
 
-  - “I *think* this is safe leftover…but if I’m wrong, it’s bad.”
+- “I *think* this is safe leftover…but if I’m wrong, it’s bad.”
 
 #### Guardrails – We must NOT…
 
@@ -5111,7 +5111,7 @@ be Ashley-with-ADHD, Kayla-with-ADHD, a college student, etc.
 
 - **Cooking** is fragile:
 
-  - Long instructions, multi-tasking, and interruptions cause derailment.
+- Long instructions, multi-tasking, and interruptions cause derailment.
 
 #### Guardrails – We must NOT…
 
@@ -5155,15 +5155,15 @@ weeks **don’t follow a 9–5, dinner-at-6 pattern**.
 
 - **Preflight** is fragile:
 
-  - “Morning” and “evening” are relative; thaw windows are weird.
+- “Morning” and “evening” are relative; thaw windows are weird.
 
 - **Planning dread**:
 
-  - Their schedule is complex; a rigid 7-night dinner grid feels wrong.
+- Their schedule is complex; a rigid 7-night dinner grid feels wrong.
 
 - **Energy crashes**:
 
-  - After 12–14 hour shifts, even a “fast” recipe might be too much.
+- After 12–14 hour shifts, even a “fast” recipe might be too much.
 
 #### Guardrails – We must NOT…
 
@@ -5204,11 +5204,11 @@ shared households.
 
 - **Second trips / missing ingredients** are catastrophic:
 
-  - You can’t run out of protein with a full table.
+- You can’t run out of protein with a full table.
 
 - **Portion anxiety** is constant:
 
-  - Recipes default to 4 servings; they routinely need 6–8+.
+- Recipes default to 4 servings; they routinely need 6–8+.
 
 - **Waste** and **overspend** are magnified by scale.
 
@@ -5257,13 +5257,13 @@ People who **haven’t cooked much** or don’t trust themselves in the kitchen:
 
 - **Cooking** is high-stress:
 
-  - Vague instructions (“season to taste”) are terrifying.
+- Vague instructions (“season to taste”) are terrifying.
 
-  - Technique-y recipes feel like traps.
+- Technique-y recipes feel like traps.
 
 - **Waste guilt** is higher:
 
-  - “If I mess this up, that’s dinner and money gone.”
+- “If I mess this up, that’s dinner and money gone.”
 
 #### Guardrails – We must NOT…
 
@@ -5283,7 +5283,7 @@ People who **haven’t cooked much** or don’t trust themselves in the kitchen:
 
 - **Must** write instructions as if you’re talking to a smart beginner:
 
-  - concrete cues (“until the chicken is no longer pink inside”) instead of
+- concrete cues (“until the chicken is no longer pink inside”) instead of
     jargon.
 
 - **Must** keep equipment expectations modest (no assuming specialty tools
@@ -5310,15 +5310,15 @@ People who **enjoy cooking and are already competent**:
 
 - **Planning dread**:
 
-  - Comes from juggling ideas, not from lack of recipes.
+- Comes from juggling ideas, not from lack of recipes.
 
 - **Shopping**:
 
-  - They often plan multiple complex meals and want one clean, accurate list.
+- They often plan multiple complex meals and want one clean, accurate list.
 
 - **Coordination pain**:
 
-  - Timing mains + sides + multiple recipes for guests is tricky.
+- Timing mains + sides + multiple recipes for guests is tricky.
 
 #### Guardrails – We must NOT…
 
@@ -5367,9 +5367,9 @@ shop, that dinner is genuinely doable at their usual “dinner time”.
 
 - A user (any household type) has:
 
-  - accepted a plan
+- accepted a plan
 
-  - completed the main shop for that plan
+- completed the main shop for that plan
 
 #### When
 
@@ -5387,9 +5387,9 @@ shop, that dinner is genuinely doable at their usual “dinner time”.
 
 - Ensure any required **preflight** (thaw/marinate/soak) was:
 
-  - surfaced earlier at a realistic time, or
+- surfaced earlier at a realistic time, or
 
-  - gracefully handled (backup/swap) if missed
+- gracefully handled (backup/swap) if missed
 
 - Fit the dinner into the promised **time band** (Fast / Normal / Project) for
   that user’s typical evening energy
@@ -5411,15 +5411,15 @@ regardless of household type.
 
 - A user opens VibeMeals to plan “this week’s dinners”
 
-  - Ashley: family of 4–5
+- Ashley: family of 4–5
 
-  - Brianna: budget-stretched mom
+- Brianna: budget-stretched mom
 
-  - Kayla: single, wants 2 wins
+- Kayla: single, wants 2 wins
 
-  - Ellen & Mark: 2 people, 3 meals
+- Ellen & Mark: 2 people, 3 meals
 
-  - Etc.
+- Etc.
 
 #### When
 
@@ -5430,11 +5430,11 @@ regardless of household type.
 - Produce a **sane default plan** in one tap (no blank grid), sized to their
   household profile:
 
-  - families: ~4–7 dinners
+- families: ~4–7 dinners
 
-  - singles: 2–4 dinners
+- singles: 2–4 dinners
 
-  - empty nesters: 3–4 dinners
+- empty nesters: 3–4 dinners
 
 - Let them adjust the plan (swap/reroll/delete) in **under 5–10 minutes** for
   normal weeks
@@ -5471,15 +5471,15 @@ missing a core ingredient for any planned meal.
 - Treat pantry/fuzzy signals as **optional optimization only**, surfaced via
   Quick Review:
 
-  - “You might already have these – want to remove them?”
+- “You might already have these – want to remove them?”
 
 - Never auto-remove critical ingredients purely on guesswork
 
 - Be extra conservative for:
 
-  - large households (portion/pack sizing)
+- large households (portion/pack sizing)
 
-  - health constraints (no unsafe swaps)
+- health constraints (no unsafe swaps)
 
 - For health constraints, never map to an unsafe SKU; if no safe SKU exists,
    **flag and swap** instead of shipping an unsafe plan.
@@ -5500,11 +5500,11 @@ out—the plan flexes without creating chaos or guilt.
 
 - Reality changes:
 
-  - Ashley’s sports night explodes
+- Ashley’s sports night explodes
 
-  - Jake & Maya decide to go out
+- Jake & Maya decide to go out
 
-  - Shift-worker Kayla loses a night to a schedule change
+- Shift-worker Kayla loses a night to a schedule change
 
 #### When
 
@@ -5516,17 +5516,17 @@ out—the plan flexes without creating chaos or guilt.
 
 - Offer **1–2 simple adjustments**:
 
-  - move the meal to another day
+- move the meal to another day
 
-  - swap in a simpler backup
+- swap in a simpler backup
 
-  - freeze/rescue ingredients when relevant
+- freeze/rescue ingredients when relevant
 
 - Keep the rest of the week intact as much as possible
 
 - Use calm, non-judgy copy:
 
-  - No “you fell off the plan”; only “want to move or simplify this?”
+- No “you fell off the plan”; only “want to move or simplify this?”
 
 > If any feature makes skipping/swapping feel like “breaking” the app, it fails
 this golden rule.
@@ -5543,9 +5543,9 @@ bookkeeper.
 
 - A user is:
 
-  - budget-sensitive (Brianna, large household), or
+- budget-sensitive (Brianna, large household), or
 
-  - guilt-sensitive about waste (Kayla, Ellen & Mark)
+- guilt-sensitive about waste (Kayla, Ellen & Mark)
 
 - They’ve used VibeMeals for at least one week, so the app has some
   purchase/plan history
@@ -5561,19 +5561,19 @@ bookkeeper.
 
 - Surface **simple, low-risk savings**:
 
-  - “You probably still have rice from last week – want to skip buying more?”
+- “You probably still have rice from last week – want to skip buying more?”
 
 - Use fuzzy pantry knowledge to:
 
-  - suggest “use-it-up” meals, and
+- suggest “use-it-up” meals, and
 
-  - gently steer away from repeatedly wasted items
+- gently steer away from repeatedly wasted items
 
 - Never:
 
-  - require detailed price entry, manual inventory, or complex budgeting flows
+- require detailed price entry, manual inventory, or complex budgeting flows
 
-  - shame them for past waste
+- shame them for past waste
 
 > If “being smart about money/waste” starts to feel like a second job, this
 golden test is violated.
@@ -5590,23 +5590,23 @@ experienced cooks.
 
 - A user has indicated any of the following:
 
-  - Health constraints (e.g., “no gluten,” “no nuts,” “low sugar”)
+- Health constraints (e.g., “no gluten,” “no nuts,” “low sugar”)
 
-  - Low cooking confidence / beginner status
+- Low cooking confidence / beginner status
 
-  - High cooking confidence / “I enjoy cooking”
+- High cooking confidence / “I enjoy cooking”
 
-  - Executive dysfunction / ADHD (“keep it simple”)
+- Executive dysfunction / ADHD (“keep it simple”)
 
 #### When
 
 - VibeMeals:
 
-  - recommends recipes
+- recommends recipes
 
-  - maps ingredients to SKUs
+- maps ingredients to SKUs
 
-  - presents cooking steps
+- presents cooking steps
 
 **Then** VibeMeals must:
 
@@ -5615,16 +5615,16 @@ experienced cooks.
 
 - For beginners:
 
-  - Use concrete, non-jargony instructions and modest equipment expectations
+- Use concrete, non-jargony instructions and modest equipment expectations
 
 - For confident cooks:
 
-  - Avoid condescending over-explanations; focus on logistics (timing,
+- Avoid condescending over-explanations; focus on logistics (timing,
     consolidation)
 
 - For ADHD/overwhelmed users:
 
-  - Keep decision surfaces small and paths obvious (“do this” vs “easier
+- Keep decision surfaces small and paths obvious (“do this” vs “easier
     option”)
 
 > If any change makes a constrained user fight the app (to stay safe) or feel
@@ -5792,16 +5792,16 @@ Learning is a bonus, not a requirement.
 
 - The app must be **useful on week 1** with almost no data:
 
-  - Safe assumptions, conservative shopping list, popular & kid-friendly
+- Safe assumptions, conservative shopping list, popular & kid-friendly
     defaults.
 
 - We **never** require:
 
-  - Pantry setup
+- Pantry setup
 
-  - Long surveys
+- Long surveys
 
-  - "Tell us all your preferences" wizards before the system can perform.
+- "Tell us all your preferences" wizards before the system can perform.
 
 > Personalization makes a good system *better*. It does not unlock a broken
 system.
@@ -5855,33 +5855,33 @@ psychoanalysis.
 #### We learn things like
 - **Time & effort patterns**
 
-  - How often they actually cook "Project" meals vs Fast/Normal
+- How often they actually cook "Project" meals vs Fast/Normal
 
-  - Whether 45–50 minute "Normal" dinners succeed or fail on weeknights
+- Whether 45–50 minute "Normal" dinners succeed or fail on weeknights
 
 - **Taste & pattern preferences**
 
-  - Proteins they lean toward/away from (chicken vs beef vs vegetarian)
+- Proteins they lean toward/away from (chicken vs beef vs vegetarian)
 
-  - Flavor families and cuisines they seem to like (Mexican, Italian, etc.)
+- Flavor families and cuisines they seem to like (Mexican, Italian, etc.)
 
-  - How kid-sensitive a household is (how often "kid-safe" meals are eaten vs
+- How kid-sensitive a household is (how often "kid-safe" meals are eaten vs
     rejected)
 
 - **Cost & waste patterns**
 
-  - Ingredients that often go unused (e.g., spinach bought and thrown out)
+- Ingredients that often go unused (e.g., spinach bought and thrown out)
 
-  - Pack sizes that are consistently right/wrong for this household
+- Pack sizes that are consistently right/wrong for this household
 
-  - Whether "cheap but boring" vs "slightly nicer" tends to survive cooking
+- Whether "cheap but boring" vs "slightly nicer" tends to survive cooking
     reality
 
 - **Leftover & repetition tolerance**
 
-  - Whether "cook once, eat twice" patterns succeed or lead to skipped leftovers
+- Whether "cook once, eat twice" patterns succeed or lead to skipped leftovers
 
-  - Whether they enjoy planned leftovers or get bored quickly
+- Whether they enjoy planned leftovers or get bored quickly
 
 #### We explicitly do *not* learn or infer
 - Weight, diet morality, or any judgmental framing ("you should eat healthier")
@@ -5901,21 +5901,21 @@ We prioritize **stability over hyper-reactive personalization**.
 
 - One bad week does **not** erase a household's identity.
 
-  - Two thumbs-downs on beef in one week ≠ "no beef ever again."
+- Two thumbs-downs on beef in one week ≠ "no beef ever again."
 
 - We require **repeated patterns over time** before big shifts:
 
-  - Many skips / thumbs-downs for similar recipes
+- Many skips / thumbs-downs for similar recipes
 
-  - Many "cooked & liked" events for a pattern we want to promote
+- Many "cooked & liked" events for a pattern we want to promote
 
 - We prefer **gradual shifts**:
 
-  - "Fewer beef dinners over the next few weeks"
+- "Fewer beef dinners over the next few weeks"
 
-  - "Slightly more vegetarian options introduced slowly"
+- "Slightly more vegetarian options introduced slowly"
 
-  - "Spinach shows up less often if it gets skipped or wasted frequently"
+- "Spinach shows up less often if it gets skipped or wasted frequently"
 
 For safety-critical constraints (e.g., no gluten, no nuts):
 
@@ -5944,43 +5944,43 @@ To protect Golden Experiences [G1–G6], learning **must not**:
 
 - **Break G1 (Tonight is actually cookable)**
 
-  - Never "personalize" by suggesting ambitious recipes on nights where this
+- Never "personalize" by suggesting ambitious recipes on nights where this
     household historically fails.
 
-  - Never hide preflight or extend time bands just because a user "likes" a
+- Never hide preflight or extend time bands just because a user "likes" a
     recipe.
 
 - **Break G2 (Planning is a 5–10 min check-in)**
 
-  - Never require more tagging, more ratings, or more manual data just to learn.
+- Never require more tagging, more ratings, or more manual data just to learn.
 
-  - No "rate every meal to improve your plan"-style nagging.
+- No "rate every meal to improve your plan"-style nagging.
 
 - **Break G3 (Safe over clever)**
 
-  - Never drop critical ingredients due to "We think you have this" patterns.
+- Never drop critical ingredients due to "We think you have this" patterns.
 
-  - Never override a health constraint because "you seemed okay with it once."
+- Never override a health constraint because "you seemed okay with it once."
 
 - **Break G4 (Plans bend, they don't break)**
 
-  - Never punish users for skipping or moving meals.
+- Never punish users for skipping or moving meals.
 
-  - Skips & "we went out instead" are inputs, not failures.
+- Skips & "we went out instead" are inputs, not failures.
 
 - **Break G5 (Budget & waste respected)**
 
-  - Never aggressively chase cost or waste reduction at the risk of missing
+- Never aggressively chase cost or waste reduction at the risk of missing
     essentials.
 
-  - Never push weird leftover hacks just to avoid throwing something out.
+- Never push weird leftover hacks just to avoid throwing something out.
 
 - **Break G6 (Respect constraints & ability)**
 
-  - Never escalate difficulty just because meals were cooked; ability flags are
+- Never escalate difficulty just because meals were cooked; ability flags are
     explicit.
 
-  - Never silently undo constraints (health, ADHD, beginner) because usage looks
+- Never silently undo constraints (health, ADHD, beginner) because usage looks
     "inconsistent."
 
 ---
@@ -6030,19 +6030,19 @@ Users must be able to **course-correct** the system without starting over.
 
 - **Nudges:**
 
-  - "Show this less often"
+- "Show this less often"
 
-  - "Skip this protein/cuisine for a while"
+- "Skip this protein/cuisine for a while"
 
-  - "More meals like this"
+- "More meals like this"
 
 - **Resets (local, not nuclear):**
 
-  - "Stop treating me as a beginner" / "Give me simpler recipes again"
+- "Stop treating me as a beginner" / "Give me simpler recipes again"
 
-  - "Stop trying to use up this ingredient"
+- "Stop trying to use up this ingredient"
 
-  - "Reset my cuisine preferences; give me a fresh mix"
+- "Reset my cuisine preferences; give me a fresh mix"
 
 When in doubt:
 
@@ -6063,7 +6063,7 @@ In low-data or ambiguous situations, VibeMeals defaults to:
 
 - **Short-term trials**:
 
-  - Introduce 1–2 new things at a time, measure response, and roll back quickly
+- Introduce 1–2 new things at a time, measure response, and roll back quickly
     if they fail.
 
 > The worst behavior in a low-data state should be "a bit generic," not "wildly
@@ -6111,48 +6111,48 @@ VibeMeals is responsible for:
 
 1. **Weekly Plan Logic**
 
-  - Turning "this is my household + this is my week" into a realistic set of
+- Turning "this is my household + this is my week" into a realistic set of
      dinners.
 
-  - Honoring week shapes by household mode (families vs solo vs empty nesters).
+- Honoring week shapes by household mode (families vs solo vs empty nesters).
 
-  - Respecting constraints and golden experiences [G1–G6].
+- Respecting constraints and golden experiences [G1–G6].
 
 2. **Dinner Logistics Engine (DLE)**
 
-  - Translating a plan into:
+- Translating a plan into:
 
-    - concrete ingredients,
+- concrete ingredients,
 
-    - sensible pack sizes,
+- sensible pack sizes,
 
-    - conservative quantities for the household size.
+- conservative quantities for the household size.
 
-  - Tracking leftovers and residual pack sizes *fuzzily* to suggest reuse.
+- Tracking leftovers and residual pack sizes *fuzzily* to suggest reuse.
 
-  - Modeling preflight (thaw/marinate) and time bands accurately.
+- Modeling preflight (thaw/marinate) and time bands accurately.
 
 3. **Shopping Lists & Cart Blueprints**
 
-  - Generating accurate, de-duplicated shopping lists.
+- Generating accurate, de-duplicated shopping lists.
 
-  - Grouping items logically (produce, meat, pantry, etc.).
+- Grouping items logically (produce, meat, pantry, etc.).
 
-  - Mapping recipes → ingredients → generic product types (e.g., "boneless
+- Mapping recipes → ingredients → generic product types (e.g., "boneless
      skinless chicken breast, ~2 lb").
 
 4. **Cooking Flow**
 
-  - Transforming recipes into clear, step-by-step Cooking Mode.
+- Transforming recipes into clear, step-by-step Cooking Mode.
 
-  - Coordinating timing and preflight so "Tonight" is actually cookable.
+- Coordinating timing and preflight so "Tonight" is actually cookable.
 
 5. **Learning & Personalization**
 
-  - Adapting plan shapes, recipe choices, and leftover suggestions based on
+- Adapting plan shapes, recipe choices, and leftover suggestions based on
      behavior.
 
-  - Enforcing learning & adaptation principles (Section 14).
+- Enforcing learning & adaptation principles (Section 14).
 
 > Short version: we own **what you plan to cook, what you need to buy, and how
 you actually cook it.**
@@ -6165,57 +6165,57 @@ VibeMeals does **not** own:
 
 1. **Real-Time Store Inventory**
 
-  - We do not promise that the store:
+- We do not promise that the store:
 
-    - has every item in stock,
+- has every item in stock,
 
-    - has the exact brand/size we suggest,
+- has the exact brand/size we suggest,
 
-    - won't substitute something.
+- won't substitute something.
 
-  - Our guarantee is **logical provisioning**, not real-time stock.
+- Our guarantee is **logical provisioning**, not real-time stock.
 
 2. **Payments, Fulfillment & Delivery**
 
-  - We don't process payments.
+- We don't process payments.
 
-  - We don't schedule or guarantee delivery or pickup windows.
+- We don't schedule or guarantee delivery or pickup windows.
 
-  - Store apps and delivery services own:
+- Store apps and delivery services own:
 
-    - fees,
+- fees,
 
-    - substitutions,
+- substitutions,
 
-    - delays,
+- delays,
 
-    - missing items.
+- missing items.
 
 3. **Precise Pantry Inventory**
 
-  - We are not a barcode scanner or full inventory system.
+- We are not a barcode scanner or full inventory system.
 
-  - We never require users to log every item in and out.
+- We never require users to log every item in and out.
 
-  - Our "pantry brain" is **fuzzy**, based on behavior and timelines, not a
+- Our "pantry brain" is **fuzzy**, based on behavior and timelines, not a
      precise count.
 
 4. **Nutrition, Diet Coaching, or Medical Advice**
 
-  - We are not a macro tracker or diet app.
+- We are not a macro tracker or diet app.
 
-  - We don't prescribe diets or give medical advice.
+- We don't prescribe diets or give medical advice.
 
-  - We respect user-declared constraints (e.g., no gluten) but do not diagnose
+- We respect user-declared constraints (e.g., no gluten) but do not diagnose
      or treat conditions.
 
 5. **Social Graph & Recipe Sharing**
 
-  - We are not a social network.
+- We are not a social network.
 
-  - No feeds, follows, likes, or public profiles in v1.
+- No feeds, follows, likes, or public profiles in v1.
 
-  - Any sharing is lightweight and optional (e.g., "share this list/plan").
+- Any sharing is lightweight and optional (e.g., "share this list/plan").
 
 > Short version: stores own **stock and money**; users own their **bodies and
 medical choices**; we stay in our logistics lane.
@@ -6230,36 +6230,36 @@ planning, not a replacement for store apps.
 #### We do
 - Generate store-ready lists and cart "blueprints":
 
-  - Generic product specs (e.g., "2 lb chicken breast," "1× 1 lb dry pasta").
+- Generic product specs (e.g., "2 lb chicken breast," "1× 1 lb dry pasta").
 
-  - When possible, map to **specific SKUs** for selected stores.
+- When possible, map to **specific SKUs** for selected stores.
 
 - Support export paths:
 
-  - Deep-link or API-based cart creation for supported retailers.
+- Deep-link or API-based cart creation for supported retailers.
 
-  - CSV / copy-paste / printable lists for everything else.
+- CSV / copy-paste / printable lists for everything else.
 
 #### We don't
 - Guarantee exact product availability or price.
 
 - Meddle with:
 
-  - how stores handle substitutions,
+- how stores handle substitutions,
 
-  - how promos/discounts are applied,
+- how promos/discounts are applied,
 
-  - how orders get picked or delivered.
+- how orders get picked or delivered.
 
 #### Failure handling
 If the store is missing something or substitutes:
 
 - VibeMeals should offer:
 
-  - simple fallback logic ("if no fresh broccoli, use frozen mixed veg"), **when
+- simple fallback logic ("if no fresh broccoli, use frozen mixed veg"), **when
     we know it's safe**, and
 
-  - a way for the user to confirm/adjust before cooking.
+- a way for the user to confirm/adjust before cooking.
 
 - We never pretend a missing item is present; we treat it as a gap to work
   around in Today/Cooking Mode.
@@ -6287,15 +6287,15 @@ VibeMeals uses a **fuzzy pantry brain**, not an exact inventory.
 #### We may
 - Suggest:
 
-  - "You likely still have this—want to skip buying more?"
+- "You likely still have this—want to skip buying more?"
 
-  - "You bought tortillas last week; want a recipe that uses them up?"
+- "You bought tortillas last week; want a recipe that uses them up?"
 
 - Let users override quickly:
 
-  - "Nope, we're actually out"
+- "Nope, we're actually out"
 
-  - "Stop trying to use this ingredient up"
+- "Stop trying to use this ingredient up"
 
 > The pantry brain is there to **save money and reduce waste**, never to put the
 user in a position of missing essentials.
@@ -6309,16 +6309,16 @@ We cooperate with external tools; we don't try to replace them.
 #### Possible integrations
 - Calendar:
 
-  - Show major events alongside plan creation ("Tue: late practice → pick a Fast
+- Show major events alongside plan creation ("Tue: late practice → pick a Fast
     meal").
 
-  - Optional "preflight reminders" via calendar or notifications.
+- Optional "preflight reminders" via calendar or notifications.
 
 - Task/reminder systems:
 
-  - "Move chicken to fridge before bed"
+- "Move chicken to fridge before bed"
 
-  - "Start slow cooker by 9am"
+- "Start slow cooker by 9am"
 
 #### Boundaries
 - We never require users to live inside our app all day.
@@ -6362,21 +6362,21 @@ When evaluating a new feature or integration, we ask:
 
 1. **Is this core to Plan → Shop → Cook → Learn?**
 
-  - If not, why are we doing it?
+- If not, why are we doing it?
 
 2. **Are we accidentally owning something a store or external tool should own?**
 
-  - Payments, real-time stock, full inventory, diet coaching, social feeds.
+- Payments, real-time stock, full inventory, diet coaching, social feeds.
 
 3. **Does this feature respect our boundaries on:**
 
-  - Golden Experiences [G1–G6]
+- Golden Experiences [G1–G6]
 
-  - Learning & Adaptation (Section 14)
+- Learning & Adaptation (Section 14)
 
-  - Catalog & Time Band rules (Section 8)
+- Catalog & Time Band rules (Section 8)
 
-  - Tone & Emotional Contract (Section 4.1)
+- Tone & Emotional Contract (Section 4.1)
 
 If the answer to any of these is "no," the feature must be re-scoped or dropped.
 
@@ -6456,9 +6456,9 @@ likely still has some items (e.g., rice, spices, oil)
 - Present a **short list** of "You might already have these" items, prioritized
   by:
 
-  - pantry-style items (rice, spices, oil)
+- pantry-style items (rice, spices, oil)
 
-  - recently purchased items from the last 1–2 weeks
+- recently purchased items from the last 1–2 weeks
 
 - Let her **easily uncheck** those items to remove them from the list
 
@@ -6532,7 +6532,7 @@ she wants to start small (e.g., "Help me cook at home ~2 nights this week")
 
 - Each cook night producing **1–2 extra portions**, explicitly planned as:
 
-  - "You'll cook once and get 2 meals out of it" (e.g., Mon dinner + Tue
+- "You'll cook once and get 2 meals out of it" (e.g., Mon dinner + Tue
     lunch/dinner)
 
 - No default assumption of a full 7-dinner grid
@@ -6554,14 +6554,14 @@ no major conflict scheduled that evening
 
 - Show **one clear, low-friction option** for tonight:
 
-  - "Tonight: One-pan lemon chicken & potatoes (~25–30 minutes, 1 pan, 2 meals
+- "Tonight: One-pan lemon chicken & potatoes (~25–30 minutes, 1 pan, 2 meals
     for you)"
 
 - Emphasize:
 
-  - small effort (time, dishes)
+- small effort (time, dishes)
 
-  - clear payoff (tonight + one more meal without extra cooking)
+- clear payoff (tonight + one more meal without extra cooking)
 
 **And Then** starting this recipe should **feel easier** than:
 
@@ -6583,23 +6583,23 @@ the remaining portion **And** she sometimes reschedules or skips meals
 
 - Clearly remind her of the **planned leftover meal**:
 
-  - "Tonight: Leftover lemon chicken & potatoes (~5 min, reheat)"
+- "Tonight: Leftover lemon chicken & potatoes (~5 min, reheat)"
 
 - Offer a **low-effort remix option** if straightforward repeats fail often:
 
-  - "Too bored of this? Try this 10–15 min remix (e.g., turn into a wrap/bowl)."
+- "Too bored of this? Try this 10–15 min remix (e.g., turn into a wrap/bowl)."
 
 **And Then** if she skips the leftover event:
 
 - The app should **not** shame her:
 
-  - No "You wasted food" messaging
+- No "You wasted food" messaging
 
 - But it may adjust her model:
 
-  - Decrease leftover tolerance for future plans
+- Decrease leftover tolerance for future plans
 
-  - Offer more "1 cook → 1–2 eats max" patterns rather than 4+ portions
+- Offer more "1 cook → 1–2 eats max" patterns rather than 4+ portions
 
 ---
 
@@ -6624,9 +6624,9 @@ scheduled as cook nights **And** she returns to VibeMeals later in the week
 
 - Use these signals to gently tune future recommendations:
 
-  - maybe more ultra-fast fallback options
+- maybe more ultra-fast fallback options
 
-  - maybe fewer planned cook nights if 3+ repeatedly fail
+- maybe fewer planned cook nights if 3+ repeatedly fail
 
 ---
 
@@ -6645,11 +6645,11 @@ Jake & Maya are a DINK couple:
 
 - Their pattern:
 
-  - Shop Sunday with good intentions.
+- Shop Sunday with good intentions.
 
-  - Say "yes" to drinks/dinner invites midweek.
+- Say "yes" to drinks/dinner invites midweek.
 
-  - Throw away raw chicken/veggies on Sunday and joke about it, but it stings.
+- Throw away raw chicken/veggies on Sunday and joke about it, but it stings.
 
 We want VibeMeals to:
 
@@ -6674,28 +6674,28 @@ instead of cooking **And** one of them opens VibeMeals and marks tonight as
 
 - Acknowledge this as a **normal, supported choice**, not a failure:
 
-  - e.g., "Got it, enjoy your night out 🙌"
+- e.g., "Got it, enjoy your night out 🙌"
 
 - Offer to **reschedule or adjust** the planned meal, with simple options, such
   as:
 
-  - "Move sheet-pan chicken to tomorrow (Thu)"
+- "Move sheet-pan chicken to tomorrow (Thu)"
 
-  - "Move it to the weekend"
+- "Move it to the weekend"
 
-  - "Replace it with a freezer/pantry-friendly backup later this week"
+- "Replace it with a freezer/pantry-friendly backup later this week"
 
 **And Then** upon choosing an option (e.g., move to Thu):
 
 - The **dinner plan for Thu** is automatically updated:
 
-  - Wednesday's sheet-pan meal moves to Thu's slot.
+- Wednesday's sheet-pan meal moves to Thu's slot.
 
 - Any existing Thu meal (if there was one) is:
 
-  - moved to a nearby day, or
+- moved to a nearby day, or
 
-  - offered as "Would you like to skip or shift this?" in one extra, clear step.
+- offered as "Would you like to skip or shift this?" in one extra, clear step.
 
 **And Then** the app should **update internal freshness expectations** for the
 chicken and veg:
@@ -6706,9 +6706,9 @@ chicken and veg:
 - If the new day is pushing a borderline window (e.g., 4–5 days after purchase),
   the app should:
 
-  - Prefer **sooner reschedules**
+- Prefer **sooner reschedules**
 
-  - Or offer an alternative: "If that feels too late for fresh chicken, we can
+- Or offer an alternative: "If that feels too late for fresh chicken, we can
     swap this to a freezer-based meal."
 
 ---
@@ -6726,28 +6726,28 @@ nearing its limit
 
 - Surface a small, calm reminder, not an alarm:
 
-  - "You still have chicken and veggies from earlier this week. Want to cook or
+- "You still have chicken and veggies from earlier this week. Want to cook or
     freeze them before they go bad?"
 
 - Offer **two or more clear options**:
 
-  - "Cook them tonight with an ultra-simple version"
+- "Cook them tonight with an ultra-simple version"
 
-  - "Move them to the freezer and swap in a pantry-based meal"
+- "Move them to the freezer and swap in a pantry-based meal"
 
-  - "Skip this meal and we'll keep it in mind for next week's plan (if frozen)"
+- "Skip this meal and we'll keep it in mind for next week's plan (if frozen)"
 
 **And Then** whichever option they choose:
 
 - Should adjust the plan **without requiring manual cleanup**:
 
-  - Mark the sheet-pan meal as cooked, skipped, or frozen.
+- Mark the sheet-pan meal as cooked, skipped, or frozen.
 
-  - Update future planning to:
+- Update future planning to:
 
-    - Favor using the frozen chicken soon, if they froze it.
+- Favor using the frozen chicken soon, if they froze it.
 
-    - Or reduce reliance on fresh-chicken-heavy meals if they repeatedly skip
+- Or reduce reliance on fresh-chicken-heavy meals if they repeatedly skip
       them.
 
 **And Then** the copy must remain **non-judgmental**:
