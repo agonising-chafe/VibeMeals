@@ -84,6 +84,12 @@ export type TonightStatus =
 
 ## 1. Household & Week Shape
 
+### HouseholdProfile
+Represents a user's household configuration, including unique ID, lifestyle mode, headcount, target dinner frequency, dietary constraints, and time band preferences. Used by Planner (P2, P6) to personalize meal planning and frequency controls.
+
+### HouseholdMode
+Core lifestyle categories for week shapes and planning defaults. Five modes: SOLO, FAMILY, DINK, EMPTY_NEST, LARGE.
+
 From Vision §5.2 (Household Modes & Week Shapes).
 
 ```typescript
@@ -93,23 +99,22 @@ export interface HouseholdProfile {
   id: HouseholdId;
   mode: HouseholdMode;
   headcount: number;
-  targetDinnersPerWeek: number; // user-settable, defaults from mode
+  targetDinnersPerWeek: number;
+  dietConstraints: DietConstraint[];
   timeBandPreference?: {
-    // e.g. family: 3 FAST, 2 NORMAL
     preferredFastCount?: number;
     preferredNormalCount?: number;
     preferredProjectCount?: number;
   };
-  dietConstraints: DietConstraint[];
-
-
-**Referenced by:**
-- Planner P2 (Generate Plan)
-- Planner P6 (Dinners/week control)
+}
+```
 
 ---
 
 ## 2. Recipes & Ingredients (Catalog Side)
+
+### RecipeIngredientRequirement
+Describes a single ingredient needed for a recipe, including canonical ID, display name, amount, unit, criticality level (CRITICAL or NON_CRITICAL), ingredient kind (PROTEIN, VEG, etc.), and shopping category. Used by Planner (P2), Shop (S2, S3, S7), and Today (T2) for meal planning and ingredient grouping.
 
 Enough info for:
 - Planner (time band, difficulty, leftovers)
@@ -158,15 +163,14 @@ export interface Recipe {
   name: string;
   slug: string;
   metadata: RecipeMetadata;
-  // Whether the recipe scales cleanly (defaults to true if omitted)
   scalable?: boolean;
   ingredients: RecipeIngredientRequirement[];
   preflight: RecipePreflightRequirement[];
-  // Cooking steps (for Cooking Mode C1)
   steps: RecipeStep[];
-
+  tags?: string[];
+  variantHints?: { description: string; safeSubIngredientId?: string }[];
 }
-``` text
+```
 
 **Referenced by:**
 
@@ -191,24 +195,21 @@ export interface PlannedDinner {
 }
 
 export interface PlanDay {
-  date: IsoDate;            // explicit date
-  dayOfWeek: DayOfWeek;     // convenience for UI
-  dinner?: PlannedDinner;   // undefined if no dinner planned
+  date: IsoDate;
+  dayOfWeek: DayOfWeek;
+  dinner?: PlannedDinner;
 }
-  // Shop S6: once shopping is done, regenerations must respect locked slots and warn the user
-  isShoppingDone?: boolean;
 
 export type PlanStatus = 'DRAFT' | 'PLANNED' | 'SHOPPED';
 
 export interface Plan {
   id: PlanId;
   householdId: HouseholdId;
-  weekStartDate: IsoDate;   // Monday of that week
-  status: PlanStatus;       // once SHOPPED, Regenerate gets guardrails (Planner P7, Shop S6)
-  // Optional per-week override for servings; defaults to household.headcount
+  weekStartDate: IsoDate;
+  status: PlanStatus;
   servingsThisWeek?: number;
-  days: PlanDay[];          // always length 7, Monday–Sunday
-  // summary fields: for quick access in UI without recomputing
+  isShoppingDone?: boolean;
+  days: PlanDay[];
   summary: {
     totalDinners: number;
     fastCount: number;
@@ -218,7 +219,7 @@ export interface Plan {
     marinateDays: number;
   };
 }
-``` text
+```
 
 **Referenced by:**
 
@@ -273,7 +274,7 @@ export interface ShoppingList {
   items: ShoppingItem[];
   quickReviewCandidates: QuickReviewCandidate[];
 }
-``` text
+```
 
 **Referenced by:**
 
@@ -335,14 +336,8 @@ export interface TonightPlanContext {
 
 export interface TonightIssues {
   preflightStatus: PreflightStatus;
-  missingCoreIngredients: {
-    ingredientId: string;
-    displayName: string;
-  }[];
-  missingNonCriticalIngredients: {
-    ingredientId: string;
-    displayName: string;
-  }[];
+  missingCoreIngredients: { ingredientId: string; displayName: string }[];
+  missingNonCriticalIngredients: { ingredientId: string; displayName: string }[];
 }
 
 export interface TonightActions {
@@ -1103,7 +1098,41 @@ renderTodayView(tonightState); // UI layer
 
 ---
 
-## 13. Cross-Reference to Tickets
+## 13. Complete Type Index
+
+All types defined in this data model, cross-referenced to specs and tickets.
+
+| Type | Defined in | Spec Reference | Tickets |
+| --- | --- | --- | --- |
+| `PlanId`, `HouseholdId`, `RecipeId`, `ShoppingItemId`, `IsoDate` | §0 | Core Primitives | All |
+| `DayOfWeek`, `TimeBand`, `IngredientCriticality`, `IngredientKind`, `ShoppingCategory`, `PreflightRequirementType`, `PreflightStatus`, `TonightStatus`, `DietConstraint` | §0 | Core Enums | All |
+| `HouseholdMode` | §1 | Vision §5.2 | P1, P2, P6 |
+| `HouseholdProfile` | §1 | Vision §5.2 | P2, P6 |
+| `RecipeIngredientRequirement` | §2 | Shop S3, S7 | P2, S2, S3, S7 |
+| `RecipePreflightRequirement` | §2 | Today T2 | T2, C1, C2 |
+| `RecipeMetadata` | §2 | Vision §8 | P2, C1, C2 |
+| `RecipeStep` | §2 | Cooking C1 | C1, C2, C3, C4 |
+| `Recipe` | §2 | Vision §8 + Spec-Cooking | P2, S2, S3, S7, T2, C1, C2 |
+| `PlannedDinner` | §3 | Planner P3, P4 | P3, P4, T2, T6 |
+| `PlanDay` | §3 | Planner P1 | P1, P2, P3, P4, P8 |
+| `PlanStatus` | §3 | Planner P7 | P7, S6 |
+| `Plan` | §3 | Planner P1, P7 | P1, P2, P3, P4, P5, P7, P8, S2, S6, T1, T2 |
+| `ShoppingItemSourceUsage` | §4 | Shop S2 | S2, S3 |
+| `ShoppingItem` | §4 | Shop S1–S8 | S1, S2, S3, S4, S5, S8 |
+| `QuickReviewCandidate` | §4 | Shop S4 | S4, S5 |
+| `ShoppingList` | §4 | Shop S1 | S1, S2, S3, S4, S5 |
+| `MissingReason` | §5 | Shop S8 | S8, T4 |
+| `MissingItem` | §5 | Shop S8 | S8, T4 |
+| `Substitution` | §5 | Shop S8 | S8, T4 |
+| `TonightPlanContext` | §6 | Today T1 | T1, T2 |
+| `TonightIssues` | §6 | Today T2, T4 | T2, T4 |
+| `TonightActions` | §6 | Today T3, T5, T6 | T3, T5, T6 |
+| `TomorrowPreview` | §6 | Today T8 | T8 |
+| `TonightState` | §6 | Today T1, T2 | T1, T2, T3, T4, T5, T6, T8 |
+
+---
+
+## 14. Cross-Reference to Tickets
 
 | Data Structure | Tickets That Use It |
 | --- | --- |

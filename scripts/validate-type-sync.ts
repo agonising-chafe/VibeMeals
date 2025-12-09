@@ -30,7 +30,7 @@ interface ValidationResult {
 function extractTypeDefinitions(content: string): Record<string, Record<string, string>> {
   const typeDefs: Record<string, Record<string, string>> = {};
   // Match export interface/type blocks
-  const blockRegex = /export (interface|type) (\w+)\s*([^{=]*){([\s\S]*?)};/g;
+  const blockRegex = /export (interface|type) (\w+)\s*([^{=]*){([\s\S]*?)};?/g;
   let match;
   while ((match = blockRegex.exec(content)) !== null) {
     const [, kind, name, , body] = match;
@@ -50,12 +50,12 @@ function extractTypeDefinitions(content: string): Record<string, Record<string, 
 function extractDataModelDefinitions(content: string): Record<string, Record<string, string>> {
   const typeDefs: Record<string, Record<string, string>> = {};
   // Only look in TypeScript code blocks
-  const codeBlockRegex = /```typescript?\n([\s\S]*?)```/g;
+  const codeBlockRegex = /```typescript?\n?([\s\S]*?)```/g;
   let codeMatch;
   while ((codeMatch = codeBlockRegex.exec(content)) !== null) {
     const codeBlock = codeMatch[1];
     // Match export interface/type blocks
-    const blockRegex = /export (interface|type) (\w+)\s*([^{=]*){([\s\S]*?)};/g;
+    const blockRegex = /export (interface|type) (\w+)\s*([^{=]*){([\s\S]*?)};?/g;
     let match;
     while ((match = blockRegex.exec(codeBlock)) !== null) {
       const [, kind, name, , body] = match;
