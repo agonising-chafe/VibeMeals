@@ -16,16 +16,19 @@
 New test file: `src/domain/__acceptance__/personas-brianna-ellen-jake.spec.ts` (17 tests)
 
 #### Brianna – Budget-Conscious FAMILY (G2, G5)
+
 - Lighter week shapes reduce grocery spend
 - Shopping consolidation prevents waste
 - Ingredient deduplication across recipes
 
 #### Ellen & Mark – Low-Confidence EMPTY_NEST (G2, G5, G6)
+
 - Diet constraints honored (vegan, gluten-free)
 - Downgrade path for anxiety ("no shame escape hatch")
 - Appropriately-sized recipes for 2-person household
 
 #### Jake & Maya – DINK Flexibility (G4, G5)
+
 - Removing one dinner preserves rest of week
 - Swapping recipes without friction
 - Budget savings through lifestyle flexibility
@@ -34,7 +37,8 @@ New test file: `src/domain/__acceptance__/personas-brianna-ellen-jake.spec.ts` (
 
 New test file: `src/domain/__tests__/constraints-and-edges.spec.ts` (18 tests)
 
-#### Edge Cases Covered:
+#### Edge Cases Covered
+
 - **Empty plans** (0 dinners) – graceful handling, neutral UX tone
 - **Lock/Unlock behavior** – user commitment protected
 - **Recipe swapping** – state preservation (servings, lock, lock state)
@@ -43,7 +47,8 @@ New test file: `src/domain/__tests__/constraints-and-edges.spec.ts` (18 tests)
 - **Time band distribution** – variety in effort (FAST/NORMAL/PROJECT)
 - **Diet constraints** – vegan, gluten-free handling (MVP graceful degradation)
 
-#### Spec-Aligned Assertions:
+#### Spec-Aligned Assertions
+
 - Every test traces to spec section (P1-P8, S1-S8, T1-T8, C1-C4)
 - Every test aligns with Golden Tests (G1-G6)
 - Every test validates acceptance criteria from tickets-*.md
@@ -51,12 +56,14 @@ New test file: `src/domain/__tests__/constraints-and-edges.spec.ts` (18 tests)
 ### 3. **Cross-Persona Consistency** (8 new tests)
 
 **What's Tested:**
+
 - All household modes (SOLO, DINK, FAMILY, LARGE) respect G1 & G2
 - G1: Planned dinners are always cookable (preflight computable)
 - G2: Shopping list generation never crashes
 - Safety rule: G1/G2 work for every household mode
 
 **Why It Matters:**
+
 - Ensures no persona is left behind by design changes
 - Regression protection across mode transitions
 - Universal "calm automation" contract
@@ -133,7 +140,9 @@ New test file: `src/domain/__tests__/constraints-and-edges.spec.ts` (18 tests)
 ## Code Quality & Maintainability
 
 ### Spec-First Traceability
+
 Every test includes:
+
 ```typescript
 // Spec: spec-planner.md §4, vision.md §11 Golden Test G4
 // Acceptance Criteria: [from tickets-planner.md]
@@ -143,19 +152,23 @@ it('[P3] should swap recipe while preserving state', () => {
 ```
 
 ### Consistent Test Patterns
+
 - **Setup:** Create household + plan
 - **Action:** Call domain function
 - **Assert:** Verify outcome + side-effect isolation
 - **Cleanup:** Implicit (no shared state)
 
 ### Persona-Driven Scenarios
+
 Tests are human-readable stories, not just technical assertions:
+
 ```typescript
 describe('Brianna: Budget-Conscious FAMILY (4 people, 4 dinners/week)', () => {
   it('[G5] Budget & waste respected – lighter week requires fewer ingredients', () => {
     // Acceptance: End-of-month budget pressure eased by lighter week shapes
   });
 });
+
 ```
 
 ---
@@ -163,12 +176,14 @@ describe('Brianna: Budget-Conscious FAMILY (4 people, 4 dinners/week)', () => {
 ## Next Steps (Recommendations)
 
 ### V1.1 (Post-MVP)
+
 1. **Recipe validation tests** – Verify recipe catalog completeness
 2. **Performance tests** – Plan generation speed for 100+ recipes
 3. **Integration tests** – End-to-end flows (Plan → Shop → Today → Cook)
 4. **Tone audit tests** – Error messages, empty states match spec §4.1
 
 ### V2.0
+
 1. **UI integration tests** – Test with actual component renders
 2. **Preference learning tests** – Validate taste data collection
 3. **API contract tests** – If backend added
@@ -203,4 +218,3 @@ npm test -- --watch
 - **Tickets:** `docs/tickets-*.md` (acceptance criteria)
 - **Data Model:** `docs/data-model.md` v1.2.0 (types sync)
 - **Golden Coverage Report:** `scripts/report-golden-coverage.ts` (run to generate)
-

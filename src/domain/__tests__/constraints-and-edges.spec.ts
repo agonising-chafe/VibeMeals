@@ -5,9 +5,8 @@
 import { describe, it, expect } from 'vitest';
 import { generatePlan, swapRecipe, toggleLock, removeDinner } from '../planner';
 import { buildShoppingList } from '../shop';
-import { computeTonightState } from '../today';
 import { mvpRecipeCatalog } from '../fixtures/recipes.seed';
-import { HouseholdProfile, IsoDate, DietConstraint, Plan, Recipe } from '../types';
+import { HouseholdProfile, IsoDate, DietConstraint, Recipe } from '../types';
 
 const recipes = mvpRecipeCatalog;
 const testDate: IsoDate = '2025-01-13' as IsoDate;
@@ -23,7 +22,7 @@ describe('Edge Cases & Constraint Handling', () => {
       mode: 'FAMILY',
       headcount: 4,
       targetDinnersPerWeek: 4,
-      dietConstraints: ['vegan'] as DietConstraint[],
+      dietConstraints: ['VEGETARIAN'] as DietConstraint[],
     };
 
     it('should handle vegan constraint without crashing (graceful degradation for MVP)', () => {
@@ -227,7 +226,6 @@ describe('Edge Cases & Constraint Handling', () => {
       const shoppingList = buildShoppingList(plan, recipes, household);
 
       const criticalItems = shoppingList.items.filter((i) => i.criticality === 'CRITICAL');
-      const nonCriticalItems = shoppingList.items.filter((i) => i.criticality === 'NON_CRITICAL');
 
       // Both should exist in typical plan
       if (shoppingList.items.length > 5) {
