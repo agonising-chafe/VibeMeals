@@ -142,6 +142,28 @@ function filterRecipesByConstraints(
             /egg|honey|milk|cheese|cream|butter|yogurt/i.test(ing.displayName)
           )) return false;
           break;
+        
+        case 'KETO':
+          // Low-carb: avoid high-carb ingredients (rice, pasta, bread, potatoes, sugar)
+          // Focus on protein and low-carb vegetables
+          const hasHighCarbIngredient = recipe.ingredients.some(ing =>
+            ing.kind === 'CARB' ||
+            /rice|pasta|bread|potato|tortilla|noodle|flour|sugar|honey|corn|beans|lentils/i.test(ing.displayName)
+          );
+          if (hasHighCarbIngredient) return false;
+          break;
+        
+        case 'CARNIVORE':
+          // Meat-only: primarily protein with minimal plant ingredients
+          // Allow eggs, dairy (animal products), salt, and basic fats
+          // Exclude vegetables, grains, legumes
+          const hasPlantIngredient = recipe.ingredients.some(ing =>
+            ing.kind === 'VEG' ||
+            ing.kind === 'CARB' ||
+            /vegetable|lettuce|tomato|onion|garlic|pepper|broccoli|carrot|fruit|beans|lentils|rice|pasta|bread/i.test(ing.displayName)
+          );
+          if (hasPlantIngredient) return false;
+          break;
       }
     }
     

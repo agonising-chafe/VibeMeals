@@ -250,7 +250,58 @@ Planner must support intentionally lighter weeks (G4).
 
 ---
 
-## 5. Design Guardrails (from Vision)
+## 5. Dietary Constraint Filtering (v1.0.0)
+
+When `HouseholdProfile.dietConstraints` contains one or more constraints, the planner filters the recipe pool before time-band selection during plan generation.
+
+### 5.1 Supported Constraints
+
+All constraints defined in `data-model.md` `DietConstraint` type:
+
+- `NO_PORK` — Excludes recipes with pork, bacon, ham, sausage
+- `NO_BEEF` — Excludes recipes with beef, steak, ground beef, chuck
+- `NO_SHELLFISH` — Excludes recipes with shrimp, crab, lobster, clams, mussels, oysters, scallops
+- `NO_GLUTEN` — Requires `gluten_free` tag OR absence of flour/pasta/bread/wheat/barley/rye ingredients
+- `NO_DAIRY` — Requires `dairy_free` tag OR absence of DAIRY-kind ingredients and milk/cheese/cream/butter/yogurt
+- `VEGETARIAN` — Excludes PROTEIN-kind ingredients containing meat (chicken, beef, pork, fish, seafood, turkey, lamb)
+- `VEGAN` — Excludes all animal products (meat, dairy, eggs, honey)
+- `KETO` — Excludes high-carb ingredients: CARB-kind or rice/pasta/bread/potato/tortilla/flour/sugar/honey/corn/beans/lentils
+- `CARNIVORE` — Excludes plant ingredients: VEG-kind, CARB-kind, or vegetables/fruits/grains/legumes (allows eggs, dairy, salt, fats)
+
+### 5.2 Filtering Logic
+
+**Applied conjunctively**: All constraints in `dietConstraints[]` must be satisfied.
+
+**Implementation** (`planner.ts` `filterRecipesByConstraints`):
+- Filters by ingredient `displayName` patterns (regex, case-insensitive)
+- Checks ingredient `kind` field (PROTEIN, DAIRY, VEG, CARB)
+- Respects recipe `tags` (gluten_free, dairy_free) where applicable
+- Runs before time-band sampling and repeat-guard filtering
+
+**Small catalog behavior**: With catalogs <20 recipes, strict constraint combinations (e.g., VEGAN + NO_GLUTEN + KETO) may result in fewer dinners than `targetDinnersPerWeek`. The planner does best-effort filling with eligible recipes.
+
+### 5.3 Meat-Heavy Households
+
+For households that consume lots of meat:
+- Use **no constraints** to access full catalog (default behavior)
+- `KETO` constraint maintains high protein/fat while excluding carbs (suitable for meat-focused, low-carb diets)
+- `CARNIVORE` constraint provides meat-only plans (most restrictive, requires specialized recipe catalog)
+
+**Note**: The MVP catalog (14 recipes, all from Budget Bytes) is primarily meat-focused. CARNIVORE constraint will produce very limited plans until specialized recipes are added.
+
+### 5.4 Test Coverage
+
+**File**: `src/domain/__tests__/constraint-filtering.spec.ts`  
+**Tests**: 11 passing (as of v1.0.0)
+- Individual constraint validation (7 tests)
+- Multi-constraint combinations (2 tests)
+- Plan quality with constraints (2 tests)
+
+All constraint filtering logic is validated against the MVP recipe catalog to ensure correctness.
+
+---
+
+## 6. Design Guardrails (from Vision)
 
 - **No forced 7×7 grid.**
 

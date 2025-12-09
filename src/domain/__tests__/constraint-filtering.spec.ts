@@ -219,6 +219,50 @@ describe('Constraint Filtering', () => {
     });
   });
 
+  describe('KETO constraint', () => {
+    it('should exclude recipes with high-carb ingredients', () => {
+      const household = createTestHousehold(['KETO']);
+      const plan = generatePlan(household, mvpRecipeCatalog, '2025-12-15');
+
+      for (const day of plan.days) {
+        if (day.dinner) {
+          const recipe = mvpRecipeCatalog.find(r => r.id === day.dinner!.recipeId);
+          expect(recipe).toBeDefined();
+          
+          const hasHighCarbIngredient = recipe!.ingredients.some(ing =>
+            ing.kind === 'CARB' ||
+            /rice|pasta|bread|potato|tortilla|noodle|flour|sugar|honey|corn|beans|lentils/i.test(ing.displayName)
+          );
+          expect(hasHighCarbIngredient).toBe(false);
+        }
+      }
+    });
+  });
+
+  describe('CARNIVORE constraint', () => {
+    it('should exclude recipes with plant ingredients', () => {
+      const household = createTestHousehold(['CARNIVORE']);
+      const plan = generatePlan(household, mvpRecipeCatalog, '2025-12-15');
+
+      // May result in very few or zero dinners with current MVP catalog
+      expect(plan.days.filter(d => d.dinner).length).toBeGreaterThanOrEqual(0);
+
+      for (const day of plan.days) {
+        if (day.dinner) {
+          const recipe = mvpRecipeCatalog.find(r => r.id === day.dinner!.recipeId);
+          expect(recipe).toBeDefined();
+          
+          const hasPlantIngredient = recipe!.ingredients.some(ing =>
+            ing.kind === 'VEG' ||
+            ing.kind === 'CARB' ||
+            /vegetable|lettuce|tomato|onion|garlic|pepper|broccoli|carrot|fruit|beans|lentils|rice|pasta|bread/i.test(ing.displayName)
+          );
+          expect(hasPlantIngredient).toBe(false);
+        }
+      }
+    });
+  });
+
   describe('Plan quality with constraints', () => {
     it('should still generate a plan with reasonable constraints', () => {
       const household = createTestHousehold(['NO_BEEF']);

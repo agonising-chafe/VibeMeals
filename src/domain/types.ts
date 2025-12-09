@@ -48,7 +48,9 @@ export type DietConstraint =
   | 'NO_GLUTEN'
   | 'NO_DAIRY'
   | 'VEGETARIAN'
-  | 'VEGAN';
+  | 'VEGAN'
+  | 'KETO'
+  | 'CARNIVORE';
 
 /**
  * Household Mode – Core lifestyle categories for week shapes & planning

@@ -50,7 +50,9 @@ export type DietConstraint =
   | 'NO_GLUTEN'
   | 'NO_DAIRY'
   | 'VEGETARIAN'
-  | 'VEGAN';
+  | 'VEGAN'
+  | 'KETO'
+  | 'CARNIVORE';
 
 // For Shop grouping (Shop S3)
 export type ShoppingCategory =
