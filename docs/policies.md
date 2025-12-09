@@ -9,17 +9,17 @@
 
 1. [Non-Negotiables](#1-non-negotiables-locked-behaviors)
 
-2. [Smart Staples & Learning](#2-smart-staples--learning)
+1. [Smart Staples & Learning](#2-smart-staples--learning)
 
-3. [Time Bands & Flexibility](#3-time-bands--flexibility)
+1. [Time Bands & Flexibility](#3-time-bands--flexibility)
 
-4. [Leftover Tracking & Reuse](#4-leftover-tracking--reuse)
+1. [Leftover Tracking & Reuse](#4-leftover-tracking--reuse)
 
-5. [Multi-Week Planning](#5-multi-week-planning)
+1. [Multi-Week Planning](#5-multi-week-planning)
 
-6. [Error Handling & Graceful Degradation](#6-error-handling--graceful-degradation)
+1. [Error Handling & Graceful Degradation](#6-error-handling--graceful-degradation)
 
-7. [Multi-User Considerations](#7-multi-user-considerations-future)
+1. [Multi-User Considerations](#7-multi-user-considerations-future)
 
 ---
 
@@ -93,7 +93,7 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 1. Offer to loosen constraint: "Okay to repeat a recipe you liked?"
 
-2. Let user pick manually from full catalog
+1. Let user pick manually from full catalog
 
 ---
 
@@ -449,7 +449,7 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 1. Offer to loosen constraint: "Okay to repeat a recipe you liked?"
 
-2. Let user pick manually from full catalog
+1. Let user pick manually from full catalog
 
 ---
 
@@ -989,9 +989,9 @@ Want to use it this week?
 
 1. Loosen repeat guard: "Okay to repeat from last 14 days instead of 21?"
 
-2. Loosen time bands: "Include some 30-minute recipes?"
+1. Loosen time bands: "Include some 30-minute recipes?"
 
-3. Last resort: Let user pick manually from full catalog
+1. Last resort: Let user pick manually from full catalog
 
 ---
 
@@ -1186,17 +1186,17 @@ const validRecipes = candidates.filter(validateRecipe);
 
 1. [Non-Negotiables](#1-non-negotiables-locked-behaviors)
 
-2. [Smart Staples & Learning](#2-smart-staples--learning)
+1. [Smart Staples & Learning](#2-smart-staples--learning)
 
-3. [Time Bands & Flexibility](#3-time-bands--flexibility)
+1. [Time Bands & Flexibility](#3-time-bands--flexibility)
 
-4. [Leftover Tracking & Reuse](#4-leftover-tracking--reuse)
+1. [Leftover Tracking & Reuse](#4-leftover-tracking--reuse)
 
-5. [Multi-Week Planning](#5-multi-week-planning)
+1. [Multi-Week Planning](#5-multi-week-planning)
 
-6. [Error Handling & Graceful Degradation](#6-error-handling--graceful-degradation)
+1. [Error Handling & Graceful Degradation](#6-error-handling--graceful-degradation)
 
-7. [Multi-User Considerations](#7-multi-user-considerations-future)
+1. [Multi-User Considerations](#7-multi-user-considerations-future)
 
 ---
 
@@ -1270,7 +1270,7 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 1. Offer to loosen constraint: "Okay to repeat a recipe you liked?"
 
-2. Let user pick manually from full catalog
+1. Let user pick manually from full catalog
 
 ---
 
@@ -1810,9 +1810,9 @@ Want to use it this week?
 
 1. Loosen repeat guard: "Okay to repeat from last 14 days instead of 21?"
 
-2. Loosen time bands: "Include some 30-minute recipes?"
+1. Loosen time bands: "Include some 30-minute recipes?"
 
-3. Last resort: Let user pick manually from full catalog
+1. Last resort: Let user pick manually from full catalog
 
 ---
 
@@ -1993,5 +1993,4 @@ const validRecipes = candidates.filter(validateRecipe);
 ---
 
 #### [Back to Index](index.md)
-
 

@@ -32,13 +32,13 @@ VibeMeals v1.0.0 is the first production-ready release. All core features are im
 
 1. **Weekday Meal Planning**: Generate 7-day plans respecting household mode (SOLO, FAMILY, DINK, EMPTY_NEST, LARGE)
 
-2. **Smart Shopping Lists**: Ingredient normalization, categorization, Quick Review (pantry staples), missing items tracking
+1. **Smart Shopping Lists**: Ingredient normalization, categorization, Quick Review (pantry staples), missing items tracking
 
-3. **Tonight's Readiness**: Real-time cookability check—preflight status, missing critical ingredients, out-eating override
+1. **Tonight's Readiness**: Real-time cookability check—preflight status, missing critical ingredients, out-eating override
 
-4. **Preflight Detection**: Automatic thaw/marinate/slow-cook requirement flagging
+1. **Preflight Detection**: Automatic thaw/marinate/slow-cook requirement flagging
 
-5. **Flexible Swapping**: Lock/unlock dinners, swap recipes, move/delete dinners while maintaining plan validity
+1. **Flexible Swapping**: Lock/unlock dinners, swap recipes, move/delete dinners while maintaining plan validity
 
 #### Golden Experience Tests (G1–G6) – LOCKED FOR v1
 
@@ -824,33 +824,33 @@ Created modular documentation suite:
 
 1. **Planner** - 7-day grid with slot actions (Lock, Swap, Reroll, Expand)
 
-2. **Quick Review** (optional) - Save money by confirming what's on-hand
+1. **Quick Review** (optional) - Save money by confirming what's on-hand
 
-3. **Shopping** - Grouped list with CSV/text export
+1. **Shopping** - Grouped list with CSV/text export
 
-4. **Cook Mode** - Step-by-step cooking with timers and parallelization
+1. **Cook Mode** - Step-by-step cooking with timers and parallelization
 
-5. **Weekly Recap** - Thumbs/favorites/tags feed taste profile
+1. **Weekly Recap** - Thumbs/favorites/tags feed taste profile
 
-6. **Pantry** (optional) - Manual inventory for power users
+1. **Pantry** (optional) - Manual inventory for power users
 
-7. **Calendar** (optional) - Preflight reminders via ICS/notifications
+1. **Calendar** (optional) - Preflight reminders via ICS/notifications
 
 #### The Golden Path
 
 1. Generate Plan (2-3 min)
 
-2. Optionally tweak (Swap/Reroll/Lock)
+1. Optionally tweak (Swap/Reroll/Lock)
 
-3. Next: Shop (immediately available, no gates)
+1. Next: Shop (immediately available, no gates)
 
-4. Checkout (CSV or text export)
+1. Checkout (CSV or text export)
 
-5. Mark Purchased (auto where possible)
+1. Mark Purchased (auto where possible)
 
-6. Cook throughout week
+1. Cook throughout week
 
-7. Weekly Recap (optional feedback)
+1. Weekly Recap (optional feedback)
 
 #### Technical Stack
 
@@ -1023,5 +1023,4 @@ For future versions, migration guides will be added here.
 ---
 
 #### [Back to Index](index.md)
-
 

@@ -486,27 +486,27 @@ export interface TonightState {
    - **Why:** UI depends on consistent 7-day grid. Empty days just have `dinner: undefined`.
    - **Enforced by:** Planner P1, P2
 
-2. **`Plan.status = 'SHOPPED'` must not change silently.**
+1. **`Plan.status = 'SHOPPED'` must not change silently.**
    - **Why:** Plan Stability contract (Vision §7.X). Once shopped, changes require explicit user action.
    - **Enforced by:** Shop S6, Planner P7
 
-3. **Every `ShoppingItem` is tied to exactly one `planId`.**
+1. **Every `ShoppingItem` is tied to exactly one `planId`.**
    - **Why:** Shopping lists don't span multiple weeks. New week = new shopping list.
    - **Enforced by:** Shop S2
 
-4. **`MissingItem` and `Substitution` always reference an existing `ShoppingItemId`.**
+1. **`MissingItem` and `Substitution` always reference an existing `ShoppingItemId`.**
    - **Why:** Can't mark something missing if it wasn't on the list.
    - **Enforced by:** Shop S8
 
-5. **`TonightState` is derived, never persisted as source of truth.**
+1. **`TonightState` is derived, never persisted as source of truth.**
    - **Why:** `TonightState` is computed from `Plan` + `Recipe` + `MissingItem[]` + current time. Storing it would create sync issues.
    - **Enforced by:** Today T2
 
-6. **`PlannedDinner.locked = true` prevents automatic swap/regeneration.**
+1. **`PlannedDinner.locked = true` prevents automatic swap/regeneration.**
    - **Why:** User explicitly locked this dinner (Planner P4). System respects that.
    - **Enforced by:** Planner P2, P3, P4
 
-7. **`IngredientCriticality` must be set for all ingredients used in Quick Review or missing-item logic.**
+1. **`IngredientCriticality` must be set for all ingredients used in Quick Review or missing-item logic.**
    - **Why:** Safety – can't accidentally suggest removing chicken in Quick Review.
    - **Enforced by:** Shop S7, S4, S8
 
@@ -1153,3 +1153,4 @@ All types defined in this data model, cross-referenced to specs and tickets.
 
 - **v1.1.0** (2025-12-07): Added hardening - Invariants, Ownership diagram, Sample instances, Domain helpers API
 - **v1.0.0** (2025-12-07): Initial data model for v1 implementation. Covers all 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).
+

@@ -401,11 +401,11 @@ See `vision.md` §13 (Roadmap) for complete sequencing.
 #### What You Can Demo After Phase 3
 1. Open Planner → see a week of dinners (P1, P2)
 
-2. Open Shop → see consolidated shopping list grouped by category (S2, S3, S1)
+1. Open Shop → see consolidated shopping list grouped by category (S2, S3, S1)
 
-3. Open Today → see tonight's dinner + preflight status (T1, T2)
+1. Open Today → see tonight's dinner + preflight status (T1, T2)
 
-4. Tap "Start Cooking" → step through recipe in Cooking Mode (T3, C1)
+1. Tap "Start Cooking" → step through recipe in Cooking Mode (T3, C1)
 
 #### What’s Missing (Acceptable for Vertical Slice)
 - No swap/reroll (P3)
@@ -423,5 +423,4 @@ See `vision.md` §13 (Roadmap) for complete sequencing.
 **Timeline:** 4 weeks for a **demoable but minimal** end-to-end experience.
 
 **Next Step After Vertical Slice:** Add adaptability (P3, T4, S4, S8) in Sprint 2 to prove "life happens" flows work.
-
 

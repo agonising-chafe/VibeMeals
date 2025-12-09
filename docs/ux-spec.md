@@ -9,17 +9,17 @@
 
 1. [Core Surfaces](#1-core-surfaces)
 
-2. [First-Time Experience (FTUE)](#2-first-time-experience-ftue)
+1. [First-Time Experience (FTUE)](#2-first-time-experience-ftue)
 
-3. [The Golden Path](#3-the-golden-path-zero-friction)
+1. [The Golden Path](#3-the-golden-path-zero-friction)
 
-4. [Navigation Model](#4-navigation-model)
+1. [Navigation Model](#4-navigation-model)
 
-5. [Interaction Patterns](#5-interaction-patterns)
+1. [Interaction Patterns](#5-interaction-patterns)
 
-6. [Copy & Micro-UX](#6-copy--micro-ux)
+1. [Copy & Micro-UX](#6-copy--micro-ux)
 
-7. [Accessibility](#7-accessibility)
+1. [Accessibility](#7-accessibility)
 
 ---
 
@@ -1152,5 +1152,4 @@ Check your internet and try again.
 ---
 
 #### [Back to Index](index.md)
-
 

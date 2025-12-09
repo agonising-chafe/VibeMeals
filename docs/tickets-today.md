@@ -444,5 +444,3 @@ T9 (Tone audit)
 - T4/T5/T6/T7 interact with Planner for swaps/moves
 
 - T8 reads tomorrow's plan data
-
-

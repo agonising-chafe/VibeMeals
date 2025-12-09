@@ -131,7 +131,7 @@ Planner output is a **week of dinners** aligned to the **week shapes** in `visio
 
 1. User taps **[Generate Plan]**.
 
-2. System:
+1. System:
 
 - Applies week shape for their mode (vision §5.2)
 
@@ -145,7 +145,7 @@ Planner output is a **week of dinners** aligned to the **week shapes** in `visio
 
 1. Grid populates with dinner cards per night.
 
-2. User tweaks:
+1. User tweaks:
 
 - Swap / Reroll on a card:
 
@@ -285,5 +285,4 @@ Planner must support intentionally lighter weeks (G4).
 - Per-day "energy" sliders that modify time band targets dynamically.
 
 - Calendar integration to show "late practice" or "work event" alongside plan.
-
 

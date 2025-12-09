@@ -12,13 +12,13 @@
 
 1. **Update the spec first:** Modify `docs/data-model.md` with the new/changed types
 
-2. **Update types.ts:** Mirror the changes exactly in `src/domain/types.ts`
+1. **Update types.ts:** Mirror the changes exactly in `src/domain/types.ts`
 
-3. **Update versions:** Increment version numbers and update dates in both files
+1. **Update versions:** Increment version numbers and update dates in both files
 
-4. **Implement code:** Write implementation using the updated types
+1. **Implement code:** Write implementation using the updated types
 
-5. **Verify:** Ensure all Golden Tests still pass
+1. **Verify:** Ensure all Golden Tests still pass
 
 ### Spec Status Definitions
 
@@ -147,27 +147,27 @@ Ready-to-use ticket breakdowns for each surface, with acceptance criteria wired 
 
 1. Start with **vision.md** (philosophy, Golden Tests, constraints)
 
-2. Reference **spec-*.md** for surface-specific flows
+1. Reference **spec-*.md** for surface-specific flows
 
-3. Use **persona-checklists.md** for regression testing
+1. Use **persona-checklists.md** for regression testing
 
 ### For Engineering
 
 1. Start with **spec-*.md** for implementation requirements
 
-2. Break work using **tickets-*.md**
+1. Break work using **tickets-*.md**
 
-3. Check **epic-dependencies.md** for build sequencing
+1. Check **epic-dependencies.md** for build sequencing
 
-4. Validate against **vision.md** Golden Tests (G1–G6)
+1. Validate against **vision.md** Golden Tests (G1–G6)
 
 ### For QA
 
 1. Use **tickets-*.md** for acceptance criteria
 
-2. Reference **persona-checklists.md** for regression suites
+1. Reference **persona-checklists.md** for regression suites
 
-3. Test against **vision.md** Golden Tests for non-negotiables
+1. Test against **vision.md** Golden Tests for non-negotiables
 
 ---
 
@@ -177,17 +177,17 @@ Ready-to-use ticket breakdowns for each surface, with acceptance criteria wired 
 
 1. **Generate Plan** → Week fills with recipes
 
-2. **Next: Shop** → Immediately available (no gates)
+1. **Next: Shop** → Immediately available (no gates)
 
-3. *(Optional) Quick Review* → Save money by optimizing
+1. *(Optional) Quick Review* → Save money by optimizing
 
-4. **Checkout** → CSV export (no external carts)
+1. **Checkout** → CSV export (no external carts)
 
-5. *(Optional) Mark Purchased* → Auto-confirm where possible
+1. *(Optional) Mark Purchased* → Auto-confirm where possible
 
-6. **Cook → Cooked** → Auto-deduct ingredients
+1. **Cook → Cooked** → Auto-deduct ingredients
 
-7. *(Optional) Recap* → Thumbs/favorites teach taste
+1. *(Optional) Recap* → Thumbs/favorites teach taste
 
 ### Core Philosophy
 
@@ -247,11 +247,11 @@ This documentation evolves as VibeMeals is built. When making changes:
 
 1. **Update the relevant document(s)**
 
-2. **Add entry to [changelog.md](changelog.md)** with date and rationale
+1. **Add entry to [changelog.md](changelog.md)** with date and rationale
 
-3. **Commit with clear message**: `docs: [section] brief description`
+1. **Commit with clear message**: `docs: [section] brief description`
 
-4. **Review cross-references**: Ensure links between documents remain valid
+1. **Review cross-references**: Ensure links between documents remain valid
 
 ---
 
@@ -292,5 +292,4 @@ See [changelog.md](changelog.md) for detailed version history and major decision
 This is a living document. As implementation progresses and new insights emerge, update the relevant sections and log changes in the changelog.
 
 **Document Status:** 🟢 Active Development
-
 

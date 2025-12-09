@@ -69,13 +69,13 @@ npm run import:url -- https://www.budgetbytes.com/sheet-pan-chicken/
 #### Interactive review
 1. ✅ Adjust time estimate (automatic 1.25x buffer applied)
 
-2. ✅ Confirm/change time band (FAST ≤30min, NORMAL 30-50min, PROJECT >50min)
+1. ✅ Confirm/change time band (FAST ≤30min, NORMAL 30-50min, PROJECT >50min)
 
-3. ✅ Review ingredient criticality (AI suggested, human confirmed)
+1. ✅ Review ingredient criticality (AI suggested, human confirmed)
 
-4. ✅ Add/remove preflight requirements (thaw, marinate)
+1. ✅ Add/remove preflight requirements (thaw, marinate)
 
-5. 💾 Saves to `src/domain/recipes/`
+1. 💾 Saves to `src/domain/recipes/`
 
 ### Phase 2: Testing (1-2 hours per recipe)
 
@@ -333,11 +333,11 @@ npm run dev:preview
 #### Solutions
 1. Try a different recipe from the same site
 
-2. Check browser DevTools → Network → look for `application/ld+json`
+1. Check browser DevTools → Network → look for `application/ld+json`
 
-3. Manually copy recipe data and create file directly
+1. Manually copy recipe data and create file directly
 
-4. Use a different source site
+1. Use a different source site
 
 ### "AI enhancement failed"
 **Cause:** No `GEMINI_API_KEY` set or an API error occurred.
@@ -371,10 +371,9 @@ metadata: {
 #### Next Steps
 1. Import first batch of 5 recipes this weekend
 
-2. Cook 1-2 to validate time estimates
+1. Cook 1-2 to validate time estimates
 
-3. Iterate on metadata accuracy
+1. Iterate on metadata accuracy
 
-4. Scale to 25 recipes over 2-3 weeks
-
+1. Scale to 25 recipes over 2-3 weeks
 

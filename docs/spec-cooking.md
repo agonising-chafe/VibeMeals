@@ -95,11 +95,11 @@ For steps that can run concurrently:
 
 1. Cooking Mode opens to Step 1.
 
-2. User reads step, performs action, taps **[Next]**.
+1. User reads step, performs action, taps **[Next]**.
 
-3. Repeat for all steps.
+1. Repeat for all steps.
 
-4. Final step includes:
+1. Final step includes:
 
 - "Plate and serve!"
 
@@ -135,7 +135,7 @@ For steps that can run concurrently:
 
 1. Pause at that step.
 
-2. Show clear message:
+1. Show clear message:
 
 - ⚠️ "It looks like the chicken wasn't marinated. This recipe won't work as planned."
 
@@ -258,5 +258,4 @@ For parallel steps:
 - Inline video clips for complex techniques.
 
 - "How does this look?" photo checkpoints for key steps.
-
 

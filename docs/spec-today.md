@@ -162,7 +162,7 @@ Tone must be supportive and non-blaming (vision §4.1).
 
 1. User taps **[Too much for today → Easier option]**.
 
-2. System proposes 1–3 easier alternatives, prioritizing:
+1. System proposes 1–3 easier alternatives, prioritizing:
 
 - Fast recipes
 
@@ -198,9 +198,9 @@ Tone must be supportive and non-blaming (vision §4.1).
 
 1. User taps **[We're eating out instead]**.
 
-2. System marks tonight as "Out / Skipped."
+1. System marks tonight as "Out / Skipped."
 
-3. Offers simple follow-up:
+1. Offers simple follow-up:
 
 - "What should we do with tonight's planned dinner?"
 
@@ -249,5 +249,4 @@ Tone must be supportive and non-blaming (vision §4.1).
 - Special handling for multi-dish nights (main + side) in Today vs Cooking Mode.
 
 - Integration with calendar to surface "late night" or "busy day" context automatically.
-
 

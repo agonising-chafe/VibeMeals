@@ -95,13 +95,13 @@ your role:
 #### Logical Reading Flow (Full Document)
 1. **Foundation (Sections 1–4):** Why we exist → What we promise → How we talk
 
-2. **Who & What Hurts (Sections 5–6):** Personas + Week Shapes → Pain
+1. **Who & What Hurts (Sections 5–6):** Personas + Week Shapes → Pain
    deep-dive 3. **How We Solve It (Sections 7–8):** DLE architecture + Recipe
    catalog rules 4. **Testing & Validation (Sections 9–12):** Golden Stories →
    Special constraints → Golden v1.1 tests → Traceability 5. **Operational
    Anchors (Sections 13–15):** Roadmap → Learning principles → System boundaries
 
-6. **Appendices:** Detailed stories and acceptance tests
+1. **Appendices:** Detailed stories and acceptance tests
 
 > **Quick reference for "Is this allowed?" questions:** > Check in order: Golden
 Tests (Section 11) → System Boundaries (Section 15) → Catalog Rules (Section 8)
@@ -308,20 +308,20 @@ judgmental.
 
 - Skipping or moving a meal is normal, not a moral failure.
 
-2. **We celebrate small wins, not streaks.**
+1. **We celebrate small wins, not streaks.**
 
 - "You cooked at home twice this week 👏"
 
 - Never: "You broke your streak" or "You missed your goals."
 
-3. **We never weaponize data.**
+1. **We never weaponize data.**
 
 - Waste, takeout, skipped meals, and budget are used for gentle suggestions,
      not guilt.
 
 - No "You wasted X" or "You ordered delivery Y times" as shaming.
 
-4. **We side with the user, not the system.**
+1. **We side with the user, not the system.**
 
 - If reality conflicts with the plan, we help the plan adapt.
 
@@ -3044,13 +3044,13 @@ money."
 
 - Safe default: When in doubt, add it to the list
 
-2. **Preflight**
+1. **Preflight**
 
 - Tiny, timely prompts for thaw/marinate/soak/pre-chop
 
 - Make "Tuesday's dinner" actually possible at 5:30pm without panic
 
-3. **Cooking**
+1. **Cooking**
 
 - Steps are parallelized to hit the promised time band
 
@@ -3058,7 +3058,7 @@ money."
 
 - Clear progress: "Step 3 of 7"
 
-4. **Waste Minimization**
+1. **Waste Minimization**
 
 - Leftovers and residual pack sizes tracked for reuse
 
@@ -3066,7 +3066,7 @@ money."
 
 - Not guilt-based; dismissible with "We ate it all" or "It went bad"
 
-5. **Trust**
+1. **Trust**
 
 - No blocking gates; safe defaults let you proceed immediately
 
@@ -6118,7 +6118,7 @@ VibeMeals is responsible for:
 
 - Respecting constraints and golden experiences [G1–G6].
 
-2. **Dinner Logistics Engine (DLE)**
+1. **Dinner Logistics Engine (DLE)**
 
 - Translating a plan into:
 
@@ -6132,7 +6132,7 @@ VibeMeals is responsible for:
 
 - Modeling preflight (thaw/marinate) and time bands accurately.
 
-3. **Shopping Lists & Cart Blueprints**
+1. **Shopping Lists & Cart Blueprints**
 
 - Generating accurate, de-duplicated shopping lists.
 
@@ -6141,13 +6141,13 @@ VibeMeals is responsible for:
 - Mapping recipes → ingredients → generic product types (e.g., "boneless
      skinless chicken breast, ~2 lb").
 
-4. **Cooking Flow**
+1. **Cooking Flow**
 
 - Transforming recipes into clear, step-by-step Cooking Mode.
 
 - Coordinating timing and preflight so "Tonight" is actually cookable.
 
-5. **Learning & Personalization**
+1. **Learning & Personalization**
 
 - Adapting plan shapes, recipe choices, and leftover suggestions based on
      behavior.
@@ -6175,7 +6175,7 @@ VibeMeals does **not** own:
 
 - Our guarantee is **logical provisioning**, not real-time stock.
 
-2. **Payments, Fulfillment & Delivery**
+1. **Payments, Fulfillment & Delivery**
 
 - We don't process payments.
 
@@ -6191,7 +6191,7 @@ VibeMeals does **not** own:
 
 - missing items.
 
-3. **Precise Pantry Inventory**
+1. **Precise Pantry Inventory**
 
 - We are not a barcode scanner or full inventory system.
 
@@ -6200,7 +6200,7 @@ VibeMeals does **not** own:
 - Our "pantry brain" is **fuzzy**, based on behavior and timelines, not a
      precise count.
 
-4. **Nutrition, Diet Coaching, or Medical Advice**
+1. **Nutrition, Diet Coaching, or Medical Advice**
 
 - We are not a macro tracker or diet app.
 
@@ -6209,7 +6209,7 @@ VibeMeals does **not** own:
 - We respect user-declared constraints (e.g., no gluten) but do not diagnose
      or treat conditions.
 
-5. **Social Graph & Recipe Sharing**
+1. **Social Graph & Recipe Sharing**
 
 - We are not a social network.
 
@@ -6364,11 +6364,11 @@ When evaluating a new feature or integration, we ask:
 
 - If not, why are we doing it?
 
-2. **Are we accidentally owning something a store or external tool should own?**
+1. **Are we accidentally owning something a store or external tool should own?**
 
 - Payments, real-time stock, full inventory, diet coaching, social feeds.
 
-3. **Does this feature respect our boundaries on:**
+1. **Does this feature respect our boundaries on:**
 
 - Golden Experiences [G1–G6]
 

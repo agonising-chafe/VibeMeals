@@ -52,17 +52,17 @@ These settings are documented in `tsconfig.json` and enforced in CI and local de
 
 1. [Technology Stack](#1-technology-stack)
 
-2. [State Management](#2-state-management)
+1. [State Management](#2-state-management)
 
-3. [Data Models](#3-data-models)
+1. [Data Models](#3-data-models)
 
-4. [Key Algorithms](#4-key-algorithms)
+1. [Key Algorithms](#4-key-algorithms)
 
-5. [API Contracts](#5-api-contracts)
+1. [API Contracts](#5-api-contracts)
 
-6. [Database Schema](#6-database-schema)
+1. [Database Schema](#6-database-schema)
 
-7. [Environment & Keys](#7-environment--keys)
+1. [Environment & Keys](#7-environment--keys)
 
 ---
 
@@ -1419,5 +1419,4 @@ user      User     @relation(fields: [userId], references: [id])
 ---
 
 #### [Back to Index](index.md)
-
 

@@ -9,81 +9,81 @@
 1. **Sheet Pan Chicken Fajitas** (FAST, NO_PREFLIGHT)
 
 - Source: Budget Bytes
-    - Why: One-pan, minimal cleanup, kid-friendly
+  - Why: One-pan, minimal cleanup, kid-friendly
 
-2. **Pantry Pasta** (FAST, NO_PREFLIGHT)
+1. **Pantry Pasta** (FAST, NO_PREFLIGHT)
 
 - Source: Already in fixtures
-    - Why: Emergency meal, mostly pantry staples
+  - Why: Emergency meal, mostly pantry staples
 
-3. **Ground Beef Tacos** (FAST, NO_PREFLIGHT)
+1. **Ground Beef Tacos** (FAST, NO_PREFLIGHT)
 
 - Source: Already in fixtures (Beef Tacos)
-    - Why: Family favorite, simple
+  - Why: Family favorite, simple
 
-4. **Stir-Fry Chicken & Vegetables** (FAST, NO_PREFLIGHT)
+1. **Stir-Fry Chicken & Vegetables** (FAST, NO_PREFLIGHT)
 
 - Source: Budget Bytes / Serious Eats
-    - Why: Fast, healthy, flexible
+  - Why: Fast, healthy, flexible
 
-5. **Quesadillas** (FAST, NO_PREFLIGHT)
+1. **Quesadillas** (FAST, NO_PREFLIGHT)
 
 - Source: Budget Bytes
-    - Why: Kid-approved, customizable, truly fast
+  - Why: Kid-approved, customizable, truly fast
 
-6. **Fried Rice** (FAST, NO_PREFLIGHT)
+1. **Fried Rice** (FAST, NO_PREFLIGHT)
 
 - Source: Serious Eats
-    - Why: Leftover rice hero, quick
+  - Why: Leftover rice hero, quick
 
-7. **Spaghetti Aglio e Olio** (FAST, NO_PREFLIGHT)
+1. **Spaghetti Aglio e Olio** (FAST, NO_PREFLIGHT)
 
 - Source: Serious Eats / NYT
-    - Why: 6 ingredients, 20 minutes
+  - Why: 6 ingredients, 20 minutes
 
-8. **Fish Tacos** (FAST, NO_PREFLIGHT)
+1. **Fish Tacos** (FAST, NO_PREFLIGHT)
 
 - Source: Budget Bytes
-    - Why: Quick protein, healthy
+  - Why: Quick protein, healthy
 
 ### NORMAL (30-50 min) - 5 recipes
 
 1. **One-Pot Chicken and Rice** (NORMAL, NO_PREFLIGHT)
 
 - Source: Budget Bytes
-    - Why: Minimal dishes, comfort food
+  - Why: Minimal dishes, comfort food
 
-2. **Baked Salmon with Roasted Vegetables** (NORMAL, NO_PREFLIGHT)
-
-- Source: Serious Eats
-    - Why: Healthy, sheet pan, elegant
-
-3. **Chicken Parmesan** (NORMAL, NO_PREFLIGHT)
+1. **Baked Salmon with Roasted Vegetables** (NORMAL, NO_PREFLIGHT)
 
 - Source: Serious Eats
-    - Why: Classic, crowd-pleaser
+  - Why: Healthy, sheet pan, elegant
 
-4. **Beef & Broccoli** (NORMAL, THAW optional)
+1. **Chicken Parmesan** (NORMAL, NO_PREFLIGHT)
+
+- Source: Serious Eats
+  - Why: Classic, crowd-pleaser
+
+1. **Beef & Broccoli** (NORMAL, THAW optional)
 
 - Source: Budget Bytes
-    - Why: Better than takeout
+  - Why: Better than takeout
 
-5. **Baked Ziti** (NORMAL, NO_PREFLIGHT)
+1. **Baked Ziti** (NORMAL, NO_PREFLIGHT)
 
 - Source: Budget Bytes / NYT
-    - Why: Batch-friendly, freezes well
+  - Why: Batch-friendly, freezes well
 
 ### PROJECT (>50 min) - 2 recipes
 
 1. **Slow Cooker Chili** (PROJECT, SLOW_COOK)
 
 - Source: Already in fixtures
-    - Why: Set and forget, feeds crowd
+  - Why: Set and forget, feeds crowd
 
-2. **Marinated Chicken Bowls** (PROJECT, MARINATE)
+1. **Marinated Chicken Bowls** (PROJECT, MARINATE)
 
 - Source: Already in fixtures
-    - Why: Meal prep hero
+  - Why: Meal prep hero
 
 ## Week 2: Expansion 10 Recipes
 
@@ -91,25 +91,25 @@
 
 1. **Pork Chops with Apple** (NORMAL, NO_PREFLIGHT)
 
-2. **Shrimp Scampi** (FAST, NO_PREFLIGHT)
+1. **Shrimp Scampi** (FAST, NO_PREFLIGHT)
 
-3. **BBQ Pulled Pork** (PROJECT, SLOW_COOK)
+1. **BBQ Pulled Pork** (PROJECT, SLOW_COOK)
 
-4. **Lemon Herb Chicken Thighs** (NORMAL, THAW)
+1. **Lemon Herb Chicken Thighs** (NORMAL, THAW)
 
 ### Vegetarian Options
 
 1. **Black Bean Burgers** (NORMAL, NO_PREFLIGHT)
 
-2. **Veggie Stir-Fry with Tofu** (FAST, NO_PREFLIGHT)
+1. **Veggie Stir-Fry with Tofu** (FAST, NO_PREFLIGHT)
 
-3. **Lentil Soup** (NORMAL, NO_PREFLIGHT)
+1. **Lentil Soup** (NORMAL, NO_PREFLIGHT)
 
 ### Budget-Friendly
 
 1. **Bean & Cheese Burritos** (FAST, NO_PREFLIGHT)
 
-2. **Egg Fried Rice** (FAST, NO_PREFLIGHT)
+1. **Egg Fried Rice** (FAST, NO_PREFLIGHT)
 
 ### Kid-Friendly Classic
 
@@ -261,5 +261,4 @@ After 15 recipes:
 ```bash
 npm run import:url -- https://www.budgetbytes.com/sheet-pan-chicken-fajitas/
 ```text
-
 

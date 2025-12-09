@@ -21,13 +21,13 @@ A VibeMeals recipe is not just “ingredients + steps.” It must:
 
 1. **Plan well** – Expose realistic time band and effort for week-shape logic.
 
-2. **Shop safely** – Provide clear ingredient breakdown with critical vs non-critical flags.
+1. **Shop safely** – Provide clear ingredient breakdown with critical vs non-critical flags.
 
-3. **Make tonight viable** – Declare preflight needs so Today can say “you’re good” or “we need options.”
+1. **Make tonight viable** – Declare preflight needs so Today can say “you’re good” or “we need options.”
 
-4. **Cook calmly** – Provide clear, parallelizable steps for Cooking Mode.
+1. **Cook calmly** – Provide clear, parallelizable steps for Cooking Mode.
 
-5. **Learn quietly** – Include tags/hooks so the system can learn tastes and suggest “same vibe” alternatives.
+1. **Learn quietly** – Include tags/hooks so the system can learn tastes and suggest “same vibe” alternatives.
 
 If a recipe doesn’t support these, it’s not a VibeMeals recipe yet.
 
@@ -263,15 +263,15 @@ Recipe-specific invariants (builds on `data-model.md` invariants):
 
 1. Every recipe has `id`, `name`, `slug`, `metadata`, `ingredients`, `steps` (steps can be minimal but must exist).
 
-2. At least one `CRITICAL` ingredient exists; main protein must be `CRITICAL`.
+1. At least one `CRITICAL` ingredient exists; main protein must be `CRITICAL`.
 
-3. Preflight truthfully represents anything that starts ≥ 1 hour before cooking or involves thawing.
+1. Preflight truthfully represents anything that starts ≥ 1 hour before cooking or involves thawing.
 
-4. `estimatedMinutes` reflects a typical household, not pro-kitchen speed.
+1. `estimatedMinutes` reflects a typical household, not pro-kitchen speed.
 
-5. `timeBand` matches `estimatedMinutes` (no gaming FAST).
+1. `timeBand` matches `estimatedMinutes` (no gaming FAST).
 
-6. If `leftoverStrategy = 'COOK_ONCE_EAT_TWICE'`, quantities and structure support it.
+1. If `leftoverStrategy = 'COOK_ONCE_EAT_TWICE'`, quantities and structure support it.
 
 ---
 
@@ -446,5 +446,4 @@ Once a recipe passes this checklist, it's **VibeMeals-ready** and safe to feed i
 ## Version History
 
 - **v1.0.0** (2025-12-07): Initial recipe specification aligned to `data-model.md` and v1 tickets.
-
 
