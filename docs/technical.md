@@ -5,11 +5,32 @@
 
 ---
 
+## TypeScript Strictness & Cross-Platform Safety
+
+VibeMeals enforces strict TypeScript settings to ensure maintainability, cross-platform compatibility, and prevent common bugs:
+
+- `forceConsistentCasingInFileNames: true` — Prevents case-sensitivity issues between Windows/macOS/Linux.
+- `exactOptionalPropertyTypes: true` — Optional properties must be omitted, not set to `undefined`.
+- `strict: true` — Enables all strict type checks.
+- `noUnusedLocals: true` and `noUnusedParameters: true` — Prevents unused code drift.
+- `esModuleInterop: true` — Ensures compatibility with ESM and CommonJS imports.
+
+**Conventions:**
+
+- Always omit optional properties when unset (never set to `undefined`).
+- Use extensionless imports for TypeScript source files (compatible with tsx, Nuxt 3, Vite, etc.).
+- All code, types, and docs must stay in perfect sync (see data-model.md and types.ts).
+
+These settings are documented in `tsconfig.json` and enforced in CI and local dev. All contributors should follow these conventions for a healthy, drift-free codebase.
+
+---
+
 ## Current Implementation Status (v1.0.0)
 
 > **v1.0.0 is a pure TypeScript/Node.js backend implementation** of the core meal planning, shopping, and cooking logic.
 >
 > ✅ **Implemented:**
+>
 > - Domain logic: Planner, Shop, Today, Preflight (467+ lines of production code)
 > - Type contracts: types.ts perfectly synced with data-model.md v1.2.0
 > - Recipe catalog: 14 curated recipes with full ingredient metadata
@@ -17,6 +38,7 @@
 > - Specs: Complete surface specs for Planner, Shop, Today aligned to vision.md v4.6.0
 >
 > ⏳ **Not yet implemented (v1.1+):**
+>
 > - Frontend: Nuxt 3 UI / Web app (architecture designed below)
 > - Database: PostgreSQL persistence (schema defined below)
 > - API: REST/GraphQL endpoints (contracts defined below)
