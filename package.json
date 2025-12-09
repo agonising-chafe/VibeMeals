@@ -13,6 +13,7 @@
     "dev:preview-week": "tsx src/dev/preview-week.ts",
     "dev:preview-cli": "tsx src/dev/preview-cli.ts",
     "dev:preview-planner": "tsx src/dev/preview-planner.ts",
+    "check:health": "pwsh ./scripts/check-health.ps1",
     "lint:md": "npx markdownlint-cli --ignore-path .markdownlintignore \"docs/**/*.md\"",
     "lint:md:strict": "npx markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\""
   },
