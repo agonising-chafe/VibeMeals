@@ -258,4 +258,3 @@ For parallel steps:
 - Inline video clips for complex techniques.
 
 - "How does this look?" photo checkpoints for key steps.
-

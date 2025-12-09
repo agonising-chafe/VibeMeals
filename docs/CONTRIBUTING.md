@@ -16,3 +16,18 @@ Guidance:
 - Use `lint:md:strict` when preparing a cleanup pass; treat its findings as suggestions unless you decide to make strict mode a project standard.
 
 If you need to exclude a specific doc (e.g., a locked spec), add it to `.markdownlintignore` with a brief rationale comment in the PR.
+
+## Pre-merge checklist
+
+- **Run the pragmatic gate:** `npm run lint:md` and **unit tests:** `npm test` before merging any PR that touches `docs/` or core logic.
+
+## Quick fixes / Panic button
+
+- If a docs edit produces noisy lint output or you did a large bulk edit, run the repository normalizer and re-check the pragmatic gate:
+
+```powershell
+pwsh scripts/normalize-docs-md.ps1
+npm run lint:md
+```
+
+- Use `npm run lint:md:strict` as an occasional health check (pre-release, large cleanup) rather than a blocking CI gate.

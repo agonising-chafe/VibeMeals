@@ -11,13 +11,15 @@
     "generate:types": "tsx scripts/generate-types-from-data-model.ts",
     "report:golden": "tsx scripts/report-golden-coverage.ts",
     "dev:preview-week": "tsx src/dev/preview-week.ts",
-    "dev:preview-planner": "tsx src/dev/preview-planner.ts"
-    ,"lint:md": "markdownlint-cli --ignore-path .markdownlintignore \"docs/**/*.md\""
-    ,"lint:md:strict": "markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\""
+    "dev:preview-cli": "tsx src/dev/preview-cli.ts",
+    "dev:preview-planner": "tsx src/dev/preview-planner.ts",
+    "lint:md": "npx markdownlint-cli --ignore-path .markdownlintignore \"docs/**/*.md\"",
+    "lint:md:strict": "npx markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\""
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
+    "markdownlint-cli": "^0.24.0",
     "typescript": "^5.3.3",
     "vitest": "^1.2.0"
   },

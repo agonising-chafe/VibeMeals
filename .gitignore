@@ -45,3 +45,4 @@ Thumbs.db
 # Database
 *.sqlite
 *.db
+reports/

@@ -1419,4 +1419,3 @@ user      User     @relation(fields: [userId], references: [id])
 ---
 
 #### [Back to Index](index.md)
-

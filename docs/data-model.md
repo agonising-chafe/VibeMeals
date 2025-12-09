@@ -1153,4 +1153,3 @@ All types defined in this data model, cross-referenced to specs and tickets.
 
 - **v1.1.0** (2025-12-07): Added hardening - Invariants, Ownership diagram, Sample instances, Domain helpers API
 - **v1.0.0** (2025-12-07): Initial data model for v1 implementation. Covers all 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).
-

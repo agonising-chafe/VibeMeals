@@ -423,4 +423,3 @@ See `vision.md` §13 (Roadmap) for complete sequencing.
 **Timeline:** 4 weeks for a **demoable but minimal** end-to-end experience.
 
 **Next Step After Vertical Slice:** Add adaptability (P3, T4, S4, S8) in Sprint 2 to prove "life happens" flows work.
-

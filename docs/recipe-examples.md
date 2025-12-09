@@ -157,4 +157,3 @@ const marinatedChickenBowls: Recipe = {
 - **Seed fixtures:** Drop into `src/domain/fixtures/recipes.seed.ts` with the two examples already in `recipe-spec.md`.
 
 - **Tests:** Use to validate `buildShoppingList(...)` (critical vs optional) and `computeTonightState(...)` (marinade missed vs done).
-

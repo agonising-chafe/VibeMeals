@@ -20,7 +20,7 @@ import { buildShoppingList } from '../domain/shop';
 import { computeTonightState } from '../domain/today';
 
 // Recipe mapping for tests
-const seedRecipes = mvpRecipeCatalog;
+export const seedRecipes = mvpRecipeCatalog;
 const sheetPanChickenVeg = seedRecipes.find(r => r.id === 'r_oven-baked-chicken-drumsticks')!;
 const slowCookerChili = seedRecipes.find(r => r.id === 'r_slow-cooker-white-chicken-chili')!;
 const pantryRescuePasta = seedRecipes.find(r => r.id === 'r_one-pot-creamy-mushroom-pasta')!;
@@ -60,7 +60,7 @@ function makePlannedDinner(recipeId: string): PlannedDinner {
   };
 }
 
-function buildDemoPlan(): Plan {
+export function buildDemoPlan(): Plan {
   const days = makeEmptyWeek();
 
   const map: Record<string, string> = {
@@ -95,12 +95,12 @@ function buildDemoPlan(): Plan {
   };
 }
 
-function printShoppingList() {
-  const plan = buildDemoPlan();
-  const shoppingList = buildShoppingList(plan, seedRecipes);
+export function printShoppingList(plan?: Plan) {
+  const usedPlan = plan ?? buildDemoPlan();
+  const shoppingList = buildShoppingList(usedPlan, seedRecipes);
 
   console.log('=== DEMO SHOPPING LIST ===');
-  console.log(`Plan: ${plan.id} – ${plan.weekStartDate}`);
+  console.log(`Plan: ${usedPlan.id} – ${usedPlan.weekStartDate}`);
   console.log(`Items: ${shoppingList.items.length}`);
   console.log('');
 
@@ -121,11 +121,11 @@ function printShoppingList() {
   }
 }
 
-function printTonightState(date: IsoDate, missingItems: MissingItem[] = []) {
-  const plan = buildDemoPlan();
+export function printTonightState(date: IsoDate, missingItems: MissingItem[] = [], plan?: Plan) {
+  const usedPlan = plan ?? buildDemoPlan();
 
   const tonight: TonightState = computeTonightState(
-    plan,
+    usedPlan,
     seedRecipes,
     missingItems,
     [] as Substitution[],
@@ -173,7 +173,7 @@ function printTonightState(date: IsoDate, missingItems: MissingItem[] = []) {
   }
 }
 
-function main() {
+export function main() {
   printShoppingList();
 
   // Case 1: READY (sheet pan on Monday, no missing / no preflight)
@@ -218,4 +218,8 @@ function main() {
   printTonightState('2025-01-06', fakeMissing);
 }
 
-main();
+// Only run main when executed directly (not when imported)
+import { fileURLToPath } from 'url';
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main();
+}
