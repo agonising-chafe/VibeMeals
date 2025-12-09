@@ -25,37 +25,51 @@ interface ValidationResult {
   warnings: string[];
 }
 
-function extractTypeNames(content: string): Set<string> {
-  // Extract type and interface names from TypeScript
-  const typeRegex = /export (?:type|interface) (\w+)/g;
-  const names = new Set<string>();
+
+// Extract type/interface definitions and their fields from TypeScript code
+function extractTypeDefinitions(content: string): Record<string, Record<string, string>> {
+  const typeDefs: Record<string, Record<string, string>> = {};
+  // Match export interface/type blocks
+  const blockRegex = /export (interface|type) (\w+)\s*([^{=]*){([\s\S]*?)};/g;
   let match;
-  
-  while ((match = typeRegex.exec(content)) !== null) {
-    names.add(match[1]);
+  while ((match = blockRegex.exec(content)) !== null) {
+    const [, kind, name, , body] = match;
+    typeDefs[name] = {};
+    // Match fields: fieldName: type;
+    const fieldRegex = /(\w+)\s*:\s*([^;\n]+);/g;
+    let fieldMatch;
+    while ((fieldMatch = fieldRegex.exec(body)) !== null) {
+      const [, fieldName, fieldType] = fieldMatch;
+      typeDefs[name][fieldName] = fieldType.trim();
+    }
   }
-  
-  return names;
+  return typeDefs;
 }
 
-function extractDataModelTypes(content: string): Set<string> {
-  // Extract interface/type names from markdown code blocks
-  const typeRegex = /(?:export )?(?:type|interface) (\w+)/g;
-  const names = new Set<string>();
-  let match;
-  
+// Extract type/interface definitions and their fields from markdown code blocks
+function extractDataModelDefinitions(content: string): Record<string, Record<string, string>> {
+  const typeDefs: Record<string, Record<string, string>> = {};
   // Only look in TypeScript code blocks
   const codeBlockRegex = /```typescript?\n([\s\S]*?)```/g;
   let codeMatch;
-  
   while ((codeMatch = codeBlockRegex.exec(content)) !== null) {
     const codeBlock = codeMatch[1];
-    while ((match = typeRegex.exec(codeBlock)) !== null) {
-      names.add(match[1]);
+    // Match export interface/type blocks
+    const blockRegex = /export (interface|type) (\w+)\s*([^{=]*){([\s\S]*?)};/g;
+    let match;
+    while ((match = blockRegex.exec(codeBlock)) !== null) {
+      const [, kind, name, , body] = match;
+      typeDefs[name] = {};
+      // Match fields: fieldName: type;
+      const fieldRegex = /(\w+)\s*:\s*([^;\n]+);/g;
+      let fieldMatch;
+      while ((fieldMatch = fieldRegex.exec(body)) !== null) {
+        const [, fieldName, fieldType] = fieldMatch;
+        typeDefs[name][fieldName] = fieldType.trim();
+      }
     }
   }
-  
-  return names;
+  return typeDefs;
 }
 
 function extractVersion(content: string, isMarkdown: boolean): string | null {
@@ -74,6 +88,7 @@ function extractLastUpdated(content: string): string | null {
   const match = content.match(/\*\*Last Updated:\*\* (.+)/);
   return match ? match[1].trim() : null;
 }
+
 
 function validate(): ValidationResult {
   const result: ValidationResult = {
@@ -117,22 +132,22 @@ function validate(): ValidationResult {
     result.success = false;
   }
 
-  // Extract type names
-  const typesTypes = extractTypeNames(typesContent);
-  const dataModelTypes = extractDataModelTypes(dataModelContent);
+  // Extract type/interface definitions and fields
+  const typesDefs = extractTypeDefinitions(typesContent);
+  const dataModelDefs = extractDataModelDefinitions(dataModelContent);
 
   // Check for types in data-model.md but not in types.ts
   const missingInTypes: string[] = [];
-  dataModelTypes.forEach(typeName => {
-    if (!typesTypes.has(typeName)) {
+  Object.keys(dataModelDefs).forEach(typeName => {
+    if (!typesDefs[typeName]) {
       missingInTypes.push(typeName);
     }
   });
 
   // Check for types in types.ts but not in data-model.md
   const missingInDataModel: string[] = [];
-  typesTypes.forEach(typeName => {
-    if (!dataModelTypes.has(typeName)) {
+  Object.keys(typesDefs).forEach(typeName => {
+    if (!dataModelDefs[typeName]) {
       missingInDataModel.push(typeName);
     }
   });
@@ -149,6 +164,27 @@ function validate(): ValidationResult {
       `Types defined in types.ts but not documented in data-model.md: ${missingInDataModel.join(', ')}`
     );
   }
+
+  // Compare fields for types/interfaces present in both
+  Object.keys(typesDefs).forEach(typeName => {
+    if (dataModelDefs[typeName]) {
+      const codeFields = typesDefs[typeName];
+      const docFields = dataModelDefs[typeName];
+      const codeFieldNames = Object.keys(codeFields);
+      const docFieldNames = Object.keys(docFields);
+      const missingFieldsInCode = docFieldNames.filter(f => !(f in codeFields));
+      const missingFieldsInDoc = codeFieldNames.filter(f => !(f in docFields));
+      const mismatchedFields = codeFieldNames.filter(f => docFields[f] && codeFields[f] !== docFields[f]);
+      if (missingFieldsInCode.length || missingFieldsInDoc.length || mismatchedFields.length) {
+        result.warnings.push(
+          `Type '${typeName}' field mismatch:` +
+          (missingFieldsInCode.length ? `\n  Fields in data-model.md but missing in types.ts: ${missingFieldsInCode.join(', ')}` : '') +
+          (missingFieldsInDoc.length ? `\n  Fields in types.ts but missing in data-model.md: ${missingFieldsInDoc.join(', ')}` : '') +
+          (mismatchedFields.length ? `\n  Fields with type mismatch: ${mismatchedFields.map(f => `${f} (types.ts: ${codeFields[f]}, data-model.md: ${docFields[f]})`).join('; ')}` : '')
+        );
+      }
+    }
+  });
 
   // Check last updated dates
   const typesLastUpdated = typesContent.match(/Last sync: (.+)/)?.[1]?.trim();

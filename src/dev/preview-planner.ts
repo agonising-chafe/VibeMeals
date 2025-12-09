@@ -59,7 +59,12 @@ function computeSummaryStats(plan: Plan, recipes: Recipe[]) {
 
 function generatePlanForHousehold(household: HouseholdProfile, recipes: Recipe[], startDate: IsoDate, options?: { recentRecipeIds?: string[] }) {
   try {
-    const plan = generatePlan(household, recipes, startDate, { recentRecipeIds: options?.recentRecipeIds });
+    const plan = generatePlan(
+      household,
+      recipes,
+      startDate,
+      options?.recentRecipeIds ? { recentRecipeIds: options.recentRecipeIds } : {}
+    );
     return { success: true as const, plan };
   } catch (error) {
     return {

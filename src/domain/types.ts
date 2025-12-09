@@ -74,7 +74,7 @@ export interface HouseholdProfile {
   mode: HouseholdMode;
   headcount: number;
   targetDinnersPerWeek: number;
-  dietConstraints: string[];
+  dietConstraints: DietConstraint[];
   timeBandPreference?: {
     preferredFastCount?: number;
     preferredNormalCount?: number;

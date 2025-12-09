@@ -9,16 +9,17 @@
     "dev:planner": "tsx src/dev/preview-planner.ts",
     "validate:types": "tsx scripts/validate-type-sync.ts",
     "generate:types": "tsx scripts/generate-types-from-data-model.ts",
-    "report:golden": "tsx scripts/report-golden-coverage.ts"
+    "report:golden": "tsx scripts/report-golden-coverage.ts",
+    "dev:preview-week": "tsx src/dev/preview-week.ts",
+    "dev:preview-planner": "tsx src/dev/preview-planner.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
-    "tsx": "^4.7.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.3.3",
     "vitest": "^1.2.0"
   },
   "dependencies": {
-    "pdf-parse-fork": "^1.2.0",
-    "recipe-scrapers": "^14.48.0"
+    "pdf-parse-fork": "^1.2.0"
   }
 }
