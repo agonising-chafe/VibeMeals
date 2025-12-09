@@ -16,3 +16,4 @@ Guidance:
 - Use `lint:md:strict` when preparing a cleanup pass; treat its findings as suggestions unless you decide to make strict mode a project standard.
 
 If you need to exclude a specific doc (e.g., a locked spec), add it to `.markdownlintignore` with a brief rationale comment in the PR.
+

@@ -167,3 +167,4 @@ If any checklist box gets checked, either redesign or consciously accept that tr
 ---
 
 **Related:** See [vision.md](./vision.md) for complete persona profiles, Golden Stories, and experience tests.
+

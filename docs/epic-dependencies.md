@@ -424,3 +424,4 @@ See `vision.md` §13 (Roadmap) for complete sequencing.
 
 **Next Step After Vertical Slice:** Add adaptability (P3, T4, S4, S8) in Sprint 2 to prove "life happens" flows work.
 
+

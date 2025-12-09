@@ -447,3 +447,4 @@ Once a recipe passes this checklist, it's **VibeMeals-ready** and safe to feed i
 
 - **v1.0.0** (2025-12-07): Initial recipe specification aligned to `data-model.md` and v1 tickets.
 
+

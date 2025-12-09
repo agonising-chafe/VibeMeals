@@ -249,3 +249,4 @@ Tone must be supportive and non-blaming (vision §4.1).
 - Special handling for multi-dish nights (main + side) in Today vs Cooking Mode.
 
 - Integration with calendar to surface "late night" or "busy day" context automatically.
+

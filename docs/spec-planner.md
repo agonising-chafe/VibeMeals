@@ -285,3 +285,4 @@ Planner must support intentionally lighter weeks (G4).
 - Per-day "energy" sliders that modify time band targets dynamically.
 
 - Calendar integration to show "late practice" or "work event" alongside plan.
+

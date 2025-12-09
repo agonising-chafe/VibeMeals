@@ -293,3 +293,4 @@ User completes store shop and later realizes:
 - Tracking which staples the user explicitly always stocks (e.g., "never add oil to my list again" toggle).
 
 - Store pickup time slot integration.
+
