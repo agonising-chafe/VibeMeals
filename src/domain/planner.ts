@@ -84,8 +84,66 @@ function filterRecipesByConstraints(
     // Skip recently used recipes (repeat guard)
     if (recentRecipeIds.has(recipe.id)) return false;
     
-    // TODO: Add constraint filtering when constraints are defined in HouseholdProfile
-    // e.g., dietary restrictions, equipment availability, etc.
+    // Apply dietary constraints
+    for (const constraint of household.dietConstraints) {
+      switch (constraint) {
+        case 'NO_PORK':
+          // Check ingredients for pork-related items
+          if (recipe.ingredients.some(ing => 
+            /pork|bacon|ham|sausage/i.test(ing.displayName)
+          )) return false;
+          break;
+        
+        case 'NO_BEEF':
+          // Check ingredients for beef-related items
+          if (recipe.ingredients.some(ing => 
+            /beef|steak|ground beef|chuck/i.test(ing.displayName)
+          )) return false;
+          break;
+        
+        case 'NO_SHELLFISH':
+          // Check ingredients for shellfish
+          if (recipe.ingredients.some(ing => 
+            /shrimp|crab|lobster|clam|mussel|oyster|scallop/i.test(ing.displayName)
+          )) return false;
+          break;
+        
+        case 'NO_GLUTEN':
+          // Must have gluten_free tag or no gluten-containing ingredients
+          const hasGlutenFreeTag = recipe.tags?.includes('gluten_free');
+          const hasGlutenIngredient = recipe.ingredients.some(ing =>
+            /flour|pasta|bread|soy sauce|wheat|barley|rye/i.test(ing.displayName)
+          );
+          if (!hasGlutenFreeTag && hasGlutenIngredient) return false;
+          break;
+        
+        case 'NO_DAIRY':
+          // Must have dairy_free tag or no dairy ingredients
+          const hasDairyFreeTag = recipe.tags?.includes('dairy_free');
+          const hasDairyIngredient = recipe.ingredients.some(ing =>
+            ing.kind === 'DAIRY' || /milk|cheese|cream|butter|yogurt/i.test(ing.displayName)
+          );
+          if (!hasDairyFreeTag && hasDairyIngredient) return false;
+          break;
+        
+        case 'VEGETARIAN':
+          // No meat/seafood ingredients
+          if (recipe.ingredients.some(ing => 
+            ing.kind === 'PROTEIN' && 
+            /chicken|beef|pork|fish|shrimp|meat|turkey|lamb/i.test(ing.displayName)
+          )) return false;
+          break;
+        
+        case 'VEGAN':
+          // No animal products at all
+          if (recipe.ingredients.some(ing => 
+            ing.kind === 'PROTEIN' && /chicken|beef|pork|fish|shrimp|meat|turkey|lamb/i.test(ing.displayName) ||
+            ing.kind === 'DAIRY' ||
+            /egg|honey|milk|cheese|cream|butter|yogurt/i.test(ing.displayName)
+          )) return false;
+          break;
+      }
+    }
     
     return true;
   });
