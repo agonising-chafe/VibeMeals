@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { generatePlan } from '../planner';
-import { HouseholdProfile, Recipe, DietConstraint } from '../types';
+import { HouseholdProfile, DietConstraint } from '../types';
 import { mvpRecipeCatalog } from '../fixtures/recipes.seed';
 
 // Helper to create test household with specific constraints
