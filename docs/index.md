@@ -121,6 +121,12 @@ Ready-to-use ticket breakdowns for each surface, with acceptance criteria wired 
 
 ---
 
+### For Launch (MVP Catalog Phase)
+
+- **[recipe-acquisition.md](./recipe-acquisition.md)** – Operational guide for building the initial recipe library (25–40 recipes for MVP).
+  - Covers: Scraping workflow, testing & validation, quality gates, selection strategy, and success metrics.
+  - Best for: Solo founders executing the recipe-seeding phase.
+
 ### Reference & Supporting Docs
 
 - **[persona-checklists.md](./persona-checklists.md)** – Regression test checklists (Ashley, Brianna, Kayla, Jake & Maya, Ellen & Mark)

@@ -437,10 +437,19 @@ When adding or generating a new recipe, ensure:
 
 - [ ] Variant hints added where simple safe swaps exist.
 
-Once a recipe passes this checklist, it’s **VibeMeals-ready** and safe to feed into Planner → Shop → Today.
+Once a recipe passes this checklist, it's **VibeMeals-ready** and safe to feed into Planner → Shop → Today.
+
+---
+
+## See Also
+
+- **[recipe-acquisition.md](./recipe-acquisition.md)** – Learn the workflow for sourcing, validating, and integrating recipes into the catalog (MVP phase operational guide).
+
+- **[recipe-examples.md](./recipe-examples.md)** – Ready-to-use seed recipes that exercise all time bands, criticality levels, and preflight scenarios.
 
 ---
 
 ## Version History
 
 - **v1.0.0** (2025-12-07): Initial recipe specification aligned to `data-model.md` and v1 tickets.
+
