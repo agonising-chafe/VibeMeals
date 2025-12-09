@@ -273,6 +273,7 @@ All constraints defined in `data-model.md` `DietConstraint` type:
 **Applied conjunctively**: All constraints in `dietConstraints[]` must be satisfied.
 
 **Implementation** (`planner.ts` `filterRecipesByConstraints`):
+
 - Filters by ingredient `displayName` patterns (regex, case-insensitive)
 - Checks ingredient `kind` field (PROTEIN, DAIRY, VEG, CARB)
 - Respects recipe `tags` (gluten_free, dairy_free) where applicable
@@ -283,6 +284,7 @@ All constraints defined in `data-model.md` `DietConstraint` type:
 ### 5.3 Meat-Heavy Households
 
 For households that consume lots of meat:
+
 - Use **no constraints** to access full catalog (default behavior)
 - `KETO` constraint maintains high protein/fat while excluding carbs (suitable for meat-focused, low-carb diets)
 - `CARNIVORE` constraint provides meat-only plans (most restrictive, requires specialized recipe catalog)
@@ -293,6 +295,7 @@ For households that consume lots of meat:
 
 **File**: `src/domain/__tests__/constraint-filtering.spec.ts`  
 **Tests**: 11 passing (as of v1.0.0)
+
 - Individual constraint validation (7 tests)
 - Multi-constraint combinations (2 tests)
 - Plan quality with constraints (2 tests)
