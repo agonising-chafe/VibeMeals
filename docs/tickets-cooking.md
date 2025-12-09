@@ -11,23 +11,32 @@
 **Wired to:** Vision §13.1 (v1 Thin Slice), spec-cooking.md §2, §3.1, G1  
 **Depends on:** Today T2 (handoff from Today → Cooking)
 
-**Description:**
+#### Description:
 
 Build Cooking Mode with step-by-step interface:
+
 * Header showing recipe name + time band estimate
+
 * Current step (large, clear, 2–3 sentences max)
+
 * Progress indicator (Step X of Y)
+
 * [Next Step] / [Back] / [I'm Done] buttons
+
 * No assumed techniques (explain "dice," "simmer," etc.)
 
-**Acceptance Criteria:**
+#### Acceptance Criteria:
 
 * **Given** I tap "Start Cooking" on Today view for "Sheet-Pan Chicken & Veg"  
   **When** Cooking Mode opens  
   **Then** I see:
+
   * Header: "Sheet-Pan Chicken & Veg · Fast (20–30 min)"
+
   * Step 1 of 6: "Preheat your oven to 425°F."
+
   * [Next Step] button prominent at bottom
+
   * Optional [Back] button (disabled on Step 1)
 
 * **Given** I tap [Next Step] 5 times  
@@ -49,15 +58,17 @@ Build Cooking Mode with step-by-step interface:
 **Wired to:** G1, spec-cooking.md §3.4  
 **Depends on:** C1
 
-**Description:**
+#### Description:
 
 Embed timer cues directly into step copy with optional quick-set timer action.
 
-**Acceptance Criteria:**
+#### Acceptance Criteria:
 
 * **Given** Step 4 reads: "Put the pan in the oven and bake for 20 minutes."  
   **Then** The step includes:
+
   * Inline copy: "bake for 20 minutes"
+
   * Optional [Set 20-min timer] button below the step text
 
 * **Given** I tap [Set 20-min timer]  
@@ -78,18 +89,21 @@ Embed timer cues directly into step copy with optional quick-set timer action.
 **Wired to:** G1, spec-cooking.md §3.2  
 **Depends on:** C1
 
-**Description:**
+#### Description:
 
 If user discovers preflight issue mid-cook (e.g., chicken not thawed), provide clear recovery path without abandoning entire session.
 
-**Acceptance Criteria:**
+#### Acceptance Criteria:
 
 * **Given** I'm on Step 3: "Slice the chicken into strips."  
   **And** I realize chicken is still frozen  
   **When** I tap [Help] or [Something's wrong]  
   **Then** I see options:
+
   * "Chicken not ready? Swap to a backup recipe."
+
   * "Pause and thaw quickly" (if viable)
+
   * "Cancel cooking" (returns to Today)
 
 * **Given** I choose "Swap to a backup recipe"  
@@ -112,18 +126,22 @@ If user discovers preflight issue mid-cook (e.g., chicken not thawed), provide c
 **Wired to:** G4, G6, spec-cooking.md §3.3  
 **Depends on:** C1
 
-**Description:**
+#### Description:
 
 Allow user to exit mid-cook if the recipe is taking longer than expected, with clear follow-up options.
 
-**Acceptance Criteria:**
+#### Acceptance Criteria:
 
 * **Given** I'm on Step 4 of 6 and it's taking longer than promised  
   **When** I tap [Help] or [This is taking too long]  
   **Then** I see:
+
   * "Want to switch to something faster?"
+
   * Option 1: "Pick a 15-min backup"
+
   * Option 2: "Order takeout instead" (exits to Today)
+
   * Option 3: "Keep going" (stays in Cooking Mode)
 
 * **Given** I choose "Pick a 15-min backup"  
@@ -141,19 +159,24 @@ Allow user to exit mid-cook if the recipe is taking longer than expected, with c
 
 ## Dependencies Summary
 
-```
+``` text
 C1 (Layout + Happy Path)
   ↓
 C2 (Timer Cues) + C3 (Missed Preflight Mid-Cook) + C4 (Bail-Out Flow)
-```
+``` text
 
-**Suggested Sprint Sequencing:**
+#### Suggested Sprint Sequencing:
+
 - Sprint 1: C1, C2 (prove core cooking flow + timers)
+
 - Sprint 2: C3, C4 (add escape hatches)
 
-**Integration Points:**
+#### Integration Points:
+
 - C1 depends on Today T2 (handoff from Today → Cooking)
+
 - C3/C4 may trigger swaps (Today T3/T4 logic)
+
 - All cooking flows return to Today view as home base
 
 ---
@@ -161,13 +184,19 @@ C2 (Timer Cues) + C3 (Missed Preflight Mid-Cook) + C4 (Bail-Out Flow)
 ## Notes on Time Band Promises
 
 Per Vision §8 (Recipe Catalog & Time Bands), each recipe's time estimate is a **contract**:
+
 - **Fast:** 15–30 min (includes prep + cook)
+
 - **Normal:** 30–60 min
+
 - **Project:** 60+ min (rare in v1)
 
 If C4 (Bail-Out) is triggered, it's a signal to:
+
 - Tag recipe for time band review
+
 - Learn user's actual cooking speed (future)
+
 - Ensure time estimates are realistic (not aspirational)
 
 This connects to Vision §14 (Learning & Adaptation Principles) – system should adapt time bands based on real completions over time.

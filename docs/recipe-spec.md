@@ -2,9 +2,13 @@
 
 **Status:** Implementation-Ready (Draft → Adopt)  
 **Last Updated:** December 8, 2025  
-**Wired to:**  
+
+#### Wired to:
+
 - `vision.md` (Golden Tests G1–G6)  
+
 - `spec-planner.md`, `spec-today.md`, `spec-shop.md`, `spec-cooking.md`  
+
 - `data-model.md` (`Recipe`, `RecipeIngredientRequirement`, `RecipePreflightRequirement`, `Recipe.steps`)
 
 > **Purpose:** Define what a **VibeMeals-grade recipe** is as a logistics asset (not blog content). This spec is the contract for catalog work, AI generation, and manual authoring.
@@ -16,9 +20,13 @@
 A VibeMeals recipe is not just “ingredients + steps.” It must:
 
 1. **Plan well** – Expose realistic time band and effort for week-shape logic.
+
 2. **Shop safely** – Provide clear ingredient breakdown with critical vs non-critical flags.
+
 3. **Make tonight viable** – Declare preflight needs so Today can say “you’re good” or “we need options.”
+
 4. **Cook calmly** – Provide clear, parallelizable steps for Cooking Mode.
+
 5. **Learn quietly** – Include tags/hooks so the system can learn tastes and suggest “same vibe” alternatives.
 
 If a recipe doesn’t support these, it’s not a VibeMeals recipe yet.
@@ -45,7 +53,7 @@ interface Recipe {
   tags?: RecipeTag[];
   variantHints?: VariantHint[];
 }
-```
+``` text
 
 ---
 
@@ -60,17 +68,20 @@ interface RecipeMetadata {
   equipmentTags?: string[];            // e.g. ['SHEET_PAN', 'SLOW_COOKER']
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
 }
-```
+``` text
 
 ### 3.1 Time Band Guidelines
 
 - **FAST**: 15–30 minutes, minimal prep, few pans, safe for chaotic nights.
+
 - **NORMAL**: 30–45 minutes, moderate prep, default weeknight.
+
 - **PROJECT**: 45+ minutes or high coordination; reserve for calmer nights.
 
-**Musts:**
+#### Musts:
 
 - `timeBand` must align with `estimatedMinutes` (no fake FAST).
+
 - If a recipe regularly runs 45+ minutes for typical households, tag `NORMAL`→`PROJECT`, not FAST.
 
 ### 3.2 Leftover Strategy
@@ -78,12 +89,15 @@ interface RecipeMetadata {
 `leftoverStrategy` is used for “cook once, eat twice” and chaos weeks.
 
 - `NONE` – No meaningful leftovers expected.
+
 - `EXPECTED` – Likely some extra (not guaranteed).
+
 - `COOK_ONCE_EAT_TWICE` – Explicitly designed to feed a second meal.
 
-**Musts:**
+#### Musts:
 
 - If designed to feed a second night, mark `COOK_ONCE_EAT_TWICE` and portion accordingly.
+
 - Don’t mark leftover strategy unless quantities and structure support it.
 
 ---
@@ -102,38 +116,48 @@ interface RecipeIngredientRequirement {
   kind: 'PROTEIN' | 'CARB' | 'VEG' | 'DAIRY' | 'FAT_OIL' | 'SPICE' | 'CONDIMENT' | 'OTHER';
   shoppingCategory: 'PRODUCE' | 'MEAT_SEAFOOD' | 'DAIRY_EGGS' | 'PANTRY_DRY' | 'FROZEN' | 'OTHER';
 }
-```
+``` text
 
 ### 4.1 Criticality Rules
 
 **CRITICAL** ingredients:
 
 - Main protein (chicken, ground beef, tofu, beans if main).
+
 - Main carb (pasta, rice, tortillas, pizza crust).
+
 - Primary veg that defines the dish (broccoli in sheet-pan chicken & broccoli).
+
 - Core sauce base (tomato sauce in spaghetti, broth in soup).
 
 **NON_CRITICAL** ingredients:
 
 - Garnishes: cilantro, scallions, sesame seeds.
+
 - Optional herbs/spices that don’t break the recipe if missing.
+
 - “Extra” cheese, lime wedges, sour cream topping, etc.
 
-**Hard rules:**
+#### Hard rules:
 
 - Never mark the main protein as `NON_CRITICAL`.
+
 - Never put CRITICAL items into Quick Review suggestions (Shop logic depends on this flag).
+
 - If unsure, lean `CRITICAL` for v1.
 
 ### 4.2 Kind & Category
 
 - `kind` is for logic (substitutions, “same vibe”).
+
 - `shoppingCategory` is for Shop grouping.
 
 Examples:
 
 - Chicken breast → `kind: 'PROTEIN'`, `shoppingCategory: 'MEAT_SEAFOOD'`
+
 - Dry spaghetti → `kind: 'CARB'`, `shoppingCategory: 'PANTRY_DRY'`
+
 - Shredded cheddar → `kind: 'DAIRY'`, `shoppingCategory: 'DAIRY_EGGS'`
 
 ---
@@ -148,18 +172,22 @@ interface RecipePreflightRequirement {
   description: string;
   hoursBeforeCook?: number;  // when to start, relative to cook time
 }
-```
+``` text
 
 Examples:
 
 - `{ type: 'THAW', description: 'Thaw chicken in the fridge overnight', hoursBeforeCook: 12 }`
+
 - `{ type: 'MARINATE', description: 'Marinate chicken at least 30 minutes before cooking', hoursBeforeCook: 0.5 }`
+
 - `{ type: 'SLOW_COOK', description: 'Start slow cooker 8 hours before dinner', hoursBeforeCook: 8 }`
+
 - `{ type: 'LONG_PREP', description: 'Allow at least 30 minutes for slow onion cooking', hoursBeforeCook: 0 }`
 
-**Musts:**
+#### Musts:
 
 - If missing a preflight that materially affects viability (frozen protein, slow cook, long prep), Today cannot correctly detect “missed preflight.”
+
 - If no preflight is needed, use `preflight: []` (v1 normalization).
 
 ---
@@ -176,15 +204,20 @@ interface RecipeStep {
   timer?: boolean;             // show [Set Timer] button (default: false)
   parallel?: boolean;          // can happen alongside other steps (default: false)
 }
-```
+``` text
 
-**Guidelines:**
+#### Guidelines:
 
 - Instructions short and direct: ✅ "Preheat oven to 425°F." / ✅ "Chop broccoli into florets."
+
 - Keep steps to 2–3 sentences max for Cooking Mode readability.
+
 - Use `timer: true` when step has explicit time cue ("roast for 15 min", "simmer 5–7 min").
+
 - Set `timerMinutes` to the parsed duration (only if >= 3 min, to reduce timer fatigue).
+
 - Use `parallel: true` for steps that can overlap ("Meanwhile, prepare vegetables" or "While dough rises...").
+
 - Each step is a logical chunk, not a word-for-word recipe instruction. Aggregation is OK if it improves clarity.
 
 ---
@@ -214,16 +247,18 @@ interface VariantHint {
   description: string;           // “Swap ground beef for turkey”
   safeSubIngredientId?: string;  // optional link to known safe sub
 }
-```
+``` text
 
-**Examples:**
+#### Examples:
 
 - Sheet-pan chicken → `['kid_friendly', 'sheet_pan', 'mild', 'comfort_food']`
+
 - Tacos → `['kid_friendly', 'taco_format', 'tex_mex']`
 
 Variant hints:
 
 - “Swap ground beef for turkey if desired.”
+
 - “Can be made meatless by skipping chicken and doubling beans.”
 
 ---
@@ -233,10 +268,15 @@ Variant hints:
 Recipe-specific invariants (builds on `data-model.md` invariants):
 
 1. Every recipe has `id`, `name`, `slug`, `metadata`, `ingredients`, `steps` (steps can be minimal but must exist).
+
 2. At least one `CRITICAL` ingredient exists; main protein must be `CRITICAL`.
+
 3. Preflight truthfully represents anything that starts ≥ 1 hour before cooking or involves thawing.
+
 4. `estimatedMinutes` reflects a typical household, not pro-kitchen speed.
+
 5. `timeBand` matches `estimatedMinutes` (no gaming FAST).
+
 6. If `leftoverStrategy = 'COOK_ONCE_EAT_TWICE'`, quantities and structure support it.
 
 ---
@@ -301,7 +341,7 @@ const sheetPanChicken: Recipe = {
   tags: ['kid_friendly', 'sheet_pan', 'mild', 'comfort_food'],
   variantHints: [{ description: 'Swap chicken breast for thighs if preferred.' }],
 };
-```
+``` text
 
 ---
 
@@ -363,15 +403,18 @@ const slowCookerChili: Recipe = {
   tags: ['comfort_food', 'soup', 'bowl'],
   variantHints: [{ description: 'Swap ground beef for turkey for a lighter version.' }],
 };
-```
+``` text
 
 ---
 
 ## 11. How This Ties Back to Tickets
 
 - **Planner (P2, P3, P5, P6):** Uses `metadata.timeBand`, `estimatedMinutes`, `leftoverStrategy`, `tags`.
+
 - **Shop (S2, S3, S4, S7, S8, S9):** Uses `ingredients.*`, `criticality`, `shoppingCategory`, `kind`.
+
 - **Today (T2, T4, T5, T8):** Uses `preflight[]`, `tags`, `variantHints` (for easier options).
+
 - **Cooking (C1–C4):** Uses `steps[]` (layout + timers) and tags for “same vibe.”
 
 ---
@@ -381,11 +424,17 @@ const slowCookerChili: Recipe = {
 When adding or generating a new recipe, ensure:
 
 - [ ] `timeBand` + `estimatedMinutes` are realistic.
+
 - [ ] At least one `CRITICAL` ingredient; main protein is `CRITICAL`.
+
 - [ ] Every ingredient has `kind` + `shoppingCategory`.
+
 - [ ] Preflight requirements (thaw, slow cook, etc.) are captured.
+
 - [ ] Steps exist (even minimal) and match data-model shape.
+
 - [ ] Basic tags added (format, cuisine, kid-friendliness).
+
 - [ ] Variant hints added where simple safe swaps exist.
 
 Once a recipe passes this checklist, it’s **VibeMeals-ready** and safe to feed into Planner → Shop → Today.

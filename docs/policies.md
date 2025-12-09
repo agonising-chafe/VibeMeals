@@ -6,12 +6,19 @@
 ---
 
 ## Table of Contents
+
 1. [Non-Negotiables](#1-non-negotiables-locked-behaviors)
+
 2. [Smart Staples & Learning](#2-smart-staples--learning)
+
 3. [Time Bands & Flexibility](#3-time-bands--flexibility)
+
 4. [Leftover Tracking & Reuse](#4-leftover-tracking--reuse)
+
 5. [Multi-Week Planning](#5-multi-week-planning)
+
 6. [Error Handling & Graceful Degradation](#6-error-handling--graceful-degradation)
+
 7. [Multi-User Considerations](#7-multi-user-considerations-future)
 
 ---
@@ -24,9 +31,12 @@ These are core behaviors that define VibeMeals and must not be compromised:
 
 **Rule:** Users can always proceed to shopping. No blocking gates.
 
-**Implementation:**
+#### Implementation:
+
 - Low confidence ingredients are **added to the shopping list** by default
+
 - Quick Review is **optional optimization**, not a requirement
+
 - `canProceedToShop()` always returns `true`
 
 **Rationale:** The app is a logistics co-pilot, not a validator. We make conservative assumptions (buy everything) so users can move fast.
@@ -37,14 +47,17 @@ These are core behaviors that define VibeMeals and must not be compromised:
 
 **Rule:** Rerolling a slot with the same inputs produces the same output.
 
-**Implementation:**
+#### Implementation:
+
 - Seed formula: `${userId}-${week}-${slotId}-${attemptCount}`
+
 - Use seeded RNG (not `Math.random()`)
+
 - Increment `attemptCount` on each reroll to get different results
 
 **Rationale:** Predictability builds trust. Users shouldn't get "surprised" by random changes.
 
-**Example:**
+#### Example:
 ```typescript
 // First reroll (attemptCount = 1)
 seed = "user-123-2025-W50-monday:dinner-1"
@@ -57,7 +70,7 @@ seed = "user-123-2025-W50-monday:dinner-2"
 // Undo + redo (attemptCount = 1 again)
 seed = "user-123-2025-W50-monday:dinner-1"
 → Recipe A (same as first time)
-```
+``` text
 
 ---
 
@@ -65,15 +78,20 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 **Rule:** Don't suggest the same recipe family within 21 days.
 
-**Implementation:**
+#### Implementation:
+
 - Track `cookedAt` timestamp on slots
+
 - When generating/rerolling, exclude recipes with `familyId` in recent 21 days
+
 - Family (not individual recipe): "chicken-tacos", "beef-tacos" share family "tacos"
 
 **Rationale:** Prevent menu fatigue; variety is critical for long-term engagement.
 
 **Edge Case:** If no recipes available after filtering:
+
 1. Offer to loosen constraint: "Okay to repeat a recipe you liked?"
+
 2. Let user pick manually from full catalog
 
 ---
@@ -82,9 +100,12 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 **Rule:** Rerolling/swapping one slot does not affect other slots.
 
-**Implementation:**
+#### Implementation:
+
 - Each slot has independent seed based on `slotId`
+
 - Locked slots are never changed by Generate Plan
+
 - Undo/redo only affects the slot that was changed
 
 **Rationale:** Users should be able to tweak individual days without fear of "breaking" the whole week.
@@ -95,10 +116,14 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 **Rule:** All plan mutations are reversible.
 
-**Implementation:**
+#### Implementation:
+
 - Maintain undo stack (last 50 actions)
+
 - Actions: `generate_plan`, `reroll_slot`, `lock_slot`, `swap_recipe`
+
 - Toast after each action: "Changed Monday's dinner [Undo]"
+
 - Clear future stack when new action taken (can't redo after new change)
 
 **Rationale:** Never punish exploration. Users should feel safe experimenting.
@@ -109,9 +134,12 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 **Rule:** Minimize manual confirmation steps.
 
-**Implementation:**
+#### Implementation:
+
 - When checkout is supported, auto-mark as purchased; otherwise keep status manual.
+
 - Opening Cook Mode for a recipe → infer ingredients were available
+
 - Bulk confirm: "Did you get everything? [Yes]" (not item-by-item)
 
 **Rationale:** Manual confirmation steps feel like homework; automate wherever safe.
@@ -122,8 +150,10 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 **Rule:** Always provide a working export without depending on external carts.
 
-**Implementation:**
+#### Implementation:
+
 - Primary: CSV download
+
 - Secondary: Plain text list
 
 **Rationale:** Keep exports reliable while store integrations are out of scope.
@@ -134,9 +164,12 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 **Rule:** Taste preferences decay over time to prevent stale suggestions.
 
-**Implementation:**
+#### Implementation:
+
 - Positive feedback (👍, ♥) boosts recipe family for ~90 days
+
 - Negative feedback (👎) suppresses recipe family for ~90 days
+
 - After 90 days, boost/suppression fades to neutral
 
 **Rationale:** Tastes change; give recipes "second chances" over time.
@@ -147,10 +180,14 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 **Rule:** Reminders for thaw/marinate are gentle, dismissible, and respect quiet hours.
 
-**Implementation:**
+#### Implementation:
+
 - Default quiet hours: 10pm–8am (user-configurable)
+
 - T-24 reminder: "Move chicken from freezer to fridge tonight"
+
 - Day-of reminder: "Start slow cooker in 2 hours"
+
 - Dismissal options: [Done] [Skip] [Remind me in 1 hour]
 
 **Rationale:** Helpful without being nagging; user maintains control.
@@ -161,7 +198,7 @@ seed = "user-123-2025-W50-monday:dinner-1"
 
 **Rule:** Marking a meal "Cooked" updates inventory; Undo reverses both.
 
-**Implementation:**
+#### Implementation:
 ```typescript
 function markCooked(slot: Slot) {
   // Deduct ingredients from inventory
@@ -188,7 +225,7 @@ function undoMarkCooked(slot: Slot) {
   slot.status = 'provisioned';
   slot.cookedAt = undefined;
 }
-```
+``` text
 
 **Rationale:** Mistakes happen (marked wrong meal); make it easy to fix.
 
@@ -198,17 +235,28 @@ function undoMarkCooked(slot: Slot) {
 
 ### 2.1 Default Staples
 
-**Built-in starter set (hidden by default):**
+#### Built-in starter set (hidden by default):
+
 - Olive oil
+
 - Salt
+
 - Black pepper
+
 - Flour
+
 - Sugar
+
 - Garlic powder
+
 - Onion powder
+
 - Baking powder
+
 - Baking soda
+
 - Vinegar (white, apple cider)
+
 - Soy sauce
 
 **Assumption:** These are treated as "always on-hand" unless proven otherwise.
@@ -217,28 +265,32 @@ function undoMarkCooked(slot: Slot) {
 
 ### 2.2 Learning from Behavior
 
-**Promotion to Staple:**
+#### Promotion to Staple:
+
 - If user confirms "We have this" for an ingredient 3+ weeks in a row → promote to staple
+
 - Example: User always has onions → system stops adding them to list
 
-**Demotion from Staple:**
+#### Demotion from Staple:
+
 - If user ever marks "We don't have this" for a staple → demote immediately
+
 - Example: User marks "We don't have soy sauce" → soy sauce removed from staples
 
-**Implementation:**
+#### Implementation:
 ```typescript
 function learnStaplesFromBehavior() {
   const recentReviews = getQuickReviewHistory(21); // last 21 days
   
   for (const [canonicalId, decisions] of recentReviews) {
     const consecutiveHaves = decisions.filter(d => d === 'have').length;
-    
+  
     // Promotion
     if (consecutiveHaves >= 3 && !staples.has(canonicalId)) {
       staples.add(canonicalId);
       toast(`We'll assume you always have ${getName(canonicalId)}`);
     }
-    
+  
     // Demotion
     if (decisions.includes('dont_have') && staples.has(canonicalId)) {
       staples.delete(canonicalId);
@@ -246,24 +298,24 @@ function learnStaplesFromBehavior() {
     }
   }
 }
-```
+``` text
 
 ---
 
 ### 2.3 Staples Badge in Quick Review
 
-**UI Pattern:**
-```
+#### UI Pattern:
+``` text
 ┌─────────────────────────────────────┐
 │ 🧂 Salt                              │
 │   For Monday's pasta                 │
 │   ✅ Covered by staples  [Why?]     │
 │   [Include this week]                │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Tapping "Why?":**
-```
+#### Tapping "Why?":
+``` text
 ┌─────────────────────────────────────┐
 │ Why is this a staple?                │
 │ ───────────────────────────────────│
@@ -275,10 +327,12 @@ function learnStaplesFromBehavior() {
 │ [Include this week only]             │
 │ [Always add to my lists]             │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Options:**
+#### Options:
+
 - **Include this week** → Adds to list this week, doesn't change staple status
+
 - **Always add to my lists** → Demotes from staple permanently
 
 ---
@@ -293,9 +347,12 @@ function learnStaplesFromBehavior() {
 | `30ish` | 20–35 minutes | Standard dinners |
 | `weekend_project` | 35+ minutes | Leisurely cooking |
 
-**Enforcement:**
+#### Enforcement:
+
 - Recipes are tagged during curation
+
 - Generate Plan filters by selected time bands
+
 - Cook Mode parallelization ensures target time is hit
 
 ---
@@ -304,10 +361,10 @@ function learnStaplesFromBehavior() {
 
 **Problem:** Plans change. What if user has more/less time than expected?
 
-**Solution: Emergency Swaps**
+#### Solution: Emergency Swaps
 
-**More time available:**
-```
+#### More time available:
+``` text
 ┌─────────────────────────────────────┐
 │ Have extra time?                     │
 │ ───────────────────────────────────│
@@ -317,10 +374,10 @@ function learnStaplesFromBehavior() {
 │ [Show 30-minute options]             │
 │ [Stick with original]                │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Less time available:**
-```
+#### Less time available:
+``` text
 ┌─────────────────────────────────────┐
 │ Running late?                        │
 │ ───────────────────────────────────│
@@ -331,27 +388,31 @@ function learnStaplesFromBehavior() {
 │ [Show under-20 options]              │
 │ [Stick with original]                │
 └─────────────────────────────────────┘
-```
+``` text
 
 ---
 
 ### 3.3 Thaw Detection & Fail-Safe
 
-**Signals that trigger thaw prompt:**
+#### Signals that trigger thaw prompt:
+
 - Recipe metadata: `allowsFrozen: true`
+
 - Purchase history: Last purchase had `location: "freezer"`
+
 - Household pattern: Usually buys this protein frozen
+
 - Conservative default: All proteins unless proven otherwise
 
-**T-24 Prompt (Night Before):**
-```
+#### T-24 Prompt (Night Before):
+``` text
 🔔 Tomorrow: Spicy Chicken Tacos
 Move chicken thighs from freezer to fridge tonight.
 [Done] [Skip]
-```
+``` text
 
-**Day-Of Fail-Safe (If Missed):**
-```
+#### Day-Of Fail-Safe (If Missed):
+``` text
 ┌─────────────────────────────────────┐
 │ ⚠️ Thaw Check                       │
 │ ───────────────────────────────────│
@@ -363,11 +424,14 @@ Move chicken thighs from freezer to fridge tonight.
 │ [Oops, swap to a faster recipe]     │
 │ [I'll adjust timing]                 │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Options:**
+#### Options:
+
 - **Yes, I'm all set** → Dismiss, proceed with recipe
+
 - **Swap to faster recipe** → Suggests under-20 recipes using similar ingredients
+
 - **I'll adjust timing** → Adds 10-minute thaw hack to Cook Mode (e.g., cold water bath)
 
 ---
@@ -376,44 +440,52 @@ Move chicken thighs from freezer to fridge tonight.
 
 ### 4.1 Automatic Leftover Detection
 
-**When leftovers are created:**
+#### When leftovers are created:
+
 - After marking a meal "Cooked"
+
 - System compares: purchased quantity vs. used quantity
+
 - Residuals tracked in inventory
 
-**Example:**
+#### Example:
 ```typescript
 Recipe needs: 8 oz chicken stock
 User purchased: 32 oz can
 After cooking: 24 oz leftover
 → Track in inventory with expiry estimate
-```
+``` text
 
 ---
 
 ### 4.2 Leftover Reuse Nudges
 
-**Next Generate Plan:**
+#### Next Generate Plan:
+
 - System prioritizes recipes that use leftover ingredients
+
 - Badge on recipe card: "🍚 Uses leftover rice"
 
-**Quick Review:**
+#### Quick Review:
+
 - When ingredient is needed and leftover exists:
-  ```
+  ``` text
   Rice (1 cup)
   For Thursday's stir-fry
   [Use leftovers] [Buy fresh]
-  ```
+  ``` text
 
-**Dismissal:**
+#### Dismissal:
+
 - User can mark: "We ate it all" or "It went bad"
+
 - Removes from inventory, doesn't penalize
 
 ---
 
 ### 4.3 Expiry Estimates
 
-**Shelf Life Database:**
+#### Shelf Life Database:
 | Category | Typical Shelf Life |
 |----------|-------------------|
 | Produce (fresh) | 3-7 days |
@@ -422,16 +494,18 @@ After cooking: 24 oz leftover
 | Opened cans | 5 days |
 | Pantry staples | 90+ days |
 
-**UI Indicators:**
+#### UI Indicators:
+
 - ⚠️ **Expiring soon** (within 2 days)
+
 - 🚫 **Expired** (past estimated date)
 
-**Gentle Prompts:**
-```
+#### Gentle Prompts:
+``` text
 You have rice expiring tomorrow.
 Want to use it this week?
 [Show recipes] [Dismiss]
-```
+``` text
 
 ---
 
@@ -445,26 +519,29 @@ Want to use it this week?
 | **Active** | Current calendar week; preflight & reminders live |
 | **Completed** | Past week; read-only, archived |
 
-**Rules:**
+#### Rules:
+
 - Only **one Active week** at a time (current calendar week)
+
 - **Planned weeks** (future) can be edited anytime
+
 - **Export/checkout** is week-specific (can't combine weeks)
 
 ---
 
 ### 5.2 Week Navigation
 
-**UI Pattern:**
+#### UI Pattern:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ ← This Week (Dec 9-15) →            │
 │              Active                  │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Tapping week label:**
-```
+#### Tapping week label:
+``` text
 ┌─────────────────────────────────────┐
 │ Pick a Week                          │
 │ ───────────────────────────────────│
@@ -475,15 +552,15 @@ Want to use it this week?
 │                                      │
 │ [Close]                              │
 └─────────────────────────────────────┘
-```
+``` text
 
 ---
 
 ### 5.3 Gentle Guardrails
 
-**If current week has unresolved items:**
+#### If current week has unresolved items:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ 📋 Heads Up                          │
 │ ───────────────────────────────────│
@@ -492,7 +569,7 @@ Want to use it this week?
 │                                      │
 │ [Review Now] [Plan Next Week Anyway]│
 └─────────────────────────────────────┘
-```
+``` text
 
 **Does NOT block:** User can still plan future weeks.
 
@@ -502,9 +579,12 @@ Want to use it this week?
 
 **Rule:** No cross-week math.
 
-**Implementation:**
+#### Implementation:
+
 - Each week's shopping list is independent
+
 - Leftovers from Week 1 can inform Week 2's recipes (reuse nudges)
+
 - But Week 2's list doesn't "assume" Week 1 was shopped for
 
 **Rationale:** Keeps logic simple; avoids cascading failures if user skips a week.
@@ -515,10 +595,10 @@ Want to use it this week?
 
 ### 6.1 Generate Plan Failures
 
-**Scenario: No Recipes Match Constraints**
+#### Scenario: No Recipes Match Constraints
 
-**Error Message:**
-```
+#### Error Message:
+``` text
 ┌─────────────────────────────────────┐
 │ Couldn't Fill Week                   │
 │ ───────────────────────────────────│
@@ -532,11 +612,14 @@ Want to use it this week?
 │                                      │
 │ [Adjust Preferences] [Pick Manually]│
 └─────────────────────────────────────┘
-```
+``` text
 
-**Fallback Logic:**
+#### Fallback Logic:
+
 1. Loosen repeat guard: "Okay to repeat from last 14 days instead of 21?"
+
 2. Loosen time bands: "Include some 30-minute recipes?"
+
 3. Last resort: Let user pick manually from full catalog
 
 ---
@@ -545,7 +628,7 @@ Want to use it this week?
 
 **Scenario:** CSV export fails.
 
-**Implementation:**
+#### Implementation:
 ```typescript
 async function exportShopping() {
   try {
@@ -557,22 +640,25 @@ async function exportShopping() {
     copyPlainTextList();
   }
 }
-```
+``` text
 
-**User Experience:**
+#### User Experience:
+
 - No scary error messages
+
 - Automatic fallback to plain text
+
 - Toast explains what happened
 
 ---
 
 ### 6.3 Recipe Missing Ingredients
 
-**Scenario: Recipe requires ingredient not in catalog**
+#### Scenario: Recipe requires ingredient not in catalog
 
 **Detection:** During plan generation, check if all ingredients have `canonicalId` mappings.
 
-**Handling:**
+#### Handling:
 ```typescript
 function validateRecipe(recipe: Recipe): boolean {
   for (const ingredient of recipe.ingredients) {
@@ -586,10 +672,10 @@ function validateRecipe(recipe: Recipe): boolean {
 
 // In Generate Plan:
 const validRecipes = candidates.filter(validateRecipe);
-```
+``` text
 
-**If recipe slips through and user discovers:**
-```
+#### If recipe slips through and user discovers:
+``` text
 ┌─────────────────────────────────────┐
 │ Ingredient Missing                   │
 │ ───────────────────────────────────│
@@ -598,19 +684,21 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Swap Recipe] [Remove This Meal]    │
 └─────────────────────────────────────┘
-```
+``` text
 
 ---
 
 ### 6.4 Cook Mode Crashes
 
-**Scenario: App crashes mid-cook**
+#### Scenario: App crashes mid-cook
 
-**Implementation:**
+#### Implementation:
+
 - Save cook progress to localStorage after each step
+
 - On relaunch, detect incomplete cooking session:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Resume Cooking?                      │
 │ ───────────────────────────────────│
@@ -619,14 +707,14 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Resume at Step 4] [Start Over]     │
 └─────────────────────────────────────┘
-```
+``` text
 
 ---
 
 ### 6.5 Network Failures
 
-**General Network Error:**
-```
+#### General Network Error:
+``` text
 ┌─────────────────────────────────────┐
 │ Connection Lost                      │
 │ ───────────────────────────────────│
@@ -635,11 +723,14 @@ const validRecipes = candidates.filter(validateRecipe);
 │                                      │
 │ [Retry]                              │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Offline Mode (Future):**
+#### Offline Mode (Future):
+
 - Cache last generated plan locally
+
 - Allow browsing/viewing recipes offline
+
 - Queue actions (lock, reroll) for when back online
 
 ---
@@ -650,13 +741,18 @@ const validRecipes = candidates.filter(validateRecipe);
 
 **Use Case:** Multiple household members need access to the plan.
 
-**Implementation:**
+#### Implementation:
+
 - Single account per household
+
 - Shared plan view (all members see same recipes)
+
 - Individual Cook Mode sessions (different people cooking different nights)
 
-**Conflict Resolution:**
+#### Conflict Resolution:
+
 - Last write wins for edits (lock, reroll)
+
 - Optimistic UI updates with sync indicators
 
 ---
@@ -665,9 +761,12 @@ const validRecipes = candidates.filter(validateRecipe);
 
 **Use Case:** Different family members have different tastes.
 
-**Implementation:**
+#### Implementation:
+
 - Track feedback per user: "Dad gave 👎, Kids gave 👍"
+
 - Aggregate for plan generation: Prioritize recipes most people like
+
 - Allow individual opt-outs: "Skip nights I'm not cooking"
 
 ---
@@ -676,9 +775,12 @@ const validRecipes = candidates.filter(validateRecipe);
 
 **Use Case:** Who gets thaw reminders? Who gets "time to cook" notifications?
 
-**Implementation:**
+#### Implementation:
+
 - Per-slot assignment: "Mom is cooking Tuesday"
+
 - Notifications route to assigned person
+
 - Fallback: Notify all household members if no assignment
 
 ---
@@ -687,11 +789,14 @@ const validRecipes = candidates.filter(validateRecipe);
 
 **Use Case:** Share plan with family member without giving edit access.
 
-**Implementation:**
+#### Implementation:
+
 - Generate shareable link: `vibemeals.com/plan/abc123`
+
 - View-only mode: See recipes, ingredients, steps
+
 - No editing (lock, reroll, etc.)
 
 ---
 
-*[Back to Index](index.md)*
+#### [Back to Index](index.md)

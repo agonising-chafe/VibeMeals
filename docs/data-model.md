@@ -78,7 +78,7 @@ export type TonightStatus =
   | 'MISSING_INGREDIENT'
   | 'OUT_EATING'
   | 'EASIER_OPTION_SELECTED';
-```
+``` text
 
 ---
 
@@ -166,7 +166,7 @@ export interface Recipe {
   steps: RecipeStep[];
 
 }
-```
+``` text
 
 **Referenced by:**
 
@@ -218,7 +218,7 @@ export interface Plan {
     marinateDays: number;
   };
 }
-```
+``` text
 
 **Referenced by:**
 
@@ -273,7 +273,7 @@ export interface ShoppingList {
   items: ShoppingItem[];
   quickReviewCandidates: QuickReviewCandidate[];
 }
-```
+``` text
 
 **Referenced by:**
 
@@ -312,7 +312,7 @@ export interface Substitution {
   substituteIngredientId?: string;
   note?: string;
 }
-```
+``` text
 
 **Referenced by:**
 
@@ -372,7 +372,7 @@ export interface TonightState {
   actions: TonightActions;
   tomorrowPreview?: TomorrowPreview;
 }
-```
+``` text
 
 **Examples:**
 
@@ -571,7 +571,7 @@ export interface TonightState {
 │ Reads: Recipe, TonightState                      │
 │ Mutated by: NEVER – cooking doesn't change data  │
 └───────────────────────────────────────────────────┘
-```
+``` text
 
 **Key Boundary Rules:**
 
@@ -652,7 +652,7 @@ const examplePlan: Plan = {
     marinateDays: 0,
   },
 };
-```
+``` text
 
 ### Example 2: ShoppingList (Derived from Plan)
 
@@ -727,7 +727,7 @@ const exampleShoppingList: ShoppingList = {
     },
   ],
 };
-```
+``` text
 
 ### Example 3: TonightState (READY)
 
@@ -772,7 +772,7 @@ const tonightReady: TonightState = {
     canChangeDinner: true,
   },
 };
-```
+``` text
 
 ### Example 4: TonightState (MISSED_PREFLIGHT)
 
@@ -824,7 +824,7 @@ const tonightMissedPreflight: TonightState = {
     canChangeDinner: true,
   },
 };
-```
+``` text
 
 ### Example 5: TonightState (MISSING_INGREDIENT)
 
@@ -875,7 +875,7 @@ const tonightMissingIngredient: TonightState = {
     canChangeDinner: true,
   },
 };
-```
+``` text
 
 ---
 
@@ -887,8 +887,10 @@ These function signatures define the **domain service layer** between UI and dat
 
 ```typescript
 /**
- * Generate a new weekly plan for a household.
- * Referenced by: Planner P2
+
+* Generate a new weekly plan for a household.
+
+* Referenced by: Planner P2
  */
 function buildPlan(
   household: HouseholdProfile,
@@ -897,8 +899,10 @@ function buildPlan(
 ): Plan;
 
 /**
- * Regenerate dinners in a plan while respecting locked dinners.
- * Referenced by: Planner P2, P4
+
+* Regenerate dinners in a plan while respecting locked dinners.
+
+* Referenced by: Planner P2, P4
  */
 function regeneratePlan(
   existingPlan: Plan,
@@ -907,8 +911,10 @@ function regeneratePlan(
 ): Plan;
 
 /**
- * Swap a specific dinner with a new recipe.
- * Referenced by: Planner P3, Today T4, T5, T7
+
+* Swap a specific dinner with a new recipe.
+
+* Referenced by: Planner P3, Today T4, T5, T7
  */
 function swapDinner(
   plan: Plan,
@@ -918,8 +924,10 @@ function swapDinner(
 ): Plan;
 
 /**
- * Lock or unlock a dinner to prevent/allow automatic regeneration.
- * Referenced by: Planner P4
+
+* Lock or unlock a dinner to prevent/allow automatic regeneration.
+
+* Referenced by: Planner P4
  */
 function toggleDinnerLock(
   plan: Plan,
@@ -928,8 +936,10 @@ function toggleDinnerLock(
 ): Plan;
 
 /**
- * Move a dinner from one day to another.
- * Referenced by: Planner P8, Today T4, T6
+
+* Move a dinner from one day to another.
+
+* Referenced by: Planner P8, Today T4, T6
  */
 function moveDinner(
   plan: Plan,
@@ -938,21 +948,25 @@ function moveDinner(
 ): Plan;
 
 /**
- * Delete a dinner from the plan.
- * Referenced by: Planner P8, Today T6
+
+* Delete a dinner from the plan.
+
+* Referenced by: Planner P8, Today T6
  */
 function deleteDinner(
   plan: Plan,
   date: IsoDate
 ): Plan;
-```
+``` text
 
 ### **Shop Domain Helpers**
 
 ```typescript
 /**
- * Build shopping list from plan + recipes.
- * Referenced by: Shop S2, S3
+
+* Build shopping list from plan + recipes.
+
+* Referenced by: Shop S2, S3
  */
 function buildShoppingList(
   plan: Plan,
@@ -961,16 +975,20 @@ function buildShoppingList(
 ): ShoppingList;
 
 /**
- * Generate Quick Review candidates (pantry staples only).
- * Referenced by: Shop S4
+
+* Generate Quick Review candidates (pantry staples only).
+
+* Referenced by: Shop S4
  */
 function generateQuickReviewCandidates(
   shoppingList: ShoppingList
 ): QuickReviewCandidate[];
 
 /**
- * Mark items as missing post-shopping.
- * Referenced by: Shop S8
+
+* Mark items as missing post-shopping.
+
+* Referenced by: Shop S8
  */
 function markItemMissing(
   shoppingItemId: ShoppingItemId,
@@ -979,22 +997,26 @@ function markItemMissing(
 ): MissingItem;
 
 /**
- * Mark items as substituted post-shopping.
- * Referenced by: Shop S8
+
+* Mark items as substituted post-shopping.
+
+* Referenced by: Shop S8
  */
 function markItemSubstituted(
   shoppingItemId: ShoppingItemId,
   substituteName: string,
   note?: string
 ): Substitution;
-```
+``` text
 
 ### **Today Domain Helpers**
 
 ```typescript
 /**
- * Compute Tonight's full state from all data sources.
- * Referenced by: Today T1, T2
+
+* Compute Tonight's full state from all data sources.
+
+* Referenced by: Today T1, T2
  */
 function computeTonightState(
   plan: Plan,
@@ -1006,8 +1028,10 @@ function computeTonightState(
 ): TonightState;
 
 /**
- * Check preflight status for a specific dinner.
- * Referenced by: Today T2, Planner P5
+
+* Check preflight status for a specific dinner.
+
+* Referenced by: Today T2, Planner P5
  */
 function checkPreflightStatus(
   dinner: PlannedDinner,
@@ -1017,8 +1041,10 @@ function checkPreflightStatus(
 ): PreflightStatus;
 
 /**
- * Get recipes that can replace tonight's dinner (for missed preflight or missing ingredient).
- * Referenced by: Today T4, T5, T7
+
+* Get recipes that can replace tonight's dinner (for missed preflight or missing ingredient).
+
+* Referenced by: Today T4, T5, T7
  */
 function getEasierAlternatives(
   targetTimeBand: TimeBand,
@@ -1026,20 +1052,22 @@ function getEasierAlternatives(
   recipes: Recipe[],
   household: HouseholdProfile
 ): Recipe[];
-```
+``` text
 
 ### **Cooking Domain Helpers**
 
 ```typescript
 /**
- * Get recipe with steps for cooking.
- * Referenced by: Cooking C1
+
+* Get recipe with steps for cooking.
+
+* Referenced by: Cooking C1
  */
 function getRecipeForCooking(
   recipeId: RecipeId,
   recipes: Recipe[]
 ): Recipe | null;
-```
+``` text
 
 ### **Helper Implementation Notes**
 
@@ -1071,7 +1099,7 @@ const tonightState = computeTonightState(
   new Date()
 );
 renderTodayView(tonightState); // UI layer
-```
+``` text
 
 ---
 
@@ -1093,4 +1121,4 @@ renderTodayView(tonightState); // UI layer
 ## Version History
 
 - **v1.1.0** (2025-12-07): Added hardening - Invariants, Ownership diagram, Sample instances, Domain helpers API
-- **v1.0.0** (2025-12-07): Initial data model for v1 implementation. Covers all 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).\
+- **v1.0.0** (2025-12-07): Initial data model for v1 implementation. Covers all 31 tickets (P1-P9, T1-T9, S1-S9, C1-C4).

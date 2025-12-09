@@ -1,0 +1,30 @@
+Headings found: 514
+Internal fragment links found: 6
+
+Top duplicate headings (MD024) — showing up to 20:
+-----------------------------------------------
+1. "Design/Eng Notes" — 17 occurrences at lines: 3159, 3191, 3221, 3269, 3302, 3337, 3397, 3433, 3474, 3502, 3554, 3588, 3624, 3677, 3712, 3751, 3784
+2. "Given" — 16 occurrences at lines: 3136, 3167, 3200, 3246, 3275, 3311, 3367, 3405, 3442, 3482, 5404, 5448, 5493, 5535, 5580, 5627
+3. "When" — 16 occurrences at lines: 3145, 3174, 3207, 3251, 3282, 3317, 3374, 3411, 3449, 3486, 5412, 5462, 5501, 5547, 5591, 5639
+4. "Context" — 11 occurrences at lines: 3515, 3639, 4597, 4623, 4651, 4681, 4710, 4741, 4781, 4810, 4844
+5. "Then" — 10 occurrences at lines: 3149, 3180, 3211, 3255, 3286, 3321, 3378, 3416, 3453, 3490
+6. "Raw pain" — 7 occurrences at lines: 2372, 2414, 2451, 2491, 2527, 2558, 2588
+7. "Impact" — 7 occurrences at lines: 4640, 4670, 4699, 4731, 4771, 4798, 4834
+8. "What it feels like" — 6 occurrences at lines: 814, 845, 888, 927, 971, 1005
+9. "Why it happens" — 6 occurrences at lines: 821, 854, 901, 945, 981, 1012
+10. "What VibeMeals should do" — 6 occurrences at lines: 829, 862, 907, 953, 987, 1022
+11. "Who this is" — 6 occurrences at lines: 5083, 5138, 5187, 5236, 5286, 5339
+12. "Guardrails – We must NOT…" — 6 occurrences at lines: 5105, 5154, 5206, 5253, 5306, 5361
+13. "Guardrails – We must…" — 6 occurrences at lines: 5120, 5166, 5217, 5266, 5317, 5372
+14. "Experience target" — 6 occurrences at lines: 5128, 5177, 5227, 5277, 5330, 5382
+15. "Default week shape:" — 5 occurrences at lines: 1162, 1198, 1231, 1263, 1300
+16. "What "good" looks like:" — 5 occurrences at lines: 1182, 1217, 1249, 1285, 1316
+17. "What VibeMeals must guarantee" — 5 occurrences at lines: 2711, 2779, 2856, 2937, 3003
+18. "System-level behaviors / levers" — 5 occurrences at lines: 2725, 2791, 2871, 2949, 3016
+19. "Failure modes to avoid" — 5 occurrences at lines: 2751, 2823, 2899, 2973, 3052
+20. "How it amplifies core pains" — 5 occurrences at lines: 5093, 5143, 5192, 5241, 5292
+
+Broken/internal link fragments (MD051) — showing up to 40:
+-----------------------------------------------------------
+1. Line 31: link text "Experience Tests – Golden v1.1" -> fragment "experience-tests--golden-v11" (slug: "experience-tests-golden-v11")
+2. Line 37: link text "Appendices" -> fragment "appendices" (slug: "appendices")

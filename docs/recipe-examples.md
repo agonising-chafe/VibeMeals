@@ -43,11 +43,14 @@ const pantryRescuePasta: Recipe = {
     { description: 'Use any short pasta if spaghetti is unavailable.' },
   ],
 };
-```
+``` text
 
-**Exercises:**
+#### Exercises:
+
 - Shop S2/S3: critical carbs + sauce; staples surfaced for Quick Review.
+
 - Shop S4: garlic powder, olive oil, salt, Parmesan are candidates; spaghetti/sauce never offered to drop.
+
 - Today T2/T4: no preflight → READY if ingredients present.
 
 ---
@@ -89,11 +92,14 @@ const beefTacoNight: Recipe = {
     { description: 'Serve components separately for picky eaters.' },
   ],
 };
-```
+``` text
 
-**Exercises:**
+#### Exercises:
+
 - Leftovers: EXPECTED signals reuse options for bowls/nachos.
+
 - S7: strong `kind` + `shoppingCategory` for grouping.
+
 - Quick Review: beef/shells/seasoning protected; salsa/sour cream can be optional.
 
 ---
@@ -137,10 +143,12 @@ const marinatedChickenBowls: Recipe = {
     { description: 'Use frozen broccoli instead of fresh; cook from frozen.' },
   ],
 };
-```
+``` text
 
-**Exercises:**
+#### Exercises:
+
 - Today T2/T4: if marinade not started by cook time → `MISSED_PREFLIGHT`; else READY.
+
 - Shop S4: rice/chicken/broccoli protected; soy/oil/garlic powder can be Quick Review candidates.
 
 ---
@@ -148,5 +156,7 @@ const marinatedChickenBowls: Recipe = {
 ## How to Use These
 
 - **Docs:** Link from `recipe-spec.md` as additional examples.
+
 - **Seed fixtures:** Drop into `src/domain/fixtures/recipes.seed.ts` with the two examples already in `recipe-spec.md`.
+
 - **Tests:** Use to validate `buildShoppingList(...)` (critical vs optional) and `computeTonightState(...)` (marinade missed vs done).

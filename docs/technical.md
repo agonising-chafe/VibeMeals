@@ -8,7 +8,7 @@
 ## Current Implementation Status (v1.0.0)
 
 > **v1.0.0 is a pure TypeScript/Node.js backend implementation** of the core meal planning, shopping, and cooking logic.
-> 
+>
 > ✅ **Implemented:**
 > - Domain logic: Planner, Shop, Today, Preflight (467+ lines of production code)
 > - Type contracts: types.ts perfectly synced with data-model.md v1.2.0
@@ -27,12 +27,19 @@
 ---
 
 ## Table of Contents
+
 1. [Technology Stack](#1-technology-stack)
+
 2. [State Management](#2-state-management)
+
 3. [Data Models](#3-data-models)
+
 4. [Key Algorithms](#4-key-algorithms)
+
 5. [API Contracts](#5-api-contracts)
+
 6. [Database Schema](#6-database-schema)
+
 7. [Environment & Keys](#7-environment--keys)
 
 ---
@@ -40,35 +47,59 @@
 ## 1) Technology Stack
 
 ### Frontend
+
 - **Framework:** Nuxt 3 (Vue 3) - SSR/SPA capabilities, file-based routing, auto-imports
+
 - **State Management:** Pinia - Type-safe, modular stores with devtools
+
 - **Styling:** Tailwind CSS - Utility-first, rapid UI development
+
 - **HTTP Client:** Ofetch (built into Nuxt) - Type-safe fetch wrapper
+
 - **Forms:** VeeValidate + Yup - Declarative validation
-- **Testing:** 
+
+- **Testing:**
+
   - Vitest - Unit tests
+
   - Playwright - E2E tests
 
 ### Backend
+
 - **Runtime:** Node.js 20+
+
 - **Framework:** Nitro (built into Nuxt) or NestJS for separate API
+
 - **Database:** PostgreSQL 15+ - Relational data with JSON support
+
 - **ORM:** Prisma - Type-safe database access
+
 - **Cache:** Redis - Session storage, rate limiting
+
 - **Queue:** BullMQ - Background jobs (preflight reminders, email)
 
 ### Third-Party Services
+
 - **Store Integration:** None enabled in current scope (future: grocer APIs TBD)
+
 - **Recipe Data:** Internal curated database
-- **Notifications:** 
+
+- **Notifications:**
+
   - Push: Firebase Cloud Messaging (FCM)
+
   - Email: SendGrid or Resend
+
 - **Analytics:** PostHog - Privacy-friendly product analytics
 
 ### Infrastructure
+
 - **Hosting:** Vercel or Railway
+
 - **Database:** Supabase or Neon (managed PostgreSQL)
+
 - **CDN:** Cloudflare - Images and static assets
+
 - **Monitoring:** Sentry - Error tracking
 
 ---
@@ -76,6 +107,7 @@
 ## 7) Environment & Keys
 
 - `GEMINI_API_KEY` (optional): Enables AI enrichment during recipe import; importer still works without it.
+
 - No external store integrations are active; no shopping-related keys required.
 
 ---
@@ -86,7 +118,7 @@
 
 **Philosophy:** Modular stores with single responsibilities. No "God Store."
 
-```
+``` text
 stores/
 ├── usePlanStore.ts       # Plan generation, slots, recipes
 ├── useShoppingStore.ts   # Shopping list, Quick Review
@@ -95,7 +127,7 @@ stores/
 ├── useUserStore.ts       # User preferences, household settings
 ├── useFeedbackStore.ts   # Weekly Recap, taste profile
 └── useNavigationStore.ts # UI state, active week, drawers
-```
+``` text
 
 ---
 
@@ -111,10 +143,10 @@ export const usePlanStore = defineStore('plan', {
   state: () => ({
     // Current week being viewed/edited
     activeWeek: '2025-W50', // ISO week format
-    
+  
     // All weeks (active + planned)
     weeks: new Map<string, Week>(),
-    
+  
     // Undo/redo stacks
     history: [] as HistoryEntry[],
     future: [] as HistoryEntry[],
@@ -124,15 +156,15 @@ export const usePlanStore = defineStore('plan', {
     currentWeek(): Week | undefined {
       return this.weeks.get(this.activeWeek);
     },
-    
+  
     slots(): Slot[] {
       return this.currentWeek?.slots || [];
     },
-    
+  
     canUndo(): boolean {
       return this.history.length > 0;
     },
-    
+  
     canRedo(): boolean {
       return this.future.length > 0;
     },
@@ -142,16 +174,16 @@ export const usePlanStore = defineStore('plan', {
     async generatePlan(options?: GeneratePlanOptions) {
       // Save current state for undo
       this.saveToHistory('generate_plan');
-      
+  
       const week = this.currentWeek;
       if (!week) return;
-      
+  
       // Preserve locked slots
       const lockedSlots = week.slots.filter(s => s.locked);
       const unlockedSlotIds = week.slots
         .filter(s => !s.locked)
         .map(s => s.id);
-      
+  
       // Call API to generate recipes
       const response = await $fetch('/api/plan/generate', {
         method: 'POST',
@@ -165,7 +197,7 @@ export const usePlanStore = defineStore('plan', {
           },
         },
       });
-      
+  
       // Update slots with new recipes
       for (const slotData of response.slots) {
         const slot = week.slots.find(s => s.id === slotData.id);
@@ -174,20 +206,20 @@ export const usePlanStore = defineStore('plan', {
           slot.status = 'planned';
         }
       }
-      
+  
       // Reset Quick Review state
       useShoppingStore().resetReview();
     },
-    
+  
     async rerollSlot(slotId: string) {
       this.saveToHistory('reroll_slot', { slotId });
-      
+  
       const slot = this.findSlot(slotId);
       if (!slot || slot.locked) return;
-      
+  
       // Increment attempt counter for deterministic seeding
       slot.attemptCount = (slot.attemptCount || 0) + 1;
-      
+  
       const response = await $fetch('/api/plan/reroll', {
         method: 'POST',
         body: {
@@ -196,47 +228,47 @@ export const usePlanStore = defineStore('plan', {
           exclude: this.getRecentRecipes(21), // 21-day repeat guard
         },
       });
-      
+  
       slot.recipe = response.recipe;
       slot.status = 'planned';
     },
-    
+  
     lockSlot(slotId: string) {
       this.saveToHistory('lock_slot', { slotId });
       const slot = this.findSlot(slotId);
       if (slot) slot.locked = true;
     },
-    
+  
     unlockSlot(slotId: string) {
       this.saveToHistory('unlock_slot', { slotId });
       const slot = this.findSlot(slotId);
       if (slot) slot.locked = false;
     },
-    
+  
     undo() {
       const entry = this.history.pop();
       if (!entry) return;
-      
+  
       this.future.push({
         action: 'undo',
         state: this.getCurrentState(),
       });
-      
+  
       this.restoreState(entry.state);
     },
-    
+  
     redo() {
       const entry = this.future.pop();
       if (!entry) return;
-      
+  
       this.history.push({
         action: 'redo',
         state: this.getCurrentState(),
       });
-      
+  
       this.restoreState(entry.state);
     },
-    
+  
     saveToHistory(action: string, meta?: any) {
       this.history.push({
         action,
@@ -244,21 +276,21 @@ export const usePlanStore = defineStore('plan', {
         state: this.getCurrentState(),
         timestamp: Date.now(),
       });
-      
+  
       // Clear future (can't redo after new action)
       this.future = [];
-      
+  
       // Limit history to 50 entries
       if (this.history.length > 50) {
         this.history.shift();
       }
     },
-    
+  
     getRecentRecipes(days: number): string[] {
       // Get recipe IDs from last N days for repeat guard
       const cutoff = Date.now() - (days * 24 * 60 * 60 * 1000);
       const recentRecipes = new Set<string>();
-      
+  
       for (const week of this.weeks.values()) {
         for (const slot of week.slots) {
           if (slot.recipe && slot.cookedAt && slot.cookedAt > cutoff) {
@@ -266,12 +298,12 @@ export const usePlanStore = defineStore('plan', {
           }
         }
       }
-      
+  
       return Array.from(recentRecipes);
     },
   },
 });
-```
+``` text
 
 ---
 
@@ -288,7 +320,7 @@ export const useShoppingStore = defineStore('shopping', {
     // Quick Review state
     reviewedItems: new Map<string, ReviewResolution>(),
     reviewConfirmed: false,
-    
+  
     // Estimated savings from Quick Review
     estimatedSavings: 0,
   }),
@@ -297,25 +329,25 @@ export const useShoppingStore = defineStore('shopping', {
     shoppingList(): ShoppingItem[] {
       const planStore = usePlanStore();
       const inventoryStore = useInventoryStore();
-      
+  
       const items: ShoppingItem[] = [];
-      
+  
       for (const slot of planStore.slots) {
         if (!slot.recipe) continue;
-        
+  
         for (const ingredient of slot.recipe.ingredients) {
           const resolution = this.reviewedItems.get(ingredient.id);
-          
+  
           // Skip if user confirmed they have it
           if (resolution === 'have' || resolution === 'leftover') {
             continue;
           }
-          
+  
           // Skip if it's a staple (unless explicitly overridden)
           if (inventoryStore.isStaple(ingredient.canonicalId) && !resolution) {
             continue;
           }
-          
+  
           // Add to list
           items.push({
             id: ingredient.id,
@@ -328,24 +360,24 @@ export const useShoppingStore = defineStore('shopping', {
           });
         }
       }
-      
+  
       // Deduplicate and group by category
       return this.deduplicateItems(items);
     },
-    
+  
     quickReviewItems(): QuickReviewItem[] {
       // Items that could potentially save money if reviewed
       const planStore = usePlanStore();
       const inventoryStore = useInventoryStore();
-      
+  
       const items: QuickReviewItem[] = [];
-      
+  
       for (const slot of planStore.slots) {
         if (!slot.recipe) continue;
-        
+  
         for (const ingredient of slot.recipe.ingredients) {
           const confidence = this.calculateConfidence(ingredient);
-          
+  
           // Only surface items with medium or low confidence
           if (confidence < 0.80) {
             items.push({
@@ -359,10 +391,10 @@ export const useShoppingStore = defineStore('shopping', {
           }
         }
       }
-      
+  
       return items;
     },
-    
+  
     canProceedToShop(): boolean {
       // No gates! User can always proceed
       return true;
@@ -373,31 +405,31 @@ export const useShoppingStore = defineStore('shopping', {
     async buildShoppingList() {
       // Aggregate ingredients from all slots
       const list = this.shoppingList;
-      
+  
       // Calculate savings if Quick Review was used
       this.estimatedSavings = this.calculateSavings();
-      
+  
       return list;
     },
-    
+  
     resolveItem(ingredientId: string, resolution: ReviewResolution) {
       this.reviewedItems.set(ingredientId, resolution);
       this.reviewConfirmed = false; // Reset confirmation on any change
     },
-    
+  
     confirmReview() {
       this.reviewConfirmed = true;
     },
-    
+  
     resetReview() {
       this.reviewedItems.clear();
       this.reviewConfirmed = false;
       this.estimatedSavings = 0;
     },
-    
+  
     async exportCSV() {
       const list = await this.buildShoppingList();
-      
+  
       const response = await $fetch('/api/shopping/export', {
         method: 'POST',
         body: {
@@ -405,7 +437,7 @@ export const useShoppingStore = defineStore('shopping', {
           format: 'csv',
         },
       });
-      
+  
       // Trigger download
       const blob = new Blob([response.csv], { type: 'text/csv' });
       const url = URL.createObjectURL(blob);
@@ -413,30 +445,30 @@ export const useShoppingStore = defineStore('shopping', {
       a.href = url;
       a.download = `vibemeals-shopping-${usePlanStore().activeWeek}.csv`;
       a.click();
-      
+  
       return response;
     },
-    
+  
     calculateConfidence(ingredient: RecipeIngredient): number {
       const inventoryStore = useInventoryStore();
-      
+  
       // Check if we have it in inventory
       const inInventory = inventoryStore.hasIngredient(ingredient.canonicalId);
       if (inInventory) return 0.95;
-      
+  
       // Check purchase history
       const purchaseHistory = inventoryStore.getPurchaseHistory(ingredient.canonicalId);
       if (purchaseHistory.length === 0) return 0.50; // Never bought before
-      
+  
       const lastPurchase = purchaseHistory[0];
       const daysSinceLastPurchase = (Date.now() - lastPurchase.date) / (1000 * 60 * 60 * 24);
-      
+  
       // Estimate confidence based on typical usage pattern
       if (daysSinceLastPurchase < 7) return 0.85;  // Probably still have it
       if (daysSinceLastPurchase < 14) return 0.65; // Maybe still have it
       return 0.50; // Likely need to buy
     },
-    
+  
     getSuggestion(ingredient: RecipeIngredient, confidence: number): string {
       if (confidence >= 0.80) {
         return "We think you have this";
@@ -446,10 +478,10 @@ export const useShoppingStore = defineStore('shopping', {
         return "We're adding this to your list";
       }
     },
-    
+  
     calculateSavings(): number {
       let savings = 0;
-      
+  
       for (const [ingredientId, resolution] of this.reviewedItems) {
         if (resolution === 'have' || resolution === 'leftover') {
           // Find ingredient price
@@ -459,16 +491,16 @@ export const useShoppingStore = defineStore('shopping', {
           }
         }
       }
-      
+  
       return savings;
     },
-    
+  
     deduplicateItems(items: ShoppingItem[]): ShoppingItem[] {
       const grouped = new Map<string, ShoppingItem>();
-      
+  
       for (const item of items) {
         const key = item.name; // Group by name
-        
+  
         if (grouped.has(key)) {
           const existing = grouped.get(key)!;
           existing.quantity += item.quantity;
@@ -477,7 +509,7 @@ export const useShoppingStore = defineStore('shopping', {
           grouped.set(key, { ...item });
         }
       }
-      
+  
       // Sort by category, then name
       return Array.from(grouped.values()).sort((a, b) => {
         if (a.category !== b.category) {
@@ -488,7 +520,7 @@ export const useShoppingStore = defineStore('shopping', {
     },
   },
 });
-```
+``` text
 
 ---
 
@@ -504,7 +536,7 @@ export const useInventoryStore = defineStore('inventory', {
   state: () => ({
     // Implicit inventory (inferred from behavior)
     inventory: new Map<string, InventoryItem>(),
-    
+  
     // Staples (assumed on-hand)
     staples: new Set<string>([
       'olive-oil',
@@ -519,10 +551,10 @@ export const useInventoryStore = defineStore('inventory', {
       'vinegar',
       'soy-sauce',
     ]),
-    
+  
     // Purchase history for learning
     purchaseHistory: [] as PurchaseEvent[],
-    
+  
     // Usage history for learning
     usageHistory: [] as UsageEvent[],
   }),
@@ -534,13 +566,13 @@ export const useInventoryStore = defineStore('inventory', {
         return item ? item.quantity > 0 : false;
       };
     },
-    
+  
     isStaple() {
       return (canonicalId: string): boolean => {
         return this.staples.has(canonicalId);
       };
     },
-    
+  
     getPurchaseHistory() {
       return (canonicalId: string): PurchaseEvent[] => {
         return this.purchaseHistory
@@ -567,7 +599,7 @@ export const useInventoryStore = defineStore('inventory', {
             source: 'purchased',
           });
         }
-        
+  
         // Log purchase event
         this.purchaseHistory.push({
           canonicalId: item.canonicalId,
@@ -576,17 +608,17 @@ export const useInventoryStore = defineStore('inventory', {
         });
       }
     },
-    
+  
     deductIngredients(recipe: Recipe, servings: number) {
       for (const ingredient of recipe.ingredients) {
         const scaledQty = ingredient.quantity * servings;
-        
+  
         const existing = this.inventory.get(ingredient.canonicalId);
         if (existing) {
           existing.quantity = Math.max(0, existing.quantity - scaledQty);
           existing.lastUpdated = Date.now();
         }
-        
+  
         // Log usage event
         this.usageHistory.push({
           canonicalId: ingredient.canonicalId,
@@ -596,7 +628,7 @@ export const useInventoryStore = defineStore('inventory', {
         });
       }
     },
-    
+  
     updateStapleStatus(canonicalId: string, isStaple: boolean) {
       if (isStaple) {
         this.staples.add(canonicalId);
@@ -604,19 +636,19 @@ export const useInventoryStore = defineStore('inventory', {
         this.staples.delete(canonicalId);
       }
     },
-    
+  
     learnStaplesFromBehavior() {
       // Promote to staple if confirmed "have it" 3+ weeks in a row
       const recentReviews = this.getRecentQuickReviewDecisions(21);
-      
+  
       for (const [canonicalId, decisions] of recentReviews) {
         const consecutiveHaves = decisions.filter(d => d === 'have').length;
-        
+  
         if (consecutiveHaves >= 3 && !this.staples.has(canonicalId)) {
           this.updateStapleStatus(canonicalId, true);
         }
       }
-      
+  
       // Demote from staple if ever marked "don't have"
       for (const [canonicalId, decisions] of recentReviews) {
         if (decisions.includes('dont_have') && this.staples.has(canonicalId)) {
@@ -626,7 +658,7 @@ export const useInventoryStore = defineStore('inventory', {
     },
   },
 });
-```
+``` text
 
 ---
 
@@ -754,7 +786,7 @@ export interface GeneratePlanOptions {
   dietFlags?: string[];
   excludeRecipes?: string[];
 }
-```
+``` text
 
 ---
 
@@ -807,7 +839,7 @@ function hashString(str: string): number {
   }
   return Math.abs(hash);
 }
-```
+``` text
 
 ---
 
@@ -872,7 +904,7 @@ function calculateRecipeConfidence(
   
   return avg;
 }
-```
+``` text
 
 ---
 
@@ -893,25 +925,25 @@ function buildShoppingList(
   
   for (const slot of slots) {
     if (!slot.recipe) continue;
-    
+  
     for (const ingredient of slot.recipe.ingredients) {
       // Check resolution from Quick Review
       const resolution = reviewResolutions.get(ingredient.id);
       if (resolution === 'have' || resolution === 'leftover') {
         continue; // User confirmed they have it
       }
-      
+  
       // Check staples
       if (staples.has(ingredient.canonicalId) && !resolution) {
         continue; // Assumed on-hand
       }
-      
+  
       // Check inventory
       const inventoryItem = inventory.get(ingredient.canonicalId);
       if (inventoryItem && inventoryItem.quantity >= ingredient.quantity * slot.servings) {
         continue; // We know they have it
       }
-      
+  
       // Add to list
       items.push({
         id: `${slot.id}-${ingredient.id}`,
@@ -935,7 +967,7 @@ function deduplicateItems(items: ShoppingItem[]): ShoppingItem[] {
   
   for (const item of items) {
     const key = item.canonicalId;
-    
+  
     if (grouped.has(key)) {
       const existing = grouped.get(key)!;
       existing.quantity += item.quantity;
@@ -955,7 +987,7 @@ function deduplicateItems(items: ShoppingItem[]): ShoppingItem[] {
     const categoryOrder = getCategoryOrder();
     const catA = categoryOrder.indexOf(a.category);
     const catB = categoryOrder.indexOf(b.category);
-    
+  
     if (catA !== catB) return catA - catB;
     return a.name.localeCompare(b.name);
   });
@@ -976,7 +1008,7 @@ function normalizePackSize(quantity: number, unit: string, canonicalId: string):
   const packsNeeded = Math.ceil(quantity / largestPack);
   return packsNeeded * largestPack;
 }
-```
+``` text
 
 ---
 
@@ -996,15 +1028,15 @@ function trackLeftovers(
   
   for (const ingredient of recipe.ingredients) {
     const needed = ingredient.quantity * servings;
-    
+  
     // Find what was purchased
     const purchased = shoppingList.find(
       item => item.canonicalId === ingredient.canonicalId
     );
-    
+  
     if (purchased && purchased.quantity > needed) {
       const leftover = purchased.quantity - needed;
-      
+  
       leftovers.push({
         canonicalId: ingredient.canonicalId,
         name: ingredient.displayName,
@@ -1027,14 +1059,14 @@ function suggestLeftoverRecipes(
   
   for (const recipe of allRecipes) {
     let leftoverMatchCount = 0;
-    
+  
     for (const ingredient of recipe.ingredients) {
       const leftover = leftovers.find(l => l.canonicalId === ingredient.canonicalId);
       if (leftover && leftover.quantity >= ingredient.quantity) {
         leftoverMatchCount++;
       }
     }
-    
+  
     // Suggest recipes that use 2+ leftover ingredients
     if (leftoverMatchCount >= 2) {
       suggestions.push(recipe);
@@ -1049,7 +1081,7 @@ function estimateExpiry(canonicalId: string): number {
   const shelfLife = getShelfLife(canonicalId); // days
   return Date.now() + (shelfLife * 24 * 60 * 60 * 1000);
 }
-```
+``` text
 
 ---
 
@@ -1059,7 +1091,7 @@ function estimateExpiry(canonicalId: string): number {
 
 **Purpose:** Generate a week of recipes based on constraints
 
-**Request:**
+#### Request:
 ```json
 {
   "week": "2025-W50",
@@ -1074,9 +1106,9 @@ function estimateExpiry(canonicalId: string): number {
     "excludeRecipes": ["beef-stew", "chicken-parm"]
   }
 }
-```
+``` text
 
-**Response:**
+#### Response:
 ```json
 {
   "slots": [
@@ -1114,7 +1146,7 @@ function estimateExpiry(canonicalId: string): number {
     }
   ]
 }
-```
+``` text
 
 ---
 
@@ -1122,16 +1154,16 @@ function estimateExpiry(canonicalId: string): number {
 
 **Purpose:** Reroll a single slot with a new recipe
 
-**Request:**
+#### Request:
 ```json
 {
   "slotId": "2025-W50:monday:dinner",
   "attemptCount": 2,
   "exclude": ["chicken-tacos", "beef-stew"]
 }
-```
+``` text
 
-**Response:**
+#### Response:
 ```json
 {
   "recipe": {
@@ -1145,7 +1177,7 @@ function estimateExpiry(canonicalId: string): number {
     "ingredients": [...]
   }
 }
-```
+``` text
 
 ---
 
@@ -1153,7 +1185,7 @@ function estimateExpiry(canonicalId: string): number {
 
 **Purpose:** Export shopping list to CSV or text (no active store integrations)
 
-**Request:**
+#### Request:
 ```json
 {
   "items": [
@@ -1167,21 +1199,21 @@ function estimateExpiry(canonicalId: string): number {
   ],
   "format": "csv" // or "text"
 }
-```
+``` text
 
-**Response (CSV):**
+#### Response (CSV):
 ```json
 {
   "csv": "Category,Item,Quantity,Unit\nProtein,Chicken thighs,1.5,lb\n..."
 }
-```
+``` text
 
-**Response (Text):**
+#### Response (Text):
 ```json
 {
   "text": "Protein: Chicken thighs (1.5 lb)\nProduce: Onions (2)\n..."
 }
-```
+``` text
 
 ---
 
@@ -1189,7 +1221,7 @@ function estimateExpiry(canonicalId: string): number {
 
 **Purpose:** Submit Weekly Recap feedback
 
-**Request:**
+#### Request:
 ```json
 {
   "week": "2025-W50",
@@ -1207,15 +1239,15 @@ function estimateExpiry(canonicalId: string): number {
     }
   ]
 }
-```
+``` text
 
-**Response:**
+#### Response:
 ```json
 {
   "success": true,
   "tasteProfileUpdated": true
 }
-```
+``` text
 
 ---
 
@@ -1360,8 +1392,8 @@ model Feedback {
   
   user      User     @relation(fields: [userId], references: [id])
 }
-```
+``` text
 
 ---
 
-*[Back to Index](index.md)*
+#### [Back to Index](index.md)

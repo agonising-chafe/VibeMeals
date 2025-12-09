@@ -6,12 +6,19 @@
 ---
 
 ## Table of Contents
+
 1. [Core Surfaces](#1-core-surfaces)
+
 2. [First-Time Experience (FTUE)](#2-first-time-experience-ftue)
+
 3. [The Golden Path](#3-the-golden-path-zero-friction)
+
 4. [Navigation Model](#4-navigation-model)
+
 5. [Interaction Patterns](#5-interaction-patterns)
+
 6. [Copy & Micro-UX](#6-copy--micro-ux)
+
 7. [Accessibility](#7-accessibility)
 
 ---
@@ -22,14 +29,17 @@
 
 **Purpose:** Answer "What are we eating this week, and how heavy is each night?"
 
-**Layout:**
+#### Layout:
+
 - 7-day vertical grid (mobile-first)
+
 - Each day shows: Lunch (optional) and Dinner (primary)
+
 - Week selector in header with left/right arrows
 
-**Slot Anatomy:**
+#### Slot Anatomy:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Monday • Dinner                      │
 │ ┌─────────────────────────────────┐ │
@@ -42,42 +52,53 @@
 │ [🔒 Lock] [🔄 Swap] [🎲 Reroll]    │ ← Actions
 │ [📖 Expand]                          │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Status Chips:**
+#### Status Chips:
+
 - ✅ **All set** - Everything accounted for (green)
+
 - ⚠️ **Might need something** - Low confidence on 1+ ingredients (amber)
+
 - 🍚 **Uses leftover rice** - Reuse opportunity (blue)
 
-**Actions:**
+#### Actions:
+
 - **Lock** 🔒 - Prevents changes during Generate Plan; shows lock icon on card
+
 - **Swap** 🔄 - Opens drawer with 3-5 similar alternatives (same time band, similar vibes)
+
 - **Reroll** 🎲 - Generates completely different recipe (deterministic, respects repeat guard)
+
 - **Expand** 📖 - Shows full recipe details, ingredients, and steps in drawer
 
-**Primary CTA (Sticky Bottom Bar):**
+#### Primary CTA (Sticky Bottom Bar):
 
-**State 1: No plan**
-```
+#### State 1: No plan
+``` text
 ┌─────────────────────────────────────┐
 │ Plan isn't generated yet.           │
 │ [Generate Plan]                      │
 └─────────────────────────────────────┘
-```
+``` text
 
-**State 2: Plan exists, items may need review**
-```
+#### State 2: Plan exists, items may need review
+``` text
 ┌─────────────────────────────────────┐
 │ Your list is ready!                  │
 │ [Next: Shop] [💡 Quick Review]      │
 │ ^ Save ~$12 by reviewing what you have
 └─────────────────────────────────────┘
-```
+``` text
 
-**Generate Plan Button:**
+#### Generate Plan Button:
+
 - Triggers DLE to fill week with recipes
+
 - Respects locked slots (doesn't overwrite)
+
 - Shows loading state: "Building your week..." (2-3 seconds)
+
 - On completion, scrolls to top and shows success toast: "Week is ready!"
 
 ---
@@ -86,17 +107,21 @@
 
 **Purpose:** Optional optimization to reduce cost/waste by confirming what's on hand
 
-**Trigger:**
+#### Trigger:
+
 - User taps "Quick Review" button from Planner sticky bar
+
 - Badge shows potential savings: "Save ~$12"
 
-**NOT a trigger:**
+#### NOT a trigger:
+
 - Low confidence items do NOT block shopping
+
 - This drawer is purely optional
 
-**Layout:**
+#### Layout:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ ← Quick Review                Close │
 │ ───────────────────────────────────│
@@ -122,23 +147,34 @@
 │                                      │
 │ [Skip for now] [Done]                │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Interaction:**
+#### Interaction:
+
 - Items grouped by category
+
 - Default state: All items checked (will be added to list)
+
 - Tapping "We have this" unchecks item (removes from list, saves money)
+
 - Tapping "Use leftovers" removes fresh purchase, uses existing inventory
+
 - Shows context: "For Tuesday's tacos" so user knows why it's needed
+
 - Progress indicator: "3 of 12 reviewed"
 
-**Footer:**
+#### Footer:
+
 - **Skip for now** - Closes drawer, proceeds with full list
+
 - **Done** - Saves changes, updates list, shows toast: "Saved ~$12"
 
-**Important:**
+#### Important:
+
 - Quick Review is ALWAYS optional
+
 - Closing the drawer mid-flow is safe; no progress is lost
+
 - User can reopen anytime before checkout
 
 ---
@@ -147,9 +183,9 @@
 
 **Purpose:** Provide a trustworthy, grouped shopping list with one-tap checkout
 
-**Layout:**
+#### Layout:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Shopping • This Week                 │
 │ ───────────────────────────────────│
@@ -174,21 +210,30 @@
 │                                      │
 │ [📥 Download CSV] [🏪 Checkout]     │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Features:**
+#### Features:
+
 - Grouped by category (Produce, Meat, Dairy, Pantry, etc.)
+
 - Sorted roughly by store aisle order
+
 - Shows quantity, pack size, and context ("For Tuesday's tacos")
+
 - Checkboxes for in-store use
+
 - Estimated pricing (historical/fixture-based only; no live store API)
+
 - Historical cost tracking: "Last week: $71 • 4-week avg: $68"
 
-**Primary CTAs:**
+#### Primary CTAs:
+
 - **Download CSV** 📥 - Primary export
+
 - **Text List** 📱 - Plain text format for copy/paste
 
-**Integrations:**
+#### Integrations:
+
 - No grocer integrations are active; exports are file/text only.
 
 ---
@@ -197,13 +242,15 @@
 
 **Purpose:** Full-screen step-by-step cooking interface with timers and parallelization
 
-**Trigger:**
+#### Trigger:
+
 - User taps "Start Cooking" button from recipe card or expanded recipe view
+
 - Can be launched from past/future days (doesn't require current day)
 
-**Layout (Step-by-Step Mode - Default):**
+#### Layout (Step-by-Step Mode - Default):
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ ← Pause          Spicy Chicken Tacos│
 │ ───────────────────────────────────│
@@ -223,11 +270,11 @@
 │                                      │
 │ [◀ Back] [Next Step ▶]              │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Layout (All Steps Mode - Toggle):**
+#### Layout (All Steps Mode - Toggle):
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ ← Back           Spicy Chicken Tacos│
 │ ───────────────────────────────────│
@@ -243,23 +290,31 @@
 │                                      │
 │ [Start Step 3]                       │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Features:**
+#### Features:
+
 - **Pause button**: Saves progress, can resume later
+
 - **Step-by-step mode (default)**: One step at a time, optimized for mobile
+
 - **All steps mode (toggle)**: Overview for experienced cooks or larger screens
+
 - **Timers**: Integrated countdown with start/pause/reset
+
 - **Parallel hints**: "While this simmers: chop the onions" for multitasking
+
 - **Progress indicator**: "Step 3 of 7" always visible
+
 - **Ingredient list per step**: Only shows what's needed for current step
+
 - **Scaled quantities**: Respects household servings or slot-specific override
 
-**Missing Ingredient Handling:**
+#### Missing Ingredient Handling:
 
 If user taps "Missing something?" button:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Missing Something?                   │
 │ ───────────────────────────────────│
@@ -271,11 +326,11 @@ If user taps "Missing something?" button:
 │                                      │
 │ [Cancel]                             │
 └─────────────────────────────────────┘
-```
+``` text
 
 After selection:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Quick Swap Options                   │
 │ ───────────────────────────────────│
@@ -291,13 +346,13 @@ After selection:
 │                                      │
 │ [Cancel]                             │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Completion:**
+#### Completion:
 
 After final step:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ 🎉 You cooked Spicy Chicken Tacos!  │
 │ ───────────────────────────────────│
@@ -314,11 +369,14 @@ After final step:
 │                                      │
 │ [Done] [Undo: Mark as not cooked]   │
 └─────────────────────────────────────┘
-```
+``` text
 
 - **Cooked** action auto-deducts ingredients from implicit inventory
+
 - **Undo** button available: Reverses ingredient deduction and cooking log
+
 - Feedback is optional but encouraged
+
 - Dismissing without feedback still marks as cooked
 
 ---
@@ -327,15 +385,19 @@ After final step:
 
 **Purpose:** Light feedback loop to teach the system taste preferences
 
-**Trigger:**
+#### Trigger:
+
 - Appears after marking a meal "Cooked"
+
 - Can be dismissed with "Ask me later"
+
 - Also accessible anytime from profile/settings
+
 - Appears automatically at end of week (Sunday evening or Monday morning)
 
-**Layout:**
+#### Layout:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ How Was Your Week?                   │
 │ ───────────────────────────────────│
@@ -355,24 +417,36 @@ After final step:
 │                                      │
 │ [Skip for now] [Submit Feedback]    │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Features:**
+#### Features:
+
 - Shows only meals that were cooked this week
+
 - Thumbs up/down for each meal
+
 - Optional heart for favorites (boosts future suggestions)
+
 - Quick tags: pre-defined tags like #KidFriendly, #TooSpicy, #TookTooLong
+
 - Shows skipped meals without guilt ("ordered out" is fine!)
+
 - All feedback is optional
 
-**Impact:**
+#### Impact:
+
 - 👍 = More recipes like this (boost recipe family)
+
 - 👎 = Fewer recipes like this (avoid recipe family for 90 days)
+
 - ♥ = Strong positive signal (boost and prioritize in future plans)
+
 - Tags = Fine-tune (e.g., #TooSpicy reduces spice level in future suggestions)
 
-**Feedback decay:**
+#### Feedback decay:
+
 - Positive boost decays over ~90 days (prevents stale preferences)
+
 - Negative signals expire after 90 days (tastes change, give recipes second chances)
 
 ---
@@ -383,9 +457,9 @@ After final step:
 
 **Default State:** Hidden (accessible from header menu or settings)
 
-**Layout:**
+#### Layout:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ ← Pantry                      Search│
 │ ───────────────────────────────────│
@@ -409,20 +483,30 @@ After final step:
 │                                      │
 │ [Close]                              │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Features:**
+#### Features:
+
 - Quick search bar
+
 - Inline +/− to adjust quantities
+
 - Derived badges:
+
   - ⚠️ **Low soon** - Quantity dropping, consider restocking
+
   - 🚫 **Expiring** - Use within 3 days
+
   - ❗ **Expired** - Past use-by date
+
 - **Not required for value**: System works without pantry via implicit inventory
 
-**Philosophy:**
+#### Philosophy:
+
 - Pantry is for people who enjoy explicit control
+
 - Most users never need to open it
+
 - System defaults to implicit inventory from Purchased + Cooked events
 
 ---
@@ -431,31 +515,33 @@ After final step:
 
 **Purpose:** ICS export and notifications for preflight prompts (thaw, marinate, etc.)
 
-**Trigger:**
+#### Trigger:
+
 - User enables in settings: "Send me reminders"
+
 - Quiet hours respected (default: 10pm–8am)
 
-**Notification Examples:**
+#### Notification Examples:
 
-**T-24 (Night before):**
-```
+#### T-24 (Night before):
+``` text
 🔔 Tomorrow: Spicy Chicken Tacos
 Move chicken thighs from freezer to fridge tonight.
 [Done] [Skip]
-```
+``` text
 
-**T-2 (Day-of, 2 hours before):**
-```
+#### T-2 (Day-of, 2 hours before):
+``` text
 🔔 Tonight: Beef Stew (Weekend Project)
 Start slow cooker in 2 hours for 6pm dinner.
 [Done] [Remind me in 1 hour]
-```
+``` text
 
-**Fail-Safe (Missed thaw):**
+#### Fail-Safe (Missed thaw):
 
 If user didn't confirm thaw and it's day-of:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ ⚠️ Thaw Check                       │
 │ ───────────────────────────────────│
@@ -467,7 +553,7 @@ If user didn't confirm thaw and it's day-of:
 │ [Oops, swap to a faster recipe]     │
 │ [I'll adjust timing]                 │
 └─────────────────────────────────────┘
-```
+``` text
 
 ---
 
@@ -477,9 +563,9 @@ If user didn't confirm thaw and it's day-of:
 
 ### Flow
 
-**Step 1: Welcome Screen**
+#### Step 1: Welcome Screen
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │                                      │
 │  🍽️                                 │
@@ -494,11 +580,11 @@ If user didn't confirm thaw and it's day-of:
 │  [Get Started]                       │
 │                                      │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Step 2: Quick Setup (One Screen)**
+#### Step 2: Quick Setup (One Screen)
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Quick Setup (30 seconds)             │
 │ ───────────────────────────────────│
@@ -510,21 +596,25 @@ If user didn't confirm thaw and it's day-of:
 │                                      │
 │ [Skip for now] [Generate My Plan]   │
 └─────────────────────────────────────┘
-```
+``` text
 
 - **All questions are optional** (Skip for now uses smart defaults)
+
 - No diet questions, no pantry setup, no profile forms
+
 - If skipped, system uses: 4 servings, flexible time
 
-**Step 3: First Plan Generation**
+#### Step 3: First Plan Generation
 
 - Auto-runs Generate Plan with user's choices (or defaults)
+
 - Shows loading state with friendly copy: "Building your week..."
+
 - Takes 2-3 seconds
 
-**Step 4: Plan Ready (With Overlay Tutorial)**
+#### Step 4: Plan Ready (With Overlay Tutorial)
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ 🎉 Your week is ready!              │
 │ ───────────────────────────────────│
@@ -537,27 +627,35 @@ If user didn't confirm thaw and it's day-of:
 │                                      │
 │ [Got it]                             │
 └─────────────────────────────────────┘
-```
+``` text
 
 - Shows plan with 7 meals
+
 - Overlay tooltips explain core actions (non-blocking)
+
 - User can dismiss and explore freely
 
-**Step 5: First Shop**
+#### Step 5: First Shop
 
 - User taps "Next: Shop"
+
 - Optional Quick Review badge: "New! Save money by reviewing" (can skip)
+
 - Proceeds to Shopping list
+
 - Export via CSV or plain text
 
-**Step 6: First Cook (Days Later)**
+#### Step 6: First Cook (Days Later)
 
 - User opens app on cooking day
+
 - Taps "Start Cooking" on a recipe
+
 - Cook Mode opens with step-by-step instructions
+
 - After completion, Weekly Recap appears with brief explanation:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ How was it?                          │
 │ ───────────────────────────────────│
@@ -567,94 +665,132 @@ If user didn't confirm thaw and it's day-of:
 │ [👍 Loved it] [👎 Not for us]       │
 │ [Skip]                               │
 └─────────────────────────────────────┘
-```
+``` text
 
 ---
 
 ## 3) The Golden Path (Zero-Friction)
 
-**Target weekly loop (5–10 minutes):**
+#### Target weekly loop (5–10 minutes):
 
 ### Step 1: Generate Plan
+
 - User opens app (returns to Planner by default)
+
 - Taps **Generate Plan**
+
 - Week fills with 7 dinners (respects locked slots)
+
 - Takes 2–3 seconds
 
 ### Step 2: Optionally Tweak
+
 - Reroll individual slots if not feeling them
+
 - Swap to see 3-5 alternatives
+
 - Lock favorites to preserve across future generates
 
 ### Step 3: Next: Shop (Immediately Available)
+
 - No gates, no required reviews
+
 - Sticky bar shows: **[Next: Shop]** and **[💡 Quick Review]**
+
 - Quick Review is optional optimization (save money)
 
 ### Step 4: Checkout / Export
+
 - CSV download
+
 - Text list for manual shopping
 
 ### Step 5: Mark Purchased (Auto Where Possible)
+
 - After export/shopping, one-tap confirmation: "Did you get everything?" [Yes]
+
 - Not item-by-item; bulk confirm or skip
 
 ### Step 6: Cook (Throughout Week)
+
 - On cooking day, tap **Start Cooking**
+
 - Follow step-by-step instructions
+
 - Mark **Cooked** when done → auto-deducts ingredients
 
 ### Step 7: Recap (Optional)
+
 - After cooking or at end of week
+
 - Thumbs/favorites teach taste
+
 - Dismissible; feedback is optional
 
-**Time breakdown:**
+#### Time breakdown:
+
 - Generate + tweak: 2–3 minutes
+
 - Quick Review (if used): 2–3 minutes
+
 - Checkout: 1 minute
+
 - **Total: 5–7 minutes per week**
 
 ---
 
 ## 4) Navigation Model
 
-**Two-Stop Train + Drawer:**
+#### Two-Stop Train + Drawer:
 
-```
+``` text
 Plan ←→ Shop
   ↓
 Quick Review (drawer)
 Swap Options (drawer)
 Recipe Details (drawer)
 Pantry (drawer, optional)
-```
+``` text
 
-**Primary Navigation:**
+#### Primary Navigation:
+
 - **Plan** (Home) ←→ **Shop** (horizontal swipe or tabs)
+
 - All other surfaces are drawers or full-screen modals
 
-**Header (Always Visible):**
-```
+#### Header (Always Visible):
+``` text
 [☰ Menu] VibeMeals • This Week [Week Picker]
-```
+``` text
 
-**Menu (Hamburger):**
+#### Menu (Hamburger):
+
 - Profile / Settings
+
 - Pantry (optional)
+
 - Past Plans (history)
+
 - Help / Feedback
+
 - Sign Out
 
-**Week Picker:**
+#### Week Picker:
+
 - Tap to open: Current + next 3 weeks
+
 - Active week has green indicator
+
 - Future weeks show "Draft" badge
+
 - Preflight/reminders only fire for Active Week
 
-**Rationale:**
+#### Rationale:
+
 - Maximal clarity: One big CTA per stop (Generate Plan, Next: Shop, Checkout)
+
 - Drawers feel like "mini-assistants," not separate chore pages
+
 - Back/forward never strands the user in an unclear state
 
 ---
@@ -663,20 +799,29 @@ Pantry (drawer, optional)
 
 ### 5.1 Slot Actions (Lock, Swap, Reroll, Expand)
 
-**Lock 🔒**
+#### Lock 🔒
+
 - **Purpose:** Preserve this meal across future Generate Plan actions
+
 - **Visual:** Lock icon appears on card; button toggles to "Unlock"
+
 - **Behavior:** Locked slots are skipped during Generate Plan; user must manually change
 
-**Swap 🔄**
+#### Swap 🔄
+
 - **Purpose:** "I don't like *this* recipe; show me similar options"
+
 - **Behavior:** Opens drawer with 3-5 alternatives:
+
   - Same time band
+
   - Similar vibes/cuisine
+
   - Different enough to feel like a choice
+
 - **Drawer layout:**
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ ← Swap Options          Spicy Tacos │
 │ ───────────────────────────────────│
@@ -699,38 +844,55 @@ Pantry (drawer, optional)
 │                                      │
 │ [Cancel]                             │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Reroll 🎲**
+#### Reroll 🎲
+
 - **Purpose:** "Surprise me with something completely different"
+
 - **Behavior:** Generates new recipe using deterministic seed `(user, week, slot, attempt_n)`
+
 - **Visual:** Quick fade animation; new recipe slides in
+
 - **Undo:** Global undo stack preserves previous recipe
 
-**Expand 📖**
+#### Expand 📖
+
 - **Purpose:** See full recipe details before committing
+
 - **Behavior:** Opens full-height drawer with:
+
   - Full ingredient list (scaled to servings)
+
   - Complete step-by-step instructions
+
   - Estimated time, difficulty, equipment needed
+
   - Nutritional info (if available)
+
   - "Start Cooking" button
+
 - **User can start cooking from here** without leaving drawer
 
 ---
 
 ### 5.2 Generate Plan Behavior
 
-**First Generate (No Prior Plan):**
+#### First Generate (No Prior Plan):
+
 - Fills all 7 slots with recipes
+
 - Uses household preferences (servings, time, diet flags)
+
 - Respects repeat guard (no repeats from last 21 days)
+
 - Takes 2–3 seconds
 
-**Subsequent Generate (Plan Exists):**
+#### Subsequent Generate (Plan Exists):
+
 - Shows confirmation if user has already shopped:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Regenerate Plan?                     │
 │ ───────────────────────────────────│
@@ -739,17 +901,19 @@ Pantry (drawer, optional)
 │                                      │
 │ [Cancel] [Generate Anyway]          │
 └─────────────────────────────────────┘
-```
+``` text
 
 - Respects **locked slots** (doesn't overwrite)
+
 - Replaces unlocked slots with new recipes
+
 - Resets Quick Review state
 
-**Edge Case: No Recipes Match Constraints**
+#### Edge Case: No Recipes Match Constraints
 
 If system can't find enough recipes:
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Couldn't Fill Week                   │
 │ ───────────────────────────────────│
@@ -763,31 +927,42 @@ If system can't find enough recipes:
 │                                      │
 │ [Try Again] [Pick Manually]         │
 └─────────────────────────────────────┘
-```
+``` text
 
 ---
 
 ### 5.3 Quick Review Interaction
 
-**Opening:**
+#### Opening:
+
 - Taps "Quick Review" from sticky bar
+
 - Drawer slides up from bottom (full-height on mobile, centered modal on desktop)
 
-**Item States:**
+#### Item States:
+
 - **Default:** Checked (will add to list)
+
 - **Unchecked:** "We have this" or "Use leftovers" (removes from list)
 
-**Smart Suggestions:**
+#### Smart Suggestions:
+
 - System pre-checks items it thinks user needs
+
 - Pre-unchecks items it's confident they have (e.g., bought last week, not used)
 
-**Savings Calculation:**
+#### Savings Calculation:
+
 - Real-time update: "Save ~$12" updates as user toggles items
+
 - Based on estimated item prices from store API
 
-**Closing:**
+#### Closing:
+
 - **Skip for now** → No changes, proceeds with full list
+
 - **Done** → Saves changes, updates shopping list, shows toast
+
 - **X (close)** → Same as "Skip for now"
 
 ---
@@ -796,22 +971,27 @@ If system can't find enough recipes:
 
 **Philosophy:** Never punish exploration; all actions are reversible
 
-**Undo Stack:**
+#### Undo Stack:
+
 - Tracks last 10 actions: rerolls, swaps, generate plan, mark cooked
+
 - Accessible via toast or dedicated undo button
 
-**Toast Example (After Reroll):**
+#### Toast Example (After Reroll):
 
-```
+``` text
 ┌─────────────────────────────────────┐
 │ Changed Monday's dinner              │
 │ [Undo]                               │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Global Undo Button:**
+#### Global Undo Button:
+
 - Visible in header (faint, non-intrusive)
+
 - Shows tooltip: "Undo last change"
+
 - Disabled when stack is empty
 
 ---
@@ -820,11 +1000,16 @@ If system can't find enough recipes:
 
 ### 6.1 Voice & Tone
 
-**Principles:**
+#### Principles:
+
 - **Human, not corporate:** "I'm not sure if you already have these things" not "Low confidence items detected"
+
 - **Concise:** Short sentences, big buttons, clear outcomes
+
 - **Explain why:** "We're asking about this because we've never seen you buy it before"
+
 - **No jargon:** Avoid technical terms like "confidence bins," "slot state," "deterministic seed"
+
 - **Assume tired:** Users are making decisions at the end of a long day
 
 ### 6.2 Button Labels
@@ -853,8 +1038,8 @@ If system can't find enough recipes:
 
 ### 6.3 Empty States
 
-**Planner (No Plan):**
-```
+#### Planner (No Plan):
+``` text
 ┌─────────────────────────────────────┐
 │                                      │
 │  📅                                  │
@@ -866,10 +1051,10 @@ If system can't find enough recipes:
 │  [Generate Plan]                     │
 │                                      │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Shopping (No Plan Yet):**
-```
+#### Shopping (No Plan Yet):
+``` text
 ┌─────────────────────────────────────┐
 │                                      │
 │  🛒                                  │
@@ -881,10 +1066,10 @@ If system can't find enough recipes:
 │  [Go to Planner]                     │
 │                                      │
 └─────────────────────────────────────┘
-```
+``` text
 
-**Pantry (Empty):**
-```
+#### Pantry (Empty):
+``` text
 ┌─────────────────────────────────────┐
 │                                      │
 │  📦                                  │
@@ -897,34 +1082,37 @@ If system can't find enough recipes:
 │  [+ Add Item]                        │
 │                                      │
 └─────────────────────────────────────┘
-```
+``` text
 
 ### 6.4 Error Messages
 
-**Shopping Export Failure:**
-```
+#### Shopping Export Failure:
+``` text
 Shopping export isn't available right now.
 Here's your list as a CSV instead.
 [Download CSV]
-```
+``` text
 
-**Recipe Missing Ingredients:**
-```
+#### Recipe Missing Ingredients:
+``` text
 This recipe needs an ingredient we don't
 have in stores yet. Want to swap?
 [Pick a Different Recipe] [Keep It]
-```
+``` text
 
-**Network Failure:**
-```
+#### Network Failure:
+``` text
 Couldn't connect to VibeMeals.
 Check your internet and try again.
 [Retry]
-```
+``` text
 
-**All errors:**
+#### All errors:
+
 - Short, plain language
+
 - Clear next action
+
 - No blame ("you did X wrong"), no technical jargon
 
 ---
@@ -933,65 +1121,93 @@ Check your internet and try again.
 
 ### 7.1 Keyboard Navigation
 
-**Requirements:**
+#### Requirements:
+
 - Full keyboard path through all surfaces
+
 - Visible focus states (2px outline, high contrast)
+
 - Logical tab order (top to bottom, left to right)
+
 - Escape key closes drawers and modals
+
 - Enter/Space activates buttons
 
-**Focus Trap:**
+#### Focus Trap:
+
 - Drawers (Quick Review, Swap Options, etc.) trap focus while open
+
 - Background content is inert (`aria-hidden="true"`)
+
 - Escape key returns focus to trigger element
 
 ### 7.2 Screen Readers
 
-**ARIA Labels:**
+#### ARIA Labels:
+
 - All buttons have clear labels: `aria-label="Lock this recipe"`
+
 - Drawers: `aria-labelledby="drawer-title"` and `role="dialog"`
+
 - Form inputs: Associated with labels via `for` attribute
 
-**Live Regions:**
+#### Live Regions:
+
 - Toast notifications: `aria-live="polite"`
+
 - Loading states: `aria-busy="true"` and `aria-live="polite"`
+
 - Sticky bar state changes: Announced via `aria-live`
 
-**Example:**
+#### Example:
 ```html
 <div role="status" aria-live="polite" aria-atomic="true">
   Week is ready! 7 dinners added.
 </div>
-```
+``` text
 
 ### 7.3 Visual
 
-**Color Contrast:**
+#### Color Contrast:
+
 - WCAG AA minimum (4.5:1 for text)
+
 - Status chips use color + icon (not color alone)
 
-**Text Size:**
+#### Text Size:
+
 - Base: 16px minimum
+
 - Headers: 20–24px
+
 - Buttons: 16–18px
 
-**Touch Targets:**
+#### Touch Targets:
+
 - Minimum 44×44px (mobile)
+
 - Adequate spacing between tappable elements
 
 ### 7.4 Mobile-First
 
-**Design for small screens first:**
+#### Design for small screens first:
+
 - Vertical scrolling (not horizontal)
+
 - Full-width buttons at bottom (sticky)
+
 - Large touch targets
+
 - Minimal text input (use pickers/buttons)
 
-**Responsive breakpoints:**
+#### Responsive breakpoints:
+
 - Mobile: <768px (default)
+
 - Tablet: 768–1024px (2-column grid)
+
 - Desktop: >1024px (3-column grid, sidebar navigation)
 
 ---
 
-*[Back to Index](index.md)*
+#### [Back to Index](index.md)
