@@ -12,6 +12,8 @@
     "report:golden": "tsx scripts/report-golden-coverage.ts",
     "dev:preview-week": "tsx src/dev/preview-week.ts",
     "dev:preview-planner": "tsx src/dev/preview-planner.ts"
+    ,"lint:md": "markdownlint-cli --ignore-path .markdownlintignore \"docs/**/*.md\""
+    ,"lint:md:strict": "markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\""
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

@@ -11,7 +11,7 @@
 **Wired to:** Vision §13.1 (v1 Thin Slice), spec-today.md §2, G1  
 **Depends on:** Planner P2 (need a plan to show tonight's dinner)
 
-#### Description:
+### Description
 
 Build the core Today UI shell and wire it to the current plan:
 
@@ -29,11 +29,11 @@ Build the core Today UI shell and wire it to the current plan:
 
 * Tomorrow preview strip (stub is fine initially, full implementation in T9)
 
-#### Acceptance Criteria:
+### Acceptance Criteria
 
-* **Given** there is a dinner planned for tonight  
-  **When** I open Today  
-  **Then** I see:
+* **Given** there is a dinner planned for tonight
+  * **When** I open Today
+  * **Then** I see:
 
   * Header like "Today – Monday"
 
@@ -68,7 +68,7 @@ Build the core Today UI shell and wire it to the current plan:
 **Wired to:** G1, spec-today.md §3.2  
 **Depends on:** T1
 
-#### Description:
+#### Description
 
 Compute and surface a simple preflight status for tonight's dinner using metadata from the plan/recipes:
 
@@ -78,7 +78,7 @@ Compute and surface a simple preflight status for tonight's dinner using metadat
 
 This is a simple v1 "is tonight actually viable?" check feeding the Today preflight card.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** tonight's recipe has no preflight requirements  
   **When** I open Today  
@@ -109,7 +109,7 @@ This is a simple v1 "is tonight actually viable?" check feeding the Today prefli
 **Wired to:** G1, spec-cooking.md  
 **Depends on:** T1, Cooking Mode C1
 
-#### Description:
+### Description
 
 Connect Today's **[Start Cooking]** button to a Cooking Mode experience for tonight's recipe:
 
@@ -121,12 +121,12 @@ Connect Today's **[Start Cooking]** button to a Cooking Mode experience for toni
 
 (Cooking Mode itself can be minimal for v1; this ticket is about the handoff.)
 
-#### Acceptance Criteria:
+### Acceptance Criteria
 
-* **Given** there is a dinner planned for tonight  
+* **Given** there is a dinner planned for tonight
 
-#### When** I tap **[Start Cooking]
-  **Then**:
+* **When** I tap **[Start Cooking]**
+  * **Then**:
 
   * I am taken to a Cooking Mode view for that recipe
 
@@ -134,10 +134,10 @@ Connect Today's **[Start Cooking]** button to a Cooking Mode experience for toni
 
   * I see the time band label somewhere (e.g., "Fast · ~25 min")
 
-* **Given** there is **no** dinner planned for tonight  
+* **Given** there is **no** dinner planned for tonight
 
-#### When** I tap **[Start Cooking]
-  **Then**:
+* **When** I tap **[Start Cooking]**
+  * **Then**:
 
   * The button is disabled or not shown
 
@@ -152,7 +152,7 @@ Connect Today's **[Start Cooking]** button to a Cooking Mode experience for toni
 **Wired to:** G1, spec-today.md §3.2  
 **Depends on:** T2 (preflight state engine)
 
-#### Description:
+#### Description
 
 When preflight is MISSED, Today should show a warning and give a minimal set of options:
 
@@ -162,7 +162,7 @@ When preflight is MISSED, Today should show a warning and give a minimal set of 
 
 * Use a backup/simple alternative (if we support this for v1)
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** tonight's preflight is in MISSED state  
   **When** I open Today  
@@ -177,32 +177,34 @@ When preflight is MISSED, Today should show a warning and give a minimal set of 
     * Move this dinner
 
 #### **Given** I choose **Swap tonight's dinner*
+
   **Then**:
 
-  * I see 1–3 alternative recipes:
+* I see 1–3 alternative recipes:
 
-    * That do not require the missed preflight
+  * That do not require the missed preflight
 
-    * That are at most the same time band (or easier)
+  * That are at most the same time band (or easier)
 
-  * If I pick one:
+* If I pick one:
 
-    * Tonight's recipe in the plan is updated
+  * Tonight's recipe in the plan is updated
 
-    * Today immediately reflects the new recipe/info
+  * Today immediately reflects the new recipe/info
 
-    * Planner is updated behind the scenes
+  * Planner is updated behind the scenes
 
 #### **Given** I choose **Move this dinner*
+
   **Then**:
 
-  * I can pick a later day this week
+* I can pick a later day this week
 
-  * Tonight becomes open/empty in the plan
+* Tonight becomes open/empty in the plan
 
-  * The selected later day gets this dinner
+* The selected later day gets this dinner
 
-  * Today view for tonight now shows "No dinner planned for tonight" or a suitable fallback
+* Today view for tonight now shows "No dinner planned for tonight" or a suitable fallback
 
 * Tone requirement: no copy implying "you failed; you should have thawed sooner"; messages are neutral/supportive
 
@@ -215,7 +217,7 @@ When preflight is MISSED, Today should show a warning and give a minimal set of 
 **Wired to:** G4, G6, spec-today.md §3.3  
 **Depends on:** T1
 
-#### Description:
+#### Description
 
 Support the "I don't have energy for this" path:
 
@@ -223,22 +225,23 @@ Support the "I don't have energy for this" path:
 
 * Swap tonight's dinner if the user chooses one
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** there is a dinner planned for tonight  
 
-#### When** I tap **[Too much for today → Easier option]
+#### When**I tap**[Too much for today → Easier option]
+
   **Then**:
 
-  * I see a small list of 1–3 suggested alternatives
+* I see a small list of 1–3 suggested alternatives
 
-  * Each alternative shows:
+* Each alternative shows:
 
-    * Name
+  * Name
 
-    * Time band
+  * Time band
 
-    * Short effort description (e.g., "~20 min, 1 pan")
+  * Short effort description (e.g., "~20 min, 1 pan")
 
 * **Given** I select one of those alternatives  
   **Then**:
@@ -265,7 +268,7 @@ Support the "I don't have energy for this" path:
 **Wired to:** G4, spec-today.md §3.4  
 **Depends on:** T1
 
-#### Description:
+#### Description
 
 Allow users to mark tonight as "out" and decide what to do with the planned dinner:
 
@@ -273,21 +276,22 @@ Allow users to mark tonight as "out" and decide what to do with the planned dinn
 
 * Or drop it from the plan
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** there is a dinner planned for tonight  
 
-#### When** I tap **[We're eating out instead]
+#### When**I tap**[We're eating out instead]
+
   **Then**:
 
-  * Tonight's slot is marked as "Out / Skipped" in Today
+* Tonight's slot is marked as "Out / Skipped" in Today
 
-  * I see a simple prompt:
+* I see a simple prompt:
     "What should we do with tonight's planned dinner?"
 
-    * [Move it to another day this week]
+  * [Move it to another day this week]
 
-    * [Leave it off the plan]
+  * [Leave it off the plan]
 
 * **Given** I choose "Move it to another day this week" and pick a day  
   **Then**:
@@ -318,11 +322,11 @@ Allow users to mark tonight as "out" and decide what to do with the planned dinn
 **Wired to:** G4  
 **Depends on:** T1, Planner P3 (swap logic)
 
-#### Description:
+#### Description
 
 Provide a small "Change tonight's dinner" link/CTA that lets users quickly swap tonight without going back to Planner.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** there is a dinner planned for tonight  
   **Then** I see a subtle link or button like "Change tonight's dinner"
@@ -361,11 +365,11 @@ Provide a small "Change tonight's dinner" link/CTA that lets users quickly swap 
 **Wired to:** spec-today.md §2  
 **Depends on:** T1
 
-#### Description:
+#### Description
 
 Show a small, non-intrusive preview of tomorrow's dinner and any notable preflight needs.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** there is a dinner planned for tomorrow  
   **When** I open Today  
@@ -394,11 +398,11 @@ Show a small, non-intrusive preview of tomorrow's dinner and any notable preflig
 **Wired to:** Vision §4.1 (Tone & Emotional Contract)  
 **Depends on:** All prior Today tickets
 
-#### Description:
+#### Description
 
 Audit all Today view copy against the Tone & Emotional Contract (Vision §4.1).
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** I hit the missed preflight state  
   **Then** the text focuses on "here are your options" and not "you forgot / failed"

@@ -23,7 +23,7 @@ Planner is the **once-a-week control room**.
 
 - It is where week shapes, constraints, and learning show up as **dinners in slots**, not config.
 
-#### Golden tests:
+#### Golden tests
 
 - **G1:** Tonight is actually cookable  
 
@@ -125,37 +125,37 @@ Planner output is a **week of dinners** aligned to the **week shapes** in `visio
 
 1. User opens Planner → sees an empty hint view based on mode:
 
-  - Family: "Let's plan 4–6 dinners this week."
+- Family: "Let's plan 4–6 dinners this week."
 
-  - Solo: "Let's plan 2–3 solid dinners this week."
+- Solo: "Let's plan 2–3 solid dinners this week."
 
-2. User taps **[Generate Plan]**.
+1. User taps **[Generate Plan]**.
 
-3. System:
+2. System:
 
-  - Applies week shape for their mode (vision §5.2)
+- Applies week shape for their mode (vision §5.2)
 
-  - Picks recipes that:
+- Picks recipes that:
 
-    - Fit time bands (Fast/Normal/Project mix)
+  - Fit time bands (Fast/Normal/Project mix)
 
-    - Respect constraints (diet, equipment, ability)
+  - Respect constraints (diet, equipment, ability)
 
-    - Avoid recent repeats
+  - Avoid recent repeats
 
-4. Grid populates with dinner cards per night.
+1. Grid populates with dinner cards per night.
 
-5. User tweaks:
+2. User tweaks:
 
-  - Swap / Reroll on a card:
+- Swap / Reroll on a card:
 
-    - **Swap:** choose from a small set (2–4) of suitable alternatives.
+  - **Swap:** choose from a small set (2–4) of suitable alternatives.
 
-    - **Reroll:** one-tap "similar vibe, different recipe."
+  - **Reroll:** one-tap "similar vibe, different recipe."
 
-  - Lock slots they're happy with.
+- Lock slots they're happy with.
 
-6. User taps **[Next: Shop]** to proceed.
+1. User taps **[Next: Shop]** to proceed.
 
 #### Acceptance
 
@@ -169,7 +169,7 @@ Planner output is a **week of dinners** aligned to the **week shapes** in `visio
 
 Users can adjust the current week without redoing everything.
 
-#### Per-card actions:
+#### Per-card actions
 
 - **Swap**
 
@@ -195,7 +195,7 @@ Users can adjust the current week without redoing everything.
 
   - Clears that day's dinner (marked as "Open" / "Leftovers / Out").
 
-#### Plan stability (from `vision.md` §7.X):
+#### Plan stability (from `vision.md` §7.X)
 
 - If the user has **not** yet completed the main shop:
 
@@ -220,7 +220,7 @@ Users can adjust the current week without redoing everything.
 
 Planner must support intentionally lighter weeks (G4).
 
-#### Mechanism (v1 can be simple):
+#### Mechanism (v1 can be simple)
 
 - A small "This Week" control (dropdown or slider):
 
@@ -238,7 +238,7 @@ Planner must support intentionally lighter weeks (G4).
 
   - Large: 3–5
 
-#### Behavior:
+#### Behavior
 
 - When user reduces count and regenerates:
 

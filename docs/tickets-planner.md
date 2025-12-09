@@ -10,7 +10,7 @@
 **Priority:** Critical (blocks all other Planner work)  
 **Wired to:** Vision §13.1 (v1 Thin Slice), spec-planner.md §3
 
-#### Description:
+#### Description
 
 Build the core Planner UI shell:
 
@@ -22,7 +22,7 @@ Build the core Planner UI shell:
 
 * Week summary panel with dinner counts, time band breakdown, preflight overview, and **Next: Shop** CTA.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** I open Planner with no plan generated  
   **Then** I see:
@@ -61,46 +61,39 @@ Build the core Planner UI shell:
 **Wired to:** Vision §5.2 (Week Shapes), §8 (Recipe Catalog), G1, G2  
 **Depends on:** P1
 
-#### Description:
+### Description
 
 Wire **[Generate Plan]** to create a week of dinners based on:
 
 * Household mode
-
 * Headcount
-
 * Target dinners/week
-
 * Time band preferences
-
 * Constraints (e.g., no pork, no gluten)
 
 Apply **week shapes** from Vision §5.2 to determine **how many** dinners to generate and their time band mix.
 
-#### Acceptance Criteria:
+### Acceptance Criteria
 
-* **Given** a family household (mode: Family, headcount: 4, target dinners: 5) and an empty week  
+* **Given** a family household (mode: Family, headcount: 4, target dinners: 5) and an empty week
+  * **When** I click **Generate Plan**
+  * **Then** the grid is populated with ~5 dinners distributed across the week, not forced into all 7 nights.
 
-#### When** I click **Generate Plan
-  **Then** the grid is populated with ~5 dinners distributed across the week, not forced into all 7 nights.
+* **Given** a solo household (mode: Solo, target dinners: 3)
+  * **When** I click **Generate Plan**
+  * **Then** only 2–4 dinners are filled (per Solo week shape), with the remaining days left empty.
 
-* **Given** a solo household (mode: Solo, target dinners: 3)  
+* **Given** a household with "no pork" constraint
+  * **When** I click **Generate Plan**
+  * **Then** no dinner card includes any recipe tagged with pork as a main protein.
 
-#### When** I click **Generate Plan
-  **Then** only 2–4 dinners are filled (per Solo week shape), with the remaining days left empty.
+* **Given** a new user generating a plan for the first time
+  * **Then** the full flow from landing in Planner → **Generate Plan** → seeing a filled week is achievable with no more than a couple of clicks and no required multi-step wizard (supports G2: ≤10 min planning).
 
-* **Given** a household with "no pork" constraint  
-
-#### When** I click **Generate Plan
-  **Then** no dinner card includes any recipe tagged with pork as a main protein.
-
-* **Given** a new user generating a plan for the first time  
-  **Then** the full flow from landing in Planner → **Generate Plan** → seeing a filled week is achievable with no more than a couple of clicks and no required multi-step wizard (supports G2: ≤10 min planning).
-
-* **Given** Generate Plan fails (no recipes match constraints, service timeout, etc.)  
-  **Then** I see a clear error message ("We couldn't build a plan right now. Try again?")  
-  **And** the grid remains in its prior state (empty or partially filled)  
-  **And** I can retry without losing any locked slots.
+* **Given** Generate Plan fails (no recipes match constraints, service timeout, etc.)
+  * **Then** I see a clear error message ("We couldn't build a plan right now. Try again?")
+  * **And** the grid remains in its prior state (empty or partially filled)
+  * **And** I can retry without losing any locked slots.
 
 ---
 
@@ -111,7 +104,7 @@ Apply **week shapes** from Vision §5.2 to determine **how many** dinners to gen
 **Wired to:** G2, G4  
 **Depends on:** P2
 
-#### Description:
+#### Description
 
 For each planned dinner card, add actions:
 
@@ -127,25 +120,27 @@ Suggestions must respect:
 
 * Household mode context
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** a planned dinner card  
 
-#### When** I click **Swap
+#### When**I click**Swap
+
   **Then** I see a small panel with 2–4 alternative recipes that:
 
-  * Fit the same or easier time band
+* Fit the same or easier time band
 
-  * Respect my constraints
+* Respect my constraints
 
-  * Are not obvious duplicates of the current recipe
+* Are not obvious duplicates of the current recipe
 
 * **Given** I select one of those alternatives  
   **Then** the existing card is replaced with the selected recipe, and the summary panel updates accordingly.
 
 * **Given** a planned dinner card  
 
-#### When** I click **Reroll
+#### When**I click**Reroll
+
   **Then** the recipe on that card is replaced with another of similar type (e.g., tacos ↔ burrito bowls), with no additional UI required.
 
 * **Given** I Swap or Reroll  
@@ -160,7 +155,7 @@ Suggestions must respect:
 **Wired to:** Vision §7.X (Plan Stability), G4  
 **Depends on:** P2
 
-#### Description:
+#### Description
 
 Allow users to lock specific dinners they like. When **Regenerate** is used:
 
@@ -170,7 +165,7 @@ Allow users to lock specific dinners they like. When **Regenerate** is used:
 
 Later, this works together with the "main shop done" flag (P7).
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** a week with several planned dinners  
   **When** I click a "lock" control on a dinner card  
@@ -178,16 +173,18 @@ Later, this works together with the "main shop done" flag (P7).
 
 * **Given** at least one locked and at least one unlocked dinner  
 
-#### When** I click **Regenerate
+#### When**I click**Regenerate
+
   **Then**:
 
-  * All locked dinners remain unchanged.
+* All locked dinners remain unchanged.
 
-  * Only unlocked dinners may change to new recipes.
+* Only unlocked dinners may change to new recipes.
 
 #### **Given** a week with **all slots locked*
 
-#### When** I click **Regenerate
+#### When**I click**Regenerate
+
   **Then** nothing changes (no cards are updated).
 
 ---
@@ -199,7 +196,7 @@ Later, this works together with the "main shop done" flag (P7).
 **Wired to:** G1 (Tonight is cookable)  
 **Depends on:** P2
 
-#### Description:
+#### Description
 
 Surface preflight requirements (thaw, marinate, etc.):
 
@@ -209,7 +206,7 @@ Surface preflight requirements (thaw, marinate, etc.):
 
 This is a preview only; detailed handling lives in Today/Cooking Mode.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** a recipe that requires thawing the night before  
   **When** it appears as a dinner card  
@@ -231,16 +228,17 @@ This is a preview only; detailed handling lives in Today/Cooking Mode.
 **Wired to:** Vision §5.2 (Week Shapes), G4  
 **Depends on:** P2
 
-#### Description:
+#### Description
 
 Expose a control that lets users select how many dinners they want covered this week (within a sane range per mode). Feed this directly into Generate/Regenerate logic.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** I'm on Planner as a family household  
   **Then** I see a control like: `Dinners this week: [ 3  4  5  6  7 ]` (or a slider/dropdown) with a default derived from my week shape.
 
 #### **Given** I change that control from 5 → 3 and click **Regenerate*
+
   **Then** only 3 dinner slots are filled and the other nights are visibly "open" (leftovers / out), with no guilt-y copy.
 
 * **Given** I am a solo user  
@@ -255,7 +253,7 @@ Expose a control that lets users select how many dinners they want covered this 
 **Wired to:** Vision §7.X (Plan Stability), G4  
 **Depends on:** P4, P2
 
-#### Description:
+#### Description
 
 Once the user has shopped for the current plan (triggered from Shop or a simple flag in Planner), regenerating must:
 
@@ -265,7 +263,7 @@ Once the user has shopped for the current plan (triggered from Shop or a simple 
 
 * Prefer not to change already-shopped-for dinners unless explicitly requested.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** I've created a plan and exported the shopping list  
   **When** the system sets or I manually set "I've shopped for this plan"  
@@ -273,15 +271,16 @@ Once the user has shopped for the current plan (triggered from Shop or a simple 
 
 * **Given** my week is marked "shopped" and there are some unlocked slots  
 
-#### When** I click **Regenerate
+#### When**I click**Regenerate
+
   **Then**:
 
-  * I see a modal warning:  
+* I see a modal warning:  
     "This will change your shopping list. You may need to adjust your cart. Continue?"
 
-  * If I cancel, nothing changes.
+* If I cancel, nothing changes.
 
-  * If I confirm, only **unlocked** slots may update.
+* If I confirm, only **unlocked** slots may update.
 
 * **Given** my week is marked "shopped"  
   **Then** no background/automatic changes occur to dinners without explicit user action (Swap/Reroll/Move/Delete), satisfying Plan Stability from Vision.
@@ -295,11 +294,11 @@ Once the user has shopped for the current plan (triggered from Shop or a simple 
 **Wired to:** G4  
 **Depends on:** P2
 
-#### Description:
+#### Description
 
 Allow users to move dinners across days and delete dinners entirely. Ensure the week summary (dinner count, time band mix) updates immediately.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** a planned dinner on Wednesday  
   **When** I drag it to Friday (or use a "Move to Friday" action)  
@@ -328,7 +327,7 @@ Allow users to move dinners across days and delete dinners entirely. Ensure the 
 **Wired to:** Vision §4.1 (Tone & Emotional Contract)  
 **Depends on:** All prior Planner tickets
 
-#### Description:
+#### Description
 
 Review all user-facing copy in Planner against Vision §4.1 (Tone & Emotional Contract). Ensure:
 
@@ -338,7 +337,7 @@ Review all user-facing copy in Planner against Vision §4.1 (Tone & Emotional Co
 
 * Planning feels like a small check-in, not an exam.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** I configure a lighter week (fewer dinners)  
   **Then** I see neutral or supportive copy (e.g., "Planning 3 dinners this week") and **not** any "only" or "should" phrasing.

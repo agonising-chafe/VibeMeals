@@ -1,0 +1,11 @@
+{
+  "MD013": false,
+  "MD024": { "siblings_only": true },
+  "MD051": false,
+
+  // Re-enable stricter rules for an audit pass
+  "MD001": true,
+  "MD026": true,
+  "MD040": true,
+  "MD024": true
+}

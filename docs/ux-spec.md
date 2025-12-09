@@ -29,7 +29,7 @@
 
 **Purpose:** Answer "What are we eating this week, and how heavy is each night?"
 
-#### Layout:
+#### Layout
 
 - 7-day vertical grid (mobile-first)
 
@@ -37,7 +37,7 @@
 
 - Week selector in header with left/right arrows
 
-#### Slot Anatomy:
+#### Slot Anatomy
 
 ``` text
 ┌─────────────────────────────────────┐

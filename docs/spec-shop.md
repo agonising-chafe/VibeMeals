@@ -23,7 +23,7 @@ Shop is the **bridge between Plan and Store**.
 
 - Secondary: Offer a **small, optional Quick Review** to save money and reduce waste (G5).
 
-#### Golden tests:
+#### Golden tests
 
 - **G2:** Planning is a 5–10 min check-in (shopping list generation must be fast)
 
@@ -113,21 +113,21 @@ Collapsible area:
 
 1. System:
 
-  - Expands recipes → ingredients with quantities for household size.
+- Expands recipes → ingredients with quantities for household size.
 
-  - Consolidates duplicates:
+- Consolidates duplicates:
 
-    - e.g., `1 onion` + `2 onions` → `3 onions`.
+  - e.g., `1 onion` + `2 onions` → `3 onions`.
 
-  - Maps ingredients to generic product specs:
+- Maps ingredients to generic product specs:
 
-    - "Chicken breast, boneless skinless (~2 lb)"
+  - "Chicken breast, boneless skinless (~2 lb)"
 
-2. UI:
+1. UI:
 
-  - Renders grouped list with quantities and context.
+- Renders grouped list with quantities and context.
 
-#### Guardrails (G3):
+#### Guardrails (G3)
 
 - All **critical ingredients** (proteins, main carbs, main veg, core sauces) must be included by default.
 
@@ -139,31 +139,31 @@ Collapsible area:
 
 **Goal:** Let users save some money / reduce duplicates with **minimal effort**.
 
-#### Flow:
+#### Flow
 
 1. User sees an optional prompt:
 
-  - "Want to save a bit? Quick Review can remove staples you likely have."
+- "Want to save a bit? Quick Review can remove staples you likely have."
 
-2. On opening:
+1. On opening:
 
-  - Show up to ~5–10 items the system believes are staples or likely remaining:
+- Show up to ~5–10 items the system believes are staples or likely remaining:
 
-    - e.g., oil, salt, pepper, basic spices, rice, flour, sugar.
+  - e.g., oil, salt, pepper, basic spices, rice, flour, sugar.
 
-3. For each item:
+1. For each item:
 
-  - Default: "Need it" (keep on list).
+- Default: "Need it" (keep on list).
 
-  - User may choose:
+- User may choose:
 
-    - "Have it" → remove from list.
+  - "Have it" → remove from list.
 
-    - "Not sure" → keep on list.
+  - "Not sure" → keep on list.
 
-4. After Quick Review is closed, list reflects these changes.
+1. After Quick Review is closed, list reflects these changes.
 
-#### Guardrails:
+#### Guardrails
 
 - Quick Review **must never** surface:
 
@@ -180,7 +180,7 @@ Collapsible area:
 
 ### 3.3 Export & Store Integration
 
-#### Behavior:
+#### Behavior
 
 - **[Send to Store App]**
 
@@ -200,7 +200,7 @@ Collapsible area:
 
   - Printer-friendly and plain-text versions.
 
-#### System boundaries (from `vision.md` §15):
+#### System boundaries (from `vision.md` §15)
 
 - VibeMeals does **not**:
 
@@ -214,7 +214,7 @@ Collapsible area:
 
 ### 3.4 Handling Missing Items / Substitutions (v1 Bridge into Today)
 
-#### Scenario:
+#### Scenario
 
 User completes store shop and later realizes:
 
@@ -222,7 +222,7 @@ User completes store shop and later realizes:
 
 - A store substitution is materially different (e.g., turkey instead of chicken).
 
-#### v1 Handling (minimal but explicit):
+#### v1 Handling (minimal but explicit)
 
 - User can mark an item as **missing** or **subbed** in Shop or Today:
 
@@ -234,23 +234,23 @@ User completes store shop and later realizes:
 
   1. Today enters a **"missing ingredient"** state for that meal (similar to missed preflight):
 
-    - "Looks like we don't have chicken for tonight."
+  - "Looks like we don't have chicken for tonight."
 
-  2. Today offers options:
+  1. Today offers options:
 
-    - **Swap tonight's dinner** to a recipe that doesn't need the missing item.
+  - **Swap tonight's dinner** to a recipe that doesn't need the missing item.
 
-    - **Move this dinner** to another day (user can buy missing item later).
+  - **Move this dinner** to another day (user can buy missing item later).
 
-    - **Use a safe fallback**, when known:
+  - **Use a safe fallback**, when known:
 
-      - e.g., "Use ground turkey instead of ground beef" (only if we know this is a safe substitution).
+    - e.g., "Use ground turkey instead of ground beef" (only if we know this is a safe substitution).
 
 - For missing/non-critical items (e.g., garnish):
 
   - Today can suggest continuing with minor adjustments (e.g., "Skip cilantro; recipe will still work").
 
-#### Guardrails:
+#### Guardrails
 
 - We never pretend a missing core ingredient is present.  
 

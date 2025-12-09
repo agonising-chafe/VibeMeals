@@ -3,7 +3,7 @@
 **Status:** Implementation-Ready (Draft → Adopt)  
 **Last Updated:** December 8, 2025  
 
-#### Wired to:
+#### Wired to
 
 - `vision.md` (Golden Tests G1–G6)  
 

@@ -21,7 +21,7 @@ Cooking Mode is the **"actually make the thing"** surface.
 
 - Tertiary: Keep steps simple for ADHD/beginner users (G6).
 
-#### Golden tests:
+#### Golden tests
 
 - **G1:** Tonight is actually cookable (time band promise must hold)
 
@@ -101,11 +101,11 @@ For steps that can run concurrently:
 
 4. Final step includes:
 
-  - "Plate and serve!"
+- "Plate and serve!"
 
-  - **[Done]** button → returns to Today or offers feedback prompt.
+- **[Done]** button → returns to Today or offers feedback prompt.
 
-#### Time band adherence:
+#### Time band adherence
 
 - Steps must be written/ordered so that:
 
@@ -115,7 +115,7 @@ For steps that can run concurrently:
 
   - Project recipes: >50 min, clearly communicated upfront
 
-#### Guardrails (G1):
+#### Guardrails (G1)
 
 - If actual execution routinely exceeds promised time band, recipe must be retagged or steps rewritten.
 
@@ -131,19 +131,19 @@ For steps that can run concurrently:
 
 - System knows (or user indicates) preflight was not done
 
-#### Then Cooking Mode must:
+#### Then Cooking Mode must
 
 1. Pause at that step.
 
 2. Show clear message:
 
-  - ⚠️ "It looks like the chicken wasn't marinated. This recipe won't work as planned."
+- ⚠️ "It looks like the chicken wasn't marinated. This recipe won't work as planned."
 
-3. Offer escape options:
+1. Offer escape options:
 
-  - **[Go back to Today]** → triggers Today's "missed preflight" flow (swap/move/backup).
+- **[Go back to Today]** → triggers Today's "missed preflight" flow (swap/move/backup).
 
-  - **[Try to continue anyway]** (only if safe; otherwise hide this option).
+- **[Try to continue anyway]** (only if safe; otherwise hide this option).
 
 **Tone:** Supportive, not blaming (vision §4.1).
 
@@ -155,7 +155,7 @@ For steps that can run concurrently:
 
 - User is mid-cook and realizes they don't have time/energy to finish
 
-#### Then Cooking Mode provides:
+#### Then Cooking Mode provides
 
 - **[Pause / Exit]** button always visible.
 
@@ -167,7 +167,7 @@ For steps that can run concurrently:
 
     - [Switch to easier option] → returns to Today's "Too much tonight" flow
 
-#### Guardrails:
+#### Guardrails
 
 - Exit must be guilt-free and low-friction (1-2 taps).
 
@@ -193,7 +193,7 @@ For parallel steps:
 
   - Step 4: "Meanwhile, chop vegetables."
 
-#### v1 scope:
+#### v1 scope
 
 - Text-based cues are sufficient.
 

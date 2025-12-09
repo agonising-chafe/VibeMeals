@@ -1,6 +1,6 @@
 # VibeMeals Changelog
 
-#### Living Document Version History
+## Living Document Version History
 
 ---
 

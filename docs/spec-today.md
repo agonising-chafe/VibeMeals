@@ -25,7 +25,7 @@ Today is the **"do it tonight"** surface.
 
 - It is not a planning or config view.
 
-#### Golden tests:
+#### Golden tests
 
 - **G1:** Tonight is actually cookable
 
@@ -96,7 +96,7 @@ Small strip:
 
 - No unmet preflight requirements for tonight
 
-#### Then Today shows:
+#### Then Today shows
 
 - ✅ "You're all set for tonight."
 
@@ -104,7 +104,7 @@ Small strip:
 
 - [Start Cooking], [Too much → Easier], [We're eating out instead]
 
-#### Actions:
+#### Actions
 
 - **Start Cooking**
 
@@ -132,7 +132,7 @@ Small strip:
 
 - Based on fuzzy schedule and/or user input, system believes preflight did not occur
 
-#### Then Today shows:
+#### Then Today shows
 
 - ⚠️ "It looks like we didn't get the chicken thawed in time."
 
@@ -142,15 +142,15 @@ Small strip:
 
   1. **Swap tonight's dinner**  
 
-    - Choose a Fast recipe that doesn't require the missed preflight.
+  - Choose a Fast recipe that doesn't require the missed preflight.
 
-  2. **Move this dinner**  
+  1. **Move this dinner**  
 
-    - Move to a later day and adjust plan accordingly.
+  - Move to a later day and adjust plan accordingly.
 
-  3. **Use a backup (if viable)**  
+  1. **Use a backup (if viable)**  
 
-    - E.g., "Use pantry pasta and jarred sauce tonight instead."
+  - E.g., "Use pantry pasta and jarred sauce tonight instead."
 
 Tone must be supportive and non-blaming (vision §4.1).
 
@@ -158,33 +158,33 @@ Tone must be supportive and non-blaming (vision §4.1).
 
 ### 3.3 "Too Much Tonight → Easier Option"
 
-#### Flow:
+#### Flow
 
 1. User taps **[Too much for today → Easier option]**.
 
 2. System proposes 1–3 easier alternatives, prioritizing:
 
-  - Fast recipes
+- Fast recipes
 
-  - Use of ingredients already purchased
+- Use of ingredients already purchased
 
-  - Dinners that fit tonight's time window
+- Dinners that fit tonight's time window
 
-3. Display each option with:
+1. Display each option with:
 
-  - Time band
+- Time band
 
-  - Approx time (e.g., "~20 min, 1 pan")
+- Approx time (e.g., "~20 min, 1 pan")
 
-4. On selection:
+1. On selection:
 
-  - Tonight's dinner is swapped
+- Tonight's dinner is swapped
 
-  - Planner updated behind the scenes
+- Planner updated behind the scenes
 
-  - Shopping implications minimal (reuse current ingredients when possible)
+- Shopping implications minimal (reuse current ingredients when possible)
 
-#### Guardrails:
+#### Guardrails
 
 - Options list is **small** (1–3), never a big gallery.
 
@@ -194,7 +194,7 @@ Tone must be supportive and non-blaming (vision §4.1).
 
 ### 3.4 "We're Eating Out Instead"
 
-#### Flow:
+#### Flow
 
 1. User taps **[We're eating out instead]**.
 
@@ -202,21 +202,21 @@ Tone must be supportive and non-blaming (vision §4.1).
 
 3. Offers simple follow-up:
 
-  - "What should we do with tonight's planned dinner?"
+- "What should we do with tonight's planned dinner?"
 
-    - [Move it to another day this week]  
+  - [Move it to another day this week]  
 
-    - [Leave it off the plan for now]
+  - [Leave it off the plan for now]
 
-4. If moved:
+1. If moved:
 
-  - Planner updates to reflect the change.
+- Planner updates to reflect the change.
 
-5. If left off:
+1. If left off:
 
-  - The dinner is canceled; leftover ingredients (if any) are handled fuzzily (future learning).
+- The dinner is canceled; leftover ingredients (if any) are handled fuzzily (future learning).
 
-#### Tone:
+#### Tone
 
 - Normalize going out:
 

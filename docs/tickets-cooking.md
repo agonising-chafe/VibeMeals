@@ -11,7 +11,7 @@
 **Wired to:** Vision §13.1 (v1 Thin Slice), spec-cooking.md §2, §3.1, G1  
 **Depends on:** Today T2 (handoff from Today → Cooking)
 
-#### Description:
+### Description
 
 Build Cooking Mode with step-by-step interface:
 
@@ -25,11 +25,11 @@ Build Cooking Mode with step-by-step interface:
 
 * No assumed techniques (explain "dice," "simmer," etc.)
 
-#### Acceptance Criteria:
+### Acceptance Criteria
 
-* **Given** I tap "Start Cooking" on Today view for "Sheet-Pan Chicken & Veg"  
-  **When** Cooking Mode opens  
-  **Then** I see:
+* **Given** I tap "Start Cooking" on Today view for "Sheet-Pan Chicken & Veg"
+  * **When** Cooking Mode opens
+  * **Then** I see:
 
   * Header: "Sheet-Pan Chicken & Veg · Fast (20–30 min)"
 
@@ -58,14 +58,14 @@ Build Cooking Mode with step-by-step interface:
 **Wired to:** G1, spec-cooking.md §3.4  
 **Depends on:** C1
 
-#### Description:
+### Description
 
 Embed timer cues directly into step copy with optional quick-set timer action.
 
-#### Acceptance Criteria:
+### Acceptance Criteria
 
-* **Given** Step 4 reads: "Put the pan in the oven and bake for 20 minutes."  
-  **Then** The step includes:
+* **Given** Step 4 reads: "Put the pan in the oven and bake for 20 minutes."
+  * **Then** The step includes:
 
   * Inline copy: "bake for 20 minutes"
 
@@ -89,16 +89,16 @@ Embed timer cues directly into step copy with optional quick-set timer action.
 **Wired to:** G1, spec-cooking.md §3.2  
 **Depends on:** C1
 
-#### Description:
+### Description
 
 If user discovers preflight issue mid-cook (e.g., chicken not thawed), provide clear recovery path without abandoning entire session.
 
-#### Acceptance Criteria:
+### Acceptance Criteria
 
-* **Given** I'm on Step 3: "Slice the chicken into strips."  
-  **And** I realize chicken is still frozen  
-  **When** I tap [Help] or [Something's wrong]  
-  **Then** I see options:
+* **Given** I'm on Step 3: "Slice the chicken into strips."
+  * **And** I realize chicken is still frozen
+  * **When** I tap [Help] or [Something's wrong]
+  * **Then** I see options:
 
   * "Chicken not ready? Swap to a backup recipe."
 
@@ -126,15 +126,15 @@ If user discovers preflight issue mid-cook (e.g., chicken not thawed), provide c
 **Wired to:** G4, G6, spec-cooking.md §3.3  
 **Depends on:** C1
 
-#### Description:
+### Description
 
 Allow user to exit mid-cook if the recipe is taking longer than expected, with clear follow-up options.
 
-#### Acceptance Criteria:
+### Acceptance Criteria
 
-* **Given** I'm on Step 4 of 6 and it's taking longer than promised  
-  **When** I tap [Help] or [This is taking too long]  
-  **Then** I see:
+* **Given** I'm on Step 4 of 6 and it's taking longer than promised
+  * **When** I tap [Help] or [This is taking too long]
+  * **Then** I see:
 
   * "Want to switch to something faster?"
 

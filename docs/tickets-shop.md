@@ -11,7 +11,7 @@
 **Wired to:** Vision §13.1 (v1 Thin Slice), spec-shop.md §2, G2  
 **Depends on:** S2 (ingredient expansion logic)
 
-#### Description:
+#### Description
 
 Build the Shop UI shell and wire it to ingredient data:
 
@@ -25,7 +25,7 @@ Build the Shop UI shell and wire it to ingredient data:
 
 * Conservative list generation: never remove critical recipe ingredients
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** a plan with 5 dinners this week  
   **When** I open Shop  
@@ -60,7 +60,7 @@ Build the Shop UI shell and wire it to ingredient data:
 **Wired to:** G2, G3, spec-shop.md §3.1  
 **Depends on:** Planner P2 (need a plan to expand)
 
-#### Description:
+### Description
 
 Take all dinners in the current plan and:
 
@@ -70,11 +70,11 @@ Take all dinners in the current plan and:
 
 * Map them into generic product descriptions
 
-#### Acceptance Criteria:
+### Acceptance Criteria
 
-* **Given** the plan has two recipes, both requiring 1 onion each, and household size means 1:1 scaling  
-  **When** I compute the shopping list  
-  **Then** I see a single ingredient entry: `Onions – 2` (with appropriate units if needed).
+* **Given** the plan has two recipes, both requiring 1 onion each, and household size means 1:1 scaling
+  * **When** I compute the shopping list
+  * **Then** I see a single ingredient entry: `Onions – 2` (with appropriate units if needed).
 
 * **Given** scaling leads to fractional quantities (e.g., 1.5 lb chicken + 1 lb chicken)  
   **Then** the consolidated item shows a sensible sum (e.g., `Chicken breast – ~2.5 lb`).
@@ -82,8 +82,9 @@ Take all dinners in the current plan and:
 * **Given** I add or remove a dinner from the plan and trigger recompute  
   **Then** the ingredient list reflects the new set of dinners accurately.
 
-#### **Guardrail:*
-  No critical ingredients (proteins, main carbs, key veg, core sauces) are silently dropped during expansion/consolidation.
+### Guardrail
+
+No critical ingredients (proteins, main carbs, key veg, core sauces) are silently dropped during expansion/consolidation.
 
 ---
 
@@ -94,11 +95,11 @@ Take all dinners in the current plan and:
 **Wired to:** G2, spec-shop.md §2  
 **Depends on:** S2
 
-#### Description:
+#### Description
 
 Assign each consolidated ingredient to a category and surface which recipes use it.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** I have items: chicken, onions, milk, rice  
   **Then** I see them grouped roughly as:
@@ -128,16 +129,16 @@ Assign each consolidated ingredient to a category and surface which recipes use 
 **Wired to:** G3, G6, spec-shop.md §3.2  
 **Depends on:** S2 (ingredient expansion), S7 (critical/non-critical classification)
 
-#### Description:
+#### Description
 
 Add **[Quick Review]** button that shows 5–10 common pantry items user might already have (olive oil, salt, garlic, onions, etc.) and lets them remove those from the list.
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
-* **Given** the base shopping list is generated  
+* **Given** the base shopping list is generated
 
-#### When** I tap **[Quick Review]
-  **Then** I see a focused panel with ~5-10 common pantry staples:
+* **When** I tap **[Quick Review]**
+  * **Then** I see a focused panel with ~5-10 common pantry staples:
 
   * "Do you already have these?"
 
@@ -156,15 +157,15 @@ Add **[Quick Review]** button that shows 5–10 common pantry items user might a
 
 #### **Guardrails (see S7):*
 
-  * Quick Review must **never** include:
+* Quick Review must **never** include:
 
-    * Core proteins (e.g., chicken, ground beef)
+  * Core proteins (e.g., chicken, ground beef)
 
-    * Main carbs for mains
+  * Main carbs for mains
 
-    * Key vegetables that define a recipe
+  * Key vegetables that define a recipe
 
-  * Skipping Quick Review must not block proceeding.
+* Skipping Quick Review must not block proceeding.
 
 ---
 
@@ -175,7 +176,7 @@ Add **[Quick Review]** button that shows 5–10 common pantry items user might a
 **Wired to:** G2, spec-shop.md §3.3  
 **Depends on:** S1 (need UI to export from)
 
-#### Description:
+#### Description
 
 Allow user to export shopping list via:
 
@@ -185,12 +186,12 @@ Allow user to export shopping list via:
 
 * Print-friendly format (stretch)
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
-* **Given** I have a shopping list  
+* **Given** I have a shopping list
 
-#### When** I tap **[Share]** or **[Copy]
-  **Then** The full list is formatted cleanly:
+* **When** I tap **[Share]** or **[Copy]**
+  * **Then** The full list is formatted cleanly:
 
   * "VibeMeals – Shopping List for Week of [date]"
 
@@ -214,18 +215,18 @@ Allow user to export shopping list via:
 **Wired to:** Vision §7.X, Planner P7, spec-shop.md §3.4  
 **Depends on:** S1 (UI to trigger from), Planner P7 (Plan Stability logic)
 
-#### Description:
+#### Description
 
 Add **[Done Shopping]** button that marks the plan as "shopped" and triggers Plan Stability mode (no silent regenerations behind the scenes).
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
-* **Given** I've reviewed my shopping list  
+* **Given** I've reviewed my shopping list
 
-#### When** I tap **[Done Shopping]
-  **Then** The plan is marked as "Shopped"  
-  **And** Planner locks background regeneration (per Vision §7.X)  
-  **And** Any future plan changes require explicit user action.
+* **When** I tap **[Done Shopping]**
+  * **Then** The plan is marked as "Shopped"
+  * **And** Planner locks background regeneration (per Vision §7.X)
+  * **And** Any future plan changes require explicit user action.
 
 * **Given** the plan is marked "Shopped"  
   **And** I return to Planner  
@@ -243,7 +244,7 @@ Add **[Done Shopping]** button that marks the plan as "shopped" and triggers Pla
 **Wired to:** G3, G6, spec-shop.md §3.2, spec-today.md §3.2  
 **Depends on:** Recipe data model
 
-#### Description:
+#### Description
 
 Add a simple classification layer so the system can differentiate:
 
@@ -257,7 +258,7 @@ This will inform:
 
 * How missing items are handled in Today (S8)
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** the ingredient model  
   **Then** each ingredient can be classified at least as:
@@ -280,9 +281,9 @@ This will inform:
 
 #### **Examples for v1:*
 
-  * Critical: chicken, ground beef, rice, pasta, bell peppers (if main veg), soy sauce (if key flavor)
+* Critical: chicken, ground beef, rice, pasta, bell peppers (if main veg), soy sauce (if key flavor)
 
-  * Non-critical: cilantro (garnish), sesame seeds (topping), optional lime wedges
+* Non-critical: cilantro (garnish), sesame seeds (topping), optional lime wedges
 
 ---
 
@@ -293,7 +294,7 @@ This will inform:
 **Wired to:** G6, spec-shop.md §3.5, spec-today.md §3.2  
 **Depends on:** S1 (UI), S7 (critical classification), Today T4 (missed preflight/swap logic)
 
-#### Description:
+#### Description
 
 If user discovers missing ingredients while shopping, provide a clear path:
 
@@ -303,7 +304,7 @@ If user discovers missing ingredients while shopping, provide a clear path:
 
 * Trigger Today view to suggest easier alternatives or swaps for critical missing items
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** I'm in Shop view  
   **When** I long-press or tap menu on an ingredient (e.g., "chicken thighs")  
@@ -351,7 +352,7 @@ If user discovers missing ingredients while shopping, provide a clear path:
 **Wired to:** Vision §4.1 (Tone & Emotional Contract)  
 **Depends on:** All prior Shop tickets (S1–S8)
 
-#### Description:
+#### Description
 
 Audit all Shop copy against Vision §4.1. Ensure:
 
@@ -361,7 +362,7 @@ Audit all Shop copy against Vision §4.1. Ensure:
 
 * Missing items flow is supportive, not stressful
 
-#### Acceptance Criteria:
+#### Acceptance Criteria
 
 * **Given** I'm in Quick Review  
   **Then** Copy reads: "Do you already have these?" (neutral question)  
