@@ -53,22 +53,22 @@ export const spaghettiAglioEOlioPastaInGarlicAndOilSauce: Recipe = {
       "shoppingCategory": "PRODUCE"
     },
     {
-      "ingredientId": "ing_",
-      "displayName": "",
-      "amount": 1,
-      "unit": "UNIT",
-      "criticality": "CRITICAL",
-      "kind": "OTHER",
-      "shoppingCategory": "OTHER"
+      "ingredientId": "ing_red-pepper-flakes",
+      "displayName": "red pepper flakes",
+      "amount": 0.5,
+      "unit": "TEASPOON",
+      "criticality": "NON_CRITICAL",
+      "kind": "SPICE",
+      "shoppingCategory": "PANTRY_DRY"
     },
     {
-      "ingredientId": "ing_",
-      "displayName": "",
-      "amount": 1,
-      "unit": "UNIT",
-      "criticality": "CRITICAL",
-      "kind": "OTHER",
-      "shoppingCategory": "OTHER"
+      "ingredientId": "ing_fresh-parsley",
+      "displayName": "fresh parsley",
+      "amount": 10,
+      "unit": "GRAM",
+      "criticality": "NON_CRITICAL",
+      "kind": "HERB",
+      "shoppingCategory": "PRODUCE"
     }
   ],
   "preflight": [],

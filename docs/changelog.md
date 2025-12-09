@@ -4,6 +4,79 @@
 
 ---
 
+## Version 1.0.0 - December 8, 2025 🚀
+
+### PRODUCTION RELEASE – MVP LAUNCH
+
+VibeMeals v1.0.0 is the first production-ready release. All core features are implemented, tested, and spec-compliant. Golden Experience Tests (G1–G6) are validated and locked.
+
+#### What's Included
+
+- ✅ **Core Domain Logic**: Planner (plan generation, swaps, locks), Shop (list building, grouping), Today (cookability detection, preflight status)
+- ✅ **Data Model** (v1.2.0): Complete type contracts for all domains, markdownlint compliant
+- ✅ **Recipe Catalog** (14 recipes): All time bands (FAST/NORMAL/PROJECT), equipment types, dietary variants, Budget Bytes sourced
+- ✅ **Comprehensive Specs**: vision.md, data-model.md, spec-planner/shop/today/cooking.md, recipe-spec.md
+- ✅ **Type Sync**: Perfect alignment between types.ts and data-model.md
+- ✅ **Test Suite** (56 tests passing): Unit and spec tests covering all persona scenarios
+- ✅ **Documentation**: Locked specs, persona checklists, technical architecture, Golden Tests
+- ✅ **Accessibility**: AI agent instructions (.github/copilot-instructions.md) for future development
+
+#### Key Features
+
+1. **Weekday Meal Planning**: Generate 7-day plans respecting household mode (SOLO, FAMILY, DINK, EMPTY_NEST, LARGE)
+2. **Smart Shopping Lists**: Ingredient normalization, categorization, Quick Review (pantry staples), missing items tracking
+3. **Tonight's Readiness**: Real-time cookability check—preflight status, missing critical ingredients, out-eating override
+4. **Preflight Detection**: Automatic thaw/marinate/slow-cook requirement flagging
+5. **Flexible Swapping**: Lock/unlock dinners, swap recipes, move/delete dinners while maintaining plan validity
+
+#### Golden Experience Tests (G1–G6) – LOCKED FOR v1
+
+- **G1**: Tonight is actually cookable (or shows explicit reasons why not)
+- **G2**: Shopping is minimized & optimized
+- **G3**: One-trip shopping possible
+- **G4**: Plans can bend without breaking
+- **G5**: Personas feel heard
+- **G6**: Dinner never feels boring
+
+#### Non-Goals for v1
+
+- ❌ UI/Web frontend (planned v1.1+)
+- ❌ User authentication (planned v1.1+)
+- ❌ AI recipe generation (planned v2+)
+- ❌ Multi-household management (planned v2+)
+- ❌ Nutritional tracking (planned v2+)
+
+#### Breaking Changes
+
+None—this is the initial release.
+
+#### Deprecations
+
+None—this is the initial release.
+
+#### Known Limitations
+
+- Preflight coverage: Only SLOW_COOK patterns included (1/14 recipes). THAW, MARINATE, LONG_PREP patterns planned for v1.1
+- Dietary diversity: Mostly meat-heavy; vegetarian/vegan variants planned for v1.1
+- Recipe count: 14 MVP recipes. Full 40+ catalog planned for v1.1+
+
+#### How to Get Started
+
+```bash
+npm install
+npm test                    # Run all 56 tests
+npm run dev:preview         # Preview plan generation
+npm run validate:types      # Check type/spec sync
+```
+
+See `README.md` and `docs/` for full documentation.
+
+#### License
+
+Private
+
+---
+
 ## Version 5.1.0 - December 7, 2025
 
 ### 🍲 Recipe Catalog Contract (Implementation-Ready)
