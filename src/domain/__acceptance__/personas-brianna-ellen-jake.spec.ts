@@ -86,7 +86,7 @@ describe('Golden Experience Tests – Extended Personas', () => {
       mode: 'EMPTY_NEST',
       headcount: 2,
       targetDinnersPerWeek: 3,
-      dietConstraints: ['vegan', 'gluten-free'] as DietConstraint[],
+      dietConstraints: ['VEGETARIAN', 'NO_GLUTEN'] as DietConstraint[],
     };
 
     it('[G6] Respect constraints & ability – diet constraints are honored in every planned dinner', () => {
