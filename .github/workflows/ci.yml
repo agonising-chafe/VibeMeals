@@ -4,27 +4,55 @@ on:
     branches: ["*"]
   pull_request:
     branches: ["*"]
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
           cache-dependency-path: package-lock.json
+      
       - name: Install dependencies
         run: npm ci
+      
+      - name: Type-check TypeScript
+        run: npx tsc --noEmit
+      
       - name: Validate type sync
         run: |
           npm run validate:types
         continue-on-error: false
+      
       - name: Fail on spec drift
         if: failure()
         run: |
           echo "❌ Spec drift detected: types.ts and data-model.md are out of sync. Please update both files and re-run validation." && exit 1
+      
       - name: Run tests
         run: npm test
+      
+      - name: Lint Markdown (pragmatic)
+        run: npm run lint:md
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Scan docs for drift
+        run: python scripts/scan-docs-drift.py
+      
+      - name: Upload drift report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: doc-drift-report
+          path: reports/doc-drift-report.txt
+          retention-days: 30
