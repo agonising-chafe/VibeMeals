@@ -12,21 +12,21 @@ VibeMeals v1.3.1 adds outdoor cooking equipment support and comprehensive reject
 
 #### What's New
 
-  - Values now: `LARGE_POT`, `LARGE_SKILLET`, `DUTCH_OVEN`, `SHEET_PAN`, `BAKING_DISH`, `OVEN`, `GRILL`, `SLOW_COOKER`, `INSTANT_POT`, `RICE_COOKER`, `FOOD_PROCESSOR`, `BLENDER`, `SMOKER` (13 values)
-  - Joins `GRILL` for full outdoor/BBQ workflow support
+- Values now: `LARGE_POT`, `LARGE_SKILLET`, `DUTCH_OVEN`, `SHEET_PAN`, `BAKING_DISH`, `OVEN`, `GRILL`, `SLOW_COOKER`, `INSTANT_POT`, `RICE_COOKER`, `FOOD_PROCESSOR`, `BLENDER`, `SMOKER` (13 values)
+- Joins `GRILL` for full outdoor/BBQ workflow support
 
-  - Values: `RECENTLY_USED`, `DIET_CONSTRAINT_VIOLATED`, `EQUIPMENT_NOT_AVAILABLE`, `INGREDIENT_MISSING`, `OTHER`
-  - Enables UI to explain why recipes weren't recommended
+- Values: `RECENTLY_USED`, `DIET_CONSTRAINT_VIOLATED`, `EQUIPMENT_NOT_AVAILABLE`, `INGREDIENT_MISSING`, `OTHER`
+- Enables UI to explain why recipes weren't recommended
 
-  - Fields: `recipeId`, `reason: RecipeRejectionReason`, `details?: string`
-  - Optional parameter in `filterRecipesByConstraints()` for backward compatibility
+- Fields: `recipeId`, `reason: RecipeRejectionReason`, `details?: string`
+- Optional parameter in `filterRecipesByConstraints()` for backward compatibility
 
-  - `availableEquipment?: EquipmentTag[]` specifies what equipment household has
-  - Planner now checks equipment requirements against household profile
+- `availableEquipment?: EquipmentTag[]` specifies what equipment household has
+- Planner now checks equipment requirements against household profile
 
 #### Technical Improvements
 
- - **Tests**: Added unit/monotonicity tests validating `generatePlan()` respects `household.targetDinnersPerWeek`, and guarantees monotonic shopping totals and critical-only monotonicity for nested plans
+- **Tests**: Added unit/monotonicity tests validating `generatePlan()` respects `household.targetDinnersPerWeek`, and guarantees monotonic shopping totals and critical-only monotonicity for nested plans
 
 #### Migration Notes
 
