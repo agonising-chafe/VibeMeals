@@ -10,6 +10,7 @@ import {
   regeneratePlan,
   getSwapAlternatives,
 } from '../planner';
+import { buildShoppingList } from '../shop';
 import { mvpRecipeCatalog } from '../fixtures/recipes.seed';
 import {
   HouseholdProfile,
@@ -57,6 +58,34 @@ describe('Planner - generatePlan', () => {
 
     const plannedDinners = plan.days.filter(day => day.dinner).length;
     expect(plannedDinners).toBe(2);
+  });
+
+  it('should allow options.targetDinners to override household.targetDinnersPerWeek', () => {
+    const overrideHousehold = { ...testHousehold, targetDinnersPerWeek: 2 };
+    const plan = generatePlan(overrideHousehold, mvpRecipeCatalog, testDate, { targetDinners: 4 });
+
+    const plannedDinners = plan.days.filter(day => day.dinner).length;
+    expect(plannedDinners).toBe(4);
+  });
+
+  it('monotonicity: more target dinners should not reduce shopping total quantity or item count', () => {
+    const house = { ...testHousehold, targetDinnersPerWeek: 2 };
+
+    // Generate shopping totals for increasing target dinners
+    const totals: { itemsCount: number; totalQuantity: number }[] = [];
+    for (const td of [1, 2, 3, 4, 5]) {
+      const p = generatePlan(house, mvpRecipeCatalog, testDate, { targetDinners: td });
+      const shopping = buildShoppingList(p, mvpRecipeCatalog, house);
+      const sumQty = shopping.items.reduce((s: number, it: { totalAmount: number }) => s + Number(it.totalAmount), 0);
+      totals.push({ itemsCount: shopping.items.length, totalQuantity: sumQty });
+    }
+
+    // Ensure total quantities never decrease
+    for (let i = 1; i < totals.length; i++) {
+      expect(totals[i].totalQuantity).toBeGreaterThanOrEqual(totals[i - 1].totalQuantity);
+      // Also assert items count is non-decreasing; if it decreases, it's a sign of unexpected consolidation
+      expect(totals[i].itemsCount).toBeGreaterThanOrEqual(totals[i - 1].itemsCount);
+    }
   });
   
   it('should generate a plan in DRAFT status', () => {
