@@ -29,8 +29,8 @@ npm run lint:md:strict
 
 ```json
 {
-	"MD024": { "siblings_only": true },
-	"MD033": { "allowed_elements": ["script"] }
+  "MD024": { "siblings_only": true },
+  "MD033": { "allowed_elements": ["script"] }
 }
 ```
 
