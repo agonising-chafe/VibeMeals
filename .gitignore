@@ -46,3 +46,5 @@ Thumbs.db
 *.sqlite
 *.db
 reports/
+**/reports/
+scripts/reports/
