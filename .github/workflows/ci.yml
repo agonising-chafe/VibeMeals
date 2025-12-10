@@ -42,6 +42,19 @@ jobs:
       
       - name: Lint Markdown (pragmatic)
         run: npm run lint:md
+
+      - name: Lint Markdown (strict)
+        run: |
+          mkdir -p reports
+          bash -lc 'npm run lint:md:strict > reports/markdown-lint-strict.txt 2>&1; rc=$?; if [ $rc -ne 0 ]; then echo "❌ Strict markdown lint found issues; see artifact markdown-lint-strict"; cat reports/markdown-lint-strict.txt; exit $rc; fi'
+
+      - name: Upload markdown lint report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdown-lint-strict
+          path: reports/markdown-lint-strict.txt
+          retention-days: 7
       
       - name: Setup Python
         uses: actions/setup-python@v5
