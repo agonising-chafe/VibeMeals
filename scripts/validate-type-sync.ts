@@ -33,7 +33,7 @@ function extractTypeDefinitions(content: string): Record<string, Record<string, 
   const blockRegex = /export (interface|type) (\w+)\s*([^{=]*){([\s\S]*?)};?/g;
   let match;
   while ((match = blockRegex.exec(content)) !== null) {
-    const [, kind, name, , body] = match;
+    const [, _kind, name, , body] = match;
     typeDefs[name] = {};
     // Match fields: fieldName: type;
     const fieldRegex = /(\w+)\s*:\s*([^;\n]+);/g;
@@ -58,7 +58,7 @@ function extractDataModelDefinitions(content: string): Record<string, Record<str
     const blockRegex = /export (interface|type) (\w+)\s*([^{=]*){([\s\S]*?)};?/g;
     let match;
     while ((match = blockRegex.exec(codeBlock)) !== null) {
-      const [, kind, name, , body] = match;
+      const [, , name, , body] = match;
       typeDefs[name] = {};
       // Match fields: fieldName: type;
       const fieldRegex = /(\w+)\s*:\s*([^;\n]+);/g;

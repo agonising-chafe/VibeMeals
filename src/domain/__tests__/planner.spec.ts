@@ -13,8 +13,6 @@ import {
 import { mvpRecipeCatalog } from '../fixtures/recipes.seed';
 import {
   HouseholdProfile,
-  Plan,
-  Recipe,
   IsoDate,
 } from '../types';
 

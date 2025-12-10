@@ -100,7 +100,7 @@ describe('Golden Experience Tests – Persona Acceptance', () => {
       if (mondayDinner.dinner) {
         const alternativeRecipe = recipes.find((r) => r.id !== mondayDinner.dinner?.recipeId);
         if (alternativeRecipe) {
-          const swappedPlan = swapRecipe(plan, monday2025Dec08, alternativeRecipe.id, recipes);
+          const swappedPlan = swapRecipe(plan, monday2025Dec08, alternativeRecipe.id);
           expect(swappedPlan.days[0].dinner?.recipeId).toBe(alternativeRecipe.id);
           // Plan structure must remain valid (7 days, no data loss)
           expect(swappedPlan.days.length).toBe(7);

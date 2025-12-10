@@ -1,7 +1,7 @@
 // Spec: spec-today.md §3.2 (Preflight detection), vision.md §4.2
 // src/domain/__tests__/preflight.spec.ts
 
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import {
   hoursUntilCook,
   detectPreflightStatus,
@@ -10,7 +10,7 @@ import {
   summarizePreflightStatus,
 } from '../preflight';
 import { mvpRecipeCatalog } from '../fixtures/recipes.seed';
-import { Recipe, IsoDate } from '../types';
+import { IsoDate } from '../types';
 
 describe('Preflight Detection - hoursUntilCook', () => {
   it('should calculate hours until 6 PM on a given date', () => {
@@ -236,7 +236,7 @@ describe('Preflight - Real-world scenarios', () => {
 
     const slowCookRecipe = mvpRecipeCatalog.find(r => r.id === 'r_slow-cooker-white-chicken-chili')!;
     const status = detectPreflightStatus(slowCookRecipe, cookDate, now);
-    const atRisk = getAtRiskRequirements(slowCookRecipe, cookDate, 2, now);
+    getAtRiskRequirements(slowCookRecipe, cookDate, 2, now);
 
     // Status should be MISSED because not enough time
     expect(status).toBe('MISSED');

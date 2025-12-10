@@ -57,7 +57,6 @@ function makeEmptyWeek(): PlanDay[] {
     days.push({
       date: iso,
       dayOfWeek: dayNames[i],
-      dinner: undefined,
     });
   }
 

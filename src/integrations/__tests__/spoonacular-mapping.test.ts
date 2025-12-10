@@ -37,7 +37,7 @@ describe('Spoonacular mapping', () => {
     expect(mapped.metadata.equipmentTags).toEqual(expected.metadata.equipmentTags);
 
     // Provenance
-    expect(mapped.provenance.provider).toBe('spoonacular');
-    expect(mapped.provenance.id).toBe(String(raw.id));
+    expect(mapped.provenance?.provider).toBe('spoonacular');
+    expect(mapped.provenance?.id).toBe(String(raw.id));
   });
 });
