@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run a quick CI install locally to detect missing or invalid packages
+echo "Running npm ci to validate lockfile and package consistency..."
+npm ci --prefer-offline --no-audit || exit 1
+
+# Ensure package.json and package-lock.json are not changed by local installs
+if ! git diff --quiet -- package.json package-lock.json; then
+  echo "Detected changes to package.json or package-lock.json after npm install. Please commit lockfile changes before pushing.";
+  git --no-pager diff -- package.json package-lock.json;
+  exit 1
+fi
+
+# Optionally run tests (commented for speed). Uncomment if you want to enforce tests before push.
+# npm test || exit 1

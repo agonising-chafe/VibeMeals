@@ -15,7 +15,7 @@
     "dev:preview-planner": "tsx src/dev/preview-planner.ts",
     "check:health": "pwsh ./scripts/check-health.ps1",
     "lint:md": "npx markdownlint-cli --ignore-path .markdownlintignore \"docs/**/*.md\"",
-    "lint:ts": "npx eslint --ext .ts,.tsx src --max-warnings 0",
+    "lint:ts": "npx eslint \"src/**/*.{ts,tsx}\" --max-warnings 0",
     "secret:scan": "npx secretlint --config .secretlintrc.json '**/*' || true",
     "lint:md:strict": "npx markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\"",
     "recipe:fetch": "tsx scripts/spoonacular-workflow.ts fetch",
