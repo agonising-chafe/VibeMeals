@@ -68,23 +68,43 @@ describe('Planner - generatePlan', () => {
     expect(plannedDinners).toBe(4);
   });
 
-  it('monotonicity: more target dinners should not reduce shopping total quantity or item count', () => {
+  // Monotonicity tests have been moved to planner.monotonicity.spec.ts
+
+  it('monotonicity (critical-only): critical items count/quantity never decreases as target dinners increase', () => {
     const house = { ...testHousehold, targetDinnersPerWeek: 2 };
 
-    // Generate shopping totals for increasing target dinners
-    const totals: { itemsCount: number; totalQuantity: number }[] = [];
-    for (const td of [1, 2, 3, 4, 5]) {
-      const p = generatePlan(house, mvpRecipeCatalog, testDate, { targetDinners: td });
-      const shopping = buildShoppingList(p, mvpRecipeCatalog, house);
-      const sumQty = shopping.items.reduce((s: number, it: { totalAmount: number }) => s + Number(it.totalAmount), 0);
-      totals.push({ itemsCount: shopping.items.length, totalQuantity: sumQty });
+    const criticalTotals: { criticalItemCount: number; criticalQuantity: number }[] = [];
+    const maxTarget = 7;
+    const maxPlan = generatePlan(house, mvpRecipeCatalog, testDate, { targetDinners: maxTarget });
+    for (let td = 1; td <= maxTarget; td++) {
+      const subPlan = { ...maxPlan, days: maxPlan.days.map(d => ({ ...d })) };
+      let kept = 0;
+      for (const day of subPlan.days) {
+        if (day.dinner) {
+          if (kept < td) {
+            kept++;
+          } else {
+            delete day.dinner;
+          }
+        }
+      }
+      const shopping = buildShoppingList(subPlan as any, mvpRecipeCatalog, house as any);
+      const criticalItems = shopping.items.filter(i => i.criticality === 'CRITICAL');
+      const criticalQty = criticalItems.reduce((s: number, it: { totalAmount: number }) => s + Number(it.totalAmount), 0);
+      criticalTotals.push({ criticalItemCount: criticalItems.length, criticalQuantity: criticalQty });
     }
 
-    // Ensure total quantities never decrease
-    for (let i = 1; i < totals.length; i++) {
-      expect(totals[i].totalQuantity).toBeGreaterThanOrEqual(totals[i - 1].totalQuantity);
-      // Also assert items count is non-decreasing; if it decreases, it's a sign of unexpected consolidation
-      expect(totals[i].itemsCount).toBeGreaterThanOrEqual(totals[i - 1].itemsCount);
+    for (let i = 1; i < criticalTotals.length; i++) {
+      const prev = criticalTotals[i - 1];
+      const curr = criticalTotals[i];
+      // Critical quantity must never decrease
+      expect(curr.criticalQuantity).toBeGreaterThanOrEqual(prev.criticalQuantity);
+      // If item count decreases, ensure that quantity increased (consolidation is allowed only if quantity increases)
+      if (curr.criticalItemCount < prev.criticalItemCount) {
+        expect(curr.criticalQuantity).toBeGreaterThan(prev.criticalQuantity);
+      } else {
+        expect(curr.criticalItemCount).toBeGreaterThanOrEqual(prev.criticalItemCount);
+      }
     }
   });
   
