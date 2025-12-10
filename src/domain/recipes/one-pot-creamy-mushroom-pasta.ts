@@ -176,7 +176,6 @@ export const onePotCreamyMushroomPasta: Recipe = {
   ],
   "tags": [
     "kid_friendly",
-    "healthy",
     "weeknight"
   ]
-};
+} satisfies Recipe;

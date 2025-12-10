@@ -268,6 +268,8 @@ export const bakedMacAndCheese: Recipe = {
     }
   ],
   "tags": [
-    "healthy"
+    "comfort_food",
+    "american",
+    "family_friendly"
   ]
-};
+} satisfies Recipe;

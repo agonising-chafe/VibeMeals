@@ -1,13 +1,15 @@
 # Cooking Mode – v1 Specification
 
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Status:** Implementation-Ready  
-**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`)  
+**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.3.0  
 **Golden Tests:** G1, G4, G6  
-**Last Updated:** December 7, 2025  
+**Last Updated:** December 9, 2025  
 
 > This spec defines **Cooking Mode**: the step-by-step execution surface that turns a recipe into dinner.  
 > Must deliver on time band promises and provide escape hatches when reality changes.
+>
+> **v1.3.0 Note:** Cooking Mode now leverages fully typed `EquipmentTag` enums to detect equipment mismatches before cooking starts.
 
 ---
 

@@ -126,6 +126,6 @@ export const southernMeatloafRecipe: Recipe = {
     { stepNumber: 6, instruction: 'Bake 60 minutes until internal temp reaches 160°F.' },
     { stepNumber: 7, instruction: 'Rest 5 minutes before slicing and serving.' },
   ],
-  tags: ['comfort_food', 'american', 'southern', 'baked', 'family_dinner'],
+  tags: ['comfort_food', 'american', 'southern', 'family_friendly'],
   variantHints: [{ description: 'Swap ground beef for turkey for a lighter version.' }],
-};
+} satisfies Recipe;

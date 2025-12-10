@@ -1,0 +1,558 @@
+{
+  "mapped": {
+    "id": "spoon_649495",
+    "name": "Lemon and Garlic Slow Roasted Chicken",
+    "slug": "lemon-and-garlic-slow-roasted-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_POT",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "NONE"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "displayName": "chicken weighing 2.3kg",
+        "qty": 1,
+        "unit": "large",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD"
+      },
+      {
+        "displayName": "bulbs garlic",
+        "qty": 2,
+        "unit": "",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE"
+      },
+      {
+        "displayName": "lemons",
+        "qty": 2,
+        "unit": "large",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY"
+      },
+      {
+        "displayName": "olive oil",
+        "qty": 1,
+        "unit": "tablespoon",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY"
+      },
+      {
+        "displayName": "salt and pepper",
+        "qty": 1,
+        "unit": "",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE"
+      },
+      {
+        "displayName": "sunflower oil",
+        "qty": 2,
+        "unit": "tablespoons",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY"
+      }
+    ],
+    "preflight": [
+      {
+        "type": "LONG_PREP",
+        "description": "Long hands-on or braising time expected",
+        "hoursBeforeCook": 3
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "X 300g packets mushroom or italian style stir fry or stir fry vegetables of your own choice finely shredded"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Aga equipment:small roasting tin on third set of runners in roasting oventhen second set of runners in simmering oven"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Trim the leg tips and wing tips from the chicken and remove any excess fat from the neck of the bird (keep the chicken fat if you are likely to make a confit in the next few days).Season the chicken inside and out.Separate the garlic into cloves but do not bother to peel them."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Place about two thirds of the cloves inside the chicken and the rest in the bottom of the roasting tin sitting the chicken on top of them.Pare the zest from the lemons and cover it in plastic wrap for later use as a garnish.Rub the juice into the chicken inside and out then rub the olive oil over the breast.Roast the chicken quickly for 30 minutes then transfer it to the simmering ovenand cook for at least 4 hours.Stand for 10 to 15 minutes before carving or if you have left the chicken for six hours or more pulling the joints apart for serving."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat a wok or large frying pan for 5 minutes on the floor of the roasting ovenwhile the chicken is standing."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer the wok to the boiling plateand add the sunflower oil.Stir fry the vegetables in the oil for 3 to 4 minutes then serve the chicken on the vegetables or mixed in with them if the meat has fallen off the bone.I often cook chicken with lemon and tarragon but the flavour of this pungent herb is lost if the cooking period is too long. So for slow aga roasting I use a mixture of lemon and garlic."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Serves 6"
+      }
+    ],
+    "tags": [
+      "gluten_free",
+      "dairy_free",
+      "pantry_staple",
+      "meal_prep"
+    ],
+    "servings": 6,
+    "sourceUrl": "https://www.foodista.com/recipe/TSSQGG2V/lemon-and-garlic-slow-roasted-chicken",
+    "provenance": {
+      "provider": "spoonacular",
+      "id": "649495"
+    }
+  },
+  "raw": {
+    "id": 649495,
+    "image": "https://img.spoonacular.com/recipes/649495-556x370.jpg",
+    "imageType": "jpg",
+    "title": "Lemon and Garlic Slow Roasted Chicken",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "sourceUrl": "https://www.foodista.com/recipe/TSSQGG2V/lemon-and-garlic-slow-roasted-chicken",
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 9,
+    "gaps": "no",
+    "preparationMinutes": null,
+    "cookingMinutes": null,
+    "aggregateLikes": 1,
+    "healthScore": 6,
+    "creditsText": "foodista.com",
+    "license": null,
+    "sourceName": "foodista.com",
+    "pricePerServing": 112.35,
+    "extendedIngredients": [
+      {
+        "id": 5006,
+        "aisle": "Meat",
+        "image": "whole-chicken.jpg",
+        "consistency": "SOLID",
+        "name": "chicken weighing 2.3kg",
+        "nameClean": "chicken weighing 2.3kg",
+        "original": "1 large chicken weighing about 2.3kg",
+        "originalName": "chicken weighing about 2.3kg",
+        "amount": 1,
+        "unit": "large",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 0.48,
+            "unitShort": "large",
+            "unitLong": "larges"
+          },
+          "metric": {
+            "amount": 0.48,
+            "unitShort": "large",
+            "unitLong": "larges"
+          }
+        }
+      },
+      {
+        "id": 11215,
+        "aisle": "Produce",
+        "image": "garlic.png",
+        "consistency": "SOLID",
+        "name": "bulbs garlic",
+        "nameClean": "bulbs garlic",
+        "original": "2 bulbs garlic",
+        "originalName": "bulbs garlic",
+        "amount": 2,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 2,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 9150,
+        "aisle": "Produce",
+        "image": "lemon.png",
+        "consistency": "SOLID",
+        "name": "lemons",
+        "nameClean": "lemons",
+        "original": "2 large lemons",
+        "originalName": "lemons",
+        "amount": 2,
+        "unit": "large",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2,
+            "unitShort": "large",
+            "unitLong": "larges"
+          },
+          "metric": {
+            "amount": 2,
+            "unitShort": "large",
+            "unitLong": "larges"
+          }
+        }
+      },
+      {
+        "id": 4053,
+        "aisle": "Oil, Vinegar, Salad Dressing",
+        "image": "olive-oil.jpg",
+        "consistency": "LIQUID",
+        "name": "olive oil",
+        "nameClean": "olive oil",
+        "original": "1 tablespoon fruity olive oil",
+        "originalName": "fruity olive oil",
+        "amount": 1,
+        "unit": "tablespoon",
+        "meta": [
+          "fruity"
+        ],
+        "measures": {
+          "us": {
+            "amount": 1,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          },
+          "metric": {
+            "amount": 1,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          }
+        }
+      },
+      {
+        "id": 1002030,
+        "aisle": "Spices and Seasonings",
+        "image": "pepper.jpg",
+        "consistency": "SOLID",
+        "name": "salt and pepper",
+        "nameClean": "salt and pepper",
+        "original": "1 salt and freshly ground black pepper",
+        "originalName": "salt and freshly ground black pepper",
+        "amount": 1,
+        "unit": "",
+        "meta": [
+          "black",
+          "freshly ground"
+        ],
+        "measures": {
+          "us": {
+            "amount": 1,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 1,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 4584,
+        "aisle": "Oil, Vinegar, Salad Dressing",
+        "image": "vegetable-oil.jpg",
+        "consistency": "LIQUID",
+        "name": "sunflower oil",
+        "nameClean": "sunflower oil",
+        "original": "2 tablespoons sunflower oil",
+        "originalName": "sunflower oil",
+        "amount": 2,
+        "unit": "tablespoons",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2,
+            "unitShort": "Tbsps",
+            "unitLong": "Tbsps"
+          },
+          "metric": {
+            "amount": 2,
+            "unitShort": "Tbsps",
+            "unitLong": "Tbsps"
+          }
+        }
+      }
+    ],
+    "summary": "Lemon and Garlic Slow Roasted Chicken might be a good recipe to expand your main course recipe box. One portion of this dish contains around <b>24g of protein</b>, <b>26g of fat</b>, and a total of <b>347 calories</b>. This recipe serves 6. For <b>$1.12 per serving</b>, this recipe <b>covers 12%</b> of your daily requirements of vitamins and minerals. Only a few people made this recipe, and 1 would say it hit the spot. This recipe from Foodista requires sunflower oil, bulbs garlic, lemons, and olive oil. From preparation to the plate, this recipe takes about <b>45 minutes</b>. It is a good option if you're following a <b>gluten free, dairy free, whole 30, and ketogenic</b> diet. Taking all factors into account, this recipe <b>earns a spoonacular score of 40%</b>, which is not so super. Try <a href=\"https://spoonacular.com/recipes/slow-roasted-grappa-garlic-and-lemon-pepper-chicken-with-parsnip-fries-247670\">Slow Roasted Grappa Garlic and Lemon Pepper Chicken with Parsnip Fries</a>, <a href=\"https://spoonacular.com/recipes/slow-roasted-boneless-leg-of-lamb-with-garlic-rosemary-and-lemon-157753\">Slow-Roasted Boneless Leg of Lamb With Garlic, Rosemary, and Lemon</a>, and <a href=\"https://spoonacular.com/recipes/slow-roasted-boneless-leg-of-lamb-with-garlic-rosemary-and-lemon-1266295\">Slow-Roasted Boneless Leg of Lamb With Garlic, Rosemary, and Lemon</a> for similar recipes.",
+    "cuisines": [],
+    "dishTypes": [
+      "lunch",
+      "main course",
+      "main dish",
+      "dinner"
+    ],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "whole 30",
+      "ketogenic"
+    ],
+    "occasions": [],
+    "instructions": "<ol><li>2 X 300g packets mushroom or italian style stir fry or stir fry vegetables of your own choice finely shredded</li><li>Aga equipment:small roasting tin on third set of runners in roasting oventhen second set of runners in simmering oven</li><li>Trim the leg tips and wing tips from the chicken and remove any excess fat from the neck of the bird (keep the chicken fat if you are likely to make a confit in the next few days).</li><li>Season the chicken inside and out.</li><li>Separate the garlic into cloves but do not bother to peel them.</li><li>Place about two thirds of the cloves inside the chicken and the rest in the bottom of the roasting tin sitting the chicken on top of them.</li><li>Pare the zest from the lemons and cover it in plastic wrap for later use as a garnish.</li><li>Rub the juice into the chicken inside and out then rub the olive oil over the breast.</li><li>Roast the chicken quickly for 30 minutes then transfer it to the simmering ovenand cook for at least 4 hours.</li><li>Stand for 10 to 15 minutes before carving or if you have left the chicken for six hours or more pulling the joints apart for serving.</li><li>Heat a wok or large frying pan for 5 minutes on the floor of the roasting ovenwhile the chicken is standing. Transfer the wok to the boiling plateand add the sunflower oil.</li><li>Stir fry the vegetables in the oil for 3 to 4 minutes then serve the chicken on the vegetables or mixed in with them if the meat has fallen off the bone.</li><li>I often cook chicken with lemon and tarragon but the flavour of this pungent herb is lost if the cooking period is too long. So for slow aga roasting I use a mixture of lemon and garlic.</li><li>Serves 6</li></ol>",
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "X 300g packets mushroom or italian style stir fry or stir fry vegetables of your own choice finely shredded",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "stir fry vegetables",
+                "localizedName": "stir fry vegetables",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 11260,
+                "name": "mushrooms",
+                "localizedName": "mushrooms",
+                "image": "https://spoonacular.com/cdn/ingredients_100x100/mushrooms.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Aga equipment:small roasting tin on third set of runners in roasting oventhen second set of runners in simmering oven",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Trim the leg tips and wing tips from the chicken and remove any excess fat from the neck of the bird (keep the chicken fat if you are likely to make a confit in the next few days).Season the chicken inside and out.Separate the garlic into cloves but do not bother to peel them.",
+            "ingredients": [
+              {
+                "id": 4542,
+                "name": "chicken fat",
+                "localizedName": "chicken fat",
+                "image": "lard.png"
+              },
+              {
+                "id": 0,
+                "name": "chicken",
+                "localizedName": "chicken",
+                "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+              },
+              {
+                "id": 1002011,
+                "name": "clove",
+                "localizedName": "clove",
+                "image": "cloves.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Place about two thirds of the cloves inside the chicken and the rest in the bottom of the roasting tin sitting the chicken on top of them.Pare the zest from the lemons and cover it in plastic wrap for later use as a garnish.Rub the juice into the chicken inside and out then rub the olive oil over the breast.Roast the chicken quickly for 30 minutes then transfer it to the simmering ovenand cook for at least 4 hours.Stand for 10 to 15 minutes before carving or if you have left the chicken for six hours or more pulling the joints apart for serving.",
+            "ingredients": [
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 0,
+                "name": "chicken",
+                "localizedName": "chicken",
+                "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+              },
+              {
+                "id": 1002011,
+                "name": "clove",
+                "localizedName": "clove",
+                "image": "cloves.jpg"
+              },
+              {
+                "id": 9150,
+                "name": "lemon",
+                "localizedName": "lemon",
+                "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon.png"
+              },
+              {
+                "id": 1019016,
+                "name": "juice",
+                "localizedName": "juice",
+                "image": "apple-juice.jpg"
+              },
+              {
+                "id": 10018364,
+                "name": "wrap",
+                "localizedName": "wrap",
+                "image": "flour-tortilla.jpg"
+              },
+              {
+                "id": 1012034,
+                "name": "dry seasoning rub",
+                "localizedName": "dry seasoning rub",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404730,
+                "name": "plastic wrap",
+                "localizedName": "plastic wrap",
+                "image": "https://spoonacular.com/cdn/equipment_100x100/plastic-wrap.jpg"
+              }
+            ],
+            "length": {
+              "number": 640,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 5,
+            "step": "Heat a wok or large frying pan for 5 minutes on the floor of the roasting ovenwhile the chicken is standing.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "chicken",
+                "localizedName": "chicken",
+                "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+              },
+              {
+                "id": 404666,
+                "name": "wok",
+                "localizedName": "wok",
+                "image": "https://spoonacular.com/cdn/equipment_100x100/wok.png"
+              }
+            ],
+            "length": {
+              "number": 5,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 6,
+            "step": "Transfer the wok to the boiling plateand add the sunflower oil.Stir fry the vegetables in the oil for 3 to 4 minutes then serve the chicken on the vegetables or mixed in with them if the meat has fallen off the bone.I often cook chicken with lemon and tarragon but the flavour of this pungent herb is lost if the cooking period is too long. So for slow aga roasting I use a mixture of lemon and garlic.",
+            "ingredients": [
+              {
+                "id": 4584,
+                "name": "sunflower oil",
+                "localizedName": "sunflower oil",
+                "image": "vegetable-oil.jpg"
+              },
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+              },
+              {
+                "id": 2041,
+                "name": "tarragon",
+                "localizedName": "tarragon",
+                "image": "tarragon.jpg"
+              },
+              {
+                "id": 0,
+                "name": "chicken",
+                "localizedName": "chicken",
+                "image": "https://spoonacular.com/cdn/ingredients_100x100/whole-chicken.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 9150,
+                "name": "lemon",
+                "localizedName": "lemon",
+                "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon.png"
+              },
+              {
+                "id": 0,
+                "name": "bone",
+                "localizedName": "bone",
+                "image": ""
+              },
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404666,
+                "name": "wok",
+                "localizedName": "wok",
+                "image": "https://spoonacular.com/cdn/equipment_100x100/wok.png"
+              }
+            ],
+            "length": {
+              "number": 3,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 7,
+            "step": "Serves 6",
+            "ingredients": [],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularScore": 45.50674819946289,
+    "spoonacularSourceUrl": "https://spoonacular.com/lemon-and-garlic-slow-roasted-chicken-649495"
+  }
+}

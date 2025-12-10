@@ -1,10 +1,10 @@
 # Planner – v1 Specification
 
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Status:** Implementation-Ready  
-**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`)  
+**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.3.0  
 **Golden Tests:** G1, G2, G4, G5, G6  
-**Last Updated:** December 7, 2025  
+**Last Updated:** December 9, 2025  
 **v1.0.0 Implementation:** Domain logic only (generatePlan, swapRecipe, toggleLock, removeDinner in `src/domain/planner.ts`)  
 **UI Implementation:** Planned for v1.1+ (Nuxt 3 / Pinia stores)
 
@@ -12,6 +12,8 @@
 > All flows must respect Golden Tests and constraints defined in `vision.md`.
 >
 > **Note:** The section 3 (Layout & Wireframes) describes the eventual UI. In v1.0.0, the core domain logic (plan generation, recipe selection, swaps, locks) is implemented and tested. The UI will be built in v1.1+.
+>
+> **v1.3.0 Note:** Recipe filtering and discovery now leverage fully typed `RecipeTag` and `EquipmentTag` enums for constraint-aware planning.
 
 ---
 

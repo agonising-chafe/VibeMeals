@@ -1,8 +1,8 @@
 // Shared domain types (aligned with docs/data-model.md)
 //
-// CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.2.0
+// CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.3.0
 // Any change to types here requires updating the spec, and vice versa.
-// Last sync: December 8, 2025 — VALIDATION COMPLETE ✅
+// Last sync: December 9, 2025 — COMPREHENSIVE COVERAGE (FRUIT + RecipeTag + EquipmentTag) ✅
 //
 // See .github/copilot-instructions.md for the sync workflow.
 
@@ -19,6 +19,7 @@ export type IngredientKind =
   | 'PROTEIN'
   | 'CARB'
   | 'VEG'
+  | 'FRUIT'
   | 'DAIRY'
   | 'FAT_OIL'
   | 'SPICE'
@@ -52,6 +53,62 @@ export type DietConstraint =
   | 'KETO'
   | 'CARNIVORE';
 
+export type RecipeRejectionReason =
+  | 'RECENTLY_USED'
+  | 'DIET_CONSTRAINT_VIOLATED'
+  | 'EQUIPMENT_NOT_AVAILABLE'
+  | 'INGREDIENT_MISSING'
+  | 'OTHER';
+
+/**
+ * Diagnostic metadata for rejected recipes
+ * Use for logging, analytics, and debugging why recipes don't appear in plans
+ */
+export interface RecipeRejection {
+  recipeId: RecipeId;
+  reason: RecipeRejectionReason;
+  details?: string; // e.g., "Missing GRILL", "Contains beef (NO_BEEF constraint)"
+}
+
+export type RecipeTag =
+  | 'vegetarian'
+  | 'vegan'
+  | 'gluten_free'
+  | 'dairy_free'
+  | 'one_pot'
+  | 'sheet_pan'
+  | 'slow_cooker'
+  | 'meal_prep'
+  | 'make_ahead'
+  | 'budget_friendly'
+  | 'kid_friendly'
+  | 'family_friendly'
+  | 'crowd_favorite'
+  | 'comfort_food'
+  | 'italian'
+  | 'mexican'
+  | 'asian'
+  | 'american'
+  | 'southern'
+  | 'pantry_staple'
+  | 'weeknight'
+  | 'under_30_minutes';
+
+export type EquipmentTag =
+  | 'LARGE_POT'
+  | 'LARGE_SKILLET'
+  | 'DUTCH_OVEN'
+  | 'SHEET_PAN'
+  | 'BAKING_DISH'
+  | 'OVEN'
+  | 'GRILL'
+  | 'SLOW_COOKER'
+  | 'INSTANT_POT'
+  | 'RICE_COOKER'
+  | 'FOOD_PROCESSOR'
+  | 'BLENDER'
+  | 'SMOKER';
+
 /**
  * Household Mode – Core lifestyle categories for week shapes & planning
  *
@@ -77,6 +134,7 @@ export interface HouseholdProfile {
   headcount: number;
   targetDinnersPerWeek: number;
   dietConstraints: DietConstraint[];
+  availableEquipment?: EquipmentTag[]; // v1.3.1: Optional equipment constraints (e.g., no grill)
   timeBandPreference?: {
     preferredFastCount?: number;
     preferredNormalCount?: number;
@@ -103,7 +161,7 @@ export interface RecipePreflightRequirement {
 export interface RecipeMetadata {
   timeBand: TimeBand;
   estimatedMinutes: number;
-  equipmentTags?: string[];
+  equipmentTags?: EquipmentTag[];
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
 }
 
@@ -125,7 +183,7 @@ export interface Recipe {
   ingredients: RecipeIngredientRequirement[];
   preflight: RecipePreflightRequirement[];
   steps: RecipeStep[];
-  tags?: string[];
+  tags?: RecipeTag[];
   variantHints?: { description: string; safeSubIngredientId?: string }[];
 }
 

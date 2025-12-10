@@ -1,0 +1,47 @@
+{
+  "id": 716429,
+  "title": "Garlic Butter Pasta",
+  "readyInMinutes": 20,
+  "servings": 4,
+  "glutenFree": false,
+  "dairyFree": false,
+  "sourceUrl": "https://spoonacular.example/716429",
+  "extendedIngredients": [
+    {
+      "id": 1,
+      "name": "garlic",
+      "originalString": "4 cloves garlic, minced",
+      "amount": 4,
+      "unit": "clove",
+      "aisle": "Produce"
+    },
+    {
+      "id": 2,
+      "name": "spaghetti",
+      "originalString": "12 oz spaghetti",
+      "amount": 12,
+      "unit": "oz",
+      "aisle": "Pasta"
+    },
+    {
+      "id": 3,
+      "name": "butter",
+      "originalString": "2 tbsp butter",
+      "amount": 2,
+      "unit": "tbsp",
+      "aisle": "Dairy"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        { "number": 1, "step": "Boil pasta until al dente." },
+        { "number": 2, "step": "Melt butter and sauté garlic until fragrant." },
+        { "number": 3, "step": "Toss pasta with garlic butter and serve." }
+      ]
+    }
+  ],
+  "instructions": "Boil pasta. Melt butter and sauté garlic. Toss and serve.",
+  "summary": "A simple garlic butter pasta perfect for weeknights."
+}

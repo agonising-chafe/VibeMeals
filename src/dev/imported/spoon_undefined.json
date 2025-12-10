@@ -1,0 +1,33 @@
+{
+  "mapped": {
+    "id": "spoon_undefined",
+    "name": "Imported Recipe",
+    "slug": "imported-recipe",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 0,
+      "equipmentTags": [],
+      "leftoverStrategy": "NONE"
+    },
+    "scalable": true,
+    "ingredients": [],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "vegetarian",
+      "weeknight",
+      "pantry_staple"
+    ],
+    "servings": 4,
+    "sourceUrl": "",
+    "provenance": {
+      "provider": "spoonacular",
+      "id": "undefined"
+    }
+  },
+  "raw": {
+    "status": "failure",
+    "code": 404,
+    "message": "A recipe with the id 715424 does not exist."
+  }
+}
