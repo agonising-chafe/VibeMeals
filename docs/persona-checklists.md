@@ -8,7 +8,7 @@
 
 **Her world:** commute, 2 kids, sports nights, she's the default dinner owner.
 
-#### Check: does this feature…
+### Check: does this feature…
 
 - [ ] Make weekly planning feel like a **project** again (multiple apps, long sessions, lots of decisions)?
 
@@ -36,7 +36,7 @@
 
 **Her world:** part-time + freelance, 2 kids, money is tight; time AND cash are scarce.
 
-#### Check: does this feature…
+### Check: does this feature…
 
 - [ ] Encourage her to buy more **expensive ingredients or premium items** without being clear about the cost impact?
 
@@ -60,7 +60,7 @@
 
 **Her world:** lives alone, hybrid work, volatile evenings, DoorDash is always right there.
 
-#### Check: does this feature…
+### Check: does this feature…
 
 - [ ] Assume a **7-dinner grid** or "full coverage week" as the default goal for her?
 
@@ -84,7 +84,7 @@
 
 **Her world:** 3 kids, PTA, carpool, sports, managing the household; everyone assumes she has time.
 
-#### Check: does this feature…
+### Check: does this feature…
 
 - [ ] Add more **admin burden** (tagging, organizing, maintaining data) instead of reducing it?
 
@@ -106,7 +106,7 @@
 
 **Their world:** two adults, long work days, social life, workouts; not kid-tethered.
 
-#### Check: does this feature…
+### Check: does this feature…
 
 - [ ] Assume they're **home every night** and want a plan for all 7 days?
 
@@ -126,7 +126,7 @@
 
 **Their world:** just the two of them, semi-retired or stable routines, strong food habits.
 
-#### Check: does this feature…
+### Check: does this feature…
 
 - [ ] Overwhelm them with **variety and novelty** when they mostly want gentle twists on their rotation?
 

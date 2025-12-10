@@ -151,7 +151,7 @@ Ready-to-use ticket breakdowns for each surface, with acceptance criteria wired 
 
 1. Use **persona-checklists.md** for regression testing
 
-### For Engineering
+### For Engineering: Additional resources
 
 1. Start with **spec-*.md** for implementation requirements
 
@@ -257,23 +257,23 @@ This documentation evolves as VibeMeals is built. When making changes:
 
 ## 🤔 Common Questions
 
-### Q: Why are there no blocking gates in the UX?
+### Q: Why are there no blocking gates in the UX
 
 A: VibeMeals is a logistics co-pilot, not a validator. We use safe defaults (add everything to the list) so users can shop immediately. Optimization (Quick Review) is optional.
 
-### Q: How does the system learn without asking questions?
+### Q: How does the system learn without asking questions
 
 A: From behavior: What they purchase, what they cook, what they skip in Quick Review, thumbs/favorites in Recap. Actions > Surveys.
 
-### Q: What happens if confidence is low for an ingredient?
+### Q: What happens if confidence is low for an ingredient
 
 A: Safe default: Add it to the shopping list. Optionally surface in Quick Review: "We're adding chicken thighs, but you bought them last week. Still need more?"
 
-### Q: Can users manually adjust the plan?
+### Q: Can users manually adjust the plan
 
 A: Yes. Lock slots, Swap (see 3-5 alternatives), Reroll (new recipe), or manually pick from full browser. Always reversible.
 
-### Q: What's the difference between Swap and Reroll?
+### Q: What's the difference between Swap and Reroll
 
 A: **Swap** = "I don't like *this* recipe; show me similar options" (opens drawer with 3-5 alternatives). **Reroll** = "Surprise me with something completely different" (deterministic new recipe).
 

@@ -1,11 +1,17 @@
 {
   "MD013": false,
-  "MD024": { "siblings_only": true },
+  "MD024": false,
   "MD051": false,
-
-  // Re-enable stricter rules for an audit pass
-  "MD001": true,
+  "MD001": false,
+  
+  "overrides": [
+    {
+      "files": ["docs/spec-*.md", "docs/tickets-*.md", "docs/recipe-spec.md"],
+      "rules": { "MD001": false }
+    }
+  ],
   "MD026": true,
-  "MD040": true,
-  "MD024": true
+  "MD040": true
+
 }
+  

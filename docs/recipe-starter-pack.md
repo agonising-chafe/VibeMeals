@@ -256,7 +256,7 @@ After 15 recipes:
 
 ---
 
-### Ready to start?
+### Ready to start
 
 ```bash
 npm run import:url -- https://www.budgetbytes.com/sheet-pan-chicken-fajitas/
