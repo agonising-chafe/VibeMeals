@@ -10,7 +10,6 @@ import {
   regeneratePlan,
   getSwapAlternatives,
 } from '../planner';
-import { buildShoppingList } from '../shop';
 import { mvpRecipeCatalog } from '../fixtures/recipes.seed';
 import {
   HouseholdProfile,
@@ -69,44 +68,6 @@ describe('Planner - generatePlan', () => {
   });
 
   // Monotonicity tests have been moved to planner.monotonicity.spec.ts
-
-  it('monotonicity (critical-only): critical items count/quantity never decreases as target dinners increase', () => {
-    const house = { ...testHousehold, targetDinnersPerWeek: 2 };
-
-    const criticalTotals: { criticalItemCount: number; criticalQuantity: number }[] = [];
-    const maxTarget = 7;
-    const maxPlan = generatePlan(house, mvpRecipeCatalog, testDate, { targetDinners: maxTarget });
-    for (let td = 1; td <= maxTarget; td++) {
-      const subPlan = { ...maxPlan, days: maxPlan.days.map(d => ({ ...d })) };
-      let kept = 0;
-      for (const day of subPlan.days) {
-        if (day.dinner) {
-          if (kept < td) {
-            kept++;
-          } else {
-            delete day.dinner;
-          }
-        }
-      }
-      const shopping = buildShoppingList(subPlan as any, mvpRecipeCatalog, house as any);
-      const criticalItems = shopping.items.filter(i => i.criticality === 'CRITICAL');
-      const criticalQty = criticalItems.reduce((s: number, it: { totalAmount: number }) => s + Number(it.totalAmount), 0);
-      criticalTotals.push({ criticalItemCount: criticalItems.length, criticalQuantity: criticalQty });
-    }
-
-    for (let i = 1; i < criticalTotals.length; i++) {
-      const prev = criticalTotals[i - 1];
-      const curr = criticalTotals[i];
-      // Critical quantity must never decrease
-      expect(curr.criticalQuantity).toBeGreaterThanOrEqual(prev.criticalQuantity);
-      // If item count decreases, ensure that quantity increased (consolidation is allowed only if quantity increases)
-      if (curr.criticalItemCount < prev.criticalItemCount) {
-        expect(curr.criticalQuantity).toBeGreaterThan(prev.criticalQuantity);
-      } else {
-        expect(curr.criticalItemCount).toBeGreaterThanOrEqual(prev.criticalItemCount);
-      }
-    }
-  });
   
   it('should generate a plan in DRAFT status', () => {
     const plan = generatePlan(testHousehold, mvpRecipeCatalog, testDate);
