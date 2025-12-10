@@ -1,0 +1,10 @@
+node_modules/
+build/
+dist/
+.nuxt/
+.output/
+reports/
+scripts/reports/
+**/fixtures/
+**/recipes/**
+***

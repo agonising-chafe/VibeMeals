@@ -15,6 +15,7 @@
     "dev:preview-planner": "tsx src/dev/preview-planner.ts",
     "check:health": "pwsh ./scripts/check-health.ps1",
     "lint:md": "npx markdownlint-cli --ignore-path .markdownlintignore \"docs/**/*.md\"",
+    "lint:ts": "npx eslint --ext .ts,.tsx src --max-warnings 0",
     "lint:md:strict": "npx markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\"",
     "recipe:fetch": "tsx scripts/spoonacular-workflow.ts fetch",
     "recipe:promote": "tsx scripts/spoonacular-workflow.ts promote --batch",
@@ -22,6 +23,12 @@
     "recipe:workflow": "tsx scripts/spoonacular-workflow.ts"
   },
   "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^7.0.0",
+      "@typescript-eslint/parser": "^7.0.0",
+      "eslint": "^8.0.0",
+      "husky": "^8.0.0",
+      "secretlint": "^6.0.0",
+      "lint-staged": "^13.0.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "markdownlint-cli": "^0.24.0",

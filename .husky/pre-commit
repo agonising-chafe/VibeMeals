@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run secretlint on staged files
+npx secretlint --config .secretlintrc.json "$(git diff --cached --name-only | tr '\n' ' ')" || exit 1
