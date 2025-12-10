@@ -25,6 +25,21 @@ All documentation is linted in CI for quality and consistency. Follow these step
 npm run lint:md:strict
 ```
 
+## Local developer setup
+
+- After pulling the repository, install dependencies and set up local hooks:
+
+```bash
+npm ci
+npm run prepare   # installs husky hooks
+```
+
+- If you're working on docs exclusively, you can run the strict doc linter:
+
+```bash
+npm run lint:md:strict
+```
+
 - If the linter complains and the formatting is intentional (rare), add a per-file override entry to `.markdownlint.strict.json`, for example:
 
 ```json
