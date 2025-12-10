@@ -40,6 +40,17 @@ npm run prepare   # installs husky hooks
 npm run lint:md:strict
 ```
 
+### Secrets & local scanning
+
+- This repo uses a combination of a GitHub secret scan action (gitleaks) and a local pre-commit hook to prevent accidental inclusion of secrets in the repo. After running `npm ci`, install Husky hooks with `npm run prepare` to get the `pre-commit` hook.
+
+```bash
+npm ci
+npm run prepare
+```
+
+If you still accidentally commit a key, rotate it immediately and open a PR to revoke the key where it was generated.
+
 - If the linter complains and the formatting is intentional (rare), add a per-file override entry to `.markdownlint.strict.json`, for example:
 
 ```json
