@@ -50,6 +50,14 @@ describe('Planner - generatePlan', () => {
     const plannedDinners = plan.days.filter(day => day.dinner).length;
     expect(plannedDinners).toBe(3);
   });
+
+  it('should respect household.targetDinnersPerWeek when no options.targetDinners provided', () => {
+    const overrideHousehold = { ...testHousehold, targetDinnersPerWeek: 2 };
+    const plan = generatePlan(overrideHousehold, mvpRecipeCatalog, testDate);
+
+    const plannedDinners = plan.days.filter(day => day.dinner).length;
+    expect(plannedDinners).toBe(2);
+  });
   
   it('should generate a plan in DRAFT status', () => {
     const plan = generatePlan(testHousehold, mvpRecipeCatalog, testDate);
