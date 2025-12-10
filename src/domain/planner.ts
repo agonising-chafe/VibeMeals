@@ -348,7 +348,8 @@ export function generatePlan(
 ): Plan {
   // Get week shape defaults for household mode
   const defaults = WEEK_SHAPE_DEFAULTS[household.mode];
-  const targetDinners = options.targetDinners ?? defaults.dinners;
+  // Respect explicit per-household override if provided, then options, then defaults
+  const targetDinners = options.targetDinners ?? household.targetDinnersPerWeek ?? defaults.dinners;
   const recentRecipeIds = new Set(options.recentRecipeIds ?? []);
   
   // Filter recipes by constraints and recent use
