@@ -3,7 +3,7 @@ import { describe, it, expect } from 'vitest';
 import { generatePlan } from '../planner';
 import { buildShoppingList } from '../shop';
 import { mvpRecipeCatalog } from '../fixtures/recipes.seed';
-import { HouseholdProfile, IsoDate, Plan, PlanDay } from '../types';
+import { HouseholdProfile, IsoDate, Plan } from '../types';
 
 const testHousehold: HouseholdProfile = {
   id: 'hh_test_family',
@@ -28,11 +28,7 @@ function createSubplan(maxPlan: Plan, targetDinners: number): Plan {
         kept++;
       } else {
         // Remove extra dinners to create nested subplan
-        const dayWithoutDinner: PlanDay = {
-          date: day.date,
-          dayOfWeek: day.dayOfWeek,
-        };
-        Object.assign(day, dayWithoutDinner);
+        delete day.dinner;
       }
     }
   }
