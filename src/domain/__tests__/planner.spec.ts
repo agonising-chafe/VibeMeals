@@ -68,39 +68,7 @@ describe('Planner - generatePlan', () => {
     expect(plannedDinners).toBe(4);
   });
 
-  it('monotonicity: more target dinners should not reduce shopping total quantity or item count', () => {
-    const house = { ...testHousehold, targetDinnersPerWeek: 2 };
-
-    // Build one maximal plan and derive sub-plans by taking the first N dinners (ensures nestedness)
-    const maxTarget = 5;
-    const maxPlan = generatePlan(house, mvpRecipeCatalog, testDate, { targetDinners: maxTarget });
-
-    const totals: { itemsCount: number; totalQuantity: number }[] = [];
-    for (let td = 1; td <= maxTarget; td++) {
-      const subPlan = { ...maxPlan, days: maxPlan.days.map(d => ({ ...d })) };
-      // Keep only the first 'td' dinners
-      let kept = 0;
-      for (const day of subPlan.days) {
-        if (day.dinner) {
-          if (kept < td) {
-            kept++;
-          } else {
-            delete day.dinner; // remove extra dinners
-          }
-        }
-      }
-      const shopping = buildShoppingList(subPlan as any, mvpRecipeCatalog, house as any);
-      const sumQty = shopping.items.reduce((s: number, it: { totalAmount: number }) => s + Number(it.totalAmount), 0);
-      totals.push({ itemsCount: shopping.items.length, totalQuantity: sumQty });
-    }
-
-    // Ensure total quantities never decrease
-    for (let i = 1; i < totals.length; i++) {
-      expect(totals[i].totalQuantity).toBeGreaterThanOrEqual(totals[i - 1].totalQuantity);
-      // Also assert items count is non-decreasing; if it decreases, it's a sign of unexpected consolidation
-      expect(totals[i].itemsCount).toBeGreaterThanOrEqual(totals[i - 1].itemsCount);
-    }
-  });
+  // Monotonicity tests have been moved to planner.monotonicity.spec.ts
 
   it('monotonicity (critical-only): critical items count/quantity never decreases as target dinners increase', () => {
     const house = { ...testHousehold, targetDinnersPerWeek: 2 };
@@ -126,7 +94,6 @@ describe('Planner - generatePlan', () => {
       criticalTotals.push({ criticalItemCount: criticalItems.length, criticalQuantity: criticalQty });
     }
 
-    console.log('criticalTotals:', criticalTotals);
     for (let i = 1; i < criticalTotals.length; i++) {
       const prev = criticalTotals[i - 1];
       const curr = criticalTotals[i];

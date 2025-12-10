@@ -12,29 +12,21 @@ VibeMeals v1.3.1 adds outdoor cooking equipment support and comprehensive reject
 
 #### What's New
 
-- ✅ **Added `SMOKER` to `EquipmentTag` enum**: Complete outdoor cooking support
   - Values now: `LARGE_POT`, `LARGE_SKILLET`, `DUTCH_OVEN`, `SHEET_PAN`, `BAKING_DISH`, `OVEN`, `GRILL`, `SLOW_COOKER`, `INSTANT_POT`, `RICE_COOKER`, `FOOD_PROCESSOR`, `BLENDER`, `SMOKER` (13 values)
   - Joins `GRILL` for full outdoor/BBQ workflow support
 
-- ✅ **New `RecipeRejectionReason` Type**: Diagnostic tracking for recipe filtering
   - Values: `RECENTLY_USED`, `DIET_CONSTRAINT_VIOLATED`, `EQUIPMENT_NOT_AVAILABLE`, `INGREDIENT_MISSING`, `OTHER`
   - Enables UI to explain why recipes weren't recommended
 
-- ✅ **New `RecipeRejection` Interface**: Structured rejection tracking
   - Fields: `recipeId`, `reason: RecipeRejectionReason`, `details?: string`
   - Optional parameter in `filterRecipesByConstraints()` for backward compatibility
 
-- ✅ **Equipment Constraints in `HouseholdProfile`**: New optional field
   - `availableEquipment?: EquipmentTag[]` specifies what equipment household has
   - Planner now checks equipment requirements against household profile
 
 #### Technical Improvements
 
-- `src/domain/types.ts`: Added SMOKER to EquipmentTag, added RecipeRejection types
-- `docs/data-model.md`: Updated v1.3.1 with equipment and rejection documentation
-- `src/domain/planner.ts`: Enhanced `filterRecipesByConstraints()` with equipment checking and rejection tracking
-- `src/domain/shop.ts`: Fixed ShoppingItemSourceUsage type handling with exactOptionalPropertyTypes
-- **All Tests**: 110/110 passing, backward compatible
+ - **Tests**: Added unit/monotonicity tests validating `generatePlan()` respects `household.targetDinnersPerWeek`, and guarantees monotonic shopping totals and critical-only monotonicity for nested plans
 
 #### Migration Notes
 
