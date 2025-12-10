@@ -15,6 +15,31 @@ Guidance:
 - If `lint:md` fails during a PR, fix the reported issues or adjust the config collaboratively.
 - Use `lint:md:strict` when preparing a cleanup pass; treat its findings as suggestions unless you decide to make strict mode a project standard.
 
+## Writing & updating documentation
+
+All documentation is linted in CI for quality and consistency. Follow these steps when editing or adding docs:
+
+- Run the strict linter locally before pushing to catch CI failures early:
+
+```bash
+npm run lint:md:strict
+```
+
+- If the linter complains and the formatting is intentional (rare), add a per-file override entry to `.markdownlint.strict.json`, for example:
+
+```json
+{
+	"MD024": { "siblings_only": true },
+	"MD033": { "allowed_elements": ["script"] }
+}
+```
+
+- Avoid disabling rules globally unless absolutely necessary; prefer targeted per-file overrides and document the rationale in your PR.
+
+- CI will upload `reports/markdown-lint-strict.txt` for strict lint failures; check the artifact to see exactly what needs fixing.
+
+Keeping docs tidy helps reviewers and prevents regressions; please follow these steps for every doc change.
+
 If you need to exclude a specific doc (e.g., a locked spec), add it to `.markdownlintignore` with a brief rationale comment in the PR.
 
 ## Pre-merge checklist

@@ -21,6 +21,14 @@ Before requesting review, I have:
   npm run lint:md
   ```
 
+- [ ] Run strict markdown lint (if docs changed):
+
+  ```bash
+  npm run lint:md:strict
+  ```
+
+  If the strict linter flags intentional formatting, add a per-file override to `.markdownlint.strict.json` and explain the reason in the PR description.
+
 - [ ] (If I touched data-model or domain types) Verified types are in sync:
 
   ```bash
