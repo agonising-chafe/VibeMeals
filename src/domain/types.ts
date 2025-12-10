@@ -1,8 +1,8 @@
 // Shared domain types (aligned with docs/data-model.md)
 //
-// CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.3.0
+// CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.3.1
 // Any change to types here requires updating the spec, and vice versa.
-// Last sync: December 9, 2025 — COMPREHENSIVE COVERAGE (FRUIT + RecipeTag + EquipmentTag) ✅
+// Last sync: December 9, 2025 — COMPREHENSIVE COVERAGE (FRUIT + RecipeTag + EquipmentTag + SMOKER + Rejection tracking) ✅
 //
 // See .github/copilot-instructions.md for the sync workflow.
 

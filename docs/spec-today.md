@@ -2,7 +2,7 @@
 
 **Version:** 1.1.0  
 **Status:** Implementation-Ready  
-**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.3.0  
+**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.3.1  
 **Golden Tests:** G1, G4, G6  
 **Last Updated:** December 9, 2025  
 **v1.0.0 Implementation:** Domain logic only (computeTonightState in `src/domain/today.ts`)  
@@ -13,7 +13,7 @@
 >
 > **Note:** The sections below describe the eventual UI layout and flows. In v1.0.0, the core tonight-readiness logic (preflight detection, missing ingredients, status computation) is implemented and tested. The UI will be built in v1.1+.
 >
-> **v1.3.0 Note:** Ingredient identification now uses fully typed `IngredientKind` (including `'FRUIT'`) for accurate preflight status computation.
+> **v1.3.1 Note:** Ingredient identification now uses fully typed `IngredientKind` (including `'FRUIT'`) for accurate preflight status computation.
 
 ---
 

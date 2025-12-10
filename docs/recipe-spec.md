@@ -1,7 +1,7 @@
 # VibeMeals Recipe Specification – v1.1.0
 
 **Status:** Implementation-Ready (Draft → Adopt)  
-**Last Updated:** December 9, 2025 (Updated for v1.3.0 data model)  
+**Last Updated:** December 9, 2025 (Updated for v1.3.1 data model)  
 
 #### Wired to
 
@@ -65,7 +65,7 @@ Planner chooses recipes without extra config. It uses `metadata`:
 interface RecipeMetadata {
   timeBand: 'FAST' | 'NORMAL' | 'PROJECT';
   estimatedMinutes: number;            // realistic "time to table"
-  equipmentTags?: EquipmentTag[];      // e.g. ['SHEET_PAN', 'SLOW_COOKER'], fully typed (v1.3.0+)
+  equipmentTags?: EquipmentTag[];      // e.g. ['SHEET_PAN', 'SLOW_COOKER'], fully typed (v1.3.1+)
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
 }
 ``` text
@@ -145,7 +145,7 @@ interface RecipeIngredientRequirement {
 
 ### 4.2 Kind & Category
 
-- `kind` is for logic (substitutions, "same vibe"). Valid values (v1.3.0+): `'PROTEIN'`, `'CARB'`, `'VEG'`, `'FRUIT'`, `'DAIRY'`, `'FAT_OIL'`, `'SPICE'`, `'CONDIMENT'`, `'OTHER'`.
+- `kind` is for logic (substitutions, "same vibe"). Valid values (v1.3.1+): `'PROTEIN'`, `'CARB'`, `'VEG'`, `'FRUIT'`, `'DAIRY'`, `'FAT_OIL'`, `'SPICE'`, `'CONDIMENT'`, `'OTHER'`.
 
 - `shoppingCategory` is for Shop grouping: `'PRODUCE'`, `'MEAT_SEAFOOD'`, `'DAIRY_EGGS'`, `'PANTRY_DRY'`, `'FROZEN'`, `'OTHER'`.
 
@@ -155,13 +155,13 @@ Examples:
 
 - Dry spaghetti → `kind: 'CARB'`, `shoppingCategory: 'PANTRY_DRY'`
 
-- Lemon → `kind: 'FRUIT'` (v1.3.0+), `shoppingCategory: 'PRODUCE'` ← Important: fixes fruit aggregation
+- Lemon → `kind: 'FRUIT'` (v1.3.1+), `shoppingCategory: 'PRODUCE'` ← Important: fixes fruit aggregation
 
 - Shredded cheddar → `kind: 'DAIRY'`, `shoppingCategory: 'DAIRY_EGGS'`
 
 - Olive oil → `kind: 'FAT_OIL'`, `shoppingCategory: 'PANTRY_DRY'`
 
-#### Musts (v1.3.0+)
+#### Musts (v1.3.1+)
 - Fruits (lemons, apples, berries, etc.) must use `kind: 'FRUIT'`, not `'VEG'`.
 - Cooking fats/oils (olive oil, butter) must use `kind: 'FAT_OIL'`, not `'CONDIMENT'`.
 - All `kind` values are now TypeScript enums; compiler catches invalid values.
@@ -274,7 +274,7 @@ Variant hints:
 
 - "Can be made meatless by skipping chicken and doubling beans."
 
-#### Musts (v1.3.0+)
+#### Musts (v1.3.1+)
 - All tags must be from the `RecipeTag` union; compiler enforces this.
 - Typos in tag values are now compile-time errors, not runtime surprises.
 - Tag selection should honestly reflect the recipe.

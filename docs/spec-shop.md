@@ -2,7 +2,7 @@
 
 **Version:** 1.1.0  
 **Status:** Implementation-Ready  
-**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.3.0  
+**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.3.1  
 **Golden Tests:** G2, G3, G5, G6  
 **Last Updated:** December 9, 2025  
 **v1.0.0 Implementation:** Domain logic only (buildShoppingList in `src/domain/shop.ts`)  
@@ -13,7 +13,7 @@
 >
 > **Note:** The sections below describe the eventual UI layout and flows. In v1.0.0, the core shopping logic (ingredient consolidation, categorization, criticality marking) is implemented and tested. The UI will be built in v1.1+.
 >
-> **v1.3.0 Note:** Ingredient categorization now uses fully typed `IngredientKind` enum (including new `'FRUIT'` type) for accurate shopping aggregation.
+> **v1.3.1 Note:** Ingredient categorization now uses fully typed `IngredientKind` enum (including new `'FRUIT'` type) for accurate shopping aggregation.
 
 ---
 

@@ -1,6 +1,6 @@
 # VibeMeals v1 Data Model
 
-> **Status:** v1.3.0 - Comprehensive coverage: FRUIT + RecipeTag + EquipmentTag  
+> **Status:** v1.3.1 - Comprehensive coverage: FRUIT + RecipeTag + EquipmentTag + SMOKER + Rejection tracking  
 > **Last Updated:** December 9, 2025 — CRITICAL GAPS FIXED ✅  
 > **Purpose:** Shared TypeScript data model covering Plan → Shop → Today → Cook flows
 
