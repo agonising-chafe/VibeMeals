@@ -1,7 +1,7 @@
-# VibeMeals Recipe Specification – v1.0.0
+# VibeMeals Recipe Specification – v1.1.0
 
 **Status:** Implementation-Ready (Draft → Adopt)  
-**Last Updated:** December 8, 2025  
+**Last Updated:** December 9, 2025 (Updated for v1.3.1 data model)  
 
 #### Wired to
 
@@ -64,8 +64,8 @@ Planner chooses recipes without extra config. It uses `metadata`:
 ```ts
 interface RecipeMetadata {
   timeBand: 'FAST' | 'NORMAL' | 'PROJECT';
-  estimatedMinutes: number;            // realistic “time to table”
-  equipmentTags?: string[];            // e.g. ['SHEET_PAN', 'SLOW_COOKER']
+  estimatedMinutes: number;            // realistic "time to table"
+  equipmentTags?: EquipmentTag[];      // e.g. ['SHEET_PAN', 'SLOW_COOKER'], fully typed (v1.3.1+)
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
 }
 ``` text
@@ -145,9 +145,9 @@ interface RecipeIngredientRequirement {
 
 ### 4.2 Kind & Category
 
-- `kind` is for logic (substitutions, “same vibe”).
+- `kind` is for logic (substitutions, "same vibe"). Valid values (v1.3.1+): `'PROTEIN'`, `'CARB'`, `'VEG'`, `'FRUIT'`, `'DAIRY'`, `'FAT_OIL'`, `'SPICE'`, `'CONDIMENT'`, `'OTHER'`.
 
-- `shoppingCategory` is for Shop grouping.
+- `shoppingCategory` is for Shop grouping: `'PRODUCE'`, `'MEAT_SEAFOOD'`, `'DAIRY_EGGS'`, `'PANTRY_DRY'`, `'FROZEN'`, `'OTHER'`.
 
 Examples:
 
@@ -155,7 +155,16 @@ Examples:
 
 - Dry spaghetti → `kind: 'CARB'`, `shoppingCategory: 'PANTRY_DRY'`
 
+- Lemon → `kind: 'FRUIT'` (v1.3.1+), `shoppingCategory: 'PRODUCE'` ← Important: fixes fruit aggregation
+
 - Shredded cheddar → `kind: 'DAIRY'`, `shoppingCategory: 'DAIRY_EGGS'`
+
+- Olive oil → `kind: 'FAT_OIL'`, `shoppingCategory: 'PANTRY_DRY'`
+
+#### Musts (v1.3.1+)
+- Fruits (lemons, apples, berries, etc.) must use `kind: 'FRUIT'`, not `'VEG'`.
+- Cooking fats/oils (olive oil, butter) must use `kind: 'FAT_OIL'`, not `'CONDIMENT'`.
+- All `kind` values are now TypeScript enums; compiler catches invalid values.
 
 ---
 
@@ -223,20 +232,28 @@ Simple, but important for “same vibe” and learning.
 
 ```ts
 type RecipeTag =
-  | 'kid_friendly'
-  | 'spicy'
-  | 'mild'
-  | 'comfort_food'
-  | 'light'
+  | 'vegetarian'
+  | 'vegan'
+  | 'gluten_free'
+  | 'dairy_free'
+  | 'one_pot'
   | 'sheet_pan'
-  | 'soup'
-  | 'bowl'
-  | 'taco_format'
-  | 'pasta'
-  | 'tex_mex'
+  | 'slow_cooker'
+  | 'meal_prep'
+  | 'make_ahead'
+  | 'budget_friendly'
+  | 'kid_friendly'
+  | 'family_friendly'
+  | 'crowd_favorite'
+  | 'comfort_food'
   | 'italian'
-  | 'asian_inspired'
-  | 'one_pot';
+  | 'mexican'
+  | 'asian'
+  | 'american'
+  | 'southern'
+  | 'pantry_staple'
+  | 'weeknight'
+  | 'under_30_minutes';
 
 interface VariantHint {
   description: string;           // “Swap ground beef for turkey”
@@ -245,15 +262,22 @@ interface VariantHint {
 ``` text
 
 #### Examples
-- Sheet-pan chicken → `['kid_friendly', 'sheet_pan', 'mild', 'comfort_food']`
+- Sheet-pan chicken → `['kid_friendly', 'sheet_pan', 'comfort_food', 'family_friendly']`
 
-- Tacos → `['kid_friendly', 'taco_format', 'tex_mex']`
+- Vegetarian one-pot → `['vegetarian', 'one_pot', 'meal_prep', 'weeknight']`
+
+- Slow-cooker pulled pork → `['southern', 'slow_cooker', 'comfort_food', 'crowd_favorite', 'make_ahead']`
 
 Variant hints:
 
-- “Swap ground beef for turkey if desired.”
+- "Swap ground beef for turkey if desired."
 
-- “Can be made meatless by skipping chicken and doubling beans.”
+- "Can be made meatless by skipping chicken and doubling beans."
+
+#### Musts (v1.3.1+)
+- All tags must be from the `RecipeTag` union; compiler enforces this.
+- Typos in tag values are now compile-time errors, not runtime surprises.
+- Tag selection should honestly reflect the recipe.
 
 ---
 

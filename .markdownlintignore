@@ -1,1 +1,4 @@
+# Ignore generated import outputs (non-destructive developer artifacts)
+
+src/dev/imported/
 docs/vision.md

@@ -177,5 +177,5 @@ export const onePotChickenRice: Recipe = {
     }
   ],
   
-  tags: ['one_pot', 'comfort_food', 'weeknight', 'family_friendly', 'leftovers']
-};
+  tags: ['one_pot', 'comfort_food', 'weeknight', 'family_friendly']
+} satisfies Recipe;

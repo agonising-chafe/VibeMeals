@@ -11,6 +11,8 @@ import {
   IsoDate,
   DayOfWeek,
   TimeBand,
+  RecipeRejection,
+  RecipeRejectionReason,
 } from './types';
 import { detectPreflightStatus } from './preflight';
 
@@ -79,13 +81,129 @@ function filterRecipesByConstraints(
   recipes: Recipe[],
   household: HouseholdProfile,
   recentRecipeIds: Set<string> = new Set(),
+  rejections?: RecipeRejection[], // v1.3.1: Optional tracking of rejections
 ): Recipe[] {
   return recipes.filter(recipe => {
+    const addRejection = (reason: RecipeRejectionReason, details?: string) => {
+      if (rejections) {
+        const rejection: RecipeRejection = { recipeId: recipe.id, reason };
+        if (details !== undefined) {
+          rejection.details = details;
+        }
+        rejections.push(rejection);
+      }
+      return false;
+    };
+
     // Skip recently used recipes (repeat guard)
-    if (recentRecipeIds.has(recipe.id)) return false;
+    if (recentRecipeIds.has(recipe.id)) {
+      return addRejection('RECENTLY_USED', 'Used in previous 3 dinners');
+    }
     
-    // TODO: Add constraint filtering when constraints are defined in HouseholdProfile
-    // e.g., dietary restrictions, equipment availability, etc.
+    // v1.3.1: Check equipment constraints
+    if (household.availableEquipment && household.availableEquipment.length > 0 && recipe.metadata.equipmentTags) {
+      const missingEquipment = recipe.metadata.equipmentTags.filter(
+        tag => !household.availableEquipment!.includes(tag)
+      );
+      if (missingEquipment.length > 0) {
+        return addRejection('EQUIPMENT_NOT_AVAILABLE', `Missing: ${missingEquipment.join(', ')}`);
+      }
+    }
+    
+    // Apply dietary constraints
+    for (const constraint of household.dietConstraints) {
+      switch (constraint) {
+        case 'NO_PORK':
+          // Check ingredients for pork-related items
+          if (recipe.ingredients.some(ing => 
+            /pork|bacon|ham|sausage/i.test(ing.displayName)
+          )) return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains pork (${constraint})`);
+          break;
+        
+        case 'NO_BEEF':
+          // Check ingredients for beef-related items
+          if (recipe.ingredients.some(ing => 
+            /beef|steak|ground beef|chuck/i.test(ing.displayName)
+          )) return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains beef (${constraint})`);
+          break;
+        
+        case 'NO_SHELLFISH':
+          // Check ingredients for shellfish
+          if (recipe.ingredients.some(ing => 
+            /shrimp|crab|lobster|clam|mussel|oyster|scallop/i.test(ing.displayName)
+          )) return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains shellfish (${constraint})`);
+          break;
+        
+        case 'NO_GLUTEN':
+          // Must have gluten_free tag or no gluten-containing ingredients
+          const hasGlutenFreeTag = recipe.tags?.includes('gluten_free');
+          const hasGlutenIngredient = recipe.ingredients.some(ing =>
+            /flour|pasta|bread|soy sauce|wheat|barley|rye/i.test(ing.displayName)
+          );
+          if (!hasGlutenFreeTag && hasGlutenIngredient) {
+            return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains gluten (${constraint})`);
+          }
+          break;
+        
+        case 'NO_DAIRY':
+          // Must have dairy_free tag or no dairy ingredients
+          const hasDairyFreeTag = recipe.tags?.includes('dairy_free');
+          const hasDairyIngredient = recipe.ingredients.some(ing =>
+            ing.kind === 'DAIRY' || /milk|cheese|cream|butter|yogurt/i.test(ing.displayName)
+          );
+          if (!hasDairyFreeTag && hasDairyIngredient) {
+            return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains dairy (${constraint})`);
+          }
+          break;
+        
+        case 'VEGETARIAN':
+          // No meat/seafood ingredients
+          if (recipe.ingredients.some(ing => 
+            ing.kind === 'PROTEIN' && 
+            /chicken|beef|pork|fish|shrimp|meat|turkey|lamb/i.test(ing.displayName)
+          )) {
+            return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains meat (${constraint})`);
+          }
+          break;
+        
+        case 'VEGAN':
+          // No animal products at all
+          if (recipe.ingredients.some(ing => 
+            ing.kind === 'PROTEIN' && /chicken|beef|pork|fish|shrimp|meat|turkey|lamb/i.test(ing.displayName) ||
+            ing.kind === 'DAIRY' ||
+            /egg|honey|milk|cheese|cream|butter|yogurt/i.test(ing.displayName)
+          )) {
+            return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains animal products (${constraint})`);
+          }
+          break;
+        
+        case 'KETO':
+          // Low-carb: avoid high-carb ingredients (rice, pasta, bread, potatoes, sugar)
+          // Focus on protein and low-carb vegetables
+          const hasHighCarbIngredient = recipe.ingredients.some(ing =>
+            ing.kind === 'CARB' ||
+            /rice|pasta|bread|potato|tortilla|noodle|flour|sugar|honey|corn|beans|lentils/i.test(ing.displayName)
+          );
+          if (hasHighCarbIngredient) {
+            return addRejection('DIET_CONSTRAINT_VIOLATED', `Too many carbs (${constraint})`);
+          }
+          break;
+        
+        case 'CARNIVORE':
+          // Meat-only: primarily protein with minimal plant ingredients
+          // Allow eggs, dairy (animal products), salt, and basic fats
+          // Exclude vegetables, grains, legumes
+          const hasPlantIngredient = recipe.ingredients.some(ing =>
+            ing.kind === 'VEG' ||
+            ing.kind === 'CARB' ||
+            /vegetable|lettuce|tomato|onion|garlic|pepper|broccoli|carrot|fruit|beans|lentils|rice|pasta|bread/i.test(ing.displayName)
+          );
+          if (hasPlantIngredient) {
+            return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains plant ingredients (${constraint})`);
+          }
+          break;
+      }
+    }
     
     return true;
   });
@@ -128,13 +246,11 @@ function distributeRecipesToDays(
   // Prefer weeknight (Mon-Thu) for FAST recipes, weekend for PROJECT
   const weeknights = weekDays.slice(0, 4); // Mon-Thu
   const weekends = weekDays.slice(5, 7); // Sat-Sun
-  const friday = weekDays[4]; // Fri (flex)
   
   const fastRecipes = shuffledRecipes.filter(r => r.metadata.timeBand === 'FAST');
   const normalRecipes = shuffledRecipes.filter(r => r.metadata.timeBand === 'NORMAL');
   const projectRecipes = shuffledRecipes.filter(r => r.metadata.timeBand === 'PROJECT');
   
-  let recipeIndex = 0;
   let assignedCount = 0;
   
   // Helper to create dinner with preflight detection
@@ -378,7 +494,7 @@ export function regeneratePlan(
     recentRecipeIds?: string[];
   } = {},
 ): Plan {
-  const { respectShopped = false, recentRecipeIds = [] } = options;
+  const { respectShopped: _respectShopped = false, recentRecipeIds = [] } = options;
   
   // Collect locked recipe IDs and recent IDs
   const lockedRecipeIds = plan.days

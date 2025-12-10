@@ -1,0 +1,58 @@
+{
+  "mapped": {
+    "id": "spoon_716429",
+    "name": "Spaghetti Aglio e Olio",
+    "slug": "spaghetti-aglio-e-olio",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 20,
+      "equipmentTags": [
+        "LARGE_POT",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "NONE"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "displayName": "4 cloves garlic, minced",
+        "qty": 4,
+        "unit": "clove",
+        "criticality": "CRITICAL",
+        "kind": "PRODUCE",
+        "shoppingCategory": "PRODUCE"
+      },
+      {
+        "displayName": "12 oz spaghetti",
+        "qty": 12,
+        "unit": "oz",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY"
+      },
+      {
+        "displayName": "2 tbsp butter",
+        "qty": 2,
+        "unit": "tbsp",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      { "stepNumber": 1, "instruction": "Boil pasta until al dente." },
+      { "stepNumber": 2, "instruction": "Melt butter and sauté garlic until fragrant." },
+      { "stepNumber": 3, "instruction": "Toss pasta with garlic butter and serve." }
+    ],
+    "tags": [
+      "vegetarian",
+      "weeknight",
+      "pantry_staple",
+      "italian"
+    ],
+    "servings": 4,
+    "sourceUrl": "https://spoonacular.example/716429",
+    "provenance": { "provider": "spoonacular", "id": "716429" }
+  }
+}

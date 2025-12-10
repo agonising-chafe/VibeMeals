@@ -15,14 +15,19 @@
     "dev:preview-planner": "tsx src/dev/preview-planner.ts",
     "check:health": "pwsh ./scripts/check-health.ps1",
     "lint:md": "npx markdownlint-cli --ignore-path .markdownlintignore \"docs/**/*.md\"",
-    "lint:md:strict": "npx markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\""
+    "lint:md:strict": "npx markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\"",
+    "recipe:fetch": "tsx scripts/spoonacular-workflow.ts fetch",
+    "recipe:promote": "tsx scripts/spoonacular-workflow.ts promote --batch",
+    "recipe:info": "tsx scripts/spoonacular-workflow.ts info",
+    "recipe:workflow": "tsx scripts/spoonacular-workflow.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "markdownlint-cli": "^0.24.0",
     "typescript": "^5.3.3",
-    "vitest": "^1.2.0"
+    "vitest": "^1.2.0",
+    "ts-morph": "^21.0.1"
   },
   "dependencies": {
     "pdf-parse-fork": "^1.2.0"

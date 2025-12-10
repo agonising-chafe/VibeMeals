@@ -1,7 +1,7 @@
 # VibeMeals v1 Data Model
 
-> **Status:** v1.2.0 - Reference schema for implementation  
-> **Last Updated:** December 8, 2025 — VALIDATION COMPLETE ✅  
+> **Status:** v1.3.1 - Comprehensive coverage: FRUIT + RecipeTag + EquipmentTag + SMOKER + Rejection tracking  
+> **Last Updated:** December 9, 2025 — CRITICAL GAPS FIXED ✅  
 > **Purpose:** Shared TypeScript data model covering Plan → Shop → Today → Cook flows
 
 This document defines the core data structures referenced by all tickets (P1-P9, T1-T9, S1-S9, C1-C4). These are **interface definitions only** - not implementation code, but contracts that prevent architecture drift during parallel development.
@@ -36,6 +36,7 @@ export type IngredientKind =
   | 'PROTEIN'
   | 'CARB'
   | 'VEG'
+  | 'FRUIT'      // ← NEW: lemons, berries, apples, citrus, etc.
   | 'DAIRY'
   | 'FAT_OIL'
   | 'SPICE'
@@ -50,7 +51,64 @@ export type DietConstraint =
   | 'NO_GLUTEN'
   | 'NO_DAIRY'
   | 'VEGETARIAN'
-  | 'VEGAN';
+  | 'VEGAN'
+  | 'KETO'
+  | 'CARNIVORE';
+
+// Recipe rejection tracking: for diagnostic flagging when recipes are filtered out
+export type RecipeRejectionReason =
+  | 'RECENTLY_USED'
+  | 'DIET_CONSTRAINT_VIOLATED'
+  | 'EQUIPMENT_NOT_AVAILABLE'
+  | 'INGREDIENT_MISSING'
+  | 'OTHER';
+
+export interface RecipeRejection {
+  recipeId: RecipeId;
+  reason: RecipeRejectionReason;
+  details?: string;
+}
+
+// Recipe tags: for filtering, discovery, and dietary/cooking style classification
+export type RecipeTag =
+  | 'vegetarian'
+  | 'vegan'
+  | 'gluten_free'
+  | 'dairy_free'
+  | 'one_pot'
+  | 'sheet_pan'
+  | 'slow_cooker'
+  | 'meal_prep'
+  | 'make_ahead'
+  | 'budget_friendly'
+  | 'kid_friendly'
+  | 'family_friendly'
+  | 'crowd_favorite'
+  | 'comfort_food'
+  | 'italian'
+  | 'mexican'
+  | 'asian'
+  | 'american'
+  | 'southern'
+  | 'pantry_staple'
+  | 'weeknight'
+  | 'under_30_minutes';
+
+// Equipment tags: for categorizing required kitchen equipment
+export type EquipmentTag =
+  | 'LARGE_POT'
+  | 'LARGE_SKILLET'
+  | 'DUTCH_OVEN'
+  | 'SHEET_PAN'
+  | 'BAKING_DISH'
+  | 'OVEN'
+  | 'GRILL'
+  | 'SLOW_COOKER'
+  | 'INSTANT_POT'
+  | 'RICE_COOKER'
+  | 'FOOD_PROCESSOR'
+  | 'BLENDER'
+  | 'SMOKER';
 
 // For Shop grouping (Shop S3)
 export type ShoppingCategory =
@@ -101,6 +159,7 @@ export interface HouseholdProfile {
   headcount: number;
   targetDinnersPerWeek: number;
   dietConstraints: DietConstraint[];
+  availableEquipment?: EquipmentTag[];  // v1.3.1: Optional equipment availability (e.g., no grill, no oven)
   timeBandPreference?: {
     preferredFastCount?: number;
     preferredNormalCount?: number;
@@ -145,8 +204,8 @@ export interface RecipePreflightRequirement {
 export interface RecipeMetadata {
   timeBand: TimeBand;
   estimatedMinutes: number;
-  // e.g. "ONE_PAN", "SLOW_COOKER", etc if you want later
-  equipmentTags?: string[];
+  // Typed equipment tags for kitchen requirements
+  equipmentTags?: EquipmentTag[];
   // leftovers intent: NONE | EXPECTED_LEFTOVERS | COOK_ONCE_EAT_TWICE
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
 }
@@ -169,7 +228,7 @@ export interface Recipe {
   ingredients: RecipeIngredientRequirement[];
   preflight: RecipePreflightRequirement[];
   steps: RecipeStep[];
-  tags?: string[];
+  tags?: RecipeTag[];
   variantHints?: { description: string; safeSubIngredientId?: string }[];
 }
 ```

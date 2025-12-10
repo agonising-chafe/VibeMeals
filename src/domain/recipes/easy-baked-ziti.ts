@@ -215,6 +215,6 @@ export const easyBakedZiti: Recipe = {
   "tags": [
     "italian",
     "comfort_food",
-    "healthy"
+    "weeknight"
   ]
-};
+} satisfies Recipe;

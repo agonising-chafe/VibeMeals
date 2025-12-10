@@ -277,7 +277,7 @@ export const lasagnaSoup: Recipe = {
   ],
   "tags": [
     "italian",
-    "healthy",
+    "comfort_food",
     "weeknight"
   ]
-};
+} satisfies Recipe;

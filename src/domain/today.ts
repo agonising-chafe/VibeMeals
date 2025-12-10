@@ -45,8 +45,8 @@ function computeTomorrowPreview(
 
   if (tomorrow.dinner) {
     const recipe = resolveRecipe(recipes, tomorrow.dinner.recipeId);
-    preview.recipeName = recipe?.name;
-    preview.timeBand = recipe?.metadata.timeBand;
+    if (recipe?.name) preview.recipeName = recipe.name;
+    if (recipe?.metadata.timeBand) preview.timeBand = recipe.metadata.timeBand;
 
     if (recipe && recipe.preflight && recipe.preflight.length > 0) {
       preview.keyPreflightNote = recipe.preflight[0]?.description;
@@ -96,25 +96,24 @@ export function computeTonightState(
   plan: Plan,
   recipes: Recipe[],
   missingItems: MissingItem[],
-  substitutions: Substitution[],
+  _substitutions: Substitution[],
   today: IsoDate,
-  currentTime?: Date,
+  _currentTime?: Date,
 ): TonightState {
   const day = resolveDay(plan, today);
 
   if (!day) {
     const fallbackDayOfWeek: DayOfWeek = 'Mon';
-    return {
+    const asContext: TonightPlanContext = {
+      date: today,
+      dayOfWeek: fallbackDayOfWeek,
+    };
+    const stateBase: Omit<TonightState, 'tomorrowPreview' | 'secondaryMessage'> = {
       planId: plan.id,
       householdId: plan.householdId,
       status: 'NO_PLAN',
       primaryMessage: 'No plan found for tonight.',
-      context: {
-        date: today,
-        dayOfWeek: fallbackDayOfWeek,
-        dinner: undefined,
-        recipe: undefined,
-      },
+      context: asContext,
       issues: {
         preflightStatus: 'NONE_REQUIRED',
         missingCoreIngredients: [],
@@ -126,8 +125,9 @@ export function computeTonightState(
         canMarkOutEating: true,
         canChangeDinner: true,
       },
-      tomorrowPreview: computeTomorrowPreview(plan, recipes, today),
     };
+    const preview = computeTomorrowPreview(plan, recipes, today);
+    return preview ? { ...stateBase, tomorrowPreview: preview } : stateBase;
   }
 
   const dinner = day.dinner;
@@ -136,9 +136,9 @@ export function computeTonightState(
   const context: TonightPlanContext = {
     date: day.date,
     dayOfWeek: day.dayOfWeek,
-    dinner,
-    recipe,
   };
+  if (dinner) context.dinner = dinner;
+  if (recipe) context.recipe = recipe;
 
   const issues: TonightIssues = {
     preflightStatus: dinner?.preflightStatus ?? 'NONE_REQUIRED',
@@ -154,7 +154,7 @@ export function computeTonightState(
   };
 
   if (!dinner || !recipe) {
-    return {
+    const stateBase: Omit<TonightState, 'tomorrowPreview' | 'secondaryMessage'> = {
       planId: plan.id,
       householdId: plan.householdId,
       status: 'NO_PLAN',
@@ -162,8 +162,9 @@ export function computeTonightState(
       context,
       issues,
       actions: { ...baseActions, canStartCooking: false },
-      tomorrowPreview: computeTomorrowPreview(plan, recipes, today),
     };
+    const preview = computeTomorrowPreview(plan, recipes, today);
+    return preview ? { ...stateBase, tomorrowPreview: preview } : stateBase;
   }
 
   const todaysMissing = missingItems.filter(
@@ -210,15 +211,19 @@ export function computeTonightState(
     actions.canStartCooking = true;
   }
 
-  return {
+  const stateBase: Omit<TonightState, 'secondaryMessage' | 'tomorrowPreview'> = {
     planId: plan.id,
     householdId: plan.householdId,
     status,
     primaryMessage,
-    secondaryMessage,
     context,
     issues: { ...issues, preflightStatus },
     actions,
-    tomorrowPreview: computeTomorrowPreview(plan, recipes, today),
   };
+  if (secondaryMessage) {
+    // Use a type assertion to avoid accidental mutation in place
+    (stateBase as any).secondaryMessage = secondaryMessage;
+  }
+  const preview = computeTomorrowPreview(plan, recipes, today);
+  return preview ? { ...stateBase, tomorrowPreview: preview } : stateBase;
 }

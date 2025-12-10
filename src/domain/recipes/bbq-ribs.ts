@@ -13,8 +13,8 @@ export const bbqRibs: Recipe = {
     "timeBand": "PROJECT",
     "estimatedMinutes": 182,
     "equipmentTags": [
-      "SHEET_PAN",
-      "GRILL"
+      "OVEN",
+      "BAKING_DISH"
     ],
     "leftoverStrategy": "NONE"
   },

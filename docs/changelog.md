@@ -4,6 +4,96 @@
 
 ---
 
+## Version 1.3.1 - December 9, 2025 🔧
+
+### EQUIPMENT CATALOG EXPANSION & CONSTRAINT TRACKING
+
+VibeMeals v1.3.1 adds outdoor cooking equipment support and comprehensive rejection diagnostics for recipe filtering.
+
+#### What's New
+
+- ✅ **Added `SMOKER` to `EquipmentTag` enum**: Complete outdoor cooking support
+  - Values now: `LARGE_POT`, `LARGE_SKILLET`, `DUTCH_OVEN`, `SHEET_PAN`, `BAKING_DISH`, `OVEN`, `GRILL`, `SLOW_COOKER`, `INSTANT_POT`, `RICE_COOKER`, `FOOD_PROCESSOR`, `BLENDER`, `SMOKER` (13 values)
+  - Joins `GRILL` for full outdoor/BBQ workflow support
+
+- ✅ **New `RecipeRejectionReason` Type**: Diagnostic tracking for recipe filtering
+  - Values: `RECENTLY_USED`, `DIET_CONSTRAINT_VIOLATED`, `EQUIPMENT_NOT_AVAILABLE`, `INGREDIENT_MISSING`, `OTHER`
+  - Enables UI to explain why recipes weren't recommended
+
+- ✅ **New `RecipeRejection` Interface**: Structured rejection tracking
+  - Fields: `recipeId`, `reason: RecipeRejectionReason`, `details?: string`
+  - Optional parameter in `filterRecipesByConstraints()` for backward compatibility
+
+- ✅ **Equipment Constraints in `HouseholdProfile`**: New optional field
+  - `availableEquipment?: EquipmentTag[]` specifies what equipment household has
+  - Planner now checks equipment requirements against household profile
+
+#### Technical Improvements
+
+- `src/domain/types.ts`: Added SMOKER to EquipmentTag, added RecipeRejection types
+- `docs/data-model.md`: Updated v1.3.1 with equipment and rejection documentation
+- `src/domain/planner.ts`: Enhanced `filterRecipesByConstraints()` with equipment checking and rejection tracking
+- `src/domain/shop.ts`: Fixed ShoppingItemSourceUsage type handling with exactOptionalPropertyTypes
+- **All Tests**: 110/110 passing, backward compatible
+
+#### Migration Notes
+
+The rejection tracking parameter is optional. Existing callers of `filterRecipesByConstraints()` continue to work without changes.
+
+---
+
+## Version 1.3.0 - December 9, 2025 ✨
+
+### DOMAIN MODEL HARDENING – COMPREHENSIVE TYPE SAFETY
+
+VibeMeals v1.3.0 adds critical type safety and ingredient classification improvements. All enums are now exhaustive, fully typed, and validated by TypeScript compiler. Recipe discovery, shopping aggregation, and equipment planning are now bulletproof.
+
+#### What's New
+
+- ✅ **Added `FRUIT` to `IngredientKind` enum**: Lemons, berries, apples, citrus now correctly categorize as `FRUIT` instead of `VEG` fallback
+  - Fixes shopping aggregation for fruit-based recipes (lemon-garlic-chicken, berry smoothies, etc.)
+  - Enables dietary filtering by fruit content
+
+- ✅ **New `RecipeTag` Union Type (22 values)**: Replaces open `string[]` with fully typed enum
+  - Values: `vegetarian`, `vegan`, `gluten_free`, `dairy_free`, `one_pot`, `sheet_pan`, `slow_cooker`, `meal_prep`, `make_ahead`, `budget_friendly`, `kid_friendly`, `family_friendly`, `crowd_favorite`, `comfort_food`, `italian`, `mexican`, `asian`, `american`, `southern`, `pantry_staple`, `weeknight`, `under_30_minutes`
+  - Compiler now catches tag typos at compile-time (e.g., `'family_dinner'` → `'family_friendly'`)
+  - Enables type-safe recipe filtering and discovery
+
+- ✅ **New `EquipmentTag` Union Type (12 values)**: Replaces open `string[]` with fully typed enum
+  - Values: `LARGE_POT`, `LARGE_SKILLET`, `DUTCH_OVEN`, `SHEET_PAN`, `BAKING_DISH`, `OVEN`, `GRILL`, `SLOW_COOKER`, `INSTANT_POT`, `RICE_COOKER`, `FOOD_PROCESSOR`, `BLENDER`
+  - Enables household equipment constraint detection
+  - All recipes now validated against available equipment
+
+- ✅ **Type Sync**: Data model v1.2.0 → v1.3.0, all interfaces updated
+
+#### Technical Improvements
+
+- `src/domain/types.ts`: Enhanced with 3 new union types (IngredientKind +1, RecipeTag +1, EquipmentTag +2 with GRILL)
+- `docs/data-model.md`: Updated to v1.3.0 with new enums and type documentation
+- `src/domain/recipes/*`: Fixed 8 invalid tag values, 1 equipment tag normalization
+- `src/integrations/spoonacular.ts`: Type casts for mapper output
+- **Compiler Validation**: 0 recipe type violations, 110/110 tests passing
+
+#### Breaking Changes
+
+None. All existing code remains compatible; new types are additive and enforce stricter validation.
+
+#### Migration Guide for Batch Imports
+
+When importing new recipes via Spoonacular, all tags and equipment are now validated by TypeScript:
+
+```typescript
+// ✅ Valid
+tags: ['vegetarian', 'weeknight', 'one_pot']
+equipmentTags: ['LARGE_POT', 'SLOW_COOKER']
+
+// ❌ Invalid (compiler error)
+tags: ['healthy', 'family_dinner']  // Use 'family_friendly' instead
+equipmentTags: ['GRILL']            // Use 'OVEN' for oven-based cooking
+```
+
+---
+
 ## Version 1.0.0 - December 8, 2025 🚀
 
 ### PRODUCTION RELEASE – MVP LAUNCH

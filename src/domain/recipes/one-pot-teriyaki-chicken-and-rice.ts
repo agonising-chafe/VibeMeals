@@ -196,7 +196,6 @@ export const onePotTeriyakiChickenAndRice: Recipe = {
   ],
   "tags": [
     "asian",
-    "healthy",
     "weeknight"
   ]
-};
+} satisfies Recipe;

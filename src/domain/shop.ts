@@ -5,6 +5,7 @@ import {
   Recipe,
   ShoppingList,
   ShoppingItem,
+  ShoppingItemSourceUsage,
   QuickReviewCandidate,
   ShoppingItemId,
   IngredientCriticality,
@@ -37,7 +38,7 @@ function nextShoppingItemId(): ShoppingItemId {
 export function buildShoppingList(
   plan: Plan,
   recipes: Recipe[],
-  household?: HouseholdProfile,
+  _household?: HouseholdProfile,
 ): ShoppingList {
   const recipeById = new Map<string, Recipe>();
   for (const r of recipes) recipeById.set(r.id, r);
@@ -112,11 +113,13 @@ export function buildShoppingList(
       shoppingCategory: accItem.shoppingCategory,
       totalAmount: accItem.totalAmount,
       unit: accItem.unit,
-      usedIn: accItem.usedIn.map(u => ({
-        recipeId: u.recipeId,
-        recipeName: u.recipeName,
-        amountPortion: undefined,
-      })),
+      usedIn: accItem.usedIn.map(u => {
+        const usage: ShoppingItemSourceUsage = {
+          recipeId: u.recipeId,
+          recipeName: u.recipeName,
+        };
+        return usage;
+      }),
       checked: false,
       criticality: accItem.criticality,
     });
