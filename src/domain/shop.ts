@@ -10,6 +10,7 @@ import {
   ShoppingItemId,
   IngredientCriticality,
   HouseholdProfile,
+  Allergen,
 } from './types';
 
 type IngredientAccumulator = {
@@ -20,6 +21,9 @@ type IngredientAccumulator = {
   unit: ShoppingItem['unit'];
   usedIn: { recipeId: string; recipeName: string }[];
   criticality: IngredientCriticality;
+  packages?: number | undefined;
+  packageSize?: { amount: number; unit: 'OZ' | 'ML' | 'GRAM' | 'UNIT' } | undefined;
+  allergens?: Set<Allergen> | undefined;
 };
 
 let shoppingItemCounter = 0;
@@ -73,6 +77,8 @@ export function buildShoppingList(
       const key = ing.ingredientId;
       const existing = acc.get(key);
       const amountForPlan = ing.amount * servingsMultiplier;
+      const packagesForPlan =
+        ing.packages !== undefined ? ing.packages * servingsMultiplier : undefined;
 
       if (!existing) {
         acc.set(key, {
@@ -88,6 +94,9 @@ export function buildShoppingList(
             },
           ],
           criticality: ing.criticality,
+          packages: packagesForPlan,
+          packageSize: ing.packageSize,
+          allergens: ing.allergens ? new Set(ing.allergens) : undefined,
         });
       } else {
         existing.totalAmount += amountForPlan;
@@ -98,6 +107,21 @@ export function buildShoppingList(
         if (ing.criticality === 'CRITICAL') {
           existing.criticality = 'CRITICAL';
         }
+        // Aggregate packages only if package size matches
+        if (
+          packagesForPlan !== undefined &&
+          ing.packageSize &&
+          (!existing.packageSize ||
+            (existing.packageSize.amount === ing.packageSize.amount &&
+              existing.packageSize.unit === ing.packageSize.unit))
+        ) {
+          existing.packages = (existing.packages ?? 0) + packagesForPlan;
+          existing.packageSize = ing.packageSize;
+        }
+        if (ing.allergens && ing.allergens.length > 0) {
+          if (!existing.allergens) existing.allergens = new Set<Allergen>();
+          ing.allergens.forEach(a => existing.allergens!.add(a));
+        }
       }
     }
   }
@@ -105,7 +129,7 @@ export function buildShoppingList(
   const items: ShoppingItem[] = [];
   for (const accItem of acc.values()) {
     const id = nextShoppingItemId();
-    items.push({
+    const item: ShoppingItem = {
       id,
       planId: plan.id,
       ingredientId: accItem.ingredientId,
@@ -122,7 +146,11 @@ export function buildShoppingList(
       }),
       checked: false,
       criticality: accItem.criticality,
-    });
+    };
+    if (accItem.packages !== undefined) item.packages = accItem.packages;
+    if (accItem.packageSize) item.packageSize = accItem.packageSize;
+    if (accItem.allergens) item.allergens = Array.from(accItem.allergens);
+    items.push(item);
   }
 
   const quickReviewCandidates: QuickReviewCandidate[] = [];

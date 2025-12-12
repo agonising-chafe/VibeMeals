@@ -48,3 +48,9 @@ Thumbs.db
 reports/
 **/reports/
 scripts/reports/
+
+# Local recipe import artifacts (keep canonical TS recipes, ignore raw text/JSON)
+.txt recipe files/
+src/dev/imported/atk-book/
+src/dev/imported/atk-book-enriched/
+src/dev/imported/atk-book-enriched-batch-project/

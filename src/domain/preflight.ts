@@ -50,20 +50,27 @@ function checkRequirementMet(
   switch (requirement.type) {
     case 'SLOW_COOK': {
       // SLOW_COOK met if still have required hours (or within 1 hour margin)
-      const hoursRequired = requirement.hoursBeforeCook ?? 4;
+      const hoursRequired = requirement.hoursBeforeCook ?? requirement.hoursBefore ?? 4;
       return hoursRemaining > hoursRequired - 1;
     }
 
     case 'MARINATE': {
       // MARINATE met if still have required hours
-      const hoursRequired = requirement.hoursBeforeCook ?? 2;
+      const hoursRequired = requirement.hoursBeforeCook ?? requirement.hoursBefore ?? 2;
       return hoursRemaining > hoursRequired - 1;
     }
 
     case 'THAW': {
       // THAW met if still have required hours (assume 24 hours per LB)
       // Most frozen proteins are 0.5-2 LB, so assume 24-48 hours needed
-      const hoursRequired = requirement.hoursBeforeCook ?? 24;
+      const hoursRequired = requirement.hoursBeforeCook ?? requirement.hoursBefore ?? 24;
+      return hoursRemaining > hoursRequired - 1;
+    }
+
+    case 'CHILL':
+    case 'SOAK':
+    case 'FREEZE': {
+      const hoursRequired = requirement.hoursBeforeCook ?? requirement.hoursBefore ?? 4;
       return hoursRemaining > hoursRequired - 1;
     }
 
@@ -183,7 +190,7 @@ export function getAtRiskRequirements(
   const hoursRemaining = hoursUntilCook(cookDate, now);
 
   return recipe.preflight.filter(req => {
-    const hoursRequired = req.hoursBeforeCook ?? 2;
+    const hoursRequired = req.hoursBeforeCook ?? req.hoursBefore ?? 2;
     const isAtRisk = hoursRemaining < hoursRequired + hoursWarningThreshold;
     return isAtRisk && hoursRemaining > 0; // Not already missed
   });

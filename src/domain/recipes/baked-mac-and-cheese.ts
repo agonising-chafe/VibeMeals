@@ -15,7 +15,9 @@ export const bakedMacAndCheese: Recipe = {
     "equipmentTags": [
       "DUTCH_OVEN"
     ],
-    "leftoverStrategy": "NONE"
+    "leftoverStrategy": "NONE",
+    "baseServings": 6,
+    "yieldText": "SERVES 6"
   },
   "ingredients": [
     {
@@ -34,7 +36,8 @@ export const bakedMacAndCheese: Recipe = {
       "unit": "CUP",
       "criticality": "NON_CRITICAL",
       "kind": "FAT_OIL",
-      "shoppingCategory": "DAIRY_EGGS"
+      "shoppingCategory": "DAIRY_EGGS",
+      "quantityKind": "APPROXIMATE"
     },
     {
       "ingredientId": "ing_italian-seasoning-002",
@@ -88,7 +91,8 @@ export const bakedMacAndCheese: Recipe = {
       "unit": "TSP",
       "criticality": "NON_CRITICAL",
       "kind": "SPICE",
-      "shoppingCategory": "PANTRY_DRY"
+      "shoppingCategory": "PANTRY_DRY",
+      "quantityKind": "TO_TASTE"
     },
     {
       "ingredientId": "ing_cheddar-cheese-shredded-124",

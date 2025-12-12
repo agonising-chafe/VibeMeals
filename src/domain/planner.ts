@@ -8,11 +8,13 @@ import {
   PlannedDinner,
   HouseholdProfile,
   Recipe,
+  RecipeTag,
   IsoDate,
   DayOfWeek,
   TimeBand,
   RecipeRejection,
   RecipeRejectionReason,
+  Allergen,
 } from './types';
 import { detectPreflightStatus } from './preflight';
 
@@ -128,31 +130,61 @@ function filterRecipesByConstraints(
           break;
         
         case 'NO_SHELLFISH':
-          // Check ingredients for shellfish
-          if (recipe.ingredients.some(ing => 
-            /shrimp|crab|lobster|clam|mussel|oyster|scallop/i.test(ing.displayName)
-          )) return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains shellfish (${constraint})`);
+          {
+            // Prefer explicit allergen tagging; fall back to name heuristics for legacy data
+            const hasShellfishAllergen =
+              recipe.recipeAllergens?.includes('SHELLFISH') ||
+              recipe.ingredients.some(ing => ing.allergens?.includes('SHELLFISH'));
+            const nameSuggestsShellfish = recipe.ingredients.some(ing =>
+              /shrimp|crab|lobster|clam|mussel|oyster|scallop/i.test(ing.displayName)
+            );
+            if (hasShellfishAllergen || nameSuggestsShellfish) {
+              return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains shellfish (${constraint})`);
+            }
+          }
+          break;
+        
+        case 'NO_PEANUT':
+          {
+            const hasPeanutAllergen =
+              recipe.recipeAllergens?.includes('PEANUT') ||
+              recipe.ingredients.some(ing => ing.allergens?.includes('PEANUT'));
+            const nameSuggestsPeanut = recipe.ingredients.some(ing =>
+              /peanut|peanut butter/i.test(ing.displayName)
+            );
+            if (hasPeanutAllergen || nameSuggestsPeanut) {
+              return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains peanut (${constraint})`);
+            }
+          }
           break;
         
         case 'NO_GLUTEN':
-          // Must have gluten_free tag or no gluten-containing ingredients
-          const hasGlutenFreeTag = recipe.tags?.includes('gluten_free');
-          const hasGlutenIngredient = recipe.ingredients.some(ing =>
-            /flour|pasta|bread|soy sauce|wheat|barley|rye/i.test(ing.displayName)
-          );
-          if (!hasGlutenFreeTag && hasGlutenIngredient) {
-            return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains gluten (${constraint})`);
+          // Treat tags as hints only; ingredients are ground truth
+          {
+            const hasGlutenAllergen =
+              recipe.recipeAllergens?.includes('WHEAT') ||
+              recipe.ingredients.some(ing => ing.allergens?.includes('WHEAT'));
+            const hasGlutenIngredient = recipe.ingredients.some(ing =>
+              /flour|pasta|bread|soy sauce|wheat|barley|rye/i.test(ing.displayName)
+            );
+            if (hasGlutenAllergen || hasGlutenIngredient) {
+              return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains gluten (${constraint})`);
+            }
           }
           break;
         
         case 'NO_DAIRY':
-          // Must have dairy_free tag or no dairy ingredients
-          const hasDairyFreeTag = recipe.tags?.includes('dairy_free');
-          const hasDairyIngredient = recipe.ingredients.some(ing =>
-            ing.kind === 'DAIRY' || /milk|cheese|cream|butter|yogurt/i.test(ing.displayName)
-          );
-          if (!hasDairyFreeTag && hasDairyIngredient) {
-            return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains dairy (${constraint})`);
+          // Treat tags as hints only; ingredients are ground truth
+          {
+            const hasDairyAllergen =
+              recipe.recipeAllergens?.includes('DAIRY') ||
+              recipe.ingredients.some(ing => ing.allergens?.includes('DAIRY'));
+            const hasDairyIngredient = recipe.ingredients.some(ing =>
+              ing.kind === 'DAIRY' || /milk|cheese|cream|butter|yogurt/i.test(ing.displayName)
+            );
+            if (hasDairyAllergen || hasDairyIngredient) {
+              return addRejection('DIET_CONSTRAINT_VIOLATED', `Contains dairy (${constraint})`);
+            }
           }
           break;
         
@@ -372,6 +404,39 @@ export function generatePlan(
   // Pass weekServings through to set servings in PlannedDinner
   const servings = options.weekServings ?? household.headcount;
   const days = distributeRecipesToDays(selectedRecipes.slice(0, targetDinners), weekDays, targetDinners, servings);  
+
+  // Build summary counts and allergen/tag rollups
+  const recipeMap = new Map<string, Recipe>();
+  recipes.forEach(r => recipeMap.set(r.id, r));
+  let fastCount = 0;
+  let normalCount = 0;
+  let projectCount = 0;
+  let thawDays = 0;
+  let marinateDays = 0;
+  const allergensPresent = new Set<Allergen>();
+  const dietaryTags = new Set<RecipeTag>();
+
+  days.forEach(day => {
+    if (!day.dinner) return;
+    const r = recipeMap.get(day.dinner.recipeId);
+    if (!r) return;
+    switch (r.metadata.timeBand) {
+      case 'FAST':
+        fastCount += 1;
+        break;
+      case 'NORMAL':
+        normalCount += 1;
+        break;
+      case 'PROJECT':
+        projectCount += 1;
+        break;
+    }
+    if (r.preflight?.some(p => (p.type || '').toUpperCase() === 'THAW')) thawDays += 1;
+    if (r.preflight?.some(p => (p.type || '').toUpperCase() === 'MARINATE')) marinateDays += 1;
+    r.recipeAllergens?.forEach(a => allergensPresent.add(a));
+    r.tags?.forEach(t => dietaryTags.add(t));
+  });
+
   return {
     id: generatePlanId(),
     householdId: household.id,
@@ -381,11 +446,13 @@ export function generatePlan(
     days,
     summary: {
       totalDinners: days.filter(d => d.dinner).length,
-      fastCount: 0, // Will be computed from actual recipes
-      normalCount: 0,
-      projectCount: 0,
-      thawDays: 0,
-      marinateDays: 0,
+      fastCount,
+      normalCount,
+      projectCount,
+      thawDays,
+      marinateDays,
+      allergensPresent: Array.from(allergensPresent),
+      dietaryTags: Array.from(dietaryTags),
     },
   };
 }
@@ -397,12 +464,14 @@ export function generatePlan(
  * @param plan - Current plan
  * @param date - Date of the day to swap
  * @param newRecipeId - ID of the new recipe to assign
+ * @param recipes - Optional recipe catalog for preflight recalculation
  * @returns Updated plan with swapped recipe
  */
 export function swapRecipe(
   plan: Plan,
   date: IsoDate,
   newRecipeId: string,
+  recipes?: Recipe[],
 ): Plan {
   const updatedDays = plan.days.map(day => {
     if (day.date !== date) return day;
@@ -412,12 +481,63 @@ export function swapRecipe(
       console.warn(`Cannot swap locked dinner on ${date}`);
       return day;
     }
-    
+
+    const existingDinner = day.dinner;
+
+    // If there was no dinner, create a new one (fallback servings = 4)
+    if (!existingDinner) {
+      const baseDinner: PlannedDinner = {
+        recipeId: newRecipeId,
+        servings: 4,
+        locked: false,
+        outEating: false,
+        preflightStatus: 'NONE_REQUIRED',
+      };
+
+      if (!recipes) {
+        return {
+          ...day,
+          dinner: baseDinner,
+        };
+      }
+
+      const recipe = recipes.find(r => r.id === newRecipeId);
+      const preflightStatus = recipe
+        ? detectPreflightStatus(recipe, day.date)
+        : baseDinner.preflightStatus;
+
+      return {
+        ...day,
+        dinner: {
+          ...baseDinner,
+          preflightStatus,
+        },
+      };
+    }
+
+    // Existing dinner: preserve servings/lock/outEating, recompute preflight when possible
+    if (!recipes) {
+      return {
+        ...day,
+        dinner: {
+          ...existingDinner,
+          recipeId: newRecipeId,
+        },
+      };
+    }
+
+    const recipe = recipes.find(r => r.id === newRecipeId);
+    const preflightStatus = recipe
+      ? detectPreflightStatus(recipe, day.date)
+      : existingDinner.preflightStatus;
+
     return {
       ...day,
-      dinner: day.dinner
-        ? { ...day.dinner, recipeId: newRecipeId }
-        : { recipeId: newRecipeId, servings: 4, locked: false, outEating: false, preflightStatus: 'NONE_REQUIRED' as const },
+      dinner: {
+        ...existingDinner,
+        recipeId: newRecipeId,
+        preflightStatus,
+      },
     };
   });
   
@@ -540,7 +660,7 @@ export function regeneratePlan(
           servings: day.dinner.servings,
           locked: false,
           outEating: false,
-          preflightStatus: 'NONE_REQUIRED' as const,
+          preflightStatus: detectPreflightStatus(recipe, day.date),
         },
       };
     }

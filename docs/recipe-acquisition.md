@@ -310,6 +310,11 @@ npm test
 npm run import:url -- <url>
 ``` text
 
+### Offline book import (ATK .txt)
+- Run `npm run recipe:extract:atk` to convert the ATK book text in repo root into candidate JSON artifacts in `src/dev/imported/atk-book/`.
+- Each artifact is marked `fit: true|false` using strict heuristics (>=3 ingredients, >=2 steps, <=30 ingredients, non-dessert). There are no “hero” exceptions.
+- Only promote `fit: true` artifacts into `src/domain/recipes/` via your normal manual review/promotion flow.
+
 ### Type Validation
 ```bash
 npm run validate:types

@@ -1,8 +1,8 @@
 // Shared domain types (aligned with docs/data-model.md)
 //
-// CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.3.1
+// CRITICAL: This file must stay in perfect sync with docs/data-model.md v1.4.1
 // Any change to types here requires updating the spec, and vice versa.
-// Last sync: December 9, 2025 — COMPREHENSIVE COVERAGE (FRUIT + RecipeTag + EquipmentTag + SMOKER + Rejection tracking) ✅
+// Last sync: December 11, 2025 — Allergen tagging + optional ingredients + preflight duration
 //
 // See .github/copilot-instructions.md for the sync workflow.
 
@@ -15,6 +15,16 @@ export type IsoDate = string; // YYYY-MM-DD
 export type DayOfWeek = 'Mon' | 'Tue' | 'Wed' | 'Thu' | 'Fri' | 'Sat' | 'Sun';
 export type TimeBand = 'FAST' | 'NORMAL' | 'PROJECT';
 export type IngredientCriticality = 'CRITICAL' | 'NON_CRITICAL';
+export type Allergen =
+  | 'TREE_NUT'
+  | 'PEANUT'
+  | 'SHELLFISH'
+  | 'FISH'
+  | 'EGG'
+  | 'DAIRY'
+  | 'WHEAT'
+  | 'SOY'
+  | 'SESAME';
 export type IngredientKind =
   | 'PROTEIN'
   | 'CARB'
@@ -24,6 +34,9 @@ export type IngredientKind =
   | 'FAT_OIL'
   | 'SPICE'
   | 'CONDIMENT'
+  | 'SAUCE'
+  | 'PANTRY'
+  | 'NUT'
   | 'OTHER';
 export type ShoppingCategory =
   | 'PRODUCE'
@@ -32,7 +45,16 @@ export type ShoppingCategory =
   | 'PANTRY_DRY'
   | 'FROZEN'
   | 'OTHER';
-export type PreflightRequirementType = 'THAW' | 'MARINATE' | 'SLOW_COOK' | 'LONG_PREP';
+export type PreflightRequirementType =
+  | 'THAW'
+  | 'MARINATE'
+  | 'SLOW_COOK'
+  | 'LONG_PREP'
+  // Additional, more specific preflight signals used by enriched recipes.
+  // These are treated as LONG_PREP/THAW-style requirements by domain logic.
+  | 'CHILL'
+  | 'SOAK'
+  | 'FREEZE';
 export type PreflightStatus = 'NONE_REQUIRED' | 'ALL_GOOD' | 'MISSED' | 'UNKNOWN';
 export type TonightStatus =
   | 'NO_PLAN'
@@ -46,6 +68,7 @@ export type DietConstraint =
   | 'NO_PORK'
   | 'NO_BEEF'
   | 'NO_SHELLFISH'
+  | 'NO_PEANUT'
   | 'NO_GLUTEN'
   | 'NO_DAIRY'
   | 'VEGETARIAN'
@@ -92,7 +115,8 @@ export type RecipeTag =
   | 'southern'
   | 'pantry_staple'
   | 'weeknight'
-  | 'under_30_minutes';
+  | 'under_30_minutes'
+  | 'atk_source'; // provenance tag for ATK book imports
 
 export type EquipmentTag =
   | 'LARGE_POT'
@@ -102,11 +126,13 @@ export type EquipmentTag =
   | 'BAKING_DISH'
   | 'OVEN'
   | 'GRILL'
+  | 'GRIDDLE'
   | 'SLOW_COOKER'
   | 'INSTANT_POT'
   | 'RICE_COOKER'
   | 'FOOD_PROCESSOR'
   | 'BLENDER'
+  | 'WAFFLE_MAKER'
   | 'SMOKER';
 
 /**
@@ -150,12 +176,50 @@ export interface RecipeIngredientRequirement {
   criticality: IngredientCriticality;
   kind: IngredientKind;
   shoppingCategory: ShoppingCategory;
+  // Optional: how precise this amount is
+  // - undefined/FIXED: explicit measured quantity
+  // - APPROXIMATE: rough guidance ("about 1 cup", "1-2 tbsp")
+  // - TO_TASTE: true "to taste" amounts (salt, hot sauce, etc.)
+  // - DIVIDED: amount is divided across steps (metadata only; treated as FIXED)
+  // - CRITICAL: legacy value from imports; treated as FIXED for now
+  quantityKind?: 'FIXED' | 'APPROXIMATE' | 'TO_TASTE' | 'DIVIDED' | 'CRITICAL';
+  // Optional: logical component grouping within a recipe
+  // e.g. "SAUCE", "GARNISH", "SALAD", "TOPPING" for UI grouping
+  component?: string;
+  // Optional flag for human-facing "optional ingredient" messaging.
+  optional?: boolean;
+  // Optional shopping notes / clarifications ("use low-sodium if possible")
+  shoppingNotes?: string;
+  // Optional allergen tags for safety-critical filtering (e.g., TREE_NUT, PEANUT)
+  allergens?: Allergen[];
+  // Optional package metadata for container-aware shopping (e.g., "2 (15 oz) cans")
+  // amount/unit remain the total quantity; packages/packageSize describe the per-package size.
+  packageSize?: {
+    amount: number;
+    unit: 'OZ' | 'ML' | 'GRAM' | 'UNIT';
+  };
+  packages?: number;
 }
 
 export interface RecipePreflightRequirement {
-  type: PreflightRequirementType;
-  description: string;
+  // Primary classification used by preflight logic; may be missing on older or
+  // AI-enriched artifacts, in which case the domain logic treats the requirement
+  // as a generic LONG_PREP reminder.
+  type?: PreflightRequirementType;
+  // e.g. "start marinade at least 4h before cooking" or "thaw overnight"
+  description?: string;
+  // How far in advance in hours the action should happen (for Today/Tomorrow preview)
   hoursBeforeCook?: number;
+  // Legacy/extended fields from older enrichment passes. These are tolerated
+  // for compatibility but not required by core logic.
+  hoursBefore?: number;
+  durationMinutes?: number;
+  task?: string;
+  label?: string;
+  name?: string;
+  optional?: boolean;
+  // Allow forward-compatible metadata fields without breaking type checking.
+  [key: string]: unknown;
 }
 
 export interface RecipeMetadata {
@@ -163,6 +227,10 @@ export interface RecipeMetadata {
   estimatedMinutes: number;
   equipmentTags?: EquipmentTag[];
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
+  // Canonical servings this recipe was authored for
+  baseServings?: number;
+  // Human-readable yield line for UI ("SERVES 4 to 6", "MAKES 2 cups")
+  yieldText?: string;
 }
 
 export interface RecipeStep {
@@ -172,6 +240,8 @@ export interface RecipeStep {
   timerMinutes?: number;   // Duration for timer (3+ minutes)
   timer?: boolean;         // Should show [Set Timer] button in Cooking Mode (default: false)
   parallel?: boolean;      // "Meanwhile" or "while X cooks" (for UI hints) (default: false)
+  // Optional: logical component grouping, mirroring ingredients.component
+  component?: string;
 }
 
 export interface Recipe {
@@ -185,6 +255,10 @@ export interface Recipe {
   steps: RecipeStep[];
   tags?: RecipeTag[];
   variantHints?: { description: string; safeSubIngredientId?: string }[];
+  // Derived: union of ingredient allergens (populated by normalization/import)
+  recipeAllergens?: Allergen[];
+  // Optional short tip for Cooking Mode ("Let the crust rest 5 min before slicing")
+  cookNotes?: string;
 }
 
 export interface PlannedDinner {
@@ -209,10 +283,10 @@ export interface Plan {
   householdId: HouseholdId;
   weekStartDate: IsoDate;
   status: PlanStatus;
-   // Optional per-week override for servings; defaults to household.headcount
+  // Optional per-week override for servings; defaults to household.headcount
   servingsThisWeek?: number;
   // Indicates whether the main shop has been completed for this plan
-  // Once true, regenerate flows should warn and respect locked slots (Vision §7)
+  // Once true, regenerate flows should warn and respect locked slots (Vision 7)
   isShoppingDone?: boolean;
   days: PlanDay[];
   summary: {
@@ -222,6 +296,8 @@ export interface Plan {
     projectCount: number;
     thawDays: number;
     marinateDays: number;
+    allergensPresent?: Allergen[];
+    dietaryTags?: RecipeTag[];
   };
 }
 
@@ -244,6 +320,9 @@ export interface ShoppingItem {
   manualOverrideAmount?: number;
   notes?: string;
   criticality: IngredientCriticality;
+  packageSize?: RecipeIngredientRequirement['packageSize'];
+  packages?: number;
+  allergens?: Allergen[];
 }
 
 export interface QuickReviewCandidate {

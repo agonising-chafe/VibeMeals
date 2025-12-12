@@ -178,6 +178,49 @@ function canonicalizeIngredients(recipeObj: any) {
     return (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
   }
 
+  function inferPackageMetadata(ing: any) {
+    const name = String(ing.displayName || '');
+
+    // Pattern: "2 (15-oz) cans", "2 (15 oz) cans"
+    let m =
+      name.match(/(\d+)\s*\(\s*(\d+(?:\.\d+)?)\s*[- ]?(oz|ounce|ounces|ml|milliliter|milliliters|g|gram|grams)\s*\)\s*cans?/i) ||
+      // Pattern: "2 cans (15 oz)", "1 can (28-ounce)"
+      name.match(/(\d+)\s*cans?\s*\(\s*(\d+(?:\.\d+)?)\s*[- ]?(oz|ounce|ounces|ml|milliliter|milliliters|g|gram|grams)\s*\)/i) ||
+      // Pattern: "1 (28-ounce) can"
+      name.match(/(\d+)\s*\(\s*(\d+(?:\.\d+)?)\s*[- ]?(oz|ounce|ounces|ml|milliliter|milliliters|g|gram|grams)\s*\)\s*can\b/i);
+
+    let packages: number | undefined;
+    let pkgAmount: number | undefined;
+    let unitSrc: string | undefined;
+
+    if (m) {
+      packages = Number(m[1]);
+      pkgAmount = Number(m[2]);
+      unitSrc = m[3];
+    } else {
+      // Fallback: "3 cans" with no explicit size
+      const mCount = name.match(/(\d+)\s*cans?\b/i);
+      if (mCount) {
+        packages = Number(mCount[1]);
+      }
+    }
+
+    if (!packages) return;
+
+    let pkgUnit: 'OZ' | 'ML' | 'GRAM' | 'UNIT' = 'UNIT';
+    if (unitSrc) {
+      const u = unitSrc.toLowerCase();
+      if (u.startsWith('oz') || u.startsWith('ounce')) pkgUnit = 'OZ';
+      else if (u === 'g' || u.startsWith('gram')) pkgUnit = 'GRAM';
+      else if (u.startsWith('ml') || u.startsWith('milliliter')) pkgUnit = 'ML';
+    }
+
+    ing.packages = packages;
+    if (pkgAmount && pkgUnit !== 'UNIT') {
+      ing.packageSize = { amount: pkgAmount, unit: pkgUnit };
+    }
+  }
+
   for (const ing of recipeObj.ingredients) {
     // qty → amount
     if (ing.qty !== undefined && ing.amount === undefined) {
@@ -204,6 +247,9 @@ function canonicalizeIngredients(recipeObj: any) {
     if (!found) {
       ing.unit = rawUnit ? rawUnit.toUpperCase() : 'UNIT';
     }
+
+    // Infer package metadata (e.g., "2 (15 oz) cans")
+    inferPackageMetadata(ing);
 
     // Ensure ingredientId
     if (!ing.ingredientId) {
@@ -239,8 +285,17 @@ function stripNonSchemaFields(recipeObj: any): { removed: string[]; warnings: st
 
   // Warn if unknown fields detected
   const allowed = [
-    'id', 'name', 'slug', 'metadata', 'scalable', 'ingredients',
-    'preflight', 'steps', 'tags', 'variantHints'
+    'id',
+    'name',
+    'slug',
+    'metadata',
+    'scalable',
+    'ingredients',
+    'preflight',
+    'steps',
+    'tags',
+    'variantHints',
+    'recipeAllergens',
   ];
   for (const key of Object.keys(recipeObj)) {
     if (!allowed.includes(key) && !knownRemovable.includes(key)) {
@@ -310,10 +365,13 @@ function updateSeedWithAst(identifier: string, slug: string, timeBand: string, d
   const project = new Project();
   const sourceFile = project.addSourceFileAtPath(SEED_PATH);
 
-  // Add import if not already present
+  // Add import if not already present (match exact module + identifier)
   const importExists = sourceFile
     .getImportDeclarations()
-    .some(imp => imp.getModuleSpecifier().getLiteralValue().includes(slug));
+    .some(imp =>
+      imp.getModuleSpecifier().getLiteralValue() === `../recipes/${slug}` &&
+      imp.getNamedImports().some(n => n.getName() === identifier),
+    );
 
   if (!importExists) {
     sourceFile.addImportDeclaration({
@@ -361,7 +419,13 @@ function updateSeedWithAst(identifier: string, slug: string, timeBand: string, d
   }
 }
 
-async function promoteRecipes(dirPath: string, dryRun = false, skipValidation = false, _autoYes = false) {
+async function promoteRecipes(
+  dirPath: string,
+  dryRun = false,
+  skipValidation = false,
+  _autoYes = false,
+  overwriteExisting = false,
+) {
   if (!fs.existsSync(dirPath) || !fs.statSync(dirPath).isDirectory()) {
     console.error(`❌ Directory not found: ${dirPath}`);
     process.exit(1);
@@ -413,7 +477,11 @@ async function promoteRecipes(dirPath: string, dryRun = false, skipValidation = 
         (mapped.name ? String(mapped.name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') : path.basename(fullPath, '.json'));
 
       const identifier = toIdentifier(slug);
-      checkIdentifierCollision(identifier, existingIdentifiers);
+      const existsAlready = existingIdentifiers.has(identifier);
+      if (!overwriteExisting) {
+        checkIdentifierCollision(identifier, existingIdentifiers);
+      }
+      // Track to prevent dupes within this run
       existingIdentifiers.add(identifier);
 
       // Generate and write
@@ -421,12 +489,14 @@ async function promoteRecipes(dirPath: string, dryRun = false, skipValidation = 
       const content = generateRecipeTs(identifier, mapped);
 
       if (dryRun) {
-        console.log(`📋 [DRY-RUN] Would write: ${outPath}`);
+        console.log(
+          `?? [DRY-RUN] Would ${existsAlready && overwriteExisting ? 'overwrite' : 'write'}: ${outPath}`,
+        );
         if (removed.length > 0) console.log(`   Removed fields: ${removed.join(', ')}`);
         if (warnings.length > 0) warnings.forEach(w => console.log(`   ${w}`));
       } else {
         fs.writeFileSync(outPath, content, 'utf-8');
-        console.log(`✅ ${slug}`);
+        console.log(`${existsAlready && overwriteExisting ? '♻️' : '?'} ${slug}`);
         if (removed.length > 0) console.log(`   Removed: ${removed.join(', ')}`);
         if (warnings.length > 0) warnings.forEach(w => console.log(`   ${w}`));
 
@@ -498,11 +568,12 @@ Usage:
     --promote: Auto-promote after fetching
     --yes: Skip confirmation prompts
 
-  npx tsx scripts/spoonacular-workflow.ts promote [--batch] [dir] [--dry-run] [--yes]
+  npx tsx scripts/spoonacular-workflow.ts promote [--batch] [dir] [--dry-run] [--yes] [--overwrite]
     Promote dev artifacts to canonical .ts files
     --batch: Process all JSON files in dir (default: src/dev/imported)
     --dry-run: Preview changes without writing
     --yes: Skip confirmation prompts
+    --overwrite: Replace existing recipes/seed entries if identifiers collide
 
   npx tsx scripts/spoonacular-workflow.ts info <id>
     Show details about a fetched recipe
@@ -532,9 +603,10 @@ Examples:
       const batchMode = args.includes('--batch');
       const dryRun = args.includes('--dry-run');
       const autoYes = args.includes('--yes');
+      const overwrite = args.includes('--overwrite');
       const dirArg = args.find(a => !a.startsWith('--') && a !== 'promote') || IMPORTED_DIR;
       const dir = batchMode || args[1] === '--batch' ? dirArg : IMPORTED_DIR;
-      await promoteRecipes(dir, dryRun, false, autoYes);
+      await promoteRecipes(dir, dryRun, false, autoYes, overwrite);
     } else if (command === 'info') {
       const id = Number(args[1]);
       if (isNaN(id)) {

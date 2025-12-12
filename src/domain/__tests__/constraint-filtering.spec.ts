@@ -76,6 +76,24 @@ describe('Constraint Filtering', () => {
         }
       }
     });
+
+    it('should exclude recipes with shellfish allergens even if name is subtle', () => {
+      const household = createTestHousehold(['NO_SHELLFISH']);
+      const plan = generatePlan(household, mvpRecipeCatalog, '2025-12-15');
+
+      for (const day of plan.days) {
+        if (day.dinner) {
+          const recipe = mvpRecipeCatalog.find(r => r.id === day.dinner!.recipeId);
+          expect(recipe).toBeDefined();
+
+          const hasShellfishAllergen =
+            recipe!.recipeAllergens?.includes('SHELLFISH') ||
+            recipe!.ingredients.some(ing => ing.allergens?.includes('SHELLFISH'));
+
+          expect(hasShellfishAllergen).toBe(false);
+        }
+      }
+    });
   });
 
   describe('NO_GLUTEN constraint', () => {

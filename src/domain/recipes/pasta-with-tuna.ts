@@ -115,7 +115,10 @@ export const pastaWithTuna = {
           kind: "PROTEIN",
           shoppingCategory: "MEAT_SEAFOOD",
           amount: 6.5,
-          ingredientId: "water-packed-tuna"
+          ingredientId: "water-packed-tuna",
+          allergens: [
+            "FISH"
+          ]
         }
   ],
   preflight: [],

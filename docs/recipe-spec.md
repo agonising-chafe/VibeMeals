@@ -52,6 +52,7 @@ steps: RecipeStep[]; // see Section 6 (can start minimal)
 // optional personalization hooks
   tags?: RecipeTag[];
   variantHints?: VariantHint[];
+  cookNotes?: string;
 }
 ``` text
 
@@ -67,6 +68,8 @@ interface RecipeMetadata {
   estimatedMinutes: number;            // realistic "time to table"
   equipmentTags?: EquipmentTag[];      // e.g. ['SHEET_PAN', 'SLOW_COOKER'], fully typed (v1.3.1+)
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
+  baseServings?: number;               // canonical authored servings (v1.4.0+)
+  yieldText?: string;                  // UI line like "SERVES 4 to 6", "MAKES 2 cups" (v1.4.0+)
 }
 ``` text
 
@@ -83,7 +86,18 @@ interface RecipeMetadata {
 
 - If a recipe regularly runs 45+ minutes for typical households, tag `NORMAL`→`PROJECT`, not FAST.
 
-### 3.2 Leftover Strategy
+### 3.2 Yield & Servings (ATK-style)
+
+- `baseServings` is the canonical number of servings the recipe was authored for (e.g., 4 for "serves 4 to 6").
+- `yieldText` is an optional, human-facing label:
+  - Examples: `"SERVES 4 to 6"`, `"MAKES 2 cups"`, `"SERVES 2 generously"`.
+  - This is for UI; Planner/Shop logic should prefer numeric `baseServings` when available.
+
+#### Musts
+- If a recipe is meant to be a main dinner for a household, set a realistic `baseServings`.
+- If the printed source has a yield line (like ATK/NYT), copy it into `yieldText` verbatim when helpful.
+
+### 3.3 Leftover Strategy
 
 `leftoverStrategy` is used for “cook once, eat twice” and chaos weeks.
 
@@ -111,8 +125,17 @@ interface RecipeIngredientRequirement {
   amount: number;
   unit: 'UNIT' | 'GRAM' | 'KG' | 'OZ' | 'LB' | 'CUP' | 'TBSP' | 'TSP' | 'ML';
   criticality: 'CRITICAL' | 'NON_CRITICAL';
-  kind: 'PROTEIN' | 'CARB' | 'VEG' | 'DAIRY' | 'FAT_OIL' | 'SPICE' | 'CONDIMENT' | 'OTHER';
+  kind: 'PROTEIN' | 'CARB' | 'VEG' | 'FRUIT' | 'DAIRY' | 'FAT_OIL' | 'SPICE' | 'CONDIMENT' | 'OTHER';
   shoppingCategory: 'PRODUCE' | 'MEAT_SEAFOOD' | 'DAIRY_EGGS' | 'PANTRY_DRY' | 'FROZEN' | 'OTHER';
+  quantityKind?: 'FIXED' | 'APPROXIMATE' | 'TO_TASTE' | 'DIVIDED' | 'CRITICAL';  // v1.4.1+
+  component?: string;                                   // v1.4.0+
+  optional?: boolean;                                   // v1.4.1+
+  shoppingNotes?: string;                               // v1.4.1+
+  allergens?: Allergen[];                               // v1.4.1+
+  // Optional package metadata for container-aware shopping (e.g., "2 (15 oz) cans")
+  // amount/unit remain the total quantity; packages/packageSize describe per-package size.
+  packageSize?: { amount: number; unit: 'OZ' | 'ML' | 'GRAM' | 'UNIT' }; // v1.4.1+
+  packages?: number;                                    // v1.4.1+
 }
 ``` text
 
@@ -166,6 +189,42 @@ Examples:
 - Cooking fats/oils (olive oil, butter) must use `kind: 'FAT_OIL'`, not `'CONDIMENT'`.
 - All `kind` values are now TypeScript enums; compiler catches invalid values.
 
+### 4.3 Quantity Kind (Approximate vs To-Taste) (v1.4.0+)
+
+Use `quantityKind` to model how "firm" a quantity is:
+
+- `'FIXED'` (or omitted): explicit, measured amount, safe for shopping math.
+  - Example: `2 TBSP olive oil`, `400 g pasta`.
+- `'APPROXIMATE'`: still numeric, but clearly squishy.
+  - Examples: `"about 1 cup"`, `"1-2 tablespoons"`, `"a pinch (~1/8 tsp)"`.
+- `'TO_TASTE'`: true "to taste" amounts; numeric `amount` is a baseline suggestion only.
+  - Examples: `"Salt, to taste"`, `"Hot sauce, to taste"`.
+- `'DIVIDED'` / `'CRITICAL'`: import/compat values; treat as `'FIXED'` for math/logic.
+
+#### Musts
+- Always set a numeric `amount` even for `APPROXIMATE` / `TO_TASTE` so Shop math can still work.
+- Mark obvious "to taste" items (salt at table, hot sauce, vinegar splashes) as `TO_TASTE`.
+- For recipes imported from ATK/NYT where text is vague, lean on `APPROXIMATE` rather than inventing fake precision.
+
+### 4.4 Allergen and package metadata (v1.4.1+)
+
+- **Allergens:** Tag ingredients with `allergens` (e.g., `['PEANUT']`, `['TREE_NUT']`) when obvious from the name; intake also applies overrides for high-risk terms (pesto/pine nut, fish sauce, tahini).
+- **Packages:** Encode container counts so Shop can render “3 cans (15 oz each)”:
+  - Keep `amount`/`unit` as the total (e.g., `45` + `OZ`).
+  - Set `packages` to the count (e.g., `3`).
+  - Set `packageSize` to per-container size (e.g., `{ amount: 15, unit: 'OZ' }`).
+
+### 4.4 Components / Subsections (v1.4.0+)
+
+Use `component` to group ingredients into logical parts of a recipe (mirrors ATK's "FOR THE SAUCE", "FOR THE GARNISH"):
+
+- Examples: `'BUFFALO_SAUCE'`, `'CAULIFLOWER'`, `'GARNISH'`, `'DRESSING'`, `'TOPPING'`, `'SALAD'`.
+- This is a free-form string; consistency is encouraged within the catalog but not enforced at the type level.
+
+#### Musts
+- Use the same `component` labels across `ingredients` and `steps` (see Section 6.2) when you choose to use them.
+- Flat recipes can omit `component` entirely; it's optional and should not be required for simple dishes.
+
 ---
 
 ## 5. Preflight Metadata (Today-facing)
@@ -204,10 +263,11 @@ Use `Recipe.steps` from `data-model.md`. Shape:
 ```ts
 interface RecipeStep {
   stepNumber: number;          // 1-based
-  instruction: string;         // short, imperative (2–3 sentences max)
+  instruction: string;         // short, imperative (2-3 sentences max)
   timerMinutes?: number;       // duration in minutes (only if >= 3 min)
   timer?: boolean;             // show [Set Timer] button (default: false)
   parallel?: boolean;          // can happen alongside other steps (default: false)
+  component?: string;          // optional logical grouping, matches ingredient component (v1.4.0+)
 }
 ``` text
 
@@ -223,6 +283,15 @@ interface RecipeStep {
 - Use `parallel: true` for steps that can overlap ("Meanwhile, prepare vegetables" or "While dough rises...").
 
 - Each step is a logical chunk, not a word-for-word recipe instruction. Aggregation is OK if it improves clarity.
+
+### 6.1 Components in Steps (v1.4.0+)
+
+- When a recipe has subcomponents (sauce, garnish, salad, dressing), tag steps with `component` to match ingredients.
+- Examples:
+  - `component: 'BUFFALO_SAUCE'` for "FOR THE BUFFALO SAUCE: melt coconut oil…"
+  - `component: 'CAULIFLOWER'` for "FOR THE CAULIFLOWER: toss florets in batter…"
+
+This enables Cooking Mode to cluster steps visually without changing any logistics behavior.
 
 ---
 
@@ -256,10 +325,21 @@ type RecipeTag =
   | 'under_30_minutes';
 
 interface VariantHint {
-  description: string;           // “Swap ground beef for turkey”
+  description: string;           // "Swap ground beef for turkey"
   safeSubIngredientId?: string;  // optional link to known safe sub
 }
 ``` text
+
+Use `Recipe.cookNotes` for 1–3 sentence, high-value tips that don't belong in steps:
+
+- Examples:
+  - `"Let lasagna rest at least 10 minutes before slicing so it sets."`
+  - `"If using very ripe tomatoes, start with half the sugar and adjust to taste."`
+
+This is deliberately small in scope and optional; it's not a place for full blog-style essays.
+
+Provenance tags:
+- Use `atk_source` to flag recipes imported from the ATK book text dump. This is metadata-only; Planner/Shop/Today ignore it, but it enables later isolation/reporting.
 
 #### Examples
 - Sheet-pan chicken → `['kid_friendly', 'sheet_pan', 'comfort_food', 'family_friendly']`
@@ -447,9 +527,15 @@ When adding or generating a new recipe, ensure:
 
 - [ ] Every ingredient has `kind` + `shoppingCategory`.
 
+- [ ] Ingredients use `quantityKind` when amounts are approximate or "to taste".
+
 - [ ] Preflight requirements (thaw, slow cook, etc.) are captured.
 
 - [ ] Steps exist (even minimal) and match data-model shape.
+
+- [ ] `component` is used consistently across ingredients/steps when a recipe has clear subcomponents.
+
+- [ ] `cookNotes` is set when there is a short, critical tip that improves success on first cook.
 
 - [ ] Basic tags added (format, cuisine, kid-friendliness).
 

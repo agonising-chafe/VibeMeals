@@ -1,7 +1,7 @@
 # VibeMeals v1 Data Model
 
-> **Status:** v1.3.1 - Comprehensive coverage: FRUIT + RecipeTag + EquipmentTag + SMOKER + Rejection tracking  
-> **Last Updated:** December 9, 2025 — CRITICAL GAPS FIXED ✅  
+> **Status:** v1.4.1 - Allergen tagging + optional ingredients + preflight duration minutes  
+> **Last Updated:** December 11, 2025 — Allergen safety + optional ingredient flag + preflight duration  
 > **Purpose:** Shared TypeScript data model covering Plan → Shop → Today → Cook flows
 
 This document defines the core data structures referenced by all tickets (P1-P9, T1-T9, S1-S9, C1-C4). These are **interface definitions only** - not implementation code, but contracts that prevent architecture drift during parallel development.
@@ -31,6 +31,18 @@ export type TimeBand = 'FAST' | 'NORMAL' | 'PROJECT';
 // From Vision §8 + Shop S7: critical vs non-critical ingredients
 export type IngredientCriticality = 'CRITICAL' | 'NON_CRITICAL';
 
+// Safety-critical allergen tags for filtering and UX callouts
+export type Allergen =
+  | 'TREE_NUT'
+  | 'PEANUT'
+  | 'SHELLFISH'
+  | 'FISH'
+  | 'EGG'
+  | 'DAIRY'
+  | 'WHEAT'
+  | 'SOY'
+  | 'SESAME';
+
 // Ingredient kind helps with grouping & logic
 export type IngredientKind =
   | 'PROTEIN'
@@ -42,12 +54,14 @@ export type IngredientKind =
   | 'SPICE'
   | 'CONDIMENT'
   | 'OTHER';
+// Import normalization note: enrichment may emit SAUCE/PANTRY/NUT; pipeline canonicalizes those to OTHER.
 
 // Basic constraints (v1 can be simple)
 export type DietConstraint =
   | 'NO_PORK'
   | 'NO_BEEF'
   | 'NO_SHELLFISH'
+  | 'NO_PEANUT'
   | 'NO_GLUTEN'
   | 'NO_DAIRY'
   | 'VEGETARIAN'
@@ -92,7 +106,8 @@ export type RecipeTag =
   | 'southern'
   | 'pantry_staple'
   | 'weeknight'
-  | 'under_30_minutes';
+  | 'under_30_minutes'
+  | 'atk_source'; // provenance tag for ATK book imports
 
 // Equipment tags: for categorizing required kitchen equipment
 export type EquipmentTag =
@@ -103,11 +118,13 @@ export type EquipmentTag =
   | 'BAKING_DISH'
   | 'OVEN'
   | 'GRILL'
+  | 'GRIDDLE'
   | 'SLOW_COOKER'
   | 'INSTANT_POT'
   | 'RICE_COOKER'
   | 'FOOD_PROCESSOR'
   | 'BLENDER'
+  | 'WAFFLE_MAKER'
   | 'SMOKER';
 
 // For Shop grouping (Shop S3)
@@ -118,9 +135,13 @@ export type ShoppingCategory =
   | 'PANTRY_DRY'
   | 'FROZEN'
   | 'OTHER';
+// Import normalization note: enrichment may emit SPICE/SAUCE/BAKING/PANTRY; pipeline canonicalizes all to PANTRY_DRY.
 
 // For preflight + Today/Tonight (Today T2)
 export type PreflightRequirementType = 'THAW' | 'MARINATE' | 'SLOW_COOK' | 'LONG_PREP';
+// Import normalization note: enrichment may emit CHILL/SOAK/FREEZE; pipeline canonicalizes those to LONG_PREP.
+// Allergen handling note: high-risk overrides (e.g., pesto/pine nut -> TREE_NUT) live in src/domain/allergen-overrides.ts;
+// audit via scripts/allergen-audit.ts for missing tags on high-risk ingredients.
 
 export type PreflightStatus =
   | 'NONE_REQUIRED'
@@ -191,14 +212,46 @@ export interface RecipeIngredientRequirement {
   criticality: IngredientCriticality; // CRITICAL | NON_CRITICAL (Shop S7)
   kind: IngredientKind;
   shoppingCategory: ShoppingCategory; // for Shop S3 grouping
+  // Optional: how precise this amount is (v1.4.1+)
+  // - omitted/FIXED: explicit measured quantity
+  // - APPROXIMATE: rough guidance ("about 1 cup", "1-2 tbsp")
+  // - TO_TASTE: true "to taste" amounts (salt, hot sauce, etc.)
+  // - DIVIDED: amount is divided across steps (metadata only; treated as FIXED)
+  // - CRITICAL: legacy value from imports; treated as FIXED for now
+  quantityKind?: 'FIXED' | 'APPROXIMATE' | 'TO_TASTE' | 'DIVIDED' | 'CRITICAL';
+  // Optional: logical component grouping within a recipe (v1.4.0+)
+  // e.g. "SAUCE", "GARNISH", "SALAD", "TOPPING" for UI grouping
+  component?: string;
+  // Optional: this ingredient can be skipped without breaking the recipe
+  optional?: boolean;
+  // Optional shopping notes / clarifications ("use low-sodium if possible")
+  shoppingNotes?: string;
+  // Safety-critical allergen tags for filtering/UX callouts
+  allergens?: Allergen[];
+  // Optional package metadata for container-aware shopping (e.g., "2 (15 oz) cans")
+  // amount/unit remain the total quantity; packages/packageSize describe per-package size.
+  packageSize?: { amount: number; unit: 'OZ' | 'ML' | 'GRAM' | 'UNIT' };
+  packages?: number;
 }
 
 export interface RecipePreflightRequirement {
-  type: PreflightRequirementType;
+  // Primary classification used by preflight logic; may be missing on older or
+  // AI-enriched artifacts, in which case the requirement is treated as a generic
+  // LONG_PREP reminder.
+  type?: PreflightRequirementType;
   // e.g. "start marinade at least 4h before cooking" or "thaw overnight"
-  description: string;
+  description?: string;
   // How far in advance in hours the action should happen (for Today/Tomorrow preview)
   hoursBeforeCook?: number;
+  // Compatibility/legacy fields from earlier enrichment passes (not required by core logic)
+  hoursBefore?: number;
+  durationMinutes?: number;
+  task?: string;
+  label?: string;
+  name?: string;
+  optional?: boolean;
+  // Forward-compatible metadata
+  [key: string]: unknown;
 }
 
 export interface RecipeMetadata {
@@ -208,6 +261,12 @@ export interface RecipeMetadata {
   equipmentTags?: EquipmentTag[];
   // leftovers intent: NONE | EXPECTED_LEFTOVERS | COOK_ONCE_EAT_TWICE
   leftoverStrategy?: 'NONE' | 'EXPECTED' | 'COOK_ONCE_EAT_TWICE';
+  // Canonical servings this recipe was authored for (v1.4.0+)
+  // Used as a default when planning dinners for a given household.
+  baseServings?: number;
+  // Human-readable yield line for UI ("SERVES 4 to 6", "MAKES 2 cups") (v1.4.0+)
+  // Keeps ATK-style text without forcing ranged numeric parsing.
+  yieldText?: string;
 }
 
 export interface RecipeStep {
@@ -217,6 +276,9 @@ export interface RecipeStep {
   timerMinutes?: number;   // Duration for timer (3+ minutes)
   timer?: boolean;         // Should show [Set Timer] button (default: false)
   parallel?: boolean;      // "Meanwhile" or "while X cooks" (default: false)
+  // Optional: logical component grouping, mirroring ingredients.component (v1.4.0+)
+  // Helps mark which steps belong to a sauce, garnish, etc.
+  component?: string;
 }
 
 export interface Recipe {
@@ -230,6 +292,10 @@ export interface Recipe {
   steps: RecipeStep[];
   tags?: RecipeTag[];
   variantHints?: { description: string; safeSubIngredientId?: string }[];
+  // Derived: union of ingredient allergens (populated by normalization/import)
+  recipeAllergens?: Allergen[];
+  // Optional short tip for Cooking Mode ("Let the crust rest 5 min before slicing") (v1.4.0+)
+  cookNotes?: string;
 }
 ```
 
@@ -278,6 +344,9 @@ export interface Plan {
     projectCount: number;
     thawDays: number;
     marinateDays: number;
+    // Derived rollups across the week
+    allergensPresent?: Allergen[];
+    dietaryTags?: RecipeTag[];
   };
 }
 ```
@@ -322,6 +391,11 @@ export interface ShoppingItem {
   manualOverrideAmount?: number;
   notes?: string;
   criticality: IngredientCriticality;
+  // Optional package metadata for container-aware UI ("3 cans (15 oz each)")
+  packageSize?: RecipeIngredientRequirement['packageSize'];
+  packages?: number;
+  // Aggregated allergens from underlying ingredients
+  allergens?: Allergen[];
 }
 
 export interface QuickReviewCandidate {

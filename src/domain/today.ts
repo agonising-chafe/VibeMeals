@@ -49,7 +49,10 @@ function computeTomorrowPreview(
     if (recipe?.metadata.timeBand) preview.timeBand = recipe.metadata.timeBand;
 
     if (recipe && recipe.preflight && recipe.preflight.length > 0) {
-      preview.keyPreflightNote = recipe.preflight[0]?.description;
+      const note = recipe.preflight[0]?.description;
+      if (typeof note === 'string' && note.length > 0) {
+        preview.keyPreflightNote = note;
+      }
     }
   }
 

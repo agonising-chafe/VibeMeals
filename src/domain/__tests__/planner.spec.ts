@@ -1,4 +1,4 @@
-// Spec: spec-planner.md v1.0.0, vision.md v4.6.0 Golden Tests G1, G2, G4, G5, G6
+// Spec: spec-planner.md v1.1.0, vision.md v4.6.0 Golden Tests G1, G2, G4, G5, G6
 // src/domain/__tests__/planner.spec.ts
 
 import { describe, it, expect } from 'vitest';
@@ -11,6 +11,7 @@ import {
   getSwapAlternatives,
 } from '../planner';
 import { buildShoppingList } from '../shop';
+import { detectPreflightStatus } from '../preflight';
 import { mvpRecipeCatalog } from '../fixtures/recipes.seed';
 import {
   HouseholdProfile,
@@ -197,6 +198,22 @@ describe('Planner - swapRecipe', () => {
       const updatedDay = updatedPlan.days.find(d => d.date === originalDay.date)!;
       expect(updatedDay).toEqual(originalDay);
     });
+  });
+
+  it('should recompute preflightStatus when swapping with recipes catalog', () => {
+    const plan = generatePlan(testHousehold, mvpRecipeCatalog, testDate);
+    const dayToSwap = plan.days.find(d => d.dinner)!;
+
+    // Choose a recipe that has preflight requirements (slow cooker chili)
+    const slowCookRecipe = mvpRecipeCatalog.find(r => r.id === 'r_slow-cooker-white-chicken-chili')!;
+    const updatedPlan = swapRecipe(plan, dayToSwap.date, slowCookRecipe.id, mvpRecipeCatalog);
+
+    const swappedDay = updatedPlan.days.find(d => d.date === dayToSwap.date)!;
+    const expectedStatus = detectPreflightStatus(slowCookRecipe, swappedDay.date);
+
+    expect(swappedDay.dinner).toBeDefined();
+    expect(swappedDay.dinner!.recipeId).toBe(slowCookRecipe.id);
+    expect(swappedDay.dinner!.preflightStatus).toBe(expectedStatus);
   });
 });
 

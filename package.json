@@ -18,6 +18,8 @@
     "lint:ts": "npx eslint \"src/**/*.{ts,tsx}\" --max-warnings 0",
     "secret:scan": "npx secretlint --config .secretlintrc.json '**/*' || true",
     "lint:md:strict": "npx markdownlint-cli --config .markdownlint.strict.json --ignore-path .markdownlintignore \"docs/**/*.md\"",
+    "recipe:extract:atk": "tsx scripts/atk-extract.ts",
+    "recipe:enrich:atk": "tsx scripts/atk-enrich-agent.ts",
     "recipe:fetch": "tsx scripts/spoonacular-workflow.ts fetch",
     "recipe:promote": "tsx scripts/spoonacular-workflow.ts promote --batch",
     "recipe:info": "tsx scripts/spoonacular-workflow.ts info",
