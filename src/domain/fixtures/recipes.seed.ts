@@ -1121,6 +1121,7 @@ import { ultimateGrilledPizza } from "../recipes/ultimate-grilled-pizza";
 import { ultimateStickyBuns } from "../recipes/ultimate-sticky-buns";
 import { wholeWheatSandwichBread } from "../recipes/whole-wheat-sandwich-bread";
 import { zaAtarFingerBread } from "../recipes/za-atar-finger-bread";
+import { tommyBahamaPainKiller2 } from "../recipes/tommy-bahama-pain-killer-2";
 
 /**
  * MVP Recipe Catalog
@@ -2244,6 +2245,7 @@ const buildCatalog = (): Recipe[] => {
     tuscanStyleBeefStew,
     ultimateGrilledPizza,
     ultimateStickyBuns,
+    tommyBahamaPainKiller2,
     wholeWheatSandwichBread,
     zaAtarFingerBread
   ];
