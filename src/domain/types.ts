@@ -34,9 +34,6 @@ export type IngredientKind =
   | 'FAT_OIL'
   | 'SPICE'
   | 'CONDIMENT'
-  | 'SAUCE'
-  | 'PANTRY'
-  | 'NUT'
   | 'OTHER';
 export type ShoppingCategory =
   | 'PRODUCE'
@@ -49,12 +46,7 @@ export type PreflightRequirementType =
   | 'THAW'
   | 'MARINATE'
   | 'SLOW_COOK'
-  | 'LONG_PREP'
-  // Additional, more specific preflight signals used by enriched recipes.
-  // These are treated as LONG_PREP/THAW-style requirements by domain logic.
-  | 'CHILL'
-  | 'SOAK'
-  | 'FREEZE';
+  | 'LONG_PREP';
 export type PreflightStatus = 'NONE_REQUIRED' | 'ALL_GOOD' | 'MISSED' | 'UNKNOWN';
 export type TonightStatus =
   | 'NO_PLAN'

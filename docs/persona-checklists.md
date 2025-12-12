@@ -142,6 +142,26 @@
 
 ---
 
+## Checklist 7: Mobile-Only Chaos Family (Founder mode)
+
+**Their world:** 4 kids under 8, two parents, zero free hands; everything happens on a phone, often in a parking lot.
+
+### Check: does this feature.
+
+- [ ] Require more than **one thumb and a few taps** to finish a core flow (Tonight, Shop, preflight reminder)?
+
+- [ ] Depend on **desktop/tablet** for setup or completion, or force copy/paste between apps more than once?
+
+- [ ] Take longer than **15 seconds** to check tonight’s dinner, schedule a thaw/marinate reminder, or add a forgotten item?
+
+- [ ] Force manual **reorganization of the shopping list** (splitting by store, resorting) instead of auto-splitting?
+
+- [ ] Break in **low-signal / offline** parking-lot use (no cached plan/shop view, no queued reminders)?
+
+- [ ] Hide critical preflight/reminder actions behind dense menus or multi-step screens?
+
+---
+
 ## How to Use These Checklists
 
 For any feature, ask:

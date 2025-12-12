@@ -67,21 +67,21 @@ function checkRequirementMet(
       return hoursRemaining > hoursRequired - 1;
     }
 
-    case 'CHILL':
-    case 'SOAK':
-    case 'FREEZE': {
-      const hoursRequired = requirement.hoursBeforeCook ?? requirement.hoursBefore ?? 4;
-      return hoursRemaining > hoursRequired - 1;
-    }
-
     case 'LONG_PREP': {
       // LONG_PREP met if it's before 10 AM (3 hours to prep before cook)
       const isEarlyMorning = now.getHours() < 10;
       return isEarlyMorning || hoursRemaining > 3;
     }
 
-    default:
+    default: {
+      // Backward compatibility: treat legacy CHILL/SOAK/FREEZE as LONG_PREP-style
+      const legacyType = (requirement.type as string | undefined)?.toUpperCase();
+      if (legacyType === 'CHILL' || legacyType === 'SOAK' || legacyType === 'FREEZE') {
+        const hoursRequired = requirement.hoursBeforeCook ?? requirement.hoursBefore ?? 4;
+        return hoursRemaining > hoursRequired - 1;
+      }
       return true; // Unknown types assumed OK
+    }
   }
 }
 
