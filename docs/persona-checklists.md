@@ -146,7 +146,7 @@
 
 **Their world:** 4 kids under 8, two parents, zero free hands; everything happens on a phone, often in a parking lot.
 
-### Check: does this feature.
+### Check: does this feature
 
 - [ ] Require more than **one thumb and a few taps** to finish a core flow (Tonight, Shop, preflight reminder)?
 
