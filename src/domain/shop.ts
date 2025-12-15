@@ -45,7 +45,7 @@ export function buildShoppingList(
   const recipeById = new Map<string, Recipe>();
   for (const r of recipes) recipeById.set(r.id, r);
 
-  // Use a composite key: normalized displayName + unit
+  // Use a composite key: canonical ingredientId + unit (per data model spec)
   const acc = new Map<string, IngredientAccumulator>();
   // Helper to normalize display names (case-insensitive, trimmed)
   function normDisplayName(name: string) {
@@ -95,8 +95,8 @@ export function buildShoppingList(
           );
         }
 
-        // Composite key: normalized displayName + unit (always consolidate by this)
-        const compositeKey = normDisplayName(ing.displayName) + '|' + (ing.unit || '');
+        // Composite key: canonical ingredientId + unit (per data model spec)
+        const compositeKey = ing.ingredientId + '|' + (ing.unit || '');
         let existing = acc.get(compositeKey);
         const amountForPlan = ing.amount * servingsMultiplier;
         const packagesForPlan =
