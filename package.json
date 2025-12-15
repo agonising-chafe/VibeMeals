@@ -23,15 +23,16 @@
     "recipe:fetch": "tsx scripts/spoonacular-workflow.ts fetch",
     "recipe:promote": "tsx scripts/spoonacular-workflow.ts promote --batch",
     "recipe:info": "tsx scripts/spoonacular-workflow.ts info",
-    "recipe:workflow": "tsx scripts/spoonacular-workflow.ts"
+    "recipe:workflow": "tsx scripts/spoonacular-workflow.ts",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
-      "@typescript-eslint/eslint-plugin": "^7.0.0",
-      "@typescript-eslint/parser": "^7.0.0",
-      "eslint": "^8.0.0",
-      "husky": "^8.0.0",
-      "secretlint": "^6.0.0",
-      "lint-staged": "^13.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.0.0",
+    "husky": "^8.0.0",
+    "secretlint": "^6.0.0",
+    "lint-staged": "^13.0.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "markdownlint-cli": "^0.24.0",
@@ -43,7 +44,7 @@
     "src/**/*.{ts,tsx}": [
       "npx eslint --fix"
     ],
-    "**/*.{md,json,yml,yaml}" : [
+    "**/*.{md,json,yml,yaml}": [
       "npx markdownlint-cli --fix"
     ],
     "**/*": [

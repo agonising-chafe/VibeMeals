@@ -48,9 +48,7 @@ export function buildShoppingList(
   // Use a composite key: canonical ingredientId + unit (per data model spec)
   const acc = new Map<string, IngredientAccumulator>();
   // Helper to normalize display names (case-insensitive, trimmed)
-  function normDisplayName(name: string) {
-    return name.trim().toLowerCase();
-  }
+  // (Removed unused normDisplayName function)
 
   // Determine if we need to filter gluten-containing ingredients
   const noGluten = household?.dietConstraints?.includes('NO_GLUTEN');
