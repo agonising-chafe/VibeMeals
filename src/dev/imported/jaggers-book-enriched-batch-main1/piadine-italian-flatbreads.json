@@ -1,0 +1,111 @@
+{
+  "mapped": {
+    "id": "atk_piadine-italian-flatbreads",
+    "name": "Piadine (Italian Flatbreads)",
+    "slug": "piadine-italian-flatbreads",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 4 flatbreads",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "10-ounces-all-purpose-flour",
+        "displayName": "(10 ounces) all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "step": 2,
+        "label": "Rest Dough",
+        "description": "Cover dough balls loosely with plastic wrap and let rest.",
+        "durationMinutes": 30,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Process flour, baking powder, and salt in food processor until combined, about 5 seconds. Add oil and process until no visible bits of fat remain, about 10 seconds. With processor running, slowly add water; process until most of dough forms soft, slightly tacky ball that clears sides of workbowl, 30 to 60 seconds (there may be small bits of loose dough)."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer dough to counter and gently knead until smooth, about 15 seconds. Divide dough into 4 equal pieces and shape each into ball. Working with 1 dough ball at a time, place ball seam side down on clean counter and, using your cupped hand, drag in small circles until ball is taut and smooth. Cover dough balls loosely with plastic wrap. Let rest for 30 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pat 1 dough ball into 5-inch disk on lightly floured counter (keep remaining dough balls covered). Roll disk into 9-inch round, flouring counter as needed to prevent sticking. Repeat with remaining dough balls."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat 12-inch cast-iron skillet over medium heat until drop of water dripped onto surface sizzles immediately, about 3 minutes. Prick 1 dough round all over with fork, then carefully place in skillet. Cook until underside is spotty brown, 1 to 2 minutes, using fork to pop any large bubbles that form. Flip round and cook until second side is spotty brown, 1 to 2 minutes (flatbread should still be pliable). Transfer piadina to plate, gently fold in half, and cover with clean dish towel to keep warm. Repeat with remaining dough rounds, stacking piadine and re-covering with towel as they finish. Serve warm. Piadine can be stored in zipper-lock bag for 2 days; reheat in cast-iron skillet over medium-high heat for 20 to 30 seconds per side, until warmed through."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 65004,
+    "end": 65036,
+    "yieldLine": "MAKES 4 flatbreads"
+  },
+  "fit": true
+}

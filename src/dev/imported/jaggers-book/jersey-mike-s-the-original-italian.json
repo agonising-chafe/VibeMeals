@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_jersey-mike-s-the-original-italian",
+    "name": "Jersey Mike’s The Original Italian",
+    "slug": "jersey-mike-s-the-original-italian",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "you-can-find-all-the-deli-meats-for-this-sandwich-in-your-grocery-store-s-deli-department-you-can-also-make-this-a-sub-in-a-tub-by-eliminating-the-roll-rolling-the-meats-and-cheeses-and-slicing-and-layering-them-with-the-remaining-ingredients-over-2-cups-shredded-lettuce",
+        "displayName": "You can find all the deli meats for this sandwich in your grocery store’s deli department. You can also make this a “sub in a tub” by eliminating the roll, rolling the meats and cheeses, and slicing and layering them with the remaining ingredients over 2 cups shredded lettuce.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-sub-roll-sliced-in-half-lengthwise",
+        "displayName": "(6-inch) sub roll, sliced in half lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "provolone-cheese",
+        "displayName": "provolone cheese",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thin-sliced-deli-ham",
+        "displayName": "thin-sliced deli ham",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounce-thin-sliced-prosciuttini",
+        "displayName": "½ ounce thin-sliced prosciuttini",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounce-thin-sliced-hot-capicola",
+        "displayName": "½ ounce thin-sliced hot capicola",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounce-thin-sliced-hard-salami",
+        "displayName": "½ ounce thin-sliced hard salami",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounce-thin-sliced-sandwich-pepperoni",
+        "displayName": "½ ounce thin-sliced sandwich pepperoni",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-iceberg-lettuce",
+        "displayName": "½ cup shredded iceberg lettuce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-thin-sliced-yellow-onion",
+        "displayName": "¼ cup thin-sliced yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "inch-slices-beefsteak-tomato",
+        "displayName": "(⅛-inch) slices beefsteak tomato",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-oregano",
+        "displayName": "¼ teaspoon dried oregano",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-sub-roll-on-a-serving-plate-on-bottom-half-of-roll-layer-cheese-ham-prosciuttini-capicola-salami-pepperoni-lettuce-onion-and-tomato",
+        "displayName": "Place sub roll on a serving plate. On bottom half of roll, layer cheese, ham, prosciuttini, capicola, salami, pepperoni, lettuce, onion, and tomato.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drizzle-olive-oil-and-vinegar-over-top-and-sprinkle-with-oregano-top-with-top-half-of-roll-and-enjoy",
+        "displayName": "Drizzle olive oil and vinegar over top and sprinkle with oregano. Top with top half of roll and enjoy.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4900,
+    "end": 4948,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

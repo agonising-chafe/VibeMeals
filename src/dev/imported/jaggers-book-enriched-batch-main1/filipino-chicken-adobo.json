@@ -1,0 +1,155 @@
+{
+  "mapped": {
+    "id": "atk_filipino-chicken-adobo",
+    "name": "Filipino Chicken Adobo",
+    "slug": "filipino-chicken-adobo",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-to-7-ounce-bone-in-chicken-thighs-trimmed",
+        "displayName": "(5- to 7-ounce) bone-in chicken thighs, trimmed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "can-coconut-milk",
+        "displayName": "can coconut milk",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallion-sliced-thin",
+        "displayName": "scallion, sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "MARINATE",
+        "durationMinutes": 30,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss chicken with soy sauce in large bowl. Refrigerate for at least 30 minutes or up to 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove chicken from soy sauce, allowing excess to drip back into bowl. Transfer chicken, skin side down, to 12-inch nonstick skillet; set aside soy sauce."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place skillet over medium-high heat and cook until chicken skin is browned, 7 to 10 minutes. While chicken is browning, whisk coconut milk, vinegar, garlic, bay leaves, and pepper into soy sauce."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer chicken to plate and discard fat in skillet. Return chicken to skillet skin side down, add coconut milk mixture, and bring to boil. Reduce heat to medium-low and simmer, uncovered, for 20 minutes. Flip chicken skin side up and continue to cook, uncovered, until chicken registers 175 degrees, about 15 minutes. Transfer chicken to platter and tent with aluminum foil."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove bay leaves and skim any fat off surface of sauce. Return skillet to medium-high heat and cook until sauce is thickened, 5 to 7 minutes. Pour sauce over chicken, sprinkle with scallion, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 25021,
+    "end": 25061,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

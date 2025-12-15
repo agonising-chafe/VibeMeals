@@ -1,0 +1,147 @@
+{
+  "mapped": {
+    "id": "atk_grind-your-own-sirloin-burger-blend",
+    "name": "Grind-Your-Own Sirloin Burger Blend",
+    "slug": "grind-your-own-sirloin-burger-blend",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "SHEET_PAN",
+        "GRILL",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sirloin-steak-tips-trimmed-and-cut-into-1-2-inch-pieces",
+        "displayName": "sirloin steak tips, trimmed and cut into 1/2-inch pieces",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-and-cooled",
+        "displayName": "unsalted butter, melted and cooled",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-if-using-skillet",
+        "displayName": "vegetable oil, if using skillet",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-by-9-inch-disposable-aluminum-roasting-pan-if-using-charcoal-grill",
+        "displayName": "(13 by 9-inch) disposable aluminum roasting pan, if using charcoal grill",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cheese-4-ounces-optional",
+        "displayName": "cheese (4 ounces) (optional)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "hamburger-buns-toasted-if-desired",
+        "displayName": "hamburger buns, toasted if desired",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Freeze sirloin steak tips",
+        "durationMinutes": 40,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE BURGER BLEND: Arrange beef in single layer on rimmed baking sheet and freeze until very firm and starting to harden around edges but still pliable, 35 to 45 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Working in 4 batches, pulse beef in food processor until finely ground into 1/16-inch pieces, about 20 pulses, stopping to redistribute meat as needed; return to sheet. Spread ground beef over sheet, discarding any long strands of gristle and large chunks of fat. Drizzle with melted butter and toss gently with fork to combine."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Divide beef mixture into 4 lightly packed balls, then gently flatten into 3/4-inch-thick patties. Using your fingertips, press center of each patty down until about 1/2 inch thick, creating slight divot. Cover and refrigerate until ready to cook. (Patties can be wrapped in plastic wrap and refrigerated for up to 24 hours or frozen for up to 2 weeks. To freeze, stack patties, separated by parchment paper, wrap in plastic wrap, and place in zipper-lock freezer bag.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 31457,
+    "end": 31499,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

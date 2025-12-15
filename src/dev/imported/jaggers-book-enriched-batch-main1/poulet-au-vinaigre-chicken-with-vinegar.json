@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_poulet-au-vinaigre-chicken-with-vinegar",
+    "name": "Poulet au Vinaigre (Chicken with Vinegar)",
+    "slug": "poulet-au-vinaigre-chicken-with-vinegar",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-to-7-ounce-bone-in-chicken-thighs-trimmed",
+        "displayName": "(5- to 7-ounce) bone-in chicken thighs, trimmed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shallot-minced",
+        "displayName": "large shallot, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar-plus-extra-for-seasoning",
+        "displayName": "red wine vinegar, plus extra for seasoning",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-chilled",
+        "displayName": "unsalted butter, chilled",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-tarragon",
+        "displayName": "minced fresh tarragon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 325 degrees. Pat chicken dry with paper towels and sprinkle both sides with salt and pepper. Heat oil in 12-inch ovensafe skillet over medium heat until shimmering. Add chicken, skin side down, and cook, without moving it, until well browned, about 8 minutes. Using tongs, flip chicken and brown on second side, about 3 minutes. Transfer chicken to large plate."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour off all but 2 tablespoons fat from skillet. Add shallot and garlic and cook, stirring frequently, until garlic is golden brown, about 11/2 minutes. Add broth, wine, and vinegar; bring to simmer, scraping up any browned bits. Return chicken to skillet, skin side up (skin will be above surface of liquid). Transfer skillet to oven and bake, uncovered, until chicken registers 195 degrees, 35 to 40 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using tongs, transfer chicken to clean serving platter and tent with aluminum foil. Place skillet over high heat. Whisk tomato paste into liquid and bring to boil. Cook, occasionally scraping side of skillet to incorporate fond, until sauce is thickened and reduced to 11/4 cups, 5 to 7 minutes. Off heat, whisk in butter and tarragon. Season with salt, pepper, and up to 1 teaspoon extra vinegar (added 1/4 teaspoon at a time) to taste. Pour sauce around chicken and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 25369,
+    "end": 25413,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

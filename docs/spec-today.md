@@ -1,10 +1,13 @@
 # Today – v1 Specification
+- Integration with calendar to surface "late night" or "busy day" context automatically.
+- If the main has book-authored accompaniments: "Make it a full meal" – opens a small list of the named side / sauce / appetizer / dessert recipes from the book for that main, filtered by constraints.
+# Today – v1 Specification
 
-**Version:** 1.1.0  
+**Version:** 1.1.1  
 **Status:** Implementation-Ready  
-**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.3.1  
+**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.4.1  
 **Golden Tests:** G1, G4, G6  
-**Last Updated:** December 9, 2025  
+**Last Updated:** December 12, 2025  
 **v1.0.0 Implementation:** Domain logic only (computeTonightState in `src/domain/today.ts`)  
 **UI Implementation:** Planned for v1.1+ (Nuxt 3 / Pinia stores)
 
@@ -76,7 +79,17 @@ Secondary link:
 
 - "Change tonight's dinner" → mini Planner-like swap UI for just this night.
 
-### 2.4 Tomorrow Preview (Optional v1)
+### 2.4 Book-authored accompaniments (optional UI)
+
+- Only visible when the main recipe has explicit pairings in our curated map (from book text such as "serve with", "accompanying sauce", "see page X").
+- On tap, open a compact bottom sheet titled "Make it a full meal".
+- Show up to 4 groupings (if present): Side, Sauce, Appetizer, Dessert.
+- Each item shows name + timeBand + a short note if relevant ("FAST", "project", etc.).
+- Respect household diet/allergen constraints; hide any accompaniments that conflict. If none remain, show "No matching pairings for your constraints".
+- User can select any subset (including none) and confirm. Selections are stored on the dinner as `accompaniments` and flow into Shop (ingredients added with the same servings multiplier as the main).
+- No auto-add, no AI inference. If there is no pairing data, the link is hidden.
+
+### 2.5 Tomorrow Preview (Optional v1)
 
 Small strip:
 

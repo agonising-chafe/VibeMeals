@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_starbucks-bacon-gruy-re-egg-bites",
+    "name": "Starbucks Bacon & Gruyère Egg Bites",
+    "slug": "starbucks-bacon-gruy-re-egg-bites",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6 (YIELDS 12 EGG BITES)",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "introduced-in-2017-starbucks-egg-bites-were-created-for-customers-who-ordered-breakfast-sandwiches-without-the-bread-you-can-reheat-leftovers-in-your-microwave-for-1-minute-on-50-percent-power",
+        "displayName": "Introduced in 2017, Starbucks Egg Bites were created for customers who ordered breakfast sandwiches without the bread. You can reheat leftovers in your microwave for 1 minute on 50 percent power.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "4-percent-milkfat-cottage-cheese",
+        "displayName": "4 percent milkfat cottage cheese",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-gruy-re-cheese",
+        "displayName": "shredded Gruyère cheese",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-bacon-cooked-crisp-and-chopped",
+        "displayName": "thick-cut bacon, cooked crisp and chopped",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-325-f-lightly-spray-a-12-cup-silicone-muffin-pan-with-nonstick-cooking-spray-place-muffin-pan-into-a-large-roasting-pan-set-aside",
+        "displayName": "Preheat oven to 325°F. Lightly spray a 12-cup silicone muffin pan with nonstick cooking spray. Place muffin pan into a large roasting pan. Set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boil-a-kettle-of-water-then-set-aside",
+        "displayName": "Boil a kettle of water, then set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-blender-add-eggs-cottage-cheese-cornstarch-and-pepper-pur-e-until-smooth-about-1-minute",
+        "displayName": "In a blender, add eggs, cottage cheese, cornstarch, and pepper. Purée until smooth, about 1 minute.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-gruy-re-cheese-and-bacon-evenly-between-prepared-muffin-cups-pour-egg-mixture-evenly-over-top-pour-recently-boiled-water-into-roasting-pan-until-it-reaches-halfway-up-muffin-pan-bake-25-30-minutes-until-egg-bites-are-set-in-center",
+        "displayName": "Divide Gruyère cheese and bacon evenly between prepared muffin cups. Pour egg mixture evenly over top. Pour recently boiled water into roasting pan until it reaches halfway up muffin pan. Bake 25–30 minutes until egg bites are set in center.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-from-oven-and-cool-30-minutes-before-removing-muffin-pan-from-roasting-pan-and-removing-egg-bites-from-pan-serve-warm",
+        "displayName": "Remove from oven and cool 30 minutes before removing muffin pan from roasting pan and removing egg bites from pan. Serve warm.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1554,
+    "end": 1594,
+    "yieldLine": "SERVES 6 (YIELDS 12 EGG BITES)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

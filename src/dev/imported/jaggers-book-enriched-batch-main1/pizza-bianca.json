@@ -1,0 +1,146 @@
+{
+  "mapped": {
+    "id": "atk_pizza-bianca",
+    "name": "Pizza Bianca",
+    "slug": "pizza-bianca",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "15-ounces-unbleached-all-purpose-flour",
+        "displayName": "(15 ounces) unbleached all-purpose flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-at-room-temperature",
+        "displayName": "water, at room temperature",
+        "amount": 1.6666666666666665,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-fresh-rosemary-leaves",
+        "displayName": "whole fresh rosemary leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate dough for up to 24 hours or let rise at room temperature for 2 to 2.5 hours.",
+        "durationMinutes": 120,
+        "optional": true,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mix the flour, water, and table salt in the bowl of a stand mixer fitted with the dough hook on low speed until no areas of dry flour remain, 3 to 4 minutes, occasionally scraping down the sides of the bowl. Turn off the mixer and let the dough rest for 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Sprinkle the yeast and sugar over the dough. Knead on low speed until fully combined, 1 to 2 minutes, occasionally scraping down the sides of the bowl. Increase the mixer speed to high and knead until the dough is glossy and smooth and pulls away from the sides of the bowl, 6 to 10 minutes. (The dough will pull away from the sides only while the mixer is on. When the mixer is off, the dough will fall back to the sides.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using your fingers, coat a large bowl with 1 tablespoon of the oil, rubbing the excess oil from your fingers onto the blade of a rubber spatula. Using the oiled spatula, transfer the dough to the bowl and pour 1 tablespoon more oil over the top. Flip the dough over once so that it is well coated with the oil; cover tightly with plastic wrap. Once the dough has been placed in the oiled bowl, it can be refrigerated for up to 24 hours. Bring the dough to room temperature, 2 to 21/2 hours, before proceeding with step 4 of the recipe. Let the dough rise at room temperature until nearly tripled in volume and large bubbles have formed, 2 to 21/2 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "One hour before baking the pizza, adjust an oven rack to the middle position, place a pizza stone on the rack, and heat the oven to 450 degrees."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Coat a rimmed baking sheet with 2 tablespoons more oil. Using a rubber spatula, turn the dough out onto the baking sheet along with any oil in the bowl. Using your fingertips, press the dough out toward the edges of the baking sheet, taking care not to tear it. (The dough will not fit snugly into corners. If the dough resists stretching, let it relax for 5 to 10 minutes before trying to stretch it again.) Let the dough rest until slightly bubbly, 5 to 10 minutes. Using a dinner fork, poke the surface of the dough 30 to 40 times and sprinkle with the kosher salt."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Bake until golden brown, 20 to 30 minutes, sprinkling the rosemary over the top and rotating the baking sheet halfway through baking. Using a metal spatula, transfer the pizza to a cutting board. Brush the dough lightly with the remaining 1 tablespoon oil. Slice and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 67541,
+    "end": 67592,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

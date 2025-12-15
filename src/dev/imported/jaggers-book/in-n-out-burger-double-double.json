@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_in-n-out-burger-double-double",
+    "name": "In-N-Out Burger Double-Double",
+    "slug": "in-n-out-burger-double-double",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "double-double-is-short-for-double-meat-double-cheese-and-is-what-most-people-think-of-when-they-think-in-n-out-to-make-this-burger-animal-style-brush-both-sides-of-patty-with-teaspoon-yellow-mustard-before-grilling",
+        "displayName": "“Double-Double” is short for “double meat, double cheese” and is what most people think of when they think In-N-Out. To make this burger “Animal Style,” brush both sides of patty with ¼ teaspoon yellow mustard before grilling.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-hamburger-bun-sliced-in-half-lengthwise",
+        "displayName": "plain hamburger bun, sliced in half lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-80-20-ground-beef",
+        "displayName": "⅓ pound 80/20 ground beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thousand-island-dressing",
+        "displayName": "Thousand Island dressing",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "inch-slice-beefsteak-tomato",
+        "displayName": "(¼-inch) slice beefsteak tomato",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leaf-iceberg-lettuce",
+        "displayName": "leaf iceberg lettuce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "inch-slice-yellow-onion",
+        "displayName": "(⅛-inch) slice yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-10-inch-skillet-over-medium-heat-add-bun-halves-cut-side-down-and-toast-until-golden-about-3-minutes-set-aside",
+        "displayName": "Heat a 10-inch skillet over medium heat. Add bun halves cut side down and toast until golden, about 3 minutes. Set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "form-ground-beef-into-two-inch-thick-patties-season-patties-with-salt-and-pepper-cook-4-5-minutes-per-side-until-patties-reach-an-internal-temperature-of-165-f-for-well-done-in-the-last-30-seconds-of-cooking-place-1-slice-cheese-on-each-patty-and-melt-cheese",
+        "displayName": "Form ground beef into two (¼-inch-thick) patties. Season patties with salt and pepper. Cook 4–5 minutes per side until patties reach an internal temperature of 165°F for well-done. In the last 30 seconds of cooking, place 1 slice cheese on each patty and melt cheese.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-bottom-half-of-bun-on-a-serving-plate-and-spread-with-salad-dressing-top-with-tomato-lettuce-burger-patty-onion-burger-patty-and-top-half-of-bun-serve-immediately",
+        "displayName": "Place bottom half of bun on a serving plate and spread with salad dressing. Top with tomato, lettuce, burger patty, onion, burger patty, and top half of bun. Serve immediately.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-in-n-out-burger-restaurant-chain-has-developed-an-almost-cult-following-for-its-hamburgers-in-the-western-states-and-is-growing-across-america-winning-new-fans-if-the-long-lines-at-the-drive-through-are-any-indication",
+        "displayName": "The In-N-Out Burger restaurant chain has developed an almost cult following for its hamburgers in the western states and is growing across America, winning new fans if the long lines at the drive-through are any indication!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4755,
+    "end": 4797,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

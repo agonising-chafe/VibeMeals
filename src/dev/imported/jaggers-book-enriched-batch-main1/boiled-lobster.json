@@ -1,0 +1,93 @@
+{
+  "mapped": {
+    "id": "atk_boiled-lobster",
+    "name": "Boiled Lobster",
+    "slug": "boiled-lobster",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4; yields 1 pound meat"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "to-cook-four-lobsters-at-once-you-will-need-a-pot-with-a-capacity-of-at-least-3-gallons-if-your-pot-is-smaller-boil-the-lobsters-in-batches-start-timing-the-lobsters-from-the-moment-they-go-into-the-pot",
+        "displayName": "To cook four lobsters at once, you will need a pot with a capacity of at least 3 gallons. If your pot is smaller, boil the lobsters in batches. Start timing the lobsters from the moment they go into the pot.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "live-lobsters",
+        "displayName": "live lobsters",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Place lobsters in freezer for 30 minutes before cooking to immobilize them.",
+        "durationMinutes": 30,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place lobsters in large bowl and freeze for 30 minutes. Meanwhile, bring 2 gallons water to boil in large pot over high heat."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add lobsters and salt to pot, arranging with tongs so that all lobsters are submerged. Cover pot, leaving lid slightly ajar, and adjust heat to maintain gentle boil. Cook for 12 minutes, until thickest part of tail registers 175 degrees (insert thermometer into underside of tail to take temperature). If temperature registers lower than 175 degrees, return lobster to pot for 2 minutes longer, until tail registers 175 degrees, using tongs to transfer lobster in and out of pot."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Serve immediately or transfer lobsters to rimmed baking sheet and set aside until cool enough to remove meat, about 10 minutes. (Lobster meat can be refrigerated in airtight container for up to 24 hours.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 45964,
+    "end": 45986,
+    "yieldLine": "SERVES 4; yields 1 pound meat"
+  },
+  "fit": true
+}

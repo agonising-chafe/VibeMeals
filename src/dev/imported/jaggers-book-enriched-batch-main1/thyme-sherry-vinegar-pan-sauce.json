@@ -1,0 +1,141 @@
+{
+  "mapped": {
+    "id": "atk_thyme-sherry-vinegar-pan-sauce",
+    "name": "Thyme–Sherry Vinegar Pan Sauce",
+    "slug": "thyme-sherry-vinegar-pan-sauce",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 3/4 cup",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "shallot-minced",
+        "displayName": "shallot, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-thyme",
+        "displayName": "chopped fresh thyme",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-chicken-rests-remove-all-but-1-tablespoon-fat-from-now-empty-skillet-leaving-any-browned-bits-and-juices-in-skillet-place-skillet-over-medium-high-heat-add-shallot-garlic-and-thyme-and-cook-until-softened-about-2-minutes-stir-in-broth-and-mustard-scraping-up-any-browned-bits-cook-until-reduced-to-3-4-cup-about-3-minutes-off-heat-whisk-in-butter-and-vinegar-season-with-pepper-to-taste-cover-and-keep-warm",
+        "displayName": "While chicken rests, remove all but 1 tablespoon fat from now-empty skillet, leaving any browned bits and juices in skillet. Place skillet over medium-high heat; add shallot, garlic, and thyme; and cook until softened, about 2 minutes. Stir in broth and mustard, scraping up any browned bits. Cook until reduced to 3/4 cup, about 3 minutes. Off heat, whisk in butter and vinegar. Season with pepper to taste; cover and keep warm.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "TO_TASTE",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut chicken where leg meets breast, then pull leg quarter away. Push up on joint, then carefully cut through it to remove leg quarter."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cut through joint that connects drumstick to thigh. Repeat on second side to remove other leg."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Cut down along 1 side of breastbone, pulling breast meat away from bone."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove wing from breast by cutting through wing joint. Slice breast into attractive slices."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27131,
+    "end": 27187,
+    "yieldLine": "MAKES 3/4 cup"
+  },
+  "fit": true
+}

@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_chicken-saltimbocca",
+    "name": "Chicken Saltimbocca",
+    "slug": "chicken-saltimbocca",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-to-6-ounce-boneless-skinless-chicken-breasts-tenderloins-removed-and-breasts-trimmed",
+        "displayName": "(5- to 6-ounce) boneless, skinless chicken breasts, tenderloins removed and breasts trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "minced-fresh-sage-leaves-plus-8-large-leaves-optional-see-note",
+        "displayName": "minced fresh sage leaves, plus 8 large leaves (optional; see note)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thin-prosciutto-slices-about-3-ounces-see-note",
+        "displayName": "thin prosciutto slices (about 3 ounces; see note)",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-vermouth-or-white-wine",
+        "displayName": "dry vermouth or white wine",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-cut-into-4-pieces-and-chilled",
+        "displayName": "(1/2 stick) unsalted butter, cut into 4 pieces and chilled",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Halve the chicken horizontally, then cover the chicken halves with plastic wrap and pound the cutlets to an even 1/4-inch thickness."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine the flour and 1 teaspoon pepper in a shallow dish. Pat the chicken dry with paper towels. Dredge the chicken in the flour, shaking off any excess. Lay the cutlets flat and sprinkle evenly with the minced sage. Place 1 prosciutto slice on top of each cutlet, pressing lightly to adhere; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 2 tablespoons of the oil in a 12-inch skillet over medium-high heat until shimmering. Add the sage leaves (if using) and cook until the leaves begin to change color and are fragrant, 15 to 20 seconds. Using a slotted spoon, transfer the sage to a paper towel–lined plate and set aside. Add 4 of the cutlets to the pan, prosciutto side down, and cook until lightly browned on one side, about 2 minutes. Flip the chicken over and continue to cook until no longer pink, 30 seconds to 1 minute. Transfer the chicken to a plate and tent loosely with foil. Add the remaining 2 tablespoons oil to the skillet and repeat with the remaining 4 cutlets. Transfer to the plate and tent loosely with foil while making the sauce."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Pour off the excess fat from the skillet. Stir in the vermouth, scraping up any browned bits, and simmer until reduced to about 1/3 cup, 5 to 7 minutes. Stir in the lemon juice. Turn the heat to low and whisk in the butter, 1 tablespoon at time. Off the heat, stir in the parsley and season with salt and pepper to taste. Spoon the sauce over the chicken, place a sage leaf (if using) on each cutlet, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 22975,
+    "end": 23019,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

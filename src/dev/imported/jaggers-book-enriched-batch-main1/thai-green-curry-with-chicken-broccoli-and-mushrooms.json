@@ -1,0 +1,190 @@
+{
+  "mapped": {
+    "id": "atk_thai-green-curry-with-chicken-broccoli-and-mushrooms",
+    "name": "Thai Green Curry with Chicken, Broccoli, and Mushrooms",
+    "slug": "thai-green-curry-with-chicken-broccoli-and-mushrooms",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cans-unsweetened-coconut-milk-not-shaken",
+        "displayName": "cans unsweetened coconut milk, not shaken",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "recipe-green-curry-paste-recipe-follows-or-2-tablespoons-store-bought-green-curry-paste",
+        "displayName": "recipe Green Curry Paste (recipe follows) or 2 tablespoons store-bought green curry paste",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CURRY"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "brown-sugar",
+        "displayName": "brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-trimmed-and-sliced-thin",
+        "displayName": "boneless, skinless chicken breasts, trimmed and sliced thin",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "broccoli-1-2-small-bunch-florets-cut-into-1-inch-pieces",
+        "displayName": "broccoli (1/2 small bunch), florets cut into 1-inch pieces",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-mushrooms-wiped-clean-and-quartered",
+        "displayName": "white mushrooms, wiped clean and quartered",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-stemmed-seeded-and-cut-into-1-4-inch-strips",
+        "displayName": "red bell pepper, stemmed, seeded, and cut into 1/4-inch strips",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thai-chile-stemmed-seeded-and-quartered-lengthwise-optional",
+        "displayName": "Thai chile, stemmed, seeded, and quartered lengthwise (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "loosely-packed-fresh-basil-leaves",
+        "displayName": "loosely packed fresh basil leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "loosely-packed-fresh-mint-leaves",
+        "displayName": "loosely packed fresh mint leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "juice-from-1-lime",
+        "displayName": "juice from 1 lime",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Carefully spoon off about 1 cup of the top layer of cream from one can of the coconut milk. Whisk the coconut cream and curry paste together in a large Dutch oven, bring to a simmer over high heat, and cook until almost all of the liquid evaporates, 5 to 7 minutes. Reduce the heat to medium-high and continue to cook, whisking constantly, until the cream separates into a puddle of colored oil and coconut solids, 3 to 8 minutes. Continue cooking until the curry paste is very aromatic, 1 to 2 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk in the remaining coconut milk, the fish sauce, and sugar, bring to a simmer, and cook until the flavors meld and the sauce thickens, about 5 minutes. Season the chicken with salt, stir into the sauce, and cook until evenly coated, about 1 minute. Stir in the broccoli and mushrooms and cook until the vegetables are almost tender, about 5 minutes. Stir in the bell pepper and chile (if using) and cook until the bell pepper is crisp-tender, about 2 minutes. Off the heat, stir in the basil, mint, and lime juice. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "asian"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 25923,
+    "end": 25967,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

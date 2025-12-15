@@ -1,0 +1,257 @@
+{
+  "mapped": {
+    "id": "atk_grilled-chicken-souvlaki",
+    "name": "Grilled Chicken Souvlaki",
+    "slug": "grilled-chicken-souvlaki",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "small-garlic-clove-minced-to-paste",
+        "displayName": "small garlic clove, minced to paste",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "plain-greek-yogurt",
+        "displayName": "plain Greek yogurt",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cucumber-peeled-halved-lengthwise-seeded-and-diced-fine-1-2-cup",
+        "displayName": "cucumber, peeled, halved lengthwise, seeded, and diced fine (1/2 cup)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-mint",
+        "displayName": "minced fresh mint",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.375,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-trimmed-and-cut-into-1-inch-pieces",
+        "displayName": "boneless, skinless chicken breasts, trimmed and cut into 1-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "finely-grated-lemon-zest-plus-1-4-cup-juice-2-lemons",
+        "displayName": "finely grated lemon zest plus 1/4 cup juice (2 lemons)",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "bell-pepper-quartered-stemmed-and-seeded-each-quarter-cut-into-4-chunks",
+        "displayName": "bell pepper, quartered, stemmed, and seeded, each quarter cut into 4 chunks",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-onion-ends-trimmed-peeled-and-halved-lengthwise-each-half-cut-into-4-chunks",
+        "displayName": "small red onion, ends trimmed, peeled, and halved lengthwise, each half cut into 4 chunks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "8-inch-pitas",
+        "displayName": "(8-inch) pitas",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "requirementType": "MARINATE",
+        "durationMinutes": 30,
+        "optional": false,
+        "description": "Brine chicken for 30 minutes before grilling.",
+        "startBufferMinutes": 45,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TZATZIKI SAUCE: Whisk lemon juice and garlic together in small bowl. Let stand for 10 minutes. Stir in yogurt, cucumber, mint, parsley, and salt. Cover and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE CHICKEN: Dissolve 2 tablespoons salt in 1 quart cold water. Submerge chicken in brine, cover, and refrigerate for 30 minutes. While chicken is brining, combine oil, parsley, lemon zest and juice, honey, oregano, and 1/2 teaspoon pepper in medium bowl. Transfer 1/4 cup oil mixture to large bowl and set aside to toss with cooked chicken."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove chicken from brine and pat dry with paper towels. Toss chicken with remaining oil mixture. Thread 4 pieces of bell pepper, concave side up, onto one 12-inch metal skewer. Thread one-quarter of chicken onto skewer. Thread 2 chunks of onion onto skewer, and place skewer on plate. Repeat skewering remaining chicken and vegetables on 3 more skewers. Lightly moisten 2 pita breads with water. Sandwich 2 unmoistened pita breads between moistened pita breads and wrap stack tightly in lightly greased heavy-duty aluminum foil."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Clean and oil cooking grate. Place skewers on hotter side of grill and cook, turning occasionally, until chicken and vegetables are well browned on all sides and chicken registers 160 degrees, 15 to 20 minutes. Using fork, push chicken and vegetables off skewers into bowl of reserved oil mixture. Stir gently, breaking up onion chunks; cover with foil and let sit for 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Meanwhile, place packet of pitas on cooler side of grill. Flip occasionally to heat, about 5 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Lay each warm pita on 12-inch square of foil. Spread each pita with 2 tablespoons tzatziki. Place one-quarter of chicken and vegetables in middle of each pita. Roll into cylindrical shape and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 54199,
+    "end": 54267,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

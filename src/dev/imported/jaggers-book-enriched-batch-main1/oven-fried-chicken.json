@@ -1,0 +1,251 @@
+{
+  "mapped": {
+    "id": "atk_oven-fried-chicken",
+    "name": "Oven-Fried Chicken",
+    "slug": "oven-fried-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "plus-2-tablespoons-table-salt",
+        "displayName": "plus 2 tablespoons table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-heads-garlic-cloves-separated",
+        "displayName": "medium heads garlic, cloves separated",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves-crumbled",
+        "displayName": "bay leaves, crumbled",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 7,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-chicken-legs-separated-into-drumsticks-and-thighs-and-skin-removed",
+        "displayName": "whole chicken legs, separated into drumsticks and thighs and skin removed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "box-about-5-ounces-plain-melba-toast-crushed",
+        "displayName": "box (about 5 ounces) plain Melba toast, crushed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "displayName": "dried thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "cayenne-pepper-optional",
+        "displayName": "cayenne pepper (optional)",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine chicken",
+        "durationMinutes": 120,
+        "startOffsetMinutes": -240,
+        "type": "MARINATE"
+      },
+      {
+        "description": "Dry chicken in fridge",
+        "durationMinutes": 120,
+        "startOffsetMinutes": -120,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHICKEN: In a large zipper-lock bag, combine the salt, sugar, paprika, garlic cloves, and bay leaves. With a flat meat pounder, smash the garlic into the salt and spice mixture thoroughly. Pour the mixture into a large container. Add the buttermilk and stir until the salt and sugar are completely dissolved. Submerge the chicken in the brine and refrigerate for 2 to 3 hours. Rinse the chicken well and place on a large wire rack set over a rimmed baking sheet. Refrigerate uncovered for 2 hours. (After 2 hours, the chicken can be covered with plastic wrap and refrigerated up to 6 hours longer.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the upper-middle position and heat the oven to 400 degrees. Line a large, rimmed baking sheet with foil and set a large wire rack over the pan."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE COATING: Drizzle the oil over the Melba toast crumbs in a pie plate or shallow dish; toss well to coat. Mix the eggs, mustard, thyme, salt, pepper, oregano, garlic powder, and cayenne (if using) with a fork in a second plate."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Working with one piece at a time, coat the chicken on both sides with the egg mixture. Set the chicken in the Melba crumbs, sprinkle the crumbs over the chicken, and press to coat. Turn the chicken over and repeat on the other side. Gently shake off the excess and place on the rack. Bake until the chicken is deep nutty brown and the thickest part of a piece registers 175 degrees on an instant-read thermometer, about 40 minutes. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 28313,
+    "end": 28377,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

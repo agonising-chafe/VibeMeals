@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_cracker-barrel-corn-muffins",
+    "name": "Cracker Barrel Corn Muffins",
+    "slug": "cracker-barrel-corn-muffins",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 12",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "these-sweet-and-savory-muffins-are-just-like-the-ones-served-before-your-meal-at-cracker-barrel-and-are-perfect-with-a-smear-of-butter-and-drizzle-of-honey",
+        "displayName": "These sweet and savory muffins are just like the ones served before your meal at Cracker Barrel and are perfect with a smear of butter and drizzle of honey.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-cornmeal",
+        "displayName": "white cornmeal",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "¼ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-baking-soda",
+        "displayName": "¼ teaspoon baking soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-fat-buttermilk",
+        "displayName": "low-fat buttermilk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter-melted",
+        "displayName": "¼ cup unsalted butter, melted",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-beaten",
+        "displayName": "large egg, beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f-and-spray-a-12-cup-muffin-pan-with-nonstick-cooking-spray",
+        "displayName": "Preheat oven to 400°F and spray a 12-cup muffin pan with nonstick cooking spray.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-mixing-bowl-sift-together-cornmeal-flour-sugar-baking-powder-salt-and-baking-soda-make-a-well-in-center-and-set-aside",
+        "displayName": "In a large mixing bowl, sift together cornmeal, flour, sugar, baking powder, salt, and baking soda. Make a well in center and set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-buttermilk-butter-oil-and-egg-whisk-until-smooth",
+        "displayName": "In a medium bowl, combine buttermilk, butter, oil, and egg. Whisk until smooth.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-buttermilk-mixture-into-well-in-dry-ingredients-mix-until-just-combined-and-no-large-lumps-remain-small-lumps-are-okay",
+        "displayName": "Pour buttermilk mixture into well in dry ingredients. Mix until just combined and no large lumps remain. (Small lumps are okay.)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-batter-evenly-between-prepared-muffin-cups-bake-14-18-minutes-until-muffins-spring-back-when-gently-pressed-in-center-cool-5-minutes-in-pan-then-turn-out-into-a-basket-lined-with-a-clean-towel-and-cover-with-a-second-towel-enjoy-warm",
+        "displayName": "Divide batter evenly between prepared muffin cups. Bake 14–18 minutes until muffins spring back when gently pressed in center. Cool 5 minutes in pan, then turn out into a basket lined with a clean towel and cover with a second towel. Enjoy warm.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cracker-barrel-is-so-popular-they-introduced-a-line-of-mixes-for-their-pancakes-biscuits-and-corn-muffins-you-can-buy-in-their-country-stores-you-can-also-buy-their-fried-apples-pancake-syrup-and-apple-butter",
+        "displayName": "Cracker Barrel is so popular they introduced a line of mixes for their pancakes, biscuits, and corn muffins you can buy in their country stores. You can also buy their fried apples, pancake syrup, and apple butter.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8939,
+    "end": 8991,
+    "yieldLine": "SERVES 12"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

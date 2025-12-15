@@ -1,0 +1,259 @@
+{
+  "mapped": {
+    "id": "atk_braised-brisket-with-pomegranate-cumin-and-cilantro",
+    "name": "Braised Brisket with Pomegranate, Cumin, and Cilantro",
+    "slug": "braised-brisket-with-pomegranate-cumin-and-cilantro",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 360,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "4-to-5-pound-beef-brisket-flat-cut-fat-trimmed-to-1-4-inch",
+        "displayName": "(4- to 5-pound) beef brisket, flat cut, fat trimmed to 1/4 inch",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onions-chopped",
+        "displayName": "large onions, chopped",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-patted-dry-and-minced-to-paste",
+        "displayName": "anchovy fillets, rinsed, patted dry, and minced to paste",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cardamom",
+        "displayName": "ground cardamom",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pomegranate-juice",
+        "displayName": "pomegranate juice",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pomegranate-seeds",
+        "displayName": "pomegranate seeds",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Salt and refrigerate brisket",
+        "durationMinutes": 960,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place brisket, fat side down, on cutting board and cut in half lengthwise with grain. Using paring knife or metal skewer, poke each roast 20 times, pushing all the way through roast. Flip roasts and repeat on second side."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Sprinkle each roast evenly on all sides with 21/2 teaspoons salt (5 teaspoons salt total). Wrap each roast in plastic wrap and refrigerate for at least 16 hours or up to 48 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position and heat oven to 325 degrees. Heat oil in large roasting pan over medium heat until shimmering. Add onions and baking soda and cook, stirring frequently, until onions have started to soften and break down, 4 to 5 minutes. Add garlic and cook until fragrant, about 30 seconds. Stir in anchovies, tomato paste, cumin, cardamom, cayenne, and 1/2 teaspoon pepper. Add flour and cook, stirring constantly, until onions are evenly coated and flour begins to stick to pan, about 2 minutes. Stir in pomegranate juice, broth, and bay leaves, scraping up any browned bits. Stir in gelatin. Increase heat to medium-high and bring to boil."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Unwrap roasts and place in pan. Cover pan tightly with aluminum foil, transfer to oven, and cook until meat registers 180 to 185 degrees at center, about 11/2 hours. Reduce oven temperature to 250 degrees and continue to cook until fork slips easily in and out of meat, 2 to 21/2 hours longer. Transfer roasts to baking sheet and wrap sheet tightly in foil."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Strain braising liquid through fine-mesh strainer set over large bowl, pressing on solids to extract as much liquid as possible; discard solids. Let liquid settle for 10 minutes. Using wide, shallow spoon, skim fat from surface and discard. Wipe roasting pan clean with paper towels and return defatted liquid to pan."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Increase oven temperature to 400 degrees. Return pan to oven and cook, stirring occasionally, until liquid is reduced by about one-third, 30 to 40 minutes. Remove pan from oven and use wooden spoon to draw liquid up sides of pan and scrape browned bits around edges of pan into liquid."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Transfer roasts to carving board and slice against grain 1/4 inch thick; transfer to wide serving platter. Season sauce with salt and pepper to taste and pour over brisket. Tent platter with foil and let stand for 5 to 10 minutes to warm brisket through. Sprinkle with pomegranate seeds and cilantro and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 35706,
+    "end": 35772,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

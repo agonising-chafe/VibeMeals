@@ -1,0 +1,104 @@
+{
+  "mapped": {
+    "id": "atk_waffle-house-hashbrowns",
+    "name": "Waffle House Hashbrowns",
+    "slug": "waffle-house-hashbrowns",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "whether-you-prefer-them-plain-with-a-drizzle-of-ketchup-or-with-a-bit-of-salt-and-pepper-waffle-house-hashbrowns-are-by-far-the-most-popular-side-dish-on-the-menu",
+        "displayName": "Whether you prefer them plain, with a drizzle of ketchup, or with a bit of salt and pepper, Waffle House Hashbrowns are by far the most popular side dish on the menu.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-shredded-hashbrown-potatoes",
+        "displayName": "frozen shredded hashbrown potatoes",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-12-inch-nonstick-skillet-over-medium-heat-add-butter-once-melted-swirl-to-coat-bottom-of-pan-and-add-hashbrowns-in-an-even-layer-cover-pan-with-a-lid-and-cook-5-minutes-then-remove-lid-and-cook-2-3-minutes-more-until-hashbrowns-are-golden-brown",
+        "displayName": "In a 12-inch nonstick skillet over medium heat, add butter. Once melted, swirl to coat bottom of pan and add hashbrowns in an even layer. Cover pan with a lid and cook 5 minutes, then remove lid and cook 2–3 minutes more until hashbrowns are golden brown.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "flip-hashbrowns-and-press-down-gently-with-spatula-continue-to-cook-5-7-minutes-until-second-side-is-golden-brown-transfer-to-a-plate-and-serve-immediately",
+        "displayName": "Flip hashbrowns and press down gently with spatula. Continue to cook 5–7 minutes until second side is golden brown. Transfer to a plate and serve immediately.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-1984-waffle-house-introduced-a-new-hashbrown-menu-that-allowed-customers-to-customize-their-golden-brown-breakfast-potatoes-variations-include-smothered-topped-with-chopped-onions-when-hashbrowns-hit-the-griddle-covered-topped-with-a-slice-of-american-cheese-after-flipping-or-chunked-topped-with-diced-ham-when-hashbrowns-hit-the-griddle",
+        "displayName": "In 1984, Waffle House introduced a new hashbrown menu that allowed customers to customize their golden brown breakfast potatoes. Variations include smothered (topped with chopped onions when hashbrowns hit the griddle), covered (topped with a slice of American cheese after flipping), or chunked (topped with diced ham when hashbrowns hit the griddle).",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1710,
+    "end": 1740,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

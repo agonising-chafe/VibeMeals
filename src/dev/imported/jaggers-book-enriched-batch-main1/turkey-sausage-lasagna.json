@@ -1,0 +1,243 @@
+{
+  "mapped": {
+    "id": "atk_turkey-sausage-lasagna",
+    "name": "Turkey Sausage Lasagna",
+    "slug": "turkey-sausage-lasagna",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-chopped-fine",
+        "displayName": "large onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-italian-turkey-sausage-casings-removed",
+        "displayName": "sweet Italian turkey sausage, casings removed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-turkey",
+        "displayName": "ground turkey",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper-divided",
+        "displayName": "pepper, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fennel-seeds-lightly-cracked",
+        "displayName": "fennel seeds, lightly cracked",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-tomato-sauce",
+        "displayName": "can tomato sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "italian-seasoning-blend",
+        "displayName": "Italian seasoning blend",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "curly-edged-lasagna-noodles",
+        "displayName": "curly-edged lasagna noodles",
+        "amount": 15,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-cups-cottage-cheese",
+        "displayName": "(2 cups) cottage cheese",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "block-mozzarella-cheese-shredded-2-cups-divided",
+        "displayName": "block mozzarella cheese, shredded (2 cups), divided",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "fontina-cheese-shredded-1-cup-divided",
+        "displayName": "fontina cheese, shredded (1 cup), divided",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil in Dutch oven over medium heat until shimmering. Add onion and 1 teaspoon salt and cook, stirring occasionally, until onion is softened, about 5 minutes. Add turkey sausage, ground turkey, and 1/2 teaspoon pepper and cook, breaking up meat with wooden spoon, until no longer pink, about 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Stir in tomato paste, garlic, fennel seeds, and pepper flakes and cook until fragrant, about 2 minutes. Stir in crushed tomatoes, tomato sauce, and Italian seasoning and bring to simmer. Reduce heat to low, cover, and simmer gently until slightly thickened, about 20 minutes. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While sauce simmers, lay noodles in broiler-safe 13 by 9-inch baking dish and cover with boiling water. Let noodles soak until pliable, about 15 minutes, separating noodles with tip of paring knife occasionally throughout soaking time to prevent sticking. Drain noodles and set aside, patting noodles and now-empty dish dry. Adjust oven rack to middle position and heat oven to 400 degrees."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Combine cottage cheese, 11/2 cups mozzarella cheese, 1/2 cup fontina cheese, remaining 1/4 teaspoon salt and remaining 1/4 teaspoon pepper in bowl; set aside. Combine remaining 1/2 cup mozzarella cheese and remaining 1/2 cup fontina cheese in separate bowl; set aside."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Spread 11/2 cups meat sauce over bottom of now-empty dish. Place 5 noodles side by side over sauce (noodles may overlap slightly), then spread 2/3 cup cottage cheese mixture over top. Repeat layering of meat sauce, noodles, and cottage cheese mixture 2 more times, then top with remaining meat sauce. Sprinkle reserved mozzarella-fontina mixture evenly over top."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Spray sheet of aluminum foil with vegetable oil spray and cover lasagna. Bake until sauce is bubbling, about 25 minutes. Remove lasagna from oven and heat broiler element. Discard foil. Broil until cheese is golden, about 3 minutes. Let lasagna cool on wire rack for 15 minutes. Slice and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 19611,
+    "end": 19671,
+    "yieldLine": "SERVES 8 SEASON 26"
+  },
+  "fit": true
+}

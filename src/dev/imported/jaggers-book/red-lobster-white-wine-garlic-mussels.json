@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_red-lobster-white-wine-garlic-mussels",
+    "name": "Red Lobster White Wine & Garlic Mussels",
+    "slug": "red-lobster-white-wine-garlic-mussels",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-dish-is-made-with-tender-fresh-mussels-cooked-in-a-white-wine-sauce-flavored-with-tomato-garlic-and-lemon-you-may-want-to-serve-this-with-extra-slices-of-sourdough-bread-for-soaking-up-the-delicious-cooling-liquid",
+        "displayName": "This dish is made with tender, fresh mussels cooked in a white wine sauce flavored with tomato, garlic, and lemon. You may want to serve this with extra slices of sourdough bread for soaking up the delicious cooling liquid!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sourdough-sandwich-bread",
+        "displayName": "sourdough sandwich bread",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil-divided",
+        "displayName": "olive oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "roma-tomato-seeded-and-diced",
+        "displayName": "Roma tomato, seeded and diced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-dry-white-wine",
+        "displayName": "⅓ cup dry white wine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-mussels",
+        "displayName": "fresh mussels",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sliced-green-onion-green-part-only",
+        "displayName": "sliced green onion, green part only",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-grill-pan-over-medium-heat",
+        "displayName": "Heat grill pan over medium heat.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brush-bread-slices-on-both-sides-with-1-tablespoon-olive-oil-add-to-grill-pan-and-cook-until-toasted-on-both-sides-with-distinct-grill-marks-about-2-minutes-per-side-remove-from-grill-pan-and-cut-in-half-diagonally-set-aside",
+        "displayName": "Brush bread slices on both sides with 1 tablespoon olive oil. Add to grill pan and cook until toasted on both sides with distinct grill marks, about 2 minutes per side. Remove from grill pan and cut in half diagonally. Set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-3-quart-pot-over-medium-heat-add-remaining-olive-oil-once-hot-add-garlic-and-cook-20-seconds-then-stir-in-tomato-and-cook-until-just-tender-about-1-minute",
+        "displayName": "In a 3-quart pot over medium heat, add remaining olive oil. Once hot, add garlic and cook 20 seconds, then stir in tomato and cook until just tender, about 1 minute.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "stir-in-wine-and-scrape-any-brown-bits-from-bottom-of-pot-add-mussels-and-stir-well-cover-pot-with-a-lid-and-cook-5-minutes-or-until-mussels-have-opened",
+        "displayName": "Stir in wine and scrape any brown bits from bottom of pot. Add mussels and stir well. Cover pot with a lid and cook 5 minutes or until mussels have opened.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-lid-and-check-that-mussels-have-opened-discard-any-that-are-still-closed-stir-in-cream-salt-and-pepper-and-stir-well-add-green-onion-and-stir-to-combine",
+        "displayName": "Remove lid and check that mussels have opened. Discard any that are still closed. Stir in cream, salt, and pepper and stir well. Add green onion and stir to combine.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-to-a-serving-bowl-and-drizzle-with-lemon-juice-place-grilled-bread-against-side-of-bowl-serve-immediately",
+        "displayName": "Transfer to a serving bowl and drizzle with lemon juice. Place grilled bread against side of bowl. Serve immediately.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7849,
+    "end": 7901,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

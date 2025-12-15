@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_slow-cooker-old-fashioned-chicken-noodle-soup",
+    "name": "Slow-Cooker Old-Fashioned Chicken Noodle Soup",
+    "slug": "slow-cooker-old-fashioned-chicken-noodle-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 300,
+      "equipmentTags": [
+        "SLOW_COOKER",
+        "LARGE_SKILLET",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "bone-in-skin-on-chicken-thighs-trimmed",
+        "displayName": "bone-in, skin-on chicken thighs, trimmed",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrots-peeled-and-chopped-medium",
+        "displayName": "medium carrots, peeled and chopped medium",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-ribs-chopped-medium",
+        "displayName": "celery ribs, chopped medium",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-or-1-2-teaspoon-dried",
+        "displayName": "minced fresh thyme or 1/2 teaspoon dried",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 8,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-skin-on-split-chicken-breast-trimmed",
+        "displayName": "bone-in, skin-on split chicken breast, trimmed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wide-egg-noodles-about-1-cup",
+        "displayName": "wide egg noodles (about 1 cup)",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "frozen-peas",
+        "displayName": "frozen peas",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dry the chicken thighs with paper towels and season with salt and pepper. Heat the oil in a 12-inch skillet over medium-high heat until just smoking. Brown the chicken thighs well on both sides, 6 to 8 minutes. Transfer to a plate, let cool slightly, and discard the skin."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour off all but 1 tablespoon fat left in the skillet. Add the carrots, celery, and onion and cook over medium heat until the vegetables are softened, 7 to 10 minutes. Stir in the garlic, tomato paste, thyme, and red pepper flakes and cook until fragrant, about 30 seconds. Stir in 1 cup of the chicken broth, scraping up any browned bits; transfer to the slow cooker."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir the remaining 7 cups broth and the bay leaves into the slow cooker. Nestle the browned chicken thighs with any accumulated juice into the slow cooker. Season the chicken breast with salt and pepper and place on one side of a large piece of aluminum foil. Fold the foil over the chicken and crimp to seal the edges. Place the foil packet on top of the soup, pressing gently as needed to fit. Cover and cook until the chicken is tender, 4 to 6 hours on low."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the foil packet, open it carefully (watch for steam), and transfer the chicken breast to a cutting board. Transfer the chicken thighs to a cutting board. Let all of the chicken cool slightly, then shred it into bite-size pieces with two forks, discarding the skin and bones. Let the soup settle for 5 minutes, then skim the fat from the surface using a large spoon. Discard the bay leaves."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the noodles to the boiling water and cook until tender, then drain. Stir the cooked noodles, shredded chicken, and peas into the soup and let sit until heated through, about 5 minutes. Stir in the parsley, season with salt and pepper to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 6794,
+    "end": 6850,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

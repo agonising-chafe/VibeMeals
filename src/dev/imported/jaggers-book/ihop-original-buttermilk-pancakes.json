@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_ihop-original-buttermilk-pancakes",
+    "name": "IHOP Original Buttermilk Pancakes",
+    "slug": "ihop-original-buttermilk-pancakes",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4 (YIELDS 8 PANCAKES)",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "ihop-is-best-known-for-their-stacks-of-fluffy-buttermilk-pancakes-they-are-usually-served-with-butter-and-pancake-syrup-but-ihop-also-has-a-variety-of-flavored-syrups-at-the-table-including-blueberry-strawberry-and-butter-pecan-choose-your-favorite-syrup-to-serve-with-these-delicious-pancakes",
+        "displayName": "IHOP is best known for their stacks of fluffy buttermilk pancakes. They are usually served with butter and pancake syrup, but IHOP also has a variety of flavored syrups at the table including blueberry, strawberry, and butter pecan. Choose your favorite syrup to serve with these delicious pancakes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-all-purpose-flour",
+        "displayName": "⅓ cups all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-low-fat-buttermilk",
+        "displayName": "⅓ cups low-fat buttermilk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-vegetable-oil",
+        "displayName": "¼ cup vegetable oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "¼ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-flour-baking-powder-baking-soda-and-salt-whisk-to-combine",
+        "displayName": "In a medium bowl, combine flour, baking powder, baking soda, and salt. Whisk to combine.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-separate-medium-bowl-combine-buttermilk-egg-oil-and-sugar-and-whisk-until-smooth",
+        "displayName": "In a separate medium bowl, combine buttermilk, egg, oil, and sugar and whisk until smooth.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-wet-ingredients-to-dry-ingredients-and-mix-with-a-spatula-until-just-combined-and-no-large-clumps-of-flour-remain-about-20-strokes",
+        "displayName": "Add wet ingredients to dry ingredients and mix with a spatula until just combined and no large clumps of flour remain, about 20 strokes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-a-2-burner-griddle-over-medium-heat-and-spray-with-nonstick-cooking-spray",
+        "displayName": "Preheat a 2-burner griddle over medium heat and spray with nonstick cooking spray.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-two-cup-scoops-of-batter-onto-hot-griddle-and-cook-2-4-minutes-per-side-until-browned-transfer-to-a-plate-and-cover-with-a-clean-towel-to-keep-warm-while-you-prepare-remaining-batter-serve-warm",
+        "displayName": "Add two ⅓ cup scoops of batter onto hot griddle and cook 2–4 minutes per side until browned. Transfer to a plate and cover with a clean towel to keep warm while you prepare remaining batter. Serve warm.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1417,
+    "end": 1467,
+    "yieldLine": "SERVES 4 (YIELDS 8 PANCAKES)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

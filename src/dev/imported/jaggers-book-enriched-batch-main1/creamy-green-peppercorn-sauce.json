@@ -1,0 +1,161 @@
+{
+  "mapped": {
+    "id": "atk_creamy-green-peppercorn-sauce",
+    "name": "Creamy Green Peppercorn Sauce",
+    "slug": "creamy-green-peppercorn-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 40,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 9,
+      "yieldText": "SERVES 8 to 10",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-sauce-can-be-made-as-the-roast-is-resting-alternatively-prepare-it-up-to-three-days-ahead-and-warm-it-right-before-serving",
+        "displayName": "The sauce can be made as the roast is resting; alternatively, prepare it up to three days ahead and warm it right before serving.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "jarred-green-peppercorns",
+        "displayName": "jarred green peppercorns",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-shallot",
+        "displayName": "minced shallot",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brandy",
+        "displayName": "brandy",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt butter in medium saucepan over medium-low heat. Add peppercorns and shallot and cook, stirring frequently, until shallot is softened, 3 to 5 minutes. Add flour and cook, stirring constantly, for 2 minutes. Increase heat to medium and whisk in broth, brandy, and soy sauce. Bring to boil. Cook, whisking occasionally, until mixture is reduced to 11/2 cups, 12 to 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add cream and cook, whisking occasionally, until reduced to 2 cups, about 10 minutes. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Lay large pastry sheet directly on counter and brush entire surface of pastry with egg wash."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Unwrap beef and place on pastry. Holding edge in place, slowly roll roast keeping pastry snug to meat."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "With seam on top, gently pinch dough to seal; roll seam to bottom. Tuck sides to seal ends. Brush with egg wash."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Lay thin strips of dough diagonally across top of roast, leaving space between strips. Press strips to adhere."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 34958,
+    "end": 35020,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

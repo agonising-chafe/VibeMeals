@@ -1,0 +1,308 @@
+{
+  "mapped": {
+    "id": "atk_thick-crust-sicilian-style-pizza",
+    "name": "Thick-Crust Sicilian-Style Pizza",
+    "slug": "thick-crust-sicilian-style-pizza",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "111-4-ounces-all-purpose-flour",
+        "displayName": "(111/4 ounces) all-purpose flour",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-ounces-semolina-flour",
+        "displayName": "(12 ounces) semolina flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "131-3-ounces-ice-water",
+        "displayName": "(131/3 ounces) ice water",
+        "amount": 1.6666666666666665,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes-drained",
+        "displayName": "can whole peeled tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-patted-dry-and-minced",
+        "displayName": "anchovy fillets, rinsed, patted dry, and minced",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PIZZA"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-cup",
+        "displayName": "Parmesan cheese, grated (1 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PIZZA",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk-mozzarella-shredded-3-cups",
+        "displayName": "whole-milk mozzarella, shredded (3 cups)",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PIZZA",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate dough for at least 24 hours or up to 2 days.",
+        "durationMinutes": 1440,
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Using stand mixer fitted with dough hook, mix all-purpose flour, semolina flour, sugar, and yeast on low speed until combined, about 10 seconds. With machine running, slowly add water and oil until dough forms and no dry flour remains, 1 to 2 minutes. Cover with plastic wrap and let dough stand for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add salt to dough and mix on medium speed until dough forms satiny, sticky ball that clears sides of bowl, 6 to 8 minutes. Remove dough from bowl and knead briefly on lightly floured counter until smooth, about 1 minute. Shape dough into tight ball and place in large, lightly oiled bowl. Cover tightly with plastic wrap and refrigerate for at least 24 hours or up to 2 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE SAUCE: Process tomatoes, sugar, and salt in food processor until smooth, about 30 seconds. Heat oil and garlic in medium saucepan over medium-low heat, stirring occasionally, until garlic is fragrant and just beginning to brown, about 2 minutes. Add tomato paste, anchovies, oregano, and pepper flakes and cook until fragrant, about 30 seconds. Add tomato mixture and cook, stirring occasionally, until sauce measures 2 cups, 25 to 30 minutes. Transfer to bowl, let cool, and refrigerate until needed."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE PIZZA: One hour before baking pizza, place baking stone on upper-middle rack and heat oven to 500 degrees. Spray rimmed baking sheet (including rim) with vegetable oil spray, then coat bottom of a second baking sheet with oil. Remove dough from refrigerator and transfer to lightly floured counter. Lightly flour top of dough and gently press into 12 by 9-inch rectangle. Using rolling pin, roll dough into 18 by 13-inch rectangle. Transfer dough to prepared baking sheet, fitting dough into corners. Spray top of dough with oil spray and lay sheet of plastic wrap over dough. Place second baking sheet on dough and let stand for 1 hour."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove top baking sheet and plastic wrap. Gently stretch and lift dough to fill pan. Using back of spoon or ladle, spread sauce in even layer over surface of dough, leaving 1/2-inch border. Sprinkle Parmesan evenly over entire surface of dough to edges followed by mozzarella."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Place pizza on stone; reduce oven temperature to 450 degrees and bake until bottom crust is evenly browned and cheese is bubbly and browned, 20 to 25 minutes, rotating pizza halfway through baking. Remove pan from oven and let cool on wire rack for 5 minutes. Run knife around rim of pan to loosen pizza. Transfer pizza to cutting board, cut into squares, and serve."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "After rolling out the dough into a 15 by 12-inch rectangle, spread the softened butter over the dough, leaving a 1/2-inch border along the edges."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Roll the dough into a tight cylinder, starting at the short end closest to you."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Flatten the dough cylinder into an 18 by 4-inch rectangle, then halve the cylinder crosswise."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Fold each dough half into thirds to form a ball, pinch the seams shut, and let the dough balls rise in the refrigerator for 40 to 50 minutes."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "After rolling each ball of dough into a 13-inch disk about 1/4 inch thick, transfer the dough disks to the oiled pans and lightly press the dough into the pans, working it into the corners and up the sides."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 67314,
+    "end": 67420,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

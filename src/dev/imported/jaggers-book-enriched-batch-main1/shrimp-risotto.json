@@ -1,0 +1,229 @@
+{
+  "mapped": {
+    "id": "atk_shrimp-risotto",
+    "name": "Shrimp Risotto",
+    "slug": "shrimp-risotto",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-large-shrimp-21-to-25-per-pound-peeled-deveined-and-tails-removed-shells-reserved-see-this-page",
+        "displayName": "extra-large shrimp (21 to 25 per pound), peeled, deveined, and tails removed, shells reserved (see this page)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 7,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 15,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-divided",
+        "displayName": "unsalted butter, divided",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fennel-bulb-stalks-discarded-bulb-halved-cored-and-chopped-fine",
+        "displayName": "fennel bulb, stalks discarded, bulb halved, cored, and chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "arborio-rice",
+        "displayName": "Arborio rice",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-2-cup-plus-extra-for-serving",
+        "displayName": "Parmesan cheese, grated (1/2 cup), plus extra for serving",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-chives",
+        "displayName": "minced fresh chives",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lemon-zest-plus-1-tablespoon-juice-plus-lemon-wedges-for-serving",
+        "displayName": "grated lemon zest plus 1 tablespoon juice, plus lemon wedges for serving",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut each shrimp crosswise into thirds. Toss with 1/2 teaspoon salt and set aside. Heat oil in Dutch oven over high heat until shimmering. Add reserved shrimp shells and cook, stirring frequently, until shells begin to turn spotty brown, 2 to 4 minutes. Add water, peppercorns, bay leaves, and 1 teaspoon salt and bring to boil. Reduce heat to low and simmer for 5 minutes. Strain stock through fine-mesh strainer set over large bowl, pressing on solids with rubber spatula to extract as much liquid as possible; discard solids."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Melt 2 tablespoons butter in now-empty pot over medium heat. Add onion, fennel, baking soda, and remaining 1/4 teaspoon salt. Cook, stirring frequently, until vegetables are softened but not browned, 8 to 10 minutes (volume will be dramatically reduced and onion will have mostly disintegrated). Add garlic and stir until fragrant, about 30 seconds. Add rice and cook, stirring frequently, until grains are translucent around edges, about 3 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add wine and cook, stirring constantly, until fully absorbed, 2 to 3 minutes. Stir 4 cups stock into rice mixture; reduce heat to medium-low, cover, and simmer until almost all liquid has been absorbed and rice is just al dente, 16 to 18 minutes, stirring twice during simmering."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add 3/4 cup stock to risotto and stir gently and constantly until risotto becomes creamy, about 3 minutes. Stir in Parmesan and shrimp. Cover pot and let stand off heat for 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Gently stir chives, lemon zest and juice, and remaining 2 tablespoons butter into risotto. Season with salt and pepper to taste. If desired, stir in additional stock to loosen texture of risotto. Serve, passing lemon wedges and extra Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 45197,
+    "end": 45257,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

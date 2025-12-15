@@ -1,0 +1,102 @@
+{
+  "mapped": {
+    "id": "atk_corn-tortillas",
+    "name": "Corn Tortillas",
+    "slug": "corn-tortillas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES twenty-two 5-inch tortillas",
+      "baseServings": 22
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "pressing-the-dough-between-a-zipper-lock-bag-that-has-been-cut-open-at-the-sides-prevents-it-from-sticking-to-the-pie-plate-distribute-your-weight-evenly-over-the-dough-when-pressing-using-a-clear-pie-plate-makes-it-easy-to-see-the-tortilla-a-tortilla-press-of-course-can-also-be-used-you-can-find-masa-harina-in-the-international-aisle-or-near-the-flour",
+        "displayName": "Pressing the dough between a zipper-lock bag that has been cut open at the sides prevents it from sticking to the pie plate. Distribute your weight evenly over the dough when pressing. Using a clear pie plate makes it easy to see the tortilla. A tortilla press, of course, can also be used. You can find masa harina in the international aisle or near the flour.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "8-ounces-masa-harina",
+        "displayName": "(8 ounces) masa harina",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "warm-water-plus-extra-as-needed",
+        "displayName": "warm water, plus extra as needed",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut sides of sandwich-size zipper-lock bag but leave bottom seam intact so that bag unfolds completely. Place open bag on counter and line large plate with 2 damp dish towels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Mix masa, 1 teaspoon oil, and salt together in medium bowl. Using rubber spatula, stir in warm water to form soft dough. Using your hands, knead dough in bowl, adding extra warm water, 1 tablespoon at a time, until dough is soft and tacky but not sticky (texture is like Play-Doh). Cover dough and set aside for 5 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, heat remaining 1 teaspoon oil in 8-inch nonstick skillet over medium-high heat until shimmering. Using paper towel, wipe out skillet, leaving thin film of oil on bottom. Pinch off 1-ounce piece of dough (about 2 tablespoons) and roll into smooth 11/4-inch ball. Cover remaining dough with damp paper towel. Place ball in center of open bag and fold other side of bag over ball. Using clear pie plate, press down on plastic to flatten ball into 5-inch disk, rotating plastic during pressing to ensure even thickness. Working quickly, gently peel plastic away from tortilla."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Carefully place tortilla in skillet and cook, without moving it, until tortilla moves freely when pan is shaken, about 30 seconds. Flip tortilla and cook until edges curl and bottom surface is spotty brown, about 1 minute. Flip tortilla again and continue to cook until bottom surface is spotty brown and puffs up in center, 30 to 60 seconds. Place toasted tortilla between 2 damp dish towels; repeat shaping and cooking with remaining dough. (Cooled tortillas can be transferred to zipper-lock bag and refrigerated for up to 5 days. Reheat before serving.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 25691,
+    "end": 25719,
+    "yieldLine": "MAKES twenty-two 5-inch tortillas"
+  },
+  "fit": true
+}

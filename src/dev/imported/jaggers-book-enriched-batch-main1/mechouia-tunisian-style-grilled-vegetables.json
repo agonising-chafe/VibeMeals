@@ -1,0 +1,243 @@
+{
+  "mapped": {
+    "id": "atk_mechouia-tunisian-style-grilled-vegetables",
+    "name": "Mechouia (Tunisian-Style Grilled Vegetables)",
+    "slug": "mechouia-tunisian-style-grilled-vegetables",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "coriander-seeds",
+        "displayName": "coriander seeds",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "caraway-seeds",
+        "displayName": "caraway seeds",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cumin-seeds",
+        "displayName": "cumin seeds",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-paprika",
+        "displayName": "sweet paprika",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "chopped-fresh-mint",
+        "displayName": "chopped fresh mint",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "grated-lemon-zest-plus-2-tablespoons-juice",
+        "displayName": "grated lemon zest plus 2 tablespoons juice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "bell-peppers-1-red-and-1-green",
+        "displayName": "bell peppers (1 red and 1 green)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VEGETABLES"
+      },
+      {
+        "ingredientId": "small-eggplant-halved-lengthwise",
+        "displayName": "small eggplant, halved lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VEGETABLES"
+      },
+      {
+        "ingredientId": "zucchini-8-to-10-ounces-halved-lengthwise",
+        "displayName": "zucchini (8 to 10 ounces), halved lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VEGETABLES"
+      },
+      {
+        "ingredientId": "plum-tomatoes-cored-and-halved-lengthwise",
+        "displayName": "plum tomatoes, cored and halved lengthwise",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VEGETABLES"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "VEGETABLES"
+      },
+      {
+        "ingredientId": "medium-shallots-unpeeled",
+        "displayName": "medium shallots, unpeeled",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VEGETABLES"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE VINAIGRETTE: Grind coriander seeds, caraway seeds, and cumin seeds in spice grinder until finely ground. Whisk ground spices, oil, paprika, and cayenne together in bowl. Reserve 3 tablespoons oil mixture. Heat remaining oil mixture and garlic in small skillet over low heat, stirring occasionally, until fragrant and small bubbles appear, 8 to 10 minutes. Transfer to large bowl and let cool, about 10 minutes. Whisk parsley, cilantro, mint, and lemon zest and juice into oil mixture; season with salt to taste."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE VEGETABLES: Slice 1/4 inch off tops and bottoms of bell peppers and remove cores. Make slit down 1 side of each bell pepper and then press flat into 1 long strip, removing ribs and remaining seeds with knife as needed. Using sharp knife, cut slits in flesh of eggplant and zucchini, spaced 1/2 inch apart, in crosshatch pattern, being careful to cut into but not through skin. Brush cut sides of bell peppers, eggplant, zucchini, and tomatoes with reserved oil mixture and season with salt to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Grill vegetables, starting with cut sides down, over medium-hot fire, until tender and well browned and skins of bell peppers, eggplant, tomatoes, and shallots are charred, 8 to 16 minutes, turning and moving vegetables as necessary. Transfer vegetables to baking sheet as they are done. Place bell peppers in bowl, cover with plastic wrap, and let steam to loosen skins."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "When cool enough to handle, peel bell peppers, eggplant, tomatoes, and shallots. Chop all vegetables into 1/2-inch pieces and transfer to bowl with vinaigrette; toss to coat. Season with salt and pepper to taste, and serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56491,
+    "end": 56553,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

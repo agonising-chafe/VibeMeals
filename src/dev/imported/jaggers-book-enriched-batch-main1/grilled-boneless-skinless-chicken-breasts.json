@@ -1,0 +1,131 @@
+{
+  "mapped": {
+    "id": "atk_grilled-boneless-skinless-chicken-breasts",
+    "name": "Grilled Boneless, Skinless Chicken Breasts",
+    "slug": "grilled-boneless-skinless-chicken-breasts",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "6-to-8-ounce-boneless-skinless-chicken-breasts-trimmed",
+        "displayName": "(6- to 8-ounce) boneless, skinless chicken breasts, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "instruction": "Refrigerate chicken in brine",
+        "durationMinutes": 30,
+        "requiredPrep": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cover chicken breasts with plastic wrap and pound gently with meat pounder until 1/2 inch thick. Whisk water, fish sauce, honey, salt, and pepper together in bowl. Transfer mixture to 1-gallon zipper-lock bag. Add chicken, press out air, seal bag, and turn bag so contents are evenly distributed. Refrigerate for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove chicken from brine, letting excess drip off (do not pat dry), then toss with oil in second bowl until evenly coated."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place chicken, skinned side down, on grill and cook (covered if using gas) until chicken develops dark grill marks, 3 to 5 minutes. Gently release chicken from cooking grate; flip; and continue to cook until chicken registers 160 degrees, 3 to 5 minutes longer. Transfer chicken to cutting board and tent with aluminum foil. Let rest for 5 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 53107,
+    "end": 53145,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

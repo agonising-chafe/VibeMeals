@@ -1,0 +1,238 @@
+{
+  "mapped": {
+    "id": "atk_grilled-beef-satay",
+    "name": "Grilled Beef Satay",
+    "slug": "grilled-beef-satay",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "regular-or-light-coconut-milk",
+        "displayName": "regular or light coconut milk",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "shallots-minced",
+        "displayName": "shallots, minced",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "lemon-grass-stalks-trimmed-to-bottom-6-inches-and-minced",
+        "displayName": "lemon grass stalks, trimmed to bottom 6 inches and minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "11-2-to-13-4-pound-flank-steak-halved-lengthwise-and-sliced-on-slight-angle-against-grain-into-1-4-inch-thick-slices",
+        "displayName": "(11/2- to 13/4-pound) flank steak, halved lengthwise and sliced on slight angle against grain into 1/4-inch-thick slices",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "BEEF"
+      },
+      {
+        "ingredientId": "disposable-aluminum-deep-roasting-pan-if-using-charcoal",
+        "displayName": "Disposable aluminum deep roasting pan (if using charcoal)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE BASTING SAUCE: Whisk all ingredients together in bowl. Reserve one-third of sauce in separate bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE BEEF: Whisk oil, sugar, and fish sauce together in medium bowl. Toss beef with marinade and let stand at room temperature for 30 minutes. Weave beef onto 12-inch metal skewers, 2 to 4 pieces per skewer, leaving 11/2 inches at top and bottom of skewer exposed. You should have 10 to 12 skewers."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place beef skewers on grill (directly over coals if using charcoal) perpendicular to grate. Brush meat with reserved one-third of basting sauce and cook (covered if using gas) until browned, about 3 minutes. Flip skewers, brush with half of remaining basting sauce, and cook until browned on second side, about 3 minutes. Brush meat with remaining basting sauce and cook 1 minute longer. Transfer to large platter and serve with Peanut Sauce."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51139,
+    "end": 51199,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

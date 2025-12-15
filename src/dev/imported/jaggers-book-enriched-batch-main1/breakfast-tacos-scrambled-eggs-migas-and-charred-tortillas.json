@@ -1,0 +1,121 @@
+{
+  "mapped": {
+    "id": "atk_breakfast-tacos-scrambled-eggs-migas-and-charred-tortillas",
+    "name": "Breakfast Tacos: Scrambled Eggs, Migas, and Charred Tortillas",
+    "slug": "breakfast-tacos-scrambled-eggs-migas-and-charred-tortillas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "scrambled-eggs",
+        "displayName": "Scrambled Eggs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "be-sure-to-follow-the-visual-cues-when-making-the-eggs-as-your-pan-s-thickness-will-affect-the-cooking-time-if-you-re-using-an-electric-stovetop-heat-a-second-burner-on-low-and-move-the-skillet-to-it-when-it-s-time-to-adjust-the-heat",
+        "displayName": "Be sure to follow the visual cues when making the eggs, as your pan’s thickness will affect the cooking time. If you’re using an electric stovetop, heat a second burner on low and move the skillet to it when it’s time to adjust the heat.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk eggs, salt, and pepper in bowl until thoroughly combined and mixture is pure yellow, about 1 minute. Melt butter in 12-inch nonstick skillet over medium heat. Add egg mixture and, using heat-resistant rubber spatula, constantly and firmly scrape along bottom and sides of skillet until eggs begin to clump and spatula leaves trail on bottom of skillet, 11/2 to 21/2 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Reduce heat to low. Gently but constantly fold egg mixture until clumped and slightly wet, 30 to 60 seconds. Season with salt and pepper to taste. Serve immediately."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "If you have a gas stove, hold 1 tortilla with tongs over flame, turning every few seconds to get even char. If you have an electric stove, heat a little oil in a skillet and warm tortilla over medium-high heat, turning every few seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Wrap tortillas in clean dish towel to keep warm. Or, use a tortilla warmer."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 3650,
+    "end": 3712,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,160 @@
+{
+  "mapped": {
+    "id": "atk_corn-muffins",
+    "name": "Corn Muffins",
+    "slug": "corn-muffins",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 12 muffins",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "10-ounces-unbleached-all-purpose-flour",
+        "displayName": "(10 ounces) unbleached all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-ounces-fine-ground-whole-grain-yellow-cornmeal",
+        "displayName": "(5 ounces) fine-ground, whole-grain yellow cornmeal",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "51-4-ounces-sugar",
+        "displayName": "(51/4 ounces) sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-stick-unsalted-butter-melted",
+        "displayName": "(1 stick) unsalted butter, melted",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "sour cream",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "milk",
+        "displayName": "milk",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 400 degrees. Spray a standard-size muffin pan with vegetable oil spray."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk the flour, cornmeal, baking powder, baking soda, and salt together in a medium bowl; set aside. Whisk the eggs in a second medium bowl. Add the sugar to the eggs; whisk vigorously until thick and homogeneous, about 30 seconds; add the melted butter in three additions, whisking to combine after each addition. Add half of the sour cream and half of the milk and whisk to combine; whisk in the remaining sour cream and milk until combined. Add the wet ingredients to the dry ingredients; mix gently with a rubber spatula until the batter is just combined and evenly moistened. Do not overmix. Using a 1/3-cup measure or ice cream scoop, divide the batter evenly among the prepared muffin cups, dropping the batter to form mounds. Do not level or flatten the surface of the mounds."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bake until the muffins are light golden brown and a skewer inserted into the center of the muffins comes out clean, about 18 minutes, rotating the pan halfway through the baking time. Cool the muffins in the pan for 5 minutes, then transfer to a wire rack and cool for 10 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63151,
+    "end": 63191,
+    "yieldLine": "MAKES 12 muffins"
+  },
+  "fit": true
+}

@@ -1,0 +1,158 @@
+{
+  "mapped": {
+    "id": "atk_italian-sausage-with-grapes-and-balsamic-vinegar",
+    "name": "Italian Sausage with Grapes and Balsamic Vinegar",
+    "slug": "italian-sausage-with-grapes-and-balsamic-vinegar",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-italian-sausage",
+        "displayName": "sweet Italian sausage",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-seedless-grapes-halved-lengthwise-3-cups",
+        "displayName": "red seedless grapes, halved lengthwise (3 cups)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-halved-and-sliced-thin-11-2-cups",
+        "displayName": "onion, halved and sliced thin (11/2 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-oregano",
+        "displayName": "chopped fresh oregano",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "balsamic-vinegar",
+        "displayName": "balsamic vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-mint",
+        "displayName": "chopped fresh mint",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil in 12-inch skillet over medium heat until shimmering. Arrange sausage links in pan and cook, turning once, until browned on both sides, about 5 minutes. Tilt skillet and carefully remove excess fat with paper towel. Distribute grapes and onion over and around sausages. Add water and immediately cover. Cook, turning sausages once, until they register between 160 and 165 degrees and onions and grapes have softened, about 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer sausages to paper towel–lined plate and tent with aluminum foil. Return skillet to medium-high heat and stir salt and pepper into grape-onion mixture. Spread grape-onion mixture in even layer in skillet and cook without stirring until browned, 3 to 5 minutes. Continue to cook, stirring frequently, until mixture is well browned and grapes are soft but still retain their shape, 3 to 5 minutes longer. Reduce heat to medium, stir in wine and oregano, and cook, scraping up any browned bits, until wine is reduced by half, 30 to 60 seconds. Remove pan from heat and stir in vinegar."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Arrange sausages on serving platter and spoon grape-onion mixture over top. Sprinkle with mint and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 40632,
+    "end": 40678,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

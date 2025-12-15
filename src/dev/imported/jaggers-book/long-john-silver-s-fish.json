@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_long-john-silver-s-fish",
+    "name": "Long John Silver’s Fish",
+    "slug": "long-john-silver-s-fish",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-secret-to-the-long-john-silver-s-taste-is-the-beer-batter-they-dip-their-fish-chicken-and-shrimp-into-before-frying-the-best-type-of-fish-to-use-is-pollock-cod-or-firm-whitefish",
+        "displayName": "The secret to the Long John Silver’s taste is the beer batter they dip their fish, chicken, and shrimp into before frying. The best type of fish to use is pollock, cod, or firm whitefish.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mccormick-golden-dipt-beer-batter-seafood-batter-mix",
+        "displayName": "McCormick Golden Dipt Beer Batter Seafood Batter Mix",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-beer",
+        "displayName": "⅔ cup beer",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pounds-pollock-fillets-cut-into-serving-sized-pieces",
+        "displayName": "½ pounds pollock fillets, cut into serving-sized pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-stir-batter-mix-and-beer-until-smooth",
+        "displayName": "In a medium bowl, stir batter mix and beer until smooth.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dip-fish-in-batter-and-shake-off-any-excess",
+        "displayName": "Dip fish in batter and shake off any excess.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carefully-add-fish-a-few-pieces-at-a-time-to-hot-oil-fry-3-5-minutes-turning-once-to-brown-evenly-fish-is-done-when-it-is-golden-brown-and-flakes-easily-with-a-fork-drain-fried-fish-on-paper-towels-serve",
+        "displayName": "Carefully add fish a few pieces at a time to hot oil. Fry 3–5 minutes, turning once to brown evenly. Fish is done when it is golden brown and flakes easily with a fork. Drain fried fish on paper towels. Serve.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7464,
+    "end": 7504,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

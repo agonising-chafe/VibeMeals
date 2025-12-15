@@ -1,0 +1,133 @@
+{
+  "mapped": {
+    "id": "atk_broiled-salmon-with-mustard-and-crisp-dilled-crust",
+    "name": "Broiled Salmon with Mustard and Crisp Dilled Crust",
+    "slug": "broiled-salmon-with-mustard-and-crisp-dilled-crust",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CRUST"
+      },
+      {
+        "ingredientId": "plain-high-quality-potato-chips-crushed-into-rough-1-8-inch-pieces-about-1-cup",
+        "displayName": "plain high-quality potato chips, crushed into rough 1/8-inch pieces (about 1 cup)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CRUST"
+      },
+      {
+        "ingredientId": "chopped-fresh-dill",
+        "displayName": "chopped fresh dill",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CRUST"
+      },
+      {
+        "ingredientId": "whole-side-salmon-fillet-about-31-2-pounds-white-belly-fat-trimmed",
+        "displayName": "whole side salmon fillet, about 31/2 pounds, white belly fat trimmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust one oven rack to the top position (about 3 inches from the heat source) and the second rack to the upper-middle position; heat the oven to 400 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pulse the bread in a food processor to fairly even 1/4-inch pieces about the size of Grape-Nuts cereal (you should have about 1 cup), about 10 pulses. Spread the crumbs evenly on a rimmed baking sheet; toast on the lower oven rack, shaking the pan once or twice, until golden brown and crisp, 4 to 5 minutes. Toss the bread crumbs, crushed potato chips, and dill together in a small bowl; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Change the oven setting to broil. Cut a piece of heavy-duty foil 6 inches longer than the fillet. Fold the foil lengthwise in thirds and place lengthwise on a rimmed baking sheet; position the salmon lengthwise on the foil, allowing the excess foil to overhang the baking sheet. Rub the fillet evenly with the oil; sprinkle with salt and pepper. Broil the salmon on the upper rack until the surface is spotty brown and the outer 1/2 inch of the thick end is opaque when gently flaked with a paring knife, 9 to 11 minutes. Remove the baking sheet from the oven, spread the fish evenly with the mustard, and press the bread-crumb mixture onto the fish. Return the baking sheet to the lower oven rack and continue broiling until the crust is deep golden brown, about 1 minute longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Grasping the ends of the foil sling, lift the salmon, sling and all, onto a platter. Slide an offset spatula under the thick end. Grasp the foil, press the spatula against the foil, and slide it under the fish down to the thin end, loosening the entire side of fish. Grasp the foil again, hold the spatula perpendicular to the fish to stabilize it, and pull the foil out from under the fish. Wipe the platter clean with a damp paper towel. Serve the salmon immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 42598,
+    "end": 42634,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

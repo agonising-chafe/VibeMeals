@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_longhorn-steakhouse-outlaw-ribeye",
+    "name": "LongHorn Steakhouse Outlaw Ribeye",
+    "slug": "longhorn-steakhouse-outlaw-ribeye",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-large-bone-in-steak-is-juicy-tender-and-more-than-enough-to-feed-two-people-or-one-very-hungry-person-this-makes-an-impressive-date-night-at-home-dinner-or-a-part-of-a-special-celebration-dinner",
+        "displayName": "This large bone-in steak is juicy, tender, and more than enough to feed two people or one very hungry person. This makes an impressive date-night-at-home dinner or a part of a special celebration dinner.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-onion-powder",
+        "displayName": "⅛ teaspoon onion powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "⅛ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-cumin",
+        "displayName": "⅛ teaspoon ground cumin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-thyme",
+        "displayName": "⅛ teaspoon dried thyme",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-paprika",
+        "displayName": "⅛ teaspoon paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-usda-choice-rib-eye",
+        "displayName": "bone-in USDA choice rib eye",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-combine-salt-pepper-onion-powder-garlic-powder-cumin-thyme-and-paprika-mix-well-to-combine-if-thyme-leaves-are-very-large-rub-them-between-your-fingers-to-break-into-smaller-pieces",
+        "displayName": "In a small bowl, combine salt, pepper, onion powder, garlic powder, cumin, thyme, and paprika. Mix well to combine. If thyme leaves are very large, rub them between your fingers to break into smaller pieces.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-steak-from-refrigerator-30-minutes-before-grilling-to-allow-it-to-come-to-room-temperature",
+        "displayName": "Remove steak from refrigerator 30 minutes before grilling to allow it to come to room temperature.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-outdoor-barbecue-or-indoor-smokeless-grill-to-medium-high-heat",
+        "displayName": "Preheat outdoor barbecue or indoor smokeless grill to medium-high heat.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "season-steak-on-both-sides-with-prepared-seasoning-grill-4-5-minutes-per-side-for-medium-rare-until-steak-reaches-an-internal-temperature-of-130-f-6-7-minutes-per-side-for-medium-135-f-8-9-minutes-per-side-for-medium-well-145-f-or-10-minutes-per-side-for-well-done-155-f",
+        "displayName": "Season steak on both sides with prepared seasoning. Grill 4–5 minutes per side for medium-rare (until steak reaches an internal temperature of 130°F), 6–7 minutes per side for medium (135°F), 8–9 minutes per side for medium-well (145°F), or 10 minutes per side for well-done (155°F).",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-steak-from-grill-and-let-rest-3-minutes-before-serving-enjoy-hot",
+        "displayName": "Remove steak from grill and let rest 3 minutes before serving. Enjoy hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "longhorn-steakhouse-is-a-restaurant-chain-with-more-than-500-locations-and-a-western-texas-theme-they-are-best-known-for-serving-various-kinds-of-grilled-steaks-but-they-also-grill-fresh-fish-and-chicken",
+        "displayName": "LongHorn Steakhouse is a restaurant chain with more than 500 locations and a western/Texas theme. They are best known for serving various kinds of grilled steaks, but they also grill fresh fish and chicken.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6631,
+    "end": 6679,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

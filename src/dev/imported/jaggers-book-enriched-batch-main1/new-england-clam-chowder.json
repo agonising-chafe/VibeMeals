@@ -1,0 +1,145 @@
+{
+  "mapped": {
+    "id": "atk_new-england-clam-chowder",
+    "name": "New England Clam Chowder",
+    "slug": "new-england-clam-chowder",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "medium-size-hard-shell-clams-such-as-cherrystones-washed-and-scrubbed-clean",
+        "displayName": "medium-size hard-shell clams, such as cherrystones, washed and scrubbed clean",
+        "amount": 7,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "thick-cut-bacon-cut-into-1-4-inch-pieces",
+        "displayName": "thick-cut bacon, cut into 1/4-inch pieces",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-chopped",
+        "displayName": "large onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-potatoes-unpeeled-cut-into-1-2-inch-chunks",
+        "displayName": "red potatoes, unpeeled, cut into 1/2-inch chunks",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-thyme-or-1-4-teaspoon-dried-thyme",
+        "displayName": "fresh thyme or 1/4 teaspoon dried thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 3 cups water to boil in Dutch oven. Add clams and cover with tight-fitting lid. Cook for 5 minutes, uncover, and stir with wooden spoon. Quickly cover pot and steam until clams just open, 2 to 4 minutes. (Don’t let clams open completely.) Transfer clams to large bowl and let cool slightly; reserve broth. Open clams with paring knife, holding clams over bowl to catch any juices. With knife, sever muscle that attaches clam to bottom shell and transfer meat to cutting board; discard shells. Mince clams and set aside. Pour clam broth into large bowl, holding back last few tablespoons of broth in case of sediment; set clam broth aside. (You should have about 5 cups. If not, add bottled clam juice or water to make this amount.) Rinse and dry pot, then return pot to burner."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cook bacon in pot over medium heat until crispy, 5 to 7 minutes. Add onion and cook, stirring occasionally, until softened, about 5 minutes. Add flour and stir until lightly colored, about 1 minute. Gradually whisk in reserved clam broth. Add potatoes, bay leaf, and thyme and simmer until potatoes are tender, about 10 minutes. Add clams, cream, parsley, and salt and pepper to taste; bring to simmer. Discard bay leaf, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 9075,
+    "end": 9111,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

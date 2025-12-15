@@ -1,0 +1,105 @@
+{
+  "mapped": {
+    "id": "atk_skillet-roasted-brussels-sprouts-with-lemon-and-pecorino-romano",
+    "name": "Skillet-Roasted Brussels Sprouts with Lemon and Pecorino Romano",
+    "slug": "skillet-roasted-brussels-sprouts-with-lemon-and-pecorino-romano",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 20,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "small-1-to-11-2-inches-in-diameter-brussels-sprouts-trimmed-and-halved",
+        "displayName": "small (1 to 11/2 inches in diameter) Brussels sprouts, trimmed and halved",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-pecorino-romano-cheese",
+        "displayName": "shredded Pecorino Romano cheese",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Arrange Brussels sprouts in single layer, cut sides down, in 12-inch nonstick skillet. Drizzle oil evenly over sprouts. Cover skillet, place over medium-high heat, and cook until sprouts are bright green and cut sides have started to brown, about 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Uncover and continue to cook until cut sides of sprouts are deeply and evenly browned and paring knife slides in with little to no resistance, 2 to 3 minutes longer, adjusting heat and moving sprouts as necessary to prevent them from overbrowning. While sprouts cook, combine lemon juice and 1/4 teaspoon salt in small bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Off heat, add lemon juice mixture to skillet and stir to evenly coat sprouts. Season with salt and pepper to taste. Transfer sprouts to large plate, sprinkle with Pecorino, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 57554,
+    "end": 57606,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,124 @@
+{
+  "mapped": {
+    "id": "atk_starbucks-iced-brown-sugar-oatmilk-shaken-espresso",
+    "name": "Starbucks Iced Brown Sugar Oatmilk Shaken Espresso",
+    "slug": "starbucks-iced-brown-sugar-oatmilk-shaken-espresso",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "added-to-the-starbucks-menu-in-2022-the-iced-brown-sugar-oatmilk-shaken-espresso-has-quickly-become-a-fan-favorite-for-a-deeper-brown-sugar-flavor-you-can-use-dark-brown-sugar-for-the-light-brown-sugar",
+        "displayName": "Added to the Starbucks menu in 2022, the Iced Brown Sugar Oatmilk Shaken Espresso has quickly become a fan favorite. For a deeper brown sugar flavor, you can use dark brown sugar for the light brown sugar.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ice-cubes",
+        "displayName": "ice cubes",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shots-espresso",
+        "displayName": "shots espresso",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-oat-milk",
+        "displayName": "½ cup oat milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-saucepan-over-medium-heat-add-brown-sugar-and-water-heat-until-sugar-dissolves-and-syrup-is-hot-remove-from-heat-and-allow-to-cool-20-minutes",
+        "displayName": "In a small saucepan over medium heat, add brown sugar and water. Heat until sugar dissolves and syrup is hot. Remove from heat and allow to cool 20 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-ice-cubes-to-a-large-glass-jar-with-a-lid-or-to-a-cocktail-shaker-pour-espresso-and-syrup-over-ice-shake-to-mix-pour-into-a-tall-glass-and-pour-oat-milk-over-top-serve-immediately",
+        "displayName": "Add ice cubes to a large glass jar with a lid or to a cocktail shaker. Pour espresso and syrup over ice. Shake to mix. Pour into a tall glass and pour oat milk over top. Serve immediately.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 11199,
+    "end": 11231,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

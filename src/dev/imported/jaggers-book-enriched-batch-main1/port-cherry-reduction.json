@@ -1,0 +1,119 @@
+{
+  "mapped": {
+    "id": "atk_port-cherry-reduction",
+    "name": "Port-Cherry Reduction",
+    "slug": "port-cherry-reduction",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 1 cup",
+      "baseServings": 4,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "port",
+        "displayName": "port",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "balsamic-vinegar",
+        "displayName": "balsamic vinegar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-tart-cherries",
+        "displayName": "dried tart cherries",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shallot-minced-about-4-tablespoons",
+        "displayName": "large shallot, minced (about 4 tablespoons)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine the port, balsamic vinegar, cherries, shallot, and thyme in a medium saucepan; simmer over medium-low heat until the liquid is reduced to 1/3 cup, about 30 minutes. Set aside, covered."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While the steaks are resting, reheat the sauce. Off the heat, remove the thyme, then whisk in the butter until melted. Season with salt to taste. Serve, passing the sauce at the table with the steak."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 33503,
+    "end": 33531,
+    "yieldLine": "MAKES about 1 cup"
+  },
+  "fit": true
+}

@@ -1,0 +1,102 @@
+{
+  "mapped": {
+    "id": "atk_breakfast-sausage-patties",
+    "name": "Breakfast Sausage Patties",
+    "slug": "breakfast-sausage-patties",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "SHEET_PAN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "yieldText": "MAKES 16 patties",
+      "baseServings": 16
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-pork-butt-roast-with-at-least-1-4-inch-thick-fat-cap",
+        "displayName": "boneless pork butt roast with at least 1/4-inch-thick fat cap",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-breakfast-sausage-seasoning",
+        "displayName": "recipe Breakfast Sausage Seasoning",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Sausage"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 8,
+        "description": "Refrigerate pork mixture for at least 8 hours or up to 2 days.",
+        "kind": "MARINATE",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 0.75,
+        "description": "Freeze pork until very firm and starting to harden around edges but still pliable, 35 to 55 minutes.",
+        "kind": "FREEZE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Leaving fat cap intact, cut pork into 3/4-inch pieces, trimming and discarding all sinew and connective tissue. Weigh trimmed pork and note weight in grams. Multiply weight of pork by 0.015 to determine salt amount (round to nearest gram). Weigh out salt."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Toss pork, salt, and seasoning in bowl until well combined. Cover and refrigerate for at least 8 hours or up to 2 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer pork to rimmed baking sheet and spread in single layer, leaving space around each chunk. Freeze until pork is very firm and starting to harden around edges but still pliable, 35 to 55 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Inspect ground pork carefully, discarding any strands of gristle or silver skin. Using your hands or stiff rubber spatula, knead pork vigorously, smearing against sides and bottom of bowl, until pork begins to tighten, feels tacky, and sticks to bottom of bowl and palm of your hand, 11/2 to 2 minutes. Use immediately or wrap bowl tightly in plastic wrap and refrigerate for up to 24 hours (or transfer sausage to zipper-lock bag and freeze for up to 1 month)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "TO MAKE PATTIES: Using your damp hands, divide meat into 16 pieces (about 2 ounces each) and form into 21/2-inch patties about 1/2 inch thick. Heat 2 teaspoons vegetable oil in 12-inch nonstick skillet over medium heat. Cook half of patties until well browned on both sides and meat registers 145 to 150 degrees, 3 to 5 minutes per side. Transfer to serving platter and tent with aluminum foil. Repeat with remaining patties. Serve. (Raw sausage patties can be refrigerated, covered, for up to 24 hours or frozen for up to 1 month. Cook frozen patties for 7 to 9 minutes per side.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 6267,
+    "end": 6301,
+    "yieldLine": "MAKES 16 patties"
+  },
+  "fit": true
+}

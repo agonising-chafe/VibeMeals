@@ -1,0 +1,201 @@
+{
+  "mapped": {
+    "id": "atk_cheese-souffl",
+    "name": "Cheese Soufflé",
+    "slug": "cheese-souffl",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "NONE",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "parmesan-cheese-grated-1-2-cup",
+        "displayName": "Parmesan cheese, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "11-4-ounces-all-purpose-flour",
+        "displayName": "(11/4 ounces) all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-pepper",
+        "displayName": "white pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-ground-nutmeg",
+        "displayName": "Pinch ground nutmeg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "gruy-re-cheese-shredded-11-2-cups",
+        "displayName": "Gruyère cheese, shredded (11/2 cups)",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs-separated",
+        "displayName": "large eggs, separated",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "cream-of-tartar",
+        "displayName": "cream of tartar",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Spray 8-inch round (2-quart) soufflé dish with vegetable oil spray, then sprinkle with 2 tablespoons Parmesan."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine flour, paprika, salt, cayenne, white pepper, and nutmeg in bowl. Melt butter in small saucepan over medium heat. Stir in flour mixture and cook for 1 minute. Slowly whisk in milk and bring to simmer. Cook, whisking constantly, until mixture is thickened and smooth, about 1 minute. Remove pan from heat and whisk in Gruyère and 5 tablespoons Parmesan until melted and smooth. Let cool for 10 minutes, then whisk in egg yolks and 11/2 teaspoons parsley."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using stand mixer fitted with whisk, whip egg whites and cream of tartar on medium-low speed until foamy, about 1 minute. Increase speed to medium-high and whip until stiff peaks form, 3 to 4 minutes. Add cheese mixture and continue to whip until fully combined, about 15 seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Pour mixture into prepared dish and sprinkle with remaining 1 tablespoon Parmesan. Bake until risen above rim, top is deep golden brown, and interior registers 170 degrees, 30 to 35 minutes. Sprinkle with remaining 1/2 teaspoon parsley and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 47556,
+    "end": 47608,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

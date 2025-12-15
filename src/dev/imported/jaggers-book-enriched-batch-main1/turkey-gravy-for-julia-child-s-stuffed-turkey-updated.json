@@ -1,0 +1,188 @@
+{
+  "mapped": {
+    "id": "atk_turkey-gravy-for-julia-child-s-stuffed-turkey-updated",
+    "name": "Turkey Gravy for Julia Child’s Stuffed Turkey, Updated",
+    "slug": "turkey-gravy-for-julia-child-s-stuffed-turkey-updated",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 4 cups",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "if-you-do-not-have-1-4-cup-of-reserved-turkey-fat-in-step-4-supplement-with-unsalted-butter",
+        "displayName": "If you do not have 1/4 cup of reserved turkey fat in step 4, supplement with unsalted butter.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "reserved-turkey-giblets-neck-backbone-and-thighbones-hacked-into-2-inch-pieces",
+        "displayName": "Reserved turkey giblets, neck, backbone, and thighbones, hacked into 2-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-chopped-coarse",
+        "displayName": "onions, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrot-peeled-and-cut-into-1-inch-pieces",
+        "displayName": "carrot, peeled and cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-cut-into-1-inch-pieces",
+        "displayName": "celery rib, cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-unpeeled",
+        "displayName": "cloves, unpeeled",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 3.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 450 degrees. Place turkey parts, onions, carrot, celery, and garlic in large roasting pan. Drizzle with oil and toss to combine. Roast, stirring occasionally, until well browned, 40 to 50 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove pan from oven, and place over high heat. Add broth and bring to boil, scraping up any browned bits. Transfer contents of pan to Dutch oven. Add water, wine, and thyme sprigs; bring to boil over high heat. Reduce heat to low and simmer until reduced by half, about 11/2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Strain contents of pot through fine-mesh strainer set in large bowl. Press solids with back of spatula to extract as much liquid as possible. Discard solids. Transfer liquid to fat separator and let settle, 5 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer 1/4 cup fat to medium saucepan and heat over medium-high heat until bubbling. Whisk in flour and cook, whisking constantly, until combined and honey-colored, about 2 minutes. Gradually whisk in hot liquid and bring to boil. Reduce heat to medium-low and simmer, stirring occasionally, until thickened, about 5 minutes. Season with salt and pepper to taste. (Gravy can be refrigerated in an airtight container for up to 2 days.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29863,
+    "end": 29907,
+    "yieldLine": "MAKES about 4 cups"
+  },
+  "fit": true
+}

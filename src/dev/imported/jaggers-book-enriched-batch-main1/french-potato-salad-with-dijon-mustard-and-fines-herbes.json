@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_french-potato-salad-with-dijon-mustard-and-fines-herbes",
+    "name": "French Potato Salad with Dijon Mustard and Fines Herbes",
+    "slug": "french-potato-salad-with-dijon-mustard-and-fines-herbes",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "red-potatoes-about-6-medium-or-18-small-unpeeled-sliced-1-4-inch-thick",
+        "displayName": "red potatoes (about 6 medium or 18 small), unpeeled, sliced 1/4 inch thick",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-for-cooking-potatoes",
+        "displayName": "Table salt for cooking potatoes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-clove-peeled-and-threaded-on-skewer",
+        "displayName": "medium garlic clove, peeled and threaded on skewer",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "champagne-vinegar-or-white-wine-vinegar",
+        "displayName": "champagne vinegar or white wine vinegar",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-shallot-minced-about-1-tablespoon",
+        "displayName": "small shallot, minced (about 1 tablespoon)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-chervil",
+        "displayName": "minced fresh chervil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "HERB MIX"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "HERB MIX"
+      },
+      {
+        "ingredientId": "minced-fresh-chives",
+        "displayName": "minced fresh chives",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "HERB MIX"
+      },
+      {
+        "ingredientId": "minced-fresh-tarragon",
+        "displayName": "minced fresh tarragon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "HERB MIX"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place potatoes, 6 cups cold water, and 2 tablespoons salt in a large saucepan. Bring to boil over high heat, then reduce heat to medium. Lower skewered garlic into simmering water and blanch, about 45 seconds. Immediately run garlic under cold tap water to stop cooking process; remove garlic from skewer and set aside. Simmer potatoes, uncovered, until tender but still firm (paring knife can be slipped into and out of center of potato slice with no resistance), about 5 minutes. Drain potatoes, reserving 1/4 cup cooking water. Arrange hot potatoes close together in single layer on rimmed baking sheet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Press garlic through garlic press or mince by hand. Whisk garlic, reserved potato cooking water, oil, vinegar, mustard, and pepper in small bowl until combined. Drizzle dressing evenly over warm potato slices; let stand for 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, toss shallot, chervil, parsley, chives, and tarragon gently together in small bowl. Transfer potatoes to large serving bowl. Add shallot-herb mixture and mix lightly with rubber spatula to combine. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14250,
+    "end": 14294,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

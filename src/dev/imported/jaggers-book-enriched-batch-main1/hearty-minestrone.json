@@ -1,0 +1,263 @@
+{
+  "mapped": {
+    "id": "atk_hearty-minestrone",
+    "name": "Hearty Minestrone",
+    "slug": "hearty-minestrone",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-cannellini-beans-about-1-cup-rinsed-and-picked-over",
+        "displayName": "dried cannellini beans (about 1 cup), rinsed and picked over",
+        "amount": 0.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-serving",
+        "displayName": "extra-virgin olive oil, plus extra for serving",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pancetta-cut-into-1-4-inch-pieces",
+        "displayName": "pancetta, cut into 1/4-inch pieces",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-celery-ribs-cut-into-1-2-inch-pieces-about-3-4-cup",
+        "displayName": "medium celery ribs, cut into 1/2-inch pieces (about 3/4 cup)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrot-peeled-and-cut-into-1-2-inch-pieces-about-3-4-cup",
+        "displayName": "medium carrot, peeled and cut into 1/2-inch pieces (about 3/4 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onions-peeled-and-cut-into-1-2-inch-pieces-about-11-2-cups",
+        "displayName": "small onions, peeled and cut into 1/2-inch pieces (about 11/2 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-zucchini-trimmed-and-cut-into-1-2-inch-pieces-about-1-cup",
+        "displayName": "medium zucchini, trimmed and cut into 1/2-inch pieces (about 1 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-head-green-cabbage-halved-cored-and-cut-into-1-2-inch-pieces-about-2-cups",
+        "displayName": "small head green cabbage, halved, cored, and cut into 1/2-inch pieces (about 2 cups)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-8-1-4-teaspoon-red-pepper-flakes",
+        "displayName": "1/8–1/4 teaspoon red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 8,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "piece-parmesan-cheese-rind-about-5-by-2-inches",
+        "displayName": "piece Parmesan cheese rind, about 5 by 2 inches",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "v8-juice",
+        "displayName": "V8 juice",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil-leaves",
+        "displayName": "chopped fresh basil leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-for-serving",
+        "displayName": "Grated Parmesan cheese, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 8,
+        "requires": "SOAK",
+        "ingredients": [
+          1
+        ],
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 11/2 tablespoons salt in 2 quarts cold water in a large bowl or container. Add the beans and soak at room temperature for at least 8 hours and up to 24 hours. Drain the beans and rinse well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat the oil and pancetta in a large Dutch oven over medium-high heat. Cook, stirring occasionally, until the pancetta is lightly browned and the fat has rendered, 3 to 5 minutes. Add the celery, carrot, onions, and zucchini; cook, stirring frequently, until the vegetables are softened and lightly browned, 5 to 9 minutes. Stir in the cabbage, garlic, 1/2 teaspoon salt, and red pepper flakes; continue to cook until the cabbage starts to wilt, 1 to 2 minutes longer. Transfer the vegetables to a rimmed baking sheet and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the soaked beans, water, broth, Parmesan rind, and bay leaf to the now-empty Dutch oven and bring to a boil over high heat. Reduce the heat and vigorously simmer, stirring occasionally, until the beans are fully tender and the liquid begins to thicken, 45 to 60 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add the reserved vegetables and V8 juice to the pot; cook until the vegetables are soft, about 15 minutes. Discard the bay leaf and Parmesan rind, stir in the basil, and season with salt and pepper to taste. Serve with olive oil and grated Parmesan."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 11041,
+    "end": 11105,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

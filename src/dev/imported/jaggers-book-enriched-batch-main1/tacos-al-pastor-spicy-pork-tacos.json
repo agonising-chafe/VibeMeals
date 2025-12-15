@@ -1,0 +1,232 @@
+{
+  "mapped": {
+    "id": "atk_tacos-al-pastor-spicy-pork-tacos",
+    "name": "Tacos al Pastor (Spicy Pork Tacos)",
+    "slug": "tacos-al-pastor-spicy-pork-tacos",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "BLENDER",
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-dried-guajillo-chiles-wiped-clean",
+        "displayName": "large dried guajillo chiles, wiped clean",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plum-tomatoes-cored-and-quartered",
+        "displayName": "plum tomatoes, cored and quartered",
+        "amount": 1.25,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cloves",
+        "displayName": "ground cloves",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-pork-butt-roast",
+        "displayName": "boneless pork butt roast",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lime-cut-into-8-wedges",
+        "displayName": "lime, cut into 8 wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pineapple-peeled-cored-and-cut-into-1-2-inch-thick-rings",
+        "displayName": "pineapple, peeled, cored, and cut into 1/2-inch-thick rings",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "Vegetable oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-corn-tortillas-warmed",
+        "displayName": "(6-inch) corn tortillas, warmed",
+        "amount": 18,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-chopped-fine",
+        "displayName": "small onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "coarsely-chopped-fresh-cilantro",
+        "displayName": "coarsely chopped fresh cilantro",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toast guajillos in large Dutch oven over medium-high heat until softened and fragrant, 2 to 4 minutes. Transfer to large plate and, when cool enough to handle, remove stems."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Return toasted guajillos to now-empty Dutch oven, add water, tomatoes, garlic, bay leaves, 2 teaspoons salt, 1/2 teaspoon pepper, sugar, cumin, and cloves, and bring to simmer over medium-high heat. Cover, reduce heat, and simmer, stirring occasionally, until guajillos are softened and tomatoes mash easily, about 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While sauce simmers, trim excess fat from exterior of pork, leaving 1/4-inch-thick fat cap. Slice pork against grain into 1/2-inch-thick slabs."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer guajillo-tomato mixture to blender and process until smooth, about 1 minute. Strain puree through fine-mesh strainer, pressing on solids to extract as much liquid as possible. Return puree to pot, submerge pork slices in liquid, and bring to simmer over medium heat. Partially cover, reduce heat, and simmer gently until pork is tender but still holds together, 11/2 to 13/4 hours, flipping and rearranging pork halfway through cooking. (Pork can be left in sauce, cooled to room temperature, and refrigerated for up to 2 days.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer pork to large plate, season both sides with salt, and cover tightly with aluminum foil. Whisk sauce to combine. Transfer 1/2 cup sauce to bowl for grilling; pour off all but 1/2 cup remaining sauce from pot and reserve for another use. Squeeze 2 lime wedges into sauce in pot and add spent wedges; season with salt to taste."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Clean and oil cooking grate. Brush 1 side of pork with 1/4 cup reserved sauce. Place pork on 1 side of grill, sauce side down, and cook until well browned and crisp, 5 to 7 minutes. Brush pork with remaining 1/4 cup reserved sauce, flip, and continue to cook until second side is well browned and crisp, 5 to 7 minutes longer. Transfer to carving board. Meanwhile, brush both sides of pineapple rings with vegetable oil and season with salt to taste. Place on other half of grill and cook until pineapple is softened and caramelized, 10 to 14 minutes; transfer pineapple to carving board."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Coarsely chop grilled pineapple and transfer to serving bowl. Using tongs or carving fork to steady hot pork, slice each piece crosswise into 1/8-inch pieces. Bring remaining 1/2 cup sauce in pot to simmer, add sliced pork, remove pot from heat, and toss to coat pork well. Season with salt to taste."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Spoon small amount of pork into each warm tortilla and serve, passing chopped pineapple, remaining 6 lime wedges, onion, and cilantro separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 52059,
+    "end": 52125,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

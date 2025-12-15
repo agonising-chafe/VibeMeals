@@ -1,0 +1,157 @@
+{
+  "mapped": {
+    "id": "atk_arista-tuscan-style-roast-pork-with-garlic-and-rosemary",
+    "name": "Arista (Tuscan-Style Roast Pork with Garlic and Rosemary)",
+    "slug": "arista-tuscan-style-roast-pork-with-garlic-and-rosemary",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET",
+        "SHEET_PAN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "lemon",
+        "displayName": "lemon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "chopped-fresh-rosemary",
+        "displayName": "chopped fresh rosemary",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "pancetta-cut-into-1-2-inch-pieces",
+        "displayName": "pancetta, cut into 1/2-inch pieces",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "center-cut-boneless-pork-loin-roast-trimmed",
+        "displayName": "center-cut boneless pork loin roast, trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "Kosher salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate roast for 1 hour after stuffing.",
+        "durationMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Finely grate 1 teaspoon zest from lemon. Cut lemon in half and reserve. Combine lemon zest, oil, garlic, and pepper flakes in 10-inch nonstick skillet. Cook over medium-low heat, stirring frequently, until garlic is sizzling, about 3 minutes. Add rosemary and cook, about 30 seconds. Strain mixture through fine-mesh strainer set over bowl, pushing on garlic-rosemary mixture to extract oil. Set oil aside and let garlic-rosemary mixture cool. Using paper towels, wipe out skillet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process pancetta in food processor until smooth paste forms, 20 to 30 seconds, scraping down sides of bowl as needed. Add garlic-rosemary mixture and continue to process until mixture is homogeneous, 20 to 30 seconds longer, scraping down sides of bowl as needed."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Position roast fat side up. Insert knife one-third of way up from bottom of roast along 1 long side and cut horizontally, stopping 1/2 inch before edge. Open up flap. Keeping knife parallel to cutting board, cut through thicker portion of roast about 1/2 inch from bottom of roast, keeping knife level with first cut and stopping about 1/2 inch before edge. Open up this flap. If uneven, cover with plastic wrap and use meat pounder to even out. Sprinkle 1 tablespoon salt over both sides of roast (1/2 tablespoon per side) and rub into meat to adhere. Spread inside of roast evenly with pancetta-garlic paste, leaving about 1/4-inch border on all sides. Starting from short side, roll roast (keeping fat on outside) and tie with twine at 1-inch intervals. Set wire rack in rimmed baking sheet and spray with vegetable oil spray. Set roast fat side up on prepared rack and refrigerate for 1 hour."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Adjust oven rack to middle position and heat oven to 275 degrees. Transfer roast to oven and cook until meat registers 135 degrees, 11/2 to 2 hours. Remove roast from oven, tent with aluminum foil, and let rest for 20 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat 1 teaspoon reserved oil in now-empty skillet over high heat until just smoking. Add reserved lemon halves, cut side down, and cook until softened and cut surfaces are browned, 3 to 4 minutes. Transfer lemon halves to small plate."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Pat roast dry with paper towels. Heat 2 tablespoons reserved oil in now-empty skillet over high heat until just smoking. Brown roast on fat side and sides (do not brown bottom of roast), 4 to 6 minutes. Transfer roast to carving board and remove twine."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Once lemon halves are cool enough to handle, squeeze into fine-mesh strainer set over bowl. Press on solids to extract all pulp; discard solids. Whisk 2 tablespoons strained lemon juice into bowl with remaining reserved oil. Slice roast into 1/4-inch-thick slices and serve, passing vinaigrette separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 39495,
+    "end": 39543,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

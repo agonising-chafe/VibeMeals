@@ -1,0 +1,293 @@
+{
+  "mapped": {
+    "id": "atk_kansas-city-sticky-ribs",
+    "name": "Kansas City Sticky Ribs",
+    "slug": "kansas-city-sticky-ribs",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 300,
+      "equipmentTags": [
+        "GRILL",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-brown-sugar",
+        "displayName": "packed brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-to-3-pound-full-racks-pork-spareribs-trimmed-of-any-large-pieces-of-fat-and-membrane-removed",
+        "displayName": "(21/2- to 3-pound) full racks pork spareribs, trimmed of any large pieces of fat and membrane removed",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wood-chips",
+        "displayName": "wood chips",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-plus-more-for-cooking-grate",
+        "displayName": "vegetable oil plus more for cooking grate",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "root-beer",
+        "displayName": "root beer",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dark-corn-syrup",
+        "displayName": "dark corn syrup",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "light-or-mild-molasses",
+        "displayName": "light or mild molasses",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "brown-mustard",
+        "displayName": "brown mustard",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "hot sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "liquid-smoke",
+        "displayName": "liquid smoke",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 24,
+        "description": "Rub ribs with spice mixture, wrap in plastic, and refrigerate for up to 24 hours.",
+        "kind": "MARINATE",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 1,
+        "description": "If refrigerated, let ribs sit at room temperature for 1 hour before grilling.",
+        "kind": "OTHER",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE RIBS: Combine paprika, sugar, salt, black pepper, and cayenne in bowl. Pat ribs dry with paper towels and rub evenly with spice mixture. Wrap ribs in plastic wrap and let sit at room temperature for at least 1 hour, or refrigerate for up to 24 hours. (If refrigerated, let sit at room temperature for 1 hour before grilling.) Just before grilling, soak wood chips in water for 15 minutes, then drain. Using large piece of heavy-duty aluminum foil, wrap soaked chips in 8 by 41/2-inch foil packet. (Make sure chips do not poke holes in sides or bottom of packet.) Cut 2 evenly spaced 2-inch slits in top of packet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE SAUCE: Meanwhile, heat oil in large saucepan over medium heat until shimmering. Add onion and salt and cook until softened, 5 to 7 minutes. Whisk in broth, root beer, vinegar, corn syrup, molasses, tomato paste, ketchup, mustard, hot sauce, and garlic powder. Bring sauce to simmer and cook, stirring occasionally, until reduced to 4 cups, about 1 hour. Stir in liquid smoke. Let cool to room temperature and season with salt and pepper to taste. Measure out 1 cup barbecue sauce for cooking; set aside remaining sauce for serving. (Sauce can be refrigerated in an airtight container for up to 4 days.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place ribs, meat side down, on cooler side of grill; ribs may overlap slightly. Place sheet of foil on top of ribs. Cover (position lid vent over meat if using charcoal) and cook until ribs are deep red and smoky, about 2 hours, flipping and rotating racks halfway through. During final 20 minutes of grilling, adjust oven rack to middle position and heat oven to 250 degrees."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove ribs from grill, brush evenly with 1 cup sauce reserved for cooking, and wrap tightly with foil. Lay foil-wrapped ribs on rimmed baking sheet and continue to cook in oven until tender and fork inserted into ribs meets no resistance, 11/2 to 21/2 hours."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove ribs from oven and let rest, still wrapped, for 30 minutes. Unwrap ribs and brush them thickly with 1 cup sauce set aside for serving. Slice ribs between bones and serve with remaining sauce."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 52506,
+    "end": 52592,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

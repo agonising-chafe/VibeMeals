@@ -1,0 +1,93 @@
+{
+  "mapped": {
+    "id": "atk_baked-eggs-for-sandwiches",
+    "name": "Baked Eggs for Sandwiches",
+    "slug": "baked-eggs-for-sandwiches",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "why-this-recipe-work-these-egg-sandwiches-feature-tender-creamy-eggs-that-stay-put-inside-the-bread-inspired-by-a-recipe-from-restaurateur-and-cookbook-author-joanne-chang-we-whisked-water-into-the-eggs-seasoned-them-lightly-and-then-gently-baked-them-in-a-water-bath-we-then-tucked-squares-of-the-baked-eggs-into-lightly-toasted-rolls-along-with-a-zippy-ingredient-such-as-kimchi-or-pepperoncini-a-creamy-element-such-as-mayo-or-avocado-as-well-as-cheese-and-deli-meat-or-smoked-salmon-this-recipe-requires-an-8-inch-square-metal-baking-pan-avoid-using-a-ceramic-or-glass-dish-which-will-increase-the-cooking-time-and-could-cause-the-eggs-to-overcook-during-cooling-for-maximum-efficiency-prepare-your-sandwich-fillings-while-the-eggs-cook-and-toast-the-bread-while-the-eggs-cool-alternatively-let-the-eggs-cool-completely-after-cutting-them-stack-them-in-an-airtight-container-and-refrigerate-them-for-up-to-three-days-to-reheat-arrange-the-egg-squares-on-a-large-plate-and-microwave-at-50-percent-power-until-they-re-warm-about-45-seconds-for-a-single-square-or-2-to-3-minutes-for-four-squares",
+        "displayName": "WHY THIS RECIPE WORK These egg sandwiches feature tender, creamy eggs that stay put inside the bread. Inspired by a recipe from restaurateur and cookbook author Joanne Chang, we whisked water into the eggs, seasoned them lightly, and then gently baked them in a water bath. We then tucked squares of the baked eggs into lightly toasted rolls along with a zippy ingredient such as kimchi or pepperoncini; a creamy element such as mayo or avocado as well as cheese and deli meat or smoked salmon. This recipe requires an 8-inch square metal baking pan. Avoid using a ceramic or glass dish, which will increase the cooking time and could cause the eggs to overcook during cooling. For maximum efficiency, prepare your sandwich fillings while the eggs cook, and toast the bread while the eggs cool. Alternatively, let the eggs cool completely after cutting them, stack them in an airtight container, and refrigerate them for up to three days. To reheat, arrange the egg squares on a large plate and microwave at 50 percent power until they’re warm (about 45 seconds for a single square or 2 to 3 minutes for four squares).",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH",
+          "EGG",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees. Whisk eggs and salt in large bowl until well combined. Whisk in 2/3 cup water. Spray 8-inch square baking pan with vegetable oil spray. Pour egg mixture into prepared pan and set pan on rimmed baking sheet. Add 11/2 cups water to sheet. Transfer sheet to oven and bake until eggs are fully set, 35 to 40 minutes, rotating pan halfway through baking. Remove pan from sheet, transfer to wire rack, and let cool for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Run knife around edges of pan and, using dish towel or oven mitts, invert eggs onto cutting board (if eggs stick to pan, tap bottom of pan firmly to dislodge). Cut into 4 equal squares."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place onion in bowl, cover with ice water, and let sit for 15 minutes. Drain onion well and pat dry."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spread yogurt on 4 slices of toast. Sprinkle dill over yogurt. Using spatula, transfer 1 egg square to each sandwich. Top each egg square with smoked salmon and then onion. Set remaining 4 slices of toast over onion and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "EGG",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 4830,
+    "end": 4958,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

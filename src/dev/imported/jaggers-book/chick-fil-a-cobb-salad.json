@@ -1,0 +1,384 @@
+{
+  "mapped": {
+    "id": "atk_chick-fil-a-cobb-salad",
+    "name": "Chick-fil-A Cobb Salad",
+    "slug": "chick-fil-a-cobb-salad",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-chick-fil-a-cobb-salad-comes-with-their-popular-avocado-lime-ranch-dressing-and-crispy-bell-peppers-for-a-hint-of-crunch-it-can-be-customized-with-a-variety-of-their-popular-chicken-options",
+        "displayName": "The Chick-fil-A Cobb Salad comes with their popular Avocado Lime Ranch Dressing and crispy bell peppers for a hint of crunch. It can be customized with a variety of their popular chicken options.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-plus-cup-low-fat-buttermilk-divided",
+        "displayName": "⅓ cup plus ¼ cup low-fat buttermilk, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-mayonnaise",
+        "displayName": "⅓ cup mayonnaise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-avocado",
+        "displayName": "½ large avocado",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-lime-juice",
+        "displayName": "fresh lime juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-chives",
+        "displayName": "chopped fresh chives",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-dill",
+        "displayName": "chopped fresh dill",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-powder",
+        "displayName": "onion powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "¼ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-plus-teaspoon-salt-divided",
+        "displayName": "⅛ teaspoon plus ½ teaspoon salt, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-plus-1-teaspoon-ground-black-pepper-divided",
+        "displayName": "⅛ teaspoon plus 1 teaspoon ground black pepper, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breast-fillets",
+        "displayName": "boneless, skinless chicken breast fillets",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dill-pickle-brine",
+        "displayName": "dill pickle brine",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "½ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-paprika",
+        "displayName": "½ teaspoon paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-romaine-lettuce",
+        "displayName": "chopped romaine lettuce",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spring-mix",
+        "displayName": "spring mix",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-fire-roasted-corn-thawed",
+        "displayName": "frozen fire-roasted corn, thawed",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-grape-tomatoes",
+        "displayName": "whole grape tomatoes",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-crumbled-cooked-bacon",
+        "displayName": "½ cup crumbled cooked bacon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-monterrey-jack-cheese-divided",
+        "displayName": "½ cup shredded Monterrey jack cheese, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-cheddar-cheese-divided",
+        "displayName": "½ cup shredded Cheddar cheese, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-hardboiled-eggs-sliced",
+        "displayName": "large hardboiled eggs, sliced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-fresh-gourmet-crispy-red-peppers",
+        "displayName": "½ cup Fresh Gourmet Crispy Red Peppers",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-blender-add-cup-buttermilk-mayonnaise-and-avocado-pur-e-until-smooth-then-transfer-to-a-small-bowl-and-add-lime-juice-chives-dill-onion-powder-garlic-powder-teaspoon-salt-and-teaspoon-pepper-and-mix-well-cover-and-chill-until-ready-to-serve",
+        "displayName": "In a blender, add ⅓ cup buttermilk, mayonnaise, and avocado. Purée until smooth, then transfer to a small bowl and add lime juice, chives, dill, onion powder, garlic powder, ⅛ teaspoon salt, and ⅛ teaspoon pepper and mix well. Cover and chill until ready to serve.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-resealable-plastic-bag-add-chicken-cup-buttermilk-pickle-brine-and-sugar-after-removing-as-much-air-as-you-can-seal-the-bag-and-massage-to-evenly-coat-chicken-and-combine-marinade-ingredients-refrigerate-at-least-2-hours-or-up-to-24-hours",
+        "displayName": "In a large resealable plastic bag, add chicken, ¼ cup buttermilk, pickle brine, and sugar. After removing as much air as you can, seal the bag and massage to evenly coat chicken and combine marinade ingredients. Refrigerate at least 2 hours or up to 24 hours.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-chicken-from-refrigerator-30-minutes-before-cooking-to-warm-to-room-temperature",
+        "displayName": "Remove chicken from refrigerator 30 minutes before cooking to warm to room temperature.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-flour-1-teaspoon-pepper-teaspoon-salt-and-paprika-and-mix-well-to-combine-remove-chicken-from-marinade-and-let-excess-drip-off-dredge-chicken-in-flour-mixture-shaking-off-excess-flour-and-gently-place-in-hot-oil-fry-5-7-minutes-until-chicken-reaches-an-internal-temperature-of-165-f-remove-chicken-from-oil-and-let-drain-on-a-paper-towel-lined-plate",
+        "displayName": "In a medium bowl, add flour, 1 teaspoon pepper, ½ teaspoon salt, and paprika and mix well to combine. Remove chicken from marinade and let excess drip off. Dredge chicken in flour mixture, shaking off excess flour, and gently place in hot oil. Fry 5–7 minutes until chicken reaches an internal temperature of 165°F. Remove chicken from oil and let drain on a paper towel–lined plate.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-combine-romaine-spring-mix-corn-tomatoes-bacon-and-cup-each-monterrey-jack-and-cheddar-cheeses-toss-well-to-mix",
+        "displayName": "In a large bowl, combine romaine, spring mix, corn, tomatoes, bacon, and ¼ cup each Monterrey jack and Cheddar cheeses. Toss well to mix.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-breasts-into-inch-strips",
+        "displayName": "chicken breasts into ½-inch strips.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-salad-mixture-between-serving-plates-top-salads-with-chicken-strips-sliced-egg-crispy-red-peppers-and-remaining-cheese-drizzle-with-prepared-dressing-serve-immediately",
+        "displayName": "Divide salad mixture between serving plates. Top salads with chicken strips, sliced egg, crispy red peppers, and remaining cheese. Drizzle with prepared dressing. Serve immediately.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 3371,
+    "end": 3455,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

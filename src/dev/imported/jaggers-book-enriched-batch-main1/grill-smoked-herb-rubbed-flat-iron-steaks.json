@@ -1,0 +1,159 @@
+{
+  "mapped": {
+    "id": "atk_grill-smoked-herb-rubbed-flat-iron-steaks",
+    "name": "Grill-Smoked Herb-Rubbed Flat-Iron Steaks",
+    "slug": "grill-smoked-herb-rubbed-flat-iron-steaks",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "GRILL",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dried-thyme",
+        "displayName": "dried thyme",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-rosemary",
+        "displayName": "dried rosemary",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fennel-seeds",
+        "displayName": "fennel seeds",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-to-8-ounce-flat-iron-steaks-3-4-to-1-inch-thick-trimmed",
+        "displayName": "(6- to 8-ounce) flat-iron steaks, 3/4 to 1 inch thick, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-33-4-ounces-wood-chips",
+        "displayName": "(21/2–33/4 ounces) wood chips",
+        "amount": 55.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemons-quartered-lengthwise",
+        "displayName": "lemons, quartered lengthwise",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 1,
+        "description": "Let steaks stand at room temperature for 1 hour.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Grind thyme, rosemary, fennel seeds, peppercorns, and pepper flakes in spice grinder or with mortar and pestle until coarsely ground. Transfer to small bowl. Pat steaks dry with paper towels. Rub steaks evenly on both sides with salt and place on wire rack set in rimmed baking sheet. Let stand at room temperature for 1 hour. (After 30 minutes, prepare grill.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using large piece of heavy-duty aluminum foil, wrap wood chips (1 cup if using charcoal; 11/2 cups if using gas) in 8 by 41/2-inch foil packet. (Make sure chips do not poke holes in sides or bottom of packet.) Cut 2 evenly spaced 2-inch slits in top of packet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Sprinkle half of herb rub evenly over 1 side of steaks and press to adhere. Lightly spray herb-rubbed side of steaks with oil spray, about 3 seconds. Flip steaks and repeat process of sprinkling and pressing steaks with remaining herb rub and coating with oil spray on second side."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Place lemons and steaks on hotter side of grill, cover (position lid vent over steaks if using charcoal), and cook until lemons and steaks are well browned on both sides and meat registers 130 to 135 degrees (for medium), 4 to 6 minutes per side. (If steaks are fully charred before reaching desired temperature, move to cooler side of grill, cover, and continue to cook.) Transfer lemons and steaks to clean wire rack set in rimmed baking sheet, tent with foil, and let rest for 10 minutes. Slice steaks thin against grain and serve, passing lemons separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 50886,
+    "end": 50936,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

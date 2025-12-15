@@ -1,0 +1,331 @@
+{
+  "mapped": {
+    "id": "atk_beef-empanadas",
+    "name": "Beef Empanadas",
+    "slug": "beef-empanadas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-2-cup-low-sodium-chicken-broth",
+        "displayName": "plus 1/2 cup low-sodium chicken broth",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "85-percent-lean-ground-beef",
+        "displayName": "85 percent lean ground beef",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-minced",
+        "displayName": "medium onions, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-4-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 4 teaspoons)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cloves",
+        "displayName": "ground cloves",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves-chopped-coarse",
+        "displayName": "fresh cilantro leaves, chopped coarse",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hard-cooked-eggs-chopped-coarse-this-page",
+        "displayName": "hard-cooked eggs, chopped coarse (this page)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "raisins-chopped-coarse",
+        "displayName": "raisins, chopped coarse",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-green-olives-chopped-coarse",
+        "displayName": "pitted green olives, chopped coarse",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "15-ounces-unbleached-all-purpose-flour",
+        "displayName": "(15 ounces) unbleached all-purpose flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "5-ounces-masa-harina",
+        "displayName": "(5 ounces) masa harina",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "11-2-sticks-unsalted-butter-cut-into-1-2-inch-pieces-and-chilled",
+        "displayName": "(11/2 sticks) unsalted butter, cut into 1/2-inch pieces and chilled",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cold-vodka-or-tequila",
+        "displayName": "cold vodka or tequila",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "cold-water",
+        "displayName": "cold water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate the filling to cool for 1 hour.",
+        "durationMinutes": 60,
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Refrigerate the dough until firm, about 45 minutes.",
+        "durationMinutes": 45,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE FILLING: Process the bread and 2 tablespoons of the chicken broth in a food processor until a paste forms, about 5 seconds, scraping down the sides of the bowl as necessary. Add the beef, 3/4 teaspoon salt, and 1/2 teaspoon pepper and pulse until the mixture is well combined, 6 to 8 pulses."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat the oil in a 12-inch nonstick skillet over medium-high heat until shimmering. Add the onions and cook, stirring frequently, until beginning to brown, about 5 minutes. Stir in the garlic, cumin, cayenne, and cloves and cook until fragrant, about 1 minute. Add the beef mixture and cook, breaking the meat into 1-inch pieces with a wooden spoon, until browned, about 7 minutes. Add the remaining 1/2 cup chicken broth and simmer until the mixture is moist but not wet, 3 to 5 minutes. Transfer the mixture to a bowl and cool for 10 minutes. Stir in the cilantro, eggs, raisins, olives, and vinegar. Season with salt and pepper to taste and refrigerate until cool, about 1 hour."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE DOUGH: Pulse 1 cup of the flour, the masa harina, sugar, and salt in a food processor until combined, about 2 pulses. Add the butter and process until the mixture is homogeneous and the dough resembles wet sand, about 10 seconds. Add the remaining 2 cups flour and pulse until the mixture is evenly distributed around the bowl, 4 to 6 quick pulses. Empty the mixture into a medium bowl."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Sprinkle the vodka and water over the mixture. Using your hands, mix the dough until it forms a tacky mass that sticks together. Divide the dough in half, then divide each half into six equal pieces. Transfer the dough pieces to a plate, cover with plastic wrap, and refrigerate until firm, about 45 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "TO ASSEMBLE: Adjust the oven racks to the upper-middle and lower-middle positions, place 1 baking sheet on each rack, and heat the oven to 425 degrees. While the baking sheets are preheating, remove the dough from the refrigerator. Roll each dough piece out on a lightly floured work surface into a 6-inch circle about 1/8 inch thick, covering each rolled-out dough round with plastic wrap while rolling out the remaining dough. Place about 1/3 cup of the filling in the center of each dough round. Brush the edges of each round with water and fold the dough over the filling. Trim any ragged edges, then crimp the edges of the empanadas shut using a fork. (Filled empanadas, wrapped tightly in plastic wrap, can be refrigerated for up to 2 days.)"
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Drizzle 2 tablespoons of the oil over the surface of each hot baking sheet, then return the sheets to the oven for 2 minutes. Brush the empanadas with the remaining 1 tablespoon oil. Carefully place 6 empanadas on each baking sheet and cook until well browned and crisp, 25 to 30 minutes, switching and rotating the baking sheets halfway through baking. Cool the empanadas on a wire rack for 10 minutes before serving."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Divide the dough in half, then divide each half into six equal pieces."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Roll each piece of dough into a 6-inch round about 1/8 inch thick."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Place about 1/3 cup of the filling on each round, then brush the edges with water."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Fold the dough over the filling, then crimp the edges using a fork to seal."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 32609,
+    "end": 32721,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

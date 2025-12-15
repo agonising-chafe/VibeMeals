@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_chipotle-beef-barbacoa",
+    "name": "Chipotle Beef Barbacoa",
+    "slug": "chipotle-beef-barbacoa",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 12",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chipotle-is-known-for-its-large-burritos-using-all-natural-ingredients-with-a-choice-of-chicken-pork-steak-or-beef-chuck-roast-their-barbacoa-is-beef-that-is-braised-in-spices-until-tender-and-juicy",
+        "displayName": "Chipotle is known for its large burritos using all-natural ingredients with a choice of chicken, pork, steak, or beef chuck roast. Their barbacoa is beef that is braised in spices until tender and juicy.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-yellow-onions-peeled-and-diced",
+        "displayName": "medium yellow onions, peeled and diced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "taco-seasoning",
+        "displayName": "taco seasoning",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tablespoons-dried-oregano",
+        "displayName": "½ tablespoons dried oregano",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-chipotle-in-adobo-sauce",
+        "displayName": "can chipotle in adobo sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-bay-leaf",
+        "displayName": "dried bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-vinegar",
+        "displayName": "white vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-chuck-roast",
+        "displayName": "beef chuck roast",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-all-ingredients-except-chuck-roast-in-a-blender-blend-1-2-minutes-until-smooth",
+        "displayName": "Place all ingredients except chuck roast in a blender. Blend 1–2 minutes until smooth.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-a-third-of-the-blended-sauce-to-bottom-of-a-slow-cooker",
+        "displayName": "Add a third of the blended sauce to bottom of a slow cooker.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-chuck-roast-in-slow-cooker-pot-and-pour-remaining-sauce-over-meat",
+        "displayName": "Place chuck roast in slow cooker pot and pour remaining sauce over meat.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cook-8-10-hours-on-low-once-cooked-remove-bay-leaf-then-gently-shred-meat-in-cooking-liquid-serve-hot",
+        "displayName": "Cook 8–10 hours on low. Once cooked, remove bay leaf then gently shred meat in cooking liquid. Serve hot.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6394,
+    "end": 6442,
+    "yieldLine": "SERVES 12"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

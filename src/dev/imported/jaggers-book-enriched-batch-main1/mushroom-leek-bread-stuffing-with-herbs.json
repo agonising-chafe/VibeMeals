@@ -1,0 +1,199 @@
+{
+  "mapped": {
+    "id": "atk_mushroom-leek-bread-stuffing-with-herbs",
+    "name": "Mushroom-Leek Bread Stuffing with Herbs",
+    "slug": "mushroom-leek-bread-stuffing-with-herbs",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 6 cups",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-dried-bread-cubes-for-this-stuffing-can-be-stored-in-an-airtight-container-for-up-to-1-week",
+        "displayName": "The dried bread cubes for this stuffing can be stored in an airtight container for up to 1 week.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-cut-into-1-4-inch-cubes",
+        "displayName": "high-quality white sandwich bread, cut into 1/4-inch cubes",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "leek-white-and-light-green-parts-only-halved-lengthwise-sliced-1-8-inch-thick-and-rinsed-thoroughly",
+        "displayName": "leek, white and light green parts only, halved lengthwise, sliced 1/8 inch thick, and rinsed thoroughly",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-chopped-fine",
+        "displayName": "celery rib, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-mushrooms-wiped-clean-and-chopped-medium",
+        "displayName": "white mushrooms, wiped clean and chopped medium",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-sage-leaves-or-1-4-teaspoon-dried-sage",
+        "displayName": "minced fresh sage leaves or 1/4 teaspoon dried sage",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves-or-1-4-teaspoon-dried-thyme",
+        "displayName": "minced fresh thyme leaves or 1/4 teaspoon dried thyme",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-low-sodium-chicken-broth",
+        "displayName": "plus 2 tablespoons low-sodium chicken broth",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 250 degrees. Spread the bread cubes in a single layer on a rimmed baking sheet. Bake until thoroughly dried but not browned, about 30 minutes, stirring halfway through the baking time."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, melt the butter in a 12-inch skillet over medium-high heat. Add the leek, celery, and mushrooms and cook, stirring occasionally, until the vegetables begin to brown, 6 to 8 minutes. Stir in the parsley, garlic, sage, and thyme and cook until fragrant, about 30 seconds."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Whisk the broth, egg, salt, and pepper together in a large bowl. Add the bread cubes and leek-mushroom mixture and toss gently until evenly moistened and combined. Use as directed."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 28103,
+    "end": 28147,
+    "yieldLine": "MAKES about 6 cups"
+  },
+  "fit": true
+}

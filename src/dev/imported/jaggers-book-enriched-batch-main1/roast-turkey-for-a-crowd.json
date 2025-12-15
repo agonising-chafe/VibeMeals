@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_roast-turkey-for-a-crowd",
+    "name": "Roast Turkey for a Crowd",
+    "slug": "roast-turkey-for-a-crowd",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES about 20",
+      "baseServings": 20
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "medium-onions-chopped-coarse",
+        "displayName": "medium onions, chopped coarse",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrots-chopped-coarse",
+        "displayName": "medium carrots, chopped coarse",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-ribs-chopped-coarse",
+        "displayName": "celery ribs, chopped coarse",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-quartered",
+        "displayName": "lemon, quartered",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "18-to-22-pound-frozen-butterball-or-kosher-turkey-fully-thawed-giblets-neck-and-tailpiece-removed-and-reserved-for-gravy",
+        "displayName": "(18- to 22-pound) frozen Butterball or kosher turkey, fully thawed; giblets, neck, and tailpiece removed and reserved for gravy",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "water-plus-more-as-needed",
+        "displayName": "water, plus more as needed",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 24,
+        "description": "Ensure the turkey is fully thawed.",
+        "requirementKind": "THAW",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the lowest position. Heat the oven to 425 degrees. Line a large V-rack with heavy-duty foil and poke several holes in the foil. Set the V-rack in a large roasting pan and spray the foil with vegetable oil spray."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Toss half of the onions, carrots, celery, lemon, and thyme with 1 tablespoon of the melted butter in a medium bowl and place inside the turkey. Tie the legs together with kitchen twine and tuck the wings under the bird. Scatter the remaining vegetables into the roasting pan."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pour 1 cup water over the vegetable mixture. Brush the turkey breast with 2 tablespoons more of the melted butter, then sprinkle with half of the salt and half of the pepper. Place the turkey, breast side down, on the V-rack. Brush with the remaining 2 tablespoons melted butter and sprinkle with the remaining salt and pepper."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Roast the turkey for 1 hour. Remove the pan from the oven; baste with juices from the pan. With a dish towel in each hand, turn the turkey breast side up. If the liquid in the pan has totally evaporated, add another 1/2 cup water. Lower the oven temperature to 325 degrees. Return the turkey to the oven and continue to roast until the thickest part of the breast registers 160 degrees and the thickest part of the thigh registers 175 degrees on an instant-read thermometer, about 2 hours longer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove the turkey from the oven. Gently tip the turkey up so that any accumulated juices in the cavity run into the roasting pan. Transfer the turkey to a carving board. Let rest, uncovered, for 35 to 40 minutes. Carve the turkey and serve with the gravy."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 28924,
+    "end": 28968,
+    "yieldLine": "SERVES about 20"
+  },
+  "fit": true
+}

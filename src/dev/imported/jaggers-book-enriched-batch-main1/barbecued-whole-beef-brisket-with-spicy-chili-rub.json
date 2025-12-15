@@ -1,0 +1,206 @@
+{
+  "mapped": {
+    "id": "atk_barbecued-whole-beef-brisket-with-spicy-chili-rub",
+    "name": "Barbecued Whole Beef Brisket with Spicy Chili Rub",
+    "slug": "barbecued-whole-beef-brisket-with-spicy-chili-rub",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 420,
+      "equipmentTags": [
+        "GRILL",
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 21,
+      "yieldText": "SERVES 18 to 24"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-powder",
+        "displayName": "chili powder",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dark-brown-sugar",
+        "displayName": "dark brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-oregano",
+        "displayName": "ground oregano",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-white-pepper",
+        "displayName": "ground white pepper",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "9-to-11-pound-whole-beef-brisket-fat-trimmed-to-1-4-inch",
+        "displayName": "(9- to 11-pound) whole beef brisket, fat trimmed to 1/4 inch",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wood-chips",
+        "displayName": "wood chips",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "barbecue-sauce-warmed",
+        "displayName": "barbecue sauce, warmed",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Trim brisket and prepare spice rub.",
+        "timeMinutes": 30,
+        "timeHoursBefore": 48,
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Refrigerate rubbed brisket.",
+        "timeMinutes": 120,
+        "timeHoursBefore": 2,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine paprika, chili powder, cumin, salt, brown sugar, granulated sugar, oregano, black pepper, white pepper, and cayenne in bowl. (Rub can be stored in airtight container at room temperature for up to 1 month.) Rub brisket thoroughly with spice mixture. Wrap brisket in plastic wrap and refrigerate for at least 2 hours, or up to 2 days."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Just before grilling, soak wood chips in water for 15 minutes, then drain. Using large piece of heavy-duty aluminum foil, wrap soaked chips in foil packet and cut several vent holes in top."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place brisket, fat side up, on cooler side of grill. Cover (position lid vent over meat if using charcoal) and cook for 2 hours without removing lid."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "During final 20 minutes of grilling time, adjust oven rack to middle position and heat oven to 300 degrees. Assemble 4 by 3-foot rectangle of heavy-duty aluminum foil by piecing two, 4-foot-long pieces of foil together and folding over edges two or three times to seal."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove brisket from grill, place lengthwise in center of foil, then fold and crimp edges of foil together to completely seal brisket. Place brisket on rimmed baking sheet and cook in oven until meat is fork-tender, 3 to 31/2 hours."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Remove brisket from oven, loosen foil at one end to release steam, and let rest for 30 minutes. Unwrap brisket and transfer to carving board, pouring any meat juices into fat separator. Separate meat into two sections and slice each thinly on bias against grain. Stir 1 cup of defatted juices into barbecue sauce, and serve with brisket."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 50937,
+    "end": 51004,
+    "yieldLine": "SERVES 18 to 24"
+  },
+  "fit": true
+}

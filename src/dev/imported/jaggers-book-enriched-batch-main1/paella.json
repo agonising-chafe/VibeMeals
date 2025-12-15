@@ -1,0 +1,267 @@
+{
+  "mapped": {
+    "id": "atk_paella",
+    "name": "Paella",
+    "slug": "paella",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-large-shrimp-21-to-25-per-pound-peeled-and-deveined-this-page",
+        "displayName": "extra-large shrimp (21 to 25 per pound), peeled and deveined (this page)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided-plus-extra-as-needed",
+        "displayName": "extra-virgin olive oil, divided, plus extra as needed",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced-divided",
+        "displayName": "cloves, minced, divided",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper-divided",
+        "displayName": "pepper, divided",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-trimmed-and-halved-crosswise",
+        "displayName": "boneless, skinless chicken thighs, trimmed and halved crosswise",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-stemmed-seeded-and-cut-into-1-2-inch-wide-strips",
+        "displayName": "red bell pepper, stemmed, seeded, and cut into 1/2-inch-wide strips",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spanish-chorizo-sliced-1-2-inch-thick-on-bias",
+        "displayName": "Spanish chorizo, sliced 1/2 inch thick on bias",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained-minced-and-drained-again",
+        "displayName": "can diced tomatoes, drained, minced, and drained again",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "valencia-or-arborio-rice",
+        "displayName": "Valencia or Arborio rice",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "saffron-threads-crumbled",
+        "displayName": "saffron threads, crumbled",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dozen-mussels-scrubbed-and-debearded",
+        "displayName": "dozen mussels, scrubbed and debearded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "frozen-peas-thawed",
+        "displayName": "frozen peas, thawed",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Marinate shrimp",
+        "durationMinutes": 30,
+        "waitStrategy": "refrigerate",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 350 degrees. Toss shrimp, 1 tablespoon oil, 1 teaspoon garlic, 1/4 teaspoon salt, and 1/4 teaspoon pepper in medium bowl; cover with plastic wrap and refrigerate until needed. Season chicken thighs with 1/4 teaspoon salt and remaining 1/4 teaspoon pepper; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 2 teaspoons oil in large Dutch oven over medium-high heat until shimmering but not smoking. Add pepper strips and cook, stirring occasionally, until skin begins to blister and turn spotty black, 3 to 4 minutes. Transfer pepper to small plate and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add remaining 1 teaspoon oil to now-empty Dutch oven; heat oil until shimmering but not smoking. Add chicken pieces in single layer; cook, without moving pieces, until browned, about 3 minutes. Turn pieces and brown on second side, about 3 minutes longer; transfer chicken to medium bowl. Reduce heat to medium and add chorizo to pot; cook, stirring frequently, until deeply browned and fat begins to render, 4 to 5 minutes. Transfer chorizo to bowl with chicken and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add enough oil to fat in Dutch oven to equal 2 tablespoons; heat over medium heat until shimmering but not smoking. Add onion and cook, stirring frequently, until softened, about 3 minutes; stir in remaining garlic and cook until fragrant, about 1 minute. Stir in tomatoes; cook until mixture begins to darken and thicken slightly, about 3 minutes. Stir in rice and cook until grains are well coated with tomato mixture, 1 to 2 minutes. Stir in chicken broth, wine, saffron, bay leaf, and remaining 1/2 teaspoon salt. Return chicken and chorizo to pot, increase heat to medium-high, and bring to boil, uncovered, stirring occasionally. Cover pot and transfer it to oven; cook until rice absorbs almost all of liquid, about 15 minutes. Remove pot from oven (close oven door to retain heat). Uncover pot; scatter shrimp over rice, insert mussels, hinged side down, into rice (so they stand upright), arrange bell pepper strips, and scatter peas over top. Cover and return to oven; cook until shrimp are opaque and mussels have opened, 10 to 12 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "OPTIONAL: If socarrat is desired, set Dutch oven, uncovered, over medium-high heat for about 5 minutes, rotating pot 180 degrees after about 2 minutes for even browning."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Let paella stand, covered, for about 5 minutes. Discard any mussels that have not opened and bay leaf, if it can be easily removed. Sprinkle with parsley and serve, passing lemon wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 46165,
+    "end": 46233,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

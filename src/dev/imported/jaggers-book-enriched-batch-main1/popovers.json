@@ -1,0 +1,103 @@
+{
+  "mapped": {
+    "id": "atk_popovers",
+    "name": "Popovers",
+    "slug": "popovers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 55,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 6 popovers",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "63-4-ounces-bread-flour",
+        "displayName": "(63/4 ounces) bread flour",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-percent-low-fat-milk-heated-to-110-to-120-degrees",
+        "displayName": "2 percent low-fat milk, heated to 110 to 120 degrees",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "Salted butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Lightly spray cups of popover pan with vegetable oil spray. Using paper towel, wipe out cups, leaving thin film of oil on bottom and sides."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk together flour and salt in 8-cup liquid measuring cup or medium bowl. Add milk and eggs and whisk until mostly smooth (some small lumps are OK). Distribute batter evenly among prepared cups in popover pan. Bake until popovers are lofty and deep golden brown all over, 40 to 45 minutes. Serve hot, passing butter separately.."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 62466,
+    "end": 62498,
+    "yieldLine": "MAKES 6 popovers"
+  },
+  "fit": true
+}

@@ -1,0 +1,208 @@
+{
+  "mapped": {
+    "id": "atk_kare-raisu-japanese-curry-rice-with-chicken",
+    "name": "Kare Raisu (Japanese Curry Rice with Chicken)",
+    "slug": "kare-raisu-japanese-curry-rice-with-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 SEASON 26",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-trimmed-and-cut-into-1-inch-pieces",
+        "displayName": "boneless, skinless chicken thighs, trimmed and cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-divided",
+        "displayName": "kosher salt, divided",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-about-11-4-cups",
+        "displayName": "onion, chopped (about 11/4 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "yukon-gold-potatoes-peeled-and-cut-into-3-4-inch-pieces",
+        "displayName": "Yukon Gold potatoes, peeled and cut into 3/4-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-cut-into-1-2-inch-pieces-about-1-cup",
+        "displayName": "carrots, peeled and cut into 1/2-inch pieces (about 1 cup)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2.6666666666666665,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "curry-roux-brick",
+        "displayName": "curry-roux brick",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cooked-japanese-short-grain-rice",
+        "displayName": "cooked Japanese short-grain rice",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallion-sliced-thin-on-bias",
+        "displayName": "scallion, sliced thin on bias",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "fukujinzuke-recipe-follows-or-pickled-ginger-or-lemon-wedges",
+        "displayName": "Fukujinzuke (recipe follows) or pickled ginger or lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss chicken and 1 teaspoon salt in bowl. Heat oil in medium saucepan over medium heat until shimmering. Add onion and remaining 1/4 teaspoon salt and cook, stirring frequently, until onion is browned, about 8 minutes. Add ginger and garlic and cook, stirring constantly, until fragrant, about 30 seconds."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add chicken and cook, stirring frequently, until chicken is no longer pink, about 3 minutes. Stir in potatoes and carrots. Add broth and bring to simmer over high heat. Adjust heat to maintain gentle simmer and cook until potatoes are just tender, about 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add curry-roux brick, soy sauce, and Worcestershire, and let block dissolve, about 1 minute. Stir gently, scraping curry from bottom of pot, and simmer until liquid thickens, about 3 minutes. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Divide rice evenly among 4 shallow bowls, spreading it over half of each bowl. Divide curry evenly among bowls, making sure to ladle curry next to rice. Sprinkle scallion over curry and serve with fukujinzuke, pickled ginger, or lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 23806,
+    "end": 23858,
+    "yieldLine": "SERVES 4 SEASON 26"
+  },
+  "fit": true
+}

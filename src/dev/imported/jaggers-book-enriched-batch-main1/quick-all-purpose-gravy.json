@@ -1,0 +1,168 @@
+{
+  "mapped": {
+    "id": "atk_quick-all-purpose-gravy",
+    "name": "Quick All-Purpose Gravy",
+    "slug": "quick-all-purpose-gravy",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 40,
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "yieldText": "MAKES 2 cups",
+      "baseServings": 4,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-gravy-can-be-served-with-almost-any-type-of-meat-and-with-mashed-potatoes-as-well-the-recipe-can-be-doubled-if-doubling-it-use-a-dutch-oven-so-that-the-vegetables-brown-properly-and-increase-the-cooking-times-by-roughly-half-the-finished-gravy-can-be-frozen-to-thaw-it-place-the-gravy-and-1-tablespoon-of-water-in-a-saucepan-over-low-heat-and-slowly-bring-it-to-a-simmer-it-may-appear-broken-or-curdled-as-it-thaws-but-a-vigorous-whisking-will-recombine-it",
+        "displayName": "This gravy can be served with almost any type of meat and with mashed potatoes as well. The recipe can be doubled. If doubling it, use a Dutch oven so that the vegetables brown properly and increase the cooking times by roughly half. The finished gravy can be frozen. To thaw it, place the gravy and 1 tablespoon of water in a saucepan over low heat and slowly bring it to a simmer. It may appear broken or curdled as it thaws, but a vigorous whisking will recombine it.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "onion-minced",
+        "displayName": "onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-carrot-peeled-and-chopped-fine",
+        "displayName": "small carrot, peeled and chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-chopped-fine",
+        "displayName": "celery rib, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "displayName": "dried thyme",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-black-peppercorns",
+        "displayName": "whole black peppercorns",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt the butter in a large saucepan over medium-high heat. Add the onion, carrot, and celery and cook, stirring frequently, until softened, about 7 minutes. Reduce the heat to medium, add the flour, and cook, stirring constantly, until thoroughly browned, about 5 minutes. Gradually whisk in the broths and bring to a boil, skimming off any foam that forms on the surface. Add the bay leaf, thyme, and peppercorns and simmer, stirring occasionally, until thickened and reduced to 3 cups, 20 to 25 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Strain the gravy through a fine-mesh strainer into a clean saucepan, pressing on the solids to extract as much liquid as possible; discard the solids. Season with salt and pepper to taste and serve with the pork chops."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38371,
+    "end": 38409,
+    "yieldLine": "MAKES 2 cups"
+  },
+  "fit": true
+}

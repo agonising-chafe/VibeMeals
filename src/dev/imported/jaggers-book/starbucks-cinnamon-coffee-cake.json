@@ -1,0 +1,294 @@
+{
+  "mapped": {
+    "id": "atk_starbucks-cinnamon-coffee-cake",
+    "name": "Starbucks Cinnamon Coffee Cake",
+    "slug": "starbucks-cinnamon-coffee-cake",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 9",
+      "baseServings": 9
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "starbucks-has-had-cinnamon-coffee-cake-in-one-form-or-another-on-their-menu-for-years-nothing-goes-better-with-a-cup-of-coffee",
+        "displayName": "Starbucks has had Cinnamon Coffee Cake, in one form or another, on their menu for years. Nothing goes better with a cup of coffee!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cake",
+        "displayName": "Cake",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter-room-temperature",
+        "displayName": "¾ cup unsalted butter, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-granulated-sugar",
+        "displayName": "¼ cups granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-room-temperature",
+        "displayName": "large eggs, room temperature",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-sour-cream",
+        "displayName": "¼ cups sour cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-all-purpose-flour",
+        "displayName": "¼ cups all-purpose flour",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-baking-soda",
+        "displayName": "½ teaspoon baking soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "streusel",
+        "displayName": "Streusel",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-packed-light-brown-sugar",
+        "displayName": "½ cup packed light brown sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "⅔ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cubed-and-chilled",
+        "displayName": "unsalted butter, cubed and chilled",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-cake-preheat-oven-to-325-f-and-spray-an-8-8-square-pan-with-nonstick-cooking-spray",
+        "displayName": "For the cake: Preheat oven to 325°F and spray an 8\" × 8\" square pan with nonstick cooking spray.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-work-bowl-of-a-stand-mixer-or-in-a-large-bowl-with-a-hand-mixer-add-butter-and-sugar-beat-on-medium-speed-1-minute-until-light-and-fluffy-add-eggs-1-at-a-time-beating-30-seconds-after-each-addition",
+        "displayName": "In work bowl of a stand mixer or in a large bowl with a hand mixer, add butter and sugar. Beat on medium speed 1 minute until light and fluffy. Add eggs 1 at a time, beating 30 seconds after each addition.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-combine-sour-cream-and-vanilla-and-stir-well",
+        "displayName": "In a small bowl, combine sour cream and vanilla and stir well.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-sift-together-flour-baking-powder-baking-soda-and-salt",
+        "displayName": "In a medium bowl, sift together flour, baking powder, baking soda, and salt.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-a-third-of-sour-cream-mixture-to-butter-mixture-and-mix-on-low-speed-10-seconds-add-half-of-flour-mixture-and-mix-on-low-speed-15-seconds-repeat-with-remaining-sour-cream-mixture-and-flour-mixture-ending-with-sour-cream-mixture",
+        "displayName": "Add a third of sour cream mixture to butter mixture and mix on low speed 10 seconds. Add half of flour mixture and mix on low speed 15 seconds. Repeat with remaining sour cream mixture and flour mixture, ending with sour cream mixture.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-streusel-in-a-separate-medium-bowl-add-all-ingredients-and-mix-with-your-fingers-until-mixture-resembles-damp-sand",
+        "displayName": "For the streusel: In a separate medium bowl, add all ingredients and mix with your fingers until mixture resembles damp sand.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-half-of-cake-batter-into-prepared-pan-sprinkle-with-a-third-of-streusel-mixture-then-spread-remaining-batter-over-top-evenly-spread-remaining-streusel-over-top",
+        "displayName": "Pour half of cake batter into prepared pan. Sprinkle with a third of streusel mixture, then spread remaining batter over top. Evenly spread remaining streusel over top.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-60-70-minutes-until-center-of-cake-springs-back-when-gently-pressed-cool-completely-in-pan-before-serving",
+        "displayName": "Bake 60–70 minutes until center of cake springs back when gently pressed. Cool completely in pan before serving.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10569,
+    "end": 10641,
+    "yieldLine": "SERVES 9"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

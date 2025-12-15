@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_tommy-bahama-lump-blue-crab-bisque",
+    "name": "Tommy Bahama Lump Blue Crab Bisque",
+    "slug": "tommy-bahama-lump-blue-crab-bisque",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "founded-in-1993-as-an-island-lifestyle-clothing-company-for-men-and-women-the-tommy-bahama-brand-has-expanded-to-include-restaurants-cocktail-bars-and-a-line-of-silver-and-gold-rums",
+        "displayName": "Founded in 1993 as an “island lifestyle” clothing company for men and women, the Tommy Bahama brand has expanded to include restaurants, cocktail bars, and a line of silver and gold rums.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-finely-minced-yellow-onion",
+        "displayName": "½ cup finely minced yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-finely-minced-celery",
+        "displayName": "¼ cup finely minced celery",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "¼ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "seafood-stock",
+        "displayName": "seafood stock",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lump-crabmeat",
+        "displayName": "lump crabmeat",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-chopped-chives",
+        "displayName": "finely chopped chives",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-2-quart-saucepan-over-medium-heat-add-butter-once-butter-has-melted-and-foams-add-onion-and-celery-saut-5-minutes-or-until-very-tender-add-garlic-and-cook-30-seconds",
+        "displayName": "In a 2-quart saucepan over medium heat, add butter. Once butter has melted and foams, add onion and celery. Sauté 5 minutes or until very tender. Add garlic and cook 30 seconds.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprinkle-flour-over-vegetables-and-cook-stirring-constantly-2-minutes-reduce-heat-to-low-and-whisk-in-wine-once-fully-combined-whisk-in-seafood-stock-until-also-thoroughly-combined",
+        "displayName": "Sprinkle flour over vegetables and cook, stirring constantly, 2 minutes. Reduce heat to low and whisk in wine. Once fully combined, whisk in seafood stock until also thoroughly combined.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "increase-heat-to-medium-high-and-bring-mixture-to-a-boil-while-stirring-constantly-then-reduce-heat-to-medium-low-and-simmer-5-minutes",
+        "displayName": "Increase heat to medium-high and bring mixture to a boil while stirring constantly, then reduce heat to medium-low and simmer 5 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "turn-off-heat-and-pur-e-soup-with-an-immersion-blender-until-smooth-or-working-in-batches-pur-e-soup-in-a-blender-and-return-to-pan",
+        "displayName": "Turn off heat and purée soup with an immersion blender until smooth or, working in batches, purée soup in a blender and return to pan.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-pan-over-low-heat-and-add-crabmeat-and-cream-stir-well-until-soup-is-steaming-about-3-minutes-serve-hot-with-chives-for-garnish",
+        "displayName": "Heat pan over low heat and add crabmeat and cream. Stir well until soup is steaming, about 3 minutes. Serve hot with chives for garnish.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4250,
+    "end": 4298,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,274 @@
+{
+  "mapped": {
+    "id": "atk_longhorn-steakhouse-parmesan-crusted-chicken",
+    "name": "LongHorn Steakhouse Parmesan Crusted Chicken",
+    "slug": "longhorn-steakhouse-parmesan-crusted-chicken",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "parmesan-crusted-chicken-is-one-of-the-specialty-items-on-the-longhorn-steakhouse-menu-it-is-a-popular-choice-for-those-wanting-to-indulge-in-a-steakhouse-meal-but-without-the-steak",
+        "displayName": "Parmesan Crusted Chicken is one of the specialty items on the LongHorn Steakhouse menu. It is a popular choice for those wanting to indulge in a steakhouse meal but without the steak.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken",
+        "displayName": "Chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts",
+        "displayName": "boneless, skinless chicken breasts",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-ranch-dressing",
+        "displayName": "¼ cup ranch dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-crust",
+        "displayName": "Parmesan Crust",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-ranch-dressing",
+        "displayName": "⅓ cup ranch dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-grated-parmesan-cheese-divided",
+        "displayName": "½ cup grated Parmesan cheese, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-grated-provolone-cheese",
+        "displayName": "⅓ cup grated provolone cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter-melted",
+        "displayName": "salted butter, melted",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-panko-bread-crumbs",
+        "displayName": "¾ cup panko bread crumbs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "½ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-chicken-place-chicken-breasts-between-two-pieces-of-wax-paper-pound-with-a-meat-mallet-until-chicken-is-inch-thick",
+        "displayName": "For the chicken: Place chicken breasts between two pieces of wax paper. Pound with a meat mallet until chicken is ½-inch thick.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-remaining-ingredients-to-a-large-resealable-plastic-bag-massage-bag-to-combine-then-add-chicken-and-massage-to-evenly-coat-seal-bag-and-marinate-2-hours-in-refrigerator",
+        "displayName": "Add remaining ingredients to a large resealable plastic bag. Massage bag to combine, then add chicken and massage to evenly coat. Seal bag and marinate 2 hours in refrigerator.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-outdoor-barbecue-or-indoor-smokeless-grill-to-medium-high-heat-preheat-broiler-to-500-f",
+        "displayName": "Preheat outdoor barbecue or indoor smokeless grill to medium-high heat. Preheat broiler to 500°F.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-chicken-from-marinade-and-transfer-to-grill-cook-4-5-minutes-per-side-until-chicken-reaches-an-internal-temperature-of-165-f-transfer-chicken-breasts-to-an-ungreased-quarter-baking-sheet",
+        "displayName": "Remove chicken from marinade and transfer to grill. Cook 4–5 minutes per side until chicken reaches an internal temperature of 165°F. Transfer chicken breasts to an ungreased quarter baking sheet.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-parmesan-crust-while-chicken-grills-combine-ranch-dressing-cup-parmesan-cheese-and-provolone-in-a-small-bowl-and-mix-well",
+        "displayName": "For the Parmesan crust: While chicken grills, combine ranch dressing, ⅓ cup Parmesan cheese, and provolone in a small bowl and mix well.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-separate-small-bowl-combine-remaining-parmesan-cheese-butter-panko-and-garlic-powder-mix-until-panko-is-evenly-coated",
+        "displayName": "In a separate small bowl, combine remaining Parmesan cheese, butter, panko, and garlic powder. Mix until panko is evenly coated.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-cheese-mixture-over-chicken-breasts-sprinkle-with-panko-broil-3-4-minutes-until-panko-is-toasted-and-golden-brown-serve-immediately",
+        "displayName": "Spread cheese mixture over chicken breasts. Sprinkle with panko. Broil 3–4 minutes until panko is toasted and golden brown. Serve immediately.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6680,
+    "end": 6744,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

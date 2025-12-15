@@ -1,0 +1,203 @@
+{
+  "mapped": {
+    "id": "atk_shrimp-scampi",
+    "name": "Shrimp Scampi",
+    "slug": "shrimp-scampi",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-for-brining",
+        "displayName": "table salt for brining",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "sugar-for-brining",
+        "displayName": "sugar for brining",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "jumbo-shrimp-16-to-20-per-pound-peeled-deveined-and-tails-removed-shells-reserved-see-this-page",
+        "displayName": "jumbo shrimp (16 to 20 per pound), peeled, deveined, and tails removed, shells reserved (see this page)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "lemon-juice-plus-lemon-wedges-for-serving",
+        "displayName": "lemon juice, plus lemon wedges for serving",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-2-inch-pieces",
+        "displayName": "unsalted butter, cut into 1/2-inch pieces",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve salt and sugar in 1 quart cold water in large container. Submerge shrimp in brine, cover, and refrigerate for 15 minutes. Remove shrimp from brine and pat dry with paper towels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 1 tablespoon oil in 12-inch skillet over high heat until shimmering. Add shrimp shells and cook, stirring frequently, until they begin to turn spotty brown and skillet starts to brown, 2 to 4 minutes. Remove skillet from heat and carefully add wine and thyme sprigs. When bubbling subsides, return skillet to medium heat and simmer gently, stirring occasionally, for 5 minutes. Strain mixture through colander set over large bowl. Discard shells and reserve liquid (you should have about 2/3 cup). Wipe out skillet with paper towels."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Combine lemon juice and cornstarch in small bowl. Heat remaining 1 tablespoon oil, garlic, pepper flakes, and pepper in now-empty skillet over medium-low heat, stirring occasionally, until garlic is fragrant and just beginning to brown at edges, 3 to 5 minutes. Add reserved wine mixture, increase heat to high, and bring to simmer. Reduce heat to medium, add shrimp, cover, and cook, stirring occasionally, until shrimp are just opaque, 5 to 7 minutes. Remove skillet from heat and, using slotted spoon, transfer shrimp to bowl."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return skillet to medium heat, add lemon juice–cornstarch mixture, and cook until slightly thickened, about 1 minute. Remove from heat and whisk in butter and parsley until combined. Return shrimp and any accumulated juices to skillet and toss to combine. Serve, passing lemon wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 45148,
+    "end": 45196,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

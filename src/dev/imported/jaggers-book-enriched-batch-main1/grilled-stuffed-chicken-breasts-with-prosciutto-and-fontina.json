@@ -1,0 +1,159 @@
+{
+  "mapped": {
+    "id": "atk_grilled-stuffed-chicken-breasts-with-prosciutto-and-fontina",
+    "name": "Grilled Stuffed Chicken Breasts with Prosciutto and Fontina",
+    "slug": "grilled-stuffed-chicken-breasts-with-prosciutto-and-fontina",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "10-to-12-ounce-bone-in-split-chicken-breasts-trimmed",
+        "displayName": "(10- to 12-ounce) bone-in split chicken breasts, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BUTTER",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "shallot-minced",
+        "displayName": "shallot, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BUTTER"
+      },
+      {
+        "ingredientId": "chopped-fresh-tarragon",
+        "displayName": "chopped fresh tarragon",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BUTTER"
+      },
+      {
+        "ingredientId": "fontina-cheese-rind-removed-cut-into-four-3-by-1-2-inch-sticks",
+        "displayName": "fontina cheese, rind removed, cut into four 3 by 1/2-inch sticks",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "thin-slices-prosciutto",
+        "displayName": "thin slices prosciutto",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine chicken breasts",
+        "durationMinutes": 60,
+        "requirementType": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Using sharp knife and starting on thick side of breast closest to breastbone, cut horizontal pocket in each breast, stopping 1/2 inch from edge so halves remain attached. Dissolve 1/4 cup salt in 2 quarts cold water in large container. Submerge chicken breasts in brine, cover, and refrigerate for 30 minutes to 1 hour. Remove chicken from brine and pat dry with paper towels. Season chicken with pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, combine butter, shallot, and tarragon in bowl. Roll each piece of fontina in 1 slice prosciutto. Spread equal amount of butter mixture inside each breast. Place 1 prosciutto-wrapped piece of fontina inside each breast and fold breast over to enclose. Evenly space 3 pieces kitchen twine (each about 12 inches long) beneath each breast and tie, trimming any excess."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place chicken on hot side of grill, skin side down. Cook (covered if using gas) until well browned on first side, 4 to 6 minutes. Flip chicken and cook until second side is just opaque, about 2 minutes. Move chicken to cool side of grill, skin side up with thicker side of breasts facing coals and flames. Cover and continue to cook until chicken registers 160 degrees, 25 to 35 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer chicken to carving board, tent loosely with aluminum foil, and let rest for 5 to 10 minutes. Remove twine, cut meat from bone, slice 1/2 inch thick, and serve."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Starting on the thick side closest to the breastbone, cut a horizontal pocket in each breast, stopping 1/2 inch from the edge."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Spread an equal portion of compound butter inside each breast."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Place one prosciutto-wrapped piece of cheese inside each breast and fold the breast over to enclose."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Tie each breast with three 12-inch pieces of kitchen twine at even intervals."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 53384,
+    "end": 53454,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

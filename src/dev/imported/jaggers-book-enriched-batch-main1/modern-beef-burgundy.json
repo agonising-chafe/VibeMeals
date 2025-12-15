@@ -1,0 +1,282 @@
+{
+  "mapped": {
+    "id": "atk_modern-beef-burgundy",
+    "name": "Modern Beef Burgundy",
+    "slug": "modern-beef-burgundy",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 270,
+      "equipmentTags": [
+        "OVEN",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-beef-chuck-eye-roast-trimmed-and-cut-into-11-2-to-2-inch-pieces-scraps-reserved",
+        "displayName": "boneless beef chuck-eye roast, trimmed and cut into 11/2- to 2-inch pieces, scraps reserved",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "salt-pork-cut-into-1-4-inch-pieces",
+        "displayName": "salt pork, cut into 1/4-inch pieces",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cremini-mushrooms-trimmed-halved-if-medium-or-quartered-if-large",
+        "displayName": "cremini mushrooms, trimmed, halved if medium or quartered if large",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-pearl-onions-thawed",
+        "displayName": "frozen pearl onions, thawed",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "750-ml-bottle-red-burgundy-or-pinot-noir",
+        "displayName": "(750-ml) bottle red Burgundy or Pinot Noir",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-paste",
+        "displayName": "anchovy paste",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "onions-chopped-coarse",
+        "displayName": "onions, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-cut-into-2-inch-lengths",
+        "displayName": "carrots, peeled and cut into 2-inch lengths",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "head-cloves-separated-unpeeled-and-crushed",
+        "displayName": "head, cloves separated, unpeeled, and crushed",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-porcini-mushrooms-rinsed",
+        "displayName": "dried porcini mushrooms, rinsed",
+        "amount": 0.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley-plus-3-tablespoons-minced",
+        "displayName": "sprigs fresh parsley, plus 3 tablespoons minced",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss beef and 11/2 teaspoons salt together in bowl and let stand at room temperature for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven racks to lower-middle and lowest positions and heat oven to 500 degrees. Place salt pork, beef scraps, and 2 tablespoons butter in large roasting pan. Roast on lower-middle rack until well browned and fat has rendered, 15 to 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While salt pork and beef scraps roast, toss cremini mushrooms, pearl onions, remaining 1 tablespoon butter, and sugar together on rimmed baking sheet. Roast on lowest rack, stirring occasionally, until moisture released by mushrooms evaporates and vegetables are lightly glazed, 15 to 20 minutes. Transfer vegetables to large bowl, cover, and refrigerate."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove roasting pan from oven and reduce temperature to 325 degrees. Sprinkle flour over rendered fat and whisk until no dry flour remains. Whisk in broth, 2 cups wine, gelatin, tomato paste, and anchovy paste until combined. Add onions, carrots, garlic, bay leaves, peppercorns, porcini mushrooms, parsley sprigs, and thyme sprigs to pan. Arrange beef in single layer on top of vegetables. Add water as needed to come three-quarters up side of beef (beef should not be submerged). Return roasting pan to oven and cook until meat is tender, 3 to 31/2 hours, stirring after 90 minutes and adding water to keep meat at least half-submerged."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Using slotted spoon, transfer beef to bowl with cremini mushrooms and pearl onions; cover and set aside. Strain braising liquid through fine-mesh strainer set over large bowl, pressing on solids to extract as much liquid as possible; discard solids. Stir in remaining wine and let cooking liquid settle, 10 minutes. Using wide shallow spoon, skim fat off surface and discard."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer liquid to Dutch oven and bring mixture to boil over medium-high heat. Simmer briskly, stirring occasionally, until sauce is thickened to consistency of heavy cream, 15 to 20 minutes. Reduce heat to medium-low, stir in beef and mushroom-onion garnish, cover, and cook until just heated through, 5 to 8 minutes. Season with salt and pepper to taste. Stir in minced parsley and serve. (Stew can be made up to 3 days in advance.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 8104,
+    "end": 8172,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

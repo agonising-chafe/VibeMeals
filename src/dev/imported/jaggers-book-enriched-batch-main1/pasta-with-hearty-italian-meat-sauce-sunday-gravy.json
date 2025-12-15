@@ -1,0 +1,341 @@
+{
+  "mapped": {
+    "id": "atk_pasta-with-hearty-italian-meat-sauce-sunday-gravy",
+    "name": "Pasta with Hearty Italian Meat Sauce (Sunday Gravy)",
+    "slug": "pasta-with-hearty-italian-meat-sauce-sunday-gravy",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN",
+        "LARGE_SKILLET",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rack-baby-back-ribs-cut-into-2-rib-sections",
+        "displayName": "rack baby back ribs, cut into 2-rib sections",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "hot-italian-sausage-links",
+        "displayName": "hot Italian sausage links",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "medium-onions-minced",
+        "displayName": "medium onions, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-4-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 4 teaspoons)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cans-crushed-tomatoes",
+        "displayName": "cans crushed tomatoes",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "low-sodium-beef-broth",
+        "displayName": "low-sodium beef broth",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-crusts-removed-and-bread-cut-into-1-2-inch-cubes",
+        "displayName": "high-quality white sandwich bread, crusts removed and bread cut into 1/2-inch cubes",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley-leaves",
+        "displayName": "chopped fresh parsley leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "cloves-minced-about-2-teaspoons",
+        "displayName": "cloves, minced (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "large-egg-yolk",
+        "displayName": "large egg yolk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "meatloaf-mix",
+        "displayName": "meatloaf mix",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "thinly-sliced-prosciutto-minced",
+        "displayName": "thinly sliced prosciutto, minced",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "pecorino-romano-cheese-grated-about-1-2-cup",
+        "displayName": "Pecorino Romano cheese, grated (about 1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTA",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTA"
+      },
+      {
+        "ingredientId": "spaghetti-or-linguine",
+        "displayName": "spaghetti or linguine",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil-leaves",
+        "displayName": "chopped fresh basil leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-for-serving",
+        "displayName": "Grated Parmesan cheese, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE: Adjust an oven rack to the lower-middle position and heat the oven to 325 degrees. Heat the oil in a large Dutch oven over medium-high heat until just smoking. Pat the ribs dry with paper towels and season with salt and pepper. Add half of the ribs to the pot and brown on both sides, 5 to 7 minutes total. Transfer the ribs to a large plate and repeat with the remaining ribs. After transferring the second batch of ribs to the plate, brown the sausages on all four sides, 5 to 7 minutes total. Transfer the sausages to the plate with the ribs."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Reduce the heat to medium, add the onions and oregano; cook, stirring occasionally, until beginning to brown, about 5 minutes. Add the tomato paste and cook, stirring constantly, until very dark, about 3 minutes. Stir in the garlic and cook until fragrant, about 30 seconds. Add the crushed tomatoes and broth, scraping up any browned bits. Return the ribs and sausage to the pot; bring to a simmer, cover, and transfer to the oven. Cook until the ribs are tender, about 21/2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE MEATBALLS: Meanwhile, combine the bread cubes, buttermilk, parsley, garlic, egg yolk, 1/2 teaspoon salt, and the red pepper flakes in a medium bowl and mash with a fork until no bread chunks remain. Add the meatloaf mix, prosciutto, and Pecorino Romano to the bread mixture; mix with your hands until thoroughly combined. Divide the mixture into 12 pieces; roll into balls, transfer to a plate, cover with plastic wrap, and refrigerate until ready to use."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "When the sauce is 30 minutes from being done, heat the oil in a large nonstick skillet over medium-high heat until shimmering. Add the meatballs and cook until well browned all over, 5 to 7 minutes. Transfer the meatballs to a paper towel–lined plate to drain briefly. Remove the sauce from the oven and skim the fat from the top with a large spoon. Transfer the browned meatballs to the sauce and gently submerge. Return the pot to the oven and continue cooking until the meatballs are just cooked through, about 15 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Meanwhile, bring 6 quarts water to a boil in a large pot. Add 2 tablespoons salt and the pasta to the boiling water and cook, stirring often, until al dente. Reserve 1/2 cup of the cooking water then drain the pasta and return it to the pot."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using tongs, transfer the meatballs, ribs, and sausage to a serving platter and cut the sausages in half. Stir the basil into the sauce and season with salt and pepper to taste. Add 1 cup of the sauce and the reserved pasta cooking water to the pasta; toss to coat. Serve, passing the remaining sauce, meat platter, and Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 16471,
+    "end": 16549,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

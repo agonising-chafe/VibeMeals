@@ -1,0 +1,134 @@
+{
+  "mapped": {
+    "id": "atk_sonic-fritos-chili-cheese-wraps",
+    "name": "Sonic Fritos Chili Cheese Wraps",
+    "slug": "sonic-fritos-chili-cheese-wraps",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-sonic-fritos-chili-cheese-wrap-is-a-popular-limited-time-menu-offering-that-is-usually-part-of-their-special-summer-menu-with-this-recipe-you-can-enjoy-it-year-round",
+        "displayName": "The Sonic Fritos Chili Cheese Wrap is a popular limited-time menu offering that is usually part of their special summer menu. With this recipe you can enjoy it year-round.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-mild-beef-chili",
+        "displayName": "can mild beef chili",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fritos-corn-chips",
+        "displayName": "Fritos corn chips",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "8-inch-flour-tortillas",
+        "displayName": "(8-inch) flour tortillas",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-mild-cheddar-cheese",
+        "displayName": "shredded mild Cheddar cheese",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-green-onions",
+        "displayName": "¼ cup diced green onions",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-saucepan-cook-chili-over-medium-high-heat-until-bubbling-remove-from-stove-and-fold-in-fritos",
+        "displayName": "In a small saucepan, cook chili over medium-high heat until bubbling. Remove from stove and fold in Fritos.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-a-fourth-of-the-chili-mixture-down-the-middle-of-each-tortilla-sprinkle-cup-cheese-on-top-of-chili-add-green-onions-fold-tortilla-into-a-burrito",
+        "displayName": "Place a fourth of the chili mixture down the middle of each tortilla. Sprinkle ¼ cup cheese on top of chili. Add green onions. Fold tortilla into a burrito.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "microwave-15-20-seconds-to-melt-cheese-serve",
+        "displayName": "Microwave 15–20 seconds to melt cheese. Serve.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5366,
+    "end": 5400,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

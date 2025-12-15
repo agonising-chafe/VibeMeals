@@ -1,0 +1,288 @@
+{
+  "mapped": {
+    "id": "atk_pumpkin-bread",
+    "name": "Pumpkin Bread",
+    "slug": "pumpkin-bread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 2 loaves",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "packed-21-4-ounces-light-brown-sugar",
+        "displayName": "packed (21/4 ounces) light brown sugar",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "10-ounces-all-purpose-flour",
+        "displayName": "(10 ounces) all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "can-unsweetened-pumpkin-puree",
+        "displayName": "can unsweetened pumpkin puree",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "ground-nutmeg",
+        "displayName": "ground nutmeg",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "ground-cloves",
+        "displayName": "ground cloves",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "7-ounces-granulated-sugar",
+        "displayName": "(7 ounces) granulated sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "packed-7-ounces-light-brown-sugar",
+        "displayName": "packed (7 ounces) light brown sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "cream-cheese-cut-into-12-pieces",
+        "displayName": "cream cheese, cut into 12 pieces",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BREAD",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BREAD"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BREAD",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "walnuts-toasted-and-chopped-fine",
+        "displayName": "walnuts, toasted and chopped fine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREAD",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TOPPING: Using your fingers, mix all ingredients together in bowl until well combined and topping resembles wet sand; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE BREAD: Adjust oven rack to middle position and heat oven to 350 degrees. Grease two 81/2 by 41/2-inch loaf pans. Whisk flour, baking powder, and baking soda together in bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Combine pumpkin puree, salt, cinnamon, nutmeg, and cloves in large saucepan over medium heat. Cook mixture, stirring constantly, until reduced to 11/2 cups, 6 to 8 minutes. Remove pot from heat; stir in granulated sugar, brown sugar, oil, and cream cheese until combined. Let mixture stand for 5 minutes. Whisk until no visible pieces of cream cheese remain and mixture is homogeneous."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Whisk together eggs and buttermilk. Add egg mixture to pumpkin mixture and whisk to combine. Fold flour mixture into pumpkin mixture until combined (some small lumps of flour are OK). Fold walnuts into batter. Scrape batter into prepared pans. Sprinkle topping evenly over top of each loaf. Bake until skewer inserted in center of loaf comes out clean, 45 to 50 minutes. Let loaves cool in pans on wire rack for 20 minutes. Remove loaves from pans and let cool for at least 11/2 hours. Serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63466,
+    "end": 63536,
+    "yieldLine": "MAKES 2 loaves"
+  },
+  "fit": true
+}

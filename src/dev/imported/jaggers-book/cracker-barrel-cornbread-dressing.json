@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_cracker-barrel-cornbread-dressing",
+    "name": "Cracker Barrel Cornbread Dressing",
+    "slug": "cracker-barrel-cornbread-dressing",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 16",
+      "baseServings": 16
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-southern-style-stuffing-is-a-holiday-favorite-at-cracker-barrel-restaurants-where-it-is-served-along-with-roast-turkey-and-gravy-it-will-be-sure-to-be-a-hit-at-your-holiday-table-too",
+        "displayName": "This Southern-style stuffing is a holiday favorite at Cracker Barrel restaurants where it is served along with roast turkey and gravy. It will be sure to be a hit at your holiday table too.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-yellow-onion",
+        "displayName": "⅔ cup chopped yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-celery",
+        "displayName": "chopped celery",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "crumbled-day-old-cornbread",
+        "displayName": "crumbled day-old cornbread",
+        "amount": 8,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-day-old-biscuits",
+        "displayName": "grated day-old biscuits",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-dried-parsley",
+        "displayName": "¼ cup dried parsley",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "poultry-seasoning",
+        "displayName": "poultry seasoning",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-sage",
+        "displayName": "ground sage",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-salted-butter-melted",
+        "displayName": "½ cup salted butter, melted",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quart-plus-1-14-ounce-can-chicken-broth",
+        "displayName": "quart plus 1 (14-ounce) can chicken broth",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-beaten",
+        "displayName": "large egg, beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f-and-spray-two-8-inch-cake-pans-with-nonstick-cooking-spray",
+        "displayName": "Preheat oven to 400°F and spray two 8-inch cake pans with nonstick cooking spray.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-mixing-bowl-mix-onion-celery-cornbread-biscuits-parsley-poultry-seasoning-sage-and-pepper-add-butter-and-blend-well",
+        "displayName": "In a large mixing bowl, mix onion, celery, cornbread, biscuits, parsley, poultry seasoning, sage, and pepper. Add butter and blend well.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-chicken-broth-and-egg-and-mix-well-mixture-should-have-a-wet-but-not-soupy-consistency-like-pancake-batter",
+        "displayName": "Add chicken broth and egg and mix well. Mixture should have a wet but not soupy consistency, like pancake batter.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-mixture-evenly-between-prepared-cake-pans-bake-uncovered-1-hour-or-until-lightly-browned-on-top-serve",
+        "displayName": "Divide mixture evenly between prepared cake pans. Bake uncovered 1 hour or until lightly browned on top. Serve.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8890,
+    "end": 8938,
+    "yieldLine": "SERVES 16"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

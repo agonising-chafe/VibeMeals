@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_olive-garden-pasta-e-fagioli-soup",
+    "name": "Olive Garden Pasta e Fagioli Soup",
+    "slug": "olive-garden-pasta-e-fagioli-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "pasta-e-fagioli-means-pasta-and-beans-in-italian-and-italian-peasants-have-served-this-traditionally-meatless-soup-for-centuries-this-recipe-re-creating-olive-garden-s-contains-ground-beef-but-it-can-be-omitted-and-vegetable-stock-swapped-for-meat-stock-to-make-a-vegetarian-dish",
+        "displayName": "“Pasta e fagioli” means “pasta and beans” in Italian, and Italian peasants have served this traditionally meatless soup for centuries. This recipe, re-creating Olive Garden’s, contains ground beef, but it can be omitted and vegetable stock swapped for meat stock to make a vegetarian dish.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "90-10-ground-beef",
+        "displayName": "90/10 ground beef",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-yellow-onion-peeled-and-chopped",
+        "displayName": "medium yellow onion, peeled and chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrots-chopped",
+        "displayName": "medium carrots, chopped",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-stalks-celery-chopped",
+        "displayName": "medium stalks celery, chopped",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cans-undrained-diced-tomatoes",
+        "displayName": "cans undrained diced tomatoes",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-red-kidney-beans-drained-and-rinsed",
+        "displayName": "can red kidney beans, drained and rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-white-kidney-beans-drained-and-rinsed",
+        "displayName": "can white kidney beans, drained and rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cans-beef-stock",
+        "displayName": "cans beef stock",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 3,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-parsley",
+        "displayName": "dried parsley",
+        "amount": 5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tabasco-sauce",
+        "displayName": "Tabasco sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jar-spaghetti-sauce",
+        "displayName": "jar spaghetti sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-elbow-pasta",
+        "displayName": "dry elbow pasta",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-ground-beef-to-a-large-skillet-over-medium-heat-use-a-wooden-spoon-to-break-up-beef-and-cook-8-10-minutes-stirring-often-until-browned-drain-fat-from-beef-and-add-to-a-slow-cooker",
+        "displayName": "Add ground beef to a large skillet over medium heat. Use a wooden spoon to break up beef and cook 8–10 minutes, stirring often, until browned. Drain fat from beef and add to a slow cooker.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-remaining-ingredients-except-pasta-to-slow-cooker-and-stir-to-combine-cook-on-low-7-8-hours-or-on-high-4-5-hours",
+        "displayName": "Add remaining ingredients except pasta to slow cooker and stir to combine. Cook on low 7–8 hours or on high 4–5 hours.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "during-last-30-minutes-add-pasta-and-cook-on-high-serve-hot",
+        "displayName": "During last 30 minutes, add pasta and cook on high. Serve hot.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "did-you-know-that-olive-garden-sends-select-managers-and-cooks-to-tuscany-every-year-to-train-while-they-have-advertised-a-tuscany-institute-the-reality-is-less-glamorous-still-employees-do-train-in-italy-to-learn-about-italian-cooking-and-hospitality",
+        "displayName": "Did you know that Olive Garden sends select managers and cooks to Tuscany every year to train? While they have advertised a Tuscany Institute, the reality is less glamorous. Still, employees do train in Italy to learn about Italian cooking and hospitality!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 3804,
+    "end": 3860,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

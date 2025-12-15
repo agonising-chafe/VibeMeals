@@ -1,0 +1,184 @@
+{
+  "mapped": {
+    "id": "atk_chili-s-margarita-grilled-chicken",
+    "name": "Chili’s Margarita Grilled Chicken",
+    "slug": "chili-s-margarita-grilled-chicken",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-popular-and-unique-margarita-grilled-chicken-on-the-menu-at-chili-s-is-quite-easy-to-make-at-home-and-pairs-perfectly-with-chili-s-presidente-margarita-from-chapter-11",
+        "displayName": "The popular and unique Margarita Grilled Chicken on the menu at Chili’s is quite easy to make at home and pairs perfectly with Chili’s Presidente Margarita from Chapter 11.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "liquid-margarita-mix",
+        "displayName": "liquid margarita mix",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts",
+        "displayName": "boneless, skinless chicken breasts",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "canned-black-beans-heated-per-package-instructions",
+        "displayName": "canned black beans, heated per package instructions",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tortilla-strips",
+        "displayName": "tortilla strips",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prepared-pico-de-gallo",
+        "displayName": "prepared pico de gallo",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-margarita-mix-into-a-large-resealable-plastic-bag-add-chicken-breasts-and-marinate-2-hours-in-refrigerator",
+        "displayName": "Pour margarita mix into a large resealable plastic bag. Add chicken breasts and marinate 2 hours in refrigerator.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-chicken-from-marinade-pat-dry-and-season-with-pepper",
+        "displayName": "Remove chicken from marinade, pat dry, and season with pepper.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-10-inch-skillet-to-medium-high-heat-once-hot-add-oil-and-swirl-to-coat-pan",
+        "displayName": "Heat a 10-inch skillet to medium-high heat. Once hot, add oil and swirl to coat pan.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cook-chicken-3-4-minutes-per-side-until-it-reaches-an-internal-temperature-of-165-f-remove-from-pan-and-rest-3-minutes-then-cut-each-breast-into-four-pieces-each",
+        "displayName": "Cook chicken 3–4 minutes per side until it reaches an internal temperature of 165°F. Remove from pan and rest 3 minutes, then cut each breast into four pieces each.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-cup-beans-to-each-of-four-serving-plates-then-top-with-four-chicken-strips-cup-tortilla-strips-and-cup-pico-de-gallo-serve-immediately",
+        "displayName": "Add ½ cup beans to each of four serving plates, then top with four chicken strips, ¼ cup tortilla strips, and ¼ cup pico de gallo. Serve immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-s-is-a-large-casual-dining-chain-founded-in-dallas-texas-that-boasts-more-than-1-200-restaurants-in-the-us-they-serve-american-food-with-a-southwest-influence-the-menu-offers-salads-fajitas-and-quesadillas-as-well-as-traditional-american-steaks-ribs-and-hamburgers",
+        "displayName": "Chili’s is a large casual dining chain founded in Dallas, Texas, that boasts more than 1,200 restaurants in the US. They serve American food with a Southwest influence. The menu offers salads, fajitas, and quesadillas as well as traditional American steaks, ribs, and hamburgers.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6347,
+    "end": 6393,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,132 @@
+{
+  "mapped": {
+    "id": "atk_spice-rubbed-picnic-chicken",
+    "name": "Spice-Rubbed Picnic Chicken",
+    "slug": "spice-rubbed-picnic-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "bone-in-skin-on-chicken-parts-split-breasts-thighs-drumsticks-or-a-mix-with-breasts-cut-into-3-pieces-or-halved-if-small-trimmed-of-excess-fat-and-skin",
+        "displayName": "bone-in, skin-on chicken parts (split breasts, thighs, drumsticks, or a mix, with breasts cut into 3 pieces or halved if small), trimmed of excess fat and skin",
+        "amount": 5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brown-sugar",
+        "displayName": "brown sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "chili-powder",
+        "displayName": "chili powder",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "sweet-paprika",
+        "displayName": "sweet paprika",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "1-4-1-2-teaspoon-cayenne-pepper",
+        "displayName": "1/4–1/2 teaspoon cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "RUB"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Refrigerate chicken with spice rub",
+        "durationMinutes": 360,
+        "criticality": "CRITICAL",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Use a sharp knife to make two or three short slashes in the skin of each piece of chicken, taking care not to cut into the meat. Combine the sugar, chili powder, paprika, salt, and pepper in a small bowl and mix thoroughly. Coat the chicken pieces with the spices, gently lifting the skin to distribute the spice rub underneath but leaving it attached to the chicken. Transfer the chicken, skin side up, to a wire rack set over a large, rimmed baking sheet, lightly tent it with foil, and refrigerate for at least 6 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "If desired, secure the skin of each breast piece with two or three toothpicks placed near the edges of the skin."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 425 degrees. Roast the chicken until the thickest part of the smallest piece registers 140 degrees on an instant-read thermometer, 15 to 20 minutes. Increase the oven temperature to 500 degrees and continue roasting until the chicken is browned and crisp and the thickest part of the breasts registers 160 degrees, 5 to 8 minutes longer, removing the pieces from the oven and transferring them to a clean wire rack as they finish cooking. Continue to roast the thighs and/or drumsticks, if using, until the thickest part of the meat registers 175 degrees, about 5 minutes longer. Remove from the oven, transfer the chicken to a rack, and cool completely before refrigerating or serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26798,
+    "end": 26832,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

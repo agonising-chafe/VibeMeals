@@ -1,0 +1,104 @@
+{
+  "mapped": {
+    "id": "atk_cinnabon-mochalatte-chill",
+    "name": "Cinnabon MochaLatte Chill",
+    "slug": "cinnabon-mochalatte-chill",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-mochalatta-chill-is-a-sweet-treat-made-with-coffee-and-chocolate-it-is-perfect-when-you-need-a-pick-me-up",
+        "displayName": "The MochaLatta Chill is a sweet treat made with coffee and chocolate. It is perfect when you need a pick-me-up.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "strong-brewed-coffee-chilled-2-hours",
+        "displayName": "strong brewed coffee, chilled 2 hours",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "half-and-half",
+        "displayName": "half-and-half",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chocolate-syrup",
+        "displayName": "½ cup chocolate syrup",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whipped-cream",
+        "displayName": "½ cup whipped cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "combine-coffee-half-and-half-and-chocolate-syrup-in-a-small-pitcher-and-stir-well-pour-over-ice-in-two-16-ounce-glasses-top-with-whipped-cream-serve",
+        "displayName": "Combine coffee, half-and-half, and chocolate syrup in a small pitcher and stir well. Pour over ice in two (16-ounce) glasses. Top with whipped cream. Serve.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10867,
+    "end": 10893,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

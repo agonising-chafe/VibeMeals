@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_outback-steakhouse-sweet-potato",
+    "name": "Outback Steakhouse Sweet Potato",
+    "slug": "outback-steakhouse-sweet-potato",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "a-baked-sweet-potato-loaded-with-butter-honey-and-cinnamon-is-a-delicious-alternative-to-the-ordinary-spuds-served-at-most-steakhouses-you-can-save-some-time-at-home-by-using-prepared-honey-butter-from-the-grocery-store",
+        "displayName": "A baked sweet potato loaded with butter, honey, and cinnamon is a delicious alternative to the ordinary spuds served at most steakhouses. You can save some time at home by using prepared honey butter from the grocery store.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-sweet-potato",
+        "displayName": "large sweet potato",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f",
+        "displayName": "Preheat oven to 350°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rub-outside-of-potato-with-olive-oil-and-sprinkle-with-salt",
+        "displayName": "Rub outside of potato with olive oil and sprinkle with salt.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-potato-directly-on-oven-rack-45-60-minutes-until-a-paring-knife-can-be-inserted-easily-into-potato-remove-from-oven-and-place-on-a-serving-plate",
+        "displayName": "Bake potato directly on oven rack 45–60 minutes until a paring knife can be inserted easily into potato. Remove from oven and place on a serving plate.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "split-potato-in-half-lengthwise",
+        "displayName": "Split potato in half lengthwise.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-whip-together-butter-and-honey-and-then-smear-on-each-potato-half-sprinkle-cinnamon-over-top-of-honey-butter-serve-immediately",
+        "displayName": "In a small bowl, whip together butter and honey and then smear on each potato half. Sprinkle cinnamon over top of honey butter. Serve immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9366,
+    "end": 9406,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

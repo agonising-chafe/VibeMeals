@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_the-cheesecake-factory-fresh-strawberry-cheesecake",
+    "name": "The Cheesecake Factory Fresh Strawberry Cheesecake",
+    "slug": "the-cheesecake-factory-fresh-strawberry-cheesecake",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-cheesecake-factory-bakery-opened-in-1972-and-in-1978-the-owners-son-opened-the-first-restaurant-as-a-way-to-feature-his-mother-evelyn-overton-s-scrumptious-cheesecakes-today-the-cheesecake-factory-is-known-for-cheesecakes-and-delicious-food",
+        "displayName": "The Cheesecake Factory Bakery opened in 1972, and in 1978 the owners’ son opened the first restaurant as a way to feature his mother, Evelyn Overton’s, scrumptious cheesecakes. Today The Cheesecake Factory is known for cheesecakes and delicious food.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter-melted",
+        "displayName": "¼ cup unsalted butter, melted",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-granulated-sugar-divided",
+        "displayName": "¼ cups granulated sugar, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-graham-cracker-crumbs",
+        "displayName": "½ cups graham cracker crumbs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pounds-cream-cheese-room-temperature",
+        "displayName": "½ pounds cream cheese, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-room-temperature",
+        "displayName": "large eggs, room temperature",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sour-cream-room-temperature",
+        "displayName": "sour cream, room temperature",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "¼ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-strawberries-hulled",
+        "displayName": "fresh strawberries, hulled",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "container-glaze-for-strawberries",
+        "displayName": "container glaze for strawberries",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whipped-cream",
+        "displayName": "whipped cream",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-375-f",
+        "displayName": "Preheat oven to 375°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-combine-butter-1-4-cup-sugar-and-graham-cracker-crumbs-and-press-of-mixture-evenly-onto-bottom-of-a-greased-10-inch-springform-pan-use-remaining-mixture-to-press-halfway-up-sides-of-pan-use-a-measuring-cup-or-glass-with-straight-sides-and-bottom-to-compact-mixture-into-an-even-thickness",
+        "displayName": "In a large bowl, combine butter, 1/4 cup sugar, and graham cracker crumbs and press ⅔ of mixture evenly onto bottom of a greased 10-inch springform pan. Use remaining mixture to press halfway up sides of pan. Use a measuring cup or glass with straight sides and bottom to compact mixture into an even thickness.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-crust-for-10-minutes-then-remove-from-oven-and-cool-to-room-temperature-about-30-minutes",
+        "displayName": "Bake crust for 10 minutes, then remove from oven and cool to room temperature, about 30 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beat-cream-cheese-with-an-electric-mixer-until-light-and-fluffy-add-in-remaining-sugar-then-eggs-stir-in-sour-cream-flour-vanilla-and-salt-until-combined",
+        "displayName": "Beat cream cheese with an electric mixer until light and fluffy. Add in remaining sugar, then eggs. Stir in sour cream, flour, vanilla, and salt until combined.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-mixture-over-baked-crust-wrap-bottom-of-pan-tightly-with-foil-place-in-a-16-inch-roasting-pan-and-fill-pan-with-recently-boiled-water-until-it-reaches-halfway-up-the-side-of-the-pan-carefully-transfer-to-oven-and-bake-for-10-minutes-then-reduce-heat-to-325-f-and-bake-for-another-60-70-minutes-or-until-edges-of-cheesecake-are-set-but-center-is-still-slightly-wobbly-when-shaken",
+        "displayName": "Pour mixture over baked crust. Wrap bottom of pan tightly with foil. Place in a 16-inch roasting pan and fill pan with recently boiled water until it reaches halfway up the side of the pan. Carefully transfer to oven and bake for 10 minutes, then reduce heat to 325°F and bake for another 60–70 minutes, or until edges of cheesecake are set but center is still slightly wobbly when shaken.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "turn-off-oven-and-let-stand-for-40-minutes-then-prop-door-open-several-inches-and-allow-cheesecake-to-rest-in-oven-1-hour-remove-cheesecake-from-water-bath-discard-foil-and-cool-to-room-temperature-about-1-hour-then-cover-and-refrigerate-overnight",
+        "displayName": "Turn off oven and let stand for 40 minutes, then prop door open several inches and allow cheesecake to rest in oven 1 hour. Remove cheesecake from water bath, discard foil, and cool to room temperature, about 1 hour, then cover and refrigerate overnight.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-serve-gently-run-a-paring-knife-around-edge-of-springform-pan-and-release-ring-place-cheesecake-slices-on-dessert-plates-dip-2-3-strawberries-into-glaze-and-place-on-each-plate-garnish-with-whipped-cream-serve-immediately",
+        "displayName": "To serve, gently run a paring knife around edge of springform pan and release ring. Place cheesecake slices on dessert plates. Dip 2–3 strawberries into glaze and place on each plate. Garnish with whipped cream. Serve immediately.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9798,
+    "end": 9854,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

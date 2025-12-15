@@ -1,0 +1,340 @@
+{
+  "mapped": {
+    "id": "atk_beef-burgundy",
+    "name": "Beef Burgundy",
+    "slug": "beef-burgundy",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 270,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "salt-pork-trimmed-of-rind-and-rind-reserved-salt-pork-cut-into-1-4-inch-pieces",
+        "displayName": "salt pork, trimmed of rind and rind reserved, salt pork cut into 1/4-inch pieces",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-chopped-coarse",
+        "displayName": "medium onions, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrots-chopped-coarse",
+        "displayName": "medium carrots, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-head-garlic-cloves-separated-and-crushed-but-unpeeled",
+        "displayName": "medium head garlic, cloves separated and crushed but unpeeled",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley-torn-into-pieces",
+        "displayName": "sprigs fresh parsley, torn into pieces",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves-crumbled",
+        "displayName": "bay leaves, crumbled",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-porcini-mushrooms-rinsed-optional",
+        "displayName": "dried porcini mushrooms, rinsed (optional)",
+        "amount": 0.5,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "4-to-41-2-pound-boneless-beef-chuck-eye-roast-trimmed-and-cut-into-2-inch-chunks",
+        "displayName": "(4- to 41/2-pound) boneless beef chuck-eye roast, trimmed and cut into 2-inch chunks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-cut-into-4-pieces",
+        "displayName": "(1/2 stick) unsalted butter, cut into 4 pieces",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottle-red-burgundy-or-pinot-noir",
+        "displayName": "bottle red Burgundy or Pinot Noir",
+        "amount": 1,
+        "unit": "ML",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brandy",
+        "displayName": "brandy",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "about-13-4-cups-frozen-pearl-onions",
+        "displayName": "(about 13/4 cups) frozen pearl onions",
+        "amount": 7,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "medium-white-mushrooms-wiped-clean-and-halved",
+        "displayName": "medium white mushrooms, wiped clean and halved",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE STEW: Bring the salt pork, reserved salt pork rind, and 3 cups water to a boil in a medium saucepan over high heat. Boil for 2 minutes, then drain well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Lay a double layer of cheesecloth (each piece should measure 22 by 8 inches) in a medium bowl, placing the sheets perpendicular to each other. Place the onions, carrots, garlic, parsley pieces, thyme, bay leaves, peppercorns, porcini mushrooms (if using), and salt pork rind in the cheesecloth-lined bowl. Gather together the edges of the cheesecloth and fasten them securely with kitchen twine; trim the excess cheesecloth with scissors if necessary. Set the pouch in a large ovensafe Dutch oven. Adjust the oven rack to the lower-middle position and heat the oven to 300 degrees."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Cook the salt pork in a 12-inch skillet over medium heat until lightly browned and crisp, about 12 minutes. With a slotted spoon, transfer the salt pork to the pot. Pour off and reserve all but 2 teaspoons of the fat from the skillet. Pat the beef dry with paper towels and season with salt and pepper. Add half of the beef to the skillet, increase the heat to high, and brown in a single layer, turning once or twice, until deep brown, about 7 minutes; transfer the browned beef to the pot. Add 1/2 cup of the water to the skillet and scrape the pan with a wooden spoon to loosen the browned bits; add the liquid to the pot."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat 2 teaspoons of the reserved pork fat in the skillet over high heat until smoking. Add the remaining beef in a single layer, turning once or twice, until deep brown, about 7 minutes; transfer the browned beef to the pot. Add 1/2 cup more water to the skillet and scrape the pan with a wooden spoon to loosen the browned bits; add the liquid to the pot."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Melt the butter in the skillet over medium heat. Whisk in the flour and cook, stirring constantly, until light brown, about 5 minutes. Gradually whisk in the chicken broth and the remaining 11/2 cups water. Increase the heat to medium-high and bring to a simmer, stirring frequently, until thickened; add the mixture to the pot. Add 3 cups of the wine and the tomato paste to the pot and season with salt and pepper to taste; stir to combine. Set the pot over high heat and bring to a boil; cover and place in the oven. Cook until the meat is tender, 21/2 to 3 hours."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Remove the pot from the oven and transfer the vegetable and herb pouch to a mesh strainer; set the strainer over the pot. Using the back of a spoon, press the liquid from the pouch into the pot; discard the pouch. With a slotted spoon, transfer the beef to a medium bowl; set aside. Let the pot contents settle for about 15 minutes, then skim off and discard the fat."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Bring the liquid in the pot to a boil over medium-high heat. Simmer, stirring occasionally, until thickened and reduced to about 3 cups, 15 to 25 minutes."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "FOR THE ONION AND MUSHROOM GARNISH: Meanwhile, bring the pearl onions, 1/2 cup of the water, the butter, sugar, and 1/4 teaspoon of the salt to a boil in a 10-inch skillet over high heat. Cover, reduce the heat to medium-low, and simmer, shaking the pan occasionally, until the onions are tender, about 5 minutes. Uncover, increase the heat to high, and simmer until all the liquid evaporates, about 3 minutes. Add the mushrooms and the remaining 1/4 teaspoon salt. Cook, stirring occasionally, until the liquid released by the mushrooms evaporates and the vegetables are browned, about 5 minutes. Transfer the vegetables to a bowl and set aside. Add the remaining 1/4 cup water to the skillet and scrape the pan with a wooden spoon to loosen the browned bits; add the liquid to the pot with the reducing sauce."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "When the sauce has reduced, reduce the heat to medium-low and stir in the beef, the remaining 2 tablespoons wine, the brandy, and the mushrooms and onions (and any accumulated juices). Cover the pot and cook until heated through, 5 to 8 minutes. Season with salt and pepper to taste and serve, sprinkling individual servings with the parsley."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7940,
+    "end": 8026,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,143 @@
+{
+  "mapped": {
+    "id": "atk_pasta-all-amatriciana",
+    "name": "Pasta all’Amatriciana",
+    "slug": "pasta-all-amatriciana",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "salt-pork-rind-removed-rinsed-thoroughly-and-patted-dry",
+        "displayName": "salt pork, rind removed, rinsed thoroughly, and patted dry",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine",
+        "displayName": "red wine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes",
+        "displayName": "can diced tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecorino-romano-grated-fine-1-cup",
+        "displayName": "Pecorino Romano, grated fine (1 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spaghetti",
+        "displayName": "spaghetti",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Slice salt pork into 1/4-inch-thick strips, then cut each strip crosswise into 1/4-inch pieces. Bring pork and water to simmer in 10-inch nonstick skillet over medium heat; cook until water evaporates and pork begins to sizzle, 5 to 8 minutes. Reduce heat to medium-low and continue to cook, stirring frequently, until fat renders and pork turns golden, 5 to 8 minutes longer. Using slotted spoon, transfer salt pork to bowl. Pour off all but 1 tablespoon fat from skillet. Reserve remaining fat."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Return skillet to medium heat and add tomato paste and pepper flakes; cook, stirring constantly, for 20 seconds. Stir in wine and cook for 30 seconds. Stir in tomatoes and their juice and rendered pork and bring to simmer. Cook, stirring frequently, until thickened, 12 to 16 minutes. While sauce simmers, stir 2 tablespoons reserved fat and 1/2 cup Pecorino together in bowl to form paste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, bring 4 quarts water to boil in large Dutch oven. Add pasta and salt and cook, stirring often, until al dente. Reserve 1 cup cooking water, then drain pasta and return it to pot."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add sauce, 1/3 cup cooking water, and Pecorino mixture to pasta and toss well to coat, adding cooking water as needed to adjust consistency. Serve, passing remaining 1/2 cup Pecorino separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 16291,
+    "end": 16331,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

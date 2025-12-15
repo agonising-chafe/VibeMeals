@@ -1,0 +1,158 @@
+{
+  "mapped": {
+    "id": "atk_austrian-style-potato-salad",
+    "name": "Austrian-Style Potato Salad",
+    "slug": "austrian-style-potato-salad",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "yukon-gold-potatoes-about-4-medium-peeled-quartered-and-sliced-1-2-inch-thick",
+        "displayName": "Yukon Gold potatoes (about 4 medium), peeled, quartered, and sliced 1/2 inch thick",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-wine-vinegar",
+        "displayName": "white wine vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-onion-minced",
+        "displayName": "small red onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornichons-minced-about-2-tablespoons",
+        "displayName": "cornichons, minced (about 2 tablespoons)",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-chives",
+        "displayName": "minced fresh chives",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 1 cup water, the potatoes, broth, 1 tablespoon of the vinegar, the sugar, and 1 teaspoon salt to a boil in a 12-inch skillet over high heat. Reduce the heat to medium-low, cover, and cook until the potatoes are tender (a paring knife can be slipped in and out of the potatoes with little resistance), 15 to 17 minutes. Remove the cover, increase the heat to high, and cook until the liquid has reduced, about 2 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Drain the potatoes in a colander set over a large bowl, reserving the cooking liquid. Set the potatoes aside. Pour off all but 1/2 cup cooking liquid (if 1/2 cup liquid does not remain, add water to make this amount). Whisk the cooking liquid, the remaining 1 tablespoon vinegar, the oil, onion, cornichons, chives, and mustard together in a large bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add 1/2 cup of the cooked potatoes to the bowl with the cooking liquid mixture and mash with a potato masher until a thick vinaigrette forms (the mixture will be slightly chunky). Add the remaining potatoes, stirring gently to combine. Season with salt and pepper to taste. Serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14295,
+    "end": 14337,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

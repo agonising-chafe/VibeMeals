@@ -1,0 +1,166 @@
+{
+  "mapped": {
+    "id": "atk_all-purpose-cornbread",
+    "name": "All-Purpose Cornbread",
+    "slug": "all-purpose-cornbread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN",
+        "BAKING_DISH",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES one 8-inch square",
+      "baseServings": 9
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "71-2-ounces-unbleached-all-purpose-flour",
+        "displayName": "(71/2 ounces) unbleached all-purpose flour",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "about-5-ounces-yellow-cornmeal",
+        "displayName": "(about 5 ounces) yellow cornmeal",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "frozen-corn-kernels-thawed",
+        "displayName": "frozen corn kernels, thawed",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-13-4-ounces-light-brown-sugar",
+        "displayName": "packed (13/4 ounces) light brown sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-stick-unsalted-butter-melted-and-cooled-slightly",
+        "displayName": "(1 stick) unsalted butter, melted and cooled slightly",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Thaw frozen corn kernels",
+        "durationMinutes": 60,
+        "optional": false,
+        "type": "THAW"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 400 degrees. Spray an 8-inch square baking dish with vegetable oil spray. Whisk the flour, cornmeal, baking powder, salt, and baking soda together in a medium bowl until combined; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process the buttermilk, thawed corn kernels, and brown sugar in a food processor or blender until combined, about 5 seconds. Add the eggs and process until well combined (corn lumps will remain), about 5 seconds longer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using a rubber spatula, make a well in the center of the dry ingredients; pour the wet ingredients into the well. Begin folding the dry ingredients into the wet ingredients, giving the mixture only a few turns to barely combine; add the melted butter and continue folding until the dry ingredients are just moistened. Pour the batter into the prepared baking dish; smooth the surface with a rubber spatula. Bake until deep golden brown and a toothpick inserted in the center comes out clean, 25 to 35 minutes. Cool on a wire rack for 10 minutes; invert the cornbread onto the wire rack, then turn right side up and continue to cool until warm, about 10 minutes longer. Cut into pieces and serve"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 62826,
+    "end": 62866,
+    "yieldLine": "MAKES one 8-inch square"
+  },
+  "fit": true
+}

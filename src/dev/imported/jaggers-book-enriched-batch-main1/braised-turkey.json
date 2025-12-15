@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_braised-turkey",
+    "name": "Braised Turkey",
+    "slug": "braised-turkey",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 240,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-to-7-pound-whole-bone-in-skin-on-turkey-breast-trimmed",
+        "displayName": "(5- to 7-pound) whole bone-in, skin-on turkey breast, trimmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "turkey-drumsticks-and-thighs-trimmed",
+        "displayName": "turkey drumsticks and thighs, trimmed",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-chopped-medium",
+        "displayName": "medium onions, chopped medium",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-celery-ribs-chopped-medium",
+        "displayName": "medium celery ribs, chopped medium",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrots-peeled-and-chopped-medium",
+        "displayName": "medium carrots, peeled and chopped medium",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-peeled-and-crushed",
+        "displayName": "medium garlic cloves, peeled and crushed",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley",
+        "displayName": "sprigs fresh parsley",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-porcini-mushrooms-rinsed",
+        "displayName": "dried porcini mushrooms, rinsed",
+        "amount": 0.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-melted",
+        "displayName": "(1/2 stick) unsalted butter, melted",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine turkey",
+        "durationMinutes": 360,
+        "type": "MARINATE"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TURKEY: Dissolve 1 cup salt and the sugar in 2 gallons cold water in a large container. Submerge the turkey pieces in the brine, cover, and refrigerate for 3 to 6 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 500 degrees. Remove the turkey from the brine and pat dry with paper towels. Toss the onions, celery, carrots, garlic, bay leaves, thyme, parsley, porcini, and 2 tablespoons of the melted butter in a large roasting pan; arrange in an even layer. Brush the turkey pieces with the remaining 2 tablespoons melted butter and season with pepper. Place the turkey pieces, skin side up, over the vegetables, leaving at least 1/4 inch between the pieces. Roast until the skin is lightly browned, about 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While the turkey is roasting, bring the broth and wine to a simmer in a medium saucepan over medium heat. Cover and keep warm."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the turkey from the oven and reduce the oven temperature to 325 degrees. Pour the broth mixture around the turkey pieces (it should come about three-quarters of the way up the legs and thighs.) Place a 12 by 16-inch piece of parchment paper over the turkey pieces. Cover the roasting pan tightly with aluminum foil. Return the covered roasting pan to the oven and cook until the breast registers 160 degrees and the thighs register 175 degrees on an instant-read thermometer, 11/2 to 2 hours. Transfer the turkey to a carving board, tent loosely with foil, and let rest for 20 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE GRAVY: Strain the vegetables and liquid from the roasting pan through a fine-mesh strainer set in a large bowl. Press the solids with the back of a spatula to extract as much liquid as possible. Discard the vegetables. Transfer the liquid to a fat separator and allow to settle for 5 minutes. Reserve 3 tablespoons fat and measure off 3 cups broth (use any remaining broth for another use.)"
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Heat 3 tablespoons reserved turkey fat in a medium saucepan over medium-high heat; add the flour and cook, stirring constantly, until the flour is dark golden brown and fragrant, about 5 minutes. Whisk in 3 cups braising liquid and bring to a boil. Reduce the heat to medium-low and simmer, stirring occasionally, until the gravy is thick and reduced to 2 cups, 15 to 20 minutes. Remove the gravy from the heat and season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Carve the turkey and serve, passing the gravy separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29993,
+    "end": 30059,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

@@ -1,0 +1,464 @@
+{
+  "mapped": {
+    "id": "atk_pizza-hut-oven-baked-italian-meats-pasta",
+    "name": "Pizza Hut Oven-Baked Italian Meats Pasta",
+    "slug": "pizza-hut-oven-baked-italian-meats-pasta",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "pizza-hut-updated-its-pasta-offerings-in-2022-when-they-added-a-selection-of-oven-baked-pasta-dishes-this-dish-has-all-the-flavor-of-a-supreme-pizza-mixed-with-tender-ziti-pasta",
+        "displayName": "Pizza Hut updated its pasta offerings in 2022 when they added a selection of oven-baked pasta dishes. This dish has all the flavor of a supreme pizza mixed with tender ziti pasta.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-salted-butter",
+        "displayName": "¼ cup salted butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-yellow-onion-peeled-and-diced",
+        "displayName": "large yellow onion, peeled and diced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-green-bell-pepper-seeded-and-diced",
+        "displayName": "large green bell pepper, seeded and diced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jar-marinara-sauce",
+        "displayName": "jar marinara sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-80-20-ground-beef-crumbled-browned-and-drained",
+        "displayName": "½ pound 80/20 ground beef, crumbled, browned, and drained",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-italian-sausage-crumbled-browned-and-drained",
+        "displayName": "½ pound Italian sausage, crumbled, browned, and drained",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-ziti-pasta-cooked-per-package-directions",
+        "displayName": "dry ziti pasta, cooked per package directions",
+        "amount": 16,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-thinly-sliced-pepperoni",
+        "displayName": "½ pound thinly sliced pepperoni",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-sliced-black-olives",
+        "displayName": "½ cup sliced black olives",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-mozzarella-cheese",
+        "displayName": "shredded mozzarella cheese",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f",
+        "displayName": "Preheat oven to 350°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-high-heat-add-butter-once-melted-add-onion-pepper-and-garlic-powder-and-saut-about-4-minutes",
+        "displayName": "In a 10-inch skillet over medium-high heat, add butter. Once melted, add onion, pepper, and garlic powder and sauté about 4 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-saucepan-heat-marinara-and-combine-with-beef-and-sausage",
+        "displayName": "In a medium saucepan, heat marinara and combine with beef and sausage.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lightly-grease-a-13-inch-11-inch-baking-dish-with-nonstick-cooking-spray-place-half-of-cooked-pasta-in-dish-followed-by-half-of-vegetables-half-of-pepperoni-half-of-sauce-and-half-of-black-olives-repeat-to-form-a-second-layer",
+        "displayName": "Lightly grease a 13-inch × 11-inch baking dish with nonstick cooking spray. Place half of cooked pasta in dish, followed by half of vegetables, half of pepperoni, half of sauce, and half of black olives. Repeat to form a second layer.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-mozzarella-cheese-over-top-and-bake-45-minutes-or-until-cheese-has-melted-and-is-lightly-browned-serve-warm",
+        "displayName": "Spread mozzarella cheese over top and bake 45 minutes or until cheese has melted and is lightly browned. Serve warm.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chapter-9-sides",
+        "displayName": "CHAPTER 9 Sides",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "applebee-s-garlic-mashed-potatoes",
+        "displayName": "Applebee’s Garlic Mashed Potatoes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bob-evans-bread-celery-dressing",
+        "displayName": "Bob Evans Bread & Celery Dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buffalo-wild-wings-beer-battered-onion-rings",
+        "displayName": "Buffalo Wild Wings Beer-Battered Onion Rings",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chick-fil-a-waffle-potato-fries",
+        "displayName": "Chick-fil-A Waffle Potato Fries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chipotle-cilantro-lime-rice",
+        "displayName": "Chipotle Cilantro Lime Rice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cracker-barrel-carrots",
+        "displayName": "Cracker Barrel Carrots",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cracker-barrel-cornbread-dressing",
+        "displayName": "Cracker Barrel Cornbread Dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cracker-barrel-corn-muffins",
+        "displayName": "Cracker Barrel Corn Muffins",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cracker-barrel-green-beans",
+        "displayName": "Cracker Barrel Green Beans",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cracker-barrel-mmmm-mac-n-cheese",
+        "displayName": "Cracker Barrel Mmmm Mac N’ Cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kfc-cole-slaw",
+        "displayName": "KFC Cole Slaw",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kfc-mashed-potatoes-and-gravy",
+        "displayName": "KFC Mashed Potatoes and Gravy",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kfc-secret-recipe-fries",
+        "displayName": "KFC Secret Recipe Fries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kfc-sweet-corn",
+        "displayName": "KFC Sweet Corn",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "longhorn-steakhouse-crispy-brussels-sprouts",
+        "displayName": "LongHorn Steakhouse Crispy Brussels Sprouts",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "outback-steakhouse-aussie-cheese-fries",
+        "displayName": "Outback Steakhouse Aussie Cheese Fries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "outback-steakhouse-sweet-potato",
+        "displayName": "Outback Steakhouse Sweet Potato",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panda-express-fried-rice",
+        "displayName": "Panda Express Fried Rice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panera-bread-mac-cheese",
+        "displayName": "Panera Bread Mac & Cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "popeyes-biscuits",
+        "displayName": "Popeyes Biscuits",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "popeyes-red-beans-rice",
+        "displayName": "Popeyes Red Beans & Rice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-lobster-cheddar-bay-biscuits",
+        "displayName": "Red Lobster Cheddar Bay Biscuits",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-robin-garlic-fries",
+        "displayName": "Red Robin Garlic Fries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8540,
+    "end": 8649,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

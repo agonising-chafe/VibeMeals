@@ -1,0 +1,284 @@
+{
+  "mapped": {
+    "id": "atk_g-i-cu-n-vietnamese-summer-rolls",
+    "name": "Gỏi Cuốn (Vietnamese Summer Rolls)",
+    "slug": "g-i-cu-n-vietnamese-summer-rolls",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "thai-chile-sliced-thin",
+        "displayName": "Thai chile, sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "creamy-peanut-butter",
+        "displayName": "creamy peanut butter",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "hoisin-sauce",
+        "displayName": "hoisin sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "rice-vermicelli",
+        "displayName": "rice vermicelli",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-country-style-pork-ribs-trimmed",
+        "displayName": "boneless country-style pork ribs, trimmed",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-large-shrimp-31-to-40-per-pound-peeled-deveined-and-tails-removed-see-this-page",
+        "displayName": "medium-large shrimp (31 to 40 per pound), peeled, deveined, and tails removed (see this page)",
+        "amount": 18,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "fresh-mint-leaves",
+        "displayName": "fresh mint leaves",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves-and-thin-stems",
+        "displayName": "fresh cilantro leaves and thin stems",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thai-basil-leaves",
+        "displayName": "Thai basil leaves",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "81-2-inch-round-rice-paper-wrappers",
+        "displayName": "(81/2-inch) round rice paper wrappers",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leaves-red-or-green-leaf-lettuce-thick-ribs-removed",
+        "displayName": "leaves red or green leaf lettuce, thick ribs removed",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin-on-bias",
+        "displayName": "scallions, sliced thin on bias",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PEANUT-HOISIN SAUCE: Using mortar and pestle (or on cutting board using flat side of chef’s knife), mash Thai chile, garlic, and salt to fine paste. Transfer to medium bowl. Add water, peanut butter, hoisin, tomato paste, and vinegar and whisk until smooth."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE SUMMER ROLLS: Bring 2 quarts water to boil in medium saucepan. Stir in noodles. Cook until noodles are tender but not mushy, 3 to 4 minutes. Drain noodles and rinse with cold water until cool. Drain noodles again, then spread on large plate to dry."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bring 2 quarts water to boil in now-empty saucepan. Add pork and salt. Reduce heat, cover, and simmer until thickest part of pork registers 150 degrees, 8 to 12 minutes. Transfer pork to cutting board, reserving water."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return water to boil. Add shrimp and cover. Let stand off heat until shrimp are opaque throughout, about 3 minutes. Drain shrimp and rinse with cold water until cool. Transfer to cutting board. Pat shrimp dry and halve lengthwise. Transfer to second plate."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "When pork is cool enough to handle, cut each rib crosswise into 2-inch lengths. Slice each 2-inch piece lengthwise 1/8 inch thick (you should have at least 24 slices) and transfer to plate with shrimp. Tear mint, cilantro, and Thai basil into 1-inch pieces and combine in bowl."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Fill large bowl with cold water. Submerge 1 wrapper in water until wet on both sides, no longer than 2 seconds. Shake gently over bowl to remove excess water, then lay wrapper flat on work surface (wrapper will be fairly stiff but will continue to soften as you assemble roll). Repeat with second wrapper and place next to first wrapper. Fold 1 lettuce leaf and place on lower third of first wrapper, leaving about 1/2-inch margin on each side. Spread 1/3 cup noodles on top of lettuce, then sprinkle with 1 teaspoon scallions. Top scallions with 2 slices pork. Spread 1/4 cup herb mixture over pork."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Bring lower edge of wrapper up and over herbs. Roll snugly but gently until long sides of greens and noodles are enclosed. Fold in sides to enclose ends. Arrange 3 shrimp halves, cut side up, on remaining section of wrapper. Continue to roll until filling is completely enclosed in neat cylinder. Transfer roll to serving platter, shrimp side up, and cover with plastic wrap. Repeat with second moistened wrapper. Repeat with remaining wrappers and filling, keeping completed rolls covered with plastic. Uncover and serve with sauces as desired. (Leftovers can be wrapped tightly and refrigerated for up to 24 hours, but wrappers will become chewier and may break in places.)"
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Bring lower edge of wrapper up and over herbs."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Roll snugly but gently until greens and noodles are enclosed."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Fold in sides to enclose ends."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Arrange 3 shrimp halves, cut side up, on remaining wrapper."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Continue to roll until filling is completely enclosed in neat cylinder."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "PEANUT",
+      "TREE_NUT",
+      "DAIRY",
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 2005,
+    "end": 2109,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

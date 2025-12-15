@@ -1,0 +1,84 @@
+{
+  "mapped": {
+    "id": "atk_red-lobster-boston-iced-tea",
+    "name": "Red Lobster Boston Iced Tea",
+    "slug": "red-lobster-boston-iced-tea",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "red-lobster-s-signature-iced-tea-is-one-of-their-most-popular-nonalcoholic-beverages-and-comes-in-three-flavors-the-classic-cranberry-along-with-the-newer-mango-and-raspberry-flavors",
+        "displayName": "Red Lobster’s signature iced tea is one of their most popular nonalcoholic beverages, and comes in three flavors: the classic cranberry along with the newer mango and raspberry flavors.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brewed-black-tea",
+        "displayName": "brewed black tea",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweetened-cranberry-juice",
+        "displayName": "sweetened cranberry juice",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-pitcher-mix-tea-and-cranberry-juice-fill-a-tall-glass-to-the-top-with-ice-pour-tea-over-ice-and-serve",
+        "displayName": "In a pitcher, mix tea and cranberry juice. Fill a tall glass to the top with ice. Pour tea over ice and serve.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 11147,
+    "end": 11169,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

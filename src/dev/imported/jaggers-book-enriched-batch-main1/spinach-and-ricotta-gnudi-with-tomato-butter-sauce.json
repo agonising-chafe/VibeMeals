@@ -1,0 +1,246 @@
+{
+  "mapped": {
+    "id": "atk_spinach-and-ricotta-gnudi-with-tomato-butter-sauce",
+    "name": "Spinach and Ricotta Gnudi with Tomato-Butter Sauce",
+    "slug": "spinach-and-ricotta-gnudi-with-tomato-butter-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-2-cups-whole-milk-ricotta-cheese",
+        "displayName": "(11/2 cups) whole-milk ricotta cheese",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-2-cup-plus-extra-for-garnishing",
+        "displayName": "Parmesan cheese, grated (1/2 cup), plus extra for garnishing",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "panko-bread-crumbs",
+        "displayName": "panko bread crumbs",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-plus-salt-for-cooking-gnudi",
+        "displayName": "table salt, plus salt for cooking gnudi",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lemon-zest",
+        "displayName": "grated lemon zest",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-whole-leaf-spinach-thawed-and-squeezed-dry",
+        "displayName": "frozen whole-leaf spinach, thawed and squeezed dry",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-whites-lightly-beaten",
+        "displayName": "large egg whites, lightly beaten",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cherry-or-grape-tomatoes-halved",
+        "displayName": "cherry or grape tomatoes, halved",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "shredded-fresh-basil",
+        "displayName": "shredded fresh basil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Thaw spinach",
+        "durationMinutes": 120,
+        "strategy": "THAW",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE GNUDI: Line rimmed baking sheet with double layer of paper towels. Spread ricotta in even layer over towels; set aside and let sit for 10 minutes. Place flour, Parmesan, panko, salt, pepper, and lemon zest in large bowl and stir to combine. Process spinach in food processor until finely chopped, about 30 seconds, scraping down sides of bowl as needed. Transfer spinach to bowl with flour mixture. Grasp paper towels and fold ricotta in half; peel back towels. Rotate sheet 90 degrees and repeat folding and peeling 2 more times to consolidate ricotta into smaller mass. Using paper towels as sling, transfer ricotta to bowl with spinach mixture. Discard paper towels but do not wash sheet. Add egg whites to bowl and mix gently until well combined."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer heaping teaspoons of dough to now-empty sheet (you should have 45 to 50 portions). Using your dry hands, gently roll each portion into 1-inch ball."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE SAUCE: Melt butter in small saucepan over medium heat. Add garlic and cook, swirling saucepan occasionally, until butter is very foamy and garlic is pale golden brown, 2 to 3 minutes. Off heat, add tomatoes and vinegar; cover and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bring 1 quart water to boil in Dutch oven. Add 11/2 teaspoons salt. Using spider skimmer or slotted spoon, transfer all gnudi to water. Return water to gentle simmer. Cook, adjusting heat to maintain gentle simmer, for 5 minutes, starting timer once water has returned to simmer (to confirm doneness, cut 1 dumpling in half; center should be firm)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "While gnudi simmer, add salt and pepper to sauce and cook over medium-high heat, stirring occasionally, until tomatoes are warmed through and slightly softened, about 2 minutes. Divide sauce evenly among 4 bowls. Using spider skimmer or slotted spoon, remove gnudi from pot, drain well, and transfer to bowls with sauce. Garnish with basil and extra Parmesan. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 20083,
+    "end": 20167,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,254 @@
+{
+  "mapped": {
+    "id": "atk_chili-s-boneless-wings",
+    "name": "Chili’s Boneless Wings",
+    "slug": "chili-s-boneless-wings",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chili-s-serves-these-spicy-breaded-chicken-chunks-with-celery-sticks-and-blue-cheese-just-like-with-their-famous-bone-in-wings",
+        "displayName": "Chili’s serves these spicy breaded chicken chunks with celery sticks and blue cheese, just like with their famous bone-in wings.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-cayenne-pepper",
+        "displayName": "¼ teaspoon cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-paprika",
+        "displayName": "¼ teaspoon paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-cut-into-2-inch-1-inch-pieces",
+        "displayName": "boneless, skinless chicken breasts, cut into 2-inch × 1-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-buffalo-wing-sauce",
+        "displayName": "¼ cup buffalo wing sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "margarine",
+        "displayName": "margarine",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-salt-black-pepper-cayenne-pepper-flour-and-paprika",
+        "displayName": "In a medium bowl, combine salt, black pepper, cayenne pepper, flour, and paprika.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-another-medium-bowl-whisk-together-egg-and-milk",
+        "displayName": "In another medium bowl, whisk together egg and milk.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dip-chicken-pieces-in-egg-mixture-then-in-flour-mixture-repeat-until-each-chicken-piece-is-double-coated",
+        "displayName": "Dip chicken pieces in egg mixture, then in flour mixture. Repeat until each chicken piece is double coated.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "arrange-chicken-pieces-on-a-plate-and-chill-in-refrigerator-15-minutes",
+        "displayName": "Arrange chicken pieces on a plate and chill in refrigerator 15 minutes.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-chicken-5-or-6-pieces-at-a-time-to-hot-oil-and-fry-5-6-minutes-until-breading-is-golden-brown-transfer-to-a-paper-towel-lined-plate-to-drain",
+        "displayName": "Add chicken 5 or 6 pieces at a time to hot oil and fry 5–6 minutes until breading is golden brown. Transfer to a paper towel–lined plate to drain.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-microwave-safe-bowl-combine-hot-sauce-and-margarine-microwave-20-30-seconds-just-until-margarine-has-melted",
+        "displayName": "In a small microwave-safe bowl, combine hot sauce and margarine. Microwave 20–30 seconds, just until margarine has melted.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-chicken-pieces-in-a-container-with-a-lid-pour-prepared-sauce-over-chicken-attach-lid-and-shake-gently-until-each-piece-of-chicken-is-coated-with-sauce-serve",
+        "displayName": "Place chicken pieces in a container with a lid. Pour prepared sauce over chicken, attach lid, and shake gently until each piece of chicken is coated with sauce. Serve.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "you-can-also-buy-frozen-chicken-nuggets-to-make-this-recipe-cook-nuggets-according-to-package-directions-and-then-toss-them-in-the-sauce-for-a-lower-calorie-option-use-grilled-chicken-breast-and-skip-the-breading-step",
+        "displayName": "You can also buy frozen chicken nuggets to make this recipe. Cook nuggets according to package directions and then toss them in the sauce. For a lower-calorie option, use grilled chicken breast and skip the breading step.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2206,
+    "end": 2266,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_applebee-s-double-glazed-baby-back-ribs",
+    "name": "Applebee’s Double-Glazed Baby Back Ribs",
+    "slug": "applebee-s-double-glazed-baby-back-ribs",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "applebee-s-was-founded-in-1980-as-a-neighborhood-pub-that-served-good-quality-food-these-spicy-sweet-delicious-glazed-baby-back-ribs-are-among-their-famous-entr-es",
+        "displayName": "Applebee’s was founded in 1980 as a neighborhood pub that served good-quality food. These spicy, sweet, delicious glazed baby back ribs are among their famous entrées.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "racks-pork-baby-back-ribs",
+        "displayName": "racks pork baby back ribs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-apple-cider-vinegar",
+        "displayName": "¼ cup apple cider vinegar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "liquid-smoke",
+        "displayName": "liquid smoke",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-ribs-in-an-8-quart-stockpot-with-enough-water-to-cover-them-bring-water-to-a-boil-over-high-heat-reduce-heat-to-medium-low-and-cover-simmer-1-hour-or-until-ribs-are-fork-tender",
+        "displayName": "Place ribs in an 8-quart stockpot with enough water to cover them. Bring water to a boil over high heat, reduce heat to medium-low, and cover. Simmer 1 hour or until ribs are fork-tender.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mix-remaining-ingredients-in-a-medium-saucepan-bring-to-a-boil-over-medium-heat-reduce-heat-to-low-and-simmer-uncovered-cook-30-minutes-stirring-often-or-until-sauce-is-slightly-thickened",
+        "displayName": "Mix remaining ingredients in a medium saucepan. Bring to a boil over medium heat, reduce heat to low, and simmer uncovered. Cook 30 minutes, stirring often, or until sauce is slightly thickened.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-broiler-to-550-f-place-ribs-meat-side-down-on-broiler-pan-brush-ribs-with-half-of-prepared-sauce",
+        "displayName": "Heat broiler to 550°F. Place ribs meat side down on broiler pan. Brush ribs with half of prepared sauce.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "broil-4-5-inches-from-heat-source-6-7-minutes-turn-ribs-over-and-brush-with-remaining-sauce",
+        "displayName": "Broil 4–5 inches from heat source 6–7 minutes. Turn ribs over and brush with remaining sauce.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "broil-6-7-minutes-longer-until-edges-are-slightly-charred-serve",
+        "displayName": "Broil 6–7 minutes longer until edges are slightly charred. Serve.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5821,
+    "end": 5863,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

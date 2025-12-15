@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_dairy-queen-mocha-moolatt",
+    "name": "Dairy Queen Mocha MooLatté",
+    "slug": "dairy-queen-mocha-moolatt",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dairy-queen-has-you-covered-if-you-can-t-decide-if-you-want-ice-cream-or-coffee-with-their-popular-mocha-moolatt-you-don-t-have-to-choose-it-is-a-creamy-blend-of-ice-cream-and-coffee-topped-with-whipped-cream-and-chocolate",
+        "displayName": "Dairy Queen has you covered if you can’t decide if you want ice cream or coffee. With their popular Mocha MooLatté, you don’t have to choose! It is a creamy blend of ice cream and coffee topped with whipped cream and chocolate.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "⅓ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "strong-coffee",
+        "displayName": "strong coffee",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ice",
+        "displayName": "ice",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-ice-cream",
+        "displayName": "vanilla ice cream",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whole-milk",
+        "displayName": "¼ cup whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whipped-cream",
+        "displayName": "½ cup whipped cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chocolate-syrup",
+        "displayName": "chocolate syrup",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dissolve-sugar-in-coffee-refrigerate-1-hour-or-until-cold",
+        "displayName": "Dissolve sugar in coffee. Refrigerate 1 hour or until cold.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "combine-chilled-coffee-ice-ice-cream-and-milk-in-a-blender-pur-e-until-ice-is-crushed-and-drink-is-smooth-about-45-seconds",
+        "displayName": "Combine chilled coffee, ice, ice cream, and milk in a blender. Purée until ice is crushed and drink is smooth, about 45 seconds.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-into-two-16-ounce-glasses-and-top-with-whipped-cream-and-chocolate-syrup-serve",
+        "displayName": "Pour into two (16-ounce) glasses and top with whipped cream and chocolate syrup. Serve.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10894,
+    "end": 10932,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

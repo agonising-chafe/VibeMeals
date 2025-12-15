@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_waffle-house-biscuits-gravy",
+    "name": "Waffle House Biscuits & Gravy",
+    "slug": "waffle-house-biscuits-gravy",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "biscuits-and-gravy-make-a-hearty-comfort-food-meal-that-will-keep-you-full-all-morning-long-enjoy-these-alone-or-as-a-side-with-eggs-and-your-favorite-breakfast-meat",
+        "displayName": "Biscuits and gravy make a hearty, comfort food meal that will keep you full all morning long. Enjoy these alone or as a side with eggs and your favorite breakfast meat.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-buttermilk-biscuits-prepared-per-package-instructions-sliced-in-half-lengthwise",
+        "displayName": "Frozen Buttermilk Biscuits, prepared per package instructions, sliced in half lengthwise",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bulk-breakfast-sausage",
+        "displayName": "bulk breakfast sausage",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-12-inch-nonstick-skillet-over-medium-heat-add-butter-once-butter-is-melted-and-foaming-add-biscuits-cut-side-down-cook-2-3-minutes-until-cut-sides-of-biscuits-are-golden-brown-transfer-to-serving-plates",
+        "displayName": "In a 12-inch nonstick skillet over medium heat, add butter. Once butter is melted and foaming, add biscuits cut side down. Cook 2–3 minutes until cut sides of biscuits are golden brown. Transfer to serving plates.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-over-medium-heat-add-sausage-cook-crumbling-well-until-fully-cooked-and-brown-about-5-minutes-add-oil-and-flour-and-cook-stirring-constantly-2-minutes",
+        "displayName": "To same skillet over medium heat, add sausage. Cook, crumbling well, until fully cooked and brown, about 5 minutes. Add oil and flour and cook, stirring constantly, 2 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "reduce-heat-to-low-and-slowly-stir-in-milk-once-all-milk-is-added-and-mixture-has-no-lumps-of-flour-remaining-increase-heat-to-medium-and-cook-stirring-constantly-until-gravy-is-thick-about-5-7-minutes",
+        "displayName": "Reduce heat to low and slowly stir in milk. Once all milk is added and mixture has no lumps of flour remaining, increase heat to medium and cook, stirring constantly, until gravy is thick, about 5–7 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-skillet-from-heat-and-stir-in-pepper-and-salt-spoon-gravy-over-prepared-biscuits-serve-immediately",
+        "displayName": "Remove skillet from heat and stir in pepper and salt. Spoon gravy over prepared biscuits. Serve immediately.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1595,
+    "end": 1637,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

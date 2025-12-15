@@ -1,0 +1,110 @@
+{
+  "mapped": {
+    "id": "atk_potato-roesti",
+    "name": "Potato Roesti",
+    "slug": "potato-roesti",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "yukon-gold-potatoes-peeled-and-shredded",
+        "displayName": "Yukon Gold potatoes, peeled and shredded",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "Pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place potatoes in large bowl and fill with cold water. Using your hands, swirl to remove excess starch, then drain."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Wipe bowl dry. Place half of potatoes in center of dish towel. Gather ends together and twist as tightly as possible to expel maximum moisture. Transfer potatoes to bowl and repeat process with remaining potatoes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Sprinkle cornstarch, salt, and pepper to taste over potatoes. Using hands or fork, toss ingredients together until well blended."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Melt 2 tablespoons butter in 10-inch nonstick skillet over medium heat. Add potato mixture and spread into even layer. Cover and cook for 6 minutes. Remove cover and, using spatula, gently press potatoes down to form round cake. Cook, occasionally pressing on potatoes to shape into uniform round cake, until bottom is deep golden brown, 4 to 6 minutes longer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Shake skillet to loosen roesti and slide onto large plate. Add remaining 2 tablespoons butter to skillet and swirl to coat pan. Invert roesti onto second plate and slide it, browned side up, back into skillet. Cook, occasionally pressing down on cake, until bottom is well browned, 7 to 9 minutes. Remove pan from heat and allow cake to cool in pan for 5 minutes. Transfer roesti to cutting board, cut into 4 pieces, and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59149,
+    "end": 59183,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

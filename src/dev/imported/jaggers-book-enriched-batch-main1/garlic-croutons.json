@@ -1,0 +1,85 @@
+{
+  "mapped": {
+    "id": "atk_garlic-croutons",
+    "name": "Garlic Croutons",
+    "slug": "garlic-croutons",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 3 cups",
+      "baseServings": 3
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-cut-into-1-2-inch-cubes-about-3-cups",
+        "displayName": "high-quality white sandwich bread, cut into 1/2-inch cubes (about 3 cups)",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 350 degrees. Combine the oil, garlic, and salt in a small bowl; let stand 20 minutes, then pour through a fine-mesh strainer into a medium bowl. Discard the garlic. Add the bread cubes to the bowl with the oil and toss to coat."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Spread the bread cubes in an even layer on a rimmed baking sheet and bake, stirring occasionally, until golden, about 15 minutes. Cool on the baking sheet to room temperature. (The croutons can be stored in an airtight container or a plastic bag for up to 1 day.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10847,
+    "end": 10869,
+    "yieldLine": "MAKES about 3 cups"
+  },
+  "fit": true
+}

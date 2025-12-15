@@ -1,0 +1,310 @@
+{
+  "mapped": {
+    "id": "atk_beef-bulgogi-korean-marinated-beef",
+    "name": "Beef Bulgogi (Korean Marinated Beef)",
+    "slug": "beef-bulgogi-korean-marinated-beef",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "rice-vinegar",
+        "displayName": "rice vinegar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICKLES"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICKLES"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICKLES"
+      },
+      {
+        "ingredientId": "daikon-radish-peeled-and-cut-into-11-2-inch-long-matchsticks",
+        "displayName": "daikon radish, peeled and cut into 11/2-inch-long matchsticks",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PICKLES"
+      },
+      {
+        "ingredientId": "scallions-white-and-light-green-parts-only-minced",
+        "displayName": "scallions, white and light green parts only, minced",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PICKLES"
+      },
+      {
+        "ingredientId": "doenjang",
+        "displayName": "doenjang",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SSAMJANG"
+      },
+      {
+        "ingredientId": "gochujang",
+        "displayName": "gochujang",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SSAMJANG"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SSAMJANG"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SSAMJANG"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SSAMJANG",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SSAMJANG"
+      },
+      {
+        "ingredientId": "boneless-rib-eye-steak-cut-crosswise-into-11-2-inch-wide-pieces-and-trimmed",
+        "displayName": "boneless rib-eye steak, cut crosswise into 11/2-inch-wide pieces and trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "BEEF"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF"
+      },
+      {
+        "ingredientId": "chopped-onion",
+        "displayName": "chopped onion",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-dark-green-parts-only-cut-into-11-2-inch-pieces",
+        "displayName": "scallions, dark green parts only, cut into 11/2-inch pieces",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PICKLES: Whisk vinegar, sugar, and salt together in medium bowl. Add daikon and toss to combine. Gently press on daikon to submerge. Cover and refrigerate for at least 30 minutes or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE SSAMJANG: Combine all ingredients in small bowl. Cover and set aside. (Sauce can be refrigerated for up to 3 days.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE BEEF: Place beef on large plate and freeze until very firm, 35 to 40 minutes. Once firm, stand each piece on 1 cut side on cutting board and, using sharp knife, shave beef against grain as thin as possible. (Slices needn’t be perfectly intact.) Combine water and baking soda in medium bowl. Add beef and toss to coat. Let sit at room temperature for 5 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, process onion, sugar, soy sauce, garlic, sesame oil, and pepper in food processor until smooth, about 30 seconds, scraping down sides of bowl as needed. Add onion mixture to beef and toss to evenly coat."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat vegetable oil in 12-inch nonstick skillet over medium-high heat until shimmering. Add beef mixture in even layer and cook, without stirring, until browned on 1 side, about 1 minute. Stir and continue to cook until beef is no longer pink, 3 to 4 minutes longer. Add scallion greens and cook, stirring constantly, until fragrant, about 30 seconds. Transfer to platter. Serve with pickles and chile sauce."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SESAME",
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 33907,
+    "end": 33981,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

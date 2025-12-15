@@ -1,0 +1,162 @@
+{
+  "mapped": {
+    "id": "atk_easy-beef-tenderloin-with-harissa-spice-rub-and-cilantro-mint-relish",
+    "name": "Easy Beef Tenderloin with Harissa Spice Rub and Cilantro-Mint Relish",
+    "slug": "easy-beef-tenderloin-with-harissa-spice-rub-and-cilantro-mint-relish",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "4-to-5-pound-trimmed-beef-tenderloin-roast-tied-at-1-inch-intervals",
+        "displayName": "(4- to 5-pound) trimmed beef tenderloin roast, tied at 1-inch intervals",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "ground-dried-aleppo-pepper",
+        "displayName": "ground dried Aleppo pepper",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "caraway-seeds",
+        "displayName": "caraway seeds",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "honey-warmed",
+        "displayName": "honey, warmed",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Salt and refrigerate tenderloin",
+        "durationMinutes": 360,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Pat roast dry with paper towels, then rub with salt. Wrap roast with plastic wrap and refrigerate for at least 6 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to middle position and heat oven to 250 degrees. Spray wire rack with oil spray and set inside aluminum foil–lined rimmed baking sheet. Combine paprika, coriander, Aleppo pepper, cumin, garlic powder, and caraway seeds in small bowl. Unwrap roast, pat dry with paper towels, and set on prepared rack. Brush top and sides of roast with honey, then sprinkle evenly with spice mixture, pressing gently to adhere. Spray roast lightly with oil spray. Roast until meat registers 115 degrees (for medium-rare) or 125 degrees (for medium), 11/2 to 2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove roast from oven and heat broiler. Broil roast until spice crust has toasted slightly and meat registers 120 to 125 degrees (for medium-rare) or 130 to 135 degrees (for medium), 5 to 10 minutes. Transfer roast to carving board and let rest for 20 minutes before slicing and serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 34378,
+    "end": 34418,
+    "yieldLine": "SERVES 8 SEASON 26"
+  },
+  "fit": true
+}

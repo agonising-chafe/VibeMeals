@@ -1,0 +1,160 @@
+{
+  "mapped": {
+    "id": "atk_apple-cider-sauce",
+    "name": "Apple Cider Sauce",
+    "slug": "apple-cider-sauce",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 11/4 cups",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "complete-step-1-of-this-recipe-either-before-or-during-the-cooking-of-the-pork-then-finish-the-sauce-while-the-pork-rests",
+        "displayName": "Complete step 1 of this recipe either before or during the cooking of the pork, then finish the sauce while the pork rests.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "apple-cider",
+        "displayName": "apple cider",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cinnamon-stick",
+        "displayName": "cinnamon stick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-cut-into-4-pieces",
+        "displayName": "(1/2 stick) unsalted butter, cut into 4 pieces",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-shallots-minced-about-1-2-cup",
+        "displayName": "large shallots, minced (about 1/2 cup)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tart-apple-such-as-granny-smith-peeled-cored-and-diced-small",
+        "displayName": "tart apple, such as Granny Smith, peeled, cored, and diced small",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "calvados-or-apple-flavored-brandy",
+        "displayName": "Calvados or apple-flavored brandy",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine cider, broth, vinegar, and cinnamon stick in medium saucepan; simmer over medium-high heat until liquid is reduced to 1 cup, 10 to 12 minutes. Remove cinnamon stick and discard. Set sauce aside until pork is cooked."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour off any fat from skillet in which pork was cooked. Add 1 tablespoon of butter and heat over medium heat until melted. Add shallots and apple and cook, stirring occasionally, until softened and beginning to brown, 1 to 2 minutes. Remove skillet from heat and add Calvados. Return skillet to heat and cook for about 1 minute, scraping bottom of skillet with wooden spoon to loosen any browned bits. Add reduced cider mixture, any juices from resting meat, and thyme; increase heat to medium-high and simmer until thickened and reduced to 11/4 cups, 3 to 4 minutes. Off heat, whisk in remaining 3 tablespoons butter and season with salt and pepper to taste. Pour sauce over pork and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38435,
+    "end": 38471,
+    "yieldLine": "MAKES about 11/4 cups"
+  },
+  "fit": true
+}

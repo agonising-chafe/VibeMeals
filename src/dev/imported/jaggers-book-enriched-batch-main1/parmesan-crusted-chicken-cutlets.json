@@ -1,0 +1,139 @@
+{
+  "mapped": {
+    "id": "atk_parmesan-crusted-chicken-cutlets",
+    "name": "Parmesan-Crusted Chicken Cutlets",
+    "slug": "parmesan-crusted-chicken-cutlets",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "7-to-8-ounce-boneless-skinless-chicken-breasts-tenderloins-removed-and-breasts-trimmed-see-note",
+        "displayName": "(7- to 8-ounce) boneless, skinless chicken breasts, tenderloins removed and breasts trimmed (see note)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-plus-6-ounces-shredded-about-2-cups-see-note",
+        "displayName": "grated Parmesan cheese plus 6 ounces, shredded (about 2 cups; see note)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-egg-whites",
+        "displayName": "large egg whites",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-chives-optional",
+        "displayName": "minced fresh chives (optional)",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-wedges-for-serving",
+        "displayName": "Lemon wedges, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 200 degrees. Halve the chicken horizontally, then cover the chicken halves with plastic wrap and pound the cutlets to an even 1/4-inch thickness. Pat the chicken dry with paper towels and season with salt and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk 1/4 cup of the flour and the 1/4 cup grated Parmesan together in a shallow dish. Whisk the egg whites and chives (if using) in a medium bowl until slightly foamy. Combine the 2 cups shredded Parmesan and remaining 1 tablespoon flour in a second shallow dish. Working with 1 chicken cutlet at a time, dredge in the flour mixture, shaking off the excess, then coat with the egg white mixture, allowing the excess to drip off. Finally, coat with the shredded Parmesan mixture, pressing gently so that the cheese adheres. Place the coated cutlets in a single layer on a wire rack set over a rimmed baking sheet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 2 teaspoons of the oil in a 12-inch nonstick skillet over medium heat until shimmering. Add 2 of the cutlets and cook until pale golden brown on both sides, 4 to 6 minutes in total. (While the chicken is cooking, use a thin nonstick spatula to gently separate any cheesy edges that have melted together.) Transfer to a clean wire rack set over a rimmed baking sheet and keep warm in the oven. Wipe out the skillet with paper towels. Repeat with the remaining 2 teaspoons oil and chicken. Serve with the lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 21970,
+    "end": 22006,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

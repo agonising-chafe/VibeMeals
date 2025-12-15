@@ -1,0 +1,133 @@
+{
+  "mapped": {
+    "id": "atk_classic-buttermilk-waffles",
+    "name": "Classic Buttermilk Waffles",
+    "slug": "classic-buttermilk-waffles",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 35,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 3 to 4 waffles, depending on the size of the iron",
+      "baseServings": 3,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-ounces-unbleached-all-purpose-flour",
+        "displayName": "(5 ounces) unbleached all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornmeal-optional",
+        "displayName": "cornmeal (optional)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 0.875,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-egg-separated",
+        "displayName": "large egg, separated",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-and-cooled",
+        "displayName": "unsalted butter, melted and cooled",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Following the manufacturer’s instructions, heat a waffle iron. Whisk the flour, cornmeal (if using), salt, and baking soda together in a medium bowl. In a separate medium bowl, whisk the buttermilk, egg yolk, and melted butter together."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Beat the egg white with an electric mixer on medium-low speed until foamy, about 1 minute. Increase the speed to medium-high and whip the whites to stiff peaks, 2 to 4 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the liquid ingredients to the dry ingredients in a thin, steady stream while mixing gently with a rubber spatula. (Do not add the liquid faster than you can incorporate it into the batter.) Toward the end of mixing, use a folding motion to incorporate the ingredients. Gently fold the egg white into the batter."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spread an appropriate amount of batter onto the waffle iron. Following the manufacturer’s instructions, cook the waffle until golden brown, 2 to 5 minutes. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 5840,
+    "end": 5876,
+    "yieldLine": "MAKES 3 to 4 waffles, depending on the size of the iron"
+  },
+  "fit": true
+}

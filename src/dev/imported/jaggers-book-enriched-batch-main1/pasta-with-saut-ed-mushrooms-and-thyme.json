@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_pasta-with-saut-ed-mushrooms-and-thyme",
+    "name": "Pasta with Sautéed Mushrooms and Thyme",
+    "slug": "pasta-with-saut-ed-mushrooms-and-thyme",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "campanelle-or-farfalle",
+        "displayName": "campanelle or farfalle",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shallots-minced-about-1-cup",
+        "displayName": "large shallots, minced (about 1 cup)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shiitake-mushrooms-stems-discarded-caps-wiped-clean-and-sliced-1-4-inch-thick",
+        "displayName": "shiitake mushrooms, stems discarded, caps wiped clean and sliced 1/4 inch thick",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cremini-mushrooms-wiped-clean-and-sliced-1-4-inch-thick",
+        "displayName": "cremini mushrooms, wiped clean and sliced 1/4 inch thick",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-teaspoon-minced-fresh-thyme-leaves",
+        "displayName": "plus 1 teaspoon minced fresh thyme leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-1-cup",
+        "displayName": "Parmesan cheese, grated (about 1 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta to the boiling water and cook, stirring often, until al dente. Reserve 1/2 cup of the cooking water then drain the pasta and return it to the pot."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, melt the butter with the oil over medium heat in a 12-inch skillet. Add the shallots and cook, stirring occasionally, until softened and translucent, about 4 minutes. Add the garlic and cook until fragrant, about 30 seconds. Increase the heat to medium-high; add the shiitakes and cook, stirring occasionally, for 2 minutes. Add the cremini and 1/2 teaspoon salt; cook, stirring occasionally, until the moisture released by the mushrooms has evaporated and the mushrooms are golden brown, about 8 minutes. Add the thyme and cook until fragrant, about 30 seconds. Transfer the mushrooms to a bowl and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the chicken broth to the skillet and bring to a boil, scraping up the browned bits. Off the heat, stir in the cream and lemon juice and season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add the mushrooms, chicken broth mixture, cheese, and parsley to the pasta. Toss over medium-low heat until the cheese melts and the pasta absorbs most of the liquid, about 2 minutes. Adjust the consistency of the sauce with the reserved pasta cooking water as needed and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 17679,
+    "end": 17731,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

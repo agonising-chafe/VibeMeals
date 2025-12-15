@@ -1,0 +1,226 @@
+{
+  "mapped": {
+    "id": "atk_palak-dal-spinach-dal-with-cumin-and-mustard-seeds",
+    "name": "Palak Dal (Spinach Dal with Cumin and Mustard Seeds)",
+    "slug": "palak-dal-spinach-dal-with-cumin-and-mustard-seeds",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 4.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "101-2-ounces-dried-red-lentils-picked-over-and-rinsed",
+        "displayName": "(101/2 ounces) dried red lentils, picked over and rinsed",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-turmeric",
+        "displayName": "ground turmeric",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-cups-baby-spinach",
+        "displayName": "(6 cups) baby spinach",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ghee",
+        "displayName": "ghee",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "brown-or-yellow-mustard-seeds",
+        "displayName": "brown or yellow mustard seeds",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TEMPERING"
+      },
+      {
+        "ingredientId": "cumin-seeds",
+        "displayName": "cumin seeds",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TEMPERING"
+      },
+      {
+        "ingredientId": "large-onion-chopped",
+        "displayName": "large onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TEMPERING"
+      },
+      {
+        "ingredientId": "curry-leaves-roughly-torn-optional",
+        "displayName": "curry leaves, roughly torn (optional)",
+        "amount": 15,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TEMPERING"
+      },
+      {
+        "ingredientId": "cloves-sliced",
+        "displayName": "cloves, sliced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TEMPERING"
+      },
+      {
+        "ingredientId": "whole-dried-arbol-chiles",
+        "displayName": "whole dried arbol chiles",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TEMPERING"
+      },
+      {
+        "ingredientId": "serrano-chile-halved-lengthwise",
+        "displayName": "serrano chile, halved lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TEMPERING"
+      },
+      {
+        "ingredientId": "lemon-juice-plus-extra-for-seasoning",
+        "displayName": "lemon juice, plus extra for seasoning",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 41/2 cups water, lentils, ginger, and turmeric to boil in large saucepan over medium-high heat. Reduce heat to maintain vigorous simmer. Cook, uncovered, stirring occasionally, until lentils are soft and starting to break down, 18 to 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk lentils vigorously until coarsely pureed, about 30 seconds. Continue to cook until lentils have consistency of loose polenta or oatmeal, up to 5 minutes longer. Stir in spinach and salt and continue to cook until spinach is fully wilted, 30 to 60 seconds longer. Cover and set aside off heat."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Melt ghee in 10-inch skillet over medium-high heat. Add mustard seeds and cumin seeds and cook, stirring constantly, until seeds sizzle and pop, about 30 seconds. Add onion and cook, stirring frequently, until onion is just starting to brown, about 5 minutes. Add curry leaves, if using; garlic; arbols; and serrano and cook, stirring frequently, until onion and garlic are golden brown, 3 to 4 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add lemon juice to lentils and stir to incorporate. (Dal should have consistency of loose polenta. If too thick, loosen with hot water, adding 1 tablespoon at a time.) Season with salt and extra lemon juice to taste. Transfer dal to serving bowl and spoon onion mixture on top. Sprinkle with cilantro and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 46785,
+    "end": 46839,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

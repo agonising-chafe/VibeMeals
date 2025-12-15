@@ -1,0 +1,202 @@
+{
+  "mapped": {
+    "id": "atk_chili-con-carne",
+    "name": "Chili con Carne",
+    "slug": "chili-con-carne",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "medium-ancho-pods-about-1-2-ounce-toasted-and-ground-or-3-tablespoons-ancho-chile-powder",
+        "displayName": "medium ancho pods (about 1/2 ounce), toasted and ground, or 3 tablespoons ancho chile powder",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-new-mexican-pods-about-3-4-ounce-toasted-and-ground-or-3-tablespoons-new-mexican-chile-powder",
+        "displayName": "medium New Mexican pods (about 3/4 ounce), toasted and ground, or 3 tablespoons New Mexican chile powder",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cumin-seeds-toasted-in-a-dry-skillet-over-medium-heat-until-fragrant-about-4-minutes-and-ground",
+        "displayName": "cumin seeds, toasted in a dry skillet over medium heat until fragrant, about 4 minutes, and ground",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano-preferably-mexican",
+        "displayName": "dried oregano, preferably Mexican",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-plus-extra-for-the-masa-harina-or-cornstarch",
+        "displayName": "water, plus extra for the masa harina or cornstarch",
+        "amount": 7.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-chuck-eye-roast-trimmed-of-excess-fat-and-cut-into-1-inch-cubes",
+        "displayName": "beef chuck-eye roast, trimmed of excess fat and cut into 1-inch cubes",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bacon-about-8-slices-cut-into-1-4-inch-pieces",
+        "displayName": "bacon (about 8 slices), cut into 1/4-inch pieces",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-5-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 5 teaspoons)",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-jalape-o-chiles-stemmed-seeded-and-minced",
+        "displayName": "small jalapeño chiles, stemmed, seeded, and minced",
+        "amount": 45,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "canned-crushed-tomatoes-or-plain-tomato-sauce",
+        "displayName": "canned crushed tomatoes or plain tomato sauce",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-from-1-lime",
+        "displayName": "juice from 1 lime",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "masa-harina-or-3-tablespoons-cornstarch",
+        "displayName": "masa harina or 3 tablespoons cornstarch",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mix the chili powders, cumin, and oregano in a small bowl and stir in 1/2 cup of the water to form a thick paste; set aside. Toss the beef cubes with 2 teaspoons salt in a large bowl; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Fry the bacon in a large Dutch oven over medium-low heat until the fat renders and the bacon crisps, about 10 minutes. Remove the bacon with a slotted spoon to a paper towel–lined plate; pour all but 2 teaspoons fat from the pot into a small bowl; set aside. Increase the heat to medium-high; sauté the meat in four batches until well browned on all sides, about 5 minutes per batch, adding 2 teaspoons more bacon fat to the pot each time as necessary. Set the browned meat aside in a large bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Reduce the heat to medium and add 3 tablespoons more bacon fat to the now-empty pan. Add the onion and sauté until softened, 5 to 6 minutes. Add the garlic and jalapeños and sauté until fragrant, about 1 minute. Add the chili powder mixture and sauté until fragrant, 2 to 3 minutes. Add the reserved bacon and browned beef, the remaining 7 cups water, the crushed tomatoes, and lime juice. Bring to a simmer. Continue to cook at a steady simmer (lowering the heat as necessary) until the meat is tender and the juices are dark and rich and starting to thicken, about 2 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Mix the masa harina with 2/3 cup water (or cornstarch with 3 tablespoons water) in a small bowl to form a smooth paste. Increase the heat to medium, stir in the paste, and simmer until thickened, 5 to 10 minutes. Season generously with salt and pepper to taste. Serve immediately or, for best flavor, cool slightly, cover, and refrigerate overnight or for up to 5 days. Reheat before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 8560,
+    "end": 8612,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

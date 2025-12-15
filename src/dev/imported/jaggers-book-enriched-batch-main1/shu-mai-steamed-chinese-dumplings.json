@@ -1,0 +1,261 @@
+{
+  "mapped": {
+    "id": "atk_shu-mai-steamed-chinese-dumplings",
+    "name": "Shu Mai (Steamed Chinese Dumplings)",
+    "slug": "shu-mai-steamed-chinese-dumplings",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 40 dumplings",
+      "baseServings": 40,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-country-style-pork-spareribs-cut-into-1-inch-pieces-divided",
+        "displayName": "boneless country-style pork spareribs, cut into 1-inch pieces, divided",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shrimp-peeled-deveined-tails-removed-and-halved-lengthwise-see-this-page",
+        "displayName": "shrimp, peeled, deveined, tails removed, and halved lengthwise (see this page)",
+        "amount": 0.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "chopped-water-chestnuts",
+        "displayName": "chopped water chestnuts",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-shiitake-mushroom-caps-about-3-4-ounce-soaked-in-hot-water-for-30-minutes-squeezed-dry-and-cut-into-1-4-inch-dice",
+        "displayName": "dried shiitake mushroom caps (about 3/4 ounce), soaked in hot water for 30 minutes, squeezed dry, and cut into 1/4-inch dice",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro",
+        "displayName": "minced fresh cilantro",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "shaoxing-wine-or-dry-sherry",
+        "displayName": "Shaoxing wine or dry sherry",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unseasoned-rice-vinegar",
+        "displayName": "unseasoned rice vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "package-51-2-inch-square-egg-roll-wrappers",
+        "displayName": "package 51/2-inch square egg roll wrappers",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "finely-grated-carrot-optional",
+        "displayName": "finely grated carrot (optional)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 30,
+        "description": "Soak dried shiitake mushroom caps in hot water for 30 minutes, squeeze dry, and cut into 1/4-inch dice.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine soy sauce and gelatin in small bowl. Set aside to allow gelatin to bloom, about 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, place half of pork in food processor and pulse until coarsely ground into pieces that are about 1/8 inch, about 10 pulses; transfer to large bowl. Add shrimp and remaining pork to food processor and pulse until coarsely chopped into pieces that are about 1/4 inch, about 5 pulses. Transfer to bowl with coarsely ground pork. Stir in soy sauce mixture, water chestnuts, mushrooms, cornstarch, cilantro, oil, Shaoxing wine, vinegar, sugar, ginger, salt, and pepper until well combined."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Line large baking sheet with parchment paper. Divide egg roll wrappers into 3 stacks (six to seven per stack). Using 3-inch biscuit cutter, cut two 3-inch rounds from each stack of egg roll wrappers (you should have 40 to 42 rounds). Cover rounds with moist paper towels to prevent drying."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Working with 6 rounds at a time, brush edges of each round lightly with water. Place heaping 1 tablespoon filling in center of each round. Form dumplings by pinching 2 opposing sides of wrapper with your fingers. Rotate dumpling 90 degrees and, again, pinch opposing sides of wrapper with your fingers. Continue to pinch dumpling to form 8 equidistant pinches around circumference. Gather up sides of dumpling and squeeze gently at top to create rounded and open shape with “waist.” Gently but firmly pack down filling with back of spoon or butter knife. Transfer to prepared baking sheet, cover with damp dish towel, and repeat with remaining wrappers and filling. Top center of each dumpling with pinch of grated carrot, if using."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Cut piece of parchment paper slightly smaller than diameter of steamer basket and place in basket. Poke about 20 small holes in parchment to allow steam to pass through and lightly coat with vegetable oil spray. Place batches of dumplings on parchment, making sure they are not touching. Set steamer basket over simmering water and cook, covered, until no longer pink, 8 to 10 minutes. Serve immediately with chili oil."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Place heaping 1 tablespoon filling in center of wrapper. Pinch 2 opposing sides of wrapper with your fingers. Rotate dumpling 90 degrees, and pinch again. Continue to pinch dumpling until you have 8 equidistant pinches around circumference of dumpling."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Gather up sides of dumpling and squeeze gently at top to create “waist.”"
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Hold dumpling in your hand and gently but firmly pack filling into dumpling with butter knife."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SHELLFISH",
+      "SESAME",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 21036,
+    "end": 21118,
+    "yieldLine": "MAKES 40 dumplings"
+  },
+  "fit": true
+}

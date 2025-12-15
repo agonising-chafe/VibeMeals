@@ -1,0 +1,268 @@
+{
+  "mapped": {
+    "id": "atk_turkey-meatloaf-with-ketchup-brown-sugar-glaze",
+    "name": "Turkey Meatloaf with Ketchup–Brown Sugar Glaze",
+    "slug": "turkey-meatloaf-with-ketchup-brown-sugar-glaze",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pinch-baking-soda",
+        "displayName": "Pinch baking soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quick-oats",
+        "displayName": "quick oats",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-yolks",
+        "displayName": "large egg yolks",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "85-or-93-percent-lean-ground-turkey",
+        "displayName": "85 or 93 percent lean ground turkey",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-grated-1-2-cup",
+        "displayName": "Parmesan, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "packed-brown-sugar",
+        "displayName": "packed brown sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "hot sauce",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MEATLOAF: Adjust oven rack to upper-middle position and heat oven to 350 degrees. Line wire rack with aluminum foil and set in rimmed baking sheet. Melt butter in 10-inch skillet over low heat. Stir baking soda into melted butter. Add onion and 1/4 teaspoon salt, increase heat to medium, and cook, stirring frequently, until onion is softened and beginning to brown, 3 to 4 minutes. Add garlic and thyme and cook until fragrant, about 1 minute. Stir in Worcestershire and continue to cook until slightly reduced, about 1 minute longer. Transfer onion mixture to large bowl and set aside. Combine oats, cornstarch, 3/4 teaspoon salt, and 1/2 teaspoon pepper in second bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE GLAZE: Whisk all ingredients in saucepan until sugar dissolves. Bring mixture to simmer over medium heat and cook until slightly thickened, about 5 minutes; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir egg yolks and mustard into cooled onion mixture until well combined. Add turkey, Parmesan, parsley, and oat mixture; using your hands, mix until well combined. Transfer turkey mixture to center of prepared rack. Using your wet hands, shape into 9 by 5-inch loaf. Using pastry brush, spread half of glaze evenly over top and sides of meatloaf. Bake meatloaf for 40 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Brush remaining glaze onto top and sides of meatloaf and continue to cook until meatloaf registers 160 degrees, 35 to 40 minutes longer. Let meatloaf cool for 20 minutes before slicing and serving."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Microwave broth and mushrooms in covered bowl until steaming, about 1 minute. Let sit until softened, about 5 minutes. Drain mushrooms in fine-mesh strainer and reserve liquid."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Pulse bread in food processor until finely ground, 10 to 15 pulses; transfer bread crumbs to large bowl (do not wash processor bowl). Add Parmesan, parsley, gelatin, salt, and 1/4 teaspoon pepper to bowl with bread crumbs and mix until thoroughly combined. Pulse mushrooms and half of anchovies in food processor until chopped fine, 10 to 15 pulses. Add mushroom mixture, turkey, egg, and half of garlic to bowl with bread-crumb mixture and mix with your hands until thoroughly combined. Divide mixture into 16 portions (about 1/4 cup each). Using your hands, roll each portion into ball; transfer meatballs to plate and refrigerate for 15 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Pulse tomatoes and their juice in food processor to coarse puree, 10 to 15 pulses. Combine oregano, pepper flakes, remaining 1/4 teaspoon pepper, remaining anchovies, and remaining garlic in small bowl; set aside."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Heat oil in 12-inch nonstick skillet over medium-high heat until shimmering. Add meatballs and cook until well browned all over, 5 to 7 minutes. Transfer meatballs to paper towel–lined plate, leaving fat in skillet."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Add reserved anchovy mixture to skillet and cook, stirring constantly, until fragrant, about 30 seconds. Increase heat to high; stir in tomato paste, reserved mushroom liquid, and pureed tomatoes; and bring to simmer. Return meatballs to skillet, reduce heat to medium-low, cover, and cook until meatballs register 160 degrees, 12 to 15 minutes, turning meatballs once. Transfer meatballs to platter, increase heat to high, and simmer sauce until slightly thickened, 3 to 5 minutes. Stir in basil and season with sugar, salt, and pepper to taste. Pour sauce over meatballs and serve, passing extra Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 30516,
+    "end": 30641,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

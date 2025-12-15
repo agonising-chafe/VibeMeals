@@ -1,0 +1,228 @@
+{
+  "mapped": {
+    "id": "atk_g-ngb-o-j-d-ng-sichuan-kung-pao-chicken",
+    "name": "Gōngbăo Jīdīng (Sichuan Kung Pao Chicken)",
+    "slug": "g-ngb-o-j-d-ng-sichuan-kung-pao-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-trimmed-and-cut-into-1-2-inch-pieces",
+        "displayName": "boneless, skinless chicken thighs, trimmed and cut into 1/2-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce-divided",
+        "displayName": "soy sauce, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chinese-rice-wine-or-dry-sherry",
+        "displayName": "Chinese rice wine or dry sherry",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-pepper",
+        "displayName": "white pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chinese-black-vinegar",
+        "displayName": "Chinese black vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "plus-1-teaspoon-vegetable-oil-divided",
+        "displayName": "plus 1 teaspoon vegetable oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-roasted-peanuts",
+        "displayName": "dry-roasted peanuts",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "PEANUT"
+        ]
+      },
+      {
+        "ingredientId": "dried-arbol-chiles-halved-lengthwise-and-seeded",
+        "displayName": "dried arbol chiles, halved lengthwise and seeded",
+        "amount": 1015,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sichuan-peppercorns-ground-coarse",
+        "displayName": "Sichuan peppercorns, ground coarse",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-ribs-cut-into-1-2-inch-pieces",
+        "displayName": "celery ribs, cut into 1/2-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-white-and-light-green-parts-only-cut-into-1-2-inch-pieces",
+        "displayName": "scallions, white and light green parts only, cut into 1/2-inch pieces",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHICKEN AND SAUCE: Combine chicken, 2 tablespoons soy sauce, cornstarch, rice wine, and white pepper in medium bowl and set aside. Stir vinegar, sugar, oil, and remaining 2 tablespoons soy sauce together in small bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE STIR-FRY: Stir 1 tablespoon oil, garlic, and ginger together in second small bowl. Combine peanuts and 1 teaspoon oil in 12-inch nonstick skillet over medium-low heat. Cook, stirring constantly, until peanuts just begin to darken, 3 to 5 minutes. Transfer peanuts to plate and spread into even layer to cool. Return now-empty skillet to medium-low heat. Add remaining 1 tablespoon oil, arbols, and peppercorns and cook, stirring constantly, until arbols begin to darken, 1 to 2 minutes. Add garlic mixture and cook, stirring constantly, until all clumps are broken up and mixture is fragrant, about 30 seconds."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add chicken and spread into even layer. Cover skillet; increase heat to medium-high; and cook, without stirring, for 1 minute. Stir chicken and spread into even layer. Cover and cook, without stirring, for 1 minute. Add celery and cook uncovered, stirring frequently, until chicken is cooked through, 2 to 3 minutes. Add soy sauce mixture and cook, stirring constantly, until sauce is thickened and shiny and coats chicken, 3 to 5 minutes. Stir in scallions and peanuts. Transfer to platter and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SESAME",
+      "PEANUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26278,
+    "end": 26334,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

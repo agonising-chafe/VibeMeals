@@ -1,0 +1,199 @@
+{
+  "mapped": {
+    "id": "atk_make-ahead-chocolate-souffl-s",
+    "name": "Make-Ahead Chocolate Soufflés",
+    "slug": "make-ahead-chocolate-souffl-s",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "RAMEKINS",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RAMEKINS"
+      },
+      {
+        "ingredientId": "bittersweet-or-semisweet-chocolate-chopped-coarse",
+        "displayName": "bittersweet or semisweet chocolate, chopped coarse",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SOUFFLES"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-2-inch-pieces",
+        "displayName": "unsalted butter, cut into 1/2-inch pieces",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SOUFFLES",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "grand-marnier",
+        "displayName": "Grand Marnier",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SOUFFLES"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SOUFFLES"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SOUFFLES"
+      },
+      {
+        "ingredientId": "large-eggs-separated-plus-2-large-whites",
+        "displayName": "large eggs, separated, plus 2 large whites",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SOUFFLES"
+      },
+      {
+        "ingredientId": "21-3-ounces-granulated-sugar",
+        "displayName": "(21/3 ounces) granulated sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SOUFFLES"
+      },
+      {
+        "ingredientId": "cream-of-tartar",
+        "displayName": "cream of tartar",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SOUFFLES",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "confectioners-sugar",
+        "displayName": "confectioners’ sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 180,
+        "description": "Freeze ramekins for at least 3 hours, or up to 1 month.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE RAMEKINS: Coat inside of eight 8-ounce ramekins with softened butter, then coat inside of each dish evenly with sugar. Refrigerate until ready to use."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE SOUFFLÉS: Melt chocolate and butter in medium heatproof bowl set over saucepan filled with 1 inch of barely simmering water, stirring frequently until smooth. Remove from heat and stir in Grand Marnier, vanilla, and salt; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using stand mixer fitted with whisk attachment, whip egg yolks and granulated sugar at medium speed until mixture triples in volume and is thick and pale yellow, 3 to 8 minutes. Fold yolk mixture into chocolate mixture."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using clean, dry mixer bowl and whisk attachment, whip egg whites at medium-low speed until frothy, 1 to 2 minutes. Add cream of tartar, increase mixer speed to medium-high, and whip until soft peaks form, 1 to 2 minutes. Add confectioners’ sugar and continue to whip until stiff peaks form, 2 to 4 minutes (do not overwhip). Whisk last few strokes by hand, making sure to scrape any unwhipped whites from bottom of bowl."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Vigorously stir one-quarter of whipped egg whites into chocolate mixture. Gently fold remaining whites into chocolate mixture until just incorporated. Carefully spoon mixture into prepared ramekins almost to rim, wiping excess filling from rims with wet paper towel. If making foil collar for ramekins, see below. (To serve right away, bake as directed in step 6, reducing baking time to 12 to 15 minutes. To make ahead. Wrap ramekins tightly with plastic wrap and then foil and freeze for at least 3 hours or up to 1 month; do not thaw before baking.)"
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "TO BAKE AND SERVE: Adjust oven rack to lower-middle position and heat oven to 400 degrees. Unwrap frozen ramekins and spread them out on baking sheet. Bake soufflés until fragrant, fully risen, and exterior is set but interior is still a bit loose and creamy, about 25 minutes. (To check interior, use 2 spoons to pull open top of one and peek inside.) Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 76663,
+    "end": 76727,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

@@ -1,0 +1,139 @@
+{
+  "mapped": {
+    "id": "atk_cast-iron-thick-cut-steaks-with-herb-butter",
+    "name": "Cast Iron Thick-Cut Steaks with Herb Butter",
+    "slug": "cast-iron-thick-cut-steaks-with-herb-butter",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-strip-steaks-11-2-inches-thick-trimmed",
+        "displayName": "boneless strip steaks, 11/2 inches thick, trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-shallot",
+        "displayName": "minced shallot",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Herb Butter"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Herb Butter"
+      },
+      {
+        "ingredientId": "minced-fresh-chives",
+        "displayName": "minced fresh chives",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Herb Butter"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Herb Butter"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position, place 12-inch cast-iron skillet on rack, and heat oven to 500 degrees. Meanwhile, season steaks with salt and let sit at room temperature. Mix butter, shallot, parsley, chives, garlic, 1/4 teaspoon pepper, and pinch of salt together in bowl; set aside until needed."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "When oven reaches 500 degrees, pat steaks dry with paper towels and season with pepper. Using potholders, remove skillet from oven and place over medium-high heat; turn off oven. Being careful of hot skillet handle, add oil and heat until just smoking. Cook steaks, without moving, until lightly browned on first side, about 2 minutes. Flip steaks and continue to cook until lightly browned on second side, about 2 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Flip steaks, reduce heat to medium-low, and cook, flipping every 2 minutes, until steaks are well browned and meat registers 120 to 125 degrees (for medium-rare), 7 to 9 minutes. Transfer steaks to carving board, dollop 2 tablespoons herb butter on each steak, tent loosely with aluminum foil, and let rest for 5 to 10 minutes. Slice steaks into 1/2-inch-thick slices and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 33247,
+    "end": 33283,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

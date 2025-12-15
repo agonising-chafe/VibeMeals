@@ -1,0 +1,113 @@
+{
+  "mapped": {
+    "id": "atk_pan-seared-shrimp",
+    "name": "Pan-Seared Shrimp",
+    "slug": "pan-seared-shrimp",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 20,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-large-shrimp-21-to-25-per-pound-peeled-and-deveined-see-below",
+        "displayName": "extra-large shrimp (21 to 25 per pound), peeled and deveined (see below)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-1-tablespoon-of-the-oil-in-a-12-inch-skillet-over-high-heat-until-smoking-meanwhile-toss-the-shrimp-salt-pepper-and-sugar-in-a-medium-bowl-add-half-of-the-shrimp-to-the-pan-in-a-single-layer-and-cook-until-spotty-brown-and-the-edges-turn-pink-about-1-minute-remove-the-pan-from-the-heat-using-tongs-flip-each-shrimp-and-let-stand-until-all-but-the-very-center-is-opaque-about-30-seconds-transfer-the-shrimp-to-a-large-plate-repeat-with-the-remaining-1-tablespoon-oil-and-the-remaining-shrimp-after-the-second-batch-has-stood-off-the-heat-return-the-first-batch-to-the-skillet-and-toss-to-combine-cover-the-skillet-and-let-stand-until-the-shrimp-are-cooked-through-1-to-2-minutes-serve-immediately",
+        "displayName": "Heat 1 tablespoon of the oil in a 12-inch skillet over high heat until smoking. Meanwhile, toss the shrimp, salt, pepper, and sugar in a medium bowl. Add half of the shrimp to the pan in a single layer and cook until spotty brown and the edges turn pink, about 1 minute. Remove the pan from the heat. Using tongs, flip each shrimp and let stand until all but the very center is opaque, about 30 seconds. Transfer the shrimp to a large plate. Repeat with the remaining 1 tablespoon oil and the remaining shrimp. After the second batch has stood off the heat, return the first batch to the skillet and toss to combine. Cover the skillet and let stand until the shrimp are cooked through, 1 to 2 minutes. Serve immediately.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "After removing the shell, use a paring knife to make a shallow cut along the back of the shrimp so that the vein is exposed."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Use the tip of the knife to lift the vein out of the shrimp. Discard the vein by wiping the blade against a paper towel."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 44464,
+    "end": 44517,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

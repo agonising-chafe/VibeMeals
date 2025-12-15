@@ -1,0 +1,218 @@
+{
+  "mapped": {
+    "id": "atk_breton-kouign-amann",
+    "name": "Breton Kouign Amann",
+    "slug": "breton-kouign-amann",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 9,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "111-4-ounces-all-purpose-flour",
+        "displayName": "(111/4 ounces) all-purpose flour",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-room-temperature",
+        "displayName": "water, room temperature",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter-softened",
+        "displayName": "salted butter, softened",
+        "amount": 16,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "51-4-ounces-plus-1-tablespoon-sugar-divided",
+        "displayName": "(51/4 ounces) plus 1 tablespoon sugar, divided",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "milk",
+        "displayName": "milk",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 2,
+        "description": "Refrigerate dough for at least 1 hour or up to 24 hours.",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 1,
+        "description": "Refrigerate butter mixture for at least 45 minutes or up to 24 hours.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Using rubber spatula, stir together flour, 3/4 teaspoon salt, and yeast in bowl of stand mixer. Add water and mix until most flour is moistened. Attach dough hook and knead on low speed until cohesive dough forms, about 1 minute. Increase speed to medium-low and knead until dough is smooth and elastic, about 5 minutes. Shape dough into ball (scrape out mixer bowl but do not wash). Flatten into rough 5-inch square and transfer to lightly greased plate. Cover dough and refrigerate for at least 1 hour or up to 24 hours. While dough rests, make butter packet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Fold 18-inch length of parchment in half to create rectangle. Fold over 3 open sides of rectangle to form 6 by 9-inch rectangle with enclosed sides. Crease folds firmly. Open parchment packet and set aside. Combine butter, 3/4 cup sugar, and remaining 1/2 teaspoon salt in now-empty mixer bowl. Using paddle, mix on low speed until thoroughly combined, about 1 minute. Transfer butter mixture to prepared parchment rectangle, fold parchment over mixture, and press to 1/2-inch thickness. Refold parchment at creases to enclose mixture. Turn packet over so flaps are underneath and roll gently until butter mixture fills packet, taking care to achieve even thickness. Refrigerate for at least 45 minutes or up to 24 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer butter block to counter. Transfer dough to freezer and freeze for 10 minutes. Meanwhile, adjust oven rack to middle position and heat oven to 375 degrees. Lightly grease 9-inch round cake pan and line with 12-inch parchment square, pleating parchment so it lines bottom and sides of pan."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer dough to well-floured counter and roll into 18 by 61/2-inch rectangle with short side parallel to counter edge. Unwrap butter block and place in center of dough. Fold upper and lower sections of dough over butter so they meet in center (it’s OK to gently stretch dough). Press center seam and side seams closed. Dust counter with more flour if necessary. Place rolling pin at top edge of dough and press gently to make slight depression across top. Lift pin, move it 1 inch closer to you, and press again. Continue pressing and lifting to bottom edge. Turn rolling pin 90 degrees and make similar depressions across width of dough. Roll dough out lengthwise into 21 by 7-inch rectangle (it’s OK if it becomes slightly wider). Pop any bubbles that form. Using dry pastry brush, dust off any flour clinging to surface of dough. Starting at bottom of dough, fold into thirds like business letter to form 7-inch square. Turn square 90 degrees. Dust counter with more flour if necessary. Roll out lengthwise into 21 by 7-inch rectangle, and pop any bubbles. Using dry pastry brush, dust off any flour clinging to surface of dough, and fold into thirds."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Dust counter with more flour if necessary. Roll dough into 11-inch square. Fold each corner to center, overlapping slightly, and press to adhere. Push right and left corners toward center, and then push top and bottom corners toward center to form rough, crumpled round. Press top to compress. Flip dough so smoother side is facing up, then tuck edges under to form round. Flatten gently with your hands, then roll dough into 91/2-inch round. Transfer to prepared pan (it’s OK if dough is slightly sticky), squishing edges to fit."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Brush top with milk. Using sharp paring knife, score top of pastry in diamond pattern. Sprinkle evenly with remaining 1 tablespoon sugar. Using paring knife, pierce dough all the way down to pan surface in 4 places to create air vents. Bake until pastry is deeply browned and crisp, 50 minutes to 1 hour. Let cool in pan on wire rack for 10 minutes. Invert, remove parchment, and reinvert. Let cool for at least 30 minutes before serving."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Fold 18-inch length of parchment in half to create rectangle."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Fold over 3 open sides of rectangle to form 6 by 9-inch rectangle with enclosed sides. Crease folds firmly."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Open parchment packet and place butter mixture in center."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Fold parchment over mixture and press to 1/2-inch thickness. Refold parchment at creases to enclose mixture."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Turn packet over so flaps are underneath and roll until butter fills packet, taking care to achieve even thickness."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Transfer dough to well-floured counter and roll into 18 by 61/2-inch rectangle with short side parallel to counter edge. Unwrap butter block and place in center of dough."
+      },
+      {
+        "stepNumber": 13,
+        "instruction": "Fold upper and lower sections of dough over butter so they meet in center (it’s OK to gently stretch dough). Press center seam and side seams closed."
+      },
+      {
+        "stepNumber": 14,
+        "instruction": "Place rolling pin at top edge of dough and press gently to make slight depression across top. Lift pin, move it 1 inch closer to you, and press again. Continue pressing and lifting to bottom edge."
+      },
+      {
+        "stepNumber": 15,
+        "instruction": "Turn rolling pin 90 degrees and make similar depressions across width of dough."
+      },
+      {
+        "stepNumber": 16,
+        "instruction": "Roll dough out lengthwise into 21 by 7-inch rectangle. Pop any bubbles that form and dust off any flour clinging to surface of dough using dry pastry brush."
+      },
+      {
+        "stepNumber": 17,
+        "instruction": "Starting at bottom of dough, fold into thirds like business letter to form 7-inch square. Turn square 90 degrees. Roll out lengthwise into 21 by 7-inch rectangle, popping any bubbles that form."
+      },
+      {
+        "stepNumber": 18,
+        "instruction": "Using dry pastry brush, dust off any flour clinging to surface of dough. Fold dough into thirds."
+      },
+      {
+        "stepNumber": 19,
+        "instruction": "Roll dough into 11-inch square."
+      },
+      {
+        "stepNumber": 20,
+        "instruction": "Fold each corner to center, overlapping slightly, and press to adhere."
+      },
+      {
+        "stepNumber": 21,
+        "instruction": "Push right and left corners toward center, and then push top and bottom corners toward center to form rough, crumpled round."
+      },
+      {
+        "stepNumber": 22,
+        "instruction": "Press top to compress. Flip dough so smoother side is facing up, then tuck edges under to form round. Flatten gently with your hands, then roll dough into 91/2-inch round. Transfer to prepared pan."
+      },
+      {
+        "stepNumber": 23,
+        "instruction": "Using sharp paring knife, score top of pastry in diamond pattern."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 65754,
+    "end": 65908,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

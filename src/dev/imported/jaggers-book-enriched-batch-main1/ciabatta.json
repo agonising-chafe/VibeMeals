@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_ciabatta",
+    "name": "Ciabatta",
+    "slug": "ciabatta",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 420,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 2 loaves",
+      "baseServings": 2,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-ounces-unbleached-all-purpose-flour",
+        "displayName": "(5 ounces) unbleached all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPONGE"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPONGE"
+      },
+      {
+        "ingredientId": "water-at-room-temperature",
+        "displayName": "water, at room temperature",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPONGE"
+      },
+      {
+        "ingredientId": "10-ounces-unbleached-all-purpose-flour-plus-extra-for-the-dough-and-work-surface",
+        "displayName": "(10 ounces) unbleached all-purpose flour, plus extra for the dough and work surface",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "water-at-room-temperature",
+        "displayName": "water, at room temperature",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "milk-at-room-temperature",
+        "displayName": "milk, at room temperature",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DOUGH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "task": "sponge",
+        "durationMinutes": 480,
+        "timeOfCompletion": "START",
+        "type": "LONG_PREP",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SPONGE: Combine the flour, yeast, and water in a medium bowl and stir with a wooden spoon until a uniform mass forms, about 1 minute. Cover the bowl tightly with plastic wrap and let stand at room temperature (about 70 degrees) for at least 8 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE DOUGH: Place the sponge and dough ingredients in the bowl of a stand mixer fitted with the paddle attachment. Mix on low speed until roughly combined and a shaggy dough forms, about 1 minute; scrape down the sides of the bowl as necessary. Increase the speed to medium-low and continue mixing until the dough becomes a uniform mass that collects on the paddle and pulls away from the sides of the bowl, 4 to 6 minutes. Change to the dough hook and knead the bread on medium speed until smooth and shiny (the dough will be very sticky), about 10 minutes. (If the dough creeps up on the attachment, stop the mixer and scrape it down.) Transfer the dough to a large bowl and cover tightly with plastic wrap. Let the dough rise at room temperature until doubled in size, about 1 hour. (The dough should barely spring back when poked with a knuckle.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Spray a rubber spatula or bowl scraper with vegetable oil spray; fold the partially risen dough over itself by gently lifting and folding the edge of the dough toward the middle. Turn the bowl 90 degrees; fold again. Turn the bowl and fold the dough six more times (for a total of eight turns). Cover with plastic wrap and let rise for 30 minutes. Repeat folding, replace the plastic wrap, and let rise until doubled in size, about 30 minutes longer. Meanwhile, adjust an oven rack to the lower-middle position, place a baking stone on the rack, and heat the oven to 450 degrees at least 30 minutes before baking."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Cut two 12 by 6-inch pieces of parchment paper and liberally dust with flour. Transfer the dough to a floured work surface, being careful not to deflate it completely. Liberally flour the top of the dough and divide it in half with a bench scraper. Turn one piece of dough cut side up and dust with flour. With well-floured hands, press the dough into a rough 12 by 6-inch shape. Fold the shorter sides of the dough toward the center, overlapping them like a business letter to form a 7 by 4-inch loaf. Repeat with the second dough piece. Gently transfer each loaf, seam side down, to the parchment sheets, dust with flour, and cover with plastic wrap. Let the loaves sit at room temperature for 30 minutes (the surface of the loaves will develop small bubbles)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Slide the parchment with the loaves onto an inverted rimmed baking sheet or pizza peel. Using floured fingertips, evenly poke the entire surface of each loaf to form a 10 by 6-inch rectangle; spray the loaves lightly with water. Carefully slide the parchment with the loaves onto the baking stone using a jerking motion. Bake, spraying the loaves with water twice more during the first 5 minutes of baking time, until the crust is a deep golden brown and the center of the loaves registers 210 degrees, 22 to 27 minutes. Transfer to a wire rack, discard the parchment, and cool the loaves to room temperature, about 1 hour, before slicing and serving."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using greased spatula or bowl scraper, fold dough over itself by gently lifting and folding edge of dough toward middle. Turn bowl 45 degrees and fold dough again; repeat 6 more times (total of 8 folds)."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "After rising, divide dough in half on well-floured counter. Press and stretch each half into a 12 by 6-inch rectangle, being careful not to deflate dough completely."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Fold top and bottom thirds of dough over middle to form 7 by 4-inch loaf. Pinch seams closed. Transfer loaf seam side down to prepared parchment; cover with greased plastic. Repeat with remaining dough."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Transfer parchment with loaves to pizza peel. Using your floured fingertips, evenly poke entire surface of each loaf to form 10 by 6-inch rectangle."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 64640,
+    "end": 64718,
+    "yieldLine": "MAKES 2 loaves"
+  },
+  "fit": true
+}

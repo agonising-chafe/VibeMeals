@@ -1,0 +1,182 @@
+{
+  "mapped": {
+    "id": "atk_from-the-freezer-blueberry-cinnamon-muffins",
+    "name": "From-the-Freezer Blueberry-Cinnamon Muffins",
+    "slug": "from-the-freezer-blueberry-cinnamon-muffins",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 12 muffins",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "7-ounces-granulated-sugar",
+        "displayName": "(7 ounces) granulated sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lemon-zest-divided",
+        "displayName": "grated lemon zest, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "121-2-ounces-all-purpose-flour",
+        "displayName": "(121/2 ounces) all-purpose flour",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "71-2-ounces-fresh-or-frozen-blueberries",
+        "displayName": "(71/2 ounces) fresh or frozen blueberries",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "turbinado-sugar",
+        "displayName": "turbinado sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Line 12-cup muffin tin with paper or foil liners."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk eggs and oil in large bowl until thoroughly combined. Add buttermilk, granulated sugar, and 1 teaspoon lemon zest and whisk to combine. Whisk flour, baking powder, cinnamon, baking soda, and salt together in medium bowl. Gently whisk one-third of flour mixture into egg mixture until no lumps remain. Whisk in half of remaining flour mixture until smooth. Using rubber spatula, gently fold in remaining flour mixture until few streaks of flour remain. Stir in blueberries until evenly distributed and no dry streaks of flour remain."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using portion scoop or large spoon, divide batter evenly among prepared muffin cups (about 1/3 cup batter per liner). In small bowl, stir turbinado sugar and remaining 1 teaspoon zest together. Evenly sprinkle sugar-zest mixture over batter."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Cover tin and transfer to freezer and freeze batter until solid, at least 3 hours. Transfer frozen batter portions (in liners) to zipper-lock bag and freeze for up to 2 months. (If liners freeze to tin, place muffin tin in rimmed baking sheet filled with 1/8 inch warm water for 1 minute. Twist and lift to release, then transfer to bag for freezing.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "TO BAKE: Adjust oven rack to middle position and heat oven to 350 degrees. Arrange desired number of (frozen) batter portions in muffin tin and bake until muffins have risen and are lightly browned and toothpick inserted into center comes out clean, 33 to 36 minutes. Let muffins cool in muffin tin on wire rack for 5 minutes. Remove muffins from muffin tin and let cool for 5 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63049,
+    "end": 63101,
+    "yieldLine": "MAKES 12 muffins"
+  },
+  "fit": true
+}

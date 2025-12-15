@@ -1,0 +1,274 @@
+{
+  "mapped": {
+    "id": "atk_papa-johns-applepie",
+    "name": "Papa Johns Applepie",
+    "slug": "papa-johns-applepie",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dessert-pizzas-are-typically-made-from-pizza-dough-topped-with-a-sweet-filling-a-crumble-topping-and-a-glaze-and-papa-johns-applepie-is-no-different-this-version-combines-the-best-of-pizza-and-apple-pie-for-a-sweet-treat",
+        "displayName": "Dessert pizzas are typically made from pizza dough topped with a sweet filling, a crumble topping, and a glaze—and Papa Johns Applepie is no different. This version combines the best of pizza and apple pie for a sweet treat.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pizza",
+        "displayName": "Pizza",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-refrigerated-pizza-dough",
+        "displayName": "can refrigerated pizza dough",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-apple-pie-filling",
+        "displayName": "can apple pie filling",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "½ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-packed-light-brown-sugar",
+        "displayName": "½ cup packed light brown sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-quick-oats",
+        "displayName": "½ cup quick oats",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cold-unsalted-butter",
+        "displayName": "½ cup cold unsalted butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "glaze",
+        "displayName": "Glaze",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "confectioners-sugar",
+        "displayName": "confectioners’ sugar",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-pizza-preheat-oven-to-400-f",
+        "displayName": "For the pizza: Preheat oven to 400°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "roll-dough-out-on-a-floured-surface-to-fit-diameter-of-your-pizza-pan-place-dough-on-ungreased-pan-and-form-to-edge-of-pan",
+        "displayName": "Roll dough out on a floured surface to fit diameter of your pizza pan. Place dough on ungreased pan and form to edge of pan.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brush-dough-with-oil-and-prick-with-a-fork-prebake-dough-3-minutes-remove-from-oven",
+        "displayName": "Brush dough with oil and prick with a fork. Prebake dough 3 minutes. Remove from oven.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-apple-pie-filling-evenly-over-dough",
+        "displayName": "Spread apple pie filling evenly over dough.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-flour-brown-sugar-oats-butter-and-cinnamon-with-a-fork-or-pastry-blender-spoon-mixture-over-apple-pie-filling",
+        "displayName": "In a medium bowl, combine flour, brown sugar, oats, butter, and cinnamon with a fork or pastry blender. Spoon mixture over apple pie filling.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "return-pizza-to-oven-and-bake-10-15-minutes-until-crust-is-light-golden-brown-remove-from-oven",
+        "displayName": "Return pizza to oven and bake 10–15 minutes until crust is light golden brown. Remove from oven.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-glaze-in-a-small-bowl-combine-all-ingredients-drizzle-glaze-over-pizza-serve",
+        "displayName": "For the glaze: In a small bowl, combine all ingredients. Drizzle glaze over pizza. Serve.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dessert-pizzas-have-become-a-very-hot-item-on-many-restaurant-menus-they-come-in-many-varieties-depending-on-the-season-and-the-local-flavor-you-can-make-your-own-crust-from-scratch-of-course-but-this-recipe-calls-for-a-ready-made-store-bought-crust-found-at-any-grocery-store",
+        "displayName": "Dessert pizzas have become a very hot item on many restaurant menus. They come in many varieties depending on the season and the local flavor. You can make your own crust from scratch of course, but this recipe calls for a ready-made store-bought crust found at any grocery store.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10439,
+    "end": 10505,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

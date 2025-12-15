@@ -1,0 +1,181 @@
+{
+  "mapped": {
+    "id": "atk_new-england-fish-chowder",
+    "name": "New England Fish Chowder",
+    "slug": "new-england-fish-chowder",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "onions-cut-into-1-2-inch-dice",
+        "displayName": "onions, cut into 1/2-inch dice",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt-pork-rind-removed-rinsed-and-cut-into-2-pieces",
+        "displayName": "salt pork, rind removed, rinsed, and cut into 2 pieces",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "skinless-cod-fillets-sliced-crosswise-into-6-equal-pieces",
+        "displayName": "skinless cod fillets, sliced crosswise into 6 equal pieces",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "yukon-gold-potatoes-peeled-and-cut-into-1-2-inch-dice",
+        "displayName": "Yukon Gold potatoes, peeled and cut into 1/2-inch dice",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt butter in Dutch oven over medium heat. Add onions, salt pork, thyme, salt, and bay leaf; cook, stirring occasionally, until onions are softened but not browned, 3 to 5 minutes. Add water and bring to simmer. Remove pot from heat; gently place cod in water; cover; and let cod stand until opaque and nearly cooked through, about 5 minutes. Using metal spatula, transfer cod to bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Return pot to medium-high heat, add potatoes, and bring to simmer. Cook until potatoes are tender and beginning to break apart, about 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, whisk milk, cornstarch, and pepper together in bowl. Stir milk mixture into chowder and return to simmer. Return cod and any accumulated juices to pot. Remove pot from heat, cover, and let stand for 5 minutes. Remove and discard salt pork and bay leaf. Stir gently with wooden spoon to break cod into large pieces. Season with salt and pepper to taste. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 9112,
+    "end": 9160,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

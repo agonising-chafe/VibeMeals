@@ -1,0 +1,106 @@
+{
+  "mapped": {
+    "id": "atk_cherry-sauce",
+    "name": "Cherry Sauce",
+    "slug": "cherry-sauce",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 2 cups",
+      "baseServings": 4,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "do-not-thaw-the-cherries-before-using-water-can-be-substituted-for-the-kirsch",
+        "displayName": "Do not thaw the cherries before using. Water can be substituted for the kirsch.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-sweet-cherries",
+        "displayName": "frozen sweet cherries",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-4-ounces-sugar",
+        "displayName": "(13/4 ounces) sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kirsch",
+        "displayName": "kirsch",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine cherries and sugar in bowl and microwave for 11/2 minutes. Stir, then continue to microwave until sugar is mostly dissolved, about 1 minute longer. Combine kirsch and cornstarch in small bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Drain cherries in fine-mesh strainer set over small saucepan. Return cherries to bowl and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bring juice in saucepan to simmer over medium-high heat. Stir in kirsch mixture and bring to boil. Boil, stirring occasionally, until mixture has thickened and appears syrupy, 1 to 2 minutes. Remove saucepan from heat and stir in cherries and lemon juice. Let sauce cool completely before serving. (Sauce can be refrigerated for up to 1 week.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 77022,
+    "end": 77050,
+    "yieldLine": "MAKES 2 cups"
+  },
+  "fit": true
+}

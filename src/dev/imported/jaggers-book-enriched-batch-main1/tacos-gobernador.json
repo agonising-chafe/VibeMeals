@@ -1,0 +1,264 @@
+{
+  "mapped": {
+    "id": "atk_tacos-gobernador",
+    "name": "Tacos Gobernador",
+    "slug": "tacos-gobernador",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter-divided",
+        "displayName": "unsalted butter, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-shrimp-41-to-50-per-pound-peeled-deveined-and-tails-removed-chopped-see-this-page",
+        "displayName": "medium shrimp (41 to 50 per pound), peeled, deveined, and tails removed, chopped (see this page)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "large-poblano-chile-stemmed-seeded-and-cut-into-2-inch-long-matchsticks",
+        "displayName": "large poblano chile, stemmed, seeded, and cut into 2-inch-long matchsticks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-halved-and-sliced-thin",
+        "displayName": "onion, halved and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "serrano-chile-stemmed-seeded-and-minced",
+        "displayName": "serrano chile, stemmed, seeded, and minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-mexican-oregano",
+        "displayName": "dried Mexican oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plum-tomatoes-cored-and-chopped-fine",
+        "displayName": "plum tomatoes, cored and chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro-plus-extra-for-serving",
+        "displayName": "chopped fresh cilantro, plus extra for serving",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-corn-tortillas",
+        "displayName": "(6-inch) corn tortillas",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oaxaca-cheese-shredded-2-cups",
+        "displayName": "Oaxaca cheese, shredded (2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "mexican-crema-or-sour-cream",
+        "displayName": "Mexican crema or sour cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "Hot sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 200 degrees. Set wire rack in rimmed baking sheet and place in oven. Place colander inside medium bowl; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Melt 1 tablespoon butter in 12-inch nonstick skillet over medium heat. Add shrimp and cook, stirring frequently, until just opaque, about 2 minutes. Transfer shrimp to prepared colander to drain."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return skillet to heat and melt remaining 2 tablespoons butter. Add poblano, onion, and serrano and cook, stirring frequently, until onion is softened and starting to brown, 6 to 8 minutes. Stir in garlic, oregano, coriander, cumin, and salt and cook for 1 minute. Add tomatoes and cook until vegetable mixture is dry, 4 to 5 minutes. Off heat, stir in cilantro."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Discard any shrimp juices that have collected in bowl. Transfer shrimp and vegetable mixture to now-empty bowl and stir to combine. Season with salt to taste. Wipe out skillet."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Stack tortillas, wrap in damp dish towel, and place on plate; microwave until warm and pliable, about 30 seconds. Place 1 tortilla on cutting board (keep others covered) and brush top lightly with oil. Flip tortilla over, then sprinkle evenly with 1/4 cup cheese. Spread 1/4 cup shrimp mixture over half of tortilla, leaving 1/8-inch border at edge. Fold and press to close tortilla. Repeat with remaining tortillas, oil, and filling."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Arrange 4 tacos in now-empty skillet with open sides facing toward center of pan. Place skillet over medium-high heat and cook until cheese has melted and tacos are spotty golden brown on 1 side, 2 to 3 minutes. Using tongs and thin spatula, carefully flip tacos. Cook until spotty golden brown on second side, 2 to 3 minutes, adjusting heat as necessary."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Remove skillet from heat and transfer tacos to prepared sheet in oven to keep warm. Arrange remaining 4 tacos in skillet, return pan to medium-high heat, and cook remaining tacos. Serve tacos immediately, passing lime wedges, crema, hot sauce, and cilantro separately. Open tacos to add garnishes."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 45046,
+    "end": 45110,
+    "yieldLine": "SERVES 4 SEASON 26"
+  },
+  "fit": true
+}

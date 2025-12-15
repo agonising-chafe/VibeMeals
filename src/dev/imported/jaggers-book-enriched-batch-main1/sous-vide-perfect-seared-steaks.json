@@ -1,0 +1,85 @@
+{
+  "mapped": {
+    "id": "atk_sous-vide-perfect-seared-steaks",
+    "name": "Sous Vide Perfect Seared Steaks",
+    "slug": "sous-vide-perfect-seared-steaks",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-beef-steaks-1-to-11-2-inches-thick-trimmed",
+        "displayName": "boneless beef steaks, 1 to 11/2 inches thick, trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 7,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Sous vide steaks",
+        "durationMinutes": 90,
+        "waitType": "SLOW_COOK",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Using sous vide circulator, bring water to 130 degrees in 7-quart container."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Season steaks with salt and pepper. Place steaks and 1/4 cup oil in 1-gallon zipper-lock freezer bag and toss to coat. Arrange steaks in single layer and seal bag, pressing out as much air as possible. Gently lower bag into prepared water bath until steaks are fully submerged, and then clip top corner of bag to side of water bath container, allowing remaining air bubbles to rise to top of bag. Reopen 1 corner of zipper, release remaining air bubbles, and reseal bag. Cover and cook for at least 11/2 hours or up to 3 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer steaks to paper towel–lined plate and let rest for 5 to 10 minutes. Pat steaks dry with paper towels. Heat remaining 3 tablespoons oil in 12-inch skillet over medium-high heat until just smoking. Sear steaks, about 1 minute per side, until well browned. Transfer to cutting board and slice 1/2 inch thick. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 32897,
+    "end": 32923,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

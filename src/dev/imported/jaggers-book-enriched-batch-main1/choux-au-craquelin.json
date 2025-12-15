@@ -1,0 +1,321 @@
+{
+  "mapped": {
+    "id": "atk_choux-au-craquelin",
+    "name": "Choux au Craquelin",
+    "slug": "choux-au-craquelin",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 24 CHOUX",
+      "baseServings": 24
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "whole-milk-divided",
+        "displayName": "whole milk, divided",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PASTRY CREAM",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "31-3-ounces-all-purpose-flour",
+        "displayName": "(31/3 ounces) all-purpose flour",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTRY CREAM"
+      },
+      {
+        "ingredientId": "31-2-ounces-granulated-sugar",
+        "displayName": "(31/2 ounces) granulated sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTRY CREAM"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTRY CREAM"
+      },
+      {
+        "ingredientId": "large-egg-yolks",
+        "displayName": "large egg yolks",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PASTRY CREAM",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-4-pieces-and-chilled",
+        "displayName": "unsalted butter, cut into 4 pieces and chilled",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PASTRY CREAM",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTRY CREAM"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CRAQUELIN",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "packed-31-2-ounces-light-brown-sugar",
+        "displayName": "packed (31/2 ounces) light brown sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CRAQUELIN"
+      },
+      {
+        "ingredientId": "33-4-ounces-all-purpose-flour",
+        "displayName": "(33/4 ounces) all-purpose flour",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CRAQUELIN"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CRAQUELIN"
+      },
+      {
+        "ingredientId": "large-eggs-plus-1-large-white",
+        "displayName": "large eggs plus 1 large white",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CHOUX"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CHOUX"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-2-inch-pieces",
+        "displayName": "unsalted butter, cut into 1/2-inch pieces",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CHOUX",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "milk",
+        "displayName": "milk",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CHOUX",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CHOUX"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CHOUX"
+      },
+      {
+        "ingredientId": "21-2-ounces-all-purpose-flour",
+        "displayName": "(21/2 ounces) all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CHOUX"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate pastry cream until set",
+        "durationMinutes": 120,
+        "priority": 1,
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Freeze craquelin until firm",
+        "durationMinutes": 30,
+        "priority": 2,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PASTRY CREAM: Heat 2 cups milk in medium saucepan over medium heat until just simmering. Meanwhile, whisk flour, sugar, and salt in medium bowl until combined. Add egg yolks and remaining 1/2 cup milk to flour mixture and whisk until smooth. Remove saucepan from heat and, whisking constantly, slowly add 1/2 cup milk to yolk mixture to temper. Whisking constantly, add tempered yolk mixture to milk in saucepan."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Return saucepan to medium heat and cook, whisking constantly, until mixture thickens slightly, about 1 minute. Reduce heat to medium-low and continue to simmer, whisking constantly, for 8 minutes longer. Increase heat to medium and cook, whisking vigorously, until very thick (mixture dripped from whisk should mound on surface), 1 to 2 minutes. Off heat, whisk in butter and vanilla until butter is melted and incorporated. Transfer to wide bowl. Press lightly greased parchment paper directly on surface and refrigerate until set, at least 2 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE CRAQUELIN: Mix butter and sugar in medium bowl until combined. Mix in flour and salt. Transfer mixture to large sheet of parchment and press into 6-inch square. Cover with second piece of parchment and roll dough into 13 by 9-inch rectangle (it’s fine to trim and patch dough to achieve correct dimensions). Remove top piece of parchment and use 2-inch round cutter to cut 24 circles. Leaving circles and trim in place, replace top parchment and transfer to rimless baking sheet. Freeze until firm, at least 30 minutes or up to 2 days."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE CHOUX: Adjust oven rack to middle position and heat oven to 400 degrees. Spray rimmed baking sheet with vegetable oil spray and dust lightly and evenly with flour, discarding any excess. Using 2-inch round cutter, mark 24 circles on sheet. Fit pastry bag with 1/2-inch round tip. Beat eggs and white together in 2-cup liquid measuring cup."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Bring water, butter, milk, sugar, and salt to boil in small saucepan over medium heat, stirring occasionally. Off heat, stir in flour until incorporated. Return saucepan to low heat and cook, stirring constantly and using smearing motion, until mixture looks like shiny, wet sand, about 3 minutes (mixture should register between 175 and 180 degrees)."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Immediately transfer hot mixture to food processor and process for 10 seconds to cool slightly. With processor running, add beaten eggs in steady stream and process until incorporated, about 30 seconds. Scrape down sides of bowl and continue to process until smooth, thick, sticky paste forms, about 30 seconds longer."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Fill pastry bag with warm mixture and pipe into 11/2-inch-wide mounds on prepared sheet, using circles as guide. Using small, thin spatula, transfer 1 frozen craquelin disk to top of each mound. Bake for 15 minutes; then, without opening oven door, reduce oven temperature to 350 degrees and continue to bake until golden brown and firm, 7 to 10 minutes longer."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Remove sheet from oven and cut 3/4-inch slit into side of each pastry with paring knife to release steam. Return pastries to oven, turn off oven, and prop open oven door with handle of wooden spoon. Let pastries dry until center is mostly dry and surface is crisp, about 45 minutes. Transfer pastries to wire rack and let cool completely."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Fit pastry bag with 1/4-inch round tip. In large bowl, whisk cream to stiff peaks. Gently whisk pastry cream until smooth. Fold pastry cream into whipped cream until combined. Transfer one-third of mixture to pastry bag. To fill choux buns, insert pastry tip 3/4 inch into opening and squeeze gently until cream just starts to appear around opening, about 2 tablespoons cream per bun. Refill bag as needed. Serve. (Choux are best eaten up to 2 hours after filling. Leftovers can be refrigerated for up to 3 days but will soften over time.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 70104,
+    "end": 70184,
+    "yieldLine": "MAKES 24 CHOUX"
+  },
+  "fit": true
+}

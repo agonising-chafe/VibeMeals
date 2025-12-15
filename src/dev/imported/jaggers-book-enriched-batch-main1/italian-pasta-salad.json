@@ -1,0 +1,203 @@
+{
+  "mapped": {
+    "id": "atk_italian-pasta-salad",
+    "name": "Italian Pasta Salad",
+    "slug": "italian-pasta-salad",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_POT",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fusilli",
+        "displayName": "fusilli",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-patted-dry-and-minced",
+        "displayName": "anchovy fillets, rinsed, patted dry, and minced",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepperoncini-stemmed-plus-2-tablespoons-reserved-liquid",
+        "displayName": "pepperoncini, stemmed, plus 2 tablespoons reserved liquid",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "capers-rinsed",
+        "displayName": "capers, rinsed",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oil-packed-sun-dried-tomatoes-sliced-thin",
+        "displayName": "oil-packed sun-dried tomatoes, sliced thin",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-kalamata-olives-quartered",
+        "displayName": "pitted kalamata olives, quartered",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salami-cut-into-3-8-inch-dice",
+        "displayName": "salami, cut into 3/8-inch dice",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-mozzarella-cheese-cut-into-3-8-inch-dice-and-patted-dry-with-paper-towels",
+        "displayName": "fresh mozzarella cheese, cut into 3/8-inch dice and patted dry with paper towels",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "2-ounces-baby-arugula",
+        "displayName": "(2 ounces) baby arugula",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 4 quarts water to boil in large pot. Add pasta and 1 tablespoon salt and cook, stirring often, until pasta is tender throughout, 2 to 3 minutes past al dente. Drain pasta and rinse under cold water until chilled. Drain well and transfer to large bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, combine oil, anchovies, garlic, and pepper flakes in 1-cup liquid measuring cup. Cover and microwave until oil is bubbling and fragrant, 30 to 60 seconds. Set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Slice half of pepperoncini into thin rings and set aside. Transfer remaining pepperoncini to food processor. Add capers and pulse until finely chopped, 8 to 10 pulses, scraping down sides of bowl as necessary. Add 2 tablespoons reserved pepperoncini liquid and warm oil mixture and process until combined, about 20 seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add dressing to pasta and toss to combine. Add sun-dried tomatoes, olives, salami, mozzarella, arugula, basil, and reserved pepperoncini rings and toss well. Season to taste with salt and pepper. Serve. (Salad can be refrigerated for up to 3 days. Bring to room temperature before serving.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14600,
+    "end": 14650,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

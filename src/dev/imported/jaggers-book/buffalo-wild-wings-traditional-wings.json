@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_buffalo-wild-wings-traditional-wings",
+    "name": "Buffalo Wild Wings Traditional Wings",
+    "slug": "buffalo-wild-wings-traditional-wings",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "buffalo-wild-wings-restaurants-have-a-choice-of-twenty-six-sauces-and-dry-rubs-for-their-wings-this-recipe-calls-for-traditional-buffalo-sauce-but-feel-free-to-mix-it-up-you-can-dress-these-wings-in-any-wing-sauce-you-love-best-and-serve-them-with-ranch-or-blue-cheese-dressing-for-dipping",
+        "displayName": "Buffalo Wild Wings restaurants have a choice of twenty-six sauces and dry rubs for their wings. This recipe calls for traditional buffalo sauce, but feel free to mix it up. You can dress these wings in any wing sauce you love best and serve them with ranch or blue cheese dressing for dipping.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-wing-pieces-flats-and-drumettes",
+        "displayName": "chicken wing pieces, flats and drumettes",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-buffalo-wing-sauce",
+        "displayName": "½ cup buffalo wing sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lay-wings-on-a-wire-rack-over-a-half-sheet-pan-sprinkle-both-sides-with-salt-refrigerate-uncovered-at-least-4-hours-or-overnight",
+        "displayName": "Lay wings on a wire rack over a half sheet pan. Sprinkle both sides with salt. Refrigerate, uncovered, at least 4 hours or overnight.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-wings-from-refrigerator-30-minutes-before-frying-to-allow-them-to-warm-to-room-temperature",
+        "displayName": "Remove wings from refrigerator 30 minutes before frying to allow them to warm to room temperature.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fry-wings-in-hot-oil-in-batches-4-5-minutes-until-wings-are-golden-brown-and-reach-an-internal-temperature-of-165-f-transfer-cooked-wings-to-a-paper-towel-lined-plate-and-repeat-with-remaining-wings",
+        "displayName": "Fry wings in hot oil in batches 4–5 minutes until wings are golden brown and reach an internal temperature of 165°F. Transfer cooked wings to a paper towel–lined plate and repeat with remaining wings.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-wings-in-a-large-bowl-and-add-sauce-toss-to-coat-wings-in-sauce-and-then-serve",
+        "displayName": "Place wings in a large bowl and add sauce. Toss to coat wings in sauce and then serve.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "store-bought-wing-sauce-is-very-tasty-but-did-you-know-you-can-purchase-authentic-buffalo-wild-wings-sauces-and-rubs-to-use-at-home-they-sell-a-range-of-their-signature-wing-sauces-and-dry-rubs-in-grocery-stores-online-and-in-their-restaurants",
+        "displayName": "Store-bought wing sauce is very tasty, but did you know you can purchase authentic Buffalo Wild Wings sauces and rubs to use at home? They sell a range of their signature wing sauces and dry rubs in grocery stores, online, and in their restaurants.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2102,
+    "end": 2142,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

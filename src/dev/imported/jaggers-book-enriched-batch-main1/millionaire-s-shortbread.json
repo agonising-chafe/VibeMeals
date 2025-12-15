@@ -1,0 +1,182 @@
+{
+  "mapped": {
+    "id": "atk_millionaire-s-shortbread",
+    "name": "Millionaire’s Shortbread",
+    "slug": "millionaire-s-shortbread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 40 cookies",
+      "baseServings": 40
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "121-2-ounces-all-purpose-flour",
+        "displayName": "(121/2 ounces) all-purpose flour",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-ounces-granulated-sugar",
+        "displayName": "(31/2 ounces) granulated sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 16,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "can-sweetened-condensed-milk",
+        "displayName": "can sweetened condensed milk",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "packed-7-ounces-brown-sugar",
+        "displayName": "packed (7 ounces) brown sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "corn-syrup",
+        "displayName": "corn syrup",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "bittersweet-chocolate-6-ounces-chopped-fine-2-ounces-grated",
+        "displayName": "bittersweet chocolate (6 ounces chopped fine, 2 ounces grated)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CHOCOLATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CRUST: Adjust oven rack to lower-middle position and heat oven to 350 degrees. Make foil sling for 13 by 9-inch baking pan by folding 2 long sheets of aluminum foil; first sheet should be 13 inches wide and second sheet should be 9 inches wide. Lay sheets of foil in pan perpendicular to each other, with extra foil hanging over edges of pan. Push foil into corners and up sides of pan, smoothing foil flush to pan. Combine flour, sugar, and salt in medium bowl. Add melted butter and stir with rubber spatula until flour is evenly moistened. Crumble dough evenly over bottom of prepared pan. Using your fingertips and palm of your hand, press and smooth dough into even thickness. Using fork, pierce dough at 1-inch intervals. Bake until light golden brown and firm to touch, 25 to 30 minutes. Transfer pan to wire rack. Using sturdy metal spatula, press on entire surface of warm crust to compress (this will make finished bars easier to cut). Let crust cool until it is just warm, at least 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE FILLING: Stir all ingredients together in large, heavy-bottomed saucepan. Cook over medium heat, stirring frequently, until mixture registers between 236 and 239 degrees (temperature will fluctuate), 16 to 20 minutes. Pour over crust and spread to even thickness (mixture will be very hot). Let cool completely, about 11/2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE CHOCOLATE: Microwave chopped chocolate in bowl at 50 percent power, stirring every 15 seconds, until melted but not much warmer than body temperature (check by holding in palm of your hand), 1 to 2 minutes. Add grated chocolate and stir until smooth, returning to microwave for no more than 5 seconds at a time to finish melting if necessary. Spread chocolate evenly over surface of filling. Refrigerate shortbread until chocolate is just set, about 10 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using foil overhang, lift shortbread out of pan and transfer to cutting board; discard foil. Using serrated knife and gentle sawing motion, cut shortbread in half crosswise to create two 9 by 61/2-inch rectangles. Cut each rectangle in half to make four 9 by 31/2-inch strips. Cut each strip crosswise into 10 equal pieces and serve. (Shortbread can be stored at room temperature, between layers of parchment, for up to 1 week.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 70612,
+    "end": 70662,
+    "yieldLine": "MAKES 40 cookies"
+  },
+  "fit": true
+}

@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_irish-brown-soda-bread",
+    "name": "Irish Brown Soda Bread",
+    "slug": "irish-brown-soda-bread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES one 8-inch loaf",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-ounces-whole-wheat-flour",
+        "displayName": "(11 ounces) whole-wheat flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "5-ounces-all-purpose-flour",
+        "displayName": "(5 ounces) all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wheat-bran",
+        "displayName": "wheat bran",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "wheat-germ",
+        "displayName": "wheat germ",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 375 degrees. Lightly grease 8-inch round cake pan. Whisk whole-wheat flour, all-purpose flour, wheat bran, wheat germ, sugar, baking powder, baking soda, and salt together in medium bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add buttermilk and stir with rubber spatula until all flour is moistened and dough forms soft, ragged mass. Transfer dough to counter and gently shape into 6-inch round (surface will be craggy). Using serrated knife, cut 1/2-inch-deep cross about 5 inches long on top of loaf. Transfer to prepared pan. Bake until loaf is lightly browned and center registers 185 degrees, 40 to 45 minutes, rotating pan halfway through baking."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Invert loaf onto wire rack. Reinvert loaf and let cool for at least 1 hour. Slice and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 62740,
+    "end": 62782,
+    "yieldLine": "MAKES one 8-inch loaf"
+  },
+  "fit": true
+}

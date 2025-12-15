@@ -1,0 +1,213 @@
+{
+  "mapped": {
+    "id": "atk_skillet-apple-crisp",
+    "name": "Skillet Apple Crisp",
+    "slug": "skillet-apple-crisp",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "33-4-ounces-all-purpose-flour",
+        "displayName": "(33/4 ounces) all-purpose flour",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecans-chopped-fine",
+        "displayName": "pecans, chopped fine",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "21-4-ounces-old-fashioned-rolled-oats",
+        "displayName": "(21/4 ounces) old-fashioned rolled oats",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-31-2-ounces-light-brown-sugar",
+        "displayName": "packed (31/2 ounces) light brown sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-4-ounces-granulated-sugar",
+        "displayName": "(13/4 ounces) granulated sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "golden-delicious-apples-peeled-cored-halved-and-cut-into-1-2-inch-thick-wedges",
+        "displayName": "Golden Delicious apples, peeled, cored, halved, and cut into 1/2-inch-thick wedges",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "13-4-ounces-granulated-sugar",
+        "displayName": "(13/4 ounces) granulated sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-cinnamon-optional",
+        "displayName": "ground cinnamon (optional)",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "apple-cider",
+        "displayName": "apple cider",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TOPPING: Adjust oven rack to middle position and heat oven to 450 degrees. Combine flour, pecans, oats, brown sugar, granulated sugar, cinnamon, and salt in medium bowl. Stir in melted butter until mixture is thoroughly moistened and crumbly. Set aside while preparing fruit filling."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE FILLING: Toss apples; sugar; and cinnamon, if using, together in large bowl; set aside. Bring cider to simmer in 12-inch ovensafe skillet over medium heat; cook until reduced to 1/2 cup, about 5 minutes. Transfer reduced cider to bowl or liquid measuring cup; stir in lemon juice and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Melt butter in now-empty skillet over medium heat. Add apple mixture and cook, stirring frequently, until apples are beginning to soften and become translucent, 12 to 14 minutes. (Do not fully cook apples.) Remove pan from heat and gently stir in cider mixture until apples are coated."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Sprinkle topping evenly over fruit, breaking up any large chunks. Place skillet on rimmed baking sheet and bake until fruit is tender and topping is deep golden brown, 15 to 20 minutes. Let cool on wire rack until warm, at least 15 minutes, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 80732,
+    "end": 80786,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

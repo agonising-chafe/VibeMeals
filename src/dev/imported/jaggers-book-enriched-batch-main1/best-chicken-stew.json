@@ -1,0 +1,232 @@
+{
+  "mapped": {
+    "id": "atk_best-chicken-stew",
+    "name": "Best Chicken Stew",
+    "slug": "best-chicken-stew",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-halved-crosswise-and-trimmed",
+        "displayName": "boneless, skinless chicken thighs, halved crosswise and trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bacon-chopped",
+        "displayName": "bacon, chopped",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-wings-halved-at-joint",
+        "displayName": "chicken wings, halved at joint",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "NON_CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-minced",
+        "displayName": "celery rib, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-paste",
+        "displayName": "anchovy paste",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth-divided",
+        "displayName": "chicken broth, divided",
+        "amount": 5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine-plus-extra-for-seasoning",
+        "displayName": "dry white wine, plus extra for seasoning",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-3-pieces",
+        "displayName": "unsalted butter, cut into 3 pieces",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-potatoes-unpeeled-quartered",
+        "displayName": "small red potatoes, unpeeled, quartered",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-cut-into-1-2-inch-pieces",
+        "displayName": "carrots, peeled and cut into 1/2-inch pieces",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 325 degrees. Arrange chicken thighs on baking sheet and lightly season both sides with salt and pepper; cover with plastic wrap and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cook bacon in Dutch oven over medium-low heat, stirring occasionally, until crispy, 6 to 8 minutes. Using slotted spoon, transfer bacon to medium bowl. Add chicken wings to pot, increase heat to medium, and cook until well browned on both sides, 10 to 12 minutes; transfer wings to bowl with bacon."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add onion, celery, garlic, anchovy paste, and thyme to fat in pot; cook, stirring occasionally, until dark fond forms on pan bottom, 2 to 4 minutes. Increase heat to high; stir in 1 cup broth, wine, and soy sauce, scraping up any browned bits; and bring to boil. Cook, stirring occasionally, until liquid evaporates and vegetables begin to sizzle again, 12 to 15 minutes. Add butter and stir to melt; sprinkle flour over vegetables and stir to combine. Gradually whisk in remaining 4 cups broth until smooth. Stir in wings and bacon, potatoes, and carrots; bring to simmer. Transfer to oven and cook, uncovered, for 30 minutes, stirring once halfway through cooking."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove pot from oven. Use wooden spoon to draw gravy up sides of pot and scrape browned fond into stew. Place over high heat, add thighs, and bring to simmer. Return pot to oven, uncovered, and continue to cook, stirring occasionally, until chicken offers no resistance when poked with fork and vegetables are tender, about 45 minutes longer. (Stew can be refrigerated for up to 2 days.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Discard wings and season stew with up to 2 tablespoons extra wine. Season with salt and pepper to taste, sprinkle with parsley, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "SOY",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7274,
+    "end": 7334,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

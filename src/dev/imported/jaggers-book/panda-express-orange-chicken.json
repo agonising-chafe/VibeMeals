@@ -1,0 +1,294 @@
+{
+  "mapped": {
+    "id": "atk_panda-express-orange-chicken",
+    "name": "Panda Express Orange Chicken",
+    "slug": "panda-express-orange-chicken",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "panda-express-has-lots-of-great-dishes-but-none-is-as-legendary-as-their-orange-chicken-this-restaurant-copycat-recipe-lets-you-make-your-own-version-of-their-delicious-favorite",
+        "displayName": "Panda Express has lots of great dishes, but none is as legendary as their Orange Chicken. This restaurant copycat recipe lets you make your own version of their delicious favorite.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying-plus-1-tablespoon-divided",
+        "displayName": "Vegetable oil, for frying, plus 1 tablespoon, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "⅛ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "⅛ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-plus-1-tablespoon-cornstarch-divided",
+        "displayName": "½ cup plus 1 tablespoon cornstarch, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "¼ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-cut-into-1-inch-pieces",
+        "displayName": "boneless, skinless chicken breasts, cut into 1-inch pieces",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "displayName": "sesame oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-ginger",
+        "displayName": "minced ginger",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "displayName": "minced garlic",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-red-pepper-flakes",
+        "displayName": "¼ teaspoon red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-green-onions",
+        "displayName": "¼ cup chopped green onions",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "zest-from-1-medium-orange",
+        "displayName": "Zest from 1 medium orange",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tablespoons-soy-sauce",
+        "displayName": "½ tablespoons soy sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-vinegar",
+        "displayName": "white vinegar",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rice-wine",
+        "displayName": "rice wine",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-375-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-375-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 375°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 375°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-egg-salt-black-pepper-and-1-tablespoon-oil-and-mix-well-add-cup-cornstarch-and-flour-and-mix-well-add-chicken-to-mixture-and-coat-well",
+        "displayName": "In a medium bowl, add egg, salt, black pepper, and 1 tablespoon oil, and mix well. Add ½ cup cornstarch and flour and mix well. Add chicken to mixture and coat well.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-chicken-pieces-five-or-six-at-a-time-to-hot-oil-fry-3-4-minutes-until-chicken-is-golden-brown-and-reaches-an-internal-temperature-of-165-f-transfer-to-a-paper-towel-lined-plate-to-drain-repeat-with-remaining-chicken-set-aside",
+        "displayName": "Transfer chicken pieces five or six at a time to hot oil. Fry 3–4 minutes until chicken is golden brown and reaches an internal temperature of 165°F. Transfer to a paper towel–lined plate to drain. Repeat with remaining chicken. Set aside.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-add-sesame-oil-ginger-and-garlic-heat-10-20-seconds-until-fragrant-add-red-pepper-flakes-and-green-onions-and-saut-15-seconds-add-orange-zest-soy-sauce-sugar-vinegar-and-rice-wine-and-bring-to-a-boil",
+        "displayName": "In a 10-inch skillet over medium heat, add sesame oil, ginger, and garlic. Heat 10–20 seconds until fragrant. Add red pepper flakes and green onions and sauté 15 seconds. Add orange zest, soy sauce, sugar, vinegar, and rice wine and bring to a boil.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-add-water-to-remaining-cornstarch-and-mix-well-combine-cornstarch-mixture-with-sauce-mixture-in-pan-and-heat-until-sauce-has-thickened-about-5-minutes-add-chicken-and-toss-to-coat-in-sauce-remove-from-heat-and-serve-immediately",
+        "displayName": "In a small bowl, add water to remaining cornstarch and mix well. Combine cornstarch mixture with sauce mixture in pan and heat until sauce has thickened, about 5 minutes. Add chicken and toss to coat in sauce. Remove from heat and serve immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panda-express-with-over-2-000-restaurants-is-the-largest-chain-of-chinese-fast-food-restaurants-in-the-us-no-msg-is-added-to-any-item-on-the-menu-they-offer-a-create-your-own-combo-meal-whereby-you-choose-a-two-or-three-entr-e-plate-and-they-offer-quite-a-few-low-calorie-options",
+        "displayName": "Panda Express, with over 2,000 restaurants, is the largest chain of Chinese fast-food restaurants in the US. No MSG is added to any item on the menu. They offer a “create your own combo” meal whereby you choose a two- or three-entrée plate, and they offer quite a few low-calorie options.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6810,
+    "end": 6878,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

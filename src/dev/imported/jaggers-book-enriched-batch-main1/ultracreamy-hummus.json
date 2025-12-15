@@ -1,0 +1,156 @@
+{
+  "mapped": {
+    "id": "atk_ultracreamy-hummus",
+    "name": "Ultracreamy Hummus",
+    "slug": "ultracreamy-hummus",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 3 cups",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cans-chickpeas-rinsed",
+        "displayName": "cans chickpeas, rinsed",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice-2-lemons-plus-extra-for-seasoning",
+        "displayName": "lemon juice (2 lemons), plus extra for seasoning",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-cumin-plus-extra-for-garnish",
+        "displayName": "ground cumin, plus extra for garnish",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tahini-stirred-well",
+        "displayName": "tahini, stirred well",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-drizzling",
+        "displayName": "extra-virgin olive oil, plus extra for drizzling",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine chickpeas, baking soda, and 6 cups water in medium saucepan and bring to boil over high heat. Reduce heat and simmer, stirring occasionally, until chickpea skins begin to float to surface and chickpeas are creamy and very soft, 20 to 25 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While chickpeas cook, mince garlic using garlic press or rasp-style grater. Measure out 1 tablespoon garlic and set aside; discard remaining garlic. Whisk lemon juice, salt, and reserved garlic together in small bowl and let sit for 10 minutes. Strain garlic-lemon mixture through fine-mesh strainer set over bowl, pressing on solids to extract as much liquid as possible; discard solids."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Drain chickpeas in colander and return to saucepan. Fill saucepan with cold water and gently swish chickpeas with your fingers to release skins. Pour off most of water into colander to collect skins, leaving chickpeas behind in saucepan. Repeat filling, swishing, and draining 3 or 4 times until most skins have been removed (this should yield about 3/4 cup skins); discard skins. Transfer chickpeas to colander to drain."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Set aside 2 tablespoons whole chickpeas for garnish. Process garlic-lemon mixture, 1/4 cup water, cumin, and remaining chickpeas in food processor until smooth, about 1 minute, scraping down sides of bowl as needed. Add tahini and oil and process until hummus is smooth, creamy, and light, about 1 minute, scraping down sides of bowl as needed. (Hummus should have pourable consistency similar to yogurt. If too thick, loosen with water, adding 1 teaspoon at a time.) Season with salt and extra lemon juice to taste."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer to serving bowl and sprinkle with parsley, reserved chickpeas, and extra cumin. Drizzle with extra oil and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 620,
+    "end": 662,
+    "yieldLine": "MAKES 3 cups"
+  },
+  "fit": true
+}

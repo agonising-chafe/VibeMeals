@@ -1,0 +1,314 @@
+{
+  "mapped": {
+    "id": "atk_p-f-chang-s-singapore-street-noodles",
+    "name": "P.F. Chang’s Singapore Street Noodles",
+    "slug": "p-f-chang-s-singapore-street-noodles",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "while-this-dish-may-not-have-any-direct-relation-to-singapore-this-popular-menu-item-is-a-noodle-dish-it-features-chicken-and-shrimp-and-p-f-chang-s-signature-curry-sauce-made-with-madras-curry-powder",
+        "displayName": "While this dish may not have any direct relation to Singapore, this popular menu item is a noodle dish. It features chicken and shrimp and P.F. Chang’s signature curry sauce made with madras curry powder.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-vinegar",
+        "displayName": "white vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-madras-curry-powder",
+        "displayName": "¼ cup madras curry powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-light-soy-sauce",
+        "displayName": "¼ cup light soy sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oyster-sauce",
+        "displayName": "oyster sauce",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-sriracha-chili-sauce",
+        "displayName": "¼ cup sriracha chili sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-ketchup",
+        "displayName": "¼ cup ketchup",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rice-stick-noodles",
+        "displayName": "rice stick noodles",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "canola-oil-divided",
+        "displayName": "canola oil, divided",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-medium-shrimp-peeled-and-deveined",
+        "displayName": "½ pound medium shrimp, peeled and deveined",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breast-thinly-sliced",
+        "displayName": "boneless, skinless chicken breast, thinly sliced",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-garlic",
+        "displayName": "chopped garlic",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "julienned-cabbage",
+        "displayName": "julienned cabbage",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-julienned-carrots",
+        "displayName": "½ cup julienned carrots",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-tomatoes-diced",
+        "displayName": "medium tomatoes, diced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bunch-green-onions-sliced",
+        "displayName": "bunch green onions, sliced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-shallots",
+        "displayName": "⅓ cup diced shallots",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bunch-cilantro-roughly-chopped",
+        "displayName": "¼ bunch cilantro, roughly chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-from-1-medium-lime",
+        "displayName": "Juice from 1 medium lime",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "displayName": "sesame oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-vinegar-curry-powder-soy-sauce-oyster-sauce-chili-sauce-and-ketchup-and-mix-well-set-aside",
+        "displayName": "In a medium bowl, combine vinegar, curry powder, soy sauce, oyster sauce, chili sauce, and ketchup and mix well. Set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-saucepan-over-high-heat-bring-water-to-a-rolling-boil-add-rice-stick-noodles-and-cook-2-minutes-drain-then-rinse-under-running-hot-water-1-minute-and-drain-well-again-toss-noodles-with-2-tablespoons-canola-oil-and-set-aside",
+        "displayName": "In a large saucepan over high heat, bring water to a rolling boil. Add rice stick noodles and cook 2 minutes. Drain, then rinse under running hot water 1 minute and drain well again. Toss noodles with 2 tablespoons canola oil and set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-wok-over-high-heat-add-remaining-canola-oil-once-hot-add-shrimp-and-chicken-and-stir-fry-2-minutes",
+        "displayName": "In a wok over high heat, add remaining canola oil. Once hot, add shrimp and chicken and stir-fry 2 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-garlic-cabbage-carrots-and-tomatoes-and-stir-fry-1-minute-add-cooked-noodles-and-stir-fry-1-minute-more",
+        "displayName": "Add garlic, cabbage, carrots, and tomatoes and stir-fry 1 minute. Add cooked noodles and stir-fry 1 minute more.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-1-cup-prepared-sauce-and-stir-fry-until-ingredients-are-well-incorporated-about-2-minutes",
+        "displayName": "Add 1 cup prepared sauce and stir-fry until ingredients are well incorporated, about 2 minutes.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-green-onions-shallots-cilantro-lime-juice-and-sesame-oil-and-toss-briefly-serve",
+        "displayName": "Add green onions, shallots, cilantro, lime juice, and sesame oil and toss briefly. Serve.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8469,
+    "end": 8539,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

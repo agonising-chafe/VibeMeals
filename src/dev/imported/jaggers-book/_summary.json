@@ -1,0 +1,1189 @@
+[
+  {
+    "id": "atk_bob-evans-sausage-gravy-with-biscuits",
+    "name": "Bob Evans Sausage Gravy with Biscuits",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_burger-king-french-toast-sticks",
+    "name": "Burger King French Toast Sticks",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_burger-king-fully-loaded-croissan-wich",
+    "name": "Burger King Fully Loaded Croissan’wich",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cinnabon-cinnamon-rolls",
+    "name": "Cinnabon Cinnamon Rolls",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-fried-apples",
+    "name": "Cracker Barrel Fried Apples",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-hashbrown-casserole",
+    "name": "Cracker Barrel Hashbrown Casserole",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-momma-s-french-toast",
+    "name": "Cracker Barrel Momma’s French Toast",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_denny-s-country-fried-steaks-and-country-gravy",
+    "name": "Denny’s Country Fried Steaks and Country Gravy",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_denny-s-pancake-puppies",
+    "name": "Denny’s Pancake Puppies",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_denny-s-santa-fe-skillet",
+    "name": "Denny’s Santa Fe Skillet",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_ihop-chicken-fajita-omelette",
+    "name": "IHOP Chicken Fajita Omelette",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_ihop-colorado-omelette",
+    "name": "IHOP Colorado Omelette",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_ihop-new-york-cheesecake-pancakes",
+    "name": "IHOP New York Cheesecake Pancakes",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_ihop-original-buttermilk-pancakes",
+    "name": "IHOP Original Buttermilk Pancakes",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_mcdonald-s-bacon-egg-cheese-biscuit",
+    "name": "McDonald’s Bacon, Egg & Cheese Biscuit",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_mcdonald-s-breakfast-burritos",
+    "name": "McDonald’s Breakfast Burritos",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_starbucks-bacon-gruy-re-egg-bites",
+    "name": "Starbucks Bacon & Gruyère Egg Bites",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_waffle-house-biscuits-gravy",
+    "name": "Waffle House Biscuits & Gravy",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_waffle-house-cheesesteak-omelet",
+    "name": "Waffle House Cheesesteak Omelet",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_waffle-house-ham-egg-cheese-hashbrown-bowl",
+    "name": "Waffle House Ham, Egg & Cheese Hashbrown Bowl",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_waffle-house-hashbrowns",
+    "name": "Waffle House Hashbrowns",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_waffle-house-waffles",
+    "name": "Waffle House Waffles",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_applebee-s-spinach-artichoke-dip",
+    "name": "Applebee’s Spinach & Artichoke Dip",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_auntie-anne-s-pretzels",
+    "name": "Auntie Anne’s Pretzels",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buffalo-wild-wings-asian-zing-cauliflower-wings",
+    "name": "Buffalo Wild Wings Asian Zing Cauliflower Wings",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buffalo-wild-wings-boneless-wings",
+    "name": "Buffalo Wild Wings Boneless Wings",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buffalo-wild-wings-cheddar-cheese-curds",
+    "name": "Buffalo Wild Wings Cheddar Cheese Curds",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buffalo-wild-wings-traditional-wings",
+    "name": "Buffalo Wild Wings Traditional Wings",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_the-cheesecake-factory-crispy-crab-bites",
+    "name": "The Cheesecake Factory Crispy Crab Bites",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chili-s-boneless-wings",
+    "name": "Chili’s Boneless Wings",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chili-s-southwestern-eggrolls",
+    "name": "Chili’s Southwestern Eggrolls",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chili-s-texas-cheese-fries",
+    "name": "Chili’s Texas Cheese Fries",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chipotle-queso-blanco",
+    "name": "Chipotle Queso Blanco",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_dave-buster-s-pretzel-dogs",
+    "name": "Dave & Buster’s Pretzel Dogs",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_hooters-original-style-wings",
+    "name": "Hooters Original Style Wings",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_longhorn-steakhouse-white-cheddar-stuffed-mushrooms",
+    "name": "LongHorn Steakhouse White Cheddar Stuffed Mushrooms",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_olive-garden-breadsticks",
+    "name": "Olive Garden Breadsticks",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_olive-garden-toasted-ravioli",
+    "name": "Olive Garden Toasted Ravioli",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_outback-steakhouse-bloomin-onion",
+    "name": "Outback Steakhouse Bloomin’ Onion",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_papa-johns-garlic-knots",
+    "name": "Papa Johns Garlic Knots",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_papa-johns-italian-papadia",
+    "name": "Papa Johns Italian Papadia",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_tgi-fridays-loaded-potato-skins",
+    "name": "TGI Fridays Loaded Potato Skins",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_tommy-bahama-coconut-crusted-crab-cakes",
+    "name": "Tommy Bahama Coconut Crusted Crab Cakes",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_applebee-s-oriental-chicken-salad",
+    "name": "Applebee’s Oriental Chicken Salad",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_california-pizza-kitchen-dakota-smashed-pea-barley-soup",
+    "name": "California Pizza Kitchen Dakota Smashed Pea + Barley Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_california-pizza-kitchen-italian-chopped-salad",
+    "name": "California Pizza Kitchen Italian Chopped Salad",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_california-pizza-kitchen-thai-crunch-salad",
+    "name": "California Pizza Kitchen Thai Crunch Salad",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chick-fil-a-cobb-salad",
+    "name": "Chick-fil-A Cobb Salad",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chili-s-chicken-enchilada-soup",
+    "name": "Chili’s Chicken Enchilada Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_longhorn-steakhouse-loaded-potato-soup",
+    "name": "LongHorn Steakhouse Loaded Potato Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_o-charley-s-black-bleu-caesar",
+    "name": "O’Charley’s Black & Bleu Caesar",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_o-charley-s-loaded-potato-soup",
+    "name": "O’Charley’s Loaded Potato Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_olive-garden-chicken-gnocchi-soup",
+    "name": "Olive Garden Chicken & Gnocchi Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_olive-garden-house-salad",
+    "name": "Olive Garden House Salad",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_olive-garden-pasta-e-fagioli-soup",
+    "name": "Olive Garden Pasta e Fagioli Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_olive-garden-zuppa-toscana",
+    "name": "Olive Garden Zuppa Toscana",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panera-bread-broccoli-cheddar-soup",
+    "name": "Panera Bread Broccoli Cheddar Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panera-bread-fuji-apple-salad-with-chicken",
+    "name": "Panera Bread Fuji Apple Salad with Chicken",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panera-bread-homestyle-chicken-noodle-soup",
+    "name": "Panera Bread Homestyle Chicken Noodle Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_p-f-chang-s-wonton-soup",
+    "name": "P.F. Chang’s Wonton Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_red-lobster-new-england-clam-chowder",
+    "name": "Red Lobster New England Clam Chowder",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_tgi-fridays-white-cheddar-broccoli-soup",
+    "name": "TGI Fridays White Cheddar Broccoli Soup",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_tommy-bahama-lump-blue-crab-bisque",
+    "name": "Tommy Bahama Lump Blue Crab Bisque",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_wendy-s-apple-pecan-salad",
+    "name": "Wendy’s Apple Pecan Salad",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_arby-s-classic-roast-beef-sandwiches",
+    "name": "Arby’s Classic Roast Beef Sandwiches",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_carl-s-jr-big-angus-famous-star",
+    "name": "Carl’s Jr. Big Angus Famous Star",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_carl-s-jr-single-western-bacon-cheeseburger",
+    "name": "Carl’s Jr. Single Western Bacon Cheeseburger",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chick-fil-a-chicken-sandwiches",
+    "name": "Chick-fil-A Chicken Sandwiches",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chick-fil-a-grilled-chicken-club-sandwiches",
+    "name": "Chick-fil-A Grilled Chicken Club Sandwiches",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_hardee-s-mushroom-swiss",
+    "name": "Hardee’s Mushroom & Swiss",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_in-n-out-burger-double-double",
+    "name": "In-N-Out Burger Double-Double",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_jack-in-the-box-sourdough-jack",
+    "name": "Jack in the Box Sourdough Jack",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_jersey-mike-s-club-sub",
+    "name": "Jersey Mike’s Club Sub",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_jersey-mike-s-the-original-italian",
+    "name": "Jersey Mike’s The Original Italian",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_mcdonald-s-filet-o-fish",
+    "name": "McDonald’s Filet-O-Fish",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panera-bread-chipotle-chicken-avocado-melt",
+    "name": "Panera Bread Chipotle Chicken Avocado Melt",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_popeyes-chicken-sandwiches",
+    "name": "Popeyes Chicken Sandwiches",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_quiznos-french-dip",
+    "name": "Quiznos French Dip",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_red-robin-banzai",
+    "name": "Red Robin Banzai",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_red-robin-royal-red-robin-burger",
+    "name": "Red Robin Royal Red Robin Burger",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_red-robin-whiskey-river-bbq",
+    "name": "Red Robin Whiskey River BBQ",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_sonic-fritos-chili-cheese-wraps",
+    "name": "Sonic Fritos Chili Cheese Wraps",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_sonic-hickory-bbq-cheeseburger",
+    "name": "Sonic Hickory BBQ Cheeseburger",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_subway-sweet-onion-chicken-teriyaki",
+    "name": "Subway Sweet Onion Chicken Teriyaki",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_subway-tuna",
+    "name": "Subway Tuna",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_subway-veggie-delite-sandwich-on-flatbread",
+    "name": "Subway Veggie Delite Sandwich on Flatbread",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_wendy-s-spicy-chicken-sandwiches",
+    "name": "Wendy’s Spicy Chicken Sandwiches",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_white-castle-original-sliders",
+    "name": "White Castle Original Sliders",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_applebee-s-bourbon-street-steaks",
+    "name": "Applebee’s Bourbon Street Steaks",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_applebee-s-double-glazed-baby-back-ribs",
+    "name": "Applebee’s Double-Glazed Baby Back Ribs",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_applebee-s-fiesta-lime-chicken",
+    "name": "Applebee’s Fiesta Lime Chicken",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_bob-evans-mushroom-onion-chopped-steaks",
+    "name": "Bob Evans Mushroom & Onion Chopped Steaks",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_bob-evans-slow-roasted-turkey",
+    "name": "Bob Evans Slow-Roasted Turkey",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buca-di-beppo-chicken-limone",
+    "name": "Buca di Beppo Chicken Limone",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buca-di-beppo-chicken-saltimbocca",
+    "name": "Buca di Beppo Chicken Saltimbocca",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_burger-king-chicken-fries",
+    "name": "Burger King Chicken Fries",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_california-pizza-kitchen-the-original-bbq-chicken-pizza",
+    "name": "California Pizza Kitchen The Original BBQ Chicken Pizza",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_carrabba-s-italian-grill-meatballs",
+    "name": "Carrabba’s Italian Grill Meatballs",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_the-cheesecake-factory-bang-bang-chicken-and-shrimp",
+    "name": "The Cheesecake Factory Bang-Bang Chicken and Shrimp",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chili-s-margarita-grilled-chicken",
+    "name": "Chili’s Margarita Grilled Chicken",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chipotle-beef-barbacoa",
+    "name": "Chipotle Beef Barbacoa",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chipotle-carnitas",
+    "name": "Chipotle Carnitas",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chipotle-chicken",
+    "name": "Chipotle Chicken",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-grilled-chicken-tenders",
+    "name": "Cracker Barrel Grilled Chicken Tenders",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_jack-in-the-box-tacos",
+    "name": "Jack in the Box Tacos",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_longhorn-steakhouse-outlaw-ribeye",
+    "name": "LongHorn Steakhouse Outlaw Ribeye",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_longhorn-steakhouse-parmesan-crusted-chicken",
+    "name": "LongHorn Steakhouse Parmesan Crusted Chicken",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panda-express-beijing-beef",
+    "name": "Panda Express Beijing Beef",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panda-express-orange-chicken",
+    "name": "Panda Express Orange Chicken",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_p-f-chang-s-bbq-pork-spare-ribs",
+    "name": "P.F. Chang’s BBQ Pork Spare Ribs",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_p-f-chang-s-chicken-lettuce-wraps",
+    "name": "P.F. Chang’s Chicken Lettuce Wraps",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_p-f-chang-s-mongolian-beef",
+    "name": "P.F. Chang’s Mongolian Beef",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_pizza-hut-original-stuffed-crust-pizza",
+    "name": "Pizza Hut Original Stuffed Crust Pizza",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_popeyes-signature-chicken",
+    "name": "Popeyes Signature Chicken",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_taco-bell-crunchwrap-supreme",
+    "name": "Taco Bell Crunchwrap Supreme",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_taco-bell-mexican-pizza",
+    "name": "Taco Bell Mexican Pizza",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_tgi-fridays-sizzling-chicken-cheese",
+    "name": "TGI Fridays Sizzling Chicken & Cheese",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_wendy-s-chili-con-carne",
+    "name": "Wendy’s Chili con Carne",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_golden-corral-seafood-salad",
+    "name": "Golden Corral Seafood Salad",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_long-john-silver-s-fish",
+    "name": "Long John Silver’s Fish",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_long-john-silver-s-fish-tacos",
+    "name": "Long John Silver’s Fish Tacos",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_outback-steakhouse-gold-coast-coconut-shrimp",
+    "name": "Outback Steakhouse Gold Coast Coconut Shrimp",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_outback-steakhouse-grilled-shrimp-on-the-barbie",
+    "name": "Outback Steakhouse Grilled Shrimp on the Barbie",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panda-express-honey-walnut-shrimp",
+    "name": "Panda Express Honey Walnut Shrimp",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_p-f-chang-s-dynamite-shrimp",
+    "name": "P.F. Chang’s Dynamite Shrimp",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_p-f-chang-s-stir-fried-eggplant",
+    "name": "P.F. Chang’s Stir-Fried Eggplant",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_red-lobster-white-wine-garlic-mussels",
+    "name": "Red Lobster White Wine & Garlic Mussels",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_ruby-tuesday-new-orleans-seafood",
+    "name": "Ruby Tuesday New Orleans Seafood",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buca-di-beppo-chicken-marsala",
+    "name": "Buca di Beppo Chicken Marsala",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buca-di-beppo-lasagna",
+    "name": "Buca di Beppo Lasagna",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buca-di-beppo-spicy-chicken-rigatoni",
+    "name": "Buca di Beppo Spicy Chicken Rigatoni",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_carrabba-s-fettuccine-weesie",
+    "name": "Carrabba’s Fettuccine Weesie",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_carrabba-s-linguine-pescatore",
+    "name": "Carrabba’s Linguine Pescatore",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_the-cheesecake-factory-cajun-jambalaya-pasta",
+    "name": "The Cheesecake Factory Cajun Jambalaya Pasta",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chili-s-cajun-pasta",
+    "name": "Chili’s Cajun Pasta",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_olive-garden-chicken-scampi",
+    "name": "Olive Garden Chicken Scampi",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panda-express-chow-mein",
+    "name": "Panda Express Chow Mein",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_p-f-chang-s-singapore-street-noodles",
+    "name": "P.F. Chang’s Singapore Street Noodles",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_pizza-hut-oven-baked-italian-meats-pasta",
+    "name": "Pizza Hut Oven-Baked Italian Meats Pasta",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_applebee-s-garlic-mashed-potatoes",
+    "name": "Applebee’s Garlic Mashed Potatoes",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_bob-evans-bread-celery-dressing",
+    "name": "Bob Evans Bread & Celery Dressing",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_buffalo-wild-wings-beer-battered-onion-rings",
+    "name": "Buffalo Wild Wings Beer-Battered Onion Rings",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chick-fil-a-waffle-potato-fries",
+    "name": "Chick-fil-A Waffle Potato Fries",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chipotle-cilantro-lime-rice",
+    "name": "Chipotle Cilantro Lime Rice",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-carrots",
+    "name": "Cracker Barrel Carrots",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-cornbread-dressing",
+    "name": "Cracker Barrel Cornbread Dressing",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-corn-muffins",
+    "name": "Cracker Barrel Corn Muffins",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-green-beans",
+    "name": "Cracker Barrel Green Beans",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cracker-barrel-mmmm-mac-n-cheese",
+    "name": "Cracker Barrel Mmmm Mac N’ Cheese",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_kfc-cole-slaw",
+    "name": "KFC Cole Slaw",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_kfc-mashed-potatoes-and-gravy",
+    "name": "KFC Mashed Potatoes and Gravy",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_kfc-secret-recipe-fries",
+    "name": "KFC Secret Recipe Fries",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_kfc-sweet-corn",
+    "name": "KFC Sweet Corn",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_longhorn-steakhouse-crispy-brussels-sprouts",
+    "name": "LongHorn Steakhouse Crispy Brussels Sprouts",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_outback-steakhouse-aussie-cheese-fries",
+    "name": "Outback Steakhouse Aussie Cheese Fries",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_outback-steakhouse-sweet-potato",
+    "name": "Outback Steakhouse Sweet Potato",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panda-express-fried-rice",
+    "name": "Panda Express Fried Rice",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_panera-bread-mac-cheese",
+    "name": "Panera Bread Mac & Cheese",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_popeyes-biscuits",
+    "name": "Popeyes Biscuits",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_popeyes-red-beans-rice",
+    "name": "Popeyes Red Beans & Rice",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_red-lobster-cheddar-bay-biscuits",
+    "name": "Red Lobster Cheddar Bay Biscuits",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_red-robin-garlic-fries",
+    "name": "Red Robin Garlic Fries",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_arby-s-apple-turnovers",
+    "name": "Arby’s Apple Turnovers",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_bob-evans-reese-s-peanut-butter-pie",
+    "name": "Bob Evans Reese’s Peanut Butter Pie",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_the-cheesecake-factory-fresh-strawberry-cheesecake",
+    "name": "The Cheesecake Factory Fresh Strawberry Cheesecake",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_the-cheesecake-factory-pumpkin-cheesecake",
+    "name": "The Cheesecake Factory Pumpkin Cheesecake",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chili-s-molten-chocolate-cakes",
+    "name": "Chili’s Molten Chocolate Cakes",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_crumbl-birthday-cake-cookies",
+    "name": "Crumbl Birthday Cake Cookies",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_crumbl-classic-pink-sugar-cookies",
+    "name": "Crumbl Classic Pink Sugar Cookies",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_crumbl-milk-chocolate-chip-cookies",
+    "name": "Crumbl Milk Chocolate Chip Cookies",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_crumbl-ultimate-peanut-butter-cookies",
+    "name": "Crumbl Ultimate Peanut Butter Cookies",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_domino-s-chocolate-lava-crunch-cakes",
+    "name": "Domino’s Chocolate Lava Crunch Cakes",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_domino-s-cinna-stix",
+    "name": "Domino’s Cinna Stix",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_golden-corral-bread-pudding",
+    "name": "Golden Corral Bread Pudding",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_mrs-fields-chocolate-chip-cookies",
+    "name": "Mrs. Fields Chocolate Chip Cookies",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_papa-johns-applepie",
+    "name": "Papa Johns Applepie",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_papa-johns-cinnamon-pull-aparts",
+    "name": "Papa Johns Cinnamon Pull Aparts",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_starbucks-cinnamon-coffee-cake",
+    "name": "Starbucks Cinnamon Coffee Cake",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_starbucks-iced-lemon-loaf",
+    "name": "Starbucks Iced Lemon Loaf",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_subway-white-chip-macadamia-nut-cookies",
+    "name": "Subway White Chip Macadamia Nut Cookies",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_wendy-s-frosty",
+    "name": "Wendy’s Frosty",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_chili-s-presidente-margarita",
+    "name": "Chili’s Presidente Margarita",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_cinnabon-mochalatte-chill",
+    "name": "Cinnabon MochaLatte Chill",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_dairy-queen-mocha-moolatt",
+    "name": "Dairy Queen Mocha MooLatté",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_dave-buster-s-strawberry-watermelon-margarita",
+    "name": "Dave & Buster’s Strawberry Watermelon Margarita",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_dunkin-donuts-iced-coffee",
+    "name": "Dunkin’ Donuts Iced Coffee",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_jack-in-the-box-oreo-shake",
+    "name": "Jack in the Box Oreo Shake",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_mcdonald-s-caramel-frapp",
+    "name": "McDonald’s Caramel Frappé",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_mcdonald-s-french-vanilla-iced-coffee",
+    "name": "McDonald’s French Vanilla Iced Coffee",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_orange-julius",
+    "name": "Orange Julius",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_red-lobster-boston-iced-tea",
+    "name": "Red Lobster Boston Iced Tea",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_sonic-cherry-limeade",
+    "name": "Sonic Cherry Limeade",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_starbucks-iced-brown-sugar-oatmilk-shaken-espresso",
+    "name": "Starbucks Iced Brown Sugar Oatmilk Shaken Espresso",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_starbucks-mocha-frappucino-blended-beverage",
+    "name": "Starbucks Mocha Frappucino Blended Beverage",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_starbucks-pink-drink",
+    "name": "Starbucks Pink Drink",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_tommy-bahama-classic-mojito",
+    "name": "Tommy Bahama Classic Mojito",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_tommy-bahama-cucumber-smash",
+    "name": "Tommy Bahama Cucumber Smash",
+    "fit": false,
+    "fitReason": "too_few_steps"
+  },
+  {
+    "id": "atk_tommy-bahama-pain-killer-2",
+    "name": "Tommy Bahama Pain Killer #2",
+    "fit": true
+  }
+]

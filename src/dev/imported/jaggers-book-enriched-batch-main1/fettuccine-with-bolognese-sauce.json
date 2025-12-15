@@ -1,0 +1,180 @@
+{
+  "mapped": {
+    "id": "atk_fettuccine-with-bolognese-sauce",
+    "name": "Fettuccine with Bolognese Sauce",
+    "slug": "fettuccine-with-bolognese-sauce",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-onion",
+        "displayName": "minced onion",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-carrot",
+        "displayName": "minced carrot",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-celery",
+        "displayName": "minced celery",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "meatloaf-mix",
+        "displayName": "meatloaf mix",
+        "amount": 0.75,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes",
+        "displayName": "can diced tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "fresh-or-dried-fettuccine",
+        "displayName": "fresh or dried fettuccine",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-for-serving",
+        "displayName": "Grated Parmesan cheese, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt 3 tablespoons of the butter in a large Dutch oven over medium heat. Add the onion, carrot, and celery and cook until softened but not browned, about 6 minutes. Add the meat and 1/2 teaspoon salt; crumble the meat into tiny pieces with a wooden spoon. Cook, continuing to crumble the meat, just until it loses its raw color but has not yet browned, about 3 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add the milk and simmer until the milk evaporates and only rendered fat remains, 10 to 15 minutes. Add the wine and simmer until the wine evaporates, 10 to 15 minutes longer. Add the tomatoes with their juice and bring to a simmer. Reduce the heat to low so that the sauce continues to simmer just barely, with an occasional bubble or two at the surface, until the liquid has evaporated, about 3 hours. Season with salt to taste. (The sauce can be refrigerated in an airtight container for up to 3 days or frozen for up to 1 month.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta to the boiling water and cook, stirring often, until al dente. Reserve 1/2 cup of the cooking water then drain the pasta and return it to the pot. Add the sauce and remaining 2 tablespoons butter; toss to combine. Adjust the consistency of the sauce with the reserved pasta cooking water as needed. Serve, passing the Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 16652,
+    "end": 16698,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

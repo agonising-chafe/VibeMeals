@@ -1,0 +1,158 @@
+{
+  "mapped": {
+    "id": "atk_boston-baked-beans",
+    "name": "Boston Baked Beans",
+    "slug": "boston-baked-beans",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 330,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "salt-pork-trimmed-of-rind-and-cut-into-1-2-inch-cubes",
+        "displayName": "salt pork, trimmed of rind and cut into 1/2-inch cubes",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "about-2-slices-bacon-cut-into-1-4-inch-pieces",
+        "displayName": "(about 2 slices) bacon, cut into 1/4-inch pieces",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 9,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-cups-dried-small-white-beans-rinsed-and-picked-over",
+        "displayName": "(2 cups) dried small white beans, rinsed and picked over",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-tablespoon-mild-molasses",
+        "displayName": "plus 1 tablespoon mild molasses",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prepared-brown-mustard-such-as-gulden-s",
+        "displayName": "prepared brown mustard, such as Gulden’s",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "kind": "LONG_PREP",
+        "description": "Rinse and pick over the dried beans.",
+        "durationMinutes": 10,
+        "type": "LONG_PREP"
+      },
+      {
+        "kind": "LONG_PREP",
+        "description": "Soak the beans in water for at least 8 hours or overnight; drain before cooking.",
+        "durationMinutes": 480,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 300 degrees. Place the salt pork and bacon in a large Dutch oven; cook over medium heat, stirring occasionally, until lightly browned and most of the fat is rendered, about 7 minutes. Add the onion and continue to cook, stirring occasionally, until the onion is softened, 5 to 7 minutes. Add the water, beans, 1/2 cup of the molasses, the mustard, and 11/4 teaspoons salt; increase the heat to medium-high and bring to a boil. Cover the pot and place in the oven."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bake until the beans are tender, about 4 hours, stirring once after 2 hours. Remove the lid and continue to bake until the liquid has thickened to a syrupy consistency, 1 to 11/2 hours longer. Remove the beans from the oven; stir in the remaining 1 tablespoon molasses, the vinegar, and salt and pepper to taste. Serve. (Cooled beans can be refrigerated in an airtight container for up to 4 days.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61190,
+    "end": 61232,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,191 @@
+{
+  "mapped": {
+    "id": "atk_grill-smoked-pork-chops",
+    "name": "Grill-Smoked Pork Chops",
+    "slug": "grill-smoked-pork-chops",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 70,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "grated-onion",
+        "displayName": "grated onion",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-pork-rib-chops-11-2-inches-thick-trimmed",
+        "displayName": "bone-in pork rib chops, 11/2 inches thick, trimmed",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-by-9-inch-disposable-aluminum-roasting-pan-if-using-charcoal",
+        "displayName": "(13 by 9-inch) disposable aluminum roasting pan (if using charcoal)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE: Bring all ingredients to simmer in small saucepan over medium heat and cook, stirring occasionally, until reduced to about 1 cup, 5 to 7 minutes. Transfer 1/2 cup sauce to small bowl and set aside remaining sauce for serving."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE CHOPS: Using large piece of heavy-duty aluminum foil, wrap soaked chips in foil packet and cut several vent holes in top. Pat pork chops dry with paper towels. Use sharp knife to cut 2 slits about 1 inch apart through outer layer of fat and connective tissue. Season each chop with 1/2 teaspoon salt and 1/2 teaspoon pepper. Place chops side by side, facing in same direction, on cutting board with curved rib bone facing down. Pass 2 skewers through loin muscle of each chop, close to bone, about 1 inch from each end, then pull apart to create 1-inch space between each."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place skewered chops bone side down on grill (over pan if using charcoal). Cover and cook until meat registers 120 degrees, 28 to 32 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove skewers from chops, tip chops onto flat side and brush surface of each with 1 tablespoon sauce. Transfer chops, sauce side down, to hotter parts of grill (if using charcoal) or turn all burners to high (if using gas) and cook until browned on first side, 2 to 6 minutes. Brush top of each chop with 1 tablespoon sauce, flip, and continue to cook until browned on second side and meat registers 140 to 145 degrees, 2 to 6 minutes longer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer chops to serving platter, tent loosely with aluminum foil, and let rest for 5 to 10 minutes. Serve, passing reserved sauce separately."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Pass two skewers through the loin muscle of each chop to provide stability when standing on the grill."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Stand the skewered chops, bone side down, on the cooking grate in the center of the grill so smoke can reach all sides."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51363,
+    "end": 51437,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

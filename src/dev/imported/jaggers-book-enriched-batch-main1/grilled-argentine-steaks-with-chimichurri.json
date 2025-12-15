@@ -1,0 +1,208 @@
+{
+  "mapped": {
+    "id": "atk_grilled-argentine-steaks-with-chimichurri",
+    "name": "Grilled Argentine Steaks with Chimichurri",
+    "slug": "grilled-argentine-steaks-with-chimichurri",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "hot-water",
+        "displayName": "hot water",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "fresh-parsley-leaves",
+        "displayName": "fresh parsley leaves",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves",
+        "displayName": "fresh cilantro leaves",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cornstarch-table-salt-and-pepper",
+        "displayName": "cornstarch table salt and pepper",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STEAK"
+      },
+      {
+        "ingredientId": "boneless-strip-steaks-11-2-inches-thick-trimmed",
+        "displayName": "boneless strip steaks, 11/2 inches thick, trimmed",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "STEAK"
+      },
+      {
+        "ingredientId": "2-inch-wood-chunks",
+        "displayName": "(2-inch) wood chunks",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRILL"
+      },
+      {
+        "ingredientId": "9-inch-disposable-aluminum-pie-plate-if-using-gas",
+        "displayName": "(9-inch) disposable aluminum pie plate (if using gas)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "GRILL"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 1.25,
+        "description": "Prepare Chimichurri Sauce: Let the sauce sit at room temperature for 1 hour after making it.",
+        "requirementType": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE: Combine water, oregano, and salt in small bowl and let sit until oregano is softened, about 15 minutes. Pulse parsley, cilantro, garlic, and pepper flakes in food processor until coarsely chopped, about 10 pulses. Add water mixture and vinegar and pulse to combine. Transfer mixture to bowl and slowly whisk in oil until emulsified. Cover with plastic wrap and let sit at room temperature for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE STEAKS: Combine cornstarch and 11/2 teaspoon salt in bowl. Pat steaks dry with paper towels and place on wire rack set in rimmed baking sheet. Rub entire surface of steaks with cornstarch mixture and place steaks, uncovered, in freezer until very firm, about 30 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Season steaks with pepper. Place steaks on grill (alongside pie plate if using gas), cover, and cook until beginning to brown on both sides, 4 to 6 minutes, flipping halfway through cooking."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Flip steaks again and cook, uncovered, until well browned on first side, 2 to 4 minutes. Flip steaks once more and continue to cook until meat registers 115 to 120 degrees (for rare) or 120 to 125 degrees (for medium-rare), 2 to 6 minutes longer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer steaks to carving board, tent loosely with aluminum foil, and let rest for 10 minutes. Cut each steak crosswise into 1/4-inch-thick slices. Transfer to serving platter and serve, passing sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 50289,
+    "end": 50351,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

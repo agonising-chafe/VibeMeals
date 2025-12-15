@@ -1,0 +1,184 @@
+{
+  "mapped": {
+    "id": "atk_vegan-pinto-bean-beet-burgers",
+    "name": "Vegan Pinto Bean–Beet Burgers",
+    "slug": "vegan-pinto-bean-beet-burgers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "medium-grind-bulgur-rinsed",
+        "displayName": "medium-grind bulgur, rinsed",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-beet-9-ounces-peeled-and-shredded",
+        "displayName": "large beet (9 ounces), peeled and shredded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "walnuts",
+        "displayName": "walnuts",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "fresh-basil-leaves",
+        "displayName": "fresh basil leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-pinto-beans-rinsed",
+        "displayName": "can pinto beans, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jar-carrot-baby-food",
+        "displayName": "jar carrot baby food",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-grain-mustard",
+        "displayName": "whole-grain mustard",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panko-bread-crumbs",
+        "displayName": "panko bread crumbs",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-plus-extra-as-needed",
+        "displayName": "vegetable oil, plus extra as needed",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "burger-buns",
+        "displayName": "burger buns",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 11/2 cups water and 1/2 teaspoon salt to boil in small saucepan. Off heat, stir in bulgur, cover, and let stand until tender, 15 to 20 minutes. Drain bulgur, spread onto rimmed baking sheet, and let cool slightly."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, pulse beet, walnuts, basil, and garlic in food processor until finely chopped, about 12 pulses, scraping down sides of bowl as needed. Add beans, carrot baby food, 2 tablespoons water, mustard, 11/2 teaspoons salt, and 1/2 teaspoon pepper and pulse until well combined, about 8 pulses. Transfer mixture to large bowl and stir in panko and cooled bulgur."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position and heat oven to 200 degrees. Divide mixture into 8 equal portions and pack into 31/2-inch-wide patties."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat 3 tablespoons oil in 12-inch nonstick skillet over medium-high heat until shimmering. Gently lay 4 patties in skillet and cook until crisp and well browned on first side, about 4 minutes. Gently flip patties and cook until crisp and well browned on second side, about 4 minutes, adding extra oil if skillet looks dry."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer burgers to wire rack set in rimmed baking sheet and place in oven to keep warm. Wipe out skillet with paper towels and repeat with remaining 3 tablespoons oil and remaining patties. Transfer to buns and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 49049,
+    "end": 49097,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

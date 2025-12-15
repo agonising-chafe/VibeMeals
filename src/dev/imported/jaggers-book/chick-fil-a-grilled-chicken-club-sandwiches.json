@@ -1,0 +1,274 @@
+{
+  "mapped": {
+    "id": "atk_chick-fil-a-grilled-chicken-club-sandwiches",
+    "name": "Chick-fil-A Grilled Chicken Club Sandwiches",
+    "slug": "chick-fil-a-grilled-chicken-club-sandwiches",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-grilled-chicken-club-sandwich-was-introduced-in-1993-as-part-of-chick-fil-a-s-offerings-for-health-conscious-customers-the-chicken-is-marinated-like-the-fried-version-in-a-seasoned-marinade-that-includes-pickle-juice-so-it-has-a-similar-flavor",
+        "displayName": "The Grilled Chicken Club Sandwich was introduced in 1993 as part of Chick-fil-A’s offerings for health-conscious customers. The chicken is marinated, like the fried version, in a seasoned marinade that includes pickle juice so it has a similar flavor.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breast-fillets",
+        "displayName": "boneless, skinless chicken breast fillets",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-low-fat-buttermilk",
+        "displayName": "¼ cup low-fat buttermilk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dill-pickle-brine",
+        "displayName": "dill pickle brine",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-paprika",
+        "displayName": "½ teaspoon paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "multigrain-hamburger-buns-sliced-in-half-lengthwise",
+        "displayName": "multigrain hamburger buns, sliced in half lengthwise",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey-mustard-dressing",
+        "displayName": "honey mustard dressing",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "barbecue-sauce",
+        "displayName": "barbecue sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leaf-lettuce-leaves",
+        "displayName": "leaf lettuce leaves",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "inch-slices-beefsteak-tomato",
+        "displayName": "(¼-inch) slices beefsteak tomato",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "colby-jack-cheese",
+        "displayName": "Colby jack cheese",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-bacon-cooked-crisp",
+        "displayName": "thick-cut bacon, cooked crisp",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-resealable-plastic-bag-add-chicken-buttermilk-pickle-brine-sugar-pepper-salt-and-paprika-seal-bag-removing-as-much-air-as-you-can-and-massage-to-evenly-coat-chicken-and-combine-marinade-ingredients-refrigerate-at-least-2-hours-or-up-to-24-hours",
+        "displayName": "In a large resealable plastic bag, add chicken, buttermilk, pickle brine, sugar, pepper, salt, and paprika. Seal bag, removing as much air as you can, and massage to evenly coat chicken and combine marinade ingredients. Refrigerate at least 2 hours or up to 24 hours.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-barbecue-or-smokeless-indoor-grill-to-medium-heat",
+        "displayName": "Preheat barbecue or smokeless indoor grill to medium heat.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-chicken-from-marinade-and-let-excess-drain-off-grill-chicken-3-4-minutes-per-side-until-chicken-reaches-an-internal-temperature-of-165-f",
+        "displayName": "Remove chicken from marinade and let excess drain off. Grill chicken 3–4 minutes per side until chicken reaches an internal temperature of 165°F.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-10-inch-skillet-over-medium-heat-once-hot-add-butter-and-swirl-to-coat-pan-evenly-add-bun-halves-cut-side-down-and-toast-until-golden-about-3-minutes-swirling-bun-halves-around-pan-to-absorb-all-melted-butter",
+        "displayName": "Heat a 10-inch skillet over medium heat. Once hot, add butter and swirl to coat pan evenly. Add bun halves cut side down and toast until golden, about 3 minutes, swirling bun halves around pan to absorb all melted butter.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-add-honey-mustard-dressing-and-barbecue-sauce-mix-until-well-combined",
+        "displayName": "In a small bowl, add honey mustard dressing and barbecue sauce. Mix until well combined.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-bottom-half-of-each-bun-on-a-serving-plate-and-spread-with-half-of-prepared-sauce-top-with-1-lettuce-leaf-2-tomato-slices-1-chicken-breast-1-cheese-slice-and-2-strips-bacon-each-top-with-top-half-of-bun-serve-immediately",
+        "displayName": "Place bottom half of each bun on a serving plate and spread with half of prepared sauce. Top with 1 lettuce leaf, 2 tomato slices, 1 chicken breast, 1 cheese slice, and 2 strips bacon each. Top with top half of bun. Serve immediately.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chick-fil-a-restaurants-are-famous-for-being-closed-on-sundays-so-their-employees-can-spend-time-with-family-or-worship-if-they-choose-this-makes-their-most-ardent-fans-very-sad-if-a-craving-for-their-popular-menu-offerings-hits-so-much-so-that-there-are-many-internet-memes-of-sad-people-unable-to-get-a-chicken-sandwich",
+        "displayName": "Chick-fil-A restaurants are famous for being closed on Sundays so their employees can spend time with family or worship if they choose. This makes their most ardent fans very sad if a craving for their popular menu offerings hits, so much so that there are many Internet memes of sad people unable to get a chicken sandwich!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4643,
+    "end": 4707,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

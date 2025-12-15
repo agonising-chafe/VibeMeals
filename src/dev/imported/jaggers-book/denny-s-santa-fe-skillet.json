@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_denny-s-santa-fe-skillet",
+    "name": "Denny’s Santa Fe Skillet",
+    "slug": "denny-s-santa-fe-skillet",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "skillets-have-been-on-the-menu-at-denny-s-since-2008-and-the-santa-fe-skillet-has-been-a-customer-favorite-while-the-eggs-here-are-prepared-sunny-side-up-feel-free-to-make-them-your-favorite-way",
+        "displayName": "Skillets have been on the menu at Denny’s since 2008, and the Santa Fe Skillet has been a customer favorite. While the eggs here are prepared sunny-side up, feel free to make them your favorite way.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "diced-red-skin-potatoes",
+        "displayName": "diced red skin potatoes",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lawry-s-seasoned-salt",
+        "displayName": "Lawry’s Seasoned Salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-water",
+        "displayName": "¼ cup water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-crumbled-chorizo-sausage",
+        "displayName": "¼ cup crumbled chorizo sausage",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-sliced-button-mushrooms",
+        "displayName": "½ cup sliced button mushrooms",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-frozen-fire-roasted-onions-and-peppers",
+        "displayName": "¼ cup frozen fire-roasted onions and peppers",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-medium-cheddar-cheese",
+        "displayName": "½ cup shredded medium Cheddar cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-oil-in-a-medium-cast-iron-skillet-over-medium-heat-add-potatoes-to-pan-and-sprinkle-with-seasoned-salt-add-water-cover-skillet-with-a-lid-and-cook-5-minutes-remove-lid-and-continue-to-cook-stirring-occasionally-10-12-minutes-until-potatoes-are-golden-brown-and-tender-transfer-to-a-plate-and-set-aside",
+        "displayName": "Heat oil in a medium cast iron skillet over medium heat. Add potatoes to pan and sprinkle with seasoned salt. Add water, cover skillet with a lid, and cook 5 minutes. Remove lid and continue to cook, stirring occasionally, 10–12 minutes until potatoes are golden brown and tender. Transfer to a plate and set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-over-medium-heat-add-butter-once-butter-is-melted-and-foaming-add-eggs-cook-3-4-minutes-until-whites-are-set-but-yolks-are-still-soft-transfer-to-a-plate-and-set-aside",
+        "displayName": "To same skillet over medium heat, add butter. Once butter is melted and foaming, add eggs. Cook 3–4 minutes until whites are set but yolks are still soft. Transfer to a plate and set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-over-medium-heat-add-chorizo-and-mushrooms-and-cook-5-6-minutes-until-chorizo-is-cooked-through-and-mushrooms-are-tender",
+        "displayName": "To same skillet over medium heat, add chorizo and mushrooms and cook 5–6 minutes until chorizo is cooked through and mushrooms are tender.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drain-off-excess-fat-from-skillet-and-stir-in-cooked-potatoes-and-fire-roasted-onions-and-peppers-cook-3-4-minutes-more-until-all-vegetables-are-tender",
+        "displayName": "Drain off excess fat from skillet and stir in cooked potatoes and fire-roasted onions and peppers. Cook 3–4 minutes more until all vegetables are tender.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-skillet-from-heat-and-sprinkle-with-cheese-top-with-prepared-eggs-serve-hot",
+        "displayName": "Remove skillet from heat and sprinkle with cheese. Top with prepared eggs. Serve hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "denny-s-was-founded-in-1953-in-lakewood-california-as-danny-s-donuts-and-the-restaurant-s-original-concept-was-coffee-and-doughnuts-in-1956-they-rebranded-to-danny-s-coffee-shops-then-in-1959-to-denny-s-coffee-shops-to-avoid-customer-confusion-with-another-restaurant-coffee-dan-s-in-1961-they-dropped-the-coffee-shops-and-became-simply-denny-s",
+        "displayName": "Denny’s was founded in 1953 in Lakewood, California, as Danny’s Donuts, and the restaurant’s original concept was coffee and doughnuts. In 1956 they rebranded to Danny’s Coffee Shops, then in 1959 to Denny’s Coffee Shops to avoid customer confusion with another restaurant, Coffee Dan’s. In 1961 they dropped the “coffee shops” and became simply “Denny’s.”",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1229,
+    "end": 1281,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

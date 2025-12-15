@@ -1,0 +1,284 @@
+{
+  "mapped": {
+    "id": "atk_hooters-original-style-wings",
+    "name": "Hooters Original Style Wings",
+    "slug": "hooters-original-style-wings",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 12",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "buffalo-chicken-wings-and-ice-cold-beer-are-the-most-popular-items-on-the-menu-at-hooters-this-recipe-makes-a-big-batch-for-a-crowd-which-would-be-a-great-addition-to-any-party",
+        "displayName": "Buffalo chicken wings and ice-cold beer are the most popular items on the menu at Hooters. This recipe makes a big batch for a crowd, which would be a great addition to any party.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sauce",
+        "displayName": "Sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sticks-unsalted-butter-softened",
+        "displayName": "sticks unsalted butter, softened",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-tabasco-sauce",
+        "displayName": "½ cup Tabasco sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-sauce",
+        "displayName": "chili sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "balsamic-vinegar",
+        "displayName": "balsamic vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¾ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-paprika",
+        "displayName": "¾ teaspoon paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-cayenne-pepper",
+        "displayName": "⅜ teaspoon cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wings",
+        "displayName": "Wings",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoons-salt",
+        "displayName": "½ teaspoons salt",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-cayenne-pepper",
+        "displayName": "¼ teaspoon cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bag-whole-chicken-wings-cut-into-flats-and-drumettes",
+        "displayName": "bag) whole chicken wings, cut into flats and drumettes",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-sauce-mix-all-ingredients-together-in-a-medium-bowl-set-aside",
+        "displayName": "For the sauce: Mix all ingredients together in a medium bowl. Set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-wings-in-a-large-mixing-bowl-add-flour-salt-paprika-and-cayenne-pepper-and-whisk-well-to-combine",
+        "displayName": "For the wings: In a large mixing bowl, add flour, salt, paprika, and cayenne pepper and whisk well to combine.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coat-flats-and-drumettes-with-flour-mixture-and-then-refrigerate-90-minutes",
+        "displayName": "Coat flats and drumettes with flour mixture and then refrigerate 90 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fry-wing-pieces-4-or-5-at-a-time-8-10-minutes-in-hot-oil-until-they-are-golden-brown-and-reach-an-internal-temperature-of-165-f-place-on-paper-towel-lined-plate-to-remove-excess-oil",
+        "displayName": "Fry wing pieces 4 or 5 at a time 8–10 minutes in hot oil until they are golden brown and reach an internal temperature of 165°F. Place on paper towel–lined plate to remove excess oil.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "when-all-wing-pieces-are-fried-place-in-a-large-bowl-add-sauce-and-mix-completely-serve-immediately",
+        "displayName": "When all wing pieces are fried, place in a large bowl. Add sauce and mix completely. Serve immediately.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-first-spicy-chicken-wings-were-served-at-the-anchor-bar-restaurant-in-buffalo-new-york-in-1964-it-is-probably-one-of-the-most-duplicated-restaurant-recipes-in-the-world",
+        "displayName": "The first spicy chicken wings were served at the Anchor Bar restaurant in Buffalo, New York, in 1964. It is probably one of the most duplicated restaurant recipes in the world.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2504,
+    "end": 2572,
+    "yieldLine": "SERVES 12"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

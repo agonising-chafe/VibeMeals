@@ -1,0 +1,152 @@
+{
+  "mapped": {
+    "id": "atk_oatmeal-dinner-rolls",
+    "name": "Oatmeal Dinner Rolls",
+    "slug": "oatmeal-dinner-rolls",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 12 rolls",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "21-4-ounces-old-fashioned-rolled-oats-plus-4-teaspoons-for-sprinkling",
+        "displayName": "(21/4 ounces) old-fashioned rolled oats, plus 4 teaspoons for sprinkling",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boiling-water-plus-1-2-cup-cold-water",
+        "displayName": "boiling water, plus 1/2 cup cold water",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-4-pieces",
+        "displayName": "unsalted butter, cut into 4 pieces",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "81-4-ounces-bread-flour",
+        "displayName": "(81/4 ounces) bread flour",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "41-8-ounces-whole-wheat-flour",
+        "displayName": "(41/8 ounces) whole-wheat flour",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-beaten-with-1-teaspoon-water-and-pinch-table-salt",
+        "displayName": "large egg, beaten with 1 teaspoon water and pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Stir 3/4 cup oats, boiling water, and butter together in bowl of stand mixer and let sit until butter is melted and most of water has been absorbed, about 10 minutes. Add bread flour, whole-wheat flour, cold water, molasses, yeast, and salt. Fit mixer with dough hook and mix on low speed until flour is moistened, about 1 minute (dough may look dry). Increase speed to medium-low and mix until dough clears sides of bowl (it will still stick to bottom), about 8 minutes, scraping down dough hook halfway through mixing (dough will be sticky). Transfer dough to counter, shape into ball, and transfer to lightly greased bowl. Cover with plastic wrap and let rise until doubled in volume, 1 to 11/4 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Grease 9-inch round cake pan and set aside. Transfer dough to lightly floured counter, reserving plastic. Pat dough gently into 8-inch square of even thickness. Using bench scraper or chef’s knife, cut dough into 12 pieces (3 rows by 4 rows). Working with 1 piece of dough at a time, form dough pieces into smooth, taut balls. (To round, set piece of dough on unfloured counter. Loosely cup your lightly floured hand around dough and, without applying pressure to dough, move your hand in small circular motions. Tackiness of dough against counter and circular motion should work dough into smooth ball.) Arrange seam side down in prepared pan, placing 9 dough balls around edge of pan and remaining 3 dough balls in center. Cover with reserved plastic and let rise until rolls are doubled in size and no gaps are visible between them, 45 minutes to 1 hour."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "When rolls are nearly doubled in size, adjust oven rack to lower-middle position and heat oven to 375 degrees. Brush rolls with egg wash and sprinkle with remaining 4 teaspoons oats. Bake until rolls are deep brown and register at least 195 degrees at center, 25 to 30 minutes. Let rolls cool in pan on wire rack for 3 minutes; invert rolls onto rack, then reinvert. Let rolls cool for at least 20 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "WHEAT",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 64270,
+    "end": 64308,
+    "yieldLine": "MAKES 12 rolls"
+  },
+  "fit": true
+}

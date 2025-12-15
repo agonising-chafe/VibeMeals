@@ -1,0 +1,133 @@
+{
+  "mapped": {
+    "id": "atk_grill-roasted-pork-loin",
+    "name": "Grill-Roasted Pork Loin",
+    "slug": "grill-roasted-pork-loin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-to-3-pound-boneless-blade-end-pork-loin-roast-trimmed-and-tied-with-kitchen-twine-at-11-2-inch-intervals",
+        "displayName": "(21/2- to 3-pound) boneless blade-end pork loin roast, trimmed and tied with kitchen twine at 11/2-inch intervals",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper-or-1-recipe-spice-rub-recipes-follow",
+        "displayName": "pepper or 1 recipe spice rub (recipes follow)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 7,
+        "description": "Brine pork loin",
+        "requirementKind": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve salt in 2 quarts cold water in large container. Submerge pork loin in brine, cover, and refrigerate for 1 to 11/2 hours. Remove pork from brine and pat dry with paper towels. Rub pork loin with oil and coat with pepper. Let sit at room temperature for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using large piece of heavy-duty aluminum foil, wrap soaked chips in foil packet and cut several vent holes in top."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place pork loin on hot side of grill, fat side up, and cook (covered if using gas) until well browned on all sides, 10 to 12 minutes, turning as needed. Move to cool side of grill, positioning roast parallel with and as close as possible to heat. Cover (position lid vent over roast if using charcoal) and cook for 20 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Rotate roast 180 degrees, cover, and continue to cook until meat registers 135 to 140 degrees, 10 to 30 minutes longer, depending on thickness of roast."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer roast to carving board, tent loosely with aluminum foil, and let rest for 15 minutes. Remove twine, cut roast into 1/2-inch-thick slices, and serve."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE PORK: Combine sugar and salt in small bowl. Tie roast with twine at 1-inch intervals. Rub sugar-salt mixture over entire surface of roast, making sure roast is evenly coated. Wrap roast tightly in plastic wrap, set in rimmed baking sheet, and refrigerate for at least 6 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Just before grilling, soak wood chips in water for 15 minutes, then drain. Using large piece of heavy-duty aluminum foil, wrap soaked chips in 8 by 41/2-inch foil packet. (Make sure chips do not poke holes in sides or bottom of packet.) Cut 2 evenly spaced 2-inch slits in top of packet."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Clean and oil cooking grate. Unwrap roast and pat dry with paper towels. Place roast on grill (cooler side if using charcoal), directly over water pan. Cover (position lid vent over roast if using charcoal) and cook until meat registers 135 to 140 degrees, 11/2 to 2 hours, rotating roast 180 degrees after 45 minutes."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "FOR THE CHUTNEY: Combine wine, apricots, cherries, vinegar, water, sugar, shallot, and ginger in medium saucepan. Bring to simmer over medium heat. Cover and cook until fruit is softened, 10 minutes. Remove lid and reduce heat to medium-low. Add butter, Dijon, and dry mustard and continue to cook until slightly thickened, 4 to 6 minutes. Remove from heat and season with salt to taste. Transfer to bowl and let stand at room temperature."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Transfer roast to carving board, tent with foil, and let rest for 30 minutes. Remove and discard twine. Slice 1/4 inch thick and serve, passing chutney separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51773,
+    "end": 51880,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

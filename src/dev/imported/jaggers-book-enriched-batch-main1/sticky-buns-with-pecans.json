@@ -1,0 +1,360 @@
+{
+  "mapped": {
+    "id": "atk_sticky-buns-with-pecans",
+    "name": "Sticky Buns with Pecans",
+    "slug": "sticky-buns-with-pecans",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 270,
+      "equipmentTags": [
+        "OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 12 buns",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-eggs-at-room-temperature",
+        "displayName": "large eggs, at room temperature",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk-at-room-temperature",
+        "displayName": "buttermilk, at room temperature",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "13-4-ounces-granulated-sugar",
+        "displayName": "(13/4 ounces) granulated sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-envelope-instant-or-rapid-rise-yeast",
+        "displayName": "(1 envelope) instant or rapid-rise yeast",
+        "amount": 2.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "211-4-ounces-unbleached-all-purpose-flour-plus-extra-for-the-work-surface",
+        "displayName": "(211/4 ounces) unbleached all-purpose flour, plus extra for the work surface",
+        "amount": 4.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-4-stick-unsalted-butter-melted-and-still-warm",
+        "displayName": "(3/4 stick) unsalted butter, melted and still warm",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DOUGH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "packed-51-4-ounces-light-brown-sugar",
+        "displayName": "packed (51/4 ounces) light brown sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CARAMEL GLAZE"
+      },
+      {
+        "ingredientId": "3-4-stick-unsalted-butter",
+        "displayName": "(3/4 stick) unsalted butter",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CARAMEL GLAZE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "light-or-dark-corn-syrup",
+        "displayName": "light or dark corn syrup",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CARAMEL GLAZE"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CARAMEL GLAZE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "CARAMEL GLAZE"
+      },
+      {
+        "ingredientId": "packed-51-4-ounces-light-brown-sugar",
+        "displayName": "packed (51/4 ounces) light brown sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-cloves",
+        "displayName": "ground cloves",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PECAN TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "packed-13-4-ounces-light-brown-sugar",
+        "displayName": "packed (13/4 ounces) light brown sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PECAN TOPPING"
+      },
+      {
+        "ingredientId": "light-or-dark-corn-syrup",
+        "displayName": "light or dark corn syrup",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PECAN TOPPING"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PECAN TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "PECAN TOPPING"
+      },
+      {
+        "ingredientId": "3-ounces-pecans-toasted-in-a-small-dry-skillet-over-medium-heat-until-fragrant-and-browned-about-5-minutes-then-cooled-and-chopped-coarse",
+        "displayName": "(3 ounces) pecans, toasted in a small, dry skillet over medium heat until fragrant and browned, about 5 minutes, then cooled and chopped coarse",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PECAN TOPPING",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PECAN TOPPING"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 2,
+        "description": "Allow eggs and buttermilk to come to room temperature.",
+        "strategy": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 0.1,
+        "description": "Toast and chop pecans; cool.",
+        "strategy": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 3.5,
+        "description": "Proof dough for 2-2.5 hours, then again for 1.5 hours.",
+        "strategy": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: In the bowl of a stand mixer, whisk the eggs to combine; add the buttermilk and whisk to combine. Whisk in the granulated sugar, salt, and yeast. Add about 2 cups of the flour and the butter; stir with a wooden spoon or rubber spatula until evenly moistened and combined. Add all but about 1/4 cup of the remaining flour and knead with the dough hook at low speed for 5 minutes. Check the consistency of the dough (it should feel soft and moist but should not be wet and sticky; add more flour, if necessary); knead at low speed 5 minutes longer (the dough should clear the sides of the bowl but stick to the bottom). Turn the dough out onto a lightly floured work surface; knead by hand for about 1 minute to ensure that the dough is uniform (the dough should not stick to the work surface during hand kneading; if it does, knead in additional flour 1 tablespoon at a time)."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Lightly spray a large bowl or plastic container with vegetable oil spray. Transfer the dough to the bowl, spray the dough lightly with vegetable oil spray, then cover the bowl tightly with plastic wrap and set in a warm, draft-free spot until doubled in volume, 2 to 21/2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE CARAMEL GLAZE: Meanwhile, combine all the glaze ingredients in a small saucepan; cook over medium heat, whisking occasionally, until the butter is melted and the mixture is thoroughly combined. Pour the mixture into a nonstick metal 13 by 9-inch baking dish; using a rubber spatula, spread the mixture to cover the surface of the baking dish; set the baking dish aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE FILLING: Combine the brown sugar, cinnamon, cloves, and salt in a small bowl and mix until thoroughly combined, using your fingers to break up any sugar lumps; set aside."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "TO ASSEMBLE AND BAKE THE BUNS: Turn the dough out onto a lightly floured work surface. Gently shape the dough into a rough rectangle with a long side nearest you. Lightly flour the dough and roll to a 16 by 12-inch rectangle. Brush the dough with the melted butter, leaving a 1/2-inch border along the top edge; brush the sides of the baking dish with the butter remaining on the brush. Sprinkle the filling mixture over the dough, leaving a 3/4-inch border along the top edge; smooth the filling in an even layer with your hand, then gently press the mixture into the dough to adhere. Beginning with the long edge nearest you, roll the dough into a taut cylinder. Firmly pinch the seam to seal and roll the cylinder seam side down. Very gently stretch to form a cylinder of even diameter and 18-inch length; push the ends in to create an even thickness. Using a serrated knife and gentle sawing motion, slice the cylinder in half, then slice each half in half again to create evenly sized quarters. Slice each quarter evenly into thirds, yielding 12 buns (the end pieces may be slightly smaller)."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Arrange the buns cut side down in the prepared baking dish; cover tightly with plastic wrap and set in a warm, draft-free spot until puffy and pressed against one another, about 11/2 hours. Meanwhile, adjust an oven rack to the lowest position, place a baking stone on the rack, and heat the oven to 350 degrees."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Place the baking pan on the baking stone; bake until golden brown and the center of the dough registers 180 degrees on an instant-read thermometer, 25 to 30 minutes. Cool on a wire rack for 10 minutes; invert onto a rimmed baking sheet, large rectangular platter, or cutting board. With a rubber spatula, scrape any glaze remaining in the baking pan onto the buns; cool while making the pecan topping."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "FOR THE PECAN TOPPING: Combine the brown sugar, corn syrup, butter, and salt in a small saucepan and bring to a simmer over medium heat, whisking occasionally to thoroughly combine. Off the heat, stir in the pecans and vanilla until the pecans are evenly coated. Using a soup spoon, spoon a heaping tablespoon of nuts and topping over the center of each sticky bun. Continue to cool until the sticky buns are warm, 15 to 20 minutes. Pull apart or use a serrated knife to cut apart the sticky buns; serve. (Buns can be wrapped in foil or plastic wrap and refrigerated for up to 3 days; warm through in the oven before serving.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 66256,
+    "end": 66344,
+    "yieldLine": "MAKES 12 buns"
+  },
+  "fit": true
+}

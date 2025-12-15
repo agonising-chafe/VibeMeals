@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_chipotle-queso-blanco",
+    "name": "Chipotle Queso Blanco",
+    "slug": "chipotle-queso-blanco",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chipotle-introduced-an-all-natural-queso-in-2017-and-then-three-years-later-reformulated-the-recipe-to-make-it-smoother-and-creamier-and-called-it-queso-blanco-this-dip-is-great-with-warm-tortilla-chips",
+        "displayName": "Chipotle introduced an all-natural queso in 2017 and then three years later reformulated the recipe to make it smoother and creamier and called it “Queso Blanco.” This dip is great with warm tortilla chips!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-finely-chopped-yellow-onion",
+        "displayName": "¼ cup finely chopped yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-jalape-o-minced",
+        "displayName": "½ medium jalapeño, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-garlic-minced",
+        "displayName": "½ clove garlic, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-drained-canned-diced-green-chilies",
+        "displayName": "¼ cup drained canned diced green chilies",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-chipotle-pepper-in-adobo",
+        "displayName": "chopped chipotle pepper in adobo",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-heavy-cream",
+        "displayName": "½ cup heavy cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-white-american-cheese",
+        "displayName": "shredded white American cheese",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-white-cheddar-cheese",
+        "displayName": "½ cup shredded white Cheddar cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-monterey-jack-cheese",
+        "displayName": "½ cup shredded Monterey jack cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-2-quart-saucepan-over-medium-heat-add-butter-once-butter-is-melted-and-foaming-add-onion-and-jalape-o-saut-stirring-often-2-minutes-then-add-garlic-green-chilies-and-chipotle-in-adobo-and-cook-30-seconds",
+        "displayName": "In a 2-quart saucepan over medium heat, add butter. Once butter is melted and foaming, add onion and jalapeño. Sauté, stirring often, 2 minutes, then add garlic, green chilies, and chipotle in adobo and cook 30 seconds.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "stir-in-milk-then-reduce-heat-to-medium-low",
+        "displayName": "Stir in milk, then reduce heat to medium-low.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whisk-together-cream-and-cornstarch-in-a-small-bowl-until-smooth-and-then-whisk-into-milk-in-pan-increase-heat-to-medium-and-cook-stirring-constantly-until-mixture-comes-to-a-simmer-about-5-minutes",
+        "displayName": "Whisk together cream and cornstarch in a small bowl until smooth and then whisk into milk in pan. Increase heat to medium and cook, stirring constantly, until mixture comes to a simmer, about 5 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "reduce-heat-to-low-and-whisk-in-cheeses-once-smooth-remove-from-heat-and-serve-immediately",
+        "displayName": "Reduce heat to low and whisk in cheeses. Once smooth, remove from heat and serve immediately.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chipotle-mexican-grill-currently-has-over-3-000-locations-and-has-been-a-leader-in-promoting-organic-ingredients-their-restaurants-have-served-more-naturally-raised-meat-than-any-other-chain-in-the-us",
+        "displayName": "Chipotle Mexican Grill currently has over 3,000 locations and has been a leader in promoting organic ingredients. Their restaurants have served more naturally raised meat than any other chain in the US.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2400,
+    "end": 2454,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

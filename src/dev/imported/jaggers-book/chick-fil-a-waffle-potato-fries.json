@@ -1,0 +1,124 @@
+{
+  "mapped": {
+    "id": "atk_chick-fil-a-waffle-potato-fries",
+    "name": "Chick-fil-A Waffle Potato Fries",
+    "slug": "chick-fil-a-waffle-potato-fries",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "a-mandoline-slicer-with-the-waffle-wavy-blade-is-needed-to-make-the-signature-waffle-shape-for-these-popular-fries-the-potatoes-are-not-peeled-at-chick-fil-a-but-you-can-peel-them-if-you-prefer",
+        "displayName": "A mandoline slicer with the waffle (wavy) blade is needed to make the signature waffle shape for these popular fries. The potatoes are not peeled at Chick-fil-A, but you can peel them if you prefer.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-russet-potatoes",
+        "displayName": "large russet potatoes",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-a-large-bowl-with-water-set-aside",
+        "displayName": "Fill a large bowl with water. Set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cut-potatoes-in-half-widthwise-fit-mandoline-with-waffle-blade-slice-cut-side-of-1-potato-once-then-turn-90-degrees-and-slice-again-to-create-a-waffle-sliced-potato-check-thickness-and-adjust-until-potato-slices-are-approximately-inch-thick-add-potato-slices-to-water-to-soak-repeat-until-all-potatoes-are-sliced-then-let-slices-soak-30-minutes",
+        "displayName": "Cut potatoes in half widthwise. Fit mandoline with waffle blade. Slice cut side of 1 potato once, then turn 90 degrees and slice again to create a waffle-sliced potato. Check thickness and adjust until potato slices are approximately ¼-inch thick. Add potato slices to water to soak. Repeat until all potatoes are sliced, then let slices soak 30 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drain-potato-slices-and-dry-thoroughly-between-layers-of-paper-towels-fry-in-batches-in-hot-oil-3-4-minutes-until-golden-brown-transfer-to-a-paper-towel-lined-plate-and-sprinkle-lightly-with-salt-repeat-with-remaining-potato-slices-and-salt-serve-hot",
+        "displayName": "Drain potato slices and dry thoroughly between layers of paper towels. Fry in batches in hot oil 3–4 minutes until golden brown. Transfer to a paper towel–lined plate and sprinkle lightly with salt. Repeat with remaining potato slices and salt. Serve hot.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8787,
+    "end": 8819,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,107 @@
+{
+  "mapped": {
+    "id": "atk_grilled-radicchio",
+    "name": "Grilled Radicchio",
+    "slug": "grilled-radicchio",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 15,
+      "equipmentTags": [
+        "GRILL",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "turning-the-wedges-during-cooking-ensures-that-all-sides-including-the-rounded-one-spend-time-facing-the-fire",
+        "displayName": "Turning the wedges during cooking ensures that all sides, including the rounded one, spend time facing the fire.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heads-radicchio-10-ounces-each-quartered",
+        "displayName": "heads radicchio (10 ounces each), quartered",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "balsamic-vinegar",
+        "displayName": "Balsamic vinegar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place radicchio on rimmed baking sheet, brush with oil, and sprinkle with salt and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Grill radicchio over medium-hot fire (covered if using gas), turning every 11/2 minutes, until edges are browned and wilted but centers are still slightly firm, about 5 minutes. Transfer radicchio to serving dish, drizzle with vinegar, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "vegetarian"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 52400,
+    "end": 52444,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

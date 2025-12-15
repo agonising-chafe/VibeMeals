@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_mashed-potatoes-with-blue-cheese-and-port-caramelized-onions",
+    "name": "Mashed Potatoes with Blue Cheese and Port-Caramelized Onions",
+    "slug": "mashed-potatoes-with-blue-cheese-and-port-caramelized-onions",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "ONIONS",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ONIONS"
+      },
+      {
+        "ingredientId": "light-brown-sugar",
+        "displayName": "light brown sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ONIONS"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ONIONS"
+      },
+      {
+        "ingredientId": "onions-halved-and-sliced-1-4-inch-thick",
+        "displayName": "onions, halved and sliced 1/4 inch thick",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "ONIONS"
+      },
+      {
+        "ingredientId": "ruby-port",
+        "displayName": "ruby port",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ONIONS"
+      },
+      {
+        "ingredientId": "half-and-half",
+        "displayName": "half-and-half",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "POTATOES"
+      },
+      {
+        "ingredientId": "chopped-fresh-thyme",
+        "displayName": "chopped fresh thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "POTATOES"
+      },
+      {
+        "ingredientId": "russet-potatoes",
+        "displayName": "russet potatoes",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "blue-cheese-crumbled-1-cup",
+        "displayName": "blue cheese, crumbled (1 cup)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE ONIONS: Heat butter and oil in 8-inch nonstick skillet over high heat until butter melts, then stir in sugar and salt. Add onions, stir to coat, and cook, stirring occasionally, until onions begin to soften and release some moisture, about 5 minutes. Reduce heat to medium and cook, stirring frequently, until onions are deeply browned and sticky, about 35 minutes longer (if onions are sizzling or scorching, reduce heat; if onions are not browning after 15 minutes, increase heat). Stir in port and continue to cook until port reduces to glaze, 4 to 6 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE POTATOES: While onions are cooking, bring half-and-half and thyme to boil in small saucepan; cover to keep warm."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place potatoes in large saucepan and cover with 1 inch cold water. Bring to boil over high heat, reduce heat to medium-low, and simmer until potatoes are just tender (paring knife can be slipped in and out of potatoes with very little resistance), 20 to 30 minutes. Drain."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Set ricer or food mill over now-empty saucepan. Using potholder (to hold potatoes) and paring knife, peel skins from potatoes. Working in batches, cut peeled potatoes into large chunks and press or mill into saucepan."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Stir in butter until just incorporated. Add salt and pepper, then gently stir in half-and-half and blue cheese until just combined. Serve immediately topped with onions."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59754,
+    "end": 59808,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

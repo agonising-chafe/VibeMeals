@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_giblet-pan-gravy",
+    "name": "Giblet Pan Gravy",
+    "slug": "giblet-pan-gravy",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 6 cups",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "complete-step-1-up-to-a-day-ahead-if-desired-begin-step-3-once-the-bird-has-been-removed-from-the-oven-and-is-resting-on-a-carving-board",
+        "displayName": "Complete step 1 up to a day ahead, if desired. Begin step 3 once the bird has been removed from the oven and is resting on a carving board.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "reserved-turkey-giblets-neck-and-tailpiece",
+        "displayName": "Reserved turkey giblets, neck, and tailpiece",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-chopped",
+        "displayName": "medium onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley",
+        "displayName": "sprigs fresh parsley",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat the oil in a large Dutch oven over medium heat until shimmering; add the giblets, neck, and tailpiece, and cook until golden and fragrant, about 5 minutes. Add the onion and continue to cook until softened, 3 to 4 minutes longer. Reduce the heat to low, cover, and cook until the turkey parts and onion release their juices, about 15 minutes. Add the broth, water, and herbs, bring to a boil, and adjust the heat to low. Simmer, uncovered, skimming any impurities that may rise to the surface, until the broth is rich and flavorful, about 30 minutes longer. Strain the broth into a large container and reserve the giblets. When cool enough to handle, chop the giblets. Refrigerate the giblets and broth until ready to use. (The broth can be stored in the refrigerator in an airtight container for up to 1 day.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While the turkey is roasting, return the reserved turkey broth to a simmer. Heat the butter in a large saucepan over medium-low heat. Vigorously whisk in the flour (the mixture will froth and then thin out again). Cook slowly, stirring constantly, until nutty brown and fragrant, 10 to 15 minutes. Vigorously whisk all but 1 cup of the hot broth into the flour mixture. Bring to a boil, then continue to simmer, stirring occasionally, until the gravy is lightly thickened and very flavorful, about 30 minutes longer. Set aside until the turkey is done."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "When the turkey has been transferred to a carving board to rest, spoon out and discard as much fat as possible from the roasting pan, leaving the caramelized herbs and vegetables. Place the roasting pan over two burners set on medium-high heat. Return the gravy to a simmer. Add the wine to the roasting pan of caramelized vegetables, scraping up any browned bits with a wooden spoon, and boil until reduced by half, about 5 minutes. Add the remaining 1 cup turkey broth and continue to simmer for 15 minutes; strain the pan juices into the gravy, pressing as much juice as possible out of the vegetables. Stir the reserved giblets into the gravy and return to a boil. Season with salt and pepper to taste and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 28879,
+    "end": 28923,
+    "yieldLine": "MAKES about 6 cups"
+  },
+  "fit": true
+}

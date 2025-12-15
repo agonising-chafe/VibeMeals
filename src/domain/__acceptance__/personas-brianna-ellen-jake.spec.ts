@@ -68,11 +68,13 @@ describe('Golden Experience Tests – Extended Personas', () => {
       const plan = generatePlan(brianna, recipes, monday2025Dec08);
       const shoppingList = buildShoppingList(plan, recipes, brianna);
 
-      // Verify no duplicate ingredient IDs in shopping list
+      // Verify no duplicate displayName+unit in shopping list (user-facing consolidation)
       // (if two recipes use "bell pepper", they should merge into one line item)
-      const ingredientIds = shoppingList.items.map((item) => item.ingredientId);
-      const uniqueIds = new Set(ingredientIds);
-      expect(ingredientIds.length).toBe(uniqueIds.size);
+      const displayNameKeys = shoppingList.items.map(
+        (item) => item.displayName.trim().toLowerCase() + '|' + (item.unit || '')
+      );
+      const uniqueKeys = new Set(displayNameKeys);
+      expect(displayNameKeys.length).toBe(uniqueKeys.size);
     });
   });
 

@@ -1,0 +1,173 @@
+{
+  "mapped": {
+    "id": "atk_roast-chicken-with-warm-bread-salad",
+    "name": "Roast Chicken with Warm Bread Salad",
+    "slug": "roast-chicken-with-warm-bread-salad",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken-giblets-discarded",
+        "displayName": "whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "1-inch-thick-slices-country-style-bread-8-ounces-bottom-crust-removed-cut-into-3-4-to-1-inch-pieces-5-cups",
+        "displayName": "(1-inch-thick) slices country-style bread (8 ounces), bottom crust removed, cut into 3/4- to 1-inch pieces (5 cups)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-extra-virgin-olive-oil-divided",
+        "displayName": "plus 2 teaspoons extra-virgin olive oil, divided",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "champagne-vinegar",
+        "displayName": "champagne vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin",
+        "displayName": "scallions, sliced thin",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "dried-currants",
+        "displayName": "dried currants",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "5-cups-baby-arugula",
+        "displayName": "(5 cups) baby arugula",
+        "amount": 5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "SALAD"
+      }
+    ],
+    "preflight": [
+      {
+        "kind": "LONG_PREP",
+        "durationMinutes": 1440,
+        "description": "Dry brine chicken in the refrigerator, uncovered, for 24 hours.",
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place chicken, breast side down, on cutting board. Using kitchen shears, cut through bones on either side of backbone; discard backbone. Do not trim off any excess fat or skin. Flip chicken over and press on breastbone to flatten."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using your fingers, carefully loosen skin covering breast and legs. Rub 1/2 teaspoon salt under skin of each breast, 1/2 teaspoon under skin of each leg, and 1 teaspoon salt onto bird’s cavity. Tuck wings behind back and turn legs so drumsticks face inward toward breasts. Place chicken on wire rack set in rimmed baking sheet or on large plate and refrigerate, uncovered, for 24 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position and heat oven to 475 degrees. Spray 12-inch skillet with vegetable oil spray. Toss bread with broth and 2 tablespoons oil until pieces are evenly moistened. Arrange bread in skillet in single layer, with majority of crusted pieces near center, crust side up."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Pat chicken dry with paper towels and place, skin side up, on top of bread. Brush 2 teaspoons oil over chicken skin and sprinkle with 1/4 teaspoon salt and 1/4 teaspoon pepper. Roast chicken until skin is deep golden brown and thickest part of breast registers 160 degrees and thighs register 175 degrees, 45 to 50 minutes, rotating skillet halfway through roasting."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "While chicken roasts, whisk vinegar, mustard, 1/4 teaspoon salt, and 1/4 teaspoon pepper together in small bowl. Slowly whisk in remaining 1/4 cup oil. Stir in scallions and currants and set aside. Place arugula in large bowl."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer chicken to carving board and let rest, uncovered, for 15 minutes. Run thin metal spatula under bread to loosen from bottom of skillet. (Bread should be mix of softened, golden-brown, and crunchy pieces.) Carve chicken and whisk any accumulated juices into vinaigrette. Add bread and vinaigrette to arugula and toss to evenly coat. Transfer salad to serving platter and serve with chicken."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27602,
+    "end": 27652,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

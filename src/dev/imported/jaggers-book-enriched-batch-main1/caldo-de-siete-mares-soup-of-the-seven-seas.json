@@ -1,0 +1,254 @@
+{
+  "mapped": {
+    "id": "atk_caldo-de-siete-mares-soup-of-the-seven-seas",
+    "name": "Caldo de Siete Mares (Soup of the Seven Seas)",
+    "slug": "caldo-de-siete-mares-soup-of-the-seven-seas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dried-ancho-chiles-stemmed-seeded-and-torn-into-1-2-inch-pieces-3-4-cup",
+        "displayName": "dried ancho chiles, stemmed, seeded, and torn into 1/2-inch pieces (3/4 cup)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-quartered",
+        "displayName": "onion, quartered",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shrimp-26-to-30-per-pound-peeled-deveined-tails-removed-and-shells-reserved-see-this-page",
+        "displayName": "large shrimp (26 to 30 per pound), peeled, deveined, tails removed, and shells reserved (see this page)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottles-clam-juice",
+        "displayName": "bottles clam juice",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ears-corn-husks-and-silk-removed-cut-into-1-inch-rounds",
+        "displayName": "ears corn, husks and silk removed, cut into 1-inch rounds",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "russet-potatoes-peeled-and-cut-into-1-2-inch-pieces",
+        "displayName": "russet potatoes, peeled and cut into 1/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mussels-scrubbed-and-debearded",
+        "displayName": "mussels, scrubbed and debearded",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "skinless-catfish-fillets-cut-into-2-inch-pieces",
+        "displayName": "skinless catfish fillets, cut into 2-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro",
+        "displayName": "minced fresh cilantro",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toast anchos in Dutch oven over medium-high heat, stirring frequently, until fragrant, 2 to 6 minutes; transfer to food processor. Add onion, garlic, oregano, cumin, sugar, bay leaves, and pepper to processor and pulse until coarsely chopped, about 15 pulses."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in now-empty pot over medium-high heat until shimmering. Add ancho mixture, shrimp shells, and salt and cook, stirring frequently, until mixture has darkened in color and shrimp shells have turned bright pink, 2 to 3 minutes. Stir in broth and clam juice, scraping up any browned bits, and bring to simmer. Cook until flavors meld, about 10 minutes. Strain broth through fine-mesh strainer; discard solids. Return strained broth to again-empty pot and bring to simmer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir in corn and potatoes and simmer until potatoes are tender, 8 to 10 minutes. Increase heat to medium-high, stir in mussels, cover, and simmer briskly until most mussels have opened, 3 to 4 minutes (discard any unopened mussels). Using slotted spoon, divide mussels, potatoes, and corn among individual bowls."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return broth to gentle simmer over low heat. Add catfish and shrimp to pot, cover, and cook until catfish and shrimp are opaque throughout, about 3 minutes. Off heat, gently stir in cilantro and season with salt and pepper to taste. Ladle broth, shrimp, and catfish over mussels and vegetables. Serve with lime wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 9434,
+    "end": 9498,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

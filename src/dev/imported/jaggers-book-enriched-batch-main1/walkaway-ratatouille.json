@@ -1,0 +1,199 @@
+{
+  "mapped": {
+    "id": "atk_walkaway-ratatouille",
+    "name": "Walkaway Ratatouille",
+    "slug": "walkaway-ratatouille",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-serving",
+        "displayName": "extra-virgin olive oil, plus extra for serving",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onions-cut-into-1-inch-pieces",
+        "displayName": "large onions, cut into 1-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-garlic-cloves-peeled-and-smashed",
+        "displayName": "large garlic cloves, peeled and smashed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "herbes-de-provence",
+        "displayName": "herbes de Provence",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "eggplant-peeled-and-cut-into-1-inch-pieces",
+        "displayName": "eggplant, peeled and cut into 1-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plum-tomatoes-peeled-and-chopped-coarse",
+        "displayName": "plum tomatoes, peeled and chopped coarse",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-zucchini-halved-lengthwise-and-cut-into-1-inch-pieces",
+        "displayName": "small zucchini, halved lengthwise and cut into 1-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-stemmed-seeded-and-cut-into-1-inch-pieces",
+        "displayName": "red bell pepper, stemmed, seeded, and cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "yellow-bell-pepper-stemmed-seeded-and-cut-into-1-inch-pieces",
+        "displayName": "yellow bell pepper, stemmed, seeded, and cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Heat oil in Dutch oven over medium-high heat until shimmering. Add onions, garlic, 1 teaspoon salt, and 1/4 teaspoon pepper and cook, stirring occasionally, until onions are starting to soften and have become translucent, about 10 minutes. Add herbes de Provence, pepper flakes, and bay leaf and cook, stirring frequently, for 1 minute. Stir in eggplant and tomatoes. Sprinkle with 1/2 teaspoon salt and 1/4 teaspoon pepper and stir to combine. Transfer pot to oven and cook, uncovered, until vegetables are very tender and spotty brown, 40 to 45 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove pot from oven and, using potato masher or heavy wooden spoon, smash and stir eggplant mixture until broken down into sauce-like consistency. Stir in zucchini, bell peppers, 1/4 teaspoon salt, and 1/4 teaspoon pepper and return to oven. Cook, uncovered, until zucchini and peppers are just tender, 20 to 25 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove pot from oven, cover, and let stand until zucchini is translucent and easily pierced with tip of paring knife, 10 to 15 minutes. Using wooden spoon, scrape any browned bits from sides of pot and stir back into ratatouille. Stir in 1 tablespoon basil, parsley, and vinegar. Season with salt and pepper to taste. Transfer to large platter, drizzle with 1 tablespoon oil, sprinkle with remaining 1 tablespoon basil, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 48517,
+    "end": 48567,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

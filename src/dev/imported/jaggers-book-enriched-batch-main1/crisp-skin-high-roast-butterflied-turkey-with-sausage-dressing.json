@@ -1,0 +1,302 @@
+{
+  "mapped": {
+    "id": "atk_crisp-skin-high-roast-butterflied-turkey-with-sausage-dressing",
+    "name": "Crisp-Skin High-Roast Butterflied Turkey with Sausage Dressing",
+    "slug": "crisp-skin-high-roast-butterflied-turkey-with-sausage-dressing",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-to-14-pound-turkey-giblets-neck-and-tailpiece-removed-and-reserved-for-gravy-turkey-butterflied-see-this-page-and-backbone-and-rib-bones-reserved-for-gravy",
+        "displayName": "(12- to 14-pound) turkey; giblets, neck, and tailpiece removed and reserved for gravy; turkey butterflied (see this page) and backbone and rib bones reserved for gravy",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "golden-cornbread-recipe-follows-broken-into-1-inch-pieces-include-crumbs-or-18-cups-1-inch-challah-or-italian-bread-cubes-from-about-11-2-loaves",
+        "displayName": "Golden Cornbread (recipe follows) broken into 1-inch pieces (include crumbs), or 18 cups 1-inch challah or Italian bread cubes (from about 11/2 loaves)",
+        "amount": 12,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "half-and-half",
+        "displayName": "half-and-half",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "large-eggs-beaten-lightly",
+        "displayName": "large eggs, beaten lightly",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "bulk-pork-sausage-broken-into-1-inch-pieces",
+        "displayName": "bulk pork sausage, broken into 1-inch pieces",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "medium-onions-minced-about-3-cups",
+        "displayName": "medium onions, minced (about 3 cups)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "celery-ribs-chopped-fine-about-11-2-cups",
+        "displayName": "celery ribs, chopped fine (about 11/2 cups)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DRESSING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "minced-fresh-sage-leaves",
+        "displayName": "minced fresh sage leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "recipe-giblet-pan-gravy-this-page",
+        "displayName": "recipe Giblet Pan Gravy (this page)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "minutes": 480,
+        "hours": 8,
+        "type": "MARINATE",
+        "description": "Brine turkey for 4-6 hours; then refrigerate uncovered for 8-24 hours.",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "TO BRINE THE TURKEY: Dissolve the salt and sugar in 2 gallons cold water in a large container. Submerge the turkey in the brine and refrigerate or store in a very cool spot (40 degrees or less) for 4 to 6 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "TO PREPARE THE DRESSING: While the turkey brines, adjust the oven racks to the upper-middle and lower-middle positions and heat the oven to 250 degrees. Spread the bread in an even layer on two rimmed baking sheets and dry in the oven for 50 to 60 minutes for cornbread or 40 to 50 minutes for challah or Italian bread."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place the bread in a large bowl. Whisk the broth, half-and-half, and eggs together in a medium bowl; pour over the bread and toss very gently to coat so that the bread does not break into smaller pieces. Set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat a 12-inch skillet over medium-high heat until hot, about 11/2 minutes. Add the sausage and cook, stirring occasionally, until the sausage loses its raw color, 5 to 7 minutes. With a slotted spoon, transfer the sausage to a medium bowl. Add half the onions and celery to the fat in the skillet; sauté, stirring occasionally, over medium-high heat until softened, about 5 minutes. Transfer the onion mixture to the bowl with the sausage. Return the skillet to the heat and add the butter; when melted add the remaining onions and celery and sauté, stirring occasionally, until softened, about 5 minutes. Stir in the thyme, sage, and garlic; cook until fragrant, about 30 seconds; add the salt and pepper. Add this mixture along with the sausage and onion mixture to the bread and stir gently to combine (try not to break the bread into smaller pieces)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Spray a 16 by 12-inch disposable aluminum roasting pan with vegetable oil spray. Transfer the dressing to the roasting pan and spread in an even layer. Cover the pan with foil and refrigerate while preparing the turkey."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "TO PREPARE THE TURKEY FOR ROASTING: Remove the turkey from the brine and rinse it well. Position the turkey on a broiler pan top or wire rack; thoroughly pat the surface of the turkey dry with paper towels. Place the broiler pan top with the turkey on top of the roasting pan with the dressing; refrigerate, uncovered, for 8 to 24 hours."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "TO ROAST THE TURKEY WITH THE DRESSING: Adjust an oven rack to the lower-middle position and heat the oven to 450 degrees. Remove the broiler pan top with the turkey and remove the foil from the dressing; place the broiler pan top with the turkey on the dressing in the roasting pan. Brush the turkey with the melted butter. Roast the turkey until the turkey skin is crisp and deep brown and the thickest part of the breast registers 160 degrees and the thickest part of the thigh registers 175 degrees, 1 hour 20 minutes to 1 hour 40 minutes, rotating the pan from front to back after 40 minutes."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Transfer the broiler pan top with the turkey to a carving board, tent loosely with foil, and let rest for 20 minutes. Meanwhile, adjust an oven rack to the upper-middle position, place the roasting pan with the dressing back in the oven, and bake until golden brown, about 10 minutes. Carve the turkey and serve with the dressing and gravy."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Holding the turkey upright with the backbone facing front, use a hacking motion to cut through the turkey directly to one side of the backbone with a chef’s knife."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Holding the backbone with one hand, hack through the turkey directly to the other side of the backbone; the backbone will fall away."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Using kitchen scissors, cut out the rib plate and remove any small pieces of bone."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Place the turkey, breast side up, on a cutting board and cover with plastic wrap. With a large rolling pin, whack the breastbone until it cracks and the turkey flattens."
+      },
+      {
+        "stepNumber": 13,
+        "instruction": "After brining and rinsing, place the turkey, breast side up, on a wire rack set over a rimmed baking sheet. Tuck the wings under the turkey. Push the legs up to rest between the thigh and breast. Tie the legs together."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29616,
+    "end": 29722,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

@@ -1,0 +1,197 @@
+{
+  "mapped": {
+    "id": "atk_sh-zi-t-u-lion-s-head-meatballs",
+    "name": "Shīzi Tóu (Lion’s Head Meatballs)",
+    "slug": "sh-zi-t-u-lion-s-head-meatballs",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten",
+        "displayName": "large egg, lightly beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "scallions-white-parts-minced-green-parts-sliced-thin",
+        "displayName": "scallions, white parts minced, green parts sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "shaoxing-wine",
+        "displayName": "Shaoxing wine",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-pepper",
+        "displayName": "white pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-head-napa-cabbage-11-2-pounds-quartered-lengthwise-cored-and-cut-crosswise-into-2-inch-pieces",
+        "displayName": "small head napa cabbage (11/2 pounds), quartered lengthwise, cored, and cut crosswise into 2-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rice-vermicelli",
+        "displayName": "rice vermicelli",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 325 degrees. Whisk baking soda, salt, and 2 tablespoons water together in bowl of stand mixer. Add pork to baking soda mixture and toss to combine. Add egg, scallion whites, soy sauce, Shaoxing wine, sugar, ginger, and white pepper. Fit stand mixer with paddle and beat on medium speed until mixture is well combined and has stiffened and started to pull away from sides of bowl and pork has slightly lightened in color, 45 to 60 seconds. Using your wet hands, form about 1/2 cup (41/2 ounces) pork mixture into 3-inch round meatball; repeat with remaining mixture to form 8 meatballs."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring broth to boil in large Dutch oven over high heat. Off heat, carefully arrange meatballs in pot (seven around perimeter and one in center; meatballs will not be totally submerged). Cover pot, transfer to oven, and cook for 1 hour."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer meatballs to large plate. Add cabbage to pot in even layer and arrange meatballs over cabbage, paler side up. Cover, return pot to oven, and continue to cook until meatballs are lightly browned and cabbage is softened, about 30 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While meatballs and cabbage cook, bring 4 quarts water to boil in large pot. Off heat, add vermicelli and let sit, stirring occasionally, until vermicelli is fully tender, 10 to 15 minutes. Drain, rinse with cold water, drain again, and distribute evenly among 4 to 6 large soup bowls."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Ladle meatballs, cabbage, and broth into bowls of noodles. Sprinkle with scallion greens and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 40922,
+    "end": 40972,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

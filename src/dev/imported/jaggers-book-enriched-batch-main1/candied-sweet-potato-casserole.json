@@ -1,0 +1,198 @@
+{
+  "mapped": {
+    "id": "atk_candied-sweet-potato-casserole",
+    "name": "Candied Sweet Potato Casserole",
+    "slug": "candied-sweet-potato-casserole",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 105,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "1-stick-unsalted-butter-cut-into-1-inch-chunks",
+        "displayName": "(1 stick) unsalted butter, cut into 1-inch chunks",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sweet-potatoes-about-8-medium-peeled-and-cut-into-1-inch-cubes",
+        "displayName": "sweet potatoes (about 8 medium), peeled and cut into 1-inch cubes",
+        "amount": 5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "7-ounces-packed-light-brown-sugar",
+        "displayName": "(7 ounces) packed light brown sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SWEET POTATOES"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SWEET POTATOES"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SWEET POTATOES"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SWEET POTATOES"
+      },
+      {
+        "ingredientId": "pecan-halves",
+        "displayName": "pecan halves",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "packed-31-2-ounces-light-brown-sugar",
+        "displayName": "packed (31/2 ounces) light brown sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "egg-white-lightly-beaten",
+        "displayName": "egg white, lightly beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "pinch-ground-cumin",
+        "displayName": "Pinch ground cumin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SWEET POTATOES: Melt the butter in a large Dutch oven over medium-high heat. Add the sweet potatoes, brown sugar, water, salt, and black pepper; bring to a simmer. Reduce the heat to medium-low, cover, and cook, stirring often, until the sweet potatoes are tender (a paring knife can be slipped into and out of the center of the potatoes with very little resistance), 45 to 60 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "When the sweet potatoes are tender, remove the lid and bring the sauce to a rapid simmer over medium-high heat. Continue to simmer until the sauce has reduced to a glaze, 7 to 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE TOPPING: Meanwhile, mix all the ingredients for the topping together in a medium bowl; set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 450 degrees. Pour the potato mixture into a 13 by 9-inch baking dish (or a shallow casserole dish of similar size). Spread the topping over the potatoes. Bake until the pecans are toasted and crisp, 10 to 15 minutes. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 60541,
+    "end": 60595,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

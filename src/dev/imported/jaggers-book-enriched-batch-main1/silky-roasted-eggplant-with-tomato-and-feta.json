@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_silky-roasted-eggplant-with-tomato-and-feta",
+    "name": "Silky Roasted Eggplant with Tomato and Feta",
+    "slug": "silky-roasted-eggplant-with-tomato-and-feta",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "eggplant-peeled-and-sliced-1-2-inch-thick-on-bias",
+        "displayName": "eggplant, peeled and sliced 1/2-inch-thick on bias",
+        "amount": 2.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "feta-cheese-crumbled-2-cups",
+        "displayName": "feta cheese, crumbled (2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ouzo-grappa-brandy-or-vodka-optional",
+        "displayName": "ouzo, grappa, brandy, or vodka (optional)",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "crusty-bread",
+        "displayName": "Crusty bread",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to upper-middle and lower-middle positions. Heat oven to 450 degrees. Drizzle 2 tablespoons oil over 2 rimmed baking sheets (1 tablespoon per sheet), then use pastry brush to evenly coat sheets. Arrange eggplant slices in even layer over sheets, then brush eggplant evenly with 1/4 cup oil. Sprinkle eggplant with salt and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bake until slices are golden brown on bottom and tender throughout, about 30 minutes, switching and rotating sheets halfway through baking. Remove sheets from oven and reduce oven temperature to 375 degrees. Let eggplant cool for 5 minutes. Using thin metal spatula, flip each slice and let cool completely on sheets."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While eggplant cooks, heat remaining 2 tablespoons oil in 12-inch skillet over medium heat until shimmering. Add onion and cook until softened and beginning to caramelize at edges, 16 to 18 minutes, stirring occasionally. Stir in tomato paste, garlic, oregano, and pepper flakes and cook, stirring occasionally, until fragrant, about 2 minutes. Stir in wine, scraping up any browned bits, and cook until mostly evaporated, about 1 minute. Stir in tomatoes and sugar, increase heat to high, and bring to simmer. Reduce heat to medium-low and simmer until slightly thickened, about 5 minutes. Remove from heat and season with salt and pepper to taste. Set aside about two-thirds of sauce and spread remaining sauce in even layer in skillet."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Arrange one-third of cooled eggplant slices in skillet in single layer, spooning some sauce in skillet over eggplant and spreading to cover. Use remaining eggplant slices and reserved sauce, repeat layering 2 more times to make 3 layers. Sprinkle feta evenly over top layer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer skillet to upper rack in oven and bake until sauce is bubbling in center, feta is well browned on top, and tomato sauce is caramelizing at edges of skillet, 35 to 40 minutes. Being careful of hot skillet handle, transfer skillet to wire rack and, if using, drizzle ouzo over top. Wave lit match over skillet until ouzo ignites. When flames subside (15 to 30 seconds), serve immediately with crusty bread. (If omitting ouzo, skip flambéing.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 47964,
+    "end": 48022,
+    "yieldLine": "SERVES 4 to 6 SEASON 26"
+  },
+  "fit": true
+}

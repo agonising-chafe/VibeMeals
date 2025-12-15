@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_pastel-n-puerto-rican-sweet-plantain-and-picadillo-casserole",
+    "name": "Pastelón (Puerto Rican Sweet Plantain and Picadillo Casserole)",
+    "slug": "pastel-n-puerto-rican-sweet-plantain-and-picadillo-casserole",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET",
+        "BAKING_DISH",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fresh-cilantro-leaves-and-stems",
+        "displayName": "fresh cilantro leaves and stems",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-cubanelle-pepper-stemmed-seeded-and-chopped-coarse",
+        "displayName": "small Cubanelle pepper, stemmed, seeded, and chopped coarse",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-quartered",
+        "displayName": "onion, quartered",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-culantro-chopped-coarse",
+        "displayName": "fresh culantro, chopped coarse",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "very-ripe-plantains-peeled-divided",
+        "displayName": "very ripe plantains, peeled, divided",
+        "amount": 165.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "vegetable oil for frying",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-pinch-table-salt-divided",
+        "displayName": "plus pinch table salt, divided",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "90-percent-lean-ground-beef",
+        "displayName": "90 percent lean ground beef",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "PICADILLO"
+      },
+      {
+        "ingredientId": "saz-n",
+        "displayName": "sazón",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICADILLO"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICADILLO"
+      },
+      {
+        "ingredientId": "can-tomato-sauce",
+        "displayName": "can tomato sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICADILLO"
+      },
+      {
+        "ingredientId": "pitted-alcaparrado",
+        "displayName": "pitted alcaparrado",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICADILLO"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "monterey-jack-cheese-shredded-1-cup",
+        "displayName": "Monterey Jack cheese, shredded (1 cup)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Pulse cilantro, Cubanelle, onion, culantro, 2 tablespoons oil, and garlic in food processor until coarsely chopped, 12 to 14 pulses."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Line rimmed baking sheet with double layer of paper towels. Halve 1 plantain crosswise; cut each half lengthwise into thirds. Repeat with remaining plantains."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 3/4 cup oil in 12-inch nonstick skillet over medium-high heat until shimmering. Carefully lay one-third of plantain pieces in skillet and fry until deep golden brown on 1 side, 3 to 4 minutes. Using 2 spatulas, flip and fry on second side until deep golden brown, 2 to 3 minutes. Transfer plantains to prepared sheet. Repeat with remaining plantains in 2 batches. Discard excess oil, leaving any browned bits in skillet. Sprinkle 1/2 teaspoon salt over plantains."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add beef to now-empty skillet and cook over medium-high heat, breaking up meat with wooden spoon, until beef is no longer pink and begins to brown. Sprinkle sazón over meat and cook until aromatic, about 1 minute. Drizzle vinegar over meat and stir to combine. Transfer meat to bowl."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer cilantro mixture to now-empty skillet. Cook over medium-high heat, stirring frequently, until onion softens, 3 to 4 minutes. Add tomato sauce and continue to cook until mixture thickens and fond begins to form on edges and bottom of skillet, 2 to 4 minutes longer. Stir in beef and alcaparrado and continue to cook until sauce is thickened and coats meat, 2 to 3 minutes longer. Off heat, season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Arrange half of plantain pieces in lightly greased 13 by 9-inch baking dish (plantains will not cover bottom of dish completely). Whisk eggs with remaining pinch salt and pour evenly over plantains. Spread beef over plantains. Arrange remaining plantains in single layer over beef. Sprinkle evenly with Monterey Jack. Bake until cheese is melted and beginning to brown, 20 to 25 minutes. Transfer to wire rack; let cool for 5 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 31923,
+    "end": 31985,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

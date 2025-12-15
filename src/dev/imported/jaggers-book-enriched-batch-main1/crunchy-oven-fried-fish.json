@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_crunchy-oven-fried-fish",
+    "name": "Crunchy Oven-Fried Fish",
+    "slug": "crunchy-oven-fried-fish",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 65,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-shallot-minced-about-1-tablespoon",
+        "displayName": "small shallot, minced (about 1 tablespoon)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-5-tablespoons-unbleached-all-purpose-flour",
+        "displayName": "plus 5 tablespoons unbleached all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prepared-horseradish-optional",
+        "displayName": "prepared horseradish (optional)",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper-optional",
+        "displayName": "cayenne pepper (optional)",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cod-haddock-or-other-thick-whitefish-fillets-1-to-11-2-inches-thick-cut-into-4-pieces",
+        "displayName": "cod, haddock, or other thick whitefish fillets (1 to 11/2 inches thick), cut into 4 pieces",
+        "amount": 1.25,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "lemon-wedges-for-serving",
+        "displayName": "Lemon wedges, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 350 degrees. Pulse the bread, butter, 1/4 teaspoon salt, and 1/4 teaspoon black pepper in a food processor until the bread is coarsely ground, about 8 pulses. Transfer to a rimmed baking sheet and bake until deep golden brown and dry, about 15 minutes, stirring twice during the baking time. Cool the crumbs to room temperature, about 10 minutes. Transfer the crumbs to a pie plate and toss with the parsley and shallot. Increase the oven temperature to 425 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place 1/4 cup of the flour in a second pie plate. In a third pie plate, whisk together the eggs, mayonnaise, horseradish (if using), paprika, cayenne (if using), and 1/4 teaspoon black pepper until combined; whisk in the remaining 5 tablespoons flour until smooth."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Spray a wire rack with vegetable oil spray and place over a rimmed baking sheet. Dry the fish thoroughly with paper towels and season with salt and black pepper. Dredge 1 fillet in the flour; shake off the excess. Using tongs, coat the fillet with the egg mixture. Coat all sides of the fillet with the bread-crumb mixture, pressing gently so that a thick layer of crumbs adheres to the fish. Transfer the breaded fish to the wire rack. Repeat with the remaining 3 fillets."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bake until fillets register 135 degrees, 18 to 25 minutes. Using a thin spatula, transfer the fillets to individual plates and serve immediately with the lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 44086,
+    "end": 44134,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

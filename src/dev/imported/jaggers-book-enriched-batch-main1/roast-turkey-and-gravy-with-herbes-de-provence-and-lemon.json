@@ -1,0 +1,290 @@
+{
+  "mapped": {
+    "id": "atk_roast-turkey-and-gravy-with-herbes-de-provence-and-lemon",
+    "name": "Roast Turkey and Gravy with Herbes de Provence and Lemon",
+    "slug": "roast-turkey-and-gravy-with-herbes-de-provence-and-lemon",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 420,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "HERB_PASTE"
+      },
+      {
+        "ingredientId": "herbes-de-provence",
+        "displayName": "herbes de Provence",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "HERB_PASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "HERB_PASTE"
+      },
+      {
+        "ingredientId": "grated-lemon-zest",
+        "displayName": "grated lemon zest",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "HERB_PASTE"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "HERB_PASTE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "HERB_PASTE"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TURKEY"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TURKEY"
+      },
+      {
+        "ingredientId": "12-to-14-pound-turkey-neck-and-giblets-removed-and-reserved-for-gravy",
+        "displayName": "(12- to 14-pound) turkey, neck and giblets removed and reserved for gravy",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "TURKEY"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TURKEY"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TURKEY"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TURKEY",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "small-onion-chopped-fine",
+        "displayName": "small onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "carrot-peeled-and-sliced-thin",
+        "displayName": "carrot, peeled and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 3.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley",
+        "displayName": "sprigs fresh parsley",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate turkey, uncovered, after applying herb mixture",
+        "durationMinutes": 1440,
+        "kind": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE HERB PASTE: Process all ingredients in food processor until finely ground, about 30 seconds, scraping down sides of bowl as necessary."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE TURKEY AND GRAVY: Combine 1/4 cup herb paste, salt, and sugar in bowl. Place turkey, breast side up, on counter. Using your fingers, carefully loosen skin covering breast and leg quarters. Rub 2 tablespoons herb mixture under skin of each side of breast, 4 teaspoons under skin of each leg, and remaining herb mixture inside cavity. Tuck wings behind back and tie legs together with kitchen twine. Place turkey on wire rack set in rimmed baking sheet and refrigerate, uncovered, for at least 24 hours or up to 2 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "At least 30 minutes before roasting turkey, adjust oven rack to lowest position, set baking stone on rack, set roasting pan on baking stone, and heat oven to 500 degrees. Combine 11/2 teaspoons oil and baking powder in small bowl. Pat turkey dry with paper towels. Rub oil mixture evenly over turkey. Cover breast with double layer of aluminum foil."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove roasting pan from oven. Drizzle remaining 2 tablespoons oil into roasting pan. Place turkey, breast side up, in pan and return pan to oven. Reduce oven temperature to 425 degrees and roast for 45 minutes. Stir 1 tablespoon herb paste into melted butter."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove turkey from oven. Discard foil and brush herb butter evenly over turkey. Return turkey to oven; reduce oven temperature to 325 degrees; and continue to roast until breast registers 160 degrees and thighs register 175 degrees, 1 to 11/2 hours longer."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using spatula, loosen turkey from roasting pan; transfer to carving board and let rest, uncovered, for 45 minutes. While turkey rests, using wooden spoon, scrape up any browned bits from bottom of roasting pan. Strain mixture through fine-mesh strainer set over bowl. Transfer drippings to fat separator and let rest for 10 minutes. Reserve defatted liquid (you should have 1 cup; add water if necessary) and 3 tablespoons fat. Discard remaining fat."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Heat reserved fat in large saucepan over medium-high heat until shimmering. Add neck and giblets and cook until well browned, 10 to 12 minutes. Transfer neck and giblets to large plate. Reduce heat to medium; add onion and carrot; and cook, stirring frequently, until vegetables are softened, 5 to 7 minutes. Add flour and cook, stirring constantly, until flour is well coated with fat, about 1 minute. Slowly whisk in defatted liquid and cook until thickened, about 1 minute."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Whisk in water, wine, parsley sprigs, and bay leaves. Return neck and giblets to saucepan and bring to simmer. Simmer for 10 minutes. Discard neck. Strain gravy through fine-mesh strainer set over bowl, discarding solids. Stir in remaining herb paste and season with salt and pepper to taste. Transfer to serving bowl. Carve turkey and arrange on serving platter. Serve with gravy."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29010,
+    "end": 29082,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

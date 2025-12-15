@@ -1,0 +1,134 @@
+{
+  "mapped": {
+    "id": "atk_cracker-barrel-fried-apples",
+    "name": "Cracker Barrel Fried Apples",
+    "slug": "cracker-barrel-fried-apples",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "these-fried-apples-are-a-popular-breakfast-side-dish-at-cracker-barrel-they-are-also-great-with-pork-chops-or-served-on-top-of-pancakes-or-ice-cream",
+        "displayName": "These fried apples are a popular breakfast side dish at Cracker Barrel. They are also great with pork chops or served on top of pancakes or ice cream.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-red-apples-unpeeled",
+        "displayName": "medium red apples, unpeeled",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-unsalted-butter",
+        "displayName": "¼ pound unsalted butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "½ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-nutmeg",
+        "displayName": "⅛ teaspoon ground nutmeg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "apples-into-about-inch-thick-slices",
+        "displayName": "apples into about ½-inch-thick slices.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-12-inch-nonstick-skillet-over-medium-heat-add-butter-once-melted-add-apples-and-sugar-to-skillet-place-lid-on-skillet-and-cook-20-minutes-or-until-apples-are-tender-and-juicy",
+        "displayName": "In a 12-inch nonstick skillet over medium heat, add butter. Once melted, add apples and sugar to skillet. Place lid on skillet and cook 20 minutes or until apples are tender and juicy.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprinkle-with-cinnamon-and-nutmeg-before-serving",
+        "displayName": "Sprinkle with cinnamon and nutmeg before serving.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 992,
+    "end": 1026,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

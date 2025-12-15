@@ -1,10 +1,10 @@
 # Planner – v1 Specification
 
-**Version:** 1.1.0  
+**Version:** 1.1.1  
 **Status:** Implementation-Ready  
-**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.3.1  
+**Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.4.1  
 **Golden Tests:** G1, G2, G4, G5, G6  
-**Last Updated:** December 9, 2025  
+**Last Updated:** December 12, 2025  
 **v1.0.0 Implementation:** Domain logic only (generatePlan, swapRecipe, toggleLock, removeDinner in `src/domain/planner.ts`)  
 **UI Implementation:** Planned for v1.1+ (Nuxt 3 / Pinia stores)
 
@@ -303,6 +303,23 @@ For households that consume lots of meat:
 - Plan quality with constraints (2 tests)
 
 All constraint filtering logic is validated against the MVP recipe catalog to ensure correctness.
+
+### 5.5 Book-authored accompaniments (optional UI)
+
+Planner treats every dinner as complete by default. Book-authored accompaniments (side, sauce, appetizer, dessert) are **optional add-ons** and appear only when the main recipe has an explicit pairing in the book text that we have in the catalog.
+
+- Input data:
+  - A small code map (e.g., `DEFAULT_*_IDS`) from main `RecipeId` to one or more accompaniment `RecipeId`s.
+  - Only populated from high-confidence book hints such as “(recipe follows)” / “(this page)” / “Serve with {Recipe Name}”.
+  - If the main or accompaniment recipe is missing from the catalog, nothing is shown.
+- UI affordance:
+  - If a given dinner has at least one mapped accompaniment, show a secondary button **“Make it a full meal”**.
+  - On tap, open a short list of the mapped accompaniments, filtered by household diet/allergen constraints. Each item can be checked/unchecked; confirm attaches selected accompaniments to that dinner.
+- Behavior:
+  - No auto-attach; user must opt in.
+  - Accompaniments are stored on the dinner as `{ kind: 'SIDE' | 'SAUCE' | 'APPETIZER' | 'DESSERT'; recipeId }`.
+  - Side/appetizer/dessert recipes never enter the main planning pool.
+  - If constraint filtering removes all mapped accompaniments, hide the button.
 
 ---
 

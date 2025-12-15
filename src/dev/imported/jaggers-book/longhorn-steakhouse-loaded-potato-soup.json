@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_longhorn-steakhouse-loaded-potato-soup",
+    "name": "LongHorn Steakhouse Loaded Potato Soup",
+    "slug": "longhorn-steakhouse-loaded-potato-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "loaded-potato-soup-is-a-popular-appetizer-at-longhorn-steakhouse-and-is-made-without-flour-so-is-gluten-free-here-yukon-gold-potatoes-are-used-to-add-buttery-flavor-and-a-creamy-texture",
+        "displayName": "Loaded Potato Soup is a popular appetizer at LongHorn Steakhouse and is made without flour so is gluten-free. Here, Yukon gold potatoes are used to add buttery flavor and a creamy texture.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-smoked-bacon",
+        "displayName": "thick-cut smoked bacon",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "yellow-onion-peeled-and-finely-chopped",
+        "displayName": "½ yellow onion, peeled and finely chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "diced-peeled-yukon-gold-potatoes",
+        "displayName": "diced peeled Yukon gold potatoes",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-sharp-cheddar-cheese-divided",
+        "displayName": "shredded sharp Cheddar cheese, divided",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-green-onions-thinly-sliced",
+        "displayName": "medium green onions, thinly sliced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-3-quart-saucepan-over-medium-heat-fry-bacon-until-crisp-about-8-minutes-remove-bacon-with-a-slotted-spoon-and-transfer-to-a-paper-towel-lined-plate-to-drain",
+        "displayName": "In a 3-quart saucepan over medium heat, fry bacon until crisp, about 8 minutes. Remove bacon with a slotted spoon and transfer to a paper towel–lined plate to drain.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-pan-over-medium-heat-stir-in-butter-until-melted-add-yellow-onion-and-saut-until-tender-about-4-minutes-add-garlic-and-cook-30-seconds",
+        "displayName": "To same pan over medium heat, stir in butter until melted. Add yellow onion and sauté until tender, about 4 minutes. Add garlic and cook 30 seconds.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-chicken-broth-water-and-potatoes-bring-to-a-boil-then-reduce-heat-to-medium-low-and-simmer-15-minutes-stirring-often",
+        "displayName": "Add chicken broth, water, and potatoes. Bring to a boil, then reduce heat to medium-low and simmer 15 minutes, stirring often.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "after-15-minutes-check-potatoes-to-see-if-they-are-tender-a-fork-should-slide-in-and-out-of-potato-dices-easily-transfer-3-cups-potato-dices-from-pan-into-a-medium-bowl-with-an-immersion-blender-pur-e-soup-in-pan-until-smooth",
+        "displayName": "After 15 minutes, check potatoes to see if they are tender. A fork should slide in and out of potato dices easily. Transfer 3 cups potato dices from pan into a medium bowl. With an immersion blender, purée soup in pan until smooth.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "with-blender-running-add-salt-pepper-and-cream-remove-blender-and-whisk-in-1-cup-cheddar-cheese-until-melted-and-combined-return-potato-dices-to-pan-and-stir-well",
+        "displayName": "With blender running, add salt, pepper, and cream. Remove blender and whisk in 1 cup Cheddar cheese until melted and combined. Return potato dices to pan and stir well.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-soup-between-serving-bowls-top-with-crumbled-bacon-remaining-cheddar-cheese-and-green-onions-serve-hot",
+        "displayName": "Divide soup between serving bowls. Top with crumbled bacon, remaining Cheddar cheese, and green onions. Serve hot.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 3517,
+    "end": 3577,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

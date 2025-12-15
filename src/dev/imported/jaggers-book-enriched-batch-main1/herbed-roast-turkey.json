@@ -1,0 +1,209 @@
+{
+  "mapped": {
+    "id": "atk_herbed-roast-turkey",
+    "name": "Herbed Roast Turkey",
+    "slug": "herbed-roast-turkey",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-to-14-pound-turkey-giblets-neck-and-tailpiece-removed-and-discarded",
+        "displayName": "(12- to 14-pound) turkey; giblets, neck, and tailpiece removed and discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "roughly-chopped-fresh-parsley-leaves",
+        "displayName": "roughly chopped fresh parsley leaves",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "roughly-chopped-fresh-sage-leaves",
+        "displayName": "roughly chopped fresh sage leaves",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "minced-fresh-rosemary-leaves",
+        "displayName": "minced fresh rosemary leaves",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-shallot-minced-about-3-tablespoons",
+        "displayName": "medium shallot, minced (about 3 tablespoons)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "grated-zest-from-1-lemon",
+        "displayName": "grated zest from 1 lemon",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 360,
+        "description": "Brine the turkey.",
+        "kind": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TURKEY AND BRINE: Dissolve the salt in 2 gallons cold water in a large container. Submerge the turkey in the brine, cover, and refrigerate or store in a very cool spot (40 degrees or less) for 4 to 6 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove the turkey from the brine and rinse it well. Pat dry inside and out with paper towels. Place the turkey, breast side up, on a wire rack set over a rimmed baking sheet or roasting pan and refrigerate, uncovered, for 30 minutes. (Alternatively, air-dry the turkey.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE HERB PASTE: Pulse the parsley, thyme, sage, rosemary, shallot, garlic, lemon zest, salt, and pepper together in a food processor until a coarse paste is formed, 10 pulses. Add the olive oil and mustard; continue to pulse until the mixture forms a smooth paste, 10 to twelve 2-second pulses; scrape the sides of the processor bowl with a rubber spatula after 5 pulses. Transfer the mixture to a small bowl."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "TO PREPARE THE TURKEY: Adjust an oven rack to the lowest position and heat the oven to 400 degrees. Line a large V-rack with heavy-duty foil and poke several holes in the foil. Set the V-rack in a large roasting pan and spray the foil with vegetable oil spray. Remove the turkey from the refrigerator and wipe away any water collected in the baking sheet; set the turkey, breast side up, on the baking sheet."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Use your hands to carefully loosen the skin from the meat of the breast, thighs, and drumsticks. Using your fingers or a spoon, slip 11/2 tablespoons of the paste under the breast skin on each side of the turkey. Using your fingers, distribute the paste under the skin over the breast, thigh, and drumstick meat."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using a sharp paring knife, cut a 11/2-inch vertical slit into the thickest part of each side of the breast. Starting from the top of the incision, swing the knife tip down to create a 4 to 5-inch pocket within the flesh. Place 1 tablespoon more paste in the pocket of each side of the breast; using your fingers, rub the paste in a thin, even layer."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Rub 1 tablespoon more paste inside the turkey cavity. Rotate the turkey breast side down; apply half the remaining herb paste to the turkey skin; flip the turkey breast side up and apply the remaining herb paste to the skin, pressing and patting to make the paste adhere; reapply the herb paste that falls onto the baking sheet. Tuck the tips of the drumsticks into the skin at the tail to secure, and tuck the wings under the bird."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "TO ROAST THE TURKEY: Place the turkey, breast side down, on the V-rack. Roast the turkey for 45 minutes."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Remove the pan from the oven (close the oven door to retain the oven heat). With a dish towel in each hand, rotate the turkey breast side up. Continue to roast until the thickest part of the breast registers 160 degrees and the thickest part of the thigh registers 175 degrees on an instant-read thermometer, 50 to 60 minutes longer. Transfer the turkey to a carving board and let rest, uncovered, for 30 minutes. Serve with the gravy."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29179,
+    "end": 29241,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

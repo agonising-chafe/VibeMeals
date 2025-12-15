@@ -1,0 +1,210 @@
+{
+  "mapped": {
+    "id": "atk_old-fashioned-pot-roast",
+    "name": "Old-Fashioned Pot Roast",
+    "slug": "old-fashioned-pot-roast",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 270,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "31-2-to-4-pound-boneless-chuck-eye-roast-pulled-into-2-pieces-at-the-natural-seam-and-fat-trimmed",
+        "displayName": "(31/2 to 4-pound) boneless chuck-eye roast, pulled into 2 pieces at the natural seam and fat trimmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-onions-halved-and-sliced-thin-about-2-cups",
+        "displayName": "medium onions, halved and sliced thin (about 2 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "large-carrot-peeled-and-chopped-medium-about-1-cup",
+        "displayName": "large carrot, peeled and chopped medium (about 1 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "celery-rib-chopped-medium-about-3-4-cup",
+        "displayName": "celery rib, chopped medium (about 3/4 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "beef-broth-plus-1-to-2-cups-for-the-sauce",
+        "displayName": "beef broth, plus 1 to 2 cups for the sauce",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dry-red-wine-plus-1-4-cup-for-the-sauce",
+        "displayName": "dry red wine, plus 1/4 cup for the sauce",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sprig-fresh-thyme-plus-1-4-teaspoon-chopped-fresh-thyme-leaves",
+        "displayName": "sprig fresh thyme plus 1/4 teaspoon chopped fresh thyme leaves",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "balsamic-vinegar",
+        "displayName": "balsamic vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Let the seasoned roast stand at room temperature.",
+        "durationMinutes": 60,
+        "requirementKind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sprinkle the pieces of meat with 11/2 teaspoons salt, place on a wire rack set over a rimmed baking sheet and let stand at room temperature for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 300 degrees. Heat the butter in a heavy-bottomed Dutch oven over medium heat. When the foaming subsides, add the onions and cook, stirring occasionally, until softened and beginning to brown, 8 to 10 minutes. Add the carrot and celery and continue to cook, stirring occasionally, for 5 minutes longer. Add the garlic and cook until fragrant, about 30 seconds. Stir in 1 cup of the broth, 1/2 cup of the wine, the tomato paste, bay leaf, and thyme sprig; bring to a simmer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Season the beef generously with pepper. Using three pieces of kitchen twine, tie each piece of meat into a loaf shape for even cooking."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Nestle the roasts on top of the vegetables. Place a large piece of foil over the pot and cover tightly with the lid; transfer the pot to the oven. Cook the roasts until fully tender and a sharp knife easily slips in and out of the meat, 31/2 to 4 hours, turning the roasts halfway through cooking."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer the roasts to a carving board and tent loosely with foil. Strain the liquid through a fine-mesh strainer into a 4-cup liquid measuring cup. Discard the thyme sprig and bay leaf. Transfer the vegetables to a blender. Allow the liquid to settle for 5 minutes, then skim any fat off the surface. Add the remaining beef broth as necessary to bring the total amount of liquid to 3 cups. Place the liquid in the blender with the vegetables and blend until smooth, about 2 minutes. Transfer the sauce to a medium saucepan and bring to a simmer over medium heat."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "While the sauce heats, remove the twine from the roasts and slice them against the grain into 1/2-inch-thick slices. Transfer the meat to a large serving platter. Stir the chopped thyme, remaining 1/4 cup wine, and the balsamic vinegar into the sauce and season with salt and pepper to taste. Serve immediately, passing the sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 34040,
+    "end": 34105,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

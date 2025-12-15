@@ -1,0 +1,175 @@
+{
+  "mapped": {
+    "id": "atk_new-england-baked-beans",
+    "name": "New England Baked Beans",
+    "slug": "new-england-baked-beans",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-for-brining",
+        "displayName": "table salt for brining",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-cups-dried-navy-beans-picked-over-and-rinsed",
+        "displayName": "(21/2 cups) dried navy beans, picked over and rinsed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt-pork-rinsed-and-cut-into-3-pieces",
+        "displayName": "salt pork, rinsed and cut into 3 pieces",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-halved",
+        "displayName": "onion, halved",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "dry-mustard",
+        "displayName": "dry mustard",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Soak navy beans in salted water",
+        "durationMinutes": 480,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 11/2 tablespoons salt in 2 quarts cold water in large container. Add beans and let soak at room temperature for at least 8 hours or up to 24 hours. Drain and rinse well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 300 degrees. Combine beans, salt pork, onion, molasses, sugar, soy sauce, mustard, pepper, salt, bay leaf, and 4 cups water in large Dutch oven. (Liquid should cover beans by about 1/2 inch. Add more water if necessary.) Bring to boil over high heat. Cover pot, transfer to oven, and cook until beans are softened and bean skins curl up and split when you blow on them, about 2 hours. (After 1 hour, stir beans and check amount of liquid. Liquid should just cover beans. Add water if necessary.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove lid and continue to cook until beans are fully tender, browned, and slightly crusty on top, about 1 hour longer. (Liquid will reduce slightly below top layer of beans.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove pot from oven, cover, and let stand for 5 minutes. Using wooden spoon or rubber spatula, scrape any browned bits from sides of pot and stir into beans. Discard onion and bay leaf. (Salt pork can be eaten, if desired.) Let beans stand, uncovered, until liquid has thickened slightly and clings to beans, 10 to 15 minutes, stirring once halfway through. Season with salt and pepper to taste, and serve. (Cooled beans can be stored in an airtight container and refrigerated for up to 4 days.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61145,
+    "end": 61189,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

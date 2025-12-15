@@ -1,0 +1,167 @@
+{
+  "mapped": {
+    "id": "atk_banana-muffins-with-coconut-and-macadamia",
+    "name": "Banana Muffins with Coconut and Macadamia",
+    "slug": "banana-muffins-with-coconut-and-macadamia",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 12 muffins",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "macadamia-nuts-toasted-and-chopped-fine",
+        "displayName": "macadamia nuts, toasted and chopped fine",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "2-3-ounce-sweetened-flaked-coconut-toasted",
+        "displayName": "(2/3 ounce) sweetened flaked coconut, toasted",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "91-8-ounces-bread-flour",
+        "displayName": "(91/8 ounces) bread flour",
+        "amount": 1.6666666666666665,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "very-ripe-large-bananas-peeled-and-mashed-2-cups",
+        "displayName": "very ripe large bananas, peeled and mashed (2 cups)",
+        "amount": 45,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "31-2-ounces-plus-1-tablespoon-sugar-divided",
+        "displayName": "(31/2 ounces) plus 1 tablespoon sugar, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 425 degrees. Grease 12-cup muffin tin. Combine macadamia nuts and coconut in small bowl. Whisk flour, baking powder, baking soda, and salt together in medium bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk bananas, 1/2 cup sugar, eggs, oil, and vanilla in large bowl until fully combined. Add flour mixture and whisk until fully combined. Set aside 2 tablespoons macadamia nut mixture for topping. Fold remaining macadamia nut mixture into batter. Using portion scoop or large spoon, divide batter evenly among prepared muffin cups (about 1/2 cup batter per cup; cups will be very full). Sprinkle with remaining 1 tablespoon sugar and reserved macadamia nut mixture."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bake until tops are light golden brown and toothpick inserted in center comes out clean, 14 to 18 minutes. Let muffins cool in muffin tin on wire rack for 10 minutes. Remove muffins from muffin tin and let cool for at least 5 minutes. Serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 62949,
+    "end": 62995,
+    "yieldLine": "MAKES 12 muffins"
+  },
+  "fit": true
+}

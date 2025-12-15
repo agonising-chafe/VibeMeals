@@ -1,0 +1,275 @@
+{
+  "mapped": {
+    "id": "atk_chicken-enchiladas-with-red-chile-sauce",
+    "name": "Chicken Enchiladas with Red Chile Sauce",
+    "slug": "chicken-enchiladas-with-red-chile-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 5"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-chopped-fine",
+        "displayName": "medium onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-powder",
+        "displayName": "chili powder",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-about-4-thighs-trimmed-and-cut-into-1-4-inch-wide-strips",
+        "displayName": "boneless, skinless chicken thighs (about 4 thighs), trimmed and cut into 1/4-inch-wide strips",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cans-tomato-sauce",
+        "displayName": "cans tomato sauce",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sharp-cheddar-cheese-shredded-about-2-cups",
+        "displayName": "sharp cheddar cheese, shredded (about 2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "coarsely-chopped-fresh-cilantro-leaves",
+        "displayName": "coarsely chopped fresh cilantro leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-pickled-jalape-o-chiles-drained-and-chopped-about-1-4-cup",
+        "displayName": "can pickled jalapeño chiles, drained and chopped (about 1/4 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-corn-tortillas",
+        "displayName": "(6-inch) corn tortillas",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sharp-cheddar-cheese-shredded-about-3-4-cup",
+        "displayName": "sharp cheddar cheese, shredded (about 3/4 cup)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "sour cream",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-ripe-avocado-diced-medium",
+        "displayName": "medium, ripe avocado, diced medium",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "romaine-lettuce-leaves-shredded",
+        "displayName": "romaine lettuce leaves, shredded",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE AND FILLING: Heat the oil in a medium saucepan over medium-high heat until shimmering. Add the onion and cook, stirring occasionally, until softened and beginning to brown, about 5 minutes. Add the garlic, chili powder, coriander, cumin, sugar, and salt and cook, stirring constantly, until fragrant, about 30 seconds. Add the chicken and cook, stirring constantly, until coated with the spices, about 30 seconds. Add the tomato sauce and water, stir to separate the chicken pieces, and bring to a simmer. Reduce the heat to medium-low and simmer, uncovered, stirring occasionally, until the chicken is cooked through and the flavors have melded, about 8 minutes. Pour the mixture through a medium-mesh strainer into a medium bowl, pressing on the chicken and onions to extract as much sauce as possible; set the sauce aside. Transfer the chicken mixture to a large plate; place in the freezer for 10 minutes to cool, then combine with the cheddar, cilantro, and jalapeños in a medium bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust the oven racks to the upper-middle and lower-middle positions and heat the oven to 300 degrees."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "TO ASSEMBLE: Smear the bottom of a 13 by 9-inch baking dish with 3/4 cup of the chili sauce. Place the tortillas in a single layer on two baking sheets. Spray both sides of the tortillas lightly with vegetable oil spray. Bake until the tortillas are soft and pliable, about 4 minutes. Transfer the warm tortillas to a work surface. Increase the oven temperature to 400 degrees. Spread 1/3 cup of the filling down the center of each tortilla. Roll each tortilla tightly by hand and place, seam side down, side by side on the sauce in the baking dish. Pour the remaining chili sauce over the top of the enchiladas. Use the back of a spoon to spread the sauce so it coats the top of each tortilla. Sprinkle the cheese down the center of the enchiladas."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Cover the baking dish with foil. Bake the enchiladas on the lower-middle rack until heated through and the cheese is melted, 20 to 25 minutes. Uncover and serve immediately, passing the sour cream, avocado, lettuce, and lime wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 25720,
+    "end": 25792,
+    "yieldLine": "SERVES 4 to 5"
+  },
+  "fit": true
+}

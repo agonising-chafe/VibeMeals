@@ -1,0 +1,110 @@
+{
+  "mapped": {
+    "id": "atk_grill-roasted-bone-in-pork-roast",
+    "name": "Grill-Roasted Bone-In Pork Roast",
+    "slug": "grill-roasted-bone-in-pork-roast",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "4-to-5-pound-bone-in-center-cut-pork-rib-or-blade-end-roast-tip-of-chine-bone-removed-fat-trimmed-to-1-4-inch-thickness",
+        "displayName": "(4- to 5-pound) bone-in center-cut pork rib or blade-end roast, tip of chine bone removed, fat trimmed to 1/4-inch thickness",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wood-chips",
+        "displayName": "wood chips",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-orange-salsa-with-cuban-flavors-optional-this-page",
+        "displayName": "recipe Orange Salsa with Cuban Flavors (optional) (this page)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SALSA"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 6,
+        "description": "Salt pork roast and refrigerate",
+        "strategy": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Pat roast dry with paper towels. Using sharp knife, cut slits in surface fat layer, spaced 1 inch apart, in crosshatch pattern, being careful not to cut into meat. Sprinkle roast with salt. Wrap with plastic wrap and refrigerate for at least 6 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Just before grilling, soak wood chips in water for 15 minutes, then drain. Using large piece of heavy-duty aluminum foil, wrap soaked chips in 8 by 41/2-inch foil packet. (Make sure chips do not poke holes in sides or bottom of packet.) Cut 2 evenly spaced 2-inch slits in top of packet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Unwrap roast and season with pepper. Place roast on grate with meat near, but not over, coals and flames and bones facing away from coals and flames. Cover (position lid vent over meat if using charcoal) and cook until meat registers 135 to 140 degrees, 11/4 to 11/2 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer roast to carving board, tent with foil, and let rest for 30 minutes. Carve into thick slices by cutting between ribs. Serve, passing salsa, if using, separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51881,
+    "end": 51917,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

@@ -1,0 +1,173 @@
+{
+  "mapped": {
+    "id": "atk_high-roast-butterflied-chicken-with-potatoes",
+    "name": "High-Roast Butterflied Chicken with Potatoes",
+    "slug": "high-roast-butterflied-chicken-with-potatoes",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 3,
+      "yieldText": "SERVES 2 to 3"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken-giblets-discarded",
+        "displayName": "(31/2- to 4-pound) whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-mustard-garlic-butter-with-thyme-recipe-follows",
+        "displayName": "recipe Mustard-Garlic Butter with Thyme (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "MUSTARD-GARLIC BUTTER",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "russet-or-yukon-gold-potatoes-4-to-5-medium-peeled-and-sliced-1-8-to-1-4-inch-thick",
+        "displayName": "russet or Yukon Gold potatoes (4 to 5 medium), peeled and sliced 1/8 to 1/4 inch thick",
+        "amount": 2.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine chicken",
+        "durationMinutes": 60,
+        "type": "MARINATE"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHICKEN AND BRINE: Dissolve the salt and sugar in 2 quarts cold water in a large container. Submerge the chicken in the brine, cover, and refrigerate for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 500 degrees. Line a broiler-pan bottom with foil. Remove the chicken from the brine, rinse well, and pat dry with paper towels. Remove the backbone from the chicken, pound the chicken to a fairly even thickness, and tuck the wings behind the back."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Use your fingers to gently loosen the center portion of skin covering each side of the breast. Place the butter mixture under the skin, directly on the meat in the center of each side. Gently press on the skin to distribute the butter over the meat. Rub the skin with the oil and season with pepper. Place the chicken on the broiler-pan top and push each leg up to rest between the thigh and breast."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE POTATOES: Toss the potatoes with the oil, salt, and pepper. Spread the potatoes in an even layer in the prepared broiler-pan bottom. Place the broiler-pan top with the chicken on top."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Roast the chicken until just beginning to brown, about 20 minutes. Rotate the pan and continue to roast until the skin is crisped and deep brown and the thickest part of the breasts registers 160 to 165 degrees and the thickest part of the thighs registers 175 degrees on an instant-read thermometer, 20 to 25 minutes longer. Transfer the chicken to a carving board and let rest for 10 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "While the chicken rests, remove the broiler-pan top and, using paper towels, soak up any excess grease from the potatoes. Transfer the potatoes to a serving platter. Carve the chicken, transfer to the platter with the potatoes, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27994,
+    "end": 28044,
+    "yieldLine": "SERVES 2 to 3"
+  },
+  "fit": true
+}

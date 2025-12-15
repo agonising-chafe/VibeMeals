@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_root-vegetable-gratin",
+    "name": "Root Vegetable Gratin",
+    "slug": "root-vegetable-gratin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 140,
+      "equipmentTags": [
+        "OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "plus-11-2-cups-water",
+        "displayName": "plus 11/2 cups water",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-yukon-gold-potatoes-peeled-and-sliced-lengthwise-1-8-inch-thick",
+        "displayName": "large Yukon Gold potatoes, peeled and sliced lengthwise 1/8 inch thick",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-celery-root-1-pound-peeled-quartered-and-sliced-1-8-inch-thick",
+        "displayName": "large celery root (1 pound), peeled, quartered, and sliced 1/8 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rutabaga-peeled-quartered-and-sliced-1-8-inch-thick",
+        "displayName": "rutabaga, peeled, quartered, and sliced 1/8 inch thick",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panko-bread-crumbs",
+        "displayName": "panko bread crumbs",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CRUMB_TOPPING"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-3-4-cup",
+        "displayName": "Parmesan cheese, grated (3/4 cup)",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CRUMB_TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-and-cooled",
+        "displayName": "unsalted butter, melted and cooled",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CRUMB_TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 375 degrees. Grease 13 by 9-inch baking dish. Whisk 1 tablespoon water, mustard, flour, and 11/2 teaspoons salt in medium bowl until smooth. Add wine, cream, and remaining 11/2 cups water; whisk to combine. Combine onion, thyme, garlic, and 1/4 teaspoon pepper in second bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Arrange half of potatoes in even layer in prepared dish. Sprinkle half of onion mixture evenly over potatoes. Arrange celery root and rutabaga slices in even layer over onions. Sprinkle remaining onion mixture over celery root and rutabaga. Layer remaining potatoes over onions. Slowly pour water mixture over vegetables. Using rubber spatula, gently press down on vegetables to create even, compact layer. Cover tightly with aluminum foil and bake for 50 minutes. Remove foil and continue to bake until knife inserted into center of gratin meets no resistance, 20 to 25 minutes longer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While gratin bakes, combine panko, Parmesan, and butter in bowl and season with salt and pepper to taste. Remove gratin from oven and sprinkle evenly with panko mixture. Continue to bake until panko is golden brown, 15 to 20 minutes longer. Remove gratin from oven and let stand for 25 minutes. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 60087,
+    "end": 60141,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

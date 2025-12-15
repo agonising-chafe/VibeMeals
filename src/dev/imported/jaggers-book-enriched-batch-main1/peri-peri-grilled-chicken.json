@@ -1,0 +1,232 @@
+{
+  "mapped": {
+    "id": "atk_peri-peri-grilled-chicken",
+    "name": "Peri Peri Grilled Chicken",
+    "slug": "peri-peri-grilled-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "GRILL",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "arbol-chiles-stemmed",
+        "displayName": "arbol chiles, stemmed",
+        "amount": 410,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shallot-chopped",
+        "displayName": "shallot, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "five-spice-powder",
+        "displayName": "five-spice powder",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lemon-zest-plus-1-4-cup-juice-2-lemons",
+        "displayName": "grated lemon zest plus 1/4 cup juice (2 lemons)",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves-crushed",
+        "displayName": "bay leaves, crushed",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-chicken-pieces-breasts-thighs-and-or-drumsticks-trimmed",
+        "displayName": "bone-in chicken pieces (breasts, thighs, and/or drumsticks), trimmed",
+        "amount": 6,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-roasted-peanuts-chopped-fine",
+        "displayName": "dry-roasted peanuts, chopped fine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT"
+        ]
+      },
+      {
+        "ingredientId": "13-by-9-inch-disposable-aluminum-pan-if-using-charcoal-or-2-9-inch-disposable-aluminum-pie-plates-if-using-gas",
+        "displayName": "(13 by 9-inch) disposable aluminum pan (if using charcoal) or 2 (9-inch) disposable aluminum pie plates (if using gas)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Marinate chicken",
+        "durationMinutes": 360,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Process 4 arbols, oil, salt, garlic, tomato paste, shallot, sugar, paprika, five-spice powder, lemon zest and juice, pepper, cayenne, and bay leaves in blender until smooth, 10 to 20 seconds. Taste paste and add up to 6 additional arbols, depending on desired level of heat (spice paste should be slightly hotter than desired heat level of cooked chicken), and process until smooth. Using metal skewer, poke skin side of each chicken piece 8 to 10 times. Place chicken pieces, peanuts, and spice paste in large bowl or container and toss until chicken is evenly coated. Cover and refrigerate for at least 6 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean and oil cooking grate. Place chicken, skin side down, on hotter side of grill and cook until browned and blistered in spots, 2 to 5 minutes. Flip chicken and cook until second side is browned, 4 to 6 minutes. Move chicken to cooler side of grill and arrange, skin side up, with legs and thighs closest to fire and breasts farthest away. Cover (positioning lid vent over chicken if using charcoal) and cook until breasts register 160 degrees and legs and thighs register 175 degrees, 50 to 60 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer chicken to serving platter, tent with aluminum foil, and let rest for 10 minutes before serving, passing lemon wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "PEANUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 53788,
+    "end": 53846,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

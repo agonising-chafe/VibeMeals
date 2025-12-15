@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_dave-buster-s-strawberry-watermelon-margarita",
+    "name": "Dave & Buster’s Strawberry Watermelon Margarita",
+    "slug": "dave-buster-s-strawberry-watermelon-margarita",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-unique-margarita-uses-watermelon-juice-and-strawberry-infused-ice-cubes-to-make-a-margarita-that-is-easy-to-crave-with-this-copycat-recipe-you-can-enjoy-it-anytime-the-craving-strikes",
+        "displayName": "This unique margarita uses watermelon juice and strawberry-infused ice cubes to make a margarita that is easy to crave. With this copycat recipe, you can enjoy it anytime the craving strikes!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-strawberries-hulled",
+        "displayName": "fresh strawberries, hulled",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-watermelon-cubes",
+        "displayName": "fresh watermelon cubes",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sauza-hacienda-silver-tequila",
+        "displayName": "Sauza Hacienda Silver Tequila",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dekuyper-triple-sec-liqueur",
+        "displayName": "DeKuyper Triple Sec Liqueur",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-and-sour-mix",
+        "displayName": "sweet and sour mix",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-blender-pur-e-strawberries-and-sugar-until-smooth-pass-mixture-through-a-strainer-then-pour-into-an-ice-cube-tray-freeze-until-solid-about-3-hours",
+        "displayName": "In a blender, purée strawberries and sugar until smooth. Pass mixture through a strainer, then pour into an ice cube tray. Freeze until solid, about 3 hours.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-same-blender-pur-e-watermelon-1-minute-then-pass-through-a-strainer-into-a-small-pitcher-refrigerate-until-ready-to-use",
+        "displayName": "In same blender, purée watermelon 1 minute, then pass through a strainer into a small pitcher. Refrigerate until ready to use.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-shaker-add-tequila-triple-sec-sweet-and-sour-and-watermelon-juice-shake-20-seconds-or-until-mixture-is-very-cold-strain-into-two-highball-glasses-and-add-frozen-strawberry-cubes-serve-immediately",
+        "displayName": "In a shaker, add tequila, triple sec, sweet and sour, and watermelon juice. Shake 20 seconds or until mixture is very cold. Strain into two highball glasses and add frozen strawberry cubes. Serve immediately.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10933,
+    "end": 10969,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

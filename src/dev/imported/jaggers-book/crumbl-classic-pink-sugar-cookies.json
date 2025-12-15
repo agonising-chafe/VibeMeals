@@ -1,0 +1,304 @@
+{
+  "mapped": {
+    "id": "atk_crumbl-classic-pink-sugar-cookies",
+    "name": "Crumbl Classic Pink Sugar Cookies",
+    "slug": "crumbl-classic-pink-sugar-cookies",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "crumbl-opened-their-first-retail-location-in-2017-in-utah-and-quickly-became-a-hit-the-classic-pink-sugar-cookie-with-its-bright-pink-almond-flavored-frosting-is-one-of-the-cookies-most-associated-with-the-brand",
+        "displayName": "Crumbl opened their first retail location in 2017 in Utah and quickly became a hit. The Classic Pink Sugar Cookie with its bright pink almond-flavored frosting is one of the cookies most associated with the brand.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cookies",
+        "displayName": "Cookies",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter-room-temperature",
+        "displayName": "¾ cup unsalted butter, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "¾ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-white",
+        "displayName": "large egg white",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-almond-extract",
+        "displayName": "¼ teaspoon almond extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoons-baking-powder",
+        "displayName": "½ teaspoons baking powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frosting",
+        "displayName": "Frosting",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter-room-temperature",
+        "displayName": "¼ cup unsalted butter, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-vegetable-shortening",
+        "displayName": "¼ cup vegetable shortening",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "confectioners-sugar",
+        "displayName": "confectioners’ sugar",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-pure-vanilla-extract",
+        "displayName": "½ teaspoon pure vanilla extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-almond-extract",
+        "displayName": "½ teaspoon almond extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-rose-pink-gel-food-coloring",
+        "displayName": "¼ teaspoon rose pink gel food coloring",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-cookies-in-work-bowl-of-a-stand-mixer-fitted-with-paddle-attachment-or-in-a-large-bowl-with-a-hand-mixer-add-butter-beat-30-seconds-on-low-speed-until-creamy-add-granulated-sugar-and-beat-3-minutes-on-medium-speed-or-until-fluffy-add-egg-and-egg-white-and-beat-on-medium-speed-1-minute-then-stir-in-vanilla-extract-and-almond-extract",
+        "displayName": "For the cookies: In work bowl of a stand mixer fitted with paddle attachment or in a large bowl with a hand mixer, add butter. Beat 30 seconds on low speed until creamy. Add granulated sugar and beat 3 minutes on medium speed or until fluffy. Add egg and egg white and beat on medium speed 1 minute, then stir in vanilla extract and almond extract.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-sift-together-flour-cornstarch-and-baking-powder-add-dry-ingredients-to-wet-ingredients-and-beat-on-low-speed-until-just-combined-about-20-seconds",
+        "displayName": "In a medium bowl, sift together flour, cornstarch, and baking powder. Add dry ingredients to wet ingredients and beat on low speed until just combined, about 20 seconds.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-dough-with-plastic-wrap-and-refrigerate-2-hours-or-overnight",
+        "displayName": "Cover dough with plastic wrap and refrigerate 2 hours or overnight.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f-and-line-a-half-baking-sheet-with-parchment",
+        "displayName": "Preheat oven to 350°F and line a half baking sheet with parchment.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-dough-into-eight-equal-pieces-roll-each-piece-into-a-ball-place-four-balls-on-prepared-baking-sheet-2-inches-apart-bake-12-15-minutes-until-cookies-are-set-and-no-longer-shiny-remove-from-oven-and-cool-on-baking-sheet-10-minutes-before-transferring-to-a-wire-rack-to-cool-completely-repeat-with-remaining-cookie-dough",
+        "displayName": "Divide dough into eight equal pieces. Roll each piece into a ball. Place four balls on prepared baking sheet 2 inches apart. Bake 12–15 minutes until cookies are set and no longer shiny. Remove from oven and cool on baking sheet 10 minutes before transferring to a wire rack to cool completely. Repeat with remaining cookie dough.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-frosting-in-work-bowl-of-a-stand-mixer-fitted-with-paddle-attachment-or-in-a-large-bowl-with-a-hand-mixer-add-butter-and-shortening-beat-1-minute-on-low-speed-to-combine-add-confectioners-sugar-vanilla-extract-almond-extract-and-1-tablespoon-milk-mix-on-low-speed-30-seconds-then-increase-speed-to-medium-and-beat-1-minute-more-if-mixture-seems-too-dry-add-remaining-milk-add-food-coloring-and-mix-on-low-to-combine-evenly-about-30-seconds",
+        "displayName": "For the frosting: In work bowl of a stand mixer fitted with paddle attachment or in a large bowl with a hand mixer, add butter and shortening. Beat 1 minute on low speed to combine. Add confectioners’ sugar, vanilla extract, almond extract, and 1 tablespoon milk. Mix on low speed 30 seconds, then increase speed to medium and beat 1 minute more. If mixture seems too dry, add remaining milk. Add food coloring and mix on low to combine evenly, about 30 seconds.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "when-cookies-have-cooled-spread-frosting-over-cookies-in-a-thick-layer-enjoy-at-room-temperature-or-chilled",
+        "displayName": "When cookies have cooled, spread frosting over cookies in a thick layer. Enjoy at room temperature or chilled.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10056,
+    "end": 10126,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

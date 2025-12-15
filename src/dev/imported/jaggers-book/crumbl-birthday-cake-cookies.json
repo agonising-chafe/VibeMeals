@@ -1,0 +1,344 @@
+{
+  "mapped": {
+    "id": "atk_crumbl-birthday-cake-cookies",
+    "name": "Crumbl Birthday Cake Cookies",
+    "slug": "crumbl-birthday-cake-cookies",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "at-crumbl-you-can-get-a-free-cookie-on-your-birthday-if-you-sign-up-for-their-crumbl-loyalty-program-since-their-flavors-are-rotating-you-may-not-be-able-to-get-a-birthday-cake-cookie-in-the-store-so-make-a-batch-of-these-to-celebrate",
+        "displayName": "At Crumbl you can get a free cookie on your birthday if you sign up for their Crumbl Loyalty program. Since their flavors are rotating, you may not be able to get a Birthday Cake Cookie in the store, so make a batch of these to celebrate!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cookies",
+        "displayName": "Cookies",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter-room-temperature",
+        "displayName": "¾ cup unsalted butter, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "¾ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-white",
+        "displayName": "large egg white",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-almond-extract",
+        "displayName": "¼ teaspoon almond extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-butter-extract",
+        "displayName": "¼ teaspoon butter extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoons-baking-powder",
+        "displayName": "½ teaspoons baking powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rainbow-sprinkles",
+        "displayName": "rainbow sprinkles",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frosting-and-topping",
+        "displayName": "Frosting and Topping",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cream-cheese-room-temperature",
+        "displayName": "cream cheese, room temperature",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-room-temperature",
+        "displayName": "unsalted butter, room temperature",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-pure-vanilla-extract",
+        "displayName": "¼ teaspoon pure vanilla extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-almond-extract",
+        "displayName": "⅛ teaspoon almond extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-butter-extract",
+        "displayName": "⅛ teaspoon butter extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "confectioners-sugar",
+        "displayName": "confectioners’ sugar",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rainbow-sprinkles",
+        "displayName": "rainbow sprinkles",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-cookies-in-work-bowl-of-a-stand-mixer-fitted-with-paddle-attachment-or-in-a-large-bowl-with-a-hand-mixer-add-butter-cream-30-seconds-on-low-speed-until-creamy-add-granulated-sugar-and-beat-3-minutes-on-medium-speed-or-until-fluffy-add-egg-and-egg-white-and-beat-on-medium-speed-1-minute-then-stir-in-vanilla-extract-almond-extract-and-butter-extract",
+        "displayName": "For the cookies: In work bowl of a stand mixer fitted with paddle attachment or in a large bowl with a hand mixer, add butter. Cream 30 seconds on low speed until creamy. Add granulated sugar and beat 3 minutes on medium speed or until fluffy. Add egg and egg white and beat on medium speed 1 minute, then stir in vanilla extract, almond extract, and butter extract.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-sift-together-flour-cornstarch-baking-powder-and-salt-add-dry-ingredients-to-wet-ingredients-and-beat-on-low-speed-until-just-combined-then-fold-in-sprinkles",
+        "displayName": "In a medium bowl, sift together flour, cornstarch, baking powder, and salt. Add dry ingredients to wet ingredients and beat on low speed until just combined, then fold in sprinkles.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-dough-with-plastic-wrap-and-refrigerate-2-hours-or-overnight",
+        "displayName": "Cover dough with plastic wrap and refrigerate 2 hours or overnight.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f-and-line-a-half-baking-sheet-with-parchment",
+        "displayName": "Preheat oven to 350°F and line a half baking sheet with parchment.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-dough-into-eight-equal-pieces-roll-each-piece-into-a-ball-place-four-balls-on-prepared-baking-sheet-2-inches-apart-bake-10-12-minutes-until-cookies-are-set-and-no-longer-shiny-remove-from-oven-and-cool-on-baking-sheet-10-minutes-before-transferring-to-a-wire-rack-to-cool-completely-repeat-with-remaining-dough-balls",
+        "displayName": "Divide dough into eight equal pieces. Roll each piece into a ball. Place four balls on prepared baking sheet 2 inches apart. Bake 10–12 minutes until cookies are set and no longer shiny. Remove from oven and cool on baking sheet 10 minutes before transferring to a wire rack to cool completely. Repeat with remaining dough balls.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-frosting-and-topping-in-work-bowl-of-a-stand-mixer-fitted-with-paddle-attachment-or-in-a-large-bowl-with-a-hand-mixer-add-cream-cheese-and-butter-beat-1-minute-on-low-speed-to-combine-add-remaining-ingredients-except-sprinkles-and-mix-on-low-speed-30-seconds-then-increase-to-medium-and-beat-1-minute",
+        "displayName": "For the frosting and topping: In work bowl of a stand mixer fitted with paddle attachment or in a large bowl with a hand mixer, add cream cheese and butter. Beat 1 minute on low speed to combine. Add remaining ingredients except sprinkles and mix on low speed 30 seconds, then increase to medium and beat 1 minute.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "when-cookies-have-cooled-completely-load-frosting-into-a-piping-bag-fitted-with-a-round-tip-pipe-frosting-in-a-swirl-over-cookies-and-top-with-sprinkles-enjoy-at-room-temperature-or-chilled",
+        "displayName": "When cookies have cooled completely, load frosting into a piping bag fitted with a round tip. Pipe frosting in a swirl over cookies and top with sprinkles. Enjoy at room temperature or chilled.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9973,
+    "end": 10055,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

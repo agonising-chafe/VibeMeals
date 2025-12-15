@@ -1,0 +1,161 @@
+{
+  "mapped": {
+    "id": "atk_chicken-under-a-brick-with-herb-roasted-potatoes",
+    "name": "Chicken Under a Brick with Herb-Roasted Potatoes",
+    "slug": "chicken-under-a-brick-with-herb-roasted-potatoes",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 85,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "whole-chicken-giblets-discarded",
+        "displayName": "whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-8-teaspoon-pepper-divided",
+        "displayName": "plus 1/8 teaspoon pepper, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-vegetable-oil-divided",
+        "displayName": "plus 2 tablespoons vegetable oil, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice-plus-1-lemon-cut-into-wedges",
+        "displayName": "lemon juice, plus 1 lemon, cut into wedges",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-divided",
+        "displayName": "minced fresh thyme, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bliss-potatoes-small-scrubbed-dried-and-cut-into-3-4-inch-pieces",
+        "displayName": "Red Bliss potatoes (small), scrubbed, dried, and cut into 3/4 inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place chicken, breast side down, on cutting board. Using kitchen shears, cut through bones on either side of backbone; discard backbone. Turn chicken breast side up and use palm of your hand to flatten chicken, then pound chicken flat to fairly even thickness. Sprinkle chicken with 1/2 teaspoon salt and 1/2 teaspoon pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lowest position and heat oven to 450 degrees. Heat 1 teaspoon oil in 12-inch ovensafe nonstick skillet over medium-high heat until just smoking. Swirl skillet to coat evenly with oil. Place chicken, skin side down, in pan and reduce heat to medium. Place weighted skillet or pot on chicken and cook, checking every 5 minutes or so, until evenly browned, about 25 minutes. (After 20 minutes, chicken should be fairly crisp and golden; if not, turn heat up to medium-high and continue to cook until well browned.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, mix lemon juice, garlic, 11/2 teaspoons thyme, pepper flakes, 1/2 teaspoon salt, 1/4 teaspoon pepper, and remaining 2 tablespoons oil in small bowl and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using tongs, carefully transfer chicken, skin side up, to clean plate. Pour off any accumulated fat in pan and add potatoes, sprinkling them with remaining 1/4 teaspoon salt, remaining 1/8 teaspoon pepper, and remaining 11/2 teaspoons thyme. Place chicken, skin side up, on potatoes and brush skin with reserved thyme–lemon juice mixture."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer pan to oven and roast until thickest part of breast registers 160 degrees, about 10 minutes longer. Transfer chicken to cutting board and let rest for 10 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Return skillet with potatoes to oven and roast until browned and cooked through, about 10 minutes. Using slotted spoon, transfer potatoes to large bowl, leaving fat behind. Toss potatoes with parsley. Cut chicken into pieces. Serve chicken and potatoes immediately with lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27653,
+    "end": 27703,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

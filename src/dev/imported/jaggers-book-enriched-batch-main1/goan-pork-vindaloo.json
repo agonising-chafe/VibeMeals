@@ -1,0 +1,222 @@
+{
+  "mapped": {
+    "id": "atk_goan-pork-vindaloo",
+    "name": "Goan Pork Vindaloo",
+    "slug": "goan-pork-vindaloo",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN",
+        "DUTCH_OVEN",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-inch-piece-ginger-peeled-and-sliced-crosswise-1-8-inch-thick",
+        "displayName": "(2-inch) piece ginger, peeled and sliced crosswise 1/8 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves",
+        "displayName": "cloves",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kashmiri-chile-powder",
+        "displayName": "Kashmiri chile powder",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-4-1-2-teaspoon-cayenne-pepper-optional",
+        "displayName": "1/4–1/2 teaspoon cayenne pepper (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cardamom",
+        "displayName": "ground cardamom",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cloves",
+        "displayName": "ground cloves",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-nutmeg",
+        "displayName": "ground nutmeg",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-to-31-2-pound-boneless-pork-butt-roast-trimmed-and-cut-into-1-inch-pieces",
+        "displayName": "(3- to 31/2-pound) boneless pork butt roast, trimmed and cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-chopped-fine",
+        "displayName": "large onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coconut-vinegar",
+        "displayName": "coconut vinegar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 325 degrees. Process water; ginger; garlic; chile powder; paprika; cumin; salt; pepper; cayenne, if using; cinnamon; cardamom; cloves; and nutmeg in blender on low speed until rough paste forms, about 1 minute. Scrape down sides and blend on high speed until paste is smooth, about 1 minute. Place pork in large bowl. Add spice paste and mix thoroughly."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in Dutch oven over medium heat until shimmering. Add onion and cook, stirring frequently, until soft and golden, 7 to 9 minutes. Add pork mixture and stir to combine. Spread mixture into even layer. Continue to cook until mixture begins to bubble, about 2 minutes longer. Cover pot, transfer to oven, and cook for 40 minutes. Stir in vinegar. Cover, return pot to oven, and cook for 20 minutes. Uncover and cook until fork inserted into pork meets little or no resistance, 20 to 30 minutes longer. Let stand, uncovered, for 10 minutes. Stir and serve. (Pork can be cooked up to 3 days in advance.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 40014,
+    "end": 40066,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

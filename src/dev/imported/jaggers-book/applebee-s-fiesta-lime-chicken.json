@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_applebee-s-fiesta-lime-chicken",
+    "name": "Applebee’s Fiesta Lime Chicken",
+    "slug": "applebee-s-fiesta-lime-chicken",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-fiesta-flavors-in-this-chicken-come-from-its-margarita-inspired-marinade-it-is-best-not-to-marinate-the-chicken-for-this-recipe-more-than-3-hours-or-the-lime-juice-may-make-the-chicken-mushy",
+        "displayName": "The fiesta flavors in this chicken come from its margarita-inspired marinade. It is best not to marinate the chicken for this recipe more than 3 hours or the lime juice may make the chicken mushy.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-lime-juice",
+        "displayName": "¼ cup lime juice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tequila",
+        "displayName": "tequila",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breast",
+        "displayName": "boneless, skinless chicken breast",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salsa",
+        "displayName": "salsa",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ranch-dressing",
+        "displayName": "ranch dressing",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-crushed-tortilla-chips",
+        "displayName": "½ cup crushed tortilla chips",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-cheddar-jack-cheese",
+        "displayName": "¼ cup shredded Cheddar jack cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lime-wedge-of-lime",
+        "displayName": "lime wedge (⅙ of lime)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-lime-juice-and-tequila-into-a-large-resealable-plastic-bag-add-chicken-remove-air-seal-and-allow-to-marinate-2-3-hours-in-refrigerator",
+        "displayName": "Pour lime juice and tequila into a large resealable plastic bag. Add chicken, remove air, seal, and allow to marinate 2–3 hours in refrigerator.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-outdoor-barbecue-or-indoor-smokeless-grill-to-medium-high-heat-and-also-preheat-broiler-to-500-f",
+        "displayName": "Preheat outdoor barbecue or indoor smokeless grill to medium-high heat and also preheat broiler to 500°F.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-chicken-from-marinade-grill-4-5-minutes-per-side-or-until-chicken-reaches-an-internal-temperature-of-165-f-remove-from-grill-to-a-plate-tent-with-foil-and-let-rest",
+        "displayName": "Remove chicken from marinade. Grill 4–5 minutes per side or until chicken reaches an internal temperature of 165°F. Remove from grill to a plate, tent with foil, and let rest.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "combine-salsa-and-ranch-dressing-in-a-small-bowl",
+        "displayName": "Combine salsa and ranch dressing in a small bowl.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scatter-crushed-tortilla-chips-on-an-oven-safe-plate-place-chicken-on-top-of-crushed-chips-pour-prepared-dressing-over-chicken-and-top-with-cheese",
+        "displayName": "Scatter crushed tortilla chips on an oven-safe plate. Place chicken on top of crushed chips. Pour prepared dressing over chicken and top with cheese.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-chicken-under-broiler-until-cheese-is-melted-about-3-minutes-let-cool-2-minutes-before-serving-serve-with-lime-wedge-for-spritzing-over-chicken",
+        "displayName": "Place chicken under broiler until cheese is melted, about 3 minutes. Let cool 2 minutes before serving. Serve with lime wedge for spritzing over chicken.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5864,
+    "end": 5910,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

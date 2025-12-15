@@ -1,0 +1,225 @@
+{
+  "mapped": {
+    "id": "atk_salad-with-herbed-baked-goat-cheese-and-vinaigrette",
+    "name": "Salad with Herbed Baked Goat Cheese and Vinaigrette",
+    "slug": "salad-with-herbed-baked-goat-cheese-and-vinaigrette",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "SHEET_PAN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "white-melba-toasts-about-2-cups",
+        "displayName": "white Melba toasts (about 2 cups)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-thyme-leaves",
+        "displayName": "chopped fresh thyme leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CHEESE"
+      },
+      {
+        "ingredientId": "chopped-fresh-chives",
+        "displayName": "chopped fresh chives",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CHEESE"
+      },
+      {
+        "ingredientId": "goat-cheese",
+        "displayName": "goat cheese",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CHEESE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "Extra-virgin olive oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CHEESE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "minced-shallot",
+        "displayName": "minced shallot",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "mixed-delicate-and-spicy-salad-greens-such-as-arugula-baby-spinach-and-fris-e-washed-and-dried",
+        "displayName": "mixed delicate and spicy salad greens, such as arugula, baby spinach, and frisée, washed and dried",
+        "amount": 14,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SALAD"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHEESE: In a food processor, process the Melba toasts to fine, even crumbs, about 11/2 minutes; transfer the crumbs to a medium bowl and stir in the pepper. Whisk the eggs and mustard in a second medium bowl until combined. Combine the thyme and chives in a small bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using dental floss or kitchen twine, divide the cheese into 12 equal pieces by slicing the log lengthwise through the middle and each half into six even pieces. Roll each piece of cheese into a ball; roll each ball in the combined fresh herbs to coat lightly. Transfer 6 pieces to the egg mixture and turn each piece to coat; transfer to the Melba crumbs and turn each piece to coat, pressing the crumbs into the cheese. Flatten each ball gently with your fingertips into a disk about 11/2 inches wide and 1 inch thick and set on a baking sheet. Repeat with the remaining 6 pieces of cheese. Transfer the baking sheet to the freezer and freeze the disks until firm, about 30 minutes. Adjust an oven rack to the top position and heat the oven to 475 degrees."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE SALAD: Meanwhile, whisk the oil, vinegar, mustard, shallot, and salt in a small bowl until combined; season with pepper to taste. Set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the cheese from the freezer and brush the tops and sides evenly with olive oil. Bake until the crumbs are golden brown and the cheese is slightly soft, 7 to 9 minutes (or 9 to 12 minutes if the cheese is completely frozen). Using a thin metal spatula, transfer the cheese to a paper towel–lined plate and cool for 3 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Place the greens in a large bowl, drizzle the vinaigrette over them, and toss to coat. Divide the greens among individual plates; place two rounds of goat cheese on each salad and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 12552,
+    "end": 12610,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

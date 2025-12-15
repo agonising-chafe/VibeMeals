@@ -1,0 +1,79 @@
+{
+  "mapped": {
+    "id": "atk_best-grilled-chicken-thighs",
+    "name": "Best Grilled Chicken Thighs",
+    "slug": "best-grilled-chicken-thighs",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-to-7-ounce-bone-in-chicken-thighs-trimmed",
+        "displayName": "(5- to 7-ounce) bone-in chicken thighs, trimmed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-mustard-tarragon-paste",
+        "displayName": "recipe Mustard-Tarragon Paste",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MUSTARD_TARRAGON_PASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place chicken, skin side up, on large plate. Sprinkle skin side with salt and spread evenly with one-third of spice paste. Flip chicken and spread remaining two-thirds of paste evenly over flesh side. Refrigerate while preparing grill. (Chicken can be wrapped in plastic wrap and refrigerated for up to 2 hours.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean and oil cooking grate. Place chicken, skin side down, on cooler side of grill. Cover and cook for 20 minutes. Rearrange chicken, keeping skin side down, so that pieces that were positioned closest to edge of grill are now closer to heat source and vice versa. Cover and continue to cook until chicken registers 185 to 190 degrees, 15 to 20 minutes longer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Move all chicken, skin side down, to hotter side of grill and cook until skin is lightly charred, about 5 minutes. Flip chicken and cook until flesh side is lightly browned, 1 to 2 minutes. Transfer to platter, tent with aluminum foil, and let rest for 10 minutes. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 53510,
+    "end": 53540,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

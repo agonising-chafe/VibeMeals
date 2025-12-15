@@ -1,0 +1,241 @@
+{
+  "mapped": {
+    "id": "atk_cinnamon-swirl-bread",
+    "name": "Cinnamon Swirl Bread",
+    "slug": "cinnamon-swirl-bread",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 300,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 2 loaves",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "202-3-ounces-bread-flour",
+        "displayName": "(202/3 ounces) bread flour",
+        "amount": 3.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "23-4-ounces-nonfat-dry-milk-powder",
+        "displayName": "(23/4 ounces) nonfat dry milk powder",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "21-3-ounces-granulated-sugar",
+        "displayName": "(21/3 ounces) granulated sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-ounces-water-heated-to-110-degrees",
+        "displayName": "(12 ounces) water, heated to 110 degrees",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten",
+        "displayName": "large egg, lightly beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "71-2-ounces-golden-raisins",
+        "displayName": "(71/2 ounces) golden raisins",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "4-ounces-confectioners-sugar",
+        "displayName": "(4 ounces) confectioners’ sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten-with-pinch-table-salt",
+        "displayName": "large egg, lightly beaten with pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GLAZE",
+        "allergens": [
+          "EGG"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Cut butter into 32 pieces and toss with 1 tablespoon flour; set aside to soften while mixing dough. Whisk remaining flour, milk powder, sugar, and yeast together in bowl of stand mixer fitted with dough hook. Add water and egg and mix on medium-low speed until cohesive mass forms, about 2 minutes, scraping down bowl as needed. Cover mixing bowl with plastic wrap and let stand for 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to middle position and place loaf or cake pan on bottom of oven. Grease large bowl. Remove plastic from mixer bowl, add salt, and mix on medium-low speed until dough is smooth and elastic and clears sides of bowl, 7 to 15 minutes. With mixer running, add butter a few pieces at a time, and continue to knead until butter is fully incorporated and dough is smooth and elastic and clears sides of bowl, 3 to 5 minutes longer. Add raisins and mix until incorporated, 30 to 60 seconds. Transfer dough to prepared bowl and, using bowl scraper or rubber spatula, fold dough over itself by gently lifting and folding edge of dough toward middle. Turn bowl 90 degrees; fold again. Turn bowl and fold dough 6 more times (total of 8 folds). Cover tightly with plastic and transfer to middle rack of oven. Pour 3 cups boiling water into loaf pan in oven, close oven door, and allow dough to rise for 45 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove bowl from oven and gently press down on center of dough to deflate. Repeat folding (making total of 8 folds), re-cover, and return to oven until doubled in volume, about 45 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE FILLING: Whisk all ingredients together in bowl until well combined; set aside."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Grease two 81/2 by 41/2-inch loaf pans. Transfer dough to lightly floured counter and divide into 2 pieces. Working with 1 piece of dough, pat into rough 6 by 11-inch rectangle. With short side facing you, fold long sides in like a business letter to form 3 by 11-inch rectangle. Roll dough away from you into ball. Dust ball with flour and flatten with rolling pin into 7 by 18-inch rectangle with even 1/4-inch thickness. Using spray bottle, spray dough lightly with water. Sprinkle half of filling mixture evenly over dough, leaving 1/4-inch border on sides and 3/4-inch border on top and bottom; spray filling lightly with water. (Filling should be speckled with water over entire surface.) With short side facing you, roll dough away from you into firm cylinder. Turn loaf seam side up and pinch closed; pinch ends closed. Dust loaf lightly on all sides with flour and let rest for 10 minutes. Repeat with second ball of dough and remaining filling."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Working with 1 loaf at a time, use bench scraper to cut loaf in half lengthwise; turn halves so cut sides are facing up. Gently stretch each half into 14-inch length. Line up pieces of dough and pinch 2 ends of strips together. Take piece on left and lay over piece on right. Repeat, keeping cut side up, until pieces of dough are tightly twisted. Pinch ends together. Transfer loaf, cut side up, to prepared loaf pan; push any exposed raisins into seams of braid. Repeat with second loaf. Cover loaves loosely with plastic, return to oven, and allow to rise for 45 minutes. Remove loaves and water pan from oven; heat oven to 350 degrees. Allow loaves to rise at room temperature until almost doubled in size, about 45 minutes (tops of loaves should rise about 1 inch over lip of pans)."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Brush loaves with egg mixture. Bake until crust is well browned, about 25 minutes. Reduce oven temperature to 325 degrees, tent loaves with aluminum foil, and continue to bake until internal temperature registers 200 degrees, 15 to 25 minutes longer."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Transfer pans to wire rack and let cool for 5 minutes. Remove loaves from pans, return to rack, and cool to room temperature before slicing, about 2 hours."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Using bench scraper or sharp chef’s knife, cut filled dough in half lengthwise. Turn halves so cut sides are facing up."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "With cut sides up, stretch each half into 14-inch length."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Pinch 2 ends of strips together. To braid, take left strip of dough and lay it over right strip of dough. Repeat braiding, keeping cut sides face up, until pieces are tightly twisted. Pinch ends together."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 65422,
+    "end": 65514,
+    "yieldLine": "MAKES 2 loaves"
+  },
+  "fit": true
+}

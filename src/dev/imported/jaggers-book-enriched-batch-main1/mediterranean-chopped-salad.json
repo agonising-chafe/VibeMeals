@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_mediterranean-chopped-salad",
+    "name": "Mediterranean Chopped Salad",
+    "slug": "mediterranean-chopped-salad",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cucumber-peeled-halved-lengthwise-seeded-and-cut-into-1-2-inch-dice-about-11-4-cups",
+        "displayName": "cucumber, peeled, halved lengthwise, seeded, and cut into 1/2-inch dice (about 11/4 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pint-grape-tomatoes-quartered-about-11-2-cups",
+        "displayName": "pint grape tomatoes, quartered (about 11/2 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-for-salting-vegetables",
+        "displayName": "Table salt for salting vegetables",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-chickpeas-drained-and-rinsed",
+        "displayName": "can chickpeas, drained and rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-kalamata-olives-chopped",
+        "displayName": "pitted kalamata olives, chopped",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-onion-minced-about-1-4-cup",
+        "displayName": "small red onion, minced (about 1/4 cup)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "romaine-lettuce-heart-cut-into-1-2-inch-pieces-about-3-cups",
+        "displayName": "romaine lettuce heart, cut into 1/2-inch pieces (about 3 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "feta-cheese-crumbled-1-cup",
+        "displayName": "feta cheese, crumbled (1 cup)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine cucumber, tomatoes, and 1 teaspoon salt in colander set over bowl and drain for 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk oil, vinegar, and garlic together in large bowl. Add drained cucumber and tomatoes, chickpeas, olives, onion, and parsley. Toss and let stand at room temperature to blend flavors, 5 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add romaine and feta and toss to combine. Season with salt and pepper to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 13486,
+    "end": 13530,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

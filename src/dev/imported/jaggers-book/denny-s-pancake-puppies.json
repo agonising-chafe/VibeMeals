@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_denny-s-pancake-puppies",
+    "name": "Denny’s Pancake Puppies",
+    "slug": "denny-s-pancake-puppies",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1 (YIELDS 6 PANCAKE BALLS)",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "denny-s-has-created-many-varieties-of-their-pancake-puppies-through-the-years-including-cinnamon-sugar-strawberry-chocolate-and-red-velvet-this-recipe-is-a-copycat-of-the-classic-version-studded-with-sweet-blueberries",
+        "displayName": "Denny’s has created many varieties of their Pancake Puppies through the years, including cinnamon sugar, strawberry, chocolate, and red velvet. This recipe is a copycat of the classic version studded with sweet blueberries.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying-plus-more-for-coating-ice-cream-scoop",
+        "displayName": "Vegetable oil, for frying, plus more for coating ice cream scoop",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pancake-mix",
+        "displayName": "pancake mix",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whole-milk",
+        "displayName": "⅓ cup whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-dried-blueberries",
+        "displayName": "½ cup chopped dried blueberries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-chopped-white-chocolate-chips",
+        "displayName": "finely chopped white chocolate chips",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "confectioners-sugar-for-dusting",
+        "displayName": "Confectioners’ sugar, for dusting",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-pancake-mix-milk-and-egg-add-blueberries-and-chocolate-chips-and-stir-let-batter-sit-10-minutes-to-thicken",
+        "displayName": "In a medium bowl, combine pancake mix, milk, and egg. Add blueberries and chocolate chips and stir. Let batter sit 10 minutes to thicken.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "use-an-ice-cream-scoop-coated-with-oil-to-make-a-batter-ball-and-drop-batter-ball-in-hot-oil-cook-2-3-minutes-until-dark-brown",
+        "displayName": "Use an ice cream scoop coated with oil to make a batter ball and drop batter ball in hot oil. Cook 2 ½–3 minutes until dark brown.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-from-pan-and-drain-on-paper-towels-dust-with-confectioners-sugar-and-repeat-with-remaining-batter-serve-hot",
+        "displayName": "Remove from pan and drain on paper towels. Dust with confectioners’ sugar and repeat with remaining batter. Serve hot.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1188,
+    "end": 1228,
+    "yieldLine": "SERVES 1 (YIELDS 6 PANCAKE BALLS)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

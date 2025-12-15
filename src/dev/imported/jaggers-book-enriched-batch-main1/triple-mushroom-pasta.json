@@ -1,0 +1,240 @@
+{
+  "mapped": {
+    "id": "atk_triple-mushroom-pasta",
+    "name": "Triple Mushroom Pasta",
+    "slug": "triple-mushroom-pasta",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "FOOD_PROCESSOR",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "maitake-mushrooms-trimmed-and-torn-into-1-2-inch-pieces",
+        "displayName": "maitake mushrooms, trimmed and torn into 1/2-inch pieces",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CRISPY MUSHROOMS"
+      },
+      {
+        "ingredientId": "dried-porcini-mushrooms-rinsed",
+        "displayName": "dried porcini mushrooms, rinsed",
+        "amount": 0.25,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DUXELLES"
+      },
+      {
+        "ingredientId": "shallot-peeled",
+        "displayName": "shallot, peeled",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DUXELLES"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DUXELLES"
+      },
+      {
+        "ingredientId": "white-mushrooms-quartered",
+        "displayName": "white mushrooms, quartered",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DUXELLES"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DUXELLES",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DUXELLES",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "DUXELLES"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DUXELLES"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "campanelle",
+        "displayName": "campanelle",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecorino-romano-cheese-grated-1-2-cup",
+        "displayName": "Pecorino Romano cheese, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "For the crispy mushrooms: Heat oil in 12-inch skillet over medium heat until shimmering. Add maitakes and cook, without stirring, until mushrooms begin to wilt at edges, 2 to 3 minutes. Gently stir and continue to cook, stirring occasionally, until mushrooms are well browned and crisp, 7 to 9 minutes longer. Remove from heat. Season mushrooms with salt and pepper to taste, transfer to bowl, and set aside until serving (do not wash skillet)."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE DUXELLES: Add porcini mushrooms, shallot, and garlic to food processor and process until finely chopped, 10 to 15 seconds, scraping down sides of bowl halfway through processing. Add white mushrooms and process until very finely chopped, 40 to 55 seconds, scraping down sides of bowl halfway through processing."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add butter to now-empty skillet and heat over medium heat until butter is foaming, 1 to 2 minutes. Add mushroom mixture and salt and cook, stirring occasionally, until mushroom liquid has evaporated and mushrooms have darkened in color, 10 to 12 minutes. Remove from heat. Stir in heavy cream, pepper, and lemon juice. Set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE PASTA: Bring water to boil in large Dutch oven. Stir in pasta and salt. Adjust heat to medium so water is at gentle boil and cook partially covered, stirring occasionally, until pasta is just shy of al dente, 6 to 8 minutes (there will be about 1/2 inch cooking water in bottom of pot). Do not drain pasta."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove pot from heat. Add duxelles and Pecorino and stir vigorously until pasta is coated in lightly thickened sauce, 1 to 2 minutes (sauce will thicken as it cools). Transfer pasta to serving bowl. Top with crispy mushrooms and parsley. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 17616,
+    "end": 17678,
+    "yieldLine": "SERVES 4 to 6 SEASON 26"
+  },
+  "fit": true
+}

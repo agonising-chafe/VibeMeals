@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_panera-bread-homestyle-chicken-noodle-soup",
+    "name": "Panera Bread Homestyle Chicken Noodle Soup",
+    "slug": "panera-bread-homestyle-chicken-noodle-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-popular-soup-is-a-staple-of-the-panera-menu-and-wonderful-when-you-need-comfort-food-if-you-cannot-find-curly-egg-noodles-feel-free-to-use-any-thick-egg-noodle-you-have-available",
+        "displayName": "This popular soup is a staple of the Panera menu and wonderful when you need comfort food. If you cannot find curly egg noodles, feel free to use any thick egg noodle you have available.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-celery",
+        "displayName": "½ cup chopped celery",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-carrot",
+        "displayName": "½ cup chopped carrot",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-yellow-onion",
+        "displayName": "¼ cup chopped yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-sea-salt",
+        "displayName": "½ teaspoon sea salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-poultry-seasoning",
+        "displayName": "½ teaspoon poultry seasoning",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-bone-broth",
+        "displayName": "chicken bone broth",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breast",
+        "displayName": "boneless, skinless chicken breast",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "curly-egg-noodles",
+        "displayName": "curly egg noodles",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-lemon-juice",
+        "displayName": "fresh lemon juice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-3-quart-saucepan-over-medium-heat-add-oil-once-hot-swirl-pan-to-coat-and-add-celery-carrot-and-onion-saut-until-tender-about-5-minutes-add-salt-pepper-and-poultry-seasoning-and-saut-until-spices-are-fragrant-about-30-seconds",
+        "displayName": "In a 3-quart saucepan over medium heat, add oil. Once hot, swirl pan to coat and add celery, carrot, and onion. Sauté until tender, about 5 minutes. Add salt, pepper, and poultry seasoning and sauté until spices are fragrant, about 30 seconds.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-bone-broth-and-stir-well-then-add-chicken-breast-increase-heat-to-high-bring-mixture-to-a-boil-then-reduce-heat-to-medium-low-cover-pan-and-cook-15-minutes-or-until-chicken-reaches-an-internal-temperature-of-165-f-in-thickest-part-remove-chicken-from-pan-and-let-cool-slightly-then-shred-into-large-pieces-with-two-forks-set-aside",
+        "displayName": "Add bone broth and stir well, then add chicken breast. Increase heat to high. Bring mixture to a boil, then reduce heat to medium-low, cover pan, and cook 15 minutes or until chicken reaches an internal temperature of 165°F in thickest part. Remove chicken from pan and let cool slightly, then shred into large pieces with two forks. Set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-chicken-cools-return-pan-to-medium-heat-and-add-noodles-cook-until-noodles-are-tender-about-8-minutes-reduce-heat-to-low-and-add-shredded-chicken-and-lemon-juice-serve-hot",
+        "displayName": "While chicken cools, return pan to medium heat and add noodles. Cook until noodles are tender, about 8 minutes. Reduce heat to low and add shredded chicken and lemon juice. Serve hot.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4030,
+    "end": 4076,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

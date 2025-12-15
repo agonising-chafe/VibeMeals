@@ -1,0 +1,263 @@
+{
+  "mapped": {
+    "id": "atk_khua-kling-southern-thai-pork-stir-fry",
+    "name": "Khua Kling (Southern Thai Pork Stir-Fry)",
+    "slug": "khua-kling-southern-thai-pork-stir-fry",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dried-arbol-chiles-stemmed-halved-lengthwise-and-seeds-removed",
+        "displayName": "dried arbol chiles, stemmed, halved lengthwise, and seeds removed",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "large-shallots-chopped-coarse",
+        "displayName": "large shallots, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "lemongrass-stalks-trimmed-to-bottom-6-inches-halved-lengthwise-and-sliced-thin",
+        "displayName": "lemongrass stalks, trimmed to bottom 6 inches, halved lengthwise, and sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "cloves-chopped-coarse",
+        "displayName": "cloves, chopped coarse",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "2-inch-piece-fresh-galangal-chopped-coarse",
+        "displayName": "(2-inch) piece fresh galangal, chopped coarse",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "2-inch-piece-fresh-turmeric-chopped-coarse",
+        "displayName": "(2-inch) piece fresh turmeric, chopped coarse",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "thai-red-chiles-stemmed-and-chopped-coarse",
+        "displayName": "Thai red chiles, stemmed and chopped coarse",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "makrut-lime-leaves-middle-vein-removed-and-sliced-thin-crosswise",
+        "displayName": "makrut lime leaves, middle vein removed and sliced thin crosswise",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "kapi",
+        "displayName": "kapi",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CURRY PASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-pork-broken-into-1-inch-chunks",
+        "displayName": "ground pork, broken into 1-inch chunks",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "brown-sugar",
+        "displayName": "brown sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thai-red-chiles-stemmed-and-sliced-1-4-inch-thick-on-bias-optional",
+        "displayName": "Thai red chiles, stemmed and sliced 1/4 inch thick on bias (optional)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "makrut-lime-leaves-middle-vein-removed-and-sliced-thin-crosswise",
+        "displayName": "makrut lime leaves, middle vein removed and sliced thin crosswise",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "steamed-jasmine-rice",
+        "displayName": "Steamed jasmine rice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SERVING"
+      },
+      {
+        "ingredientId": "english-cucumber-peeled-if-desired-sliced-into-1-4-inch-rounds-and-chilled",
+        "displayName": "English cucumber, peeled if desired, sliced into 1/4-inch rounds, and chilled",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SERVING"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Soak the dried chiles in boiling water to soften them for the curry paste.",
+        "durationMinutes": 20,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CURRY PASTE: Place arbols in small bowl and cover with 1 cup boiling water. Let sit for 20 minutes. Drain, reserving liquid. Combine arbols, shallots, lemongrass, garlic, galangal, turmeric, Thai chiles, lime leaves, kapi, and salt in 2-cup liquid measure. Use immersion blender in mashing, up-and-down motion, to blend to coarse paste, about 2 minutes, stirring and scraping down sides halfway through blending. (Paste can be refrigerated for 4 days or frozen for up to 4 months.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE PORK: Heat oil in wok over medium heat until shimmering. Add curry paste and cook, stirring constantly with wok spatula or wooden spoon, until paste just begins to stick, about 2 minutes. Add pork and mash and chop until meat and paste are mostly combined. Increase heat to medium-high and continue to cook, stirring and chopping constantly, until pork breaks into small pieces and is mostly cooked but some pink bits remain, about 3 minutes (if mixture starts to stick, deglaze with reserved arbol liquid, using 1 tablespoon at a time)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add fish sauce, sugar, and pepper and cook, stirring constantly, until pork is fully cooked and no moisture remains. Off heat, stir in sliced chiles, if using, and lime leaves. Transfer to serving bowl. Serve with rice and cucumber slices."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38894,
+    "end": 38956,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

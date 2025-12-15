@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_waffle-house-cheesesteak-omelet",
+    "name": "Waffle House Cheesesteak Omelet",
+    "slug": "waffle-house-cheesesteak-omelet",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "waffle-house-omelets-are-prepared-using-a-milkshake-mixer-to-make-them-extra-fluffy-and-smooth-to-re-create-this-omelet-at-home-you-can-use-a-blender-to-make-the-eggs-fluffy",
+        "displayName": "Waffle House omelets are prepared using a milkshake mixer to make them extra fluffy and smooth. To re-create this omelet at home, you can use a blender to make the eggs fluffy.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "portion-frozen-thin-sliced-beefsteak-such-as-steak-umm",
+        "displayName": "portion frozen thin-sliced beefsteak, such as Steak-umm",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-an-8-inch-nonstick-skillet-over-medium-heat-add-beefsteak-cook-1-minute-then-break-up-beef-with-spatula-and-cook-1-minute-more-transfer-to-a-paper-towel-lined-plate-and-set-aside",
+        "displayName": "In an 8-inch nonstick skillet over medium heat, add beefsteak. Cook 1 minute, then break up beef with spatula and cook 1 minute more. Transfer to a paper towel–lined plate and set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-eggs-and-salt-to-a-blender-and-pur-e-1-minute",
+        "displayName": "Add eggs and salt to a blender and purée 1 minute.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-eggs-pur-e-add-butter-to-same-skillet-over-medium-heat-and-once-melted-and-foaming-swirl-to-coat-pan-add-eggs-to-pan-constantly-swirling-pan-until-bottoms-are-set-and-eggs-are-starting-to-puff",
+        "displayName": "While eggs purée, add butter to same skillet over medium heat and once melted and foaming, swirl to coat pan. Add eggs to pan, constantly swirling pan, until bottoms are set and eggs are starting to puff.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carefully-flip-omelet-and-cook-30-seconds-then-flip-again-and-add-cooked-beef-and-cheese-slices-reduce-heat-to-low-fold-omelet-in-half-and-cook-15-seconds-flip-and-cook-15-20-seconds-more-until-cheese-is-melted-transfer-to-a-plate-and-serve-immediately",
+        "displayName": "Carefully flip omelet and cook 30 seconds, then flip again and add cooked beef and cheese slices. Reduce heat to low, fold omelet in half, and cook 15 seconds. Flip and cook 15–20 seconds more until cheese is melted. Transfer to a plate and serve immediately.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1638,
+    "end": 1674,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

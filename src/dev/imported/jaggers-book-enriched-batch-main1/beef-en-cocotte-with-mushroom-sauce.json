@@ -1,0 +1,199 @@
+{
+  "mapped": {
+    "id": "atk_beef-en-cocotte-with-mushroom-sauce",
+    "name": "Beef en Cocotte with Mushroom Sauce",
+    "slug": "beef-en-cocotte-with-mushroom-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 160,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "3-to-4-pound-top-sirloin-beef-roast-trimmed-and-tied-once-around-middle",
+        "displayName": "(3- to 4-pound) top sirloin beef roast, trimmed and tied once around middle",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cremini-mushrooms-trimmed-wiped-clean-and-sliced-1-4-inch-thick",
+        "displayName": "cremini mushrooms, trimmed, wiped clean, and sliced 1/4 inch thick",
+        "amount": 5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "onion-minced",
+        "displayName": "onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-peeled-and-crushed",
+        "displayName": "cloves, peeled and crushed",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dried-porcini-mushrooms-rehydrated-liquid-strained-and-reserved-and-mushrooms-minced",
+        "displayName": "dried porcini mushrooms, rehydrated, liquid strained and reserved, and mushrooms minced",
+        "amount": 0.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sprigs-fresh-tarragon",
+        "displayName": "sprigs fresh tarragon",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cognac",
+        "displayName": "cognac",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Rehydrate dried porcini mushrooms in warm water for at least 30 minutes before starting.",
+        "durationMinutes": 30,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lowest position and heat oven to 250 degrees. Pat roast dry with paper towels and season with salt and pepper. Heat 2 tablespoons oil in Dutch oven over medium-high heat until just smoking. Add roast and brown well on all sides, 7 to 10 minutes; transfer to plate."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add remaining 1 tablespoon oil to now-empty pot and heat over medium heat until shimmering. Add cremini mushrooms, onion, garlic, porcini mushrooms, and tarragon, cover, and cook until mushrooms are softened and wet, about 5 minutes. Remove lid and continue to cook, stirring often, until mushrooms are dry and well-browned, 10 to 12 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir in tomato paste and cook until lightly browned, about 30 seconds. Stir in reserved porcini soaking liquid, wine, and cognac, scraping up any browned bits, and cook until almost completely evaporated, about 5 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Off heat, return roast and any accumulated juices to pot. Place large sheet of aluminum foil over pot and press to seal, then cover tightly with lid. Transfer pot to oven and cook until beef registers 120 to 125 degrees (for medium-rare), 45 to 75 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove pot from oven. Transfer roast to carving board, tent with foil, and let rest for 20 minutes. Stir broth into vegetables and simmer over medium-high heat until slightly thickened, about 2 minutes. Off heat, remove tarragon, whisk in butter, season with salt and pepper to taste, and cover to keep warm. Remove twine from roast. Slice meat against grain 1/4 inch thick. Spoon sauce over meat and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 35021,
+    "end": 35069,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

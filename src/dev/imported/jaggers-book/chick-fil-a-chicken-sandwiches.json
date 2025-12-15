@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_chick-fil-a-chicken-sandwiches",
+    "name": "Chick-fil-A Chicken Sandwiches",
+    "slug": "chick-fil-a-chicken-sandwiches",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chick-fil-a-is-the-largest-chicken-sandwich-chain-in-america-their-original-chicken-sandwich-is-famous-for-its-simplicity-toasted-bun-fried-chicken-breast-fillet-and-dill-pickles-it-is-a-classic-for-a-reason",
+        "displayName": "Chick-fil-A is the largest chicken sandwich chain in America. Their original chicken sandwich is famous for its simplicity: toasted bun, fried chicken breast fillet, and dill pickles. It is a classic for a reason!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breast-fillets",
+        "displayName": "boneless, skinless chicken breast fillets",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-low-fat-buttermilk",
+        "displayName": "¼ cup low-fat buttermilk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dill-pickle-brine",
+        "displayName": "dill pickle brine",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "½ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-paprika",
+        "displayName": "½ teaspoon paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-hamburger-buns-sliced-in-half-lengthwise",
+        "displayName": "plain hamburger buns, sliced in half lengthwise",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dill-pickle-slices",
+        "displayName": "dill pickle slices",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-resealable-plastic-bag-add-chicken-buttermilk-pickle-brine-and-sugar-seal-bag-removing-as-much-air-as-you-can-and-massage-to-evenly-coat-chicken-and-combine-marinade-ingredients-refrigerate-at-least-2-hours-or-up-to-24-hours",
+        "displayName": "In a large resealable plastic bag, add chicken, buttermilk, pickle brine, and sugar. Seal bag, removing as much air as you can, and massage to evenly coat chicken and combine marinade ingredients. Refrigerate at least 2 hours or up to 24 hours.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-chicken-from-refrigerator-30-minutes-before-cooking-to-warm-to-room-temperature",
+        "displayName": "Remove chicken from refrigerator 30 minutes before cooking to warm to room temperature.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-flour-pepper-salt-and-paprika-and-mix-well-to-combine-remove-chicken-from-marinade-and-let-excess-drip-off-dredge-chicken-in-flour-mixture-shaking-off-excess-flour-and-gently-place-in-hot-oil-fry-5-7-minutes-until-chicken-reaches-an-internal-temperature-of-165-f-remove-chicken-from-oil-and-let-drain-on-a-paper-towel-lined-plate",
+        "displayName": "In a medium bowl, add flour, pepper, salt, and paprika and mix well to combine. Remove chicken from marinade and let excess drip off. Dredge chicken in flour mixture, shaking off excess flour, and gently place in hot oil. Fry 5–7 minutes until chicken reaches an internal temperature of 165°F. Remove chicken from oil and let drain on a paper towel–lined plate.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-10-inch-skillet-over-medium-heat-once-hot-add-butter-and-swirl-to-coat-pan-evenly-add-bun-halves-cut-side-down-and-toast-until-golden-about-3-minutes-swirling-bun-halves-around-pan-to-absorb-all-melted-butter",
+        "displayName": "Heat a 10-inch skillet over medium heat. Once hot, add butter and swirl to coat pan evenly. Add bun halves cut side down and toast until golden, about 3 minutes, swirling bun halves around pan to absorb all melted butter.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-bottom-half-of-each-bun-on-a-serving-plate-top-with-3-pickle-slices-and-1-chicken-breast-each-top-with-top-bun-serve-immediately",
+        "displayName": "Place bottom half of each bun on a serving plate. Top with 3 pickle slices and 1 chicken breast each. Top with top bun. Serve immediately.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4588,
+    "end": 4642,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

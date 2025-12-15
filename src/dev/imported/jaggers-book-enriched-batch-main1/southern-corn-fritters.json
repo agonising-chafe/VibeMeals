@@ -1,0 +1,148 @@
+{
+  "mapped": {
+    "id": "atk_southern-corn-fritters",
+    "name": "Southern Corn Fritters",
+    "slug": "southern-corn-fritters",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES twelve 2-inch fritters",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "ears-corn-husks-and-silk-removed",
+        "displayName": "ears corn, husks and silk removed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten",
+        "displayName": "large egg, lightly beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornmeal",
+        "displayName": "cornmeal",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "small-shallot-minced-about-1-tablespoon",
+        "displayName": "small shallot, minced (about 1 tablespoon)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-plus-more-as-needed",
+        "displayName": "vegetable oil, plus more as needed",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Stand the corn upright inside a large bowl and, using a paring knife, carefully cut the kernels from 2 ears of the corn; you should have about 1 cup. Transfer the kernels to a medium bowl. Use the back of a butter knife to scrape off any pulp remaining on the cobs and transfer it to the bowl. Grate the kernels from the remaining 2 ears of corn on the large holes of a box grater, then firmly scrape off any pulp remaining on the cobs with the back of a butter knife; you should have a generous cup of kernels and pulp. Transfer the grated kernels and pulp to the bowl with the cut kernels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Mix the egg, flour, cornmeal, cream, shallot, salt, and cayenne into the corn mixture to form a thick batter."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat the oil in a 12-inch skillet over medium-high heat until almost smoking, about 2 minutes. Drop heaping tablespoons of batter into the oil (half the batter, or six fritters, should fit into the pan at once). Fry until golden brown, about 1 minute. Using a thin metal spatula, turn the fritters and fry until the second side is golden brown, about 1 minute longer. Transfer the fritters to a paper towel–lined plate. Repeat with the remaining batter, adding more oil to the skillet if necessary. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 58021,
+    "end": 58063,
+    "yieldLine": "MAKES twelve 2-inch fritters"
+  },
+  "fit": true
+}

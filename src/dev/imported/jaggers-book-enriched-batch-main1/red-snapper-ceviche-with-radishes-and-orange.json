@@ -1,0 +1,170 @@
+{
+  "mapped": {
+    "id": "atk_red-snapper-ceviche-with-radishes-and-orange",
+    "name": "Red Snapper Ceviche with Radishes and Orange",
+    "slug": "red-snapper-ceviche-with-radishes-and-orange",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6 as a main dish or 6 to 8 as an appetizer"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "skinless-red-snapper-fillets-1-2-inch-thick",
+        "displayName": "skinless red snapper fillets, 1/2 inch thick",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "Kosher salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lime-juice-6-limes",
+        "displayName": "lime juice (6 limes)",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "aj-amarillo-chile-paste",
+        "displayName": "ají amarillo chile paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oranges",
+        "displayName": "oranges",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "radishes-trimmed-halved-and-sliced-thin",
+        "displayName": "radishes, trimmed, halved, and sliced thin",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coarsely-chopped-fresh-cilantro",
+        "displayName": "coarsely chopped fresh cilantro",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "corn-nuts",
+        "displayName": "corn nuts",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lightly-salted-popcorn",
+        "displayName": "lightly salted popcorn",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Using sharp knife, cut fish lengthwise into 1/2-inch-wide strips. Slice each strip crosswise 1/8 inch thick. Set aside 1/3 cup (21/2 ounces) fish pieces. Toss remaining fish with 1 teaspoon salt and refrigerate for at least 10 minutes or up to 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, process reserved fish pieces, 21/2 teaspoons salt, lime juice, 2 tablespoons oil, chile paste, and garlic in blender until smooth, 30 to 60 seconds. Strain mixture through fine-mesh strainer set over large bowl, pressing on solids to extract as much liquid as possible. Discard solids. (Sauce can be refrigerated for up to 24 hours. It will separate slightly; whisk to recombine before proceeding with recipe.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Cut away peel and pith from oranges. Holding fruit over bowl, use paring knife to slice between membranes to release segments. Cut orange segments into 1/4-inch pieces. Add oranges, salted fish, and radishes to bowl with sauce and toss to combine. Refrigerate for 30 to 40 minutes (for more-opaque fish, refrigerate for 45 minutes to 1 hour)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add cilantro to ceviche and toss to combine. Portion ceviche into individual bowls and drizzle with remaining 1 tablespoon oil. Serve, passing corn nuts and popcorn separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43790,
+    "end": 43834,
+    "yieldLine": "SERVES 4 to 6 as a main dish or 6 to 8 as an appetizer"
+  },
+  "fit": true
+}

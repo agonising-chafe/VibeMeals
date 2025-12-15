@@ -1,0 +1,83 @@
+{
+  "mapped": {
+    "id": "atk_grilled-spice-rubbed-chicken-drumsticks",
+    "name": "Grilled Spice-Rubbed Chicken Drumsticks",
+    "slug": "grilled-spice-rubbed-chicken-drumsticks",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-drumsticks",
+        "displayName": "chicken drumsticks",
+        "amount": 5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-barbecue-spice-rub-recipe-follows",
+        "displayName": "recipe Barbecue Spice Rub (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve salt in 2 quarts cold water in large container. Submerge drumsticks in brine, cover, and refrigerate for 30 minutes to 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place spice rub on plate. Remove drumsticks from brine and pat dry with paper towels. Holding 1 drumstick by bone end, press lightly into rub on all sides. Pat gently to remove excess rub. Repeat with remaining drumsticks."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place drumsticks, skin side down, on cooler side of grill. Cover and cook for 25 minutes. Rearrange pieces so that drumsticks that were closest to edge are now closer to heat source and vice versa. Cover and cook until drumsticks register 185 to 190 degrees, 20 to 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Move all drumsticks to hotter side of grill and cook, turning occasionally, until skin is nicely charred, about 5 minutes. Transfer to platter, tent with aluminum foil, and let rest for 10 minutes. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 53649,
+    "end": 53681,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

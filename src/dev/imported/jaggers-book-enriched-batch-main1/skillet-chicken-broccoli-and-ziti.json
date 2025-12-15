@@ -1,0 +1,215 @@
+{
+  "mapped": {
+    "id": "atk_skillet-chicken-broccoli-and-ziti",
+    "name": "Skillet Chicken, Broccoli, and Ziti",
+    "slug": "skillet-chicken-broccoli-and-ziti",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-cut-into-1-inch-pieces",
+        "displayName": "boneless, skinless chicken breasts, cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-or-olive-oil",
+        "displayName": "vegetable or olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-cups-ziti",
+        "displayName": "(21/2 cups) ziti",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.6666666666666665,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "broccoli-florets-4-cups",
+        "displayName": "broccoli florets (4 cups)",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oil-packed-sun-dried-tomatoes-rinsed-and-chopped-coarse",
+        "displayName": "oil-packed sun-dried tomatoes, rinsed and chopped coarse",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "asiago-cheese-grated-about-1-2-cup-plus-extra-for-serving",
+        "displayName": "Asiago cheese, grated (about 1/2 cup), plus extra for serving",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Season the chicken with salt and pepper. Heat 1 tablespoon of the oil in a 12-inch nonstick skillet over medium-high heat until just smoking. Add the chicken in a single layer and cook for 1 minute without stirring. Stir the chicken and continue to cook until most, but not all, of the pink color has disappeared and the chicken is lightly browned around the edges, 1 to 2 minutes longer. Transfer the chicken to a clean bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add the remaining 1 tablespoon oil, the onion, and 1/2 teaspoon salt to the skillet. Return the skillet to medium-high heat and cook, stirring often, until the onion is softened, 2 to 5 minutes. Stir in the garlic, oregano, and red pepper flakes and cook until fragrant, about 30 seconds."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the ziti, 2 cups of the water, and the broth. Bring to a boil over high heat and cook until the liquid is very thick and syrupy and almost completely absorbed, 12 to 15 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add the broccoli, sun-dried tomatoes, and the remaining 3/4 cup water. Cover, reduce the heat to medium, and cook until the broccoli turns bright green and is almost tender, 3 to 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Uncover and return the heat to high. Stir in the cream, Asiago, and reserved chicken with any accumulated juices and continue to simmer, uncovered, until the sauce is thickened and the chicken is cooked and heated through, 1 to 2 minutes. Off the heat, stir in the lemon juice and season with salt and pepper to taste. Serve, passing more grated Asiago at the table, if desired."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 24247,
+    "end": 24305,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

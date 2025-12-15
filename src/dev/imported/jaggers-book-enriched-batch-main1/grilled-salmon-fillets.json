@@ -1,0 +1,94 @@
+{
+  "mapped": {
+    "id": "atk_grilled-salmon-fillets",
+    "name": "Grilled Salmon Fillets",
+    "slug": "grilled-salmon-fillets",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-2-to-2-pound-skin-on-salmon-fillet-11-2-inches-thick",
+        "displayName": "(11/2- to 2-pound) skin-on salmon fillet, 11/2 inches thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "Vegetable oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Use sharp knife to remove any whitish fat from belly of salmon and cut fillet into 4 equal pieces. Place fillets skin side up on large plate lined with clean dish towel. Place second clean dish towel on top of fillets and press down to blot liquid. Refrigerate fish, wrapped in towels, while preparing grill, at least 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean cooking grate, then repeatedly brush grate with well-oiled paper towels until grate is black and glossy, 5 to 10 times. Lightly brush both sides of fish with oil and season with salt and pepper. Place fish skin side down on hot side of grill (if using charcoal) or turn all burners to medium (if using gas) with fillets diagonal to grate. Cover and cook until skin is well browned and crisp, 3 to 5 minutes. (Try lifting fish gently with spatula after 3 minutes; if it doesn’t cleanly lift off grill, continue to cook, checking at 30-second intervals, until it releases.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Flip fish and continue to cook, covered, until center is still translucent when checked with tip of paring knife and registers 125 degrees (for medium-rare) and is still translucent when cut into with paring knife, 2 to 6 minutes longer. Serve immediately with lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 55096,
+    "end": 55128,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

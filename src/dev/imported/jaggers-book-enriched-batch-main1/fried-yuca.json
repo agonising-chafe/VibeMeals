@@ -1,0 +1,91 @@
+{
+  "mapped": {
+    "id": "atk_fried-yuca",
+    "name": "Fried Yuca",
+    "slug": "fried-yuca",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6 as a side dish"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "yuca-roots",
+        "displayName": "yuca roots",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quarts-vegetable-oil",
+        "displayName": "quarts vegetable oil",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 3 quarts water to boil in Dutch oven over medium heat. While water is coming to boil, use sharp knife to remove 1 to 2 inches of woody stem from yuca. Cut remaining yuca crosswise into 3-inch lengths. Place pieces cut side down and use knife to remove skin in sections, cutting away any flesh that isn’t pure white. Halve yuca pieces lengthwise. Pop out any woody core with spoon. Place each piece cut side down and cut lengthwise into 3/4-inch-thick wedges."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add yuca and salt to boiling water and cook, adjusting heat to maintain vigorous simmer, until yuca is tender and mostly translucent, 20 to 25 minutes. While yuca is cooking, place wire cooling rack in rimmed baking sheet. Drain yuca well in colander. Spread on wire rack. (Boiled yuca can be cooled on rack, wrapped in plastic wrap, and refrigerated for up to 24 hours before frying.) Rinse Dutch oven and dry very well."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat oil in Dutch oven over medium-high heat to 350 degrees. Pat yuca wedges dry, then add to oil and cook, stirring occasionally, until evenly golden brown, 6 to 8 minutes. While yuca is cooking, remove wire rack and line baking sheet with paper towels. Transfer yuca to paper towel–lined baking sheet. Season with salt to taste, and serve."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Use sharp knife to remove 1 to 2 inches of woody stem. Cut remaining yuca crosswise into 3-inch lengths."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Place yuca pieces cut side down and use knife to remove skin in sections, cutting away any flesh that isn’t pure white."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Halve yuca pieces lengthwise. Pop out any woody core with spoon. Place each piece cut side down and cut lengthwise into 3/4 -inch-thick wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61014,
+    "end": 61064,
+    "yieldLine": "SERVES 4 to 6 as a side dish"
+  },
+  "fit": true
+}

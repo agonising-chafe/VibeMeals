@@ -1,0 +1,306 @@
+{
+  "mapped": {
+    "id": "atk_slow-cooker-beef-burgundy",
+    "name": "Slow-Cooker Beef Burgundy",
+    "slug": "slow-cooker-beef-burgundy",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 600,
+      "equipmentTags": [
+        "SLOW_COOKER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "about-8-slices-bacon-cut-into-1-4-inch-pieces",
+        "displayName": "(about 8 slices) bacon, cut into 1/4-inch pieces",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "boneless-beef-chuck-eye-roast-trimmed-and-cut-into-11-2-inch-chunks",
+        "displayName": "boneless beef chuck-eye roast, trimmed and cut into 11/2-inch chunks",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "large-onion-minced",
+        "displayName": "large onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-minced",
+        "displayName": "carrots, peeled and minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-tablespoons-plus-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 tablespoons plus 2 teaspoons)",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "chopped-fresh-thyme-leaves",
+        "displayName": "chopped fresh thyme leaves",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "pinot-noir",
+        "displayName": "Pinot Noir",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STEW",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "minute-tapioca",
+        "displayName": "Minute tapioca",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STEW"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "about-2-cups-frozen-pearl-onions",
+        "displayName": "(about 2 cups) frozen pearl onions",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "white-mushrooms-wiped-clean-and-quartered",
+        "displayName": "white mushrooms, wiped clean and quartered",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "The chuck roast should be trimmed and cut into 1 1/2-inch chunks.",
+        "durationMinutes": 15,
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Slow cook on low for 9 hours.",
+        "durationMinutes": 540,
+        "kind": "SLOW_COOK",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE STEW: Cook the bacon in a 12-inch skillet over medium-high heat until crisp. Using a slotted spoon, transfer the bacon to a paper towel–lined plate and refrigerate. Pour half of the bacon fat into a small bowl; set the skillet with the remaining bacon fat aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pat the beef dry with paper towels and season with salt and pepper; place half of the beef in a slow-cooker insert. Heat the skillet with the remaining bacon fat over medium-high heat until smoking. Cook the remaining beef in a single layer until deep brown on all sides, about 8 minutes. Transfer the browned beef to the slow-cooker insert."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the reserved bacon fat to the now-empty skillet and heat over medium-high heat until shimmering. Add the onion, carrots, and 1/4 teaspoon salt and cook until the vegetables begin to brown, about 5 minutes. Add the garlic and thyme and cook until fragrant, about 30 seconds. Add the tomato paste and stir until beginning to brown, about 45 seconds. Transfer the mixture to the slow-cooker insert."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return the now-empty skillet to high heat and add 11/2 cups of the wine, the chicken broth, and soy sauce. Simmer, scraping up any browned bits, for about 1 minute. Transfer the wine mixture to the slow-cooker insert."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Stir the bay leaves and tapioca into the slow-cooker insert. Set the slow cooker on low, cover, and cook until the meat is fork-tender, about 9 hours."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE ONION AND MUSHROOM GARNISH: Bring the pearl onions, water, butter, and sugar to a boil in a 12-inch skillet over high heat. Cover and simmer over medium-low heat until the onions are tender, about 5 minutes. Uncover, increase the heat to high, and cook until the liquid evaporates, about 3 minutes. Add the mushrooms and 1/4 teaspoon salt and cook until the vegetables are browned and glazed, about 5 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "When ready to serve, discard the bay leaves and stir in the onion and mushroom garnish and the reserved bacon. Bring the remaining 1 cup wine to a boil in a 12-inch skillet over high heat and simmer until reduced by half, about 5 minutes. Stir the reduced wine and parsley into the stew and season with salt and pepper to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 8027,
+    "end": 8103,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

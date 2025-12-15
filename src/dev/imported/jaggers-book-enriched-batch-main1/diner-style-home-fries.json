@@ -1,0 +1,140 @@
+{
+  "mapped": {
+    "id": "atk_diner-style-home-fries",
+    "name": "Diner-Style Home Fries",
+    "slug": "diner-style-home-fries",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 2,
+      "yieldText": "SERVES 2 to 3"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "corn-oil-or-peanut-oil",
+        "displayName": "corn oil or peanut oil",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-medium-yukon-gold-potatoes-scrubbed-and-cut-into-1-2-inch-cubes",
+        "displayName": "(2 medium) Yukon Gold potatoes, scrubbed and cut into 1/2-inch cubes",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "paprika-optional",
+        "displayName": "paprika (optional)",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves-optional",
+        "displayName": "minced fresh parsley leaves (optional)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat 1 tablespoon of the oil in a 12-inch skillet over medium-high heat until shimmering. Add the onion and cook, stirring frequently, until browned, 8 to 10 minutes. Transfer the onion to a small bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, place the potatoes in a large saucepan, cover with 1/2 inch of water, add 1 teaspoon salt, and bring to a boil over high heat. As soon as the water begins to boil, drain the potatoes thoroughly in a colander."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat the butter and the remaining 11/2 tablespoons oil in the now-empty skillet over medium-high heat. Add the potatoes and shake the skillet to evenly distribute the potatoes in a single layer, making sure that one side of each piece is touching the surface of the skillet. Cook without stirring until one side of the potatoes is golden brown, 4 to 5 minutes, then carefully turn the potatoes, making sure the potatoes remain in a single layer. Repeat the process until the potatoes are tender and browned on most sides, turning three or four times, 10 to 15 minutes longer. Add the onions, paprika (if using), parsley (if using), 1/4 teaspoon salt, and pepper to taste; serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "PEANUT",
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 6166,
+    "end": 6202,
+    "yieldLine": "SERVES 2 to 3"
+  },
+  "fit": true
+}

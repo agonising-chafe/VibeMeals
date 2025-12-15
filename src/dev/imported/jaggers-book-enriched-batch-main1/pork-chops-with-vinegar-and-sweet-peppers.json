@@ -1,0 +1,210 @@
+{
+  "mapped": {
+    "id": "atk_pork-chops-with-vinegar-and-sweet-peppers",
+    "name": "Pork Chops with Vinegar and Sweet Peppers",
+    "slug": "pork-chops-with-vinegar-and-sweet-peppers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "8-to-10-ounce-bone-in-rib-loin-pork-chops-3-4-to-1-inch-thick-trimmed-of-excess-fat-see-note",
+        "displayName": "(8- to 10-ounce) bone-in rib loin pork chops, 3/4 to 1 inch thick, trimmed of excess fat (see note)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-chopped-fine-about-11-4-cups",
+        "displayName": "large onion, chopped fine (about 11/4 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "large-red-bell-pepper-stemmed-seeded-and-cut-into-1-4-inch-wide-strips-about-11-2-cups",
+        "displayName": "large red bell pepper, stemmed, seeded, and cut into 1/4-inch-wide strips (about 11/2 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "large-yellow-bell-pepper-stemmed-seeded-and-cut-into-1-4-inch-wide-strips-about-11-2-cups",
+        "displayName": "large yellow bell pepper, stemmed, seeded, and cut into 1/4-inch-wide strips (about 11/2 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "anchovy-fillets-minced-about-2-teaspoons",
+        "displayName": "anchovy fillets, minced (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "sprig-fresh-rosemary-about-5-inches-long",
+        "displayName": "sprig fresh rosemary, about 5 inches long",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-about-2-teaspoons",
+        "displayName": "medium garlic cloves (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-wine-vinegar-plus-optional-2-tablespoons-to-finish-sauce",
+        "displayName": "white wine vinegar, plus optional 2 tablespoons to finish sauce",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cold-unsalted-butter",
+        "displayName": "cold unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley-leaves",
+        "displayName": "chopped fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Brine pork chops",
+        "durationMinutes": 30,
+        "criticality": "OPTIONAL",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve sugar and 1/2 cup table salt in 2 quarts water in large container; add pork chops and refrigerate 30 minutes. Remove chops from brine; thoroughly pat dry with paper towels. Using a sharp knife, cut two slits, about 2 inches apart, through outer layer of fat and silver skin of each chop (do not cut into meat of chops). Season chops with 3/4 teaspoon pepper and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to middle position; heat oven to 400 degrees. Heat oil in heavy-bottomed ovensafe 12-inch nonreactive skillet over medium-high heat until oil begins to smoke; swirl skillet to coat with oil. Place chops in skillet; cook until well browned, 3 to 4 minutes, using spoon or spatula to press down on center of chops to aid in browning. Using tongs, flip chops and brown lightly on second side, about 1 minute. Transfer chops to large plate; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Set skillet over medium-high heat. Add onion and cook, stirring occasionally, until just beginning to soften, about 2 minutes. Add peppers, anchovies, and rosemary; cook, stirring frequently, until peppers just begin to soften, about 4 minutes. Add garlic; cook, stirring constantly, until fragrant, about 30 seconds. Add water and 1/2 cup of vinegar and bring to a boil, scraping up browned bits with wooden spoon. Reduce heat to medium; simmer until liquid is reduced to about 1/3 cup, 6 to 8 minutes. Off heat, discard rosemary."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return pork chops, browner side up, to skillet; nestle chops in peppers, but do not cover them. Add any accumulated juices to skillet; set skillet in oven and cook until center of chops registers 140 to 145 degrees, 8 to 12 minutes (begin checking temperature after 6 minutes). Using potholders, carefully remove skillet from oven (handle will be very hot) and cover skillet with lid or foil; let stand until center of chops registers 150 degrees, 5 to 7 minutes. Transfer chops to platter or individual plates. Swirl butter into sauce and peppers in skillet; taste and stir in remaining 2 tablespoons vinegar (if using) and parsley. Season with salt and pepper to taste, then pour or spoon sauce and peppers over chops. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38177,
+    "end": 38227,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,102 @@
+{
+  "mapped": {
+    "id": "atk_classic-mashed-potatoes",
+    "name": "Classic Mashed Potatoes",
+    "slug": "classic-mashed-potatoes",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "russet-potatoes-about-4-medium-scrubbed",
+        "displayName": "russet potatoes (about 4 medium), scrubbed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-stick-unsalted-butter-melted",
+        "displayName": "(1 stick) unsalted butter, melted",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "half-and-half-warmed",
+        "displayName": "half-and-half, warmed",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the potatoes in a large saucepan and add cold water to cover by 1 inch. Bring to a boil over high heat, reduce the heat to medium-low, and simmer until the potatoes are just tender when pricked with a fork, 20 to 30 minutes. Drain the potatoes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Set a ricer or food mill over the now-empty saucepan. Using a potholder (to hold the potatoes) and a paring knife, peel the skins from the potatoes. Working in batches, cut the peeled potatoes into large chunks and press or mill into the saucepan."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir in the butter until incorporated. Gently whisk in the half-and-half, and season with the salt and pepper to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59614,
+    "end": 59648,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_succotash-with-butter-beans-corn-and-red-pepper",
+    "name": "Succotash with Butter Beans, Corn, and Red Pepper",
+    "slug": "succotash-with-butter-beans-corn-and-red-pepper",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "can-butter-beans-2-tablespoons-liquid-reserved-rinsed",
+        "displayName": "can butter beans, 2 tablespoons liquid reserved, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "small-onion-chopped-fine",
+        "displayName": "small onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-cut-into-1-4-inch-pieces",
+        "displayName": "red bell pepper, cut into 1/4-inch pieces",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ears-corn-kernels-cut-from-cobs-3-cups",
+        "displayName": "ears corn, kernels cut from cobs (3 cups)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Stir reserved bean liquid and lemon juice together in small bowl; set aside. Melt butter in 12-inch nonstick skillet over medium-high heat. Add onion, bell pepper, and 1/2 teaspoon salt and cook, stirring frequently, until softened and beginning to brown, 4 to 5 minutes. Add garlic and cayenne and cook until fragrant, about 30 seconds."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Reduce heat to medium and add corn and beans. Cook, stirring occasionally, until corn and beans have cooked through, about 4 minutes. Add bean liquid mixture and cook, stirring constantly, for 1 minute. Remove skillet from heat, stir in parsley, and season with salt and pepper to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61106,
+    "end": 61144,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

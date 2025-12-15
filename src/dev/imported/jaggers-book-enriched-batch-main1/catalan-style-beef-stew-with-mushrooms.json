@@ -1,0 +1,262 @@
+{
+  "mapped": {
+    "id": "atk_catalan-style-beef-stew-with-mushrooms",
+    "name": "Catalan-Style Beef Stew with Mushrooms",
+    "slug": "catalan-style-beef-stew-with-mushrooms",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onions-chopped-fine",
+        "displayName": "large onions, chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "plum-tomatoes-halved-lengthwise-pulp-grated-on-large-holes-of-box-grater-and-skins-discarded",
+        "displayName": "plum tomatoes, halved lengthwise, pulp grated on large holes of box grater, and skins discarded",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smoked-paprika",
+        "displayName": "smoked paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-sprig-fresh-thyme",
+        "displayName": "large sprig fresh thyme",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-beef-short-ribs-trimmed-and-cut-into-2-inch-cubes",
+        "displayName": "boneless beef short ribs, trimmed and cut into 2-inch cubes",
+        "amount": 2.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-blanched-almonds",
+        "displayName": "whole blanched almonds",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICADA",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICADA"
+      },
+      {
+        "ingredientId": "hearty-white-sandwich-bread-crusts-removed-torn-into-1-inch-pieces",
+        "displayName": "hearty white sandwich bread, crusts removed, torn into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PICADA"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PICADA"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PICADA"
+      },
+      {
+        "ingredientId": "oyster-mushrooms-trimmed",
+        "displayName": "oyster mushrooms, trimmed",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE STEW: Adjust oven rack to middle position and heat oven to 300 degrees. Heat oil in Dutch oven over medium-low heat until shimmering. Add onions, sugar, and 1/2 teaspoon salt; cook, stirring often, until onions are deeply caramelized, 30 to 40 minutes. Add tomatoes, smoked paprika, and bay leaf; cook, stirring often, until darkened and thick, 5 to 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add wine, water, thyme sprig, and cinnamon to pot, scraping up any browned bits. Season beef with 11/2 teaspoons salt and 1/2 teaspoon pepper and add to pot. Increase heat to high and bring to simmer. Transfer to oven and cook, uncovered. After 1 hour stir stew to redistribute meat, return to oven, and continue to cook, uncovered, until meat is tender, 11/2 to 2 hours longer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE PICADA: While stew is in oven, heat almonds and 1 tablespoon oil in 10-inch skillet over medium heat; cook, stirring often, until almonds are golden brown, 3 to 6 minutes. Using slotted spoon, transfer almonds to food processor. Return now-empty skillet to medium heat, add bread, and cook, stirring often, until toasted, 2 to 4 minutes; transfer to food processor with almonds. Add garlic and process until mixture is finely ground, about 20 seconds, scraping down bowl as needed. Transfer mixture to bowl, stir in parsley, and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return again-empty skillet to medium heat. Heat remaining 1 tablespoon oil until shimmering. Add mushrooms and 1/2 teaspoon salt; cook, stirring often, until tender, 5 to 7 minutes. Transfer to bowl and set aside."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove bay leaf and thyme sprig. Stir picada, mushrooms, and vinegar into stew. Season with salt and pepper to taste and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 8263,
+    "end": 8333,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

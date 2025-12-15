@@ -1,0 +1,248 @@
+{
+  "mapped": {
+    "id": "atk_best-beef-stew",
+    "name": "Best Beef Stew",
+    "slug": "best-beef-stew",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-minced-fine-about-2-teaspoons",
+        "displayName": "anchovy fillets, minced fine (about 2 teaspoons)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-chuck-eye-roast-trimmed-and-cut-into-11-2-inch-pieces",
+        "displayName": "boneless chuck-eye roast, trimmed and cut into 11/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-halved-and-sliced-1-8-inch-thick",
+        "displayName": "large onion, halved and sliced 1/8 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-cut-into-1-inch-pieces",
+        "displayName": "carrots, peeled and cut into 1-inch pieces",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine",
+        "displayName": "red wine",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt-pork-rinsed-of-excess-salt",
+        "displayName": "salt pork, rinsed of excess salt",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "yukon-gold-potatoes-unpeeled-cut-into-1-inch-pieces",
+        "displayName": "Yukon Gold potatoes, unpeeled, cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-pearl-onions-thawed",
+        "displayName": "frozen pearl onions, thawed",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-peas-thawed",
+        "displayName": "frozen peas, thawed",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 300 degrees. Combine garlic and anchovies in small bowl and press mixture with back of fork to form paste. Stir in tomato paste and set mixture aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pat meat dry with paper towels (do not season meat). Heat 1 tablespoon vegetable oil in Dutch oven over high heat until just starting to smoke. Add half of beef and cook until well browned on all sides, about 8 minutes total, reducing heat if oil begins to smoke or fond begins to burn. Transfer beef to large plate. Repeat with remaining 1 tablespoon vegetable oil and remaining beef, leaving second batch of meat in pot after browning."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Reduce heat to medium and return first batch of beef to pot. Add onion and carrots to pot and stir to combine with beef. Cook, scraping bottom of pan to loosen any browned bits, until onion is softened, 1 to 2 minutes. Add garlic mixture and cook, stirring constantly, until fragrant, about 30 seconds. Add flour and cook, stirring constantly, until no dry flour remains, about 30 seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Slowly add wine, scraping bottom of pan to loosen any browned bits. Increase heat to high and allow wine to simmer until thickened and slightly reduced, about 2 minutes. Stir in broth, salt pork, bay leaves, and thyme. Bring to simmer, cover, transfer to oven, and cook for 11/2 hours."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7686,
+    "end": 7746,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

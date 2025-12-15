@@ -1,0 +1,261 @@
+{
+  "mapped": {
+    "id": "atk_simple-lasagna-with-hearty-tomato-meat-sauce",
+    "name": "Simple Lasagna with Hearty Tomato-Meat Sauce",
+    "slug": "simple-lasagna-with-hearty-tomato-meat-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "DUTCH_OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-tablespoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 tablespoons)",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "meatloaf-mix",
+        "displayName": "meatloaf mix",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "can-tomato-puree",
+        "displayName": "can tomato puree",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained",
+        "displayName": "can diced tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "whole-milk-or-part-skim-ricotta-cheese",
+        "displayName": "whole-milk or part-skim ricotta cheese",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-11-4-cups",
+        "displayName": "Parmesan cheese, grated (about 11/4 cups)",
+        "amount": 2.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-basil-leaves",
+        "displayName": "chopped fresh basil leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten",
+        "displayName": "large egg, lightly beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "no-boil-lasagna-noodles",
+        "displayName": "no-boil lasagna noodles",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk-mozzarella-cheese-shredded-about-4-cups",
+        "displayName": "whole-milk mozzarella cheese, shredded (about 4 cups)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 375 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE SAUCE: Heat the oil in a large Dutch oven over medium heat until shimmering. Add the onion and cook, stirring occasionally, until softened but not browned, about 2 minutes. Add the garlic and cook until fragrant, about 2 minutes. Increase the heat to medium-high and add the meatloaf mix, salt, and pepper; cook, breaking the meat into small pieces with a wooden spoon, until the meat loses its raw color but has not browned, about 4 minutes. Add the cream and simmer, stirring occasionally, until the liquid evaporates and only rendered fat remains, about 4 minutes. Add the tomato puree and diced tomatoes and bring to a simmer; reduce the heat to low and simmer until the flavors have blended, about 3 minutes. Set aside. (The cooled sauce can be refrigerated in an airtight container for up to 2 days; reheat before assembling the lasagna.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE CHEESE FILLING: Combine the ricotta, 1 cup of the Parmesan, the basil, egg, salt, and pepper in a medium bowl; set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spread the bottom of a 13 by 9-inch baking dish evenly with 1/4 cup of the meat sauce (avoiding large chunks of meat). Place 3 noodles in a single layer on top of the sauce. Spread each noodle evenly with 3 tablespoons of the ricotta mixture and sprinkle the entire layer evenly with 1 cup of the mozzarella cheese. Spread the cheese evenly with 11/2 cups of the meat sauce. Repeat the layering of noodles, ricotta, mozzarella, and sauce two more times. Place the remaining 3 noodles on top of the sauce, spread evenly with the remaining sauce, sprinkle with the remaining 1 cup mozzarella, then sprinkle with the remaining 1/4 cup Parmesan. Spray a large sheet of foil with vegetable oil spray and cover the lasagna."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Bake for 15 minutes, then remove the foil. Continue to bake until the cheese is spotty brown and the sauce is bubbling, about 25 minutes longer. Cool the lasagna for 10 minutes; cut into pieces and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 19495,
+    "end": 19561,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

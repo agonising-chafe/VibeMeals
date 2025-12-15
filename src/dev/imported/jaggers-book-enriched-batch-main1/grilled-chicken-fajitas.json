@@ -1,0 +1,180 @@
+{
+  "mapped": {
+    "id": "atk_grilled-chicken-fajitas",
+    "name": "Grilled Chicken Fajitas",
+    "slug": "grilled-chicken-fajitas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lime-juice-3-limes",
+        "displayName": "lime juice (3 limes)",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "jalape-o-chile-stemmed-seeded-and-minced",
+        "displayName": "jalapeño chile, stemmed, seeded, and minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro",
+        "displayName": "minced fresh cilantro",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-brown-sugar",
+        "displayName": "packed brown sugar",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-tenderloins-removed-trimmed-pounded-to-1-2-inch-thickness",
+        "displayName": "boneless, skinless chicken breasts, tenderloins removed, trimmed, pounded to 1/2-inch thickness",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-red-onion-peeled-and-cut-into-1-2-inch-thick-rounds-do-not-separate-rings",
+        "displayName": "large red onion, peeled and cut into 1/2-inch-thick rounds (do not separate rings)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-bell-peppers-quartered-stemmed-and-seeded",
+        "displayName": "large bell peppers, quartered, stemmed, and seeded",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-flour-tortillas",
+        "displayName": "(6-inch) flour tortillas",
+        "amount": 812,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk 1/4 cup oil, lime juice, jalapeño, cilantro, garlic, Worcestershire, sugar, 1 teaspoon salt, and 3/4 teaspoon pepper together in bowl. Reserve 1/4 cup marinade and set aside. Add 1 teaspoon salt to remaining marinade. Place marinade and chicken in 1-gallon zipper-lock bag and toss to coat; press out as much air as possible and seal bag. Refrigerate for at least 15 minutes, flipping bag halfway through marinating. Brush both sides of onion rounds and peppers with remaining 2 tablespoons oil and season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean and oil cooking grate. Remove chicken from bag, allowing excess marinade to drip off. Place chicken on hotter side of grill, smooth side down. Cook (covered if using gas) until well browned on first side, 4 to 6 minutes. Flip and continue to cook until chicken registers 160 degrees, 4 to 6 minutes longer. Transfer chicken to cutting board, tent loosely with aluminum foil, and let rest for 5 to 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While chicken cooks, place onion rounds and peppers (skin side down) on cooler side of grill and cook until tender and charred on both sides, 8 to 12 minutes, flipping every 3 minutes. Transfer onions and peppers to cutting board with chicken."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Working in 2 or 3 batches, place tortillas in single layer on cooler side of grill. Cook until warm and lightly browned, about 20 seconds per side (do not grill too long or tortillas will become brittle). As tortillas are done, wrap in dish towel or large sheet of foil."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Separate onions into rings and place in medium bowl. Slice peppers into 1/4-inch-thick strips and place in bowl with onions. Add 2 tablespoons reserved marinade and toss to combine. Slice each breast on bias into 1/4-inch-thick slices, place in second bowl, and toss with remaining 2 tablespoons reserved marinade."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer chicken and vegetables to serving platter and serve with warmed tortillas."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 53455,
+    "end": 53509,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

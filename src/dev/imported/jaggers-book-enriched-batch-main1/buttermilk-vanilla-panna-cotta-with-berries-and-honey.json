@@ -1,0 +1,145 @@
+{
+  "mapped": {
+    "id": "atk_buttermilk-vanilla-panna-cotta-with-berries-and-honey",
+    "name": "Buttermilk-Vanilla Panna Cotta with Berries and Honey",
+    "slug": "buttermilk-vanilla-panna-cotta-with-berries-and-honey",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "31-2-ounces-sugar",
+        "displayName": "(31/2 ounces) sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-bean",
+        "displayName": "vanilla bean",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "Honey",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "fresh-raspberries-and-or-blackberries",
+        "displayName": "Fresh raspberries and/or blackberries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Chill for at least 6 hours or up to 3 days.",
+        "durationMinutes": 360,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk sugar, gelatin, and salt in small saucepan until very well combined. Whisk in cream and let sit for 5 minutes. Cut vanilla bean in half lengthwise. Using tip of paring knife, scrape out seeds. Add bean and seeds to cream mixture. Cook over medium heat, stirring occasionally, until mixture registers 150 to 160 degrees, about 5 minutes. Remove from heat and let mixture cool to 105 to 110 degrees, about 15 minutes. Strain cream mixture through fine-mesh strainer into medium bowl, pressing on solids to extract as much liquid as possible. Gently whisk in buttermilk."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Set eight 5-ounce ramekins on rimmed baking sheet. Divide buttermilk mixture evenly among ramekins. Invert second rimmed baking sheet on top of ramekins and carefully transfer to refrigerator. Chill for at least 6 hours or up to 3 days (if chilling for more than 6 hours, cover each ramekin with plastic wrap)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Working with 1 panna cotta at a time, insert paring knife between panna cotta and side of ramekin. Gently run knife around edge of ramekin to loosen panna cotta. Cover ramekin with serving plate and invert panna cotta onto plate. (You may need to gently jiggle ramekin.) Drizzle each panna cotta with honey, then top with 3 to 5 berries and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 76226,
+    "end": 76266,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

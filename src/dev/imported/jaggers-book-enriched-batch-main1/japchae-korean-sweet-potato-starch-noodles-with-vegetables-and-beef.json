@@ -1,0 +1,248 @@
+{
+  "mapped": {
+    "id": "atk_japchae-korean-sweet-potato-starch-noodles-with-vegetables-and-beef",
+    "name": "Japchae (Korean Sweet Potato Starch Noodles with Vegetables and Beef)",
+    "slug": "japchae-korean-sweet-potato-starch-noodles-with-vegetables-and-beef",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-beef-short-ribs-trimmed",
+        "displayName": "boneless beef short ribs, trimmed",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "BEEF"
+      },
+      {
+        "ingredientId": "plus-1-4-cup-soy-sauce-divided",
+        "displayName": "plus 1/4 cup soy sauce, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "plus-1-4-teaspoon-sugar-divided",
+        "displayName": "plus 1/4 teaspoon sugar, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE"
+      },
+      {
+        "ingredientId": "minced-garlic-divided",
+        "displayName": "minced garlic, divided",
+        "amount": 2.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE"
+      },
+      {
+        "ingredientId": "pepper-divided",
+        "displayName": "pepper, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEEF_MARINADE"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil-divided",
+        "displayName": "toasted sesame oil, divided",
+        "amount": 4.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt-divided",
+        "displayName": "kosher salt, divided",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bag-curly-leaf-spinach",
+        "displayName": "bag curly-leaf spinach",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shiitake-mushrooms-stemmed-and-sliced-1-4-inch-thick",
+        "displayName": "shiitake mushrooms, stemmed and sliced 1/4 inch thick",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dangmyeon",
+        "displayName": "dangmyeon",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-halved-and-sliced-thin",
+        "displayName": "small onion, halved and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-cut-into-2-inch-pieces",
+        "displayName": "scallions, cut into 2-inch pieces",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-cut-into-2-to-21-2-inch-long-matchsticks-1-cup",
+        "displayName": "carrots, peeled and cut into 2- to 21/2-inch-long matchsticks (1 cup)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-bell-pepper-stemmed-seeded-and-cut-into-1-8-inch-wide-strips",
+        "displayName": "small red bell pepper, stemmed, seeded, and cut into 1/8-inch-wide strips",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-seeds-toasted-divided",
+        "displayName": "sesame seeds, toasted, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 1,
+        "description": "Marinate beef",
+        "stepNumbers": [
+          1
+        ],
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 2 quarts water to boil in large pot. Slice beef crosswise 1/4 inch thick. Cut slices into 1/4-inch-thick strips. Toss beef, 2 teaspoons soy sauce, 2 teaspoons sugar, 2 teaspoons garlic, and 1/2 teaspoon pepper in bowl until well combined. Add 2 tablespoons soy sauce, 2 teaspoons sugar, 2 teaspoons sesame oil, 1/2 teaspoon salt, and remaining 1/2 teaspoon pepper to large bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add spinach to boiling water and cook until leaves are just wilted, 5 to 10 seconds. Using spider skimmer or slotted spoon, transfer spinach to colander. Rinse under cold running water until leaves are cool enough to handle, about 30 seconds. Squeeze spinach dry and transfer to cutting board. Return water to boil. Add mushrooms and cook until tender and pliant, about 30 seconds. Using spider skimmer or slotted spoon, transfer mushrooms to colander. Rinse under cold running water until mushrooms are cool, about 1 minute. Squeeze dry and transfer to cutting board."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return water to boil. Add dangmyeon and cook, stirring occasionally, until noodles are cooked through but still very chewy, 5 to 8 minutes. Drain noodles in colander and shake to remove excess water. Lift about one-quarter of noodles with tongs and use kitchen shears to cut noodles 8 inches below tongs. Repeat 3 more times with remaining noodles. Transfer noodles to large bowl with soy sauce mixture and toss until noodles are evenly coated. Add spinach to small bowl and use your clean hands to break up into small clumps. Add 1/4 teaspoon sesame oil, 1/4 teaspoon salt, and remaining 1/4 teaspoon garlic and toss with spinach until well combined. Transfer spinach to bowl with noodles."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat 1/4 teaspoon vegetable oil, 1/4 teaspoon salt, and mushrooms in 10-inch nonstick skillet over medium heat. Cook, stirring frequently, until warmed through but not browned, about 1 minute. Transfer to bowl with noodles. Add onion, scallions, 1/4 teaspoon salt, and 1/2 teaspoon vegetable oil to now-empty skillet and cook, stirring often, until vegetables have lost their raw bite and are crisp but not browned, 3 to 4 minutes. Transfer to bowl with noodles."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Add carrots, 1/8 teaspoon salt, and 1/4 teaspoon vegetable oil to now-empty skillet and cook, stirring constantly, until carrots have lost their raw bite and are crisp but not browned, about 3 minutes. Transfer to bowl with noodles. Add bell pepper, 1/8 teaspoon salt, and 1/4 teaspoon vegetable oil to now-empty skillet and cook, stirring constantly, until bell pepper has lost its raw bite and is crisp but not browned, about 1 minute. Transfer to bowl with noodles."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Increase heat to medium-high and add remaining 1/2 teaspoon vegetable oil to now-empty skillet. When oil shimmers, add beef and cook, stirring frequently, until cooked through, 3 to 4 minutes. Transfer to bowl with noodles. Let beef rest for 5 minutes. Add 11/2 tablespoons sesame seeds, remaining 2 tablespoons soy sauce, remaining 21/4 teaspoons sugar, remaining 2 teaspoons sesame oil, and remaining 1/4 teaspoon salt to bowl with noodles. Using your clean hands, toss everything to combine. Mound on serving platter, sprinkle with remaining 11/2 teaspoons sesame seeds, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 20331,
+    "end": 20393,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,232 @@
+{
+  "mapped": {
+    "id": "atk_thai-chicken-soup",
+    "name": "Thai Chicken Soup",
+    "slug": "thai-chicken-soup",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "peanut-or-vegetable-oil",
+        "displayName": "peanut or vegetable oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "stalks-lemongrass-bottom-5-inches-only-trimmed-and-sliced-thin",
+        "displayName": "stalks lemongrass, bottom 5 inches only, trimmed and sliced thin",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shallots-chopped-coarse-about-3-4-cup",
+        "displayName": "large shallots, chopped coarse (about 3/4 cup)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "sprigs-fresh-cilantro-chopped-coarse",
+        "displayName": "sprigs fresh cilantro, chopped coarse",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "BASE"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cans-coconut-milk",
+        "displayName": "cans coconut milk",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-mushrooms-wiped-clean-and-sliced-1-4-inch-thick",
+        "displayName": "white mushrooms, wiped clean and sliced 1/4 inch thick",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-trimmed-halved-lengthwise-and-cut-on-the-bias-into-1-8-inch-pieces",
+        "displayName": "boneless, skinless chicken breasts, trimmed, halved lengthwise, and cut on the bias into 1/8-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-from-2-limes",
+        "displayName": "juice from 2 limes",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thai-red-curry-paste",
+        "displayName": "Thai red curry paste",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "loosely-packed-fresh-cilantro-leaves",
+        "displayName": "loosely packed fresh cilantro leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "thai-serrano-or-jalape-o-chiles-seeds-and-ribs-removed-chiles-sliced-thin",
+        "displayName": "Thai, serrano, or jalapeño chiles, seeds and ribs removed, chiles sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin-on-the-bias",
+        "displayName": "scallions, sliced thin on the bias",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lime-wedges-for-serving",
+        "displayName": "Lime wedges, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat the oil in a large saucepan over medium heat until just shimmering. Add the lemongrass, shallots, cilantro sprigs, and 1 tablespoon of the fish sauce and cook, stirring frequently, until just softened but not browned, 2 to 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Stir in the broth and 1 can of the coconut milk and bring to a simmer over high heat. Cover, reduce the heat to low, and simmer until the flavors have blended, about 10 minutes. Pour the broth through a fine-mesh strainer, discarding the solids in the strainer. (At this point, the soup can be refrigerated in an airtight container for up to 1 day.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return the strained soup to a clean saucepan and bring to a simmer over medium-high heat. Stir in the remaining can of coconut milk and the sugar and bring to a simmer. Reduce the heat to medium, add the mushrooms, and cook until just tender, 2 to 3 minutes. Add the chicken and cook, stirring constantly, until no longer pink, 1 to 3 minutes. Remove the soup from the heat."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Whisk the remaining 2 tablespoons fish sauce, the lime juice, and curry paste together, then stir into the soup. Ladle the soup into individual bowls and garnish with the cilantro, chiles, and scallions. Serve with the lime wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "PEANUT",
+      "TREE_NUT",
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7152,
+    "end": 7214,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

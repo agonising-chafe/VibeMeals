@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_mushroom-bisque",
+    "name": "Mushroom Bisque",
+    "slug": "mushroom-bisque",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "BLENDER",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "white-mushrooms-trimmed",
+        "displayName": "white mushrooms, trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cremini-mushrooms-trimmed",
+        "displayName": "cremini mushrooms, trimmed",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shiitake-mushrooms-stemmed",
+        "displayName": "shiitake mushrooms, stemmed",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-chopped-fine",
+        "displayName": "small onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprig-fresh-thyme-tied-with-kitchen-twine",
+        "displayName": "sprig fresh thyme, tied with kitchen twine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-sherry",
+        "displayName": "dry sherry",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 3.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream-plus-extra-for-serving",
+        "displayName": "heavy cream, plus extra for serving",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-egg-yolks",
+        "displayName": "large egg yolks",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-chives",
+        "displayName": "Chopped fresh chives",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss white mushrooms, cremini mushrooms, shiitake mushrooms, and 1 tablespoon salt together in large bowl. Cover with large plate and microwave, stirring every 4 minutes, until mushrooms have released their liquid and reduced to about one-third their original volume, about 12 minutes. Transfer mushrooms to colander set in second large bowl and drain well. Reserve liquid."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in Dutch oven over medium heat until shimmering. Add mushrooms and cook, stirring occasionally, until mushrooms are browned and fond has formed on bottom of pot, about 8 minutes. Add onion, thyme sprig, and 1/4 teaspoon pepper and cook, stirring occasionally, until onion is just softened, about 2 minutes. Add sherry and cook until evaporated. Stir in reserved mushroom liquid and cook, scraping up any browned bits. Stir in water and broth and bring to simmer. Reduce heat to low and simmer for 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Discard thyme sprig. Working in batches, process soup in blender until very smooth, 11/2 to 2 minutes per batch. Return soup to now-empty pot and bring to simmer over low heat. (Soup can be refrigerated for up to 2 days. Warm to 150 degrees before proceeding with recipe.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Whisk cream and egg yolks together in medium bowl. Stirring slowly and constantly, add 2 cups soup to cream mixture. Stirring constantly, slowly pour cream mixture into simmering soup. Heat gently, stirring constantly, until soup registers 165 degrees (do not overheat). Stir in lemon juice and season with salt and pepper to taste. Serve immediately, garnishing each serving with 1 teaspoon extra cream and sprinkle of chives."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10298,
+    "end": 10348,
+    "yieldLine": "SERVES 6 to 10"
+  },
+  "fit": true
+}

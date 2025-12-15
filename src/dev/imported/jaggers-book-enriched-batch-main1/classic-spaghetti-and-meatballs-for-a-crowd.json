@@ -1,0 +1,384 @@
+{
+  "mapped": {
+    "id": "atk_classic-spaghetti-and-meatballs-for-a-crowd",
+    "name": "Classic Spaghetti and Meatballs for a Crowd",
+    "slug": "classic-spaghetti-and-meatballs-for-a-crowd",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN",
+        "DUTCH_OVEN",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 12,
+      "yieldText": "SERVES 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "panko-bread-crumbs",
+        "displayName": "panko bread crumbs",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "85-percent-lean-ground-beef",
+        "displayName": "85 percent lean ground beef",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "thinly-sliced-prosciutto-chopped-fine",
+        "displayName": "thinly sliced prosciutto, chopped fine",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-11-2-cups",
+        "displayName": "Parmesan cheese, grated (about 11/2 cups)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "large-onion-grated",
+        "displayName": "large onion, grated",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-tablespoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 tablespoons)",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cans-crushed-tomatoes",
+        "displayName": "cans crushed tomatoes",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-juice",
+        "displayName": "tomato juice",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-basil-leaves",
+        "displayName": "minced fresh basil leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "Sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "spaghetti",
+        "displayName": "spaghetti",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-for-serving",
+        "displayName": "Grated Parmesan cheese, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MEATBALLS: Adjust the oven racks to the lower-middle and upper-middle positions and heat the oven to 450 degrees. Set 2 wire racks in 2 aluminum foil–lined rimmed baking sheets and spray the racks with vegetable oil spray."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine the bread crumbs and buttermilk in a large bowl and let sit, mashing occasionally with a fork, until a smooth paste forms, about 10 minutes. Meanwhile, sprinkle the gelatin over the water in a small bowl and allow to soften for 5 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Mix the ground beef, ground pork, prosciutto, eggs, Parmesan, parsley, garlic, salt, pepper, and gelatin mixture into the bread-crumb mixture using your hands. Pinch off and roll the mixture into 2-inch meatballs (about 40 meatballs total) and arrange on the prepared sheets. Bake until well browned, about 30 minutes, switching and rotating the sheets halfway through baking."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE SAUCE: While the meatballs bake, heat the oil in a Dutch oven over medium heat until shimmering. Add the onion and cook until softened and lightly browned, 5 to 7 minutes. Stir in the garlic, oregano, and red pepper flakes and cook until fragrant, about 30 seconds. Stir in the crushed tomatoes, tomato juice, wine, 11/2 teaspoons salt, and 1/4 teaspoon pepper, bring to a simmer, and cook until thickened slightly, about 15 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove the meatballs from the oven and reduce the oven temperature to 300 degrees. Gently nestle the meatballs into the sauce. Cover, transfer to the oven, and cook until the meatballs are firm and the sauce has thickened, about 1 hour."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Meanwhile, bring 10 quarts water to boil in a 12-quart pot. Add the pasta and salt and cook, stirring often, until al dente. Reserve 1/2 cup of the cooking water, then drain the pasta and return it to the pot."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Gently stir the basil and parsley into the sauce and season with sugar, salt, and pepper to taste. Add 2 cups of the sauce (without meatballs) to the pasta and toss to combine, adding the reserved cooking water to adjust the consistency as needed. Serve, topping individual portions with more tomato sauce and several meatballs and passing the Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 17006,
+    "end": 17094,
+    "yieldLine": "SERVES 12"
+  },
+  "fit": true
+}

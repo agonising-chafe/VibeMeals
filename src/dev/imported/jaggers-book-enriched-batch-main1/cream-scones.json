@@ -1,0 +1,137 @@
+{
+  "mapped": {
+    "id": "atk_cream-scones",
+    "name": "Cream Scones",
+    "slug": "cream-scones",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 8 scones",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "10-ounces-unbleached-all-purpose-flour",
+        "displayName": "(10 ounces) unbleached all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-chilled-and-cut-into-1-4-inch-cubes",
+        "displayName": "unsalted butter, chilled and cut into 1/4-inch cubes",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "currants",
+        "displayName": "currants",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 425 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place the flour, sugar, baking powder, and salt in a food processor and pulse to combine, about 6 pulses."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Scatter the butter evenly over the top and continue to pulse until the mixture resembles coarse cornmeal with a few slightly larger butter lumps, about 12 more pulses. Transfer the mixture to a large bowl and stir in the currants. Stir in the heavy cream with a rubber spatula until a dough begins to form, about 30 seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer the dough and any dry, floury bits to a work surface and knead the dough by hand just until it comes together into a rough, slightly sticky ball, 5 to 10 seconds. Cut the dough into eight wedges. Place the wedges on an ungreased baking sheet. (The baking sheet can be covered in plastic wrap and refrigerated for up to 2 hours.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Bake until the scone tops are light brown, 12 to 15 minutes. Cool on a wire rack for at least 10 minutes. Serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63588,
+    "end": 63626,
+    "yieldLine": "MAKES 8 scones"
+  },
+  "fit": true
+}

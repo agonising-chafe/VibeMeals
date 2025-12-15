@@ -1,0 +1,254 @@
+{
+  "mapped": {
+    "id": "atk_best-vegetarian-chili",
+    "name": "Best Vegetarian Chili",
+    "slug": "best-vegetarian-chili",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-plus-salt-for-soaking-beans",
+        "displayName": "table salt, plus salt for soaking beans",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-cups-dried-beans-rinsed-and-picked-over",
+        "displayName": "(21/2 cups) dried beans, rinsed and picked over",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-ancho-chiles",
+        "displayName": "dried ancho chiles",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-new-mexico-chiles",
+        "displayName": "dried New Mexico chiles",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-shiitake-mushrooms-chopped-coarse",
+        "displayName": "dried shiitake mushrooms, chopped coarse",
+        "amount": 0.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "walnuts-toasted",
+        "displayName": "walnuts, toasted",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained-with-juice-reserved",
+        "displayName": "can diced tomatoes, drained with juice reserved",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "jalape-o-chiles-stemmed-and-chopped-coarse",
+        "displayName": "jalapeño chiles, stemmed and chopped coarse",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-chopped-fine",
+        "displayName": "onions, chopped fine",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-grain-bulgur",
+        "displayName": "medium-grain bulgur",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Soak the dried beans in salted water for 1 hour.",
+        "durationMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 4 quarts water, 3 tablespoons salt, and beans to boil in Dutch oven over high heat. Remove pot from heat, cover, and let stand for 1 hour. Drain beans and rinse well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees. Arrange ancho and New Mexico chiles on rimmed baking sheet and toast until fragrant and puffed, about 8 minutes. Transfer to plate and let cool, about 5 minutes. Stem and seed toasted chiles. Working in batches, grind toasted chiles, shiitakes, and oregano in spice grinder or with mortar and pestle until finely ground."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Process walnuts in food processor until finely ground, about 30 seconds. Transfer to bowl. Process drained tomatoes, tomato paste, jalapeño(s), garlic, and soy sauce in food processor until tomatoes are finely chopped, about 45 seconds, scraping down bowl as needed."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat oil in Dutch oven over medium-high heat until shimmering. Add onions and salt; cook, stirring occasionally until onions begin to brown, 8 to 10 minutes. Lower heat to medium, add ground chile mixture and cumin, and cook, stirring constantly, until fragrant, about 1 minute. Add rinsed beans and 7 cups water and bring to boil. Cover pot, transfer to oven, and cook for 45 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove pot from oven. Stir in bulgur, ground walnuts, tomato mixture, and reserved tomato juice. Return to oven and cook until beans are fully tender, about 2 hours."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Remove pot from oven, stir chili well, and let stand, uncovered, for 20 minutes. Stir in cilantro and serve. (Chili can be made up to 3 days in advance.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 46471,
+    "end": 46535,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

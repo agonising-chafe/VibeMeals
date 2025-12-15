@@ -1,0 +1,119 @@
+{
+  "mapped": {
+    "id": "atk_stuffed-roast-butterflied-chicken",
+    "name": "“Stuffed” Roast Butterflied Chicken",
+    "slug": "stuffed-roast-butterflied-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-to-6-pound-whole-chicken-giblets-discarded",
+        "displayName": "(5- to 6-pound) whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "recipe-mushroom-leek-bread-stuffing-with-herbs",
+        "displayName": "recipe Mushroom-Leek Bread Stuffing with Herbs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 90,
+        "description": "Brine chicken",
+        "type": "MARINATE"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve the salt and sugar in 2 quarts cold water in a large container. Submerge the chicken in the brine, cover, and refrigerate for 11/2 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 450 degrees. Remove the chicken from the brine, rinse well, and pat dry with paper towels. Remove the backbone from the chicken, pound the chicken to a fairly even thickness, and tuck the wings behind the back. Rub the skin with the oil and season with pepper."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "To make the foil bowl, place two 12-inch squares of foil on top of each other. Fold the edges to construct an 8 by 6-inch bowl. Coat the inside of the bowl with vegetable oil spray, and place the bowl in a roasting pan. Gently mound and pack the stuffing into the foil bowl and position the chicken over the stuffing. Roast the chicken until just beginning to brown, about 30 minutes. Rotate the pan and continue to roast until the skin is crisped and deep golden brown, the thickest part of the breasts registers 160 degrees, and the thickest part of the thighs registers 175 degrees, 25 to 35 minutes longer. Transfer the chicken to a carving board and let rest for 10 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While the chicken rests, transfer the stuffing to a serving bowl and fluff. Cover the stuffing with foil to keep warm. Carve the chicken and serve with the stuffing."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 28068,
+    "end": 28102,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

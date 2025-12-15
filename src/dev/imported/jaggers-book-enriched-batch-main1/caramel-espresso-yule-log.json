@@ -1,0 +1,464 @@
+{
+  "mapped": {
+    "id": "atk_caramel-espresso-yule-log",
+    "name": "Caramel-Espresso Yule Log",
+    "slug": "caramel-espresso-yule-log",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 360,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-egg-whites",
+        "displayName": "large egg whites",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "cream-of-tartar",
+        "displayName": "cream of tartar",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "42-3-ounces-granulated-sugar",
+        "displayName": "(42/3 ounces) granulated sugar",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-2-inch-pieces",
+        "displayName": "unsalted butter, cut into 1/2-inch pieces",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "bittersweet-chocolate-chopped",
+        "displayName": "bittersweet chocolate, chopped",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-ounces-all-purpose-flour",
+        "displayName": "(5 ounces) all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-31-2-ounces-dark-brown-sugar",
+        "displayName": "packed (31/2 ounces) dark brown sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-ounce-unsweetened-cocoa-powder",
+        "displayName": "(1 ounce) unsweetened cocoa powder",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shelled-pistachios-toasted-and-ground-fine-optional",
+        "displayName": "shelled pistachios, toasted and ground fine (optional)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "heavy-cream-divided",
+        "displayName": "heavy cream, divided",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "instant-espresso-powder",
+        "displayName": "instant espresso powder",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "51-4-ounces-granulated-sugar",
+        "displayName": "(51/4 ounces) granulated sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "light-corn-syrup",
+        "displayName": "light corn syrup",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "cream-cheese-cut-into-8-pieces-and-softened",
+        "displayName": "cream cheese, cut into 8 pieces and softened",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "51-3-ounces-cake-flour",
+        "displayName": "(51/3 ounces) cake flour",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "51-4-ounces-granulated-sugar",
+        "displayName": "(51/4 ounces) granulated sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-separated",
+        "displayName": "large eggs, separated",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cream-of-tartar",
+        "displayName": "cream of tartar",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GANACHE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GANACHE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "bittersweet-chocolate-chopped-fine",
+        "displayName": "bittersweet chocolate, chopped fine",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GANACHE"
+      },
+      {
+        "ingredientId": "light-corn-syrup",
+        "displayName": "light corn syrup",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GANACHE"
+      },
+      {
+        "ingredientId": "confectioners-sugar-optional",
+        "displayName": "Confectioners’ sugar (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate filling until mixture registers 50 degrees or below",
+        "durationMinutes": 90,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MERINGUE BRACKET-STYLE MUSHROOMS: Adjust oven racks to upper-middle and lower-middle positions and heat oven to 200 degrees. Using pencil, draw 15 half-circles ranging from 1 to 2 inches wide on 1 sheet of parchment paper, leaving at least 11/2 inches between half-circles. Repeat with second sheet of parchment. Place parchment pencil side down on 2 rimmed baking sheets."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using stand mixer fitted with whisk attachment, whip egg whites on medium speed until foamy, about 1 minute. Add cream of tartar and salt, increase speed to medium-high, and whip until soft peaks form, about 1 minute. With mixer running, slowly add sugar. Increase speed to high and whip until very thick and stiff peaks form, 3 to 4 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Fit pastry bag with 1/4-inch round pastry tip and fill with meringue. Using half-circle as guide, pipe concentric arcs of meringue, either smooth or frilly, until half-circle is filled. Repeat with remaining half-circles. Pipe a stem, about 1/2 inch wide and 1 inch long, onto straight side of each half-circle. Moisten your fingertip with water and smooth any unwanted peaks. Bake meringues for 2 hours, turn off oven, and leave meringues in oven until dry and crisp, about 30 minutes. (Meringues can be stored in airtight container for up to 2 weeks; store directly after cooling. You will have more mushrooms than you need; just select your favorites for the Yule log.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE CHOCOLATE CRUMBLES: Adjust oven rack to middle position and heat oven to 350 degrees. Line rimmed baking sheet with parchment paper. Combine butter and chocolate in medium bowl and microwave until melted, about 1 minute, stirring halfway through microwaving. Add flour, sugar, cocoa, and salt and mix until thoroughly combined and crumbly dough forms."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Crumble dough over prepared sheet. Bake until crumbles are dry, fragrant, and starting to crisp, about 15 minutes, stirring halfway through baking. Transfer sheet to wire rack and let crumbles cool completely (crumbles will continue to crisp as they cool). Do not turn off oven. (Crumbles can be stored in airtight container at room temperature for up to 2 weeks.)"
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE FILLING: Pour 1 cup cream into wide bowl. Whisk together espresso powder and remaining 1 cup cream in small saucepan and bring to simmer over medium heat. Remove from heat and cover to keep hot. Bring sugar, water, and corn syrup to boil in large heavy-bottomed saucepan over medium-high heat. Cook, without stirring, until mixture is straw-colored, 6 to 8 minutes. Reduce heat to medium-low and continue to cook, swirling saucepan occasionally, until mixture is deep coppery brown and just starting to smoke, 4 to 7 minutes longer. Off heat, carefully whisk in hot cream mixture a little at a time (caramel will bubble and steam). Add cream cheese. Cover and let sit for 5 minutes. Whisk until mostly smooth (some small flecks of cream cheese are OK). Transfer mixture to bowl with cream and stir to combine. Cover and refrigerate until mixture registers 50 degrees or below, at least 11/2 hours or up to 4 days."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "FOR THE CAKE: Lightly grease 18 by 13-inch rimmed baking sheet, line with parchment paper, and lightly grease parchment. Whisk flour, sugar, baking powder, and salt together in large, wide bowl. Whisk egg yolks, oil, water, and vanilla into flour mixture until smooth batter forms."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Using stand mixer fitted with whisk attachment, whip egg whites and cream of tartar on medium-low speed until foamy, about 1 minute. Increase speed to medium-high and whip until stiff peaks form, 11/2 to 2 minutes. Transfer one-third of whipped egg whites to batter and whisk gently until mixture is lightened. Using rubber spatula, gently fold remaining egg whites into batter. Pour batter into prepared sheet and spread evenly. Firmly tap sheet on counter 3 times to remove large air bubbles. Bake until cake springs back when pressed lightly in center, 12 to 14 minutes. While cake bakes, soak clean dish towel with water and wring out thoroughly."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Transfer sheet to wire rack. Immediately run knife around edge of sheet, then carefully invert cake onto second wire rack. Carefully remove parchment. Lay damp towel over cake and invert first wire rack over towel. Invert cake and remove rack. Starting from short side, gently roll cake and towel together into jelly roll shape. Let cake cool on rack, seam side down, for 1 hour."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "FOR THE GANACHE: Bring cream to simmer in small saucepan over medium heat. Place chocolate and corn syrup in bowl, pour over cream, and let stand for 1 minute. Whisk mixture until smooth. Let cool until mixture has consistency of pudding, about 1 hour."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Transfer chilled filling to bowl of stand mixer fitted with whisk attachment. Whip on high speed until mixture is thick and fluffy and resembles buttercream frosting, 11/2 to 2 minutes. Gently unroll cake with short side parallel to counter edge (innermost edge of cake will remain slightly curled; do not flatten). Spread filling evenly over cake, leaving 1/2-inch margin on each short side. Reroll cake, leaving towel behind as you roll. Wrap in plastic wrap and refrigerate for at least 20 minutes or up to 2 days."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Arrange two 12 by 4-inch strips of parchment 1 inch apart on serving platter. Unwrap cake and place on cutting board. Using sharp chef’s knife, trim 1/2-inch slice from each end of log, wiping knife clean between cuts; discard trimmings. To make branch stump, cut 1 end of cake at 45-degree angle, starting 11/2 inches from end of log (shorter side of stump will be 11/2 inches long). Transfer larger cake piece to platter, centering it lengthwise on parchment. To attach stump, rest straight side of smaller piece against side of log. Fill in top of space between pieces with about 1 tablespoon ganache. Using offset spatula, gently spread remaining ganache over log, leaving cut ends exposed. Use tines of fork to make wood-grain pattern on surface of ganache. Carefully slide parchment from beneath cake (hold stump in place with your fingertip while sliding out parchment). Refrigerate cake, uncovered, to slightly set ganache, about 20 minutes. (Cake can be covered loosely and refrigerated for up to 24 hours; let stand at room temperature for 30 minutes before serving.)"
+      },
+      {
+        "stepNumber": 13,
+        "instruction": "No more than 10 minutes before serving, use paring knife to make small incision in side of log. Gently insert mushroom stem into incision until straight side of mushroom rests against log. Repeat with desired number of mushrooms."
+      },
+      {
+        "stepNumber": 14,
+        "instruction": "Scatter chocolate crumbles and pistachios, if using, around cake."
+      },
+      {
+        "stepNumber": 15,
+        "instruction": "Dust cake lightly with confectioners’ sugar, if using. To slice, dip sharp knife in very hot water and wipe dry between cuts. Serve."
+      },
+      {
+        "stepNumber": 16,
+        "instruction": "Lay damp towel over cake on rack. Invert second rack over towel. Invert cake; remove rack."
+      },
+      {
+        "stepNumber": 17,
+        "instruction": "Starting from short side, gently roll cake and towel together into jelly roll shape. Let cool for 1 hour."
+      },
+      {
+        "stepNumber": 18,
+        "instruction": "Unroll cake. Spread filling evenly over cake, leaving 1/2-inch margin on each short side."
+      },
+      {
+        "stepNumber": 19,
+        "instruction": "Reroll cake without towel."
+      },
+      {
+        "stepNumber": 20,
+        "instruction": "Trim 1/2-inch slice from each end of log. To make branch stump, cut 1 end of cake at 45-degree angle, starting 11/2 inches from end."
+      },
+      {
+        "stepNumber": 21,
+        "instruction": "Transfer cake to platter. Rest stump against log. Spread ganache over log and stump. Use fork to make wood-grain pattern."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 74598,
+    "end": 74754,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

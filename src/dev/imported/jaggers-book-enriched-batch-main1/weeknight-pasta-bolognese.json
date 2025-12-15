@@ -1,0 +1,231 @@
+{
+  "mapped": {
+    "id": "atk_weeknight-pasta-bolognese",
+    "name": "Weeknight Pasta Bolognese",
+    "slug": "weeknight-pasta-bolognese",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_POT",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dried-porcini-mushrooms",
+        "displayName": "dried porcini mushrooms",
+        "amount": 0.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-white-wine",
+        "displayName": "sweet white wine",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-carrot-peeled-and-chopped-coarse-about-1-2-cup",
+        "displayName": "small carrot, peeled and chopped coarse (about 1/2 cup)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "small-onion-chopped-coarse-about-1-4-cup",
+        "displayName": "small onion, chopped coarse (about 1/4 cup)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "pancetta-cut-into-1-inch-chunks",
+        "displayName": "pancetta, cut into 1-inch chunks",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-tomatoes",
+        "displayName": "can whole tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-garlic-clove-minced-or-pressed-through-a-garlic-press-about-1-2-teaspoon",
+        "displayName": "small garlic clove, minced or pressed through a garlic press (about 1/2 teaspoon)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "meatloaf-mix",
+        "displayName": "meatloaf mix",
+        "amount": 1.25,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "pasta",
+        "displayName": "pasta",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-for-serving",
+        "displayName": "Grated Parmesan cheese, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine the porcini and 1/2 cup water in a small microwave-safe bowl; cover the bowl with plastic wrap, cut three vents for steam with a knife, and microwave on high power for 30 seconds. Let stand until the mushrooms have softened, about 5 minutes. Transfer the mushrooms to a second small bowl and reserve the liquid; pour the liquid through a paper towel–lined mesh strainer. Set the mushrooms and the strained liquid aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring the wine to a simmer in a 10-inch nonstick skillet over medium heat; reduce the heat to low and continue to simmer until the wine is reduced to 2 tablespoons, about 20 minutes. Set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, pulse the carrot in a food processor until broken down into 1/4-inch pieces, about 10 pulses. Add the onion and pulse until the vegetables are broken down into 1/8-inch pieces, about 10 pulses. Transfer the vegetables to a small bowl. Process the reserved mushrooms until well ground, about 15 seconds, scraping down the sides of the workbowl as needed. Transfer the mushrooms to the bowl with the vegetables. Process the pancetta until the pieces are no larger than 1/4 inch, 30 to 35 seconds, scraping down the sides of the workbowl as needed; transfer to a small bowl. Pulse the tomatoes with their juice until chopped fine, about 8 pulses."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Melt the butter in a 12-inch skillet over medium-high heat. Cook the pancetta, stirring frequently, until well browned, about 2 minutes. Add the carrot, onion, and mushrooms and cook, stirring frequently, until the vegetables are softened but not browned, about 4 minutes. Add the sugar and garlic and cook until fragrant, about 30 seconds. Add the meat, breaking it into 1-inch pieces with a wooden spoon, and cook for about 1 minute. Add the milk and stir to break the meat into 1/2-inch pieces; bring to a simmer, reduce the heat to medium, and cook, stirring to break the meat into smaller pieces, until most of the liquid has evaporated and the meat begins to sizzle, 18 to 20 minutes. Stir in the tomato paste and cook until combined, about 1 minute. Add the tomatoes, reserved mushroom soaking liquid, 1/4 teaspoon salt, and the pepper; bring to a simmer over medium-high heat, then reduce the heat to medium and simmer until the liquid is reduced and the sauce is thickened, 12 to 15 minutes. Stir in the reduced wine and simmer to blend the flavors, about 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Meanwhile, bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta to the boiling water and cook, stirring often, until al dente. Reserve 1/2 cup of the cooking water then drain the pasta and return it to the pot. Add 2 cups of the sauce and 2 tablespoons of the reserved pasta cooking water to the pasta; toss to combine and adjust the consistency of the sauce with the remaining reserved pasta cooking water as needed. Serve immediately, topping individual bowls with 1/4 cup sauce and passing the Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 16699,
+    "end": 16755,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

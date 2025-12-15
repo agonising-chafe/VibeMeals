@@ -1,0 +1,75 @@
+{
+  "mapped": {
+    "id": "atk_home-fried-taco-shells",
+    "name": "Home-Fried Taco Shells",
+    "slug": "home-fried-taco-shells",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 8 shells",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fry-the-taco-shells-before-you-make-the-filling-then-rewarm-them-in-a-200-degree-oven-for-about-10-minutes-before-serving",
+        "displayName": "Fry the taco shells before you make the filling, then rewarm them in a 200-degree oven for about 10 minutes before serving.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "corn-oil-vegetable-oil-or-canola-oil",
+        "displayName": "corn oil, vegetable oil, or canola oil",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-corn-tortillas",
+        "displayName": "(6-inch) corn tortillas",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Line rimmed baking sheet with double thickness of paper towels and set aside. Heat oil in 8-inch skillet over medium heat to 350 degrees, about 5 minutes (oil should bubble when small piece of tortilla is dropped in; piece should rise to surface in 2 seconds and be light golden brown in about 1 minute)."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using tongs to hold tortilla, submerge half of tortilla into hot oil and press it down with metal spatula. Fry until just set, about 30 seconds. Flip tortilla and submerge second half. Fry until golden brown, about 11/2 minutes. Flip again and fry other side until golden brown, about 30 seconds. Transfer each fried taco shell upside down to prepared baking sheet."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 31685,
+    "end": 31705,
+    "yieldLine": "MAKES 8 shells"
+  },
+  "fit": true
+}

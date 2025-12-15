@@ -1,0 +1,191 @@
+{
+  "mapped": {
+    "id": "atk_kimchi-bokkeumbap-kimchi-fried-rice",
+    "name": "Kimchi Bokkeumbap (Kimchi Fried Rice)",
+    "slug": "kimchi-bokkeumbap-kimchi-fried-rice",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "8-inch-square-sheet-gim",
+        "displayName": "(8-inch square) sheet gim",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-4-inch-thick-slices-deli-ham-cut-into-1-4-inch-pieces-about-4-ounces",
+        "displayName": "(1/4-inch-thick) slices deli ham, cut into 1/4-inch pieces (about 4 ounces)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-chopped",
+        "displayName": "large onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-white-and-green-parts-separated-and-sliced-thin-on-bias",
+        "displayName": "scallions, white and green parts separated and sliced thin on bias",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cabbage-kimchi-drained-with-1-4-cup-juice-reserved-cut-into-1-4-inch-strips",
+        "displayName": "cabbage kimchi, drained with 1/4 cup juice reserved, cut into 1/4-inch strips",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "gochujang",
+        "displayName": "gochujang",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "cooked-short-grain-white-rice",
+        "displayName": "cooked short-grain white rice",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "sesame-seeds-toasted",
+        "displayName": "sesame seeds, toasted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Grip gim with tongs and hold 2 inches above low flame on gas burner. Toast gim, turning every 3 to 5 seconds, until gim is aromatic and shrinks slightly, about 20 seconds. (If you do not have a gas stove, toast gim on rimmed baking sheet in 275-degree oven until gim is aromatic and shrinks slightly, 20 to 25 minutes, flipping gim halfway through toasting.) Using kitchen shears, cut gim into four 2-inch-wide strips. Stack strips and cut crosswise into thin strips."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 1 tablespoon vegetable oil in 12-inch nonstick skillet over medium-high heat until shimmering. Add ham, onion, and scallion whites and cook, stirring frequently, until onion is softened and ham is beginning to brown at edges, 6 to 8 minutes. Stir in kimchi and reserved juice, water, soy sauce, gochujang, and pepper. Cook, stirring occasionally, until kimchi turns soft and translucent, 4 to 6 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add rice; reduce heat to medium-low; and cook, stirring and folding constantly until mixture is evenly coated, about 3 minutes. Stir in sesame oil and remaining 1 tablespoon vegetable oil. Increase heat to medium-high and cook, stirring occasionally, until mixture begins to stick to skillet, about 4 minutes. Transfer to serving bowl. Sprinkle with sesame seeds, scallion greens, and gim and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 41217,
+    "end": 41263,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

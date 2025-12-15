@@ -1,0 +1,226 @@
+{
+  "mapped": {
+    "id": "atk_pan-bagnat-proven-al-tuna-sandwich",
+    "name": "Pan Bagnat (Provençal Tuna Sandwich)",
+    "slug": "pan-bagnat-proven-al-tuna-sandwich",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vine-ripened-tomato-cored-and-sliced-thin",
+        "displayName": "vine-ripened tomato, cored and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-onion-sliced-thin",
+        "displayName": "small red onion, sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-baguette-halved-horizontally",
+        "displayName": "large baguette, halved horizontally",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ni-oise-olives-pitted",
+        "displayName": "niçoise olives, pitted",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-parsley-leaves-and-tender-stems",
+        "displayName": "fresh parsley leaves and tender stems",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "capers-rinsed",
+        "displayName": "capers, rinsed",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-marjoram-leaves",
+        "displayName": "fresh marjoram leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-and-patted-dry",
+        "displayName": "anchovy fillets, rinsed and patted dry",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jars-oil-packed-tuna-drained",
+        "displayName": "jars oil-packed tuna, drained",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "hard-cooked-eggs-sliced-thin-see-this-page",
+        "displayName": "hard-cooked eggs, sliced thin (see this page)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Lay tomato slices on paper towel–lined plate and set aside. Place onion, vinegar, garlic, and salt in bowl and toss to combine. Using your hands or metal spoon, remove inner crumb from baguette bottom to create trough, leaving 1/4-inch border on sides and bottom. Place baguette halves cut side up on baking sheet and bake until very lightly toasted, 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pulse olives, parsley, capers, marjoram, and anchovies in food processor until coarsely but evenly chopped, 10 to 12 pulses. Transfer olive mixture to bowl with onion mixture. Add 1/4 cup oil, mustard, and pepper and toss to combine."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Brush inside of each baguette half with 1 tablespoon oil. Place two-thirds of olive mixture in hollow of baguette bottom and spread evenly. Distribute tuna evenly over olive mixture and drizzle with remaining 2 tablespoons oil. Shingle tomato slices over tuna. Shingle egg slices over tomato. Top eggs with remaining olive mixture and cap with baguette top (sandwich will be very full)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Press gently on sandwich and slice in half crosswise on bias. Wrap each half tightly in plastic wrap. Place rimmed baking sheet on top of sandwiches and weight with heavy Dutch oven or two 5-pound bags of flour or sugar for 1 hour, flipping sandwiches halfway through weighting. (Wrapped sandwiches can be refrigerated for up to 24 hours. Let come to room temperature before serving.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Unwrap sandwiches, slice each sandwich in half (or in thirds to serve 6) on bias, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 13144,
+    "end": 13200,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

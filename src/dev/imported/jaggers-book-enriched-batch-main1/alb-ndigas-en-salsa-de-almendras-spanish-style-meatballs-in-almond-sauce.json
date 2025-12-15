@@ -1,0 +1,286 @@
+{
+  "mapped": {
+    "id": "atk_alb-ndigas-en-salsa-de-almendras-spanish-style-meatballs-in-almond-sauce",
+    "name": "Albóndigas en Salsa de Almendras (Spanish-Style Meatballs in Almond Sauce)",
+    "slug": "alb-ndigas-en-salsa-de-almendras-spanish-style-meatballs-in-almond-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 24 meatballs",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "slivered-almonds",
+        "displayName": "slivered almonds",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "hearty-white-sandwich-bread-torn-into-1-inch-pieces",
+        "displayName": "hearty white sandwich bread, torn into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "hearty-white-sandwich-bread-torn-into-1-inch-pieces",
+        "displayName": "hearty white sandwich bread, torn into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley-divided",
+        "displayName": "chopped fresh parsley, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BASE"
+      },
+      {
+        "ingredientId": "finely-chopped-onion",
+        "displayName": "finely chopped onion",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BASE"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BASE"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BASE"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BASE"
+      },
+      {
+        "ingredientId": "saffron-threads-crumbled",
+        "displayName": "saffron threads, crumbled",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BASE"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FINISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PICADA: Process almonds in food processor until finely ground, about 20 seconds. Add bread and process until bread is finely ground, about 15 seconds. Transfer almond-bread mixture to 12-inch nonstick skillet. Add oil and cook over medium heat, stirring often, until mixture is golden brown, 3 to 5 minutes. Transfer to bowl. Stir in parsley and garlic and set aside. Wipe skillet clean with paper towels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE MEATBALLS: Process bread in now-empty processor until finely ground, about 15 seconds. Add egg, water, 1 tablespoon parsley, garlic, salt, and pepper and process until smooth paste forms, about 20 seconds, scraping down sides of bowl as necessary. Add pork and pulse until combined, about 5 pulses."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove processor blade. Using your moistened hands, form generous 1 tablespoon pork mixture into 1-inch round meatball and transfer to plate; repeat with remaining pork mixture to form 24 meatballs."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat oil in now-empty skillet over medium heat until shimmering. Add onion and cook, stirring occasionally, until softened, 4 to 6 minutes. Add paprika and cook until fragrant, about 30 seconds. Add broth and wine and bring to simmer. Stir in saffron. Add meatballs and adjust heat to maintain simmer. Cover and cook until meatballs register 160 degrees, 6 to 8 minutes, flipping meatballs once."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Stir in picada and continue to cook, uncovered, until sauce has thickened slightly, 1 to 2 minutes longer. Off heat, stir in vinegar. Season with salt and pepper to taste. Transfer to platter, sprinkle with remaining 1 tablespoon parsley, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 1061,
+    "end": 1129,
+    "yieldLine": "MAKES 24 meatballs"
+  },
+  "fit": true
+}

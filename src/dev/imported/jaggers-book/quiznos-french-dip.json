@@ -1,0 +1,314 @@
+{
+  "mapped": {
+    "id": "atk_quiznos-french-dip",
+    "name": "Quiznos French Dip",
+    "slug": "quiznos-french-dip",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "quiznos-has-a-variety-of-toasted-deli-sandwiches-this-recipe-features-one-of-their-signature-submarines",
+        "displayName": "Quiznos has a variety of toasted deli sandwiches. This recipe features one of their signature submarines.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "au-jus-dipping-sauce",
+        "displayName": "Au Jus Dipping Sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-chopped-yellow-onion",
+        "displayName": "finely chopped yellow onion",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packet-au-jus-mix",
+        "displayName": "packet au jus mix",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-water",
+        "displayName": "⅔ cups water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sandwich-sauce",
+        "displayName": "Sandwich Sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-alfredo-sauce",
+        "displayName": "½ cup Alfredo sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-mayonnaise",
+        "displayName": "¼ cup mayonnaise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-onion-salt-or-garlic-salt",
+        "displayName": "⅛ teaspoon onion salt or garlic salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sandwiches",
+        "displayName": "Sandwiches",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "loaf-bakery-french-bread",
+        "displayName": "loaf bakery French bread",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-thin-sliced-deli-roast-beef",
+        "displayName": "¾ pound thin-sliced deli roast beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-swiss-cheese",
+        "displayName": "½ cup shredded Swiss cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-italian-cheese-blend",
+        "displayName": "½ cup shredded Italian cheese blend",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-broiler-to-500-f",
+        "displayName": "Preheat oven broiler to 500°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-au-jus-dipping-sauce-melt-butter-in-a-small-saucepan-over-medium-heat-add-onion-and-saut-until-tender-about-2-3-minutes",
+        "displayName": "For the au jus dipping sauce: Melt butter in a small saucepan over medium heat. Add onion and sauté until tender, about 2–3 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-flour-and-contents-of-au-jus-mix-packet-gradually-whisk-in-water-and-allow-to-simmer-while-you-make-the-sandwich-and-sauce",
+        "displayName": "Add flour and contents of au jus mix packet. Gradually whisk in water and allow to simmer while you make the sandwich and sauce.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-sandwich-sauce-in-a-small-bowl-mix-together-alfredo-sauce-mayonnaise-and-onion-salt",
+        "displayName": "For the sandwich sauce: In a small bowl, mix together Alfredo sauce, mayonnaise, and onion salt.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-sandwiches-slice-french-bread-with-a-single-horizontal-slice-to-make-a-top-and-a-bottom-half-spread-sauce-evenly-over-both-halves",
+        "displayName": "For the sandwiches: Slice French bread with a single horizontal slice to make a top and a bottom half. Spread sauce evenly over both halves.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-bread-halves-open-faced-on-an-ungreased-quarter-baking-sheet-place-under-oven-broiler-1-minute-or-until-sauce-is-bubbly-and-edges-of-bread-barely-start-to-brown",
+        "displayName": "Place bread halves open-faced on an ungreased quarter baking sheet. Place under oven broiler 1 minute or until sauce is bubbly and edges of bread barely start to brown.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-baking-sheet-from-oven-divide-roast-beef-evenly-between-bread-halves-then-sprinkle-evenly-with-cheeses",
+        "displayName": "Remove baking sheet from oven. Divide roast beef evenly between bread halves, then sprinkle evenly with cheeses.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "broil-1-minute-more-or-until-cheeses-melt-and-start-to-brown-remove-from-oven",
+        "displayName": "Broil 1 minute more or until cheeses melt and start to brown. Remove from oven.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-top-sandwich-half-over-bottom-half-and-return-to-broiler-for-1-2-minutes-to-lightly-toast-top-of-sandwich-remove-from-oven-and-slice-sandwich-into-four-even-slices",
+        "displayName": "Place top sandwich half over bottom half and return to broiler for 1–2 minutes to lightly toast top of sandwich. Remove from oven and slice sandwich into four even slices.",
+        "amount": 9,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "serve-with-au-jus-sauce-in-small-bowls-for-dipping",
+        "displayName": "Serve with au jus sauce in small bowls for dipping.",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "you-can-transform-any-sandwich-you-want-into-a-panini-using-either-a-folding-grill-such-as-a-george-forman-grill-or-two-cast-iron-skillets-for-the-grill-place-sandwich-inside-preheated-grill-and-place-a-heavy-pot-on-top-of-grill-to-press-sandwich-about-3-5-minutes-with-cast-iron-skillets-heat-both-over-medium-heat-for-5-minutes-remove-from-heat-add-sandwich-inside-one-skillet-top-with-foil-and-place-second-skillet-on-top-bottom-side-down-toast-until-golden-about-3-5-minutes",
+        "displayName": "You can transform any sandwich you want into a panini using either a folding grill, such as a George Forman grill or two cast iron skillets. For the grill, place sandwich inside preheated grill and place a heavy pot on top of grill to press sandwich, about 3–5 minutes. With cast iron skillets, heat both over medium heat for 5 minutes. Remove from heat. Add sandwich inside one skillet, top with foil, and place second skillet on top bottom side down. Toast until golden, about 3–5 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5088,
+    "end": 5164,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

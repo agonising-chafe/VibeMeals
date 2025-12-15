@@ -1,0 +1,150 @@
+{
+  "mapped": {
+    "id": "atk_mustard-fennel-pan-sauce",
+    "name": "Mustard-Fennel Pan Sauce",
+    "slug": "mustard-fennel-pan-sauce",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 15,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "NONE",
+      "yieldText": "MAKES about 1/2 cup",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "note-that-this-recipe-is-meant-to-be-started-after-you-have-seared-the-steaks-sauvignon-blanc-is-our-preferred-white-cooking-wine",
+        "displayName": "Note that this recipe is meant to be started after you have seared the steaks. Sauvignon Blanc is our preferred white cooking wine.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-if-needed",
+        "displayName": "Vegetable oil, if needed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shallot-minced",
+        "displayName": "shallot, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fennel-seeds-cracked",
+        "displayName": "fennel seeds, cracked",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-2-pieces-and-chilled",
+        "displayName": "unsalted butter, cut into 2 pieces and chilled",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-tarragon",
+        "displayName": "chopped fresh tarragon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Pour off all but 1 tablespoon fat from skillet used to sear steak. (If necessary, add oil to equal 1 tablespoon.) Add shallot and fennel seeds and cook over medium heat until shallot is softened, 1 to 2 minutes. Stir in broth, wine, and mustard, scraping up any browned bits. Bring to simmer and cook until liquid is reduced to 1/2 cup, about 6 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Off heat, whisk in butter, 1 piece at a time, until melted and sauce is thickened and glossy. Whisk in tarragon and any accumulated meat juices and season with salt and pepper to taste. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 32924,
+    "end": 32958,
+    "yieldLine": "MAKES about 1/2 cup"
+  },
+  "fit": true
+}

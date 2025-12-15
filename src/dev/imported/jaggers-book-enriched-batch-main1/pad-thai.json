@@ -1,0 +1,313 @@
+{
+  "mapped": {
+    "id": "atk_pad-thai",
+    "name": "Pad Thai",
+    "slug": "pad-thai",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boiling-water",
+        "displayName": "boiling water",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tamarind-paste",
+        "displayName": "tamarind paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "peanut-or-vegetable-oil",
+        "displayName": "peanut or vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "rice-vinegar",
+        "displayName": "rice vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dried-rice-stick-noodles-1-8-to-1-4-inch-wide",
+        "displayName": "dried rice stick noodles, 1/8 to 1/4 inch wide",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "peanut-or-vegetable-oil",
+        "displayName": "peanut or vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "medium-shrimp-41-to-50-per-pound-peeled-and-deveined-see-this-page",
+        "displayName": "medium shrimp (41 to 50 per pound), peeled and deveined (see this page)",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-shallot-minced-about-2-tablespoons",
+        "displayName": "medium shallot, minced (about 2 tablespoons)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-lightly-beaten",
+        "displayName": "large eggs, lightly beaten",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-thai-salted-preserved-radish-optional",
+        "displayName": "chopped Thai salted preserved radish (optional)",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-shrimp-chopped-fine-optional",
+        "displayName": "dried shrimp, chopped fine (optional)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "bean-sprouts",
+        "displayName": "bean sprouts",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-roasted-peanuts-chopped-coarse",
+        "displayName": "unsalted roasted peanuts, chopped coarse",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "PEANUT"
+        ]
+      },
+      {
+        "ingredientId": "scallions-green-parts-only-sliced-thin-on-the-bias",
+        "displayName": "scallions, green parts only, sliced thin on the bias",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "loosely-packed-fresh-cilantro-leaves-optional",
+        "displayName": "loosely packed fresh cilantro leaves (optional)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lime-wedges-for-serving",
+        "displayName": "Lime wedges, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Soak tamarind paste",
+        "durationMinutes": 30,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE: Combine the water and tamarind paste in a small bowl and let sit until the tamarind is softened and mushy, 10 to 30 minutes. Mash the tamarind to break it up, then push it through a fine-mesh strainer into a medium bowl to remove the seeds and fibers and extract as much pulp as possible. Stir in the remaining sauce ingredients and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE NOODLES, SHRIMP, AND GARNISH: Bring 4 quarts water to a boil in a large pot. Remove the boiling water from the heat, add the rice noodles, and let sit, stirring occasionally, until almost tender, about 10 minutes. Drain the noodles and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 1 tablespoon of the oil in a 12-inch nonstick skillet over high heat until just smoking. Add the shrimp, sprinkle with 1/8 teaspoon salt, and cook without stirring until bright pink, about 1 minute. Stir the shrimp and continue to cook until cooked through, 15 to 30 seconds longer. Transfer the shrimp to a clean bowl and cover with foil to keep warm."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add the remaining 1 tablespoon oil to the skillet and return to medium heat until shimmering. Add the shallot and garlic and cook, stirring constantly, until light golden brown, about 11/2 minutes. Stir in the eggs and cook, stirring constantly, until scrambled and barely moist, about 20 seconds."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Add the noodles and the salted radish and dried shrimp (if using) to the eggs and toss to combine. Add the sauce, increase the heat to high, and cook, tossing constantly, until the noodles are evenly coated, about 1 minute."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Add the cooked shrimp, bean sprouts, 1/4 cup of the peanuts, and all but 1/4 cup of the scallions and continue to cook, tossing constantly, until the noodles are tender, about 21/2 minutes. (If not yet tender add 2 tablespoons water to the skillet and continue to cook until tender.) Transfer the noodles to a serving platter, sprinkle with the remaining 1/4 cup peanuts, remaining 1/4 cup scallions, and cilantro (if using) and serve with the lime wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "PEANUT",
+      "TREE_NUT",
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 45258,
+    "end": 45330,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

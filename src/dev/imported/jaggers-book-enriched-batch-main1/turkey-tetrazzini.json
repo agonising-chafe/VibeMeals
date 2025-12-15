@@ -1,0 +1,255 @@
+{
+  "mapped": {
+    "id": "atk_turkey-tetrazzini",
+    "name": "Turkey Tetrazzini",
+    "slug": "turkey-tetrazzini",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "LARGE_POT",
+        "LARGE_SKILLET",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-melted",
+        "displayName": "(1/2 stick) unsalted butter, melted",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-1-4-cup",
+        "displayName": "Parmesan cheese, grated (about 1/4 cup)",
+        "amount": 0.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "1-stick-unsalted-butter-plus-extra-for-the-baking-dish",
+        "displayName": "(1 stick) unsalted butter, plus extra for the baking dish",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "white-mushrooms-wiped-cleaned-and-sliced-thin-about-3-cups",
+        "displayName": "white mushrooms, wiped cleaned and sliced thin (about 3 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-minced",
+        "displayName": "medium onions, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "spaghetti-or-other-long-strand-pasta-strands-snapped-in-half",
+        "displayName": "spaghetti or other long-strand pasta, strands snapped in half",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-3-4-cup",
+        "displayName": "Parmesan cheese, grated (about 3/4 cup)",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "dry-sherry",
+        "displayName": "dry sherry",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-nutmeg",
+        "displayName": "grated nutmeg",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-peas",
+        "displayName": "frozen peas",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leftover-cooked-boneless-turkey-or-chicken-meat-cut-into-1-4-inch-pieces",
+        "displayName": "leftover cooked boneless turkey or chicken meat, cut into 1/4-inch pieces",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TOPPING: Adjust an oven rack to the middle position and heat the oven to 350 degrees. Pulse the bread in a food processor until coarsely ground, 10 to 15 pulses. Mix the bread crumbs, butter, and salt in a small baking dish; bake until golden brown and crisp, 15 to 20 minutes. Cool to room temperature and mix with the Parmesan in a small bowl. Set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE FILLING: Increase the oven temperature to 450 degrees. Melt 2 tablespoons of the butter in a large skillet over medium heat; add the mushrooms and onions and sauté, stirring frequently, until the liquid from the mushrooms evaporates, 12 to 15 minutes. Season with salt and pepper to taste; transfer the vegetables to a medium bowl and set aside. Clean the skillet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta and cook until al dente. Reserve 1/4 cup cooking water, drain the pasta, and return to the pot with the reserved liquid."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Melt the remaining 6 tablespoons butter in the clean skillet over medium heat. Whisk in the flour and cook, whisking constantly, until the flour turns golden, 1 to 2 minutes. Whisking constantly, gradually add the chicken broth. Increase the heat to medium-high and simmer until the mixture thickens, 3 to 4 minutes. Off the heat, whisk in the Parmesan, sherry, lemon juice, thyme, nutmeg, and 1/2 teaspoon salt. Add the sauce, sautéed vegetables, peas, and turkey to the pasta and mix well; season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Turn the mixture into a buttered 13 by 9-inch gratin dish (or other shallow ovensafe baking dish of similar size), sprinkle evenly with the reserved bread crumbs, and bake until the bread crumbs brown and the mixture is bubbly, 13 to 15 minutes. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 30451,
+    "end": 30515,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

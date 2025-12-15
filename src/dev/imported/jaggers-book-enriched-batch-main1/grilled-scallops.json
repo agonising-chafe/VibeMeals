@@ -1,0 +1,158 @@
+{
+  "mapped": {
+    "id": "atk_grilled-scallops",
+    "name": "Grilled Scallops",
+    "slug": "grilled-scallops",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-sea-scallops-tendons-removed",
+        "displayName": "large sea scallops, tendons removed",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "12-inch-metal-skewers",
+        "displayName": "12-inch metal skewers",
+        "amount": 812,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-by-9-inch-disposable-aluminum-roasting-pan-if-using-charcoal",
+        "displayName": "(13 by 9-inch) disposable aluminum roasting pan (if using charcoal)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-plus-extra-for-cooking-grate",
+        "displayName": "vegetable oil, plus extra for cooking grate",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place scallops on rimmed baking sheet lined with clean dish towel. Place second clean dish towel on top of scallops and press gently on towel to blot liquid. Let scallops sit at room temperature, covered with towel, for 10 minutes. Thread 4 to 6 scallops, 1 flat side down, onto 1 skewer and then place second skewer through scallops parallel to and about 1/4 inch from first. Return skewered scallops to towel-lined baking sheet; refrigerate, covered with second towel, while preparing grill."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While grill heats, whisk oil, flour, cornstarch, and sugar together in small bowl. Remove towels from scallops. Brush both sides of skewered scallops with oil mixture and sprinkle with salt and pepper."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean cooking grate, then repeatedly brush grate with well-oiled paper towels until grate is black and glossy, 5 to 10 times."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Place skewered scallops directly on grill (directly over coals if using charcoal). Cook (covered if using gas) without moving scallops until lightly browned, 21/2 to 4 minutes. Carefully flip skewers and continue to cook until second side of scallops is browned, sides are firm, and centers are opaque, 2 to 4 minutes longer. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 55583,
+    "end": 55629,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

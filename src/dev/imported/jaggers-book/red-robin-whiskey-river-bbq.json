@@ -1,0 +1,334 @@
+{
+  "mapped": {
+    "id": "atk_red-robin-whiskey-river-bbq",
+    "name": "Red Robin Whiskey River BBQ",
+    "slug": "red-robin-whiskey-river-bbq",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "red-robin-sells-their-popular-whiskey-river-bbq-sauce-as-well-as-their-original-blend-signature-seasoning-online-and-in-select-retail-stores-if-you-want-to-have-the-most-authentic-restaurant-flavor-at-home",
+        "displayName": "Red Robin sells their popular Whiskey River BBQ Sauce, as well as their Original Blend Signature Seasoning, online and in select retail stores if you want to have the most authentic restaurant flavor at home.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-sweet-onion-thinly-sliced",
+        "displayName": "¼ large sweet onion, thinly sliced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-low-fat-buttermilk",
+        "displayName": "¼ cup low-fat buttermilk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "½ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-seasoning-salt",
+        "displayName": "¼ teaspoon seasoning salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-80-20-ground-beef",
+        "displayName": "¼ pound 80/20 ground beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-onion-powder",
+        "displayName": "¼ teaspoon onion powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "⅛ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-granulated-sugar",
+        "displayName": "⅛ teaspoon granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-paprika",
+        "displayName": "⅛ teaspoon paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-hamburger-bun-sliced-in-half-lengthwise",
+        "displayName": "plain hamburger bun, sliced in half lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "barbecue-sauce",
+        "displayName": "barbecue sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cheddar-cheese",
+        "displayName": "Cheddar cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "inch-slices-beefsteak-tomato",
+        "displayName": "(⅛-inch) slices beefsteak tomato",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-iceberg-lettuce",
+        "displayName": "¼ cup shredded iceberg lettuce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-onion-and-buttermilk-toss-to-coat-onion-then-cover-and-let-soak-30-minutes",
+        "displayName": "In a medium bowl, add onion and buttermilk. Toss to coat onion, then cover and let soak 30 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-onion-soaks-combine-flour-and-seasoning-salt-in-a-resealable-plastic-bag-and-shake-to-combine",
+        "displayName": "While onion soaks, combine flour and seasoning salt in a resealable plastic bag and shake to combine.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "once-soaked-drain-excess-buttermilk-from-onion-place-onion-in-bag-with-flour-seal-and-shake-well-to-coat",
+        "displayName": "Once soaked, drain excess buttermilk from onion. Place onion in bag with flour, seal, and shake well to coat.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-2-quart-saucepan-with-oil-over-high-heat-and-heat-to-350-f",
+        "displayName": "Fill 2-quart saucepan with oil over high heat and heat to 350°F.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-onion-and-cook-2-3-minutes-turning-occasionally-until-golden-brown-and-tender-transfer-to-a-paper-towel-lined-plate-and-set-aside",
+        "displayName": "Add onion and cook 2–3 minutes, turning occasionally, until golden brown and tender. Transfer to a paper towel lined–plate and set aside.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-barbecue-or-smokeless-indoor-grill-to-medium-heat",
+        "displayName": "Preheat barbecue or smokeless indoor grill to medium heat.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "form-ground-beef-into-a-inch-thick-patty-and-season-both-sides-with-salt-pepper-onion-powder-garlic-powder-sugar-and-paprika-cook-4-5-minutes-per-side-until-patty-reaches-an-internal-temperature-of-165-f-for-well-done",
+        "displayName": "Form ground beef into a ¼-inch-thick patty and season both sides with salt, pepper, onion powder, garlic powder, sugar, and paprika. Cook 4–5 minutes per side until patty reaches an internal temperature of 165°F for well-done.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-10-inch-skillet-over-medium-heat-add-butter-and-once-melted-add-bun-halves-cut-side-down-and-toast-3-minutes",
+        "displayName": "Heat a 10-inch skillet over medium heat. Add butter and once melted, add bun halves cut side down and toast 3 minutes.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-bottom-half-of-bun-on-a-serving-plate-spread-with-mayonnaise-top-with-fried-onion-burger-patty-barbecue-sauce-cheese-tomato-and-lettuce-top-with-top-half-of-bun-serve-immediately",
+        "displayName": "Place bottom half of bun on a serving plate. Spread with mayonnaise. Top with fried onion, burger patty, barbecue sauce, cheese, tomato, and lettuce. Top with top half of bun. Serve immediately.",
+        "amount": 9,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5291,
+    "end": 5365,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

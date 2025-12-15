@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_popeyes-chicken-sandwiches",
+    "name": "Popeyes Chicken Sandwiches",
+    "slug": "popeyes-chicken-sandwiches",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "if-you-prefer-the-spicy-version-of-the-viral-popeyes-chicken-sandwich-simply-add-1-teaspoon-hot-sauce-and-teaspoon-cayenne-pepper-to-the-mayonnaise-and-stir-well",
+        "displayName": "If you prefer the spicy version of the viral Popeyes Chicken Sandwich, simply add 1 teaspoon hot sauce and ⅛ teaspoon cayenne pepper to the mayonnaise and stir well.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts",
+        "displayName": "boneless, skinless chicken breasts",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-low-fat-buttermilk-divided",
+        "displayName": "⅔ cup low-fat buttermilk, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cajun-seasoning-divided",
+        "displayName": "Cajun seasoning, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cornstarch",
+        "displayName": "⅓ cup cornstarch",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brioche-hamburger-buns-sliced-in-half-lengthwise",
+        "displayName": "brioche hamburger buns, sliced in half lengthwise",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-mayonnaise",
+        "displayName": "¼ cup mayonnaise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-dill-pickle-slices",
+        "displayName": "thick-cut dill pickle slices",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-resealable-plastic-bag-combine-chicken-cup-buttermilk-and-1-teaspoon-cajun-seasoning-seal-bag-and-massage-until-chicken-is-evenly-coated-refrigerate-2-hours-or-overnight",
+        "displayName": "In a large resealable plastic bag, combine chicken, ⅓ cup buttermilk, and 1 teaspoon Cajun seasoning. Seal bag and massage until chicken is evenly coated. Refrigerate 2 hours or overnight.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-flour-cornstarch-and-remaining-cajun-seasoning-whisk-well-to-combine-in-a-6-inch-dish-add-remaining-buttermilk-set-aside",
+        "displayName": "In a medium bowl, combine flour, cornstarch, and remaining Cajun seasoning. Whisk well to combine. In a 6-inch dish, add remaining buttermilk. Set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "once-chicken-has-marinated-remove-from-bag-and-let-excess-marinade-drip-off-add-chicken-to-flour-mixture-and-turn-to-coat-tap-off-excess-flour-and-add-to-buttermilk-turning-to-coat-let-excess-buttermilk-drip-off-and-return-chicken-to-flour-mixture-and-coat-evenly-on-all-sides-place-coated-chicken-on-a-wire-rack-over-a-quarter-sheet-pan-and-let-stand-at-room-temperature-to-let-coating-dry-and-allow-chicken-to-warm-slightly-while-you-heat-oil",
+        "displayName": "Once chicken has marinated, remove from bag and let excess marinade drip off. Add chicken to flour mixture and turn to coat. Tap off excess flour and add to buttermilk, turning to coat. Let excess buttermilk drip off and return chicken to flour mixture and coat evenly on all sides. Place coated chicken on a wire rack over a quarter sheet pan and let stand at room temperature to let coating dry and allow chicken to warm slightly while you heat oil.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-chicken-to-hot-oil-fry-4-5-minutes-per-side-until-chicken-is-golden-brown-and-reaches-an-internal-temperature-of-165-f",
+        "displayName": "Add chicken to hot oil. Fry 4–5 minutes per side until chicken is golden brown and reaches an internal temperature of 165°F.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-chicken-to-a-paper-towel-lined-plate",
+        "displayName": "Transfer chicken to a paper towel–lined plate.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-both-halves-of-each-bun-with-mayonnaise-place-1-chicken-breast-on-bottom-half-of-each-bun-top-each-with-3-pickle-slices-then-add-top-half-of-bun-and-enjoy-immediately",
+        "displayName": "Spread both halves of each bun with mayonnaise. Place 1 chicken breast on bottom half of each bun, top each with 3 pickle slices, then add top half of bun and enjoy immediately.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-2019-popeyes-debuted-their-chicken-sandwich-which-thanks-to-the-power-of-social-media-quickly-went-viral-everyone-wanted-to-see-if-it-was-worth-the-hype-and-some-locations-went-from-selling-about-sixty-sandwiches-a-day-to-as-many-as-1-000",
+        "displayName": "In 2019, Popeyes debuted their Chicken Sandwich, which, thanks to the power of social media, quickly went viral. Everyone wanted to see if it was worth the hype, and some locations went from selling about sixty sandwiches a day to as many as 1,000!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5033,
+    "end": 5087,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

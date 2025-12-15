@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_jack-in-the-box-tacos",
+    "name": "Jack in the Box Tacos",
+    "slug": "jack-in-the-box-tacos",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "these-tacos-have-been-on-the-menu-since-the-1950s-and-while-they-are-not-gourmet-they-are-delicious-after-an-evening-out-or-when-you-need-the-comfort-only-spicy-greasy-food-can-provide",
+        "displayName": "These tacos have been on the menu since the 1950s, and while they are not gourmet, they are delicious after an evening out or when you need the comfort only spicy, greasy food can provide.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "80-20-ground-beef",
+        "displayName": "80/20 ground beef",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-taco-seasoning",
+        "displayName": "½ teaspoon taco seasoning",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "canned-refried-beans",
+        "displayName": "canned refried beans",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-yellow-corn-tortillas",
+        "displayName": "(6-inch) yellow corn tortillas",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-vegetable-oil-divided",
+        "displayName": "½ cup vegetable oil, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-iceberg-lettuce",
+        "displayName": "shredded iceberg lettuce",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-mild-taco-sauce",
+        "displayName": "½ cup mild taco sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-add-ground-beef-cook-crumbling-well-until-browned-about-5-minutes-add-taco-seasoning-and-stir-well-to-mix-remove-from-heat-and-add-beans-stir-well-to-combine-set-aside",
+        "displayName": "In a 10-inch skillet over medium heat, add ground beef. Cook, crumbling well, until browned, about 5 minutes. Add taco seasoning and stir well to mix. Remove from heat and add beans. Stir well to combine. Set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wrap-tortillas-in-a-damp-towel-microwave-on-high-30-seconds-then-flip-and-microwave-on-high-15-seconds-more-or-until-tortillas-are-soft-and-flexible",
+        "displayName": "Wrap tortillas in a damp towel. Microwave on high 30 seconds, then flip and microwave on high 15 seconds more or until tortillas are soft and flexible.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-bean-and-meat-mixture-evenly-between-tortillas-add-slice-cheese-to-each-tortilla-and-fold-tortilla-in-half",
+        "displayName": "Spread bean and meat mixture evenly between tortillas. Add ½ slice cheese to each tortilla and fold tortilla in half.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-over-medium-heat-add-cup-oil-once-hot-add-tacos-four-at-a-time-and-cook-2-3-minutes-per-side-or-until-tacos-are-crisp-around-edges-remove-tacos-to-a-paper-towel-lined-plate-to-drain-and-repeat-with-remaining-oil-and-tacos",
+        "displayName": "To same skillet over medium heat, add ¼ cup oil. Once hot, add tacos four at a time and cook 2–3 minutes per side, or until tacos are crisp around edges. Remove tacos to a paper towel–lined plate to drain and repeat with remaining oil and tacos.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "once-tacos-have-cooled-2-minutes-gently-open-and-divide-lettuce-and-taco-sauce-between-them-serve-hot",
+        "displayName": "Once tacos have cooled 2 minutes, gently open and divide lettuce and taco sauce between them. Serve hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6580,
+    "end": 6630,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

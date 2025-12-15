@@ -1,0 +1,160 @@
+{
+  "mapped": {
+    "id": "atk_brussels-sprout-salad-with-warm-mustard-vinaigrette",
+    "name": "Brussels Sprout Salad with Warm Mustard Vinaigrette",
+    "slug": "brussels-sprout-salad-with-warm-mustard-vinaigrette",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "white-wine-vinegar",
+        "displayName": "white wine vinegar",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-grain-mustard",
+        "displayName": "whole-grain mustard",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shallot-halved-through-root-end-and-sliced-thin-crosswise",
+        "displayName": "shallot, halved through root end and sliced thin crosswise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-apricots-chopped",
+        "displayName": "dried apricots, chopped",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shelled-pistachios-chopped",
+        "displayName": "shelled pistachios, chopped",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "brussels-sprouts-trimmed-halved-and-sliced-thin",
+        "displayName": "brussels sprouts, trimmed, halved, and sliced thin",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "11-2-cups-watercress-chopped",
+        "displayName": "(11/2 cups) watercress, chopped",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ricotta-salata-shaved-into-thin-strips-using-vegetable-peeler",
+        "displayName": "ricotta salata, shaved into thin strips using vegetable peeler",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk vinegar, mustard, sugar, and salt together in bowl. Add shallot and apricots, cover tightly with plastic wrap, and microwave until steaming, 30 to 60 seconds. Stir briefly to submerge shallot. Let cool to room temperature, about 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in 12-inch skillet over medium heat until shimmering. Add pistachios and cook, stirring frequently, until pistachios are golden brown, 1 to 2 minutes. Off heat, whisk in shallot mixture. Add brussels sprouts and toss with tongs until dressing is evenly distributed and sprouts darken slightly, 1 to 2 minutes. Transfer to serving bowl. Add watercress and ricotta salata and toss to combine. Season with salt and pepper to taste, and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 13627,
+    "end": 13667,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

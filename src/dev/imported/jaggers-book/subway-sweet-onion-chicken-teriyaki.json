@@ -1,0 +1,274 @@
+{
+  "mapped": {
+    "id": "atk_subway-sweet-onion-chicken-teriyaki",
+    "name": "Subway Sweet Onion Chicken Teriyaki",
+    "slug": "subway-sweet-onion-chicken-teriyaki",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "subway-s-sweet-onion-chicken-teriyaki-is-one-of-the-chain-s-biggest-selling-subs-this-sub-is-made-with-very-common-ingredients-what-sets-it-apart-is-the-sweet-onion-sauce",
+        "displayName": "Subway’s Sweet Onion Chicken Teriyaki is one of the chain’s biggest-selling subs. This sub is made with very common ingredients; what sets it apart is the sweet onion sauce.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breast",
+        "displayName": "boneless, skinless chicken breast",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-lawry-s-teriyaki-marinade",
+        "displayName": "¼ cup Lawry’s Teriyaki Marinade",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-light-corn-syrup",
+        "displayName": "½ cup light corn syrup",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-white-onion",
+        "displayName": "minced white onion",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-vinegar",
+        "displayName": "white vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "balsamic-vinegar",
+        "displayName": "balsamic vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-lemon-juice",
+        "displayName": "¼ teaspoon lemon juice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "⅛ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-poppy-seeds",
+        "displayName": "⅛ teaspoon poppy seeds",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "⅛ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "⅛ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-iceberg-lettuce",
+        "displayName": "½ cup shredded iceberg lettuce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "inch-slices-beefsteak-tomato",
+        "displayName": "(⅛-inch) slices beefsteak tomato",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-thinly-sliced-red-onion",
+        "displayName": "⅛ cup thinly sliced red onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-white-sub-roll-sliced-lengthwise",
+        "displayName": "(6-inch) white sub roll, sliced lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-chicken-breast-and-marinade-in-a-large-resealable-plastic-bag-marinate-chicken-in-refrigerator-at-least-30-minutes-or-up-to-4-hours",
+        "displayName": "Place chicken breast and marinade in a large resealable plastic bag. Marinate chicken in refrigerator at least 30 minutes or up to 4 hours.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "combine-corn-syrup-red-wine-vinegar-white-onion-white-vinegar-brown-sugar-balsamic-vinegar-lemon-juice-salt-poppy-seeds-pepper-and-garlic-powder-in-a-1-quart-saucepan-heat-over-medium-heat-until-mixture-comes-to-a-boil-about-5-minutes-remove-from-heat-stir-well-cover-and-let-cool",
+        "displayName": "Combine corn syrup, red wine vinegar, white onion, white vinegar, brown sugar, balsamic vinegar, lemon juice, salt, poppy seeds, pepper, and garlic powder in a 1-quart saucepan. Heat over medium heat until mixture comes to a boil, about 5 minutes. Remove from heat, stir well, cover, and let cool.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-barbecue-or-smokeless-indoor-grill-to-medium-heat",
+        "displayName": "Preheat barbecue or smokeless indoor grill to medium heat.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cook-chicken-4-5-minutes-per-side-until-it-reaches-an-internal-temperature-of-165-f-remove-from-grill-and-cool-3-minutes-before-slicing-into-inch-strips",
+        "displayName": "Cook chicken 4–5 minutes per side until it reaches an internal temperature of 165°F. Remove from grill and cool 3 minutes before slicing into ¼-inch strips.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-lettuce-tomato-and-red-onion-on-bottom-half-of-sub-roll-add-chicken-and-drizzle-with-prepared-sauce-top-with-top-half-of-sub-roll-serve-immediately",
+        "displayName": "Place lettuce, tomato, and red onion on bottom half of sub roll. Add chicken and drizzle with prepared sauce. Top with top half of sub roll. Serve immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5452,
+    "end": 5514,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,183 @@
+{
+  "mapped": {
+    "id": "atk_gravy-for-simple-grill-roasted-turkey",
+    "name": "Gravy for Simple Grill-Roasted Turkey",
+    "slug": "gravy-for-simple-grill-roasted-turkey",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 6 cups",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "reserved-turkey-neck-cut-into-1-inch-pieces-and-giblets",
+        "displayName": "Reserved turkey neck, cut into 1-inch pieces, and giblets",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-chopped-coarse-divided",
+        "displayName": "onions, chopped coarse, divided",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-carrots-peeled-and-chopped-coarse",
+        "displayName": "small carrots, peeled and chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "small-celery-ribs-chopped-coarse",
+        "displayName": "small celery ribs, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "displayName": "dried thyme",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-black-peppercorns",
+        "displayName": "whole black peppercorns",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil in Dutch oven over medium-high heat until shimmering. Add turkey neck and giblets; cook, stirring occasionally, until browned, about 5 minutes. Add half of onions and cook, stirring occasionally, until softened, about 3 minutes. Reduce heat to low; cover and cook, stirring occasionally, until turkey parts and onions release their juices, about 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add chicken broth and beef broth; increase heat to high and bring to boil. Reduce heat to low and simmer, uncovered, skimming any scum that rises to surface, until broth is rich and flavorful, about 30 minutes. Strain broth into large bowl (you should have about 8 cups), reserving giblets, if desired; discard neck. Reserve broth. When cool enough to handle, remove gristle from giblets, if using; dice; and set aside. (Broth can be refrigerated in airtight container for up to 2 days.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pulse carrots in food processor until broken into rough 1/4-inch pieces, about 5 pulses. Add celery and remaining onions; pulse until all vegetables are broken into 1/8-inch pieces, about 5 pulses."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Melt butter in now-empty Dutch oven over medium-high heat. Add vegetables and cook, stirring frequently, until softened and well browned, about 10 minutes. Reduce heat to medium; stir in flour and cook, stirring constantly, until thoroughly browned and fragrant, 5 to 7 minutes. Whisking constantly, gradually add reserved broth; bring to boil, skimming off any foam that forms on surface. Reduce heat to medium-low and add bay leaves, thyme, and peppercorns; simmer, stirring occasionally, until thickened and reduced to 6 cups, 30 to 35 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Strain gravy through fine-mesh strainer into clean saucepan, pressing on solids to extract as much liquid as possible; discard solids. Stir in diced giblets, if using. Season with salt and pepper to taste."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 54898,
+    "end": 54942,
+    "yieldLine": "MAKES 6 cups"
+  },
+  "fit": true
+}

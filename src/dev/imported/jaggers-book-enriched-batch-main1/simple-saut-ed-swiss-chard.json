@@ -1,0 +1,96 @@
+{
+  "mapped": {
+    "id": "atk_simple-saut-ed-swiss-chard",
+    "name": "Simple Sautéed Swiss Chard",
+    "slug": "simple-saut-ed-swiss-chard",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "swiss-chard-stemmed-washed-in-several-changes-of-cold-water-stalks-chopped-medium-and-leaves-chopped-coarse",
+        "displayName": "Swiss chard, stemmed, washed in several changes of cold water, stalks chopped medium and leaves chopped coarse",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "lemon-wedges-for-serving",
+        "displayName": "Lemon wedges, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat the oil in a large Dutch oven over medium heat until shimmering. Add the chard stalks and cook, stirring occasionally, until just tender, about 5 minutes. Add the garlic and cook until fragrant, about 30 seconds. Add the chard leaves, cover, increase the heat to medium-high, and cook, stirring occasionally, until the greens completely wilt, 2 to 3 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Uncover and season with salt and pepper to taste. Cook over high heat until the liquid evaporates, about 2 minutes. Serve with the lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "vegetarian"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 60938,
+    "end": 60966,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

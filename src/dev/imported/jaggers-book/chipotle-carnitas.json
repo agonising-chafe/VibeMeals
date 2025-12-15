@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_chipotle-carnitas",
+    "name": "Chipotle Carnitas",
+    "slug": "chipotle-carnitas",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 10",
+      "baseServings": 10
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "mexican-pork-carnitas-are-slow-cooked-spicy-strips-of-pork-shoulder-meat-traditionally-served-with-tortillas-and-salsa-make-this-a-day-ahead-to-let-the-flavors-really-develop",
+        "displayName": "Mexican pork carnitas are slow-cooked, spicy strips of pork shoulder meat traditionally served with tortillas and salsa. Make this a day ahead to let the flavors really develop.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pork-shoulder-roast",
+        "displayName": "pork shoulder roast",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-yellow-onion-peeled-and-thinly-sliced",
+        "displayName": "large yellow onion, peeled and thinly sliced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-roma-tomatoes",
+        "displayName": "medium Roma tomatoes",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-oregano",
+        "displayName": "½ teaspoon dried oregano",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-bay-leaves",
+        "displayName": "dried bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-cloves",
+        "displayName": "whole cloves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-chipotle-chilies",
+        "displayName": "dried chipotle chilies",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-water",
+        "displayName": "¾ cup water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-325-f",
+        "displayName": "Preheat oven to 325°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "season-pork-with-salt-and-pepper-allow-to-come-to-room-temperature-about-40-minutes",
+        "displayName": "Season pork with salt and pepper. Allow to come to room temperature, about 40 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-large-ovenproof-dutch-oven-over-medium-high-heat-once-hot-add-oil-sear-pork-5-minutes-per-side-remove-pork-from-pan-and-let-rest-10-15-minutes",
+        "displayName": "Heat a large ovenproof Dutch oven over medium-high heat. Once hot, add oil. Sear pork 5 minutes per side. Remove pork from pan and let rest 10–15 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-pan-over-medium-heat-add-onion-and-cook-2-3-minutes-until-translucent-return-pork-to-pan-and-add-remaining-ingredients",
+        "displayName": "To same pan over medium heat, add onion and cook 2–3 minutes until translucent. Return pork to pan and add remaining ingredients.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-pan-with-a-lid-and-place-in-oven-cook-3-hours-or-until-pork-reaches-an-internal-temperature-of-180-f-190-f",
+        "displayName": "Cover pan with a lid and place in oven. Cook 3 hours or until pork reaches an internal temperature of 180°F–190°F.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "let-pork-rest-in-cooking-liquid-10-15-minutes",
+        "displayName": "Let pork rest in cooking liquid 10–15 minutes.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-450-f-place-pork-on-an-ungreased-half-baking-sheet-and-spoon-cooking-liquid-over-pork-so-all-pork-is-coated-bake-20-minutes-shredding-and-stirring-pork-every-5-minutes-as-it-cooks-and-becomes-crusty-add-additional-cooking-liquid-if-pork-becomes-dry-remove-from-oven-remove-bay-leaves-and-cool-5-minutes-serve-hot",
+        "displayName": "Preheat oven to 450°F. Place pork on an ungreased half baking sheet and spoon cooking liquid over pork so all pork is coated. Bake 20 minutes, shredding and stirring pork every 5 minutes as it cooks and becomes crusty. Add additional cooking liquid if pork becomes dry. Remove from oven, remove bay leaves, and cool 5 minutes. Serve hot.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6443,
+    "end": 6499,
+    "yieldLine": "SERVES 10"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

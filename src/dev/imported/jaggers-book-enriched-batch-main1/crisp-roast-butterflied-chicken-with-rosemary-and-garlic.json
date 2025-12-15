@@ -1,0 +1,113 @@
+{
+  "mapped": {
+    "id": "atk_crisp-roast-butterflied-chicken-with-rosemary-and-garlic",
+    "name": "Crisp Roast Butterflied Chicken with Rosemary and Garlic",
+    "slug": "crisp-roast-butterflied-chicken-with-rosemary-and-garlic",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 70,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-rosemary",
+        "displayName": "minced fresh rosemary",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken-giblets-discarded",
+        "displayName": "(31/2- to 4-pound) whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lowest position, place 12-inch cast-iron skillet on rack, and heat oven to 500 degrees. Meanwhile, combine 1 tablespoon oil, rosemary, and garlic in bowl; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "With chicken breast side down, use kitchen shears to cut through bones on either side of backbone; discard backbone. Flip chicken over, tuck wingtips behind back, and press firmly on breastbone to flatten. Pat chicken dry with paper towels, then rub with remaining 1 tablespoon oil and sprinkle with salt and pepper."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "When oven reaches 500 degrees, place chicken breast side down in hot skillet. Reduce oven temperature to 450 degrees and roast chicken until well browned, about 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using pot holders, remove skillet from oven. Being careful of hot skillet handle, gently flip chicken breast side up. Brush chicken with oil mixture, return skillet to oven, and continue to roast chicken until breast registers 160 degrees and thighs register 175 degrees, about 10 minutes. Transfer chicken to carving board, tent with aluminum foil, and let rest for 15 minutes. Carve chicken and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27959,
+    "end": 27993,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

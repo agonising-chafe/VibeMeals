@@ -1,0 +1,179 @@
+{
+  "mapped": {
+    "id": "atk_broccoli-salad-with-creamy-avocado-dressing",
+    "name": "Broccoli Salad with Creamy Avocado Dressing",
+    "slug": "broccoli-salad-with-creamy-avocado-dressing",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-plus-salt-for-cooking-broccoli",
+        "displayName": "table salt, plus salt for cooking broccoli",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "broccoli-florets-cut-into-1-inch-pieces-stalks-peeled-halved-lengthwise-and-sliced-1-4-inch-thick",
+        "displayName": "broccoli, florets cut into 1-inch pieces, stalks peeled, halved lengthwise, and sliced 1/4 inch thick",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "avocado-halved-pitted-and-cut-into-1-2-inch-pieces",
+        "displayName": "avocado, halved, pitted, and cut into 1/2-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "grated-lemon-zest-plus-3-tablespoons-juice",
+        "displayName": "grated lemon zest, plus 3 tablespoons juice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "dried-cranberries",
+        "displayName": "dried cranberries",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sliced-almonds-toasted",
+        "displayName": "sliced almonds, toasted",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "shallot-sliced-thin",
+        "displayName": "shallot, sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-tarragon",
+        "displayName": "minced fresh tarragon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring water and 1/2 teaspoon salt to boil in large saucepan over high heat. Add broccoli stalks, then place florets on top of stalks so that they sit just above water. Cover and cook until broccoli is bright green and crisp-tender, about 3 minutes. Meanwhile, fill large bowl halfway with ice and water. Drain broccoli well, transfer to ice water, and let sit until just cool, about 2 minutes. Transfer broccoli to triple layer of paper towels and dry well. Dry bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process avocado, oil, lemon zest and juice, garlic, salt, and pepper in food processor until smooth, about 30 seconds, scraping down sides of bowl as needed. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Combine broccoli, dressing, cranberries, almonds, shallot, and tarragon in now-empty large bowl until evenly coated. Season with salt and pepper to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 13582,
+    "end": 13626,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

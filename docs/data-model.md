@@ -319,6 +319,8 @@ export interface PlannedDinner {
   preflightStatus: PreflightStatus;
   // For easier option / swap history if you care (Today T5, T7)
   originalRecipeId?: RecipeId; // if swapped from another
+  // Optional add-ons selected by the user (book-authored accompaniments, sides, sauces, etc.)
+  accompaniments?: { kind: 'SIDE' | 'SAUCE' | 'APPETIZER' | 'DESSERT'; recipeId: RecipeId }[];
 }
 
 export interface PlanDay {

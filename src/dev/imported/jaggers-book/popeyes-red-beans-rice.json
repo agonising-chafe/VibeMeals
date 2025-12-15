@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_popeyes-red-beans-rice",
+    "name": "Popeyes Red Beans & Rice",
+    "slug": "popeyes-red-beans-rice",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "famed-new-orleans-restauranteur-and-chef-the-late-warren-leruth-also-worked-as-a-consultant-for-many-popular-restaurant-chains-the-original-red-beans-rice-recipe-for-popeyes-was-created-by-him",
+        "displayName": "Famed New Orleans restauranteur and chef, the late Warren Leruth, also worked as a consultant for many popular restaurant chains. The original Red Beans & Rice recipe for Popeyes was created by him!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-red-chili-beans-in-chili-gravy",
+        "displayName": "can red chili beans in chili gravy",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-powder",
+        "displayName": "chili powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-cumin",
+        "displayName": "¼ teaspoon ground cumin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-salt",
+        "displayName": "⅛ teaspoon garlic salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cooked-long-grain-rice",
+        "displayName": "cooked long-grain rice",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-2-quart-saucepan-over-medium-low-heat-add-beans-heat-beans-without-letting-boil-stir-in-chili-powder-cumin-and-garlic-salt-cook-5-minutes-or-until-steaming-hot-but-not-boiling",
+        "displayName": "In a 2-quart saucepan over medium-low heat, add beans. Heat beans without letting boil. Stir in chili powder, cumin, and garlic salt. Cook 5 minutes or until steaming hot but not boiling.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-cooked-rice-and-gently-mix-serve-hot",
+        "displayName": "Add cooked rice and gently mix. Serve hot.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-beans-and-rice-originated-in-louisiana-and-was-traditionally-made-on-mondays-which-was-washday-leftover-meat-from-sunday-dinner-such-as-pork-ham-or-sausage-was-added-to-a-big-pot-of-beans-along-with-vegetables-and-spices-and-slow-cooked-this-allowed-homemakers-to-do-the-laundry-and-still-have-dinner-ready-to-serve-over-rice",
+        "displayName": "Red beans and rice originated in Louisiana and was traditionally made on Mondays, which was washday. Leftover meat from Sunday dinner such as pork, ham, or sausage was added to a big pot of beans along with vegetables and spices and slow cooked. This allowed homemakers to do the laundry and still have dinner ready to serve over rice.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9536,
+    "end": 9578,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

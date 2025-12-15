@@ -1,0 +1,254 @@
+{
+  "mapped": {
+    "id": "atk_chili-s-chicken-enchilada-soup",
+    "name": "Chili’s Chicken Enchilada Soup",
+    "slug": "chili-s-chicken-enchilada-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 12",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "popular-as-an-appetizer-or-as-a-side-this-soup-is-rich-and-creamy-and-has-all-the-best-flavors-of-chicken-enchiladas-be-sure-to-garnish-bowls-with-shredded-cheese-and-crumbled-tortilla-chips-like-they-do-in-the-restaurant",
+        "displayName": "Popular as an appetizer or as a side, this soup is rich and creamy and has all the best flavors of chicken enchiladas. Be sure to garnish bowls with shredded cheese and crumbled tortilla chips like they do in the restaurant.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breast",
+        "displayName": "boneless, skinless chicken breast",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-yellow-onion",
+        "displayName": "½ cup diced yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-finely-minced",
+        "displayName": "garlic, finely minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "masa-harina",
+        "displayName": "masa harina",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-divided",
+        "displayName": "water, divided",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "enchilada-sauce",
+        "displayName": "enchilada sauce",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "velveeta-cheese",
+        "displayName": "Velveeta cheese",
+        "amount": 16,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-powder",
+        "displayName": "chili powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-cumin",
+        "displayName": "½ teaspoon ground cumin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-cheddar-cheese",
+        "displayName": "shredded Cheddar cheese",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "crumbled-corn-tortilla-chips",
+        "displayName": "crumbled corn tortilla chips",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-3-quart-saucepan-over-medium-heat-add-oil-add-chicken-breasts-and-brown-4-5-minutes-per-side-set-chicken-aside",
+        "displayName": "In a 3-quart saucepan over medium heat, add oil. Add chicken breasts and brown 4–5 minutes per side. Set chicken aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-onion-and-garlic-to-pan-and-saut-over-medium-heat-2-minutes-or-until-onion-begins-to-be-translucent-add-chicken-broth-and-stir-well-to-release-any-brown-bits-from-bottom-of-pan",
+        "displayName": "Add onion and garlic to pan and sauté over medium heat 2 minutes or until onion begins to be translucent. Add chicken broth and stir well to release any brown bits from bottom of pan.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-masa-harina-with-2-cups-water-and-whisk-until-blended-add-masa-mixture-to-pan-then-add-onion-garlic-and-broth-and-whisk-until-smooth",
+        "displayName": "In a medium bowl, combine masa harina with 2 cups water and whisk until blended. Add masa mixture to pan, then add onion, garlic, and broth and whisk until smooth.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-remaining-water-enchilada-sauce-velveeta-cheese-salt-chili-powder-and-cumin-to-pan-and-bring-to-a-boil",
+        "displayName": "Add remaining water, enchilada sauce, Velveeta cheese, salt, chili powder, and cumin to pan and bring to a boil.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shred-chicken-into-bite-sized-pieces-and-add-to-pan-reduce-heat-to-low-and-simmer-30-40-minutes-until-thick-serve-hot-with-cheddar-and-tortilla-chips-for-garnish",
+        "displayName": "Shred chicken into bite-sized pieces and add to pan. Reduce heat to low and simmer 30–40 minutes until thick. Serve hot with Cheddar and tortilla chips for garnish.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "if-you-are-in-a-hurry-you-could-buy-a-cooked-rotisserie-chicken-from-the-grocery-store-for-this-recipe-ready-to-eat-rotisserie-chickens-are-great-for-sandwiches-soups-stews-and-casseroles",
+        "displayName": "If you are in a hurry, you could buy a cooked rotisserie chicken from the grocery store for this recipe. Ready-to-eat rotisserie chickens are great for sandwiches, soups, stews, and casseroles.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 3456,
+    "end": 3516,
+    "yieldLine": "SERVES 12"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

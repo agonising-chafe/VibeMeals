@@ -1,0 +1,264 @@
+{
+  "mapped": {
+    "id": "atk_red-pepper-coques",
+    "name": "Red Pepper Coques",
+    "slug": "red-pepper-coques",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 4 coques SEASON 26",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "161-2-ounces-bread-flour",
+        "displayName": "(161/2 ounces) bread flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ice-water",
+        "displayName": "ice water",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "large-onions-halved-and-sliced-thin",
+        "displayName": "large onions, halved and sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "jarred-roasted-red-peppers-patted-dry-and-sliced-thin",
+        "displayName": "jarred roasted red peppers, patted dry and sliced thin",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "pine-nuts-optional",
+        "displayName": "pine nuts (optional)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "TOPPING",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 24,
+        "description": "Refrigerate dough for at least 24 hours or up to 3 days.",
+        "requirementType": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Pulse flour, sugar, and yeast in food processor until combined, about 5 pulses. With processor running, slowly add ice water and process until dough is just combined and no dry flour remains, about 10 seconds. Let dough rest for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add oil and salt to dough and process until dough forms satiny, sticky ball that clears sides of bowl, 30 to 60 seconds. Transfer dough to lightly floured counter and knead by hand to form smooth, round ball, about 30 seconds. Place dough seam side down in lightly greased large bowl or container, cover tightly with plastic wrap, and refrigerate for at least 24 hours or up to 3 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE TOPPING: Heat 3 tablespoons oil in 12-inch nonstick skillet over medium heat until shimmering. Stir in onions, red peppers, sugar, garlic, salt, pepper flakes, and bay leaves. Cover and cook, stirring occasionally, until onions are softened and have released their juice, about 10 minutes. Remove lid and continue to cook, stirring often, until onions are golden brown, 10 to 15 minutes. Off heat, discard bay leaves. Transfer onion mixture to bowl, stir in vinegar, and let cool completely before using."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Press down on dough to deflate. Transfer dough to clean counter, divide into quarters, and cover loosely with greased plastic. Working with 1 piece of dough at a time (keep remaining pieces covered), form into rough ball by stretching dough around your thumbs and pinching edges together so that top is smooth."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Place ball seam side down on counter and, using your cupped hands, drag in small circles until dough feels taut and round. Space dough balls 3 inches apart, cover loosely with greased plastic, and let rest for 1 hour."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Adjust oven racks to upper-middle and lower-middle positions and heat oven to 500 degrees. Coat 2 rimmed baking sheets with 2 tablespoons oil each. Generously coat 1 dough ball with flour and place on well-floured counter. Press and roll into 14 by 5-inch oval. Arrange oval on prepared sheet, with long edge fitted snugly against 1 long side of sheet, and reshape as needed. (If dough resists stretching, let it relax for 10 to 20 minutes before trying to stretch it again.) Repeat with remaining dough balls, arranging 2 ovals on each sheet, spaced 1/2 inch apart. Using fork, poke surface of dough 10 to 15 times."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Brush dough ovals with remaining 1 tablespoon oil and bake until puffed, 6 to 8 minutes, switching and rotating sheets halfway through baking."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Scatter onion mixture evenly over flatbreads, from edge to edge, then sprinkle with pine nuts, if using. Bake until topping is heated through and edges of flatbreads are deep golden brown and crisp, about 15 minutes, switching and rotating sheets halfway through baking. Let flatbreads cool on sheets for 10 minutes, then transfer to cutting board using metal spatula. Sprinkle with parsley, slice, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 1450,
+    "end": 1518,
+    "yieldLine": "MAKES 4 coques SEASON 26"
+  },
+  "fit": true
+}

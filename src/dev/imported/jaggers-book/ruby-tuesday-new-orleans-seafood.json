@@ -1,0 +1,324 @@
+{
+  "mapped": {
+    "id": "atk_ruby-tuesday-new-orleans-seafood",
+    "name": "Ruby Tuesday New Orleans Seafood",
+    "slug": "ruby-tuesday-new-orleans-seafood",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "known-for-their-american-cuisine-ruby-tuesday-features-a-large-salad-bar-at-their-locations-along-with-pasta-steak-and-burgers-this-spicy-fish-and-shrimp-dish-adds-an-american-twist-to-italian-ingredients",
+        "displayName": "Known for their American cuisine, Ruby Tuesday features a large salad bar at their locations, along with pasta, steak, and burgers. This spicy fish and shrimp dish adds an American twist to Italian ingredients.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pounds-tilapia-fillets",
+        "displayName": "½ pounds tilapia fillets",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "creole-seasoning-plus-more-for-dusting",
+        "displayName": "Creole seasoning, plus more for dusting",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "alfredo-sauce",
+        "displayName": "Alfredo sauce",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-shelled-shrimp",
+        "displayName": "¾ pound shelled shrimp",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-for-garnish",
+        "displayName": "grated Parmesan cheese, for garnish",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-425-f",
+        "displayName": "Preheat oven to 425°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pat-tilapia-fillets-dry-with-a-paper-towel-brush-fillets-with-olive-oil-and-season-with-2-tablespoons-creole-seasoning-on-both-sides",
+        "displayName": "Pat tilapia fillets dry with a paper towel. Brush fillets with olive oil and season with 2 tablespoons Creole seasoning on both sides.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-in-a-well-greased-half-baking-sheet-and-bake-10-12-minutes-until-cooked-through-and-flesh-flakes-easily",
+        "displayName": "Place in a well-greased half baking sheet and bake 10–12 minutes until cooked through and flesh flakes easily.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-fillets-are-baking-warm-alfredo-sauce-in-a-small-pan",
+        "displayName": "While fillets are baking, warm Alfredo sauce in a small pan.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-melt-butter-add-garlic-and-shrimp-and-saut-5-minutes-or-until-shrimp-are-cooked-through-and-curled-into-a-c-shape",
+        "displayName": "In a 10-inch skillet over medium heat, melt butter. Add garlic and shrimp and sauté 5 minutes or until shrimp are cooked through and curled into a “C” shape.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-fillets-from-oven-carefully-place-fillets-on-plates-and-top-with-a-fourth-of-the-cooked-shrimp-and-cup-alfredo-sauce-each-sprinkle-with-grated-parmesan-cheese-and-a-dusting-of-creole-seasoning-serve-immediately",
+        "displayName": "Remove fillets from oven. Carefully place fillets on plates and top with a fourth of the cooked shrimp and ¼ cup Alfredo sauce each. Sprinkle with grated Parmesan cheese and a dusting of Creole seasoning. Serve immediately.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chapter-8-pasta-and-noodle-entr-es",
+        "displayName": "CHAPTER 8 Pasta and Noodle Entrées",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buca-di-beppo-chicken-marsala",
+        "displayName": "Buca di Beppo Chicken Marsala",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buca-di-beppo-lasagna",
+        "displayName": "Buca di Beppo Lasagna",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buca-di-beppo-spicy-chicken-rigatoni",
+        "displayName": "Buca di Beppo Spicy Chicken Rigatoni",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrabba-s-fettuccine-weesie",
+        "displayName": "Carrabba’s Fettuccine Weesie",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrabba-s-linguine-pescatore",
+        "displayName": "Carrabba’s Linguine Pescatore",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-cheesecake-factory-cajun-jambalaya-pasta",
+        "displayName": "The Cheesecake Factory Cajun Jambalaya Pasta",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-s-cajun-pasta",
+        "displayName": "Chili’s Cajun Pasta",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-garden-chicken-scampi",
+        "displayName": "Olive Garden Chicken Scampi",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panda-express-chow-mein",
+        "displayName": "Panda Express Chow Mein",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "p-f-chang-s-singapore-street-noodles",
+        "displayName": "P.F. Chang’s Singapore Street Noodles",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pizza-hut-oven-baked-italian-meats-pasta",
+        "displayName": "Pizza Hut Oven-Baked Italian Meats Pasta",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7902,
+    "end": 7983,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

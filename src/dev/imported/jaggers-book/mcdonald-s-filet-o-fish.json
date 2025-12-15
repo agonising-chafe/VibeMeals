@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_mcdonald-s-filet-o-fish",
+    "name": "McDonald’s Filet-O-Fish",
+    "slug": "mcdonald-s-filet-o-fish",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-recipe-tastes-better-than-the-original-and-contains-less-fat-since-the-fish-is-baked-instead-of-fried",
+        "displayName": "This recipe tastes better than the original and contains less fat since the fish is baked instead of fried.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "crunchy-breaded-fish-fillet",
+        "displayName": "Crunchy Breaded Fish Fillet",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-hamburger-bun-sliced-in-half-lengthwise",
+        "displayName": "plain hamburger bun, sliced in half lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-yellow-onion",
+        "displayName": "minced yellow onion",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-relish",
+        "displayName": "sweet relish",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 0.0625,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cook-fish-according-to-package-instructions",
+        "displayName": "Cook fish according to package instructions.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "on-a-10-inch-skillet-over-medium-heat-add-bun-halves-cut-side-down-lightly-grill-bun-halves-until-toasted-about-3-minutes-set-aside",
+        "displayName": "On a 10-inch skillet over medium heat, add bun halves cut side down. Lightly grill bun halves until toasted, about 3 minutes. Set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-mix-together-mayonnaise-onion-relish-and-salt-to-make-tartar-sauce",
+        "displayName": "In a small bowl, mix together mayonnaise, onion, relish, and salt to make tartar sauce.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-fish-on-bottom-half-of-bun-top-with-cheese-tartar-sauce-and-top-half-of-bun-serve-immediately",
+        "displayName": "Place fish on bottom half of bun. Top with cheese, tartar sauce, and top half of bun. Serve immediately.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-filet-o-fish-was-created-by-mcdonald-s-in-1963-it-is-a-very-easy-sandwich-to-make-using-frozen-fish-from-gorton-s-which-supplied-the-fish-to-all-the-restaurants-when-the-concept-was-developed",
+        "displayName": "The Filet-O-Fish was created by McDonald’s in 1963. It is a very easy sandwich to make using frozen fish from Gorton’s, which supplied the fish to all the restaurants when the concept was developed.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4949,
+    "end": 4993,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

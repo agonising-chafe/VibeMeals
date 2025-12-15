@@ -1,0 +1,276 @@
+{
+  "mapped": {
+    "id": "atk_ground-beef-and-cheese-enchiladas",
+    "name": "Ground Beef and Cheese Enchiladas",
+    "slug": "ground-beef-and-cheese-enchiladas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN",
+        "BLENDER",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "3-to-4-dried-ancho-chiles-stemmed-seeded-and-torn-into-1-inch-pieces",
+        "displayName": "(3 to 4) dried ancho chiles, stemmed, seeded, and torn into 1-inch pieces",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-canned-chipotle-chile-in-adobo-sauce",
+        "displayName": "minced canned chipotle chile in adobo sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "onions-chopped-fine",
+        "displayName": "onions, chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "90-percent-lean-ground-beef",
+        "displayName": "90 percent lean ground beef",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "monterey-jack-cheese-shredded-2-cups-divided",
+        "displayName": "Monterey Jack cheese, shredded (2 cups), divided",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro-divided",
+        "displayName": "minced fresh cilantro, divided",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "6-inch-corn-tortillas",
+        "displayName": "6-inch corn tortillas",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin-on-bias",
+        "displayName": "scallions, sliced thin on bias",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "Sour cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Soak ancho chiles",
+        "durationMinutes": 10,
+        "startDelayMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE: Adjust oven rack to middle position and heat oven to 400 degrees. Heat anchos in 12-inch nonstick skillet over medium-high heat, stirring frequently, until fragrant, 2 to 3 minutes. Transfer anchos to bowl, add broth, and microwave, covered, until steaming, about 2 minutes. Let sit until softened, about 5 minutes. Transfer anchos and broth to blender and add chipotle."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in now-empty skillet over medium heat until shimmering. Add onions and cook, stirring occasionally, until translucent, about 5 minutes. Add garlic and cook until fragrant, about 1 minute. Transfer half of onion mixture to large bowl and set aside. Return skillet with remaining onion mixture to medium heat and add tomato paste and cumin. Cook, stirring frequently, until tomato paste starts to darken, 3 to 5 minutes. Transfer onion mixture in skillet to blender with ancho mixture and process until smooth, about 1 minute. Season sauce with salt to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE ENCHILADAS: Heat 1 tablespoon oil in now-empty skillet over medium heat until shimmering. Add beef, cumin, coriander, and salt and cook for 2 minutes, breaking meat into 1/4-inch pieces with wooden spoon. Add reserved onion mixture (do not wash bowl) and continue to cook until beef is no longer pink, 3 to 4 minutes. Return beef mixture to bowl; add 11/2 cups Monterey Jack, 2 tablespoons cilantro, and 1/4 cup sauce and stir to combine. Season with salt to taste."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spread 1/2 cup sauce over bottom of 13 by 9-inch baking dish. Brush both sides of tortillas with remaining 2 tablespoons oil. Arrange tortillas, overlapping, on rimmed baking sheet and bake until warm and pliable, about 5 minutes. Spread 1/4 cup filling down center of each tortilla. Roll each tortilla tightly around filling and place seam side down in dish, arranging enchiladas in 2 rows across width of dish."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Spread remaining sauce over top of enchiladas. Sprinkle with remaining 1/2 cup Monterey Jack. Bake until cheese is lightly browned and sauce is bubbling at edges, about 15 minutes. Let cool for 10 minutes. Sprinkle with scallions and remaining 2 tablespoons cilantro. Serve, passing sour cream and lime wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 31787,
+    "end": 31853,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

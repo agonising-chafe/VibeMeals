@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_almond-crusted-chicken-cutlets-with-wilted-spinach-orange-salad",
+    "name": "Almond-Crusted Chicken Cutlets with Wilted Spinach–Orange Salad",
+    "slug": "almond-crusted-chicken-cutlets-with-wilted-spinach-orange-salad",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-to-6-ounce-boneless-skinless-chicken-breasts-trimmed",
+        "displayName": "(5 to 6-ounce) boneless, skinless chicken breasts, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sliced-almonds",
+        "displayName": "sliced almonds",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "panko-japanese-style-bread-crumbs",
+        "displayName": "panko (Japanese-style bread crumbs)",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-zest-from-1-orange",
+        "displayName": "grated zest from 1 orange",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-vegetable-oil",
+        "displayName": "plus 2 tablespoons vegetable oil",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baby-spinach-about-5-cups",
+        "displayName": "baby spinach (about 5 cups)",
+        "amount": 5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SALAD"
+      },
+      {
+        "ingredientId": "medium-oranges-peel-and-pith-removed-see-this-page-quartered-and-sliced-1-4-inch-thick",
+        "displayName": "medium oranges, peel and pith removed (see this page), quartered and sliced 1/4 inch thick",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SALAD"
+      },
+      {
+        "ingredientId": "small-shallot-minced-about-1-tablespoon",
+        "displayName": "small shallot, minced (about 1 tablespoon)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SALAD"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHICKEN: Adjust an oven rack to the middle position and heat the oven to 200 degrees. Pound each breast between two sheets of plastic wrap to a uniform 1/2-inch thickness. Pat the chicken dry with paper towels and season with salt and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process the almonds in a food processor to fine crumbs, about 10 seconds (do not over process). Toss the nuts with the panko in a shallow dish. Whisk the eggs, mustard, 1 teaspoon of the orange zest, 1/2 teaspoon salt, and 1/4 teaspoon pepper together in another shallow dish. Working with 1 chicken breast at a time, dip the chicken into the egg mixture, turning to coat well and allowing the excess to drip off, then coat with the nut mixture, pressing gently so that the nuts adhere. Place the breaded chicken in a single layer on a wire rack set over a rimmed baking sheet and let sit for 5 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 6 tablespoons of the oil in a 12-inch nonstick skillet over medium heat until shimmering. Add 2 of the chicken breasts and cook until browned on both sides, 4 to 6 minutes total. Drain the chicken briefly on a paper towel–lined plate, then transfer to a clean wire rack set over a rimmed baking sheet and keep warm in the oven. Discard the oil and wipe out the skillet with paper towels. Repeat with 6 tablespoons more oil and the remaining chicken. Discard the oil and wipe out the skillet with paper towels."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE SALAD: Place the spinach in a large bowl. Heat 1 tablespoon more oil in the skillet over high heat until just smoking. Add the orange slices and cook until lightly browned around the edges, 11/2 to 2 minutes. Remove the pan from the heat and add the remaining 1 tablespoon oil, the shallot, remaining 1/4 teaspoon zest, 1/4 teaspoon salt, and 1/8 teaspoon pepper and allow residual heat to soften the shallot, about 30 seconds. Pour the warm dressing with the oranges over the spinach and toss gently. Divide the greens among individual plates. Remove the chicken from the oven, set a cutlet over each portion, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 22337,
+    "end": 22385,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

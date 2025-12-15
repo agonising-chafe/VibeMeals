@@ -1,0 +1,111 @@
+{
+  "mapped": {
+    "id": "atk_fastest-easiest-mashed-potatoes",
+    "name": "Fastest, Easiest Mashed Potatoes",
+    "slug": "fastest-easiest-mashed-potatoes",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 SEASON 26",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "yukon-gold-or-russet-potatoes-peeled-and-sliced-1-4-inch-thick",
+        "displayName": "Yukon Gold or russet potatoes, peeled and sliced 1/4 inch thick",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "half-and-half-or-milk-divided",
+        "displayName": "half-and-half or milk, divided",
+        "amount": 810,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-4-inch-slices",
+        "displayName": "unsalted butter, cut into 1/4-inch slices",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 1 quart water to boil in medium saucepan over high heat. Add potatoes, making sure they are fully submerged in water. (If not, add just enough water to cover). Return water to boil, then adjust heat to maintain very gentle simmer. Cover and cook until paring knife meets no resistance when slipped into center of potatoes, about 12 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Drain potatoes and return to saucepan. Use potato masher, ricer, or food mill to process potatoes to desired consistency. Stir in 1/2 cup half-and-half, butter, and salt until combined. If desired, adjust consistency with remaining half-and-half as desired. Season with salt and pepper to taste, and serve."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place the potatoes in a large saucepan and add cold water to cover by 1 inch. Bring to a boil over high heat; reduce the heat to medium-low and cook at a bare simmer until just tender (the potatoes will offer very little resistance when poked with a paring knife), 40 to 45 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, place 1 teaspoon of the garlic on a cutting board and sprinkle with 1/8 teaspoon of the salt. Using the flat side of a chef’s knife, drag the garlic and salt back and forth across the cutting board in small circular motions until the garlic is ground into a smooth paste. Transfer to a medium bowl and set aside."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Place the remaining 4 teaspoons garlic in a small saucepan with 1/4 cup of the oil and cook over low heat, stirring constantly, until the garlic begins to sizzle and is soft, fragrant, and golden, about 5 minutes. Transfer the oil and garlic to the bowl with the raw garlic paste."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Drain the cooked potatoes; set a ricer or food mill over the now-empty saucepan. Using a potholder (to hold the potatoes) and a paring knife, peel the skins from the potatoes. Working in batches, cut the peeled potatoes into large chunks and press or mill into the saucepan."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Add the remaining 2 teaspoons salt, the pepper, lemon juice, and remaining 6 tablespoons oil to the bowl with the cooked garlic and oil and whisk to combine. Fold the mixture into the potatoes and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59686,
+    "end": 59753,
+    "yieldLine": "SERVES 4 SEASON 26"
+  },
+  "fit": true
+}

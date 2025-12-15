@@ -1,0 +1,243 @@
+{
+  "mapped": {
+    "id": "atk_soupe-au-pistou-proven-al-vegetable-soup",
+    "name": "Soupe au Pistou (Provençal Vegetable Soup)",
+    "slug": "soupe-au-pistou-proven-al-vegetable-soup",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "why-this-recipes-works-proven-al-vegetable-soup-is-a-classic-french-summer-soup-with-a-delicate-broth-that-is-intensified-by-a-dollop-of-pistou-the-french-equivalent-of-italy-s-pesto-we-wanted-a-simple-version-that-focused-on-fresh-seasonal-vegetables-leeks-green-beans-and-zucchini-all-made-the-cut-we-like-their-summery-flavors-different-shapes-and-varying-shades-of-green-we-added-canned-white-beans-which-were-far-more-convenient-than-dried-in-this-quick-cooking-soup-and-orecchiette-for-its-easy-to-spoon-shape-using-the-liquid-from-the-canned-beans-added-much-needed-body-to-the-broth-for-the-pistou-we-just-whirred-basil-parmesan-olive-oil-and-garlic-together-in-our-food-processor-for-the-best-flavor-we-prefer-broth-prepared-from-our-vegetable-broth-base-this-page-but-you-can-use-store-bought-broth",
+        "displayName": "WHY THIS RECIPES WORKS Provençal vegetable soup is a classic French summer soup with a delicate broth that is intensified by a dollop of pistou, the French equivalent of Italy’s pesto. We wanted a simple version that focused on fresh seasonal vegetables. Leeks, green beans, and zucchini all made the cut; we like their summery flavors, different shapes, and varying shades of green. We added canned white beans (which were far more convenient than dried in this quick-cooking soup) and orecchiette for its easy-to-spoon shape. Using the liquid from the canned beans added much-needed body to the broth. For the pistou, we just whirred basil, Parmesan, olive oil, and garlic together in our food processor. For the best flavor, we prefer broth prepared from our Vegetable Broth Base (this page), but you can use store-bought broth.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "fresh-basil-leaves",
+        "displayName": "fresh basil leaves",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PISTOU"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-2-cup",
+        "displayName": "Parmesan cheese, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "PISTOU",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "PISTOU"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PISTOU"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leek-white-and-light-green-parts-only-halved-lengthwise-sliced-1-2-inch-thick-and-washed-thoroughly",
+        "displayName": "leek, white and light green parts only, halved lengthwise, sliced 1/2 inch thick, and washed thoroughly",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-cut-into-1-2-inch-pieces",
+        "displayName": "celery rib, cut into 1/2-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrot-peeled-and-sliced-1-4-inch-thick",
+        "displayName": "carrot, peeled and sliced 1/4 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-broth",
+        "displayName": "vegetable broth",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "orecchiette-or-other-short-pasta",
+        "displayName": "orecchiette or other short pasta",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "haricots-verts-or-green-beans-trimmed-and-cut-into-1-2-inch-lengths",
+        "displayName": "haricots verts or green beans, trimmed and cut into 1/2-inch lengths",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-cannellini-or-navy-beans-undrained",
+        "displayName": "can cannellini or navy beans, undrained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-zucchini-halved-lengthwise-seeded-and-cut-into-1-4-inch-pieces",
+        "displayName": "small zucchini, halved lengthwise, seeded, and cut into 1/4-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-tomato-cored-seeded-and-cut-into-1-4-inch-pieces",
+        "displayName": "large tomato, cored, seeded, and cut into 1/4-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PISTOU: Process all ingredients in food processor until smooth, scraping down sides of bowl as needed, about 15 seconds. (Pistou can be refrigerated for up to 4 hours.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE SOUP: Heat oil in Dutch oven over medium heat until shimmering. Add leek, celery, carrot, and salt and cook until vegetables are softened, 8 to 10 minutes. Stir in garlic and cook until fragrant, about 30 seconds. Stir in broth and water and bring to simmer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir in pasta and simmer until slightly softened, about 5 minutes. Stir in haricots verts and simmer until bright green but still crunchy, 3 to 5 minutes. Stir in cannellini beans and their liquid, zucchini, and tomato and simmer until pasta and vegetables are tender, about 3 minutes. Season with salt and pepper to taste. Serve, topping individual portions with generous tablespoon pistou."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10982,
+    "end": 11040,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

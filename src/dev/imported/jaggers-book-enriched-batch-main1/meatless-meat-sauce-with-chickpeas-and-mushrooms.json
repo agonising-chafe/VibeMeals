@@ -1,0 +1,180 @@
+{
+  "mapped": {
+    "id": "atk_meatless-meat-sauce-with-chickpeas-and-mushrooms",
+    "name": "Meatless “Meat” Sauce with Chickpeas and Mushrooms",
+    "slug": "meatless-meat-sauce-with-chickpeas-and-mushrooms",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 6 cups; enough for 2 pounds pasta",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cremini-mushrooms-trimmed",
+        "displayName": "cremini mushrooms, trimmed",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped",
+        "displayName": "onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 5,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-broth",
+        "displayName": "vegetable broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-chickpeas-rinsed",
+        "displayName": "can chickpeas, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Pulse mushrooms in 2 batches in food processor until chopped into 1/8- to 1/4-inch pieces, 7 to 10 pulses, scraping down sides of bowl as needed. (Do not clean workbowl.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 5 tablespoons oil in Dutch oven over medium-high heat until shimmering. Add mushrooms and salt and cook, stirring occasionally, until mushrooms are browned and fond has formed on bottom of pot, about 8 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While mushrooms cook, pulse onion in food processor until finely chopped, 7 to 10 pulses, scraping down sides of bowl as needed. (Do not clean workbowl.) Transfer onion to pot with mushrooms and cook, stirring occasionally, until onion is soft and translucent, about 5 minutes. Combine garlic, oregano, pepper flakes, and remaining 1 tablespoon oil in bowl."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add tomato paste to pot and cook, stirring constantly, until mixture is rust-colored, 1 to 2 minutes. Reduce heat to medium and push vegetables to sides of pot. Add garlic mixture to center and cook, stirring constantly, until fragrant, about 30 seconds. Stir in tomatoes and broth; bring to simmer over high heat. Reduce heat to low and simmer sauce for 5 minutes, stirring occasionally."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "While sauce simmers, pulse chickpeas in food processor until chopped into 1/4-inch pieces, 7 to 10 pulses. Transfer chickpeas to fine-mesh strainer and rinse under cold running water until water runs clear; drain well. Add chickpeas to pot and simmer until sauce is slightly thickened, about 15 minutes. Stir in basil and season with salt and pepper to taste. (Sauce can be refrigerated for up to 2 days or frozen for up to 1 month.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "meal_prep",
+      "vegetarian"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 17518,
+    "end": 17566,
+    "yieldLine": "MAKES 6 cups; enough for 2 pounds pasta"
+  },
+  "fit": true
+}

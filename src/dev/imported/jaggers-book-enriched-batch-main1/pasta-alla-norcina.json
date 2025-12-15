@@ -1,0 +1,217 @@
+{
+  "mapped": {
+    "id": "atk_pasta-alla-norcina",
+    "name": "Pasta alla Norcina",
+    "slug": "pasta-alla-norcina",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "minced-fresh-rosemary",
+        "displayName": "minced fresh rosemary",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "ground-nutmeg",
+        "displayName": "ground nutmeg",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "cremini-mushrooms-trimmed",
+        "displayName": "cremini mushrooms, trimmed",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 7,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "orecchiette",
+        "displayName": "orecchiette",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecorino-romano-grated-3-4-cup",
+        "displayName": "Pecorino Romano, grated (3/4 cup)",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Spray large dinner plate with vegetable oil spray. Dissolve 11/8 teaspoons salt and baking soda in water in medium bowl. Add pork and fold gently to combine; let stand for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add 1 teaspoon garlic, 3/4 teaspoon rosemary, nutmeg, and 3/4 teaspoon pepper to pork and stir and smear with rubber spatula until well combined and tacky, 10 to 15 seconds. Transfer pork mixture to greased plate and form into rough 6-inch patty. Pulse mushrooms in food processor until finely chopped, 10 to 12 pulses."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 2 teaspoons oil in 12-inch skillet over medium-high heat until just smoking. Add patty and cook without moving it until bottom is well browned, 2 to 3 minutes. Flip patty and continue to cook until second side is well browned, 2 to 3 minutes longer (very center of patty will be raw). Remove pan from heat and transfer patty to cutting board. Using tongs to steady patty, roughly chop into 1/8- to 1/4-inch pieces. Transfer meat to bowl and add cream; set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bring 4 quarts water to boil in large Dutch oven. Stir in orecchiette and 2 tablespoons salt and cook, stirring often, until al dente. Reserve 11/2 cups cooking water, then drain orecchiette and return it to pot."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "While orecchiette cooks, return now-empty skillet to medium heat. Add 1 tablespoon oil, mushrooms, and 1/8 teaspoon salt; cook, stirring frequently, until mushrooms are browned, 5 to 7 minutes. Stir in remaining 2 teaspoons oil, remaining 2 teaspoons garlic, remaining 1/2 teaspoon rosemary, and 1/2 teaspoon pepper; cook until fragrant, about 30 seconds. Stir in wine, scraping up any browned bits, and cook until completely evaporated, 1 to 2 minutes. Stir in meat-cream mixture and 3/4 cup reserved cooking water and simmer until meat is no longer pink, 1 to 3 minutes. Remove pan from heat and stir in Pecorino until smooth."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Add sauce, parsley, and lemon juice to orecchiette and toss well to coat, adjusting consistency with remaining cooking water as needed. Season with salt and pepper to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 17331,
+    "end": 17387,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

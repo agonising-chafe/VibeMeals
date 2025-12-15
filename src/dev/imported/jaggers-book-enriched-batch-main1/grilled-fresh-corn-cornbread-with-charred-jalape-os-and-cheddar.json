@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_grilled-fresh-corn-cornbread-with-charred-jalape-os-and-cheddar",
+    "name": "Grilled Fresh Corn Cornbread with Charred Jalapeños and Cheddar",
+    "slug": "grilled-fresh-corn-cornbread-with-charred-jalape-os-and-cheddar",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "GRILL",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "jalape-o-chiles",
+        "displayName": "jalapeño chiles",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ears-corn-husks-and-silk-removed",
+        "displayName": "ears corn, husks and silk removed",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "111-4-ounces-cornmeal",
+        "displayName": "(111/4 ounces) cornmeal",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "sour cream",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-divided",
+        "displayName": "unsalted butter, melted, divided",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sharp-cheddar-cheese-shredded-2-cups-divided",
+        "displayName": "sharp cheddar cheese, shredded (2 cups), divided",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "for-a-charcoal-grill-open-bottom-vent-completely-light-large-chimney-starter-mounded-with-charcoal-briquettes-7-quarts-when-top-coals-are-partially-covered-with-ash-pour-into-steeply-banked-pile-against-1-side-of-grill-set-cooking-grate-in-place-cover-and-open-lid-vent-completely-heat-grill-until-hot-about-5-minutes",
+        "displayName": "FOR A CHARCOAL GRILL: Open bottom vent completely. Light large chimney starter mounded with charcoal briquettes (7 quarts). When top coals are partially covered with ash, pour into steeply banked pile against 1 side of grill. Set cooking grate in place, cover, and open lid vent completely. Heat grill until hot, about 5 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-a-gas-grill-turn-all-burners-to-high-cover-and-heat-grill-until-hot-about-15-minutes-leave-primary-burner-on-high-and-turn-off-other-burner-s-adjust-primary-burner-as-needed-to-maintain-grill-temperature-between-400-and-450-degrees-if-using-3-burner-grill-adjust-primary-burner-and-second-burner",
+        "displayName": "FOR A GAS GRILL: Turn all burners to high; cover; and heat grill until hot, about 15 minutes. Leave primary burner on high and turn off other burner(s). (Adjust primary burner as needed to maintain grill temperature between 400 and 450 degrees; if using 3-burner grill, adjust primary burner and second burner.)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Clean and oil cooking grate. Grill jalapeños and corn on hotter side of grill (covered if using gas), turning as needed, until jalapeños are blistered and charred in spots, 7 to 10 minutes, and corn is charred on all sides, 10 to 12 minutes. Transfer jalapeños to cutting board and let cool slightly; stem, seed, and chop fine. Transfer corn to cutting board and let cool slightly; cut kernels from corn. (You should have about 11/2 cups.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place 10-inch cast-iron skillet on hotter side of grill. Add cornmeal and toast, stirring frequently, until fragrant, about 5 minutes. Transfer cornmeal to large bowl. Whisk sugar, baking powder, baking soda, and salt into cornmeal. Whisk in sour cream, milk, oil, 1/4 cup melted butter, and eggs until combined. Stir in jalapeños, corn, and 11/2 cups cheddar."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Brush skillet with remaining 1 tablespoon melted butter. Quickly scrape batter into skillet and smooth top. Sprinkle remaining 1/2 cup cheddar on top of batter. Place skillet on cooler side of grill and bake, covered, until top is golden brown and toothpick inserted into center comes out clean, 20 to 35 minutes, rotating skillet halfway through baking. Transfer skillet to wire rack and let cornbread cool for 30 minutes. Slice into wedges and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56676,
+    "end": 56726,
+    "yieldLine": "SERVES 6 to 8 SEASON 26"
+  },
+  "fit": true
+}

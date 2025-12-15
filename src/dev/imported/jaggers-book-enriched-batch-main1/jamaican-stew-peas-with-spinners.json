@@ -1,0 +1,265 @@
+{
+  "mapped": {
+    "id": "atk_jamaican-stew-peas-with-spinners",
+    "name": "Jamaican Stew Peas with Spinners",
+    "slug": "jamaican-stew-peas-with-spinners",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "about-2-cups-small-dried-red-beans-picked-over-and-rinsed",
+        "displayName": "(about 2 cups) small dried red beans, picked over and rinsed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "plus-3-tablespoons-water-divided",
+        "displayName": "plus 3 tablespoons water, divided",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme-plus-1-tablespoon-chopped-divided",
+        "displayName": "sprigs fresh thyme, plus 1 tablespoon chopped, divided",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scotch-bonnet-chile-pierced-once-with-tip-of-paring-knife",
+        "displayName": "Scotch bonnet chile, pierced once with tip of paring knife",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-allspice-berries",
+        "displayName": "whole allspice berries",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unrefined-coconut-oil",
+        "displayName": "unrefined coconut oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "onion-chopped",
+        "displayName": "onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bell-pepper-stemmed-seeded-and-chopped",
+        "displayName": "bell pepper, stemmed, seeded, and chopped",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-celery-rib-chopped-3-4-cup",
+        "displayName": "large celery rib, chopped (3/4 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "displayName": "minced garlic",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smoked-ham-hocks",
+        "displayName": "smoked ham hocks",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-coconut-milk",
+        "displayName": "can coconut milk",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPINNERS"
+      },
+      {
+        "ingredientId": "scallions-chopped",
+        "displayName": "scallions, chopped",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "SOAK",
+        "description": "Soak beans in 6 cups water at room temperature",
+        "durationMinutes": 480,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine beans and 6 cups water in large container and soak at room temperature for at least 8 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bundle thyme sprigs, Scotch bonnet, bay leaf, and allspice in cheesecloth; secure with kitchen twine; and set aside. Heat oil in large Dutch oven over medium heat until shimmering. Add onion, bell pepper, celery, garlic, garlic powder, 1/2 teaspoon salt, and pepper and cook, stirring occasionally, until onion is translucent, 6 to 8 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add beans and their soaking liquid, ham hocks, chicken broth, cheesecloth bundle, and 1/2 teaspoon salt. Increase heat to high and bring to boil. Lower heat to maintain vigorous simmer. Cook uncovered, stirring occasionally, until beans start to soften and liquid is slightly reduced, about 11/2 hours. Stir in coconut milk and continue to cook until beans are completely soft (it’s OK if some skins crack) and sauce thickens, about 30 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While stew simmers, combine flour and remaining 1/4 teaspoon salt in bowl. Make well in mixture. Gradually add remaining 3 tablespoons water, stirring until shaggy mass forms. Knead in bowl until dough clears sides of bowl and forms tight ball (if dough seems too dry to shape, add up to 2 teaspoons water, 1/2 teaspoon at a time). Pinch off about 1 teaspoon dough and roll between your palms to form 3-inch-long dumpling with tapered ends. Transfer to plate and repeat with remaining dough (you should have 14 to 16 dumplings)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Taste stew; adjust spiciness, if desired, by pressing cheesecloth bundle against side of pot with back of spoon to release juice of Scotch bonnet. Discard bundle and transfer ham hocks to plate to cool slightly. Gently drop dumplings into stew. Simmer, without stirring, until dumplings are set, about 5 minutes. While dumplings cook, debone ham hocks and cut meat into 1/2-inch pieces (you’ll have 1/2 to 2/3 cup meat); discard bones, skin, and fat. Stir meat, scallions, and chopped thyme into stew. Season with salt and pepper to taste. Simmer until flavors have melded and scallions have softened slightly, 10 to 15 minutes. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 11525,
+    "end": 11599,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

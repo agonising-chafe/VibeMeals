@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_cherry-clafouti",
+    "name": "Cherry Clafouti",
+    "slug": "cherry-clafouti",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fresh-sweet-cherries-pitted-and-halved",
+        "displayName": "fresh sweet cherries, pitted and halved",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-2-cup-21-2-ounces-all-purpose-flour-divided",
+        "displayName": "plus 1/2 cup (21/2 ounces) all-purpose flour, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "42-3-ounces-plus-2-teaspoons-sugar-divided",
+        "displayName": "(42/3 ounces) plus 2 teaspoons sugar, divided",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven racks to upper-middle and lowest positions; place 12-inch ovensafe skillet on lower rack and heat oven to 425 degrees. Line rimmed baking sheet with aluminum foil and place cherries, cut side up, on sheet. Roast cherries on upper rack until just tender and cut sides look dry, about 15 minutes. Transfer cherries to medium bowl, toss with lemon juice, and let cool 5 for minutes. Combine 2 teaspoons flour and cinnamon in small bowl; dust flour mixture evenly over cherries and toss to coat thoroughly."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While cherries roast, whisk eggs, 2/3 cup sugar, vanilla, and salt in large bowl until smooth and pale, about 1 minute. Whisk in remaining 1/2 cup flour until smooth. Whisk in cream and milk until incorporated."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove skillet (skillet handle will be hot) from oven and set on wire rack. Add butter and swirl to coat bottom and sides of skillet (butter will melt and brown quickly). Pour batter into skillet and place cherries evenly over top (some will sink). Transfer skillet to lower rack and bake until clafouti puffs and surface is golden brown (edges will be dark brown) and center registers 195 degrees, 18 to 22 minutes, rotating skillet halfway through baking. Transfer skillet to wire rack and let cool for 25 minutes. Sprinkle evenly with remaining 2 teaspoons sugar. Slice into wedges and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 81197,
+    "end": 81239,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

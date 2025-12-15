@@ -1,0 +1,208 @@
+{
+  "mapped": {
+    "id": "atk_herb-poached-shrimp-with-cocktail-sauce",
+    "name": "Herb-Poached Shrimp with Cocktail Sauce",
+    "slug": "herb-poached-shrimp-with-cocktail-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "jumbo-shrimp-16-to-20-per-pound-see-note-peeled-deveined-see-this-page-and-shells-reserved",
+        "displayName": "jumbo shrimp (16 to 20 per pound; see note), peeled, deveined (see this page), and shells reserved",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "peppercorns",
+        "displayName": "peppercorns",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coriander-seeds",
+        "displayName": "coriander seeds",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley",
+        "displayName": "sprigs fresh parsley",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprig-fresh-tarragon",
+        "displayName": "sprig fresh tarragon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "juice-from-1-small-lemon",
+        "displayName": "juice from 1 small lemon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "prepared-horseradish",
+        "displayName": "prepared horseradish",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ancho-or-other-mild-chili-powder",
+        "displayName": "ancho or other mild chili powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SHRIMP: Bring the reserved shells, 3 cups water, and salt to a boil in a medium saucepan over medium-high heat; reduce the heat to low, cover, and simmer until fragrant, about 20 minutes. Strain the stock through a fine-mesh strainer, pressing on the shells to extract all the liquid."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring the stock and remaining ingredients except the shrimp to a boil in a 3- or 4-quart saucepan over high heat; boil for 2 minutes. Turn off the heat and stir in the shrimp; cover and let stand until the shrimp are firm and pink, 8 to 10 minutes. Meanwhile, fill a large bowl with ice water. Drain the shrimp, reserving the stock for another use. Immediately transfer the shrimp to the ice water to stop cooking and chill thoroughly, about 3 minutes. Remove the shrimp from the ice water and pat dry with paper towels."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE SAUCE: Stir all the ingredients together in a small bowl; season with salt and pepper to taste. Serve the chilled shrimp with the cocktail sauce."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 2373,
+    "end": 2431,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

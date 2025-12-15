@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_braised-lamb-shanks-with-red-wine-and-herbes-de-provence",
+    "name": "Braised Lamb Shanks with Red Wine and Herbes de Provence",
+    "slug": "braised-lamb-shanks-with-red-wine-and-herbes-de-provence",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "12-to-16-ounce-lamb-shanks-trimmed",
+        "displayName": "(12- to 16-ounce) lamb shanks, trimmed",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-pinch-table-salt-divided",
+        "displayName": "plus pinch table salt, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-cut-into-2-inch-pieces",
+        "displayName": "carrots, peeled and cut into 2-inch pieces",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-sliced-thick",
+        "displayName": "onions, sliced thick",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-ribs-cut-into-2-inch-pieces",
+        "displayName": "celery ribs, cut into 2-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "herbes-de-provence",
+        "displayName": "herbes de Provence",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-red-wine",
+        "displayName": "dry red wine",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Pat lamb shanks dry with paper towels and sprinkle with 1 teaspoon salt. Heat 1 tablespoon oil in Dutch oven over medium-high heat until just smoking. Brown 3 shanks on all sides, 7 to 10 minutes. Transfer shanks to large plate and repeat with remaining 1 tablespoon oil and remaining 3 shanks."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour off all but 2 tablespoons fat from pot. Add carrots, onions, celery, tomato paste, garlic, herbes de Provence, and remaining pinch salt and cook until vegetables just begin to soften, 3 to 4 minutes. Stir in wine, then broth, scraping up any browned bits; bring to simmer. Nestle shanks, along with any accumulated juices, into pot."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return to simmer and cover; transfer pot to oven. Cook for 11/2 hours. Uncover and continue to cook until tops of shanks are browned, about 30 minutes. Flip shanks and continue to cook until remaining sides are browned and fork slips easily in and out of shanks, 15 to 30 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove pot from oven and let rest for 15 minutes. Using tongs, transfer shanks and vegetables to large plate and tent with aluminum foil. Skim fat from braising liquid and season liquid with salt and pepper to taste. Return shanks to braising liquid to warm through before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 41652,
+    "end": 41702,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

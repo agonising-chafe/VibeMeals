@@ -1,0 +1,141 @@
+{
+  "mapped": {
+    "id": "atk_mushroom-beef-blended-burgers",
+    "name": "Mushroom-Beef Blended Burgers",
+    "slug": "mushroom-beef-blended-burgers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "white-mushrooms-trimmed",
+        "displayName": "white mushrooms, trimmed",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "80-percent-lean-ground-beef-broken-into-rough-11-2-inch-pieces",
+        "displayName": "80 percent lean ground beef, broken into rough 11/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.045454545454545456,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-swiss-or-cheddar-cheese-optional",
+        "displayName": "American, Swiss, or cheddar cheese (optional)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "hamburger-buns-toasted",
+        "displayName": "hamburger buns, toasted",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Process mushrooms in food processor until smooth paste forms (paste will resemble thick oatmeal), scraping down sides of bowl as needed, about 1 minute. Transfer to large bowl and cover. (Do not wash out processor bowl.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Microwave mushrooms until liquid released begins to boil, about 3 minutes, stirring halfway through microwaving. (Do not walk away during final minute; mushrooms could boil over.) Transfer mushrooms to large fine-mesh strainer set over bowl. Using spatula, press on mushrooms to extract 1/2 cup liquid (if more than 1/2 cup is removed, stir extra liquid back into mushrooms). Discard liquid and return mushrooms to bowl. Refrigerate mushrooms until room temperature, about 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return mushrooms to processor bowl. Add beef and salt and process until mixture is uniform and begins to pull away from sides of bowl, about 20 seconds. Divide mixture into 4 equal portions and shape into patties that are 41/2 inches in diameter. Sprinkle both sides of each patty with pepper. (Patties can be refrigerated overnight or tightly wrapped and frozen for up to 1 month; if frozen, thaw before cooking.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat oil in 12-inch skillet over medium-high heat until shimmering. Transfer patties to skillet and cook until well browned on both sides and burgers register 120 to 125 degrees (for medium-rare) or 140 to 145 degrees (for medium-well), 6 to 10 minutes. If using cheese, place 1 slice on each burger 1 minute before burgers finish cooking. Transfer burgers to plate and let rest for 5 minutes, then transfer to buns and serve."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Process raw white mushrooms until they form thick paste resembling cooked oatmeal."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Microwave mushrooms until their liquid boils, about 3 minutes, then strain off 1/2 cup of liquid."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Process mushrooms with ground beef and salt until mixture pulls away from sides of bowl."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 31500,
+    "end": 31566,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

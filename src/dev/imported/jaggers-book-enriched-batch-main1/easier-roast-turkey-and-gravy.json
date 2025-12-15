@@ -1,0 +1,195 @@
+{
+  "mapped": {
+    "id": "atk_easier-roast-turkey-and-gravy",
+    "name": "Easier Roast Turkey and Gravy",
+    "slug": "easier-roast-turkey-and-gravy",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 300,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-to-14-pound-turkey-neck-and-giblets-removed-and-reserved-for-gravy",
+        "displayName": "(12- to 14-pound) turkey, neck and giblets removed and reserved for gravy",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-chopped-fine",
+        "displayName": "small onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "carrot-peeled-and-sliced-thin",
+        "displayName": "carrot, peeled and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley",
+        "displayName": "sprigs fresh parsley",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 3.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Dry Brine Turkey",
+        "durationMinutes": 2880,
+        "timing": "24 to 48 hours before cooking",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine sugar and salt in bowl. With turkey breast side up, use your fingers or handle of wooden spoon to carefully separate skin from thighs and breast. Rub 4 teaspoons salt-sugar mixture under skin of each breast half, 2 teaspoons under skin of each leg, and remaining salt-sugar mixture into cavity. Tie legs together with kitchen twine. Place turkey on rack set in rimmed baking sheet and refrigerate uncovered for 24 to 48 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "At least 30 minutes before roasting turkey, adjust oven rack to lowest position and set pizza stone on oven rack. Place roasting pan on pizza stone and heat oven to 500 degrees. Combine 11/2 teaspoons oil and baking powder in small bowl. Pat turkey dry with paper towels. Rub oil mixture evenly over turkey. Cover turkey breast with double layer of aluminum foil."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove roasting pan from oven. Place remaining 2 tablespoons oil in roasting pan. Place turkey into pan breast side up and return pan to oven. Reduce oven temperature to 425 degrees and cook for 45 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove foil shield, reduce temperature to 325 degrees, and continue to cook until breast registers 160 degrees and thighs register 175 degrees, 1 to 11/2 hours longer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Using spatula loosen turkey from roasting pan, transfer to carving board, and let rest uncovered for 45 minutes. While turkey rests, use wooden spoon to scrape any browned bits from bottom of roasting pan. Pour mixture through fine-mesh strainer set in bowl. Transfer drippings to fat separator and let rest 10 minutes. Reserve 3 tablespoons fat and defatted liquid (about 1 cup). Discard remaining fat."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Heat reserved fat in large saucepan over medium-high heat until shimmering. Add reserved neck and giblets and cook until well browned, 10 to 12 minutes. Transfer neck and giblets to large plate. Reduce heat to medium; add onion, carrot, parsley, and bay leaves; and cook, stirring frequently, until vegetables are softened, 5 to 7 minutes. Add flour and cook, stirring constantly, until flour is well coated with fat, about 1 minute. Slowly whisk in reserved defatted liquid and cook until thickened, about 1 minute. Whisk in water and wine, return neck and giblets, and bring to simmer. Simmer for 10 minutes. Season with salt and pepper to taste. Discard neck. Strain mixture through fine-mesh strainer and transfer to serving bowl. Carve turkey and arrange on serving platter. Serve with gravy."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 28777,
+    "end": 28831,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

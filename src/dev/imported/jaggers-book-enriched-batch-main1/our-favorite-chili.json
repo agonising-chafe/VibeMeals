@@ -1,0 +1,240 @@
+{
+  "mapped": {
+    "id": "atk_our-favorite-chili",
+    "name": "Our Favorite Chili",
+    "slug": "our-favorite-chili",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR",
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-pinto-beans-11-4-cups-picked-over-and-rinsed",
+        "displayName": "dried pinto beans (11/4 cups), picked over and rinsed",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-ancho-chiles-stemmed-seeded-and-torn-into-1-inch-pieces",
+        "displayName": "dried ancho chiles, stemmed, seeded, and torn into 1-inch pieces",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-arbol-chiles-stemmed-seeded-and-split-into-2-pieces",
+        "displayName": "dried arbol chiles, stemmed, seeded, and split into 2 pieces",
+        "amount": 24,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornmeal",
+        "displayName": "cornmeal",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cocoa-powder",
+        "displayName": "cocoa powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-cut-into-3-4-inch-pieces",
+        "displayName": "medium onions, cut into 3/4-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-jalape-o-chiles-stemmed-seeded-and-cut-into-1-2-inch-pieces",
+        "displayName": "small jalapeño chiles, stemmed, seeded, and cut into 1/2-inch pieces",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-4-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 4 teaspoons)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes",
+        "displayName": "can diced tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "light-molasses",
+        "displayName": "light molasses",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "blade-steak-3-4-inch-thick-trimmed-and-cut-into-3-4-inch-pieces-see-this-page",
+        "displayName": "blade steak, 3/4 inch thick, trimmed and cut into 3/4-inch pieces (see this page)",
+        "amount": 3.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottle-mild-lager-such-as-budweiser",
+        "displayName": "bottle mild lager, such as Budweiser",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Soak Beans",
+        "description": "Combine beans, salt, and water. Bring to a boil, then let sit for 1 hour. Drain and rinse well.",
+        "durationMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine 3 tablespoons salt, 4 quarts water, and the beans in a Dutch oven and bring to a boil over high heat. Remove the pot from the heat, cover, and let sit for 1 hour. Drain and rinse well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 300 degrees. Place the ancho chiles in a 12-inch skillet set over medium-high heat; toast, stirring frequently, until the flesh is fragrant, 4 to 6 minutes, reducing the heat if the chiles begin to smoke. Transfer to a food processor and cool. Do not wash out the skillet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the arbol chiles, cornmeal, oregano, cumin, cocoa, and 1/2 teaspoon salt to the food processor with the toasted ancho chiles; process until finely ground, about 2 minutes. With the processor running, slowly add 1/2 cup chicken broth until a smooth paste forms, about 45 seconds, scraping down the sides of the bowl as necessary. Transfer the paste to a small bowl. Place the onions in the now-empty processor and pulse until roughly chopped, about 4 pulses. Add the jalapeños and pulse until the consistency of chunky salsa, about 4 pulses, scraping down the bowl as necessary."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat 1 tablespoon oil in the Dutch oven over medium-high heat. Add the onion mixture and cook, stirring occasionally, until the moisture has evaporated and the vegetables are softened, 7 to 9 minutes. Add the garlic and cook until fragrant, about 1 minute. Add the chile paste, tomatoes, and molasses; stir until the chile paste is thoroughly combined. Add the remaining 2 cups chicken broth and the drained beans; bring to a boil, then reduce the heat to a simmer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Meanwhile, heat 1 tablespoon more oil in the 12-inch skillet over medium-high heat until shimmering. Pat the beef dry with paper towels and sprinkle with 1 teaspoon salt. Add half of the beef and cook until browned on all sides, about 10 minutes. Transfer the meat to the Dutch oven. Add half of the beer to the skillet, scraping up any browned bits from the bottom of the skillet, and bring to a simmer. Transfer the beer to the Dutch oven. Repeat with the remaining 1 tablespoon oil, the remaining steak, and the remaining beer. Stir to combine and return the mixture to a simmer."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Cover the pot and transfer to the oven. Cook until the meat and beans are fully tender, 11/2 to 2 hours. Let the chili stand, uncovered, for 10 minutes. Stir well, season with salt to taste, and serve. (The chili can be refrigerated for up to 3 days.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 8495,
+    "end": 8559,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

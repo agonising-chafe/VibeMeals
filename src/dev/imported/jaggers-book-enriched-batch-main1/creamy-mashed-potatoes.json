@@ -1,0 +1,97 @@
+{
+  "mapped": {
+    "id": "atk_creamy-mashed-potatoes",
+    "name": "Creamy Mashed Potatoes",
+    "slug": "creamy-mashed-potatoes",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "yukon-gold-potatoes-about-8-medium-scrubbed-peeled-and-sliced-3-4-inch-thick",
+        "displayName": "Yukon Gold potatoes (about 8 medium), scrubbed, peeled, and sliced 3/4 inch thick",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "11-2-sticks-unsalted-butter-cut-into-6-pieces",
+        "displayName": "(11/2 sticks) unsalted butter, cut into 6 pieces",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the potatoes in a colander and rinse under cool running water, tossing with your hands, for 30 seconds. Transfer the potatoes to a large Dutch oven, add cold water to cover by 1 inch, and bring to a boil over high heat. Reduce the heat to medium and boil until the potatoes are tender, 20 to 25 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, heat the heavy cream and butter in a small saucepan over medium heat until the butter is melted, about 5 minutes. Set aside and keep warm."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Drain the potatoes and return to the Dutch oven. Stir over low heat until the potatoes are thoroughly dried, 1 to 2 minutes. Set a ricer or food mill over a large bowl and press or mill the potatoes into the bowl. Gently fold in the warm cream mixture and salt with a rubber spatula until the cream is absorbed and the potatoes are thick and creamy. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59809,
+    "end": 59837,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

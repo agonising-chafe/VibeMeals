@@ -1,0 +1,220 @@
+{
+  "mapped": {
+    "id": "atk_crescent-shaped-rugelach-with-raisin-walnut-filling",
+    "name": "Crescent-Shaped Rugelach with Raisin-Walnut Filling",
+    "slug": "crescent-shaped-rugelach-with-raisin-walnut-filling",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 32 cookies",
+      "baseServings": 32
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "111-4-ounces-all-purpose-flour",
+        "displayName": "(111/4 ounces) all-purpose flour",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-chilled-and-cut-into-1-4-inch-pieces",
+        "displayName": "unsalted butter, chilled and cut into 1/4-inch pieces",
+        "amount": 16,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cream-cheese-chilled-and-cut-into-1-2-inch-chunks",
+        "displayName": "cream cheese, chilled and cut into 1/2-inch chunks",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "sour cream",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "7-ounces-sugar",
+        "displayName": "(7 ounces) sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "apricot-preserves-processed-briefly-in-food-processor-until-smooth",
+        "displayName": "apricot preserves, processed briefly in food processor until smooth",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "raisins-preferably-golden",
+        "displayName": "raisins, preferably golden",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "walnuts-chopped-fine",
+        "displayName": "walnuts, chopped fine",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "large-egg-yolks",
+        "displayName": "large egg yolks",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GLAZE",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "milk",
+        "displayName": "milk",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GLAZE",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Chill butter and cream cheese",
+        "durationMinutes": 60,
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Freeze dough for 30 minutes",
+        "durationMinutes": 30,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Pulse flour, sugar, and salt in food processor until combined, about 3 pulses. Add butter, cream cheese, and sour cream; pulse until dough comes together in small, uneven pebbles the size of cottage cheese curds, about 16 pulses. Transfer dough to counter, press into 9 by 6-inch log, and divide log into 4 equal pieces. Form each piece into 41/2 by 3/4-inch disk. Place each disk between 2 sheets plastic wrap and roll into 81/2-inch circle. Stack dough circles, between pieces of parchment paper, on plate; freeze for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE FRUIT FILLING: Meanwhile, combine sugar and cinnamon in small bowl; set aside. Line 2 rimmed baking sheets with parchment. Working with 1 dough circle at a time, remove dough from freezer and spread with 21/2 tablespoons preserves. Sprinkle 2 tablespoons cinnamon sugar, 1/4 cup raisins, and 1/2 cup walnuts over preserves and pat down gently with your fingers. Cut circle into 8 wedges. Roll each wedge into crescent shape; space crescents 2 inches apart on prepared sheets. Repeat with remaining dough rounds. Freeze crescents on sheets for 15 minutes. (To make ahead, cover baking sheet loosely with plastic and freeze crescents until firm, about 11/4 hours. Once frozen, transfer crescents to airtight container or zipper-lock bag and freeze for up to 6 weeks. To bake frozen rugelach, place on parchment-lined baking sheets and glaze and bake immediately, increasing baking time by 6 to 7 minutes.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE GLAZE: Adjust oven racks to upper-middle and lower-middle positions and heat oven to 375 degrees. Whisk egg yolks and milk in bowl. Brush crescents with glaze. Bake until rugelach are pale golden and slightly puffy, 21 to 23 minutes, switching and rotating sheets halfway through baking. Sprinkle each cookie with scant teaspoon cinnamon sugar. Transfer rugelach to wire rack with metal spatula and let cool completely before serving. (Rugelach can be stored at room temperature for up to 4 days.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 69780,
+    "end": 69832,
+    "yieldLine": "MAKES 32 cookies"
+  },
+  "fit": true
+}

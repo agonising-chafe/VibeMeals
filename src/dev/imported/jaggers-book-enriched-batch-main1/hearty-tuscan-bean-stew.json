@@ -1,0 +1,220 @@
+{
+  "mapped": {
+    "id": "atk_hearty-tuscan-bean-stew",
+    "name": "Hearty Tuscan Bean Stew",
+    "slug": "hearty-tuscan-bean-stew",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 217,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "about-2-cups-dried-cannellini-beans-picked-over-and-rinsed",
+        "displayName": "(about 2 cups) dried cannellini beans, picked over and rinsed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-drizzling",
+        "displayName": "extra-virgin olive oil, plus extra for drizzling",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pancetta-or-bacon-cut-into-1-4-inch-pieces-see-note",
+        "displayName": "pancetta or bacon, cut into 1/4-inch pieces (see note)",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-chopped-medium-about-11-2-cups",
+        "displayName": "large onion, chopped medium (about 11/2 cups)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-celery-ribs-cut-into-1-2-inch-pieces-about-3-4-cup",
+        "displayName": "medium celery ribs, cut into 1/2-inch pieces (about 3/4 cup)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-carrots-peeled-and-cut-into-1-2-inch-pieces-about-1-cup",
+        "displayName": "medium carrots, peeled and cut into 1/2-inch pieces (about 1 cup)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-peeled-and-crushed",
+        "displayName": "medium garlic cloves, peeled and crushed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bunch-kale-or-collard-greens-about-1-pound-stems-trimmed-and-leaves-chopped-into-1-inch-pieces-about-8-cups-loosely-packed",
+        "displayName": "bunch kale or collard greens (about 1 pound), stems trimmed and leaves chopped into 1-inch pieces (about 8 cups loosely packed)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained",
+        "displayName": "can diced tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprig-fresh-rosemary",
+        "displayName": "sprig fresh rosemary",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "country-white-bread-each-11-4-inches-thick-broiled-until-golden-brown-on-both-sides-and-rubbed-with-a-garlic-clove-optional",
+        "displayName": "country white bread, each 11/4 inches thick, broiled until golden brown on both sides and rubbed with a garlic clove (optional)",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 480,
+        "description": "Soak beans in salted water for at least 8 hours or up to 24 hours.",
+        "kind": "SOAK",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 3 tablespoons salt in 4 quarts cold water in a large bowl or container. Add the beans and soak at room temperature for at least 8 hours or up to 24 hours. Drain the beans and rinse well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 250 degrees. Heat the oil and pancetta in a large Dutch oven over medium heat. Cook, stirring occasionally, until the pancetta is lightly browned and the fat has rendered, 6 to 10 minutes. Add the onion, celery, and carrots. Cook, stirring occasionally, until the vegetables are softened and lightly browned, 10 to 16 minutes. Stir in the garlic and cook until fragrant, about 1 minute. Stir in the broth, water, bay leaves, and soaked beans. Increase the heat to high and bring the mixture to a simmer. Cover the pot, transfer it to the oven, and cook until the beans are almost tender (the very center of the beans will still be firm), 45 minutes to 1 hour."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove the pot from the oven and stir in the kale and tomatoes. Return the pot to the oven and continue to cook until the beans and greens are fully tender, 30 to 40 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the pot from the oven and submerge the rosemary sprig in the stew. Cover and let stand for 15 minutes. Discard the bay leaves and rosemary sprig and season the stew with salt and pepper to taste. If desired, use the back of a spoon to press some beans against the side of the pot to thicken the stew. Serve over the toasted bread (if using) and drizzle with olive oil."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 11466,
+    "end": 11524,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

@@ -1,0 +1,183 @@
+{
+  "mapped": {
+    "id": "atk_make-ahead-cheese-souffl-s",
+    "name": "Make-Ahead Cheese Soufflés",
+    "slug": "make-ahead-cheese-souffl-s",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-ground-nutmeg",
+        "displayName": "Pinch ground nutmeg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "milk-divided",
+        "displayName": "milk, divided",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "comt-cheese-shredded-3-4-cup",
+        "displayName": "Comté cheese, shredded (3/4 cup)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-2-cup",
+        "displayName": "Parmesan cheese, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs-separated",
+        "displayName": "large eggs, separated",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "cream-of-tartar",
+        "displayName": "cream of tartar",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate soufflés for at least 1 hour or up to 3 days.",
+        "durationMinutes": 60,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Generously spray six 4-ounce ramekins with vegetable oil spray. Bring kettle of water to boil."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Melt butter in medium saucepan over medium heat. Stir in flour, salt, and nutmeg and cook for 1 minute. Add 1/2 cup milk and whisk until smooth. Whisk in remaining 1/2 cup milk and cook, whisking constantly, until mixture is thickened and bubbling, about 2 minutes. Off heat, whisk in Comté and Parmesan until melted and smooth (mixture will be thick). Transfer to large bowl and whisk in egg yolks and parsley."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using stand mixer fitted with whisk attachment, whip egg whites and cream of tartar on medium-low speed until foamy, about 1 minute. Increase speed to medium-high and whip until stiff peaks form, about 2 minutes. Gently whisk one-third of whites into cheese mixture. Using rubber spatula, gently fold in remaining whites."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Distribute mixture evenly among prepared ramekins and smooth tops. Transfer ramekins to 13 by 9-inch baking pan and add boiling water until it comes halfway up sides of ramekins. Bake until soufflés are puffed and register 170 to 175 degrees, 14 to 17 minutes. Using tongs, transfer ramekins to wire rack and let cool completely, 30 to 40 minutes (soufflés will shrink). While soufflés cool, line rimmed baking sheet with parchment paper and grease parchment lightly."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Invert 1 ramekin onto your hand and shake sharply until soufflé releases. Reinvert soufflé onto prepared sheet. Repeat with remaining soufflés. Cover tightly with plastic wrap and refrigerate for at least 1 hour or up to 3 days."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Bake soufflés until puffed and deeply browned, 15 to 18 minutes. While soufflés bake, set out 6 plates. Using thin spatula, transfer 1 soufflé to each plate. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 47609,
+    "end": 47655,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,309 @@
+{
+  "mapped": {
+    "id": "atk_chicken-marbella",
+    "name": "Chicken Marbella",
+    "slug": "chicken-marbella",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "pitted-green-olives-rinsed",
+        "displayName": "pitted green olives, rinsed",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "pitted-prunes",
+        "displayName": "pitted prunes",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "capers-rinsed",
+        "displayName": "capers, rinsed",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed",
+        "displayName": "anchovy fillets, rinsed",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "PASTE",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "pinch-red-pepper-flakes",
+        "displayName": "Pinch red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PASTE"
+      },
+      {
+        "ingredientId": "bone-in-split-chicken-breasts-and-or-leg-quarters-trimmed",
+        "displayName": "bone-in split chicken breasts and/or leg quarters, trimmed",
+        "amount": 0.9130434782608695,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-wine",
+        "displayName": "white wine",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-green-olives-rinsed-and-halved",
+        "displayName": "pitted green olives, rinsed and halved",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "capers-rinsed",
+        "displayName": "capers, rinsed",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pitted-prunes-chopped-coarse",
+        "displayName": "pitted prunes, chopped coarse",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PASTE: Adjust oven rack to middle position and heat oven to 400 degrees. Pulse all ingredients together in food processor until finely chopped, about 10 pulses. Scrape down bowl and continue to process until mostly smooth, 1 to 2 minutes. Transfer to bowl. (Paste can be stored in an airtight container and refrigerated for up to 24 hours.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE CHICKEN: Pat chicken dry with paper towels. Sprinkle chicken pieces with 11/2 teaspoons salt and season with pepper."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat oil in 12-inch skillet over medium-high heat until just smoking. Add chicken, skin side down, and cook without moving until well browned, 5 to 8 minutes. Transfer chicken to large plate. Drain off all but 1 teaspoon fat from skillet and return to medium-low heat."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add 1/3 cup paste to skillet and cook, stirring constantly, until fragrant and fond forms on bottom of pan, 1 to 2 minutes. Stir in broth, wine, olives, capers, and bay leaves, scraping up any browned bits. Return chicken, skin side up, to pan (skin should be above surface of liquid) and transfer to oven. Cook, uncovered, for 15 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove skillet from oven and use back of spoon to spread remaining paste over chicken pieces; sprinkle prunes around chicken. Continue to roast until paste begins to brown, breasts register 160 degrees, and leg quarters register 175 degrees, 7 to 12 minutes longer."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer chicken to serving platter and tent loosely with aluminum foil. Remove bay leaves from sauce and whisk in butter, vinegar, and 1 tablespoon parsley; season with salt and pepper to taste. Pour sauce around chicken, sprinkle with remaining 1 tablespoon parsley, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 24735,
+    "end": 24809,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

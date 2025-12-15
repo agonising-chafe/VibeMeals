@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_bob-evans-reese-s-peanut-butter-pie",
+    "name": "Bob Evans Reese’s Peanut Butter Pie",
+    "slug": "bob-evans-reese-s-peanut-butter-pie",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-no-bake-pie-is-a-winner-for-peanut-better-lovers-and-one-of-the-most-popular-pies-at-bob-evans-this-is-also-a-great-pie-to-make-in-the-warmer-months-since-you-do-not-need-to-heat-your-oven",
+        "displayName": "This no-bake pie is a winner for peanut better lovers, and one of the most popular pies at Bob Evans. This is also a great pie to make in the warmer months since you do not need to heat your oven.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "package-jell-o-vanilla-instant-pudding-and-pie-filling-mix",
+        "displayName": "package Jell-O Vanilla Instant Pudding and Pie Filling Mix",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cold-whole-milk",
+        "displayName": "cold whole milk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whipped-cream",
+        "displayName": "½ cup whipped cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-creamy-peanut-butter",
+        "displayName": "¼ cups creamy peanut butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "9-inch-prepared-chocolate-cookie-crust-such-as-keebler-ready-crust",
+        "displayName": "(9-inch) prepared chocolate cookie crust, such as Keebler Ready Crust",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "container-cool-whip",
+        "displayName": "container Cool Whip",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chocolate-syrup",
+        "displayName": "chocolate syrup",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "crushed-peanuts",
+        "displayName": "crushed peanuts",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-whisk-together-pudding-mix-and-milk-until-creamy-add-whipped-cream-and-peanut-butter-and-whisk-until-completely-blended",
+        "displayName": "In a large bowl, whisk together pudding mix and milk until creamy. Add whipped cream and peanut butter and whisk until completely blended.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-into-pie-crust-and-cover-with-a-generous-layer-of-cool-whip-place-in-freezer-1-hour-or-until-set",
+        "displayName": "Pour into pie crust and cover with a generous layer of Cool Whip. Place in freezer 1 hour or until set.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-from-freezer-and-drizzle-with-chocolate-syrup-and-crushed-peanuts",
+        "displayName": "Remove from freezer and drizzle with chocolate syrup and crushed peanuts.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-and-chill-2-hours-serve",
+        "displayName": "Cover and chill 2 hours. Serve.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9755,
+    "end": 9797,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

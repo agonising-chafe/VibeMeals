@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_bangers-with-onion-gravy",
+    "name": "Bangers with Onion Gravy",
+    "slug": "bangers-with-onion-gravy",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cumberland-sausage-6-links",
+        "displayName": "Cumberland sausage (6 links)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-halved-and-sliced-thin-3-cups",
+        "displayName": "onions, halved and sliced thin (3 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-tablespoon-water-divided",
+        "displayName": "plus 1 tablespoon water, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "marmite",
+        "displayName": "Marmite",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "dry-mustard",
+        "displayName": "dry mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "minced-fresh-rosemary",
+        "displayName": "minced fresh rosemary",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-2-pieces",
+        "displayName": "unsalted butter, cut into 2 pieces",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GRAVY",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil in 12-inch skillet over medium heat until shimmering. Arrange sausages in pan and cook, turning once, until browned on 2 sides, about 5 minutes. Move sausages to 1 side of skillet. Add onions, evenly distributing around bottom of pan, and nestle sausages on top. Add 1/2 cup water and immediately cover. Cook, turning sausages once until they register between 160 and 165 degrees and onions have softened, about 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While sausages cook, whisk broth, Marmite, mustard, thyme, and rosemary in 4-cup liquid measuring cup until Marmite dissolves."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer sausages to plate and tent with aluminum foil. Make sure onions are spread evenly; cook without stirring until beginning to brown, about 5 minutes (if onions have not browned, increase heat to medium-high). Continue to cook, stirring occasionally, until onions are tender and well browned, and dark fond forms on bottom of skillet, 3 to 5 minutes longer. Stir in sugar, pepper, and salt and cook for 1 minute."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add broth mixture, increase heat to medium-high, and bring to boil. Cook, scraping up any browned bits from bottom and sides of skillet and stirring back into sauce, until sauce is slightly reduced, about 5 minutes. Combine cornstarch and remaining 1 tablespoon water in small bowl. Whisk cornstarch mixture into sauce and cook until sauce is glossy and has consistency of heavy cream, about 2 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Off heat, whisk in butter, 1 piece at a time. Stir in vinegar and season with salt and pepper to taste. Sprinkle with parsley and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 40679,
+    "end": 40735,
+    "yieldLine": "SERVES 4 to 6 SEASON 26"
+  },
+  "fit": true
+}

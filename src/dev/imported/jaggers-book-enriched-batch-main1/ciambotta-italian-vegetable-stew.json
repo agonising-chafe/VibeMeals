@@ -1,0 +1,221 @@
+{
+  "mapped": {
+    "id": "atk_ciambotta-italian-vegetable-stew",
+    "name": "Ciambotta (Italian Vegetable Stew)",
+    "slug": "ciambotta-italian-vegetable-stew",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PESTATA"
+      },
+      {
+        "ingredientId": "fresh-oregano-leaves",
+        "displayName": "fresh oregano leaves",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PESTATA"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PESTATA"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "eggplant-peeled-and-cut-into-1-2-inch-pieces",
+        "displayName": "eggplant, peeled and cut into 1/2-inch pieces",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-chopped",
+        "displayName": "large onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "russet-potatoes-peeled-and-cut-into-1-2-inch-pieces",
+        "displayName": "russet potatoes, peeled and cut into 1/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes-drained-with-juice-reserved-chopped-coarse",
+        "displayName": "can whole peeled tomatoes, drained with juice reserved, chopped coarse",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "zucchini-8-ounces-each-halved-lengthwise-seeded-and-cut-into-1-2-inch-pieces",
+        "displayName": "zucchini (8 ounces each), halved lengthwise, seeded, and cut into 1/2-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-or-yellow-bell-peppers-stemmed-seeded-and-cut-into-1-2-inch-pieces",
+        "displayName": "red or yellow bell peppers, stemmed, seeded, and cut into 1/2-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-fresh-basil",
+        "displayName": "shredded fresh basil",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PESTATA: Process all ingredients in food processor until finely ground, about 1 minute, scraping down sides as needed. Set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE STEW: Toss eggplant with 11/2 teaspoons salt in bowl. Line surface of large plate with double layer of coffee filters and lightly spray with vegetable oil spray. Spread eggplant in even layer over coffee filters. Microwave eggplant, uncovered, until dry to touch and slightly shriveled, 8 to 12 minutes, tossing once halfway through to ensure that eggplant cooks evenly."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 2 tablespoons oil in Dutch oven over high heat until shimmering. Add eggplant, onion, and potatoes; cook, stirring frequently, until eggplant browns and surface of potatoes becomes translucent, about 2 minutes. Push vegetables to sides of pot; add 1 tablespoon oil and tomato paste to clearing. Cook paste, stirring frequently, until brown fond develops on bottom of pot, about 2 minutes. Add 2 cups water and chopped tomatoes and juice, scraping up any browned bits, and bring to boil. Reduce heat to medium, cover, and simmer gently until eggplant is completely broken down and potatoes are tender, 20 to 25 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, heat remaining 1 tablespoon oil in 12-inch skillet over high heat until smoking. Add zucchini, bell peppers, and 1/2 teaspoon salt; cook, stirring occasionally, until vegetables are browned and tender, 10 to 12 minutes. Push vegetables to sides of skillet; add pestata and cook until fragrant, about 1 minute. Stir pestata into vegetables and transfer vegetables to bowl. Add remaining 1/4 cup water to skillet off heat, scraping up browned bits."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove Dutch oven from heat and stir reserved vegetables and water from skillet into vegetables in Dutch oven. Cover pot and let stand for 20 minutes to allow flavors to meld. Stir in basil and season with salt to taste; serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 11106,
+    "end": 11166,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

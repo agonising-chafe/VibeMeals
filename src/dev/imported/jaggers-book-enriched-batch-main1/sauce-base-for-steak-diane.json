@@ -1,0 +1,184 @@
+{
+  "mapped": {
+    "id": "atk_sauce-base-for-steak-diane",
+    "name": "Sauce Base for Steak Diane",
+    "slug": "sauce-base-for-steak-diane",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 11/4 cups",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-sauce-base-is-an-excellent-facsimile-of-a-demi-glace-a-time-consuming-classic-french-sauce-base-ii-is-critical-to-use-low-sodium-chicken-and-beef-broths",
+        "displayName": "This sauce base is an excellent facsimile of a demi-glace, a time-consuming classic French sauce base. Ii is critical to use low-sodium chicken and beef broths.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onions-chopped-medium",
+        "displayName": "small onions, chopped medium",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrot-chopped-medium",
+        "displayName": "medium carrot, chopped medium",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-peeled",
+        "displayName": "medium garlic cloves, peeled",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-red-wine",
+        "displayName": "dry red wine",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-beef-broth",
+        "displayName": "low-sodium beef broth",
+        "amount": 3.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat the oil and tomato paste in a Dutch oven over medium-high heat and cook, stirring constantly, until the paste begins to brown, about 3 minutes. Add the onions, carrot, and garlic and cook, stirring frequently, until the mixture is reddish brown, about 2 minutes. Add 2 tablespoons of the water and continue to cook, stirring constantly, until the mixture is well browned, about 3 minutes, adding the remaining 2 tablespoons water as needed to prevent scorching. Add the flour and cook, stirring constantly, for about 1 minute. Add the wine, scraping up the browned bits on the bottom and sides of the pot; bring to a boil, stirring occasionally (the mixture will thicken slightly). Add the beef and chicken broths, peppercorns, thyme, and bay leaves; bring to a boil and cook, uncovered, occasionally scraping the bottom and sides of the pot with a spatula, until reduced to 21/2 cups, 35 to 40 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Strain the mixture through a fine-mesh strainer, pressing on the solids to extract as much liquid as possible; you should have about 11/4 cups. (The sauce base can be refrigerated in an airtight container for up to 3 days.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 33200,
+    "end": 33246,
+    "yieldLine": "MAKES 11/4 cups"
+  },
+  "fit": true
+}

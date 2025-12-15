@@ -1,0 +1,279 @@
+{
+  "mapped": {
+    "id": "atk_vietnamese-beef-pho",
+    "name": "Vietnamese Beef Pho",
+    "slug": "vietnamese-beef-pho",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 135,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "85-percent-lean-ground-beef",
+        "displayName": "85 percent lean ground beef",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-quartered-through-root-end",
+        "displayName": "onions, quartered through root end",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 12,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fish-sauce-plus-extra-for-seasoning",
+        "displayName": "fish sauce, plus extra for seasoning",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "4-inch-piece-ginger-sliced-into-thin-rounds",
+        "displayName": "(4-inch) piece ginger, sliced into thin rounds",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cinnamon-stick",
+        "displayName": "cinnamon stick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar-plus-extra-for-seasoning",
+        "displayName": "sugar, plus extra for seasoning",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "star-anise-pods",
+        "displayName": "star anise pods",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-cloves",
+        "displayName": "whole cloves",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-plus-extra-for-seasoning",
+        "displayName": "table salt, plus extra for seasoning",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-strip-steak-trimmed-and-halved",
+        "displayName": "boneless strip steak, trimmed and halved",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-8-inch-wide-rice-noodles",
+        "displayName": "(1/8-inch-wide) rice noodles",
+        "amount": 1416,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin-optional",
+        "displayName": "scallions, sliced thin (optional)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "bean-sprouts",
+        "displayName": "Bean sprouts",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thai-or-italian-basil",
+        "displayName": "Sprigs fresh Thai or Italian basil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "hoisin-sauce",
+        "displayName": "Hoisin sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "sriracha-sauce",
+        "displayName": "Sriracha sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Freeze steak",
+        "durationMinutes": 40,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Break ground beef into rough 1-inch chunks and drop in Dutch oven. Add water to cover by 1 inch. Bring mixture to boil over high heat. Boil for 2 minutes, stirring once or twice. Drain ground beef in colander and rinse well under running water. Wash out pot and return ground beef to pot."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place 6 onion quarters in pot with ground beef. Slice remaining 2 onion quarters as thin as possible and set aside for garnish. Add broth, 2 cups water, fish sauce, ginger, cinnamon, sugar, star anise, cloves, salt, and peppercorns to pot and bring to boil over high heat. Reduce heat to medium-low and simmer, partially covered, for 45 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pour broth through colander set in large bowl. Discard solids. Strain broth through fine-mesh strainer lined with triple thickness of cheesecloth; add water as needed to equal 11 cups. Return broth to pot and season with extra sugar and salt (broth should taste overseasoned). Cover and keep warm over low heat."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While broth simmers, place steak on large plate and freeze until very firm, 35 to 45 minutes. Once firm, cut against grain into 1/8-inch-thick slices. Return steak to plate and refrigerate until needed."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Place noodles in large container and cover with hot tap water. Soak until noodles are pliable, 10 to 15 minutes; drain noodles. Meanwhile, bring 4 quarts water to boil in large pot. Add drained noodles and cook until almost tender, 30 to 60 seconds. Drain immediately and divide noodles among individual bowls."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Bring broth to rolling boil over high heat. Divide steak among individual bowls, shingling slices on top of noodles. Pile reserved onion slices on top of steak slices and sprinkle with cilantro and scallions, if using. Ladle hot broth into each bowl. Serve immediately, passing bean sprouts, basil sprigs, lime wedges, hoisin, sriracha, and extra fish sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7483,
+    "end": 7553,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

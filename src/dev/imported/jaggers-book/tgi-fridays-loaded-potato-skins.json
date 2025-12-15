@@ -1,0 +1,184 @@
+{
+  "mapped": {
+    "id": "atk_tgi-fridays-loaded-potato-skins",
+    "name": "TGI Fridays Loaded Potato Skins",
+    "slug": "tgi-fridays-loaded-potato-skins",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 5",
+      "baseServings": 5
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "while-hotly-contested-tgi-fridays-claim-they-invented-loaded-potato-skins-in-1974-when-a-cook-deep-fried-leftover-potato-skins-from-making-mashed-potatoes-he-added-seasoning-and-toppings-and-a-legend-was-allegedly-born",
+        "displayName": "While hotly contested, TGI Fridays claim they invented loaded potato skins in 1974 when a cook deep-fried leftover potato skins from making mashed potatoes. He added seasoning and toppings and a legend was (allegedly) born!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baked-potato-halves",
+        "displayName": "baked potato halves",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-sharp-cheddar-cheese",
+        "displayName": "¾ cup shredded sharp Cheddar cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-smoked-bacon-cooked-crisp-and-crumbled",
+        "displayName": "thick-cut smoked bacon, cooked crisp and crumbled",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-full-fat-sour-cream",
+        "displayName": "½ cup full-fat sour cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-green-onion-green-section-thinly-sliced",
+        "displayName": "medium green onion, green section thinly sliced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-375-f",
+        "displayName": "Preheat oven to 375°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-flesh-from-potato-halves-leaving-inch-of-flesh-inside-skin-reserve-flesh-for-another-use",
+        "displayName": "Remove flesh from potato halves, leaving ¼ inch of flesh inside skin. Reserve flesh for another use.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brush-potato-shells-with-butter-and-season-with-salt-place-on-an-ungreased-half-sheet-pan-bake-15-20-minutes-until-crisp",
+        "displayName": "Brush potato shells with butter and season with salt. Place on an ungreased half sheet pan. Bake 15–20 minutes until crisp.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-potato-skins-and-sprinkle-with-cheese-and-bacon-return-to-oven-6-8-minutes-until-cheese-has-melted",
+        "displayName": "Remove potato skins and sprinkle with cheese and bacon. Return to oven 6–8 minutes until cheese has melted.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "serve-potato-skins-with-sour-cream-and-green-onions-serve-hot",
+        "displayName": "Serve potato skins with sour cream and green onions. Serve hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tgi-fridays-has-a-long-history-of-innovation-in-the-restaurant-industry-they-have-been-credited-with-naming-happy-hour-being-the-first-restaurant-chain-to-serve-nonalcoholic-drinks-and-popularizing-loaded-potato-skins",
+        "displayName": "TGI Fridays has a long history of innovation in the restaurant industry. They have been credited with naming happy hour, being the first restaurant chain to serve nonalcoholic drinks, and popularizing loaded potato skins.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2964,
+    "end": 3010,
+    "yieldLine": "SERVES 5"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

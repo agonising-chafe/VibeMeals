@@ -203,10 +203,13 @@ describe('Edge Cases & Constraint Handling', () => {
       const plan = generatePlan(household, recipes, testDate);
       const shoppingList = buildShoppingList(plan, recipes, household);
 
-      const ingredientIds = shoppingList.items.map((item) => item.ingredientId);
-      const uniqueIds = new Set(ingredientIds);
+      // Consolidation is now by displayName+unit (user-facing), not just ingredientId
+      const displayNameKeys = shoppingList.items.map(
+        (item) => item.displayName.trim().toLowerCase() + '|' + (item.unit || '')
+      );
+      const uniqueKeys = new Set(displayNameKeys);
 
-      expect(ingredientIds.length).toBe(uniqueIds.size); // No duplicates
+      expect(displayNameKeys.length).toBe(uniqueKeys.size); // No duplicates by user-facing key
     });
 
     it('[S7] every shopping item must have criticality (CRITICAL | NON_CRITICAL)', () => {

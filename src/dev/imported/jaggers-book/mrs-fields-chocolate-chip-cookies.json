@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_mrs-fields-chocolate-chip-cookies",
+    "name": "Mrs. Fields Chocolate Chip Cookies",
+    "slug": "mrs-fields-chocolate-chip-cookies",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 15 (YIELDS 30 COOKIES)",
+      "baseServings": 15
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-popular-mall-cookie-started-from-scratch-in-the-home-kitchen-of-founder-debbi-fields-and-spread-across-the-nation-you-can-create-it-at-home-with-simple-ingredients",
+        "displayName": "This popular mall cookie started from scratch in the home kitchen of founder Debbi Fields and spread across the nation. You can create it at home with simple ingredients.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-room-temperature",
+        "displayName": "unsalted butter, room temperature",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "½ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-packed-light-brown-sugar",
+        "displayName": "½ cups packed light brown sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoons-pure-vanilla-extract",
+        "displayName": "½ teaspoons pure vanilla extract",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-all-purpose-flour",
+        "displayName": "½ cups all-purpose flour",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¾ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "18-ounce-bag-semisweet-chocolate-chips",
+        "displayName": "½ (18-ounce) bag semisweet chocolate chips",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f-and-line-a-half-sheet-pan-with-parchment",
+        "displayName": "Preheat oven to 350°F and line a half sheet pan with parchment.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-cream-together-butter-sugars-eggs-and-vanilla",
+        "displayName": "In a large bowl, cream together butter, sugars, eggs, and vanilla.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-mix-together-flour-salt-baking-powder-and-baking-soda",
+        "displayName": "In a medium bowl, mix together flour, salt, baking powder, and baking soda.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "combine-wet-and-dry-ingredients-until-dry-ingredients-are-just-combined-stir-in-chocolate-chips",
+        "displayName": "Combine wet and dry ingredients until dry ingredients are just combined. Stir in chocolate chips.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "form-golf-ball-sized-dough-portions-and-place-2-inches-apart-on-prepared-baking-sheet",
+        "displayName": "Form golf ball–sized dough portions and place 2 inches apart on prepared baking sheet.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-9-10-minutes-until-edges-are-lightly-browned-cool-on-pan-10-minutes-then-transfer-to-a-wire-rack-to-cool-completely-serve-at-room-temperature",
+        "displayName": "Bake 9–10 minutes until edges are lightly browned. Cool on pan 10 minutes, then transfer to a wire rack to cool completely. Serve at room temperature.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mrs-fields-was-founded-in-the-late-1970s-by-a-woman-named-debbi-fields-she-and-her-husband-opened-a-store-in-california-selling-homemade-cookies-which-has-grown-into-over-300-franchises-around-the-world",
+        "displayName": "Mrs. Fields was founded in the late 1970s by a woman named Debbi Fields. She and her husband opened a store in California selling homemade cookies, which has grown into over 300 franchises around the world.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10384,
+    "end": 10438,
+    "yieldLine": "SERVES 15 (YIELDS 30 COOKIES)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

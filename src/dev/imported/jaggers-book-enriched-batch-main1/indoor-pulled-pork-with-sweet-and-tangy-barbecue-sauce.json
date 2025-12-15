@@ -1,0 +1,240 @@
+{
+  "mapped": {
+    "id": "atk_indoor-pulled-pork-with-sweet-and-tangy-barbecue-sauce",
+    "name": "Indoor Pulled Pork with Sweet and Tangy Barbecue Sauce",
+    "slug": "indoor-pulled-pork-with-sweet-and-tangy-barbecue-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 330,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-for-brining",
+        "displayName": "table salt for brining",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "sugar-for-brining",
+        "displayName": "sugar for brining",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-liquid-smoke-divided",
+        "displayName": "plus 2 teaspoons liquid smoke, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-pork-butt-roast-cut-in-half-horizontally",
+        "displayName": "boneless pork butt roast, cut in half horizontally",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "yellow-mustard",
+        "displayName": "yellow mustard",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "smoked-paprika",
+        "displayName": "smoked paprika",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "light-or-mild-molasses",
+        "displayName": "light or mild molasses",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "hot sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine pork",
+        "durationMinutes": 120,
+        "type": "MARINATE"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PORK: Dissolve 1 cup salt, 1/2 cup sugar, and 3 tablespoons liquid smoke in 1 gallon cold water in large container. Submerge pork in brine, cover with plastic wrap, and refrigerate for 2 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While pork brines, combine mustard and remaining 2 teaspoons liquid smoke in small bowl; set aside. Combine pepper, paprika, sugar, salt, and cayenne in second small bowl; set aside. Adjust oven rack to lower-middle position and heat oven to 325 degrees."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove pork from brine and dry thoroughly with paper towels. Rub mustard mixture over entire surface of each piece of pork. Sprinkle entire surface of each piece with spice mixture. Place pork on wire rack set in aluminum foil–lined rimmed baking sheet. Place piece of parchment paper over pork, then cover with sheet of foil, sealing edges to prevent moisture from escaping. Roast pork for 3 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove pork from oven; discard foil and parchment. Carefully pour off liquid in bottom of baking sheet into fat separator and reserve for sauce. Return pork to oven and cook, uncovered, until well browned, tender, and center of roast registers 200 degrees, about 11/2 hours. Transfer pork to serving dish, tent with foil, and let rest for 20 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE SAUCE: While pork rests, pour 1/2 cup defatted cooking liquid from fat separator into medium bowl; whisk in sauce ingredients."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using 2 forks, shred pork into bite-size pieces. Toss with 1 cup sauce and season with salt and pepper to taste. Serve, passing remaining sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 39714,
+    "end": 39776,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

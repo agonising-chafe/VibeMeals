@@ -1,0 +1,169 @@
+{
+  "mapped": {
+    "id": "atk_barbecued-baby-back-ribs",
+    "name": "Barbecued Baby Back Ribs",
+    "slug": "barbecued-baby-back-ribs",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 270,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "racks-baby-back-or-loin-back-ribs-trimmed-membrane-removed",
+        "displayName": "racks baby back or loin back ribs, trimmed, membrane removed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-2-teaspoon-paprika",
+        "displayName": "plus 1/2 teaspoon paprika",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-powder",
+        "displayName": "chili powder",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-pepper",
+        "displayName": "white pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine ribs",
+        "durationMinutes": 60,
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Spice rub",
+        "durationMinutes": 30,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 1/2 cup salt and granulated sugar in 4 quarts cold water in a large bowl or container. Submerge ribs in brine, cover, and refrigerate for 1 hour. Remove ribs from brine and pat dry with paper towels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine paprika, cumin, chili powder, brown sugar, white pepper, 3/4 teaspoon salt, 3/4 teaspoon pepper, oregano, and cayenne in a small bowl. Rub each rack with 1 tablespoon of spice rub and refrigerate for 30 minutes. Using large piece of heavy-duty aluminum foil, wrap soaked chips in foil packet and cut several vent holes in top."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place ribs on cooler side of grill and cook for 2 hours, covered, until grill temperature drops to about 250 degrees, flipping, switching, and rotating ribs every 30 minutes so that rack that was nearest fire is on outside. Add 10 fresh briquettes to pile of coals (if using charcoal). Cover and continue to cook (grill temperature should register 275 to 300 degrees on grill thermometer), flipping, switching, and rotating ribs every 30 minutes, until meat easily pulls away from bone, 11/2 to 2 hours longer. Transfer ribs to cutting board, cut between bones to separate ribs, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 52669,
+    "end": 52715,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

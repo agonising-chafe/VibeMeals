@@ -1,0 +1,192 @@
+{
+  "mapped": {
+    "id": "atk_peruvian-roast-chicken-with-garlic-and-lime",
+    "name": "Peruvian Roast Chicken with Garlic and Lime",
+    "slug": "peruvian-roast-chicken-with-garlic-and-lime",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "BLENDER",
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 3,
+      "yieldText": "SERVES 3 to 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fresh-mint-leaves",
+        "displayName": "fresh mint leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-chopped-coarse",
+        "displayName": "cloves, chopped coarse",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smoked-paprika",
+        "displayName": "smoked paprika",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-grated-lime-zest-plus-1-4-cup-juice-2-limes",
+        "displayName": "finely grated lime zest plus 1/4 cup juice (2 limes)",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-habanero-chile",
+        "displayName": "minced habanero chile",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken-giblets-discarded",
+        "displayName": "(31/2- to 4-pound) whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spicy-mayonnaise",
+        "displayName": "Spicy Mayonnaise",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Marinate chicken in paste",
+        "durationMinutes": 360,
+        "criticality": "CRITICAL",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Process mint, oil, garlic, salt, pepper, cumin, sugar, paprika, oregano, lime zest and juice, and habanero in blender until smooth paste forms, 10 to 20 seconds. Use your fingers to gently loosen skin covering breast and thighs; place half of paste under skin, directly on meat of breast and thighs. Gently press on skin to distribute paste over meat. Spread entire exterior surface of chicken with remaining paste. Tuck wings behind back. Place chicken in 1-gallon zipper-lock bag and refrigerate for at least 6 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lowest position and heat oven to 325 degrees. Place vertical roaster on rimmed baking sheet. Slide chicken onto vertical roaster so drumsticks reach down to bottom of roaster, chicken stands upright, and breast is perpendicular to bottom of pan. Roast chicken until skin just begins to turn golden and thickest part of breast registers 140 degrees, 45 to 55 minutes. Carefully remove chicken and pan from oven and increase oven temperature to 500 degrees."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Once oven has reached 500 degrees, place 1 cup water in bottom of baking sheet and continue to roast until entire chicken skin is browned and crisp, breast registers 160 degrees, and thighs register 175 degrees, about 20 minutes, rotating pan halfway through roasting. Check chicken halfway through roasting; if top is becoming too dark, place 7-inch square piece of aluminum foil over neck and wingtips of chicken and continue to roast (if pan begins to smoke and sizzle, add additional water to pan)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Carefully remove chicken from oven and let rest, still on vertical roaster, for 20 minutes. Using 2 large wads of paper towels, carefully lift chicken off vertical roaster and onto carving board. Carve chicken and serve, passing spicy mayonnaise separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27445,
+    "end": 27493,
+    "yieldLine": "SERVES 3 to 4"
+  },
+  "fit": true
+}

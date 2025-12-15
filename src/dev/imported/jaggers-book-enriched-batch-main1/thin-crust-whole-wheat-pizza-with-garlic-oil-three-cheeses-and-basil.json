@@ -1,0 +1,282 @@
+{
+  "mapped": {
+    "id": "atk_thin-crust-whole-wheat-pizza-with-garlic-oil-three-cheeses-and-basil",
+    "name": "Thin-Crust Whole-Wheat Pizza with Garlic Oil, Three Cheeses, and Basil",
+    "slug": "thin-crust-whole-wheat-pizza-with-garlic-oil-three-cheeses-and-basil",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "SHEET_PAN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES two 13-inch pizzas",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "81-4-ounces-whole-wheat-flour",
+        "displayName": "(81/4 ounces) whole-wheat flour",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "51-2-ounces-bread-flour",
+        "displayName": "(51/2 ounces) bread flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ice-water",
+        "displayName": "ice water",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARLIC OIL"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARLIC OIL"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-patted-dry-and-minced-optional",
+        "displayName": "anchovy fillets, rinsed, patted dry, and minced (optional)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "GARLIC OIL",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARLIC OIL"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARLIC OIL"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARLIC OIL"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARLIC OIL"
+      },
+      {
+        "ingredientId": "fresh-basil-leaves",
+        "displayName": "fresh basil leaves",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecorino-romano-cheese-grated-1-2-cup",
+        "displayName": "Pecorino Romano cheese, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk-mozzarella-cheese-shredded-2-cups",
+        "displayName": "whole-milk mozzarella cheese, shredded (2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "3-4-cup-whole-milk-ricotta-cheese",
+        "displayName": "(3/4 cup) whole-milk ricotta cheese",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 1080,
+        "description": "Refrigerate dough for at least 18 hours or up to 2 days.",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "durationMinutes": 60,
+        "description": "Let dough stand for 1 hour before baking.",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Process whole-wheat flour, bread flour, honey, and yeast in food processor until combined, about 2 seconds. With processor running, add water and process until dough is just combined and no dry flour remains, about 10 seconds. Let dough stand for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add oil and salt to dough and process until it forms satiny, sticky ball that clears sides of workbowl, 45 to 60 seconds. Remove from bowl and knead on oiled countertop until smooth, about 1 minute. Shape dough into tight ball and place in large, lightly oiled bowl. Cover tightly with plastic wrap and refrigerate for at least 18 hours or up to 2 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE GARLIC OIL: Heat oil in 8-inch skillet over medium-low heat until shimmering. Add garlic; anchovies, if using; pepper; oregano; pepper flakes; and salt. Cook, stirring constantly, until fragrant, about 30 seconds. Transfer to bowl and let cool completely before using."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "One hour before baking pizza, adjust oven rack 41/2 inches from broiler element, set pizza stone on rack, and heat oven to 500 degrees. Divide dough in half. Shape each half into smooth, tight ball. Place balls on lightly oiled baking sheet, spacing them at least 3 inches apart. Cover loosely with plastic coated with vegetable oil spray; let stand for 1 hour."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat broiler for 10 minutes. Meanwhile, coat 1 ball of dough generously with flour and place on well-floured countertop. Using your fingertips, gently flatten into 8-inch disk, leaving 1 inch of outer edge slightly thicker than center. Lift edge of dough and, using back of your hands and knuckles, gently stretch disk into 12-inch round, working along edges and giving disk quarter turns as you stretch. Transfer dough to well-floured peel and stretch into 13-inch round. Using back of spoon, spread half of garlic oil over surface of dough, leaving 1/4-inch border. Layer 1/2 cup basil leaves over pizza. Sprinkle with 1/4 cup Pecorino, followed by 1 cup mozzarella. Slide pizza carefully onto stone and return oven to 500 degrees. Bake until crust is well browned and cheese is bubbly and partially browned, 8 to 10 minutes, rotating pizza halfway through baking. Remove pizza and place on wire rack. Dollop half of ricotta over surface of pizza. Let pizza rest for 5 minutes, slice, and serve."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Heat broiler for 10 minutes. Repeat process of stretching, topping, and baking with remaining dough and toppings, returning oven to 500 degrees when pizza is placed on stone."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 66855,
+    "end": 66925,
+    "yieldLine": "MAKES two 13-inch pizzas"
+  },
+  "fit": true
+}

@@ -1,0 +1,139 @@
+{
+  "mapped": {
+    "id": "atk_pai-huang-gua-smashed-cucumbers",
+    "name": "Pai Huang Gua (Smashed Cucumbers)",
+    "slug": "pai-huang-gua-smashed-cucumbers",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "english-cucumbers",
+        "displayName": "English cucumbers",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-for-salting-cucumbers",
+        "displayName": "Kosher salt for salting cucumbers",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "chinese-black-vinegar",
+        "displayName": "Chinese black vinegar",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced-to-paste",
+        "displayName": "garlic, minced to paste",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-seeds-toasted",
+        "displayName": "sesame seeds, toasted",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Trim and discard ends from cucumbers. Cut cucumbers crosswise into 3 equal lengths. Place pieces in large zipper-lock bag and seal bag. Using small skillet or rolling pin, firmly but gently smash cucumbers until flattened and split lengthwise into 3 or 4 spears. Tear spears into rough 1- to 11/2-inch pieces and transfer to colander set in large bowl. Toss pieces with 11/2 teaspoons salt and let stand for at least 15 minutes or up to 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While cucumber sits, whisk vinegar and garlic together in small bowl; let stand at least 5 minutes or up to 15 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Whisk soy sauce, sesame oil, and sugar into vinegar mixture until sugar has dissolved. Transfer cucumber pieces to medium bowl and discard any extracted liquid. Add dressing and sesame seeds to cucumbers and toss to combine. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 13879,
+    "end": 13919,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

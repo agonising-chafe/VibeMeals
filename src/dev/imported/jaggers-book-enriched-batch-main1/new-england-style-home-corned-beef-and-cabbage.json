@@ -1,0 +1,183 @@
+{
+  "mapped": {
+    "id": "atk_new-england-style-home-corned-beef-and-cabbage",
+    "name": "New England–Style Home-Corned Beef and Cabbage",
+    "slug": "new-england-style-home-corned-beef-and-cabbage",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cracked-black-peppercorns",
+        "displayName": "cracked black peppercorns",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "displayName": "dried thyme",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-allspice",
+        "displayName": "ground allspice",
+        "amount": 2.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves-crumbled",
+        "displayName": "bay leaves, crumbled",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "4-to-5-pound-beef-brisket-flat-cut-trimmed",
+        "displayName": "(4- to 5-pound) beef brisket, flat cut, trimmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-halved-crosswise-thick-end-halved-lengthwise",
+        "displayName": "carrots, peeled and halved crosswise, thick end halved lengthwise",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-potatoes",
+        "displayName": "small red potatoes",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-rutabaga-1-pound-peeled-and-halved-crosswise-each-half-cut-into-6-chunks",
+        "displayName": "small rutabaga (1 pound), peeled and halved crosswise; each half cut into 6 chunks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-head-green-cabbage-2-pounds-uncored-cut-into-8-wedges",
+        "displayName": "small head green cabbage (2 pounds), uncored, cut into 8 wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Cure the brisket",
+        "durationMinutes": 10080,
+        "details": "Combine salt, peppercorns, thyme, allspice, paprika, and bay leaves in bowl. Using metal skewer, poke about 30 holes on each side of brisket. Rub each side evenly with salt mixture. Place brisket in 2-gallon zipper-lock bag, forcing out as much air as possible. Place in 13 by 9-inch baking dish, cover with second, similar-size pan, and weight with 2 bricks or heavy cans of similar weight. Refrigerate for 5 to 7 days, turning once a day.",
+        "kind": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CORNED BEEF: Combine salt, peppercorns, thyme, allspice, paprika, and bay leaves in bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using metal skewer, poke about 30 holes on each side of brisket. Rub each side evenly with salt mixture. Place brisket in 2-gallon zipper-lock bag, forcing out as much air as possible. Place in 13 by 9-inch baking dish, cover with second, similar-size pan, and weight with 2 bricks or heavy cans of similar weight. Refrigerate for 5 to 7 days, turning once a day."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Rinse brisket and pat it dry. Place brisket in Dutch oven and cover brisket with water by 1 inch. Bring to boil over high heat, skimming any scum that rises to surface. Reduce heat to medium-low, cover, and simmer until skewer inserted in thickest part of brisket slides in and out with ease, 2 to 3 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Adjust oven rack to middle position and heat oven to 200 degrees. Transfer meat to large platter, ladle 1 cup cooking liquid over meat, cover with aluminum foil, and place in oven to keep warm."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE VEGETABLES: Add carrots, potatoes, and rutabaga to Dutch oven and bring to a boil over high heat. Reduce heat to medium-low, cover, and simmer until vegetables begin to soften, about 7 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Add cabbage, increase heat to high and return to boil. Reduce heat to medium-low, cover, and simmer until all vegetables are tender, 13 to 18 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Meanwhile, remove meat from oven, transfer to carving board, and slice against grain into 1/4-inch slices. Return meat to platter. Transfer vegetables to meat platter, moisten with additional broth, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 35531,
+    "end": 35585,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

@@ -1,0 +1,137 @@
+{
+  "mapped": {
+    "id": "atk_chocolate-hazelnut-spread",
+    "name": "Chocolate Hazelnut Spread",
+    "slug": "chocolate-hazelnut-spread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 11/2 cups",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "hazelnuts",
+        "displayName": "hazelnuts",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "4-ounces-confectioners-sugar",
+        "displayName": "(4 ounces) confectioners’ sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-ounce-unsweetened-cocoa-powder",
+        "displayName": "(1 ounce) unsweetened cocoa powder",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hazelnut-oil",
+        "displayName": "hazelnut oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Fill large bowl halfway with ice and water. Bring 4 cups water to boil. Add hazelnuts and baking soda and boil for 3 minutes. Transfer nuts to ice bath with slotted spoon, drain, and slip skins off with dish towel."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to middle position and heat oven to 375 degrees. Place hazelnuts in single layer on rimmed baking sheet and roast until fragrant and golden brown, 12 to 15 minutes, rotating sheet halfway through roasting."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Process hazelnuts in food processor until oil is released and smooth, loose paste forms, about 5 minutes, scraping down sides of bowl often."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add sugar, cocoa, oil, vanilla, and salt and process until fully incorporated and mixture begins to loosen slightly and becomes glossy, about 2 minutes, scraping down sides of bowl as needed."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer spread to jar with tight-fitting lid. Chocolate hazelnut spread can be stored at room temperature or refrigerated for up to 1 month."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 6358,
+    "end": 6400,
+    "yieldLine": "MAKES 11/2 cups"
+  },
+  "fit": true
+}

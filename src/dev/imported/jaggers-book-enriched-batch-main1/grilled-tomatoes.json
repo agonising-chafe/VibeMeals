@@ -1,0 +1,88 @@
+{
+  "mapped": {
+    "id": "atk_grilled-tomatoes",
+    "name": "Grilled Tomatoes",
+    "slug": "grilled-tomatoes",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 2 cups",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "ripe-tomatoes-cored-and-halved-along-equator",
+        "displayName": "ripe tomatoes, cored and halved along equator",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss tomatoes with oil, salt, and pepper in large bowl. Let stand for at least 15 minutes or up to 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean and oil cooking grate. Place tomatoes, cut sides down, on grill (reserve any juice left behind in bowl) and cook (covered if using gas) until tomatoes are charred and beginning to soften, 4 to 6 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using tongs or thin metal spatula, carefully flip tomatoes and continue to cook (covered if using gas) until skin sides are charred and juice bubbles, 4 to 6 minutes longer. Transfer tomatoes to large plate. (Tomatoes can be refrigerated for up to 2 days.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56458,
+    "end": 56490,
+    "yieldLine": "MAKES about 2 cups"
+  },
+  "fit": true
+}

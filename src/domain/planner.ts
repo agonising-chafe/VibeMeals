@@ -17,6 +17,7 @@ import {
   Allergen,
 } from './types';
 import { detectPreflightStatus } from './preflight';
+import { getAccompanimentsForRecipe } from './accompaniments';
 
 // ============================================================================
 // Week Shape Defaults (from vision.md §5.2)
@@ -287,13 +288,18 @@ function distributeRecipesToDays(
   
   // Helper to create dinner with preflight detection
   // Uses the passed servings parameter (plan-time override)
-  const createDinner = (recipe: Recipe, date: IsoDate): PlannedDinner => ({
-    recipeId: recipe.id,
-    servings,
-    locked: false,
-    outEating: false,
-    preflightStatus: detectPreflightStatus(recipe, date),
-  });
+  const createDinner = (recipe: Recipe, date: IsoDate): PlannedDinner => {
+    // Attach accompaniments if available for this main
+    const accompaniments = getAccompanimentsForRecipe(recipe.id);
+    return {
+      recipeId: recipe.id,
+      servings,
+      locked: false,
+      outEating: false,
+      preflightStatus: detectPreflightStatus(recipe, date),
+      ...(accompaniments.length > 0 ? { accompaniments } : {}),
+    };
+  };
   
   // Assign PROJECT recipes to weekend first
   for (const day of weekends) {

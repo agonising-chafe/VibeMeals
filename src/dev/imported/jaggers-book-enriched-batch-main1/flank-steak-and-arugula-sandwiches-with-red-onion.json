@@ -1,0 +1,121 @@
+{
+  "mapped": {
+    "id": "atk_flank-steak-and-arugula-sandwiches-with-red-onion",
+    "name": "Flank Steak and Arugula Sandwiches with Red Onion",
+    "slug": "flank-steak-and-arugula-sandwiches-with-red-onion",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "flank-steak-trimmed-of-excess-fat-and-patted-dry-with-paper-towels",
+        "displayName": "flank steak, trimmed of excess fat and patted dry with paper towels",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baguette-cut-into-four-5-inch-lengths-each-piece-split-into-top-and-bottom-pieces",
+        "displayName": "baguette, cut into four 5-inch lengths, each piece split into top and bottom pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-garlic-soy-mayonnaise-recipe-follows",
+        "displayName": "recipe Garlic-Soy Mayonnaise (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "small-red-onion-sliced-thin",
+        "displayName": "small red onion, sliced thin",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "arugula-stemmed-washed-and-dried-about-3-cups",
+        "displayName": "arugula, stemmed, washed, and dried (about 3 cups)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat a 12-inch skillet over high heat until very hot, about 4 minutes. While the skillet is heating, season the steak generously with salt and pepper. Add the oil to the pan and swirl to coat the bottom. Lay the steak in the pan and cook without moving it until well browned, about 5 minutes. Using tongs, flip the steak; cook until well browned on the second side, about 5 minutes longer. Transfer the steak to a carving board, tent with foil, and let rest for 10 minutes. Cut the steak into 1/4-inch slices on the bias against the grain."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Spread each baguette piece with 1 tablespoon mayonnaise; portion the steak over the bottom pieces of the bread and sprinkle with salt and pepper to taste. Evenly divide the onion and arugula over the steak; top each with a baguette piece and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 33714,
+    "end": 33746,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

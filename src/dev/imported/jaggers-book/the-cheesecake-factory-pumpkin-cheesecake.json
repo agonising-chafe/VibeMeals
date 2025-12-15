@@ -1,0 +1,254 @@
+{
+  "mapped": {
+    "id": "atk_the-cheesecake-factory-pumpkin-cheesecake",
+    "name": "The Cheesecake Factory Pumpkin Cheesecake",
+    "slug": "the-cheesecake-factory-pumpkin-cheesecake",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "while-the-cheesecake-factory-is-famous-for-all-kinds-of-cheesecakes-this-seasonal-cheesecake-is-always-highly-anticipated-by-pumpkin-spice-lovers-it-is-so-popular-its-return-often-makes-the-news",
+        "displayName": "While The Cheesecake Factory is famous for all kinds of cheesecakes, this seasonal cheesecake is always highly anticipated by pumpkin spice lovers. It is so popular its return often makes the news!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-graham-cracker-crumbs",
+        "displayName": "½ cups graham cracker crumbs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-tablespoon-granulated-sugar-divided",
+        "displayName": "plus 1 tablespoon granulated sugar, divided",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "softened-packages-cream-cheese",
+        "displayName": "softened packages cream cheese",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "canned-pumpkin",
+        "displayName": "canned pumpkin",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-cinnamon",
+        "displayName": "½ teaspoon ground cinnamon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-nutmeg",
+        "displayName": "¼ teaspoon ground nutmeg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-allspice",
+        "displayName": "¼ teaspoon allspice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whipped-cream-for-topping",
+        "displayName": "Whipped cream, for topping",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f",
+        "displayName": "Preheat oven to 350°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-graham-cracker-crumbs-butter-and-1-tablespoon-sugar-stir-well-enough-to-coat-all-crumbs-with-butter",
+        "displayName": "In a medium bowl, combine graham cracker crumbs, butter, and 1 tablespoon sugar. Stir well enough to coat all crumbs with butter.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "press-crumbs-onto-bottom-and-about-two-thirds-of-the-way-up-sides-of-an-ungreased-9-inch-pie-pan-bake-crust-5-minutes-set-aside",
+        "displayName": "Press crumbs onto bottom and about two-thirds of the way up sides of an ungreased 9-inch pie pan. Bake crust 5 minutes. Set aside.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-mixing-bowl-combine-cream-cheese-remaining-sugar-and-vanilla-mix-with-an-electric-mixer-until-smooth",
+        "displayName": "In a large mixing bowl, combine cream cheese, remaining sugar, and vanilla. Mix with an electric mixer until smooth.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-pumpkin-eggs-cinnamon-nutmeg-and-allspice-and-continue-to-beat-until-smooth-and-creamy",
+        "displayName": "Add pumpkin, eggs, cinnamon, nutmeg, and allspice and continue to beat until smooth and creamy.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-filling-over-crust-bake-60-70-minutes-until-top-of-filling-darkens-a-bit-remove-from-oven-and-allow-cheesecake-to-cool",
+        "displayName": "Pour filling over crust. Bake 60–70 minutes until top of filling darkens a bit. Remove from oven and allow cheesecake to cool.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "once-cheesecake-has-come-to-room-temperature-place-in-refrigerator",
+        "displayName": "Once cheesecake has come to room temperature, place in refrigerator.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "serve-with-a-generous-portion-of-whipped-cream-on-top",
+        "displayName": "Serve with a generous portion of whipped cream on top.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-cheesecake-factory-has-over-300-restaurants-and-boasts-more-than-200-items-on-the-menu-there-are-over-thirty-different-cheesecake-varieties-on-their-website-available-for-pickup-or-delivery",
+        "displayName": "The Cheesecake Factory has over 300 restaurants and boasts more than 200 items on the menu. There are over thirty different cheesecake varieties on their website, available for pickup or delivery.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9855,
+    "end": 9915,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

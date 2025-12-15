@@ -1,0 +1,168 @@
+{
+  "mapped": {
+    "id": "atk_tandoori-chicken",
+    "name": "Tandoori Chicken",
+    "slug": "tandoori-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-tablespoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 tablespoons)",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-or-grated-fresh-ginger",
+        "displayName": "minced or grated fresh ginger",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garam-masala",
+        "displayName": "garam masala",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-powder",
+        "displayName": "chili powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-whole-milk-yogurt",
+        "displayName": "plain whole-milk yogurt",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "juice-from-2-limes-plus-1-lime-cut-into-wedges-for-serving",
+        "displayName": "juice from 2 limes, plus 1 lime, cut into wedges (for serving)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-skin-on-chicken-pieces-split-breasts-cut-in-half-drumsticks-and-or-thighs-trimmed-and-skin-removed",
+        "displayName": "bone-in, skin-on chicken pieces (split breasts cut in half, drumsticks, and/or thighs), trimmed and skin removed",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat the oil in an 8-inch skillet over medium heat until shimmering. Add the garlic and ginger and cook until fragrant, about 1 minute. Stir in the garam masala, cumin, and chili powder and cook until fragrant, about 30 seconds. Transfer half of the garlic-spice mixture to a medium bowl, stir in the yogurt and 2 tablespoons of the lime juice, and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "In a large bowl, combine the remaining garlic-spice mixture, remaining 2 tablespoons lime juice, and salt. Using a sharp knife, lightly score the skin side of each piece of chicken, making two or three shallow cuts about 1 inch apart and about 1/8 inch deep. Transfer the chicken to the bowl and gently rub with the salt-spice mixture until evenly coated. Let sit at room temperature for 30 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust an oven rack to the upper-middle position (about 6 inches from the heating element) and heat the oven to 325 degrees. Set a wire rack over a foil-lined rimmed baking sheet or broiler pan bottom."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Pour the yogurt mixture over the chicken and toss until the chicken is evenly coated with a thick layer. Arrange the chicken pieces, scored side down, on the prepared wire rack. Discard the excess yogurt mixture. Bake the chicken until an instant-read thermometer inserted into the thickest part of the chicken registers 125 degrees for breasts and 130 degrees for legs and thighs, 15 to 25 minutes. (Smaller pieces may cook faster than larger pieces.) Transfer the chicken to a plate."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Turn the oven to broil and heat for 10 minutes. Flip the chicken pieces scored side up and broil until lightly charred in spots and the thickest part of the breasts registers 165 degrees and the thickest part of the legs and thighs registers 175 degrees, 8 to 15 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer the chicken to a serving platter, tent loosely with foil, and let rest for 5 minutes. Serve with the lime wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26463,
+    "end": 26513,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

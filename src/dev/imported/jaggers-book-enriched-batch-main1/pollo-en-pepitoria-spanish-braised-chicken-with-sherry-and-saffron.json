@@ -1,0 +1,215 @@
+{
+  "mapped": {
+    "id": "atk_pollo-en-pepitoria-spanish-braised-chicken-with-sherry-and-saffron",
+    "name": "Pollo en Pepitoria (Spanish Braised Chicken with Sherry and Saffron)",
+    "slug": "pollo-en-pepitoria-spanish-braised-chicken-with-sherry-and-saffron",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-to-7-ounce-bone-in-chicken-thighs-trimmed",
+        "displayName": "(5- to 7-ounce) bone-in chicken thighs, trimmed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-sherry",
+        "displayName": "dry sherry",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes-drained-and-chopped-fine",
+        "displayName": "can whole peeled tomatoes, drained and chopped fine",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hard-cooked-large-eggs-peeled-and-yolks-and-whites-separated",
+        "displayName": "hard-cooked large eggs, peeled and yolks and whites separated",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "slivered-blanched-almonds-toasted",
+        "displayName": "slivered blanched almonds, toasted",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "pinch-saffron-threads-crumbled",
+        "displayName": "Pinch saffron threads, crumbled",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pat thighs dry with paper towels and season both sides of each with 1 teaspoon salt and 1/2 teaspoon pepper. Heat oil in 12-inch skillet over high heat until just smoking. Add thighs and brown on both sides, 10 to 12 minutes. Transfer thighs to large plate and pour off all but 2 teaspoons fat from skillet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return skillet to medium heat, add onion and 1/4 teaspoon salt, and cook, stirring frequently, until just softened, about 3 minutes. Add 2 teaspoons garlic, bay leaf, and cinnamon and cook until fragrant, about 1 minute. Add sherry and cook, scraping up any browned bits, until sauce starts to thicken, about 2 minutes. Stir in broth and tomatoes and bring to simmer. Return thighs to skillet, cover, transfer to oven, and cook until chicken registers 195 degrees, 45 to 50 minutes. Transfer thighs to serving platter, remove and discard skin, and cover loosely with aluminum foil to keep warm. While thighs cook, finely chop egg whites."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Discard bay leaf. Transfer 3/4 cup chicken cooking liquid, egg yolks, almonds, saffron, and remaining garlic to blender. Process until smooth, about 2 minutes, scraping down jar as needed. Return almond mixture to skillet. Add 1 tablespoon parsley and lemon juice; bring to simmer over medium heat. Simmer, whisking frequently, until thickened, 3 to 5 minutes. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Pour sauce over chicken, sprinkle with remaining 1 tablespoon parsley and egg whites, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 24810,
+    "end": 24864,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

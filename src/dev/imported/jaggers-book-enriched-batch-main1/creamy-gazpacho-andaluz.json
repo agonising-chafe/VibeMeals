@@ -1,0 +1,190 @@
+{
+  "mapped": {
+    "id": "atk_creamy-gazpacho-andaluz",
+    "name": "Creamy Gazpacho Andaluz",
+    "slug": "creamy-gazpacho-andaluz",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "about-6-medium-ripe-tomatoes-cored",
+        "displayName": "(about 6 medium) ripe tomatoes, cored",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-cucumber-peeled-halved-and-seeded",
+        "displayName": "small cucumber, peeled, halved, and seeded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-green-bell-pepper-halved-cored-and-seeded",
+        "displayName": "medium green bell pepper, halved, cored, and seeded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-onion-peeled-and-halved",
+        "displayName": "small red onion, peeled and halved",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-peeled-and-quartered",
+        "displayName": "medium garlic cloves, peeled and quartered",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-serrano-chile-stemmed-and-halved-lengthwise",
+        "displayName": "small serrano chile, stemmed and halved lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "Kosher salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-crust-removed-torn-into-1-inch-pieces",
+        "displayName": "high-quality white sandwich bread, crust removed, torn into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-serving",
+        "displayName": "extra-virgin olive oil, plus extra for serving",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sherry-vinegar-plus-extra-for-serving",
+        "displayName": "sherry vinegar, plus extra for serving",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-minced-parsley-chives-or-basil-leaves",
+        "displayName": "finely minced parsley, chives, or basil leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 120,
+        "description": "Refrigerate overnight or for at least 2 hours to chill completely and develop the flavors.",
+        "instruction": "Cover and refrigerate overnight or for at least 2 hours",
+        "type": "LONG_PREP"
+      },
+      {
+        "durationMinutes": 60,
+        "description": "Strain diced vegetables for 1 hour.",
+        "instruction": "Set aside for 1 hour",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Roughly chop 2 pounds of the tomatoes, half of the cucumber, half of the bell pepper, and half of the onion and place in a large bowl. Add the garlic, chile, and 11/2 teaspoons salt; toss until well combined. Set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cut the remaining tomatoes, cucumber, and pepper into 1/4-inch dice; place the vegetables in a medium bowl. Mince the remaining onion and add to the diced vegetables. Toss with 1/2 teaspoon salt and transfer to a fine-mesh strainer set over a medium bowl. Set aside for 1 hour."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer the drained diced vegetables to a medium bowl and set aside. Add the bread pieces to the exuded liquid (there should be about 1/4 cup) and soak for 1 minute. Add the soaked bread and any remaining liquid to the roughly chopped vegetables and toss thoroughly to combine."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer half of the vegetable-bread mixture to a blender and process for 30 seconds. With the blender running, slowly drizzle in 1/4 cup of the oil and continue to blend until completely smooth, about 2 minutes. Strain the soup through a fine-mesh strainer into a large bowl, using the back of a ladle or rubber spatula to press the soup through the strainer. Repeat with the remaining vegetable-bread mixture and 1/4 cup more olive oil."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Stir the vinegar, parsley, and half of the diced vegetables into the soup and season with salt and pepper to taste. Cover and refrigerate overnight or for at least 2 hours to chill completely and develop the flavors. Serve, passing the remaining diced vegetables, olive oil, vinegar, and pepper separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10870,
+    "end": 10922,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_ihop-colorado-omelette",
+    "name": "IHOP Colorado Omelette",
+    "slug": "ihop-colorado-omelette",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "although-ihop-is-famous-for-its-pancakes-waffles-and-crepes-they-offer-a-variety-of-egg-dishes-including-eight-different-types-of-omelettes-even-a-build-your-own-option-the-colorado-is-the-best-omelette-for-meat-lovers-serve-garnished-with-green-onions-and-salsa",
+        "displayName": "Although IHOP is famous for its pancakes, waffles, and crepes, they offer a variety of egg dishes including eight different types of omelettes—even a build-your-own option. The Colorado is the best omelette for meat lovers. Serve garnished with green onions and salsa.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-yellow-onion",
+        "displayName": "¼ cup diced yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-green-pepper",
+        "displayName": "¼ cup diced green pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-water",
+        "displayName": "⅛ cup water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-tomatoes",
+        "displayName": "¼ cup diced tomatoes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cooked-and-diced-bacon",
+        "displayName": "¼ cup cooked and diced bacon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cooked-and-diced-ham",
+        "displayName": "¼ cup cooked and diced ham",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cooked-and-sliced-breakfast-sausage-links",
+        "displayName": "¼ cup cooked and sliced breakfast sausage links",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-deli-roast-beef",
+        "displayName": "¼ cup diced deli roast beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-medium-cheddar-cheese-divided",
+        "displayName": "¾ cup shredded medium Cheddar cheese, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-add-butter-once-butter-is-melted-add-onion-and-pepper-to-skillet-saut-until-tender-about-5-minutes-remove-from-skillet-and-reserve",
+        "displayName": "In a 10-inch skillet over medium heat, add butter. Once butter is melted, add onion and pepper to skillet. Sauté until tender, about 5 minutes. Remove from skillet and reserve.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-mixing-bowl-add-water-eggs-and-salt-stir-and-beat-well",
+        "displayName": "In a medium mixing bowl, add water, eggs, and salt. Stir and beat well.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "return-skillet-to-medium-heat-add-egg-mixture-and-cook-1-minute-then-using-a-spatula-draw-edges-of-eggs-into-center-and-tilt-pan-to-let-uncooked-eggs-run-to-edges-of-pan-continue-until-eggs-are-set",
+        "displayName": "Return skillet to medium heat. Add egg mixture and cook 1 minute, then using a spatula, draw edges of eggs into center and tilt pan to let uncooked eggs run to edges of pan. Continue until eggs are set.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-cooked-onions-and-pepper-tomatoes-and-all-meats-plus-cup-cheese-fold-omelette-in-half-and-top-with-remaining-cheese-serve-immediately",
+        "displayName": "Add cooked onions and pepper, tomatoes, and all meats plus ½ cup cheese. Fold omelette in half and top with remaining cheese. Serve immediately.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1319,
+    "end": 1369,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,282 @@
+{
+  "mapped": {
+    "id": "atk_linzertorte",
+    "name": "Linzertorte",
+    "slug": "linzertorte",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DOUGH",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "hazelnuts-toasted-and-skinned",
+        "displayName": "hazelnuts, toasted and skinned",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-41-3-ounces-granulated-sugar",
+        "displayName": "plus 2 tablespoons (41/3 ounces) granulated sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "blanched-almonds",
+        "displayName": "blanched almonds",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "grated-lemon-zest",
+        "displayName": "grated lemon zest",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "71-2-ounces-all-purpose-flour",
+        "displayName": "(71/2 ounces) all-purpose flour",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "ground-allspice",
+        "displayName": "ground allspice",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-2-inch-pieces-and-chilled",
+        "displayName": "unsalted butter, cut into 1/2-inch pieces and chilled",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DOUGH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "raspberry-preserves",
+        "displayName": "raspberry preserves",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GLAZE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "turbinado-or-demerara-sugar-optional",
+        "displayName": "turbinado or demerara sugar (optional)",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Chill dough",
+        "description": "Refrigerate dough for up to 2 days. Let chilled dough sit at room temperature until soft and malleable, about 1 hour, before using.",
+        "durationMinutes": 60,
+        "startMinutesBeforeCooking": 1440,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TART DOUGH: Whisk egg and vanilla together in bowl. Process hazelnuts, sugar, almonds, and salt in food processor until very finely ground, 45 to 60 seconds. Add lemon zest and pulse to combine, about 5 pulses. Add flour, cinnamon, and allspice and pulse to combine, about 5 pulses. Scatter butter over top and pulse until mixture resembles coarse cornmeal, about 15 pulses. With processor running, add egg mixture and continue to process until dough just comes together, about 12 seconds longer."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer dough to counter and form into cohesive mound. Divide dough in half and form each half into 5-inch disk. (If not using immediately, wrap disks tightly in plastic wrap and refrigerate for up to 2 days. Let chilled dough sit at room temperature until soft and malleable, about 1 hour, before using.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Tear 1 disk into walnut-size pieces, then pat pieces into 11-inch tart pan with removable bottom, pressing dough into corners and 3/4 inch up sides of pan. Cover dough with plastic and smooth out any bumps using bottom of measuring cup. Set pan on large plate and freeze until firm, about 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Roll second disk into 12-inch square between 2 large sheets of floured parchment paper. (If dough sticks to parchment, gently loosen and lift sticky area with bench scraper and dust parchment with additional flour.) Slide dough, still between parchment, onto rimmed baking sheet and refrigerate until firm, about 15 minutes. Remove top layer of parchment and trim edges of dough to form perfect square, then cut ten 3/4-inch-wide strips, cutting through underlying parchment. Cover with parchment and freeze until dough is fully chilled and firm, about 20 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Meanwhile, adjust oven rack to middle position and heat oven to 350 degrees. Set dough-lined tart pan on rimmed baking sheet. Spray 1 side of double layer of aluminum foil with vegetable oil spray. Press foil, greased side down, into frozen tart shell, covering edges to prevent burning, and fill with pie weights. Bake until tart shell is golden brown and set, about 30 minutes, rotating sheet halfway through baking. Remove foil and weights, transfer sheet to wire rack, and let cool completely, about 1 hour."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE FILLING: Stir raspberry preserves and lemon juice together in bowl. Spread filling evenly over bottom of tart shell. Pick up 1 strip of dough by parchment ends, then flip it over onto tart, positioning it near edge of pan. Remove parchment strip and trim ends of dough strip by pressing down on top edge of pan; reserve all dough scraps. Place 2 more strips parallel to first, spacing them evenly so that one is across center and other is near opposite edge of pan. Rotate pan 90 degrees, then place 3 more strips, spacing as with first three. Rotate pan 90 degrees again, then place 2 strips across pan, spaced evenly between first three. Rotate pan again and complete lattice by placing last 2 strips between second set of three. Use small scraps of dough to fill in crust around edges between lattice strips. Top of crust should be just below top of pan."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Gently brush lattice strips with cream and sprinkle with sugar, if using. Bake on sheet until crust is deep golden brown, 40 to 45 minutes. Let tart cool completely on sheet on wire rack, about 2 hours. Remove outer ring of tart pan, slide thin metal spatula between tart and tart pan bottom, and carefully slide tart onto serving platter or cutting board. Serve or refrigerate overnight."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Pick up 1 strip of dough by parchment ends, then flip it over onto tart, positioning it near edge of pan. Remove parchment strip and trim ends of dough strip by pressing down on top edge of pan."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Place 2 more strips parallel to first, spacing them evenly so that one is across center and other is near opposite edge of pan."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Rotate pan 90 degrees, then place 3 more strips, spacing as with first three."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Rotate pan 90 degrees again, then place 2 strips across pan, spaced evenly between first three."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Rotate pan again and complete lattice by placing last 2 strips between second set of three."
+      },
+      {
+        "stepNumber": 13,
+        "instruction": "Use small scraps of dough to fill in crust around edges between lattice strips."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 79727,
+    "end": 79839,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

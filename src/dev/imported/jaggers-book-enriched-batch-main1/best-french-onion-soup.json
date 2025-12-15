@@ -1,0 +1,178 @@
+{
+  "mapped": {
+    "id": "atk_best-french-onion-soup",
+    "name": "Best French Onion Soup",
+    "slug": "best-french-onion-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter-cut-into-3-pieces",
+        "displayName": "unsalted butter, cut into 3 pieces",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "onions-halved-and-sliced-through-root-end-1-4-inch-thick",
+        "displayName": "onions, halved and sliced through root end 1/4 inch thick",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-divided-plus-extra-for-deglazing",
+        "displayName": "water, divided, plus extra for deglazing",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-sherry",
+        "displayName": "dry sherry",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme-tied-together-with-kitchen-twine",
+        "displayName": "sprigs fresh thyme, tied together with kitchen twine",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-baguette-cut-on-bias-into-1-2-inch-slices",
+        "displayName": "small baguette, cut on bias into 1/2-inch slices",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CROUTON"
+      },
+      {
+        "ingredientId": "gruy-re-cheese-shredded-2-cups",
+        "displayName": "Gruyère cheese, shredded (2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SOUP: Adjust oven rack to lower-middle position and heat oven to 400 degrees. Generously spray inside of large (at least 7-quart) Dutch oven with vegetable oil spray. Add butter, onions, and 1 teaspoon salt to pot. Cook, covered, for 1 hour (onions will be moist and slightly reduced in volume). Remove pot from oven and stir onions, scraping bottom and sides of pot. Return pot to oven with lid slightly ajar and continue to cook until onions are very soft and golden brown, 11/2 to 13/4 hours longer, stirring onions and scraping bottom and sides of pot after 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Carefully remove pot from oven and place over medium-high heat. Cook onions, stirring frequently and scraping bottom and sides of pot, until liquid evaporates and onions brown, 15 to 20 minutes, reducing heat to medium if onions are browning too quickly. Continue to cook, stirring frequently, until pot bottom is coated with dark crust, 6 to 8 minutes, adjusting heat as necessary. (Scrape any browned bits that collect on spoon back into onions.) Stir in 1/4 cup water, scraping pot bottom to loosen crust, and cook until water evaporates and pot bottom has formed another dark crust, 6 to 8 minutes. Repeat process of deglazing 2 or 3 more times, until onions are very dark brown. Stir in sherry and cook, stirring frequently, until sherry evaporates, about 5 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir in 2 cups water, chicken broth, beef broth, thyme sprigs, bay leaf, and remaining 1/2 teaspoon salt, scraping up any final bits of browned crust on bottom and sides of pot. Increase heat to high and bring to simmer. Reduce heat to low, cover, and simmer for 30 minutes. Discard thyme sprigs and bay leaf, then season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE CROUTONS: While soup simmers, heat oven to 400 degrees. Arrange baguette slices in single layer on rimmed baking sheet and bake until dry, crisp, and golden at edges, about 10 minutes. Set aside."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Adjust oven rack 6 inches from broiler element and heat broiler. Set individual broiler-safe crocks on baking sheet and fill each with about 13/4 cups of soup. Top each bowl with 1 or 2 baguette slices (do not overlap slices) and sprinkle evenly with Gruyère. Broil until cheese is melted and bubbly around edges, 3 to 5 minutes. Let cool for 5 minutes; serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10374,
+    "end": 10424,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

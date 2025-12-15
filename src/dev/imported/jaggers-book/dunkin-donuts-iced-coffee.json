@@ -1,0 +1,104 @@
+{
+  "mapped": {
+    "id": "atk_dunkin-donuts-iced-coffee",
+    "name": "Dunkin’ Donuts Iced Coffee",
+    "slug": "dunkin-donuts-iced-coffee",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dunkin-donuts-sells-about-2-billion-cups-of-coffee-each-year-and-iced-coffee-sells-more-than-hot-this-recipe-is-very-easy-to-make-and-the-simple-syrup-can-be-replaced-with-flavored-coffee-syrup-if-you-prefer",
+        "displayName": "Dunkin’ Donuts sells about 2 billion cups of coffee each year, and iced coffee sells more than hot. This recipe is very easy to make, and the simple syrup can be replaced with flavored coffee syrup if you prefer.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "simple-syrup",
+        "displayName": "simple syrup",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cold-coffee",
+        "displayName": "⅔ cup cold coffee",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whole-milk",
+        "displayName": "⅔ cup whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ice-cubes",
+        "displayName": "ice cubes",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-glass-add-simple-syrup-coffee-and-milk-stir-to-mix-well-add-ice-cubes-and-serve-immediately",
+        "displayName": "In a large glass, add simple syrup, coffee, and milk. Stir to mix well. Add ice cubes and serve immediately.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10970,
+    "end": 10996,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

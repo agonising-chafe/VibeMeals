@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_olive-garden-zuppa-toscana",
+    "name": "Olive Garden Zuppa Toscana",
+    "slug": "olive-garden-zuppa-toscana",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-is-a-wonderful-soup-you-can-make-at-home-and-is-one-of-the-most-requested-restaurant-copycat-recipes-from-olive-garden-if-you-don-t-have-or-don-t-like-kale-try-swiss-chard-in-this-recipe-instead-serve-with-some-fresh-crusty-italian-bread",
+        "displayName": "This is a wonderful soup you can make at home and is one of the most requested restaurant copycat recipes from Olive Garden. If you don’t have or don’t like kale, try Swiss chard in this recipe instead. Serve with some fresh crusty Italian bread.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "italian-sausage-crumbled",
+        "displayName": "Italian sausage, crumbled",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-thick-cut-smoked-bacon-chopped",
+        "displayName": "½ pound thick-cut smoked bacon, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-yellow-onion-peeled-and-chopped",
+        "displayName": "large yellow onion, peeled and chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-russet-potatoes-diced",
+        "displayName": "large russet potatoes, diced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cans-chicken-broth",
+        "displayName": "cans chicken broth",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quart-water",
+        "displayName": "quart water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-kale",
+        "displayName": "chopped kale",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-add-sausage-cook-stirring-occasionally-until-well-browned-about-8-minutes-remove-from-pan-and-drain-on-paper-towels",
+        "displayName": "In a 10-inch skillet over medium heat, add sausage. Cook, stirring occasionally, until well browned, about 8 minutes. Remove from pan and drain on paper towels.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-over-medium-heat-add-bacon-and-cook-until-crisp-about-8-minutes-drain-on-paper-towels",
+        "displayName": "To same skillet over medium heat, add bacon and cook until crisp, about 8 minutes. Drain on paper towels.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-3-quart-saucepan-over-medium-heat-add-onion-potatoes-broth-water-and-garlic-cook-15-minutes-or-until-potatoes-are-tender-add-sausage-bacon-salt-and-pepper-and-stir-to-combine",
+        "displayName": "In a 3-quart saucepan over medium heat, add onion, potatoes, broth, water, and garlic. Cook 15 minutes or until potatoes are tender. Add sausage, bacon, salt, and pepper and stir to combine.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "reduce-heat-to-low-and-simmer-10-minutes-add-kale-and-cream-heat-5-10-minutes-more-until-kale-is-wilted-serve-hot",
+        "displayName": "Reduce heat to low and simmer 10 minutes. Add kale and cream. Heat 5–10 minutes more until kale is wilted. Serve hot.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 3861,
+    "end": 3909,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

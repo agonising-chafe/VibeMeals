@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_creamy-pea-soup",
+    "name": "Creamy Pea Soup",
+    "slug": "creamy-pea-soup",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "BLENDER",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "1-2-stick-unsalted-butter",
+        "displayName": "(1/2 stick) unsalted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-shallots-minced-about-1-cup-or-2-medium-leeks-white-and-light-green-parts-chopped-fine-and-rinsed-thoroughly-about-11-3-cups",
+        "displayName": "large shallots, minced (about 1 cup), or 2 medium leeks, white and light green parts chopped fine and rinsed thoroughly (about 11/3 cups)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 3.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-peas-about-41-2-cups-partially-thawed-at-room-temperature-for-10-minutes",
+        "displayName": "frozen peas (about 41/2 cups), partially thawed at room temperature for 10 minutes",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-leaves-boston-lettuce-about-3-ounces-washed-and-dried",
+        "displayName": "small leaves Boston lettuce (about 3 ounces), washed and dried",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Partially thaw peas at room temperature.",
+        "durationMinutes": 10,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt the butter in a large saucepan over low heat. Add the shallots and cook, covered, until softened, 8 to 10 minutes, stirring occasionally. Add the flour and cook, stirring constantly, until thoroughly combined, about 30 seconds. Whisking constantly, gradually add the chicken broth. Increase the heat to high and bring to a boil. Reduce the heat to medium-low and simmer for 3 to 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, process the peas in a food processor until coarsely chopped, about 20 seconds. Add the peas and lettuce to the saucepan. Increase the heat to medium-high, cover, and return to a simmer; cook for 3 minutes. Uncover, reduce the heat to medium-low, and continue to simmer 2 minutes longer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Working in batches, puree the soup in a blender until smooth, filling the blender jar only halfway for each batch. Strain the soup through a fine-mesh strainer into a large bowl; discard the solids in the strainer. Rinse and dry the saucepan; return the pureed mixture to the saucepan and stir in the cream. Warm the soup over low heat until hot, about 3 minutes. Season with salt and pepper to taste and serve. (The soup can be refrigerated in an airtight container for up to 2 days. Warm over low heat until hot; do not boil.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10478,
+    "end": 10514,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

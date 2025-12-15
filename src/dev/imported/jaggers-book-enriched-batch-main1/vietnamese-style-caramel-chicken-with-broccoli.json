@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_vietnamese-style-caramel-chicken-with-broccoli",
+    "name": "Vietnamese-Style Caramel Chicken with Broccoli",
+    "slug": "vietnamese-style-caramel-chicken-with-broccoli",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-trimmed-and-halved-crosswise",
+        "displayName": "boneless, skinless chicken thighs, trimmed and halved crosswise",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 7,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "broccoli-florets-cut-into-1-inch-pieces-stalks-peeled-and-sliced-1-4-inch-thick",
+        "displayName": "broccoli, florets cut into 1-inch pieces, stalks peeled and sliced 1/4 inch thick",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro-leaves-and-stems",
+        "displayName": "chopped fresh cilantro leaves and stems",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine baking soda and 11/4 cups cold water in large bowl. Add chicken and toss to coat. Let stand at room temperature for 15 minutes. Rinse chicken in cold water and drain well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, combine sugar and 3 tablespoons water in small saucepan. Bring to boil over medium-high heat and cook, without stirring, until mixture begins to turn golden, 4 to 6 minutes. Reduce heat to medium-low and continue to cook, gently swirling saucepan, until sugar turns color of molasses and registers between 390 and 400 degrees, 4 to 6 minutes longer. (Caramel will produce some smoke during last 1 to 2 minutes of cooking.) Immediately remove saucepan from heat and carefully pour in 3/4 cup hot water (mixture will bubble and steam vigorously). When bubbling has subsided, return saucepan to medium heat and stir to dissolve caramel."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer caramel to 12-inch skillet and stir in fish sauce and ginger. Add chicken and bring to simmer over medium-high heat. Reduce heat to medium-low, cover, and simmer until chicken is fork-tender and registers 205 degrees, 30 to 40 minutes, flipping chicken halfway through simmering. Transfer chicken to serving dish and cover to keep warm."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bring 1 inch water to boil in Dutch oven. Lower insert or steamer basket with broccoli into pot so it rests above water; cover and simmer until broccoli is just tender, 41/2 to 5 minutes. Transfer broccoli to serving dish with chicken."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "While broccoli cooks, bring sauce to boil over medium-high heat and cook until reduced to 11/4 cups, 3 to 5 minutes. Whisk cornstarch and 1 tablespoon water together in small bowl, then whisk into sauce; simmer until slightly thickened, about 1 minute. Stir in pepper. Pour 1/4 cup sauce over chicken and broccoli. Sprinkle with cilantro and serve, passing remaining sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26335,
+    "end": 26377,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

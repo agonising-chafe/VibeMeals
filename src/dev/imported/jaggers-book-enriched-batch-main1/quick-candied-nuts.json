@@ -1,0 +1,107 @@
+{
+  "mapped": {
+    "id": "atk_quick-candied-nuts",
+    "name": "Quick Candied Nuts",
+    "slug": "quick-candied-nuts",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 1/2 cup",
+      "baseServings": 0.5
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "we-like-this-recipe-prepared-with-shelled-pistachios-walnut-or-pecan-halves-roasted-cashews-salted-or-unsalted-peanuts-and-sliced-almonds-if-you-want-to-make-a-mixed-batch-cook-the-nuts-individually-and-then-toss-to-combine-once-you-ve-chopped-them",
+        "displayName": "We like this recipe prepared with shelled pistachios, walnut or pecan halves, roasted cashews, salted or unsalted peanuts, and sliced almonds. If you want to make a mixed batch, cook the nuts individually and then toss to combine once you’ve chopped them.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "nuts",
+        "displayName": "nuts",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hot-water",
+        "displayName": "hot water",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Spread nuts in single layer on rimmed baking sheet and toast until fragrant and slightly darkened, 8 to 12 minutes, shaking sheet halfway through toasting. Transfer nuts to plate and let cool for 10 to 15 minutes. Do not wash sheet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Line now-empty sheet with parchment paper. Whisk sugar, hot water, and salt in large bowl until sugar is mostly dissolved. Add nuts and stir to coat. Spread nuts on prepared sheet in single layer and bake until nuts are crisp and dry, 10 to 12 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer sheet to wire rack and let nuts cool completely, about 20 minutes. Transfer nuts to cutting board and chop as desired. (Nuts can be stored at room temperature for up to 1 week.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "PEANUT",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 77051,
+    "end": 77077,
+    "yieldLine": "MAKES 1/2 cup"
+  },
+  "fit": true
+}

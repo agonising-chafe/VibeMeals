@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_arroz-con-pollo-latin-style-chicken-and-rice",
+    "name": "Arroz con Pollo (Latin-Style Chicken and Rice)",
+    "slug": "arroz-con-pollo-latin-style-chicken-and-rice",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-distilled-white-vinegar-divided",
+        "displayName": "plus 2 teaspoons distilled white vinegar, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-chicken-thighs-trimmed",
+        "displayName": "bone-in chicken thighs, trimmed",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-green-bell-pepper-stemmed-seeded-and-chopped-fine",
+        "displayName": "small green bell pepper, stemmed, seeded, and chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro-divided",
+        "displayName": "minced fresh cilantro, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-tomato-sauce",
+        "displayName": "can tomato sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-plus-extra-as-needed",
+        "displayName": "water, plus extra as needed",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-grain-rice",
+        "displayName": "medium-grain rice",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "green-manzanilla-olives-pitted-and-halved",
+        "displayName": "green manzanilla olives, pitted and halved",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "capers",
+        "displayName": "capers",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jarred-pimentos-cut-into-2-by-1-4-inch-strips",
+        "displayName": "jarred pimentos, cut into 2 by 1/4-inch strips",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Place garlic and 1 teaspoon salt in large bowl; using rubber spatula, mix to make smooth paste. Add 1 tablespoon vinegar, oregano, and pepper to garlic-salt mixture; stir to combine. Place chicken in bowl with marinade. Coat chicken pieces evenly with marinade; set aside for 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 1 tablespoon oil in Dutch oven over medium heat until shimmering. Add onion, bell pepper, and pepper flakes; cook, stirring occasionally, until vegetables begin to soften, 4 to 8 minutes. Add 2 tablespoons cilantro; stir to combine. Push vegetables to the sides of pot and increase heat to medium-high. Add chicken to clearing in center of pot, skin side down, in even layer. Cook, without moving chicken, until outer layer of meat becomes opaque, 2 to 4 minutes. (If chicken begins to brown, reduce heat to medium.) Using tongs, flip chicken and cook on second side until opaque, 2 to 4 minutes more. Add broth, tomato sauce, and water; stir to combine. Bring to simmer; cover, reduce heat to medium-low, and simmer for 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add rice, olives, capers, and remaining 3/4 teaspoon salt; stir well. Bring to simmer, cover, and transfer pot to oven. After 10 minutes, remove pot from oven and stir chicken and rice once from bottom up. Cover and return pot to oven. After another 10 minutes, stir once more, adding another 1/4 cup water if rice appears dry and bottom of pot is beginning to burn. Cover and return pot to oven; cook until rice has absorbed all liquid and is tender but still holds its shape and thickest part of thighs registers 175 degrees, about 10 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using tongs, remove chicken from pot; replace lid and set pot aside. Remove and discard chicken skin; using 2 spoons, pull meat off bones in large chunks. Using your fingers, remove remaining fat and any dark veins from chicken pieces. Place chicken in large bowl and toss with remaining 1 tablespoon oil, remaining 2 teaspoons vinegar, remaining 2 tablespoons cilantro, and pimentos; season with salt and pepper to taste. Place chicken on top of rice, cover, and let stand until warmed through, about 5 minutes. Serve, passing lemon wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 23976,
+    "end": 24036,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

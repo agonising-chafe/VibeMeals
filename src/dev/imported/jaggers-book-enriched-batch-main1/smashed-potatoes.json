@@ -1,0 +1,122 @@
+{
+  "mapped": {
+    "id": "atk_smashed-potatoes",
+    "name": "Smashed Potatoes",
+    "slug": "smashed-potatoes",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "red-potatoes-about-12-small-scrubbed",
+        "displayName": "red potatoes (about 12 small), scrubbed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-melted",
+        "displayName": "(1/2 stick) unsalted butter, melted",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cream-cheese-at-room-temperature",
+        "displayName": "cream cheese, at room temperature",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-chives-optional",
+        "displayName": "minced fresh chives (optional)",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the potatoes in a large saucepan and add cold water to cover by 1 inch; add 1 teaspoon salt and the bay leaf. Bring to a boil over high heat, then reduce the heat to medium-low and simmer gently until a paring knife can be inserted into the potatoes with no resistance, 35 to 45 minutes. Reserve 1/2 cup of the cooking water, then drain the potatoes. Return the potatoes to the pot, discard the bay leaf, and allow the potatoes to stand in the pot, uncovered, until the surfaces are dry, about 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While the potatoes dry, whisk the melted butter and softened cream cheese in a medium bowl until smooth and fully incorporated. Add 1/4 cup of the reserved cooking water, the chives (if using), 1/2 teaspoon pepper, and 1/2 teaspoon salt. Using a rubber spatula or the back of a wooden spoon, smash the potatoes just enough to break the skins. Fold in the butter–cream cheese mixture until most of the liquid has been absorbed and chunks of potatoes remain. Add more cooking water as needed, 1 tablespoon at a time, until the potatoes are slightly looser than desired (the potatoes will thicken slightly with standing). Season with salt and pepper to taste and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59544,
+    "end": 59576,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,163 @@
+{
+  "mapped": {
+    "id": "atk_grilled-baba-ghanoush",
+    "name": "Grilled Baba Ghanoush",
+    "slug": "grilled-baba-ghanoush",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 2 cups",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "eggplant-pricked-all-over-with-fork",
+        "displayName": "eggplant, pricked all over with fork",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tahini",
+        "displayName": "tahini",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-serving",
+        "displayName": "extra-virgin olive oil, plus extra for serving",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-garlic-clove-minced",
+        "displayName": "small garlic clove, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "for-a-charcoal-grill-open-bottom-vent-completely-light-large-chimney-starter-filled-with-charcoal-briquettes-6-quarts-when-top-coals-are-partially-covered-with-ash-pour-evenly-over-grill-set-cooking-grate-in-place-cover-and-open-lid-vent-completely-heat-grill-until-hot-about-5-minutes",
+        "displayName": "FOR A CHARCOAL GRILL: Open bottom vent completely. Light large chimney starter filled with charcoal briquettes (6 quarts). When top coals are partially covered with ash, pour evenly over grill. Set cooking grate in place, cover, and open lid vent completely. Heat grill until hot, about 5 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-a-gas-grill-turn-all-burners-to-high-cover-and-heat-grill-until-hot-about-15-minutes-turn-all-burners-to-medium-adjust-burners-as-needed-to-maintain-grill-temperature-of-350-degrees",
+        "displayName": "FOR A GAS GRILL: Turn all burners to high; cover; and heat grill until hot, about 15 minutes. Turn all burners to medium. (Adjust burners as needed to maintain grill temperature of 350 degrees.)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate dip",
+        "durationMinutes": 60,
+        "startDelayMinutes": 0,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Clean and oil cooking grate. Set eggplants on cooking grate and cook until skins darken and wrinkle on all sides and eggplants are uniformly soft when pressed with tongs, about 25 minutes, turning every 5 minutes and reversing direction of eggplants on grill with each turn. Transfer eggplants to rimmed baking sheet and let cool for 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Set small colander over bowl. Trim top and bottom off each eggplant. Slit eggplants lengthwise and use spoon to scoop hot pulp from skins; place pulp in colander (you should have about 2 cups packed pulp); discard skins. Let pulp drain for 3 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer pulp to food processor. Add tahini, lemon juice, oil, garlic, salt, and pepper. Pulse until mixture has coarse, choppy texture, about 8 pulses. Season with salt and pepper to taste. Transfer to serving bowl, cover with plastic wrap flush with surface of dip, and refrigerate for 45 minutes to 1 hour. Make trough in center of dip using large spoon and spoon olive oil into it. Sprinkle with parsley and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56372,
+    "end": 56412,
+    "yieldLine": "MAKES 2 cups"
+  },
+  "fit": true
+}

@@ -1,0 +1,133 @@
+{
+  "mapped": {
+    "id": "atk_crispy-cacio-e-pepe-bites",
+    "name": "Crispy Cacio e Pepe Bites",
+    "slug": "crispy-cacio-e-pepe-bites",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 49 croquettes",
+      "baseServings": 49,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "quart-whole-milk",
+        "displayName": "quart whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "small-tapioca-pearls",
+        "displayName": "small tapioca pearls",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecorino-romano-grated-fine-13-4-cups-plus-extra-for-serving",
+        "displayName": "Pecorino Romano, grated fine (13/4 cups), plus extra for serving",
+        "amount": 3.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tapioca-starch-plus-extra-as-needed",
+        "displayName": "tapioca starch, plus extra as needed",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quart-vegetable-oil-for-frying",
+        "displayName": "quart vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 2,
+        "description": "Refrigerate tapioca mixture until firm.",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Grease 8-inch square baking pan with vegetable oil spray. Bring milk to boil in large saucepan over medium-high heat. Add tapioca pearls and cook, stirring occasionally, until milk returns to boil, 30 to 60 seconds. Reduce heat to medium and simmer, stirring constantly, until tapioca plumps and exterior turns translucent (very center will remain white) and mixture is thickened, 6 to 8 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Off heat, fold in Pecorino, pepper, and salt. Working quickly, using rubber spatula, transfer tapioca mixture to prepared pan and spread into even layer. Let cool for 20 minutes. Cover and refrigerate until firm, at least 2 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place 1/2 cup tapioca starch in shallow dish; lightly dust cutting board with extra tapioca starch. Invert tapioca square onto cutting board. Cut tapioca into 49 squares (7 rows by 7 rows), wiping knife with damp dish towel as needed to prevent sticking. Roll cubes in tapioca starch, shaking off excess, and transfer to baking sheet. (Cut, dusted cubes can be refrigerated in airtight container for up to 3 days.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat oil in large saucepan over high heat to 375 degrees. Add one-third of cubes and fry, stirring frequently, until golden brown, 2 to 4 minutes, adjusting heat as necessary to maintain oil between 350 and 375 degrees. Transfer to paper towel–lined baking sheet or plate and blot to remove excess oil; season lightly with salt. Repeat with remaining cubes in 2 batches. Transfer croquettes to serving platter, dust generously with Pecorino, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 1271,
+    "end": 1307,
+    "yieldLine": "MAKES 49 croquettes"
+  },
+  "fit": true
+}

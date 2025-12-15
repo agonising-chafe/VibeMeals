@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_applebee-s-garlic-mashed-potatoes",
+    "name": "Applebee’s Garlic Mashed Potatoes",
+    "slug": "applebee-s-garlic-mashed-potatoes",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "an-extremely-popular-side-dish-both-at-home-and-in-restaurants-roasted-garlic-mashed-potatoes-are-perfect-served-with-grilled-steak-chicken-or-seafood-this-version-from-applebee-s-made-with-red-potatoes-is-sure-to-be-a-hit-at-your-table-it-is-not-necessary-to-peel-the-potatoes-unless-you-desire-to",
+        "displayName": "An extremely popular side dish both at home and in restaurants, roasted garlic mashed potatoes are perfect served with grilled steak, chicken, or seafood. This version from Applebee’s made with red potatoes is sure to be a hit at your table. It is not necessary to peel the potatoes unless you desire to.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic",
+        "displayName": "garlic",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-potatoes",
+        "displayName": "red potatoes",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whole-milk",
+        "displayName": "½ cup whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-heavy-cream",
+        "displayName": "¼ cup heavy cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f",
+        "displayName": "Preheat oven to 400°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-garlic-cloves-on-a-sheet-of-heavy-duty-foil-wrap-garlic-tightly-in-foil-and-roast-45-minutes-or-until-soft-unwrap-garlic-and-let-cool-until-touchable",
+        "displayName": "Place garlic cloves on a sheet of heavy-duty foil. Wrap garlic tightly in foil and roast 45 minutes or until soft. Unwrap garlic and let cool until touchable.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-potatoes-in-a-large-pot-of-water-over-high-heat-bring-to-a-boil-and-boil-20-minutes-remove-from-heat-and-drain-in-a-colander",
+        "displayName": "Place potatoes in a large pot of water over high heat. Bring to a boil and boil 20 minutes. Remove from heat and drain in a colander.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "peel-garlic-cloves-combine-garlic-with-potatoes-and-remaining-ingredients-and-mash-with-a-potato-masher-until-smooth-serve-hot",
+        "displayName": "Peel garlic cloves. Combine garlic with potatoes and remaining ingredients and mash with a potato masher until smooth. Serve hot.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8650,
+    "end": 8690,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

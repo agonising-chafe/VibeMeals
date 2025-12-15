@@ -1,0 +1,284 @@
+{
+  "mapped": {
+    "id": "atk_kfc-mashed-potatoes-and-gravy",
+    "name": "KFC Mashed Potatoes and Gravy",
+    "slug": "kfc-mashed-potatoes-and-gravy",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "mashed-potatoes-and-gravy-is-an-immensely-popular-side-item-on-the-kfc-menu-the-gravy-has-a-deliciously-distinct-taste-that-now-you-can-replicate-at-home-with-this-recipe",
+        "displayName": "Mashed Potatoes and Gravy is an immensely popular side item on the KFC menu. The gravy has a deliciously distinct taste that now you can replicate at home with this recipe.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mashed-potatoes",
+        "displayName": "Mashed Potatoes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-hot-water",
+        "displayName": "½ cups hot water",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-margarine",
+        "displayName": "½ cup margarine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-idahoan-potato-flakes",
+        "displayName": "½ cups Idahoan potato flakes",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whole-milk",
+        "displayName": "¾ cup whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "gravy",
+        "displayName": "Gravy",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tablespoons-melted-shortening",
+        "displayName": "½ tablespoons melted shortening",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bread-flour-divided",
+        "displayName": "bread flour, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-condensed-chicken-stock",
+        "displayName": "can condensed chicken stock",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-water",
+        "displayName": "¼ cups water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-accent-flavor-enhancer",
+        "displayName": "⅛ teaspoon Accent Flavor Enhancer",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "⅛ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-bouillon-cubes",
+        "displayName": "chicken bouillon cubes",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jar-franco-american-beef-gravy",
+        "displayName": "jar Franco American Beef Gravy",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-sage",
+        "displayName": "ground sage",
+        "amount": 0.0625,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-mashed-potatoes-in-a-2-quart-pot-over-high-heat-add-water-butter-and-margarine-once-melted-add-salt-and-bring-to-a-boil-about-2-minutes-add-potato-flakes-and-mix-until-flakes-start-to-resemble-mashed-potatoes-reduce-heat-to-medium-low-and-add-milk-2-3-tablespoons-at-a-time-to-reach-desired-consistency-remove-from-heat",
+        "displayName": "For the mashed potatoes: In a 2-quart pot over high heat, add water, butter, and margarine. Once melted, add salt and bring to a boil, about 2 minutes. Add potato flakes and mix until flakes start to resemble mashed potatoes. Reduce heat to medium-low and add milk 2–3 tablespoons at a time to reach desired consistency. Remove from heat.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-gravy-heat-a-1-quart-saucepan-over-medium-low-heat-add-shortening-and-1-tablespoons-bread-flour-cook-stirring-constantly-for-5-minutes-or-until-mixture-browns-in-color-to-resemble-milk-chocolate",
+        "displayName": "For the gravy: Heat a 1-quart saucepan over medium-low heat. Add shortening and 1 ½ tablespoons bread flour. Cook, stirring constantly, for 5 minutes or until mixture browns in color to resemble milk chocolate.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-from-heat-and-add-remaining-bread-flour-and-all-purpose-flour-slowly-whisk-in-chicken-stock-water-salt-accent-flavor-enhancer-pepper-bouillon-cubes-beef-gravy-and-sage-so-no-lumps-remain",
+        "displayName": "Remove from heat and add remaining bread flour and all-purpose flour. Slowly whisk in chicken stock, water, salt, Accent Flavor Enhancer, pepper, bouillon cubes, beef gravy, and sage so no lumps remain.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "return-to-stove-and-bring-to-a-boil-over-medium-heat-and-boil-2-minutes-reduce-heat-to-medium-low-and-allow-gravy-to-thicken-about-3-5-minutes-until-it-reaches-desired-consistency-serve-over-mashed-potatoes",
+        "displayName": "Return to stove and bring to a boil over medium heat and boil 2 minutes. Reduce heat to medium-low and allow gravy to thicken, about 3–5 minutes until it reaches desired consistency. Serve over mashed potatoes.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9125,
+    "end": 9191,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

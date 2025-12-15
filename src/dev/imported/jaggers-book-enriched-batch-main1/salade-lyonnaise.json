@@ -1,0 +1,128 @@
+{
+  "mapped": {
+    "id": "atk_salade-lyonnaise",
+    "name": "Salade Lyonnaise",
+    "slug": "salade-lyonnaise",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "1-2-inch-thick-slice-pancetta-about-5-ounces",
+        "displayName": "(1/2-inch-thick) slice pancetta (about 5 ounces)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-shallot",
+        "displayName": "minced shallot",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "head-fris-e-6-ounces-torn-into-bite-size-pieces",
+        "displayName": "head frisée (6 ounces), torn into bite-size pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicory-or-escarole-torn-into-bite-size-pieces-5-cups",
+        "displayName": "chicory or escarole, torn into bite-size pieces (5 cups)",
+        "amount": 5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-perfect-poached-eggs-recipe-follows",
+        "displayName": "recipe Perfect Poached Eggs (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut pancetta vertically into thirds, then cut each third crosswise into 1/4-inch-wide pieces. Combine pancetta and 2 cups water in 10-inch nonstick or carbon-steel skillet and bring to boil over medium-high heat. Boil for 5 minutes, then drain. Return pancetta to now-empty skillet. Add oil and cook over medium-low heat, stirring occasionally, until lightly browned but still chewy, 4 to 6 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour off all but 2 tablespoons fat from skillet, leaving pancetta in skillet. Add shallot and cook, stirring frequently, until slightly softened, about 30 seconds. Off heat, add vinegar and mustard and stir to combine."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Drizzle vinaigrette over frisée in large bowl and toss thoroughly to coat. Add chicory and toss again. Season with salt and pepper to taste. Divide salad among 4 plates. Gently place 1 egg on top of each salad, then season with salt and pepper to taste. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 12961,
+    "end": 12997,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

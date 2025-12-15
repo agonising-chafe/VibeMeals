@@ -1,0 +1,182 @@
+{
+  "mapped": {
+    "id": "atk_double-glazed-salmon-with-lemon-and-thyme",
+    "name": "Double-Glazed Salmon with Lemon and Thyme",
+    "slug": "double-glazed-salmon-with-lemon-and-thyme",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-for-brining",
+        "displayName": "table salt for brining",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "sugar-for-brining",
+        "displayName": "sugar for brining",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "6-to-8-ounce-skin-on-salmon-fillets",
+        "displayName": "(6- to 8-ounce) skin-on salmon fillets",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "lemon-juice-2-lemons",
+        "displayName": "lemon juice (2 lemons)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-or-chives",
+        "displayName": "minced fresh parsley or chives",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees. Dissolve salt and 1/4 cup sugar in 2 quarts cold water in large container. Submerge salmon fillets in brine and let stand at room temperature for 15 minutes. Remove salmon from brine and pat dry with paper towels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, combine lemon juice, water, sugar, soy sauce, and cornstarch in small saucepan and stir until no lumps remain. Add thyme sprigs and bring to simmer over medium-high heat, stirring frequently. Continue to cook, stirring frequently, until thickened, about 1 minute longer. Remove from heat and let thyme sprigs steep for 5 minutes. Discard thyme sprigs and transfer 2 tablespoons glaze to small bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat oil in 12-inch ovensafe nonstick skillet over medium-high heat until just smoking. Place fillets, flesh side down, in skillet and cook until flesh side is well browned, 2 to 3 minutes. Flip fillets and reduce heat to low. Brush tops of fillets with reserved 2 tablespoons glaze. Transfer skillet to oven and cook until fillets register 125 degrees (for medium-rare), 10 to 15 minutes. Wash and dry brush."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Brush remaining glaze on top and sides of each fillet and sprinkle with parsley. Transfer to platter or individual plates and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 42426,
+    "end": 42470,
+    "yieldLine": "SERVES 4 SEASON 26"
+  },
+  "fit": true
+}

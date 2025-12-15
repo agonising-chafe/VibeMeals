@@ -1,0 +1,84 @@
+{
+  "mapped": {
+    "id": "atk_saut-ed-wild-mushrooms",
+    "name": "Sautéed Wild Mushrooms",
+    "slug": "saut-ed-wild-mushrooms",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES enough to garnish 6 to 8 bowls of soup",
+      "baseServings": 7
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "shiitake-chanterelle-oyster-or-cremini-mushrooms-stems-trimmed-and-discarded-mushrooms-wiped-clean-and-sliced-thin",
+        "displayName": "shiitake, chanterelle, oyster, or cremini mushrooms, stems trimmed and discarded, mushrooms wiped clean and sliced thin",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt the butter in a medium skillet over low heat. Add the mushrooms and season with salt and pepper to taste. Cover and cook, stirring occasionally, until the mushrooms release their liquid, about 10 minutes for shiitakes and chanterelles, about 5 minutes for oysters, and about 9 minutes for cremini."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Uncover and continue to cook, stirring occasionally, until the liquid released by the mushrooms has evaporated and the mushrooms are browned, about 2 minutes for shiitakes, oysters, and cremini and about 3 minutes for chanterelles. Serve immediately as garnish for the soup."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10273,
+    "end": 10297,
+    "yieldLine": "MAKES enough to garnish 6 to 8 bowls of soup"
+  },
+  "fit": true
+}

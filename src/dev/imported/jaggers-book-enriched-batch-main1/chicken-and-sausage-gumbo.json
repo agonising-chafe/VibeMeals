@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_chicken-and-sausage-gumbo",
+    "name": "Chicken and Sausage Gumbo",
+    "slug": "chicken-and-sausage-gumbo",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN",
+        "DUTCH_OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bell-pepper-chopped-fine",
+        "displayName": "bell pepper, chopped fine",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-ribs-chopped-fine",
+        "displayName": "celery ribs, chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth-divided",
+        "displayName": "chicken broth, divided",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-trimmed",
+        "displayName": "boneless, skinless chicken thighs, trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "andouille-sausage-sliced-into-1-4-inch-thick-half-moons",
+        "displayName": "andouille sausage, sliced into 1/4-inch-thick half-moons",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin",
+        "displayName": "scallions, sliced thin",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "Hot sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 425 degrees. Place flour in 12-inch ovensafe skillet and bake, stirring occasionally, until color of ground cinnamon or dark brown sugar, 40 to 55 minutes. (As flour approaches desired color it will take on a very nutty aroma that will smell faintly of burnt popcorn and it will need to be stirred more frequently.) Transfer flour to medium bowl and cool. (Toasted flour can be stored in airtight container for up to 1 week.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in Dutch oven over medium heat until shimmering. Add onion, pepper, and celery and cook, stirring frequently, until softened, 5 to 7 minutes. Stir in garlic, bay leaves, thyme, paprika, cayenne, salt, and pepper and cook until fragrant, about 1 minute. Stir in 2 cups broth. Add chicken thighs in single layer (they will not be completely submerged by liquid) and bring to simmer. Reduce heat to medium-low, cover, and simmer until chicken is fork tender, 15 to 17 minutes. Transfer chicken to plate."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Slowly whisk remaining 2 cups broth into toasted flour until thick, batter-like paste forms. (Add broth in small increments to prevent clumps from forming.) Return pot to medium heat and slowly whisk flour paste into gumbo, making sure each addition is incorporated before adding next. Stir sausage into gumbo. Simmer, uncovered, until gumbo thickens slightly, 20 to 25 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Once cool enough to handle, shred chicken into bite-size pieces. Stir chicken and scallions into gumbo. Remove pot from heat and stir in vinegar and season with salt to taste. Discard bay leaves. Serve, passing hot sauce at table. (Gumbo can be refrigerated in airtight container for up to 24 hours)."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7215,
+    "end": 7273,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

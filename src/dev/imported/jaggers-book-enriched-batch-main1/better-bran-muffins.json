@@ -1,0 +1,199 @@
+{
+  "mapped": {
+    "id": "atk_better-bran-muffins",
+    "name": "Better Bran Muffins",
+    "slug": "better-bran-muffins",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 12 muffins",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "raisins",
+        "displayName": "raisins",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-ounces-all-bran-original-cereal",
+        "displayName": "(5 ounces) All-Bran Original cereal",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "61-4-ounces-unbleached-all-purpose-flour",
+        "displayName": "(61/4 ounces) unbleached all-purpose flour",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-ounces-whole-wheat-flour",
+        "displayName": "(21/2 ounces) whole-wheat flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-whole-egg-plus-1-large-egg-yolk",
+        "displayName": "large whole egg plus 1 large egg yolk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "packed-42-3-ounces-light-brown-sugar",
+        "displayName": "packed (42/3 ounces) light brown sugar",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mild-or-light-molasses",
+        "displayName": "mild or light molasses",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-4-stick-unsalted-butter-melted-and-cooled",
+        "displayName": "(3/4 stick) unsalted butter, melted and cooled",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "plain-whole-milk-yogurt",
+        "displayName": "plain whole-milk yogurt",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 400 degrees. Spray a standard-size muffin pan with vegetable oil spray. Combine the raisins and water in a small microwave-safe bowl, cover with plastic wrap, cut several steam vents in the plastic with a paring knife, and microwave on high power for 30 seconds. Let stand, covered, until the raisins are softened and plump, about 5 minutes. Transfer the raisins to a paper towel–lined plate to cool."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process half of the bran cereal in a food processor until finely ground, about 1 minute. Whisk the flours, baking soda, and salt in a large bowl to combine; set aside. Whisk the egg and egg yolk together in a medium bowl until well combined and light-colored, about 20 seconds. Add the sugar, molasses, and vanilla; whisk until the mixture is thick, about 30 seconds. Add the melted butter and whisk to combine; add the yogurt and whisk to combine. Stir in the processed cereal and unprocessed cereal; let the mixture sit until the cereal is evenly moistened (there will still be some small lumps), about 5 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the wet ingredients to the dry ingredients and gently mix with a rubber spatula until the batter is combined and evenly moistened. Do not overmix. Gently fold the raisins into the batter. Using a 1/3-cup measure or an ice cream scoop, divide the batter evenly among the prepared muffin cups, dropping the batter to form mounds. Do not level or flatten the surfaces of the mounds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bake until the muffins are dark golden and a toothpick inserted into the center of a muffin comes out with a few crumbs attached, 16 to 20 minutes, rotating the pan halfway through the baking time. Cool the muffins in the pan for 5 minutes, then transfer to a wire rack and cool for 10 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "EGG",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63102,
+    "end": 63150,
+    "yieldLine": "MAKES 12 muffins"
+  },
+  "fit": true
+}

@@ -1,0 +1,230 @@
+{
+  "mapped": {
+    "id": "atk_creole-style-shrimp-and-sausage-gumbo",
+    "name": "Creole-Style Shrimp and Sausage Gumbo",
+    "slug": "creole-style-shrimp-and-sausage-gumbo",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 155,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "small-shrimp-51-to-60-per-pound-shells-removed-and-reserved-see-this-page",
+        "displayName": "small shrimp (51 to 60 per pound), shells removed and reserved (see this page)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "ice-water",
+        "displayName": "ice water",
+        "amount": 3.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottle-clam-juice",
+        "displayName": "bottle clam juice",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour-preferably-bleached",
+        "displayName": "all-purpose flour, preferably bleached",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-minced",
+        "displayName": "medium onions, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-red-bell-pepper-stemmed-seeded-and-chopped-fine",
+        "displayName": "medium red bell pepper, stemmed, seeded, and chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-celery-rib-chopped-fine",
+        "displayName": "medium celery rib, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-about-2-tablespoons",
+        "displayName": "medium garlic cloves, minced (about 2 tablespoons)",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "displayName": "dried thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "Cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smoked-sausage-such-as-andouille-or-kielbasa-sliced-1-4-inch-thick",
+        "displayName": "smoked sausage, such as andouille or kielbasa, sliced 1/4 inch thick",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "medium-scallions-white-and-green-parts-sliced-thin",
+        "displayName": "medium scallions, white and green parts, sliced thin",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring the reserved shrimp shells and 41/2 cups water to a boil in a stockpot or large saucepan over medium-high heat. Reduce the heat to medium-low and simmer for 20 minutes. Strain the stock and add the ice water and clam juice (you should have about 2 quarts of tepid stock, 100 to 110 degrees); discard the shells. Set the stock aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat the oil in a Dutch oven or large, heavy-bottomed saucepan over medium-high heat until it registers 200 degrees on an instant-read thermometer, 11/2 to 2 minutes. Reduce the heat to medium and gradually stir in the flour with a wooden spatula or spoon, making sure to work out any lumps that may form. Continue stirring constantly, reaching into the corners of the pan, until the mixture has a toasty aroma and is deep reddish brown, about 20 minutes. (The roux will thin as it cooks; if it begins to smoke, remove the pan from the heat and stir the roux constantly to cool slightly.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the onions, bell pepper, celery, garlic, thyme, 1 teaspoon salt, and 1/4 teaspoon cayenne to the roux and cook, stirring frequently, until the vegetables soften, 8 to 10 minutes. Add 4 cups of the reserved stock in a slow, steady stream while stirring vigorously. Stir in the remaining 4 cups of stock. Increase the heat to high and bring to a boil. Reduce the heat to medium-low, skim the foam from the surface with a wide spoon, add the bay leaves, and simmer, uncovered, skimming the foam as it rises to the surface, about 30 minutes. (The mixture can be covered and set aside for several hours. Reheat when ready to proceed.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Stir in the sausage and continue simmering to blend the flavors, about 30 minutes. Stir in the shrimp and simmer until cooked through, about 5 minutes. Off the heat, stir in the parsley and scallions and season with salt, black pepper, and cayenne to taste."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 9658,
+    "end": 9718,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

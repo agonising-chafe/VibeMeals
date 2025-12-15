@@ -1,0 +1,222 @@
+{
+  "mapped": {
+    "id": "atk_shakshuka-eggs-in-spicy-tomato-and-roasted-red-pepper-sauce",
+    "name": "Shakshuka (Eggs in Spicy Tomato and Roasted Red Pepper Sauce)",
+    "slug": "shakshuka-eggs-in-spicy-tomato-and-roasted-red-pepper-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "8-inch-pita-breads-divided",
+        "displayName": "(8-inch) pita breads, divided",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes-drained",
+        "displayName": "can whole peeled tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jarred-roasted-red-peppers-divided",
+        "displayName": "jarred roasted red peppers, divided",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smoked-paprika",
+        "displayName": "smoked paprika",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coarsely-chopped-fresh-cilantro-leaves-and-stems",
+        "displayName": "coarsely chopped fresh cilantro leaves and stems",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "feta-cheese-crumbled-1-4-cup",
+        "displayName": "feta cheese, crumbled (1/4 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pitted-kalamata-olives-sliced",
+        "displayName": "pitted kalamata olives, sliced",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut enough pita bread into 1/2-inch pieces to equal 1/2 cup (about one-third of 1 pita). Cut remaining pitas into wedges for serving. Process pita pieces, tomatoes, and half of red peppers in blender until smooth, 1 to 2 minutes. Chop remaining red peppers into 1/4-inch pieces and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in 12-inch skillet over medium heat until shimmering. Add garlic and cook, stirring occasionally, until golden, 1 to 2 minutes. Add tomato paste, coriander, paprika, cumin, salt, pepper, and cayenne, and cook, stirring constantly, until rust-colored and fragrant, 1 to 2 minutes. Stir in tomato–red pepper puree and reserved red peppers (mixture may sputter) and bring to simmer. Reduce heat to maintain simmer; cook, stirring occasionally, until slightly thickened (spatula will leave trail that slowly fills in behind it, but sauce will still slosh when skillet is shaken), 10 to 12 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove skillet from heat. Using back of spoon, make 8 dime-size indentations in sauce (7 around perimeter and 1 in center). Crack 1 egg into small bowl and pour into 1 indentation (it will hold yolk in place but not fully contain egg). Repeat with remaining 7 eggs. Spoon sauce over edges of egg whites so that whites are partially covered and yolks are exposed."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bring to simmer over medium heat (there should be small bubbles across entire surface). Reduce heat to maintain simmer. Cover and cook until yolks film over, 4 to 5 minutes. Continue to cook, covered, until whites are softly but uniformly set (if skillet is shaken lightly, each egg should jiggle as a single unit), 1 to 2 minutes longer. Off heat, sprinkle with cilantro, feta, and olives. Serve immediately, passing pita wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 4448,
+    "end": 4502,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

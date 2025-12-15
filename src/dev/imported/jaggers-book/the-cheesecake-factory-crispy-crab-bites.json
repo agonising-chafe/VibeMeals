@@ -1,0 +1,254 @@
+{
+  "mapped": {
+    "id": "atk_the-cheesecake-factory-crispy-crab-bites",
+    "name": "The Cheesecake Factory Crispy Crab Bites",
+    "slug": "the-cheesecake-factory-crispy-crab-bites",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "these-delicious-little-crab-cakes-are-easy-to-prepare-and-will-be-a-hit-with-family-and-guests-they-make-a-great-party-snack-or-appetizer",
+        "displayName": "These delicious little crab cakes are easy to prepare and will be a hit with family and guests. They make a great party snack or appetizer.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-lump-crabmeat",
+        "displayName": "½ pound lump crabmeat",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-bread-crumbs",
+        "displayName": "plain bread crumbs",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-green-onions",
+        "displayName": "minced green onions",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-red-bell-peppers",
+        "displayName": "minced red bell peppers",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-beaten",
+        "displayName": "½ large egg, beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "old-bay-seasoning",
+        "displayName": "Old Bay Seasoning",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-prepared-yellow-mustard",
+        "displayName": "½ teaspoon prepared yellow mustard",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-panko-bread-crumbs",
+        "displayName": "¼ cup panko bread crumbs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-add-all-ingredients-except-oil-and-panko-carefully-fold-ingredients-together-be-sure-not-to-overwork-or-lumps-of-crab-will-fall-apart",
+        "displayName": "In a large bowl, add all ingredients except oil and panko. Carefully fold ingredients together. Be sure not to overwork or lumps of crab will fall apart.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "using-your-hands-or-a-spoon-fill-12-cups-of-an-ungreased-mini-muffin-pan-with-equal-amounts-of-crab-mixture-press-down-gently-on-each-so-tops-are-flat-don-t-press-too-hard-or-crab-cakes-will-be-hard-to-remove-from-pan",
+        "displayName": "Using your hands or a spoon, fill 12 cups of an ungreased mini muffin pan with equal amounts of crab mixture. Press down gently on each so tops are flat. Don’t press too hard or crab cakes will be hard to remove from pan.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-muffin-tin-with-plastic-wrap-and-refrigerate-2-hours-to-firm-up-crab-cake-mixture",
+        "displayName": "Cover muffin tin with plastic wrap and refrigerate 2 hours to firm up crab cake mixture.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "after-chilling-is-complete-heat-a-10-inch-skillet-over-medium-low-heat-and-add-oil",
+        "displayName": "After chilling is complete, heat a 10-inch skillet over medium-low heat and add oil.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-a-shallow-dish-with-panko-carefully-unmold-crab-cakes-from-pan-and-gently-roll-each-cake-in-panko",
+        "displayName": "Fill a shallow dish with panko. Carefully unmold crab cakes from pan and gently roll each cake in panko.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "test-oil-by-dropping-a-pinch-of-panko-into-pan-it-should-sizzle",
+        "displayName": "Test oil by dropping a pinch of panko into pan. It should sizzle.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fry-crab-cakes-in-hot-oil-1-3-minutes-per-side-until-cakes-are-golden-brown",
+        "displayName": "Fry crab cakes in hot oil 1 ½–3 minutes per side until cakes are golden brown.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-cakes-to-a-paper-towel-lined-plate-to-drain-let-cool-3-minutes-before-serving",
+        "displayName": "Transfer cakes to a paper towel–lined plate to drain. Let cool 3 minutes before serving.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2143,
+    "end": 2205,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,120 @@
+{
+  "mapped": {
+    "id": "atk_creamy-coleslaw",
+    "name": "Creamy Coleslaw",
+    "slug": "creamy-coleslaw",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "red-or-green-cabbage-about-1-2-medium-head-shredded-about-6-cups",
+        "displayName": "red or green cabbage (about 1/2 medium head), shredded (about 6 cups)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-carrot-peeled-and-shredded",
+        "displayName": "large carrot, peeled and shredded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-minced",
+        "displayName": "small onion, minced",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rice-vinegar",
+        "displayName": "rice vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Wilting Cabbage & Carrot",
+        "durationMinutes": 60,
+        "startDelayMinutes": -60,
+        "instruction": "Toss the cabbage and carrot with the salt in a colander set over a medium bowl. Let stand until the cabbage wilts, at least 1 hour or up to 4 hours.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss the cabbage and carrot with the salt in a colander set over a medium bowl. Let stand until the cabbage wilts, at least 1 hour or up to 4 hours. Rinse the cabbage and carrot under cold running water (or in a large bowl of ice water if serving immediately). Press, but do not squeeze, to drain; pat dry with paper towels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine the cabbage, carrot, onion, mayonnaise, and vinegar in a medium bowl; toss to coat and season with pepper to taste. Serve chilled or at room temperature. (The coleslaw can be refrigerated in an airtight container for up to 2 days.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14338,
+    "end": 14370,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

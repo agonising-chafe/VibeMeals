@@ -1,0 +1,162 @@
+{
+  "mapped": {
+    "id": "atk_tommy-bahama-pain-killer-2",
+    "name": "Tommy Bahama Pain Killer #2",
+    "slug": "tommy-bahama-pain-killer-2",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-classic-cocktail-originally-created-by-pusser-s-rum-ltd-is-a-popular-addition-to-the-tommy-bahama-cocktail-menu-and-combines-dark-rum-fruit-juice-and-cream-of-coconut",
+        "displayName": "This classic cocktail, originally created by Pusser’s Rum Ltd., is a popular addition to the Tommy Bahama cocktail menu and combines dark rum, fruit juice, and cream of coconut.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pineapple-juice",
+        "displayName": "pineapple juice",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pusser-s-rum-blue-label",
+        "displayName": "Pusser’s Rum Blue Label",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-orange-juice",
+        "displayName": "fresh orange juice",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coco-lopez-cream-of-coconut",
+        "displayName": "Coco Lopez cream of coconut",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-freshly-grated-nutmeg",
+        "displayName": "⅛ teaspoon freshly grated nutmeg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-a-hurricane-glass-to-the-top-with-ice",
+        "displayName": "Fill a hurricane glass to the top with ice.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mix-together-all-ingredients-except-nutmeg-in-glass-dust-top-of-glass-with-nutmeg-serve-immediately",
+        "displayName": "Mix together all ingredients except nutmeg in glass. Dust top of glass with nutmeg. Serve immediately.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "volume-conversions-us-volume-measure",
+        "displayName": "VOLUME CONVERSIONS US Volume Measure",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "metric-equivalent",
+        "displayName": "Metric Equivalent",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon",
+        "displayName": "⅛ teaspoon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "5 milliliter"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "5 liter casserole"
+      }
+    ],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 11388,
+    "end": 13414,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": true
+}

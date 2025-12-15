@@ -1,0 +1,184 @@
+{
+  "mapped": {
+    "id": "atk_domino-s-chocolate-lava-crunch-cakes",
+    "name": "Domino’s Chocolate Lava Crunch Cakes",
+    "slug": "domino-s-chocolate-lava-crunch-cakes",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "lava-cakes-were-added-to-the-domino-s-menu-in-2009-and-quickly-became-a-favorite-with-their-crunchy-crust-and-gooey-filling-to-keep-the-filling-gooey-be-sure-to-keep-an-eye-on-the-cakes-at-the-20-minute-mark-so-they-do-not-overbake",
+        "displayName": "Lava cakes were added to the Domino’s menu in 2009 and quickly became a favorite with their crunchy crust and gooey filling. To keep the filling gooey, be sure to keep an eye on the cakes at the 20-minute mark so they do not overbake.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chocolate-cookie-crumbs-such-as-oreo",
+        "displayName": "chocolate cookie crumbs, such as Oreo",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dark-chocolate-chopped",
+        "displayName": "dark chocolate, chopped",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-room-temperature",
+        "displayName": "unsalted butter, room temperature",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-room-temperature",
+        "displayName": "large eggs, room temperature",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "¼ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-pure-vanilla-extract",
+        "displayName": "½ teaspoon pure vanilla extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-all-purpose-flour",
+        "displayName": "plus 2 teaspoons all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "confectioners-sugar",
+        "displayName": "confectioners’ sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f-spray-two-8-ounce-ramekins-with-nonstick-cooking-spray-divide-cookie-crumbs-evenly-between-ramekins-and-shake-each-ramekin-gently-to-evenly-coat-with-crumbs",
+        "displayName": "Preheat oven to 350°F. Spray two 8-ounce ramekins with nonstick cooking spray. Divide cookie crumbs evenly between ramekins and shake each ramekin gently to evenly coat with crumbs.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-microwave-safe-bowl-add-chocolate-and-butter-heat-on-high-30-seconds-then-stir-continue-to-heat-at-15-second-intervals-stirring-well-between-each-interval-until-melted",
+        "displayName": "In a medium microwave-safe bowl, add chocolate and butter. Heat on high 30 seconds, then stir. Continue to heat at 15-second intervals, stirring well between each interval, until melted.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-separate-medium-bowl-add-eggs-and-granulated-sugar-beat-with-a-hand-mixer-on-medium-speed-until-light-and-fluffy-about-1-minute-stir-in-vanilla-and-chocolate-mixture-and-mix-on-low-speed-until-well-combined-then-add-flour-and-mix-until-smooth-about-15-seconds",
+        "displayName": "In a separate medium bowl, add eggs and granulated sugar. Beat with a hand mixer on medium speed until light and fluffy, about 1 minute. Stir in vanilla and chocolate mixture and mix on low speed until well combined, then add flour and mix until smooth, about 15 seconds.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-batter-evenly-between-ramekins-bake-20-25-minutes-until-edges-of-each-cake-are-firm-and-just-starting-to-release-from-edges-of-ramekin-but-center-of-cake-is-still-soft-when-gently-pressed",
+        "displayName": "Divide batter evenly between ramekins. Bake 20–25 minutes until edges of each cake are firm and just starting to release from edges of ramekin but center of cake is still soft when gently pressed.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cool-cakes-in-ramekins-1-minute-before-running-a-thin-knife-around-edges-of-ramekins-and-carefully-turning-cakes-out-onto-serving-plates-serve-immediately-with-a-dusting-of-confectioners-sugar",
+        "displayName": "Cool cakes in ramekins 1 minute before running a thin knife around edges of ramekins and carefully turning cakes out onto serving plates. Serve immediately with a dusting of confectioners’ sugar.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10227,
+    "end": 10271,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

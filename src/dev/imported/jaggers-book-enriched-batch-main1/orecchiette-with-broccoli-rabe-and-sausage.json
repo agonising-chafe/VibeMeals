@@ -1,0 +1,128 @@
+{
+  "mapped": {
+    "id": "atk_orecchiette-with-broccoli-rabe-and-sausage",
+    "name": "Orecchiette with Broccoli Rabe and Sausage",
+    "slug": "orecchiette-with-broccoli-rabe-and-sausage",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hot-or-sweet-italian-sausage-casings-removed",
+        "displayName": "hot or sweet Italian sausage, casings removed",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "broccoli-rabe-trimmed-and-cut-into-11-2-inch-pieces",
+        "displayName": "broccoli rabe, trimmed and cut into 11/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-for-cooking-broccoli-rabe-and-pasta",
+        "displayName": "Table salt for cooking broccoli rabe and pasta",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "fresh-or-dried-orecchiette",
+        "displayName": "fresh or dried orecchiette",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecorino-romano-grated-1-cup",
+        "displayName": "Pecorino Romano, grated (1 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil in 12-inch nonstick skillet over medium-high heat until just smoking. Add sausage and cook, breaking up meat into rough 1/2-inch pieces with wooden spoon, until lightly browned, about 5 minutes. Stir in garlic and pepper flakes and cook until fragrant, about 30 seconds; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, bring 4 quarts water to boil in large pot. Add broccoli rabe and 1 tablespoon salt and cook, stirring often, until crisp-tender, about 2 minutes. Using slotted spoon, transfer broccoli rabe to skillet with sausage mixture."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return water to boil; add pasta; and cook, stirring often, until al dente. Reserve 1 cup cooking water, then drain pasta and return it to pot. Add sausage–broccoli rabe mixture, Pecorino, and 1/3 cup reserved cooking water and toss to combine. Adjust consistency with remaining 2/3 cup reserved cooking water as needed. Season with salt and pepper to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 17388,
+    "end": 17428,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

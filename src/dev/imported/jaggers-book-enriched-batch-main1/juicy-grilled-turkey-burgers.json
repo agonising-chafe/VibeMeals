@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_juicy-grilled-turkey-burgers",
+    "name": "Juicy Grilled Turkey Burgers",
+    "slug": "juicy-grilled-turkey-burgers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "bone-in-turkey-thigh-skinned-boned-trimmed-and-cut-into-1-2-inch-pieces",
+        "displayName": "bone-in turkey thigh, skinned, boned, trimmed, and cut into 1/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-mushrooms-trimmed",
+        "displayName": "white mushrooms, trimmed",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "pinch-baking-soda",
+        "displayName": "Pinch baking soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-plus-extra-for-brushing",
+        "displayName": "vegetable oil, plus extra for brushing",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-hamburger-buns",
+        "displayName": "large hamburger buns",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 1,
+        "description": "Freeze turkey pieces until very firm and hardened around edges, 35 to 45 minutes.",
+        "kind": "FREEZE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place turkey pieces on large plate in single layer. Freeze meat until very firm and hardened around edges, 35 to 45 minutes. Meanwhile, sprinkle gelatin over chicken broth in small bowl and let sit until gelatin softens, about 5 minutes. Pulse mushrooms in food processor until coarsely chopped, about 7 pulses, stopping and redistributing mushrooms around bowl as needed to ensure even grinding. Set mushrooms aside; do not wash food processor."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pulse one-third of turkey in food processor until coarsely chopped into 1/8-inch pieces, 18 to 22 pulses, stopping and redistributing turkey around bowl as needed to ensure even grinding. Transfer meat to large bowl and repeat two more times with remaining turkey."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return 1/2 cup (about 3 ounces) ground turkey to bowl of food processor along with softened gelatin, soy sauce, and baking soda. Process until smooth, about 2 minutes, scraping down bowl as needed. With processor running, slowly drizzle in oil, about 10 seconds; leave paste in food processor. Return mushrooms to food processor with paste and pulse to combine, 3 to 5 pulses, stopping and redistributing mixture as needed to ensure even mixing. Transfer mushroom mixture to bowl with ground turkey and use hands to evenly combine."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "With lightly greased hands, divide meat mixture into 6 balls. Flatten into 3/4-inch-thick patties about 4 inches in diameter; press shallow indentation into center of each burger to ensure even cooking. (Shaped patties can be frozen for up to 1 month. Frozen patties can be cooked straight from freezer.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Clean and oil cooking grate. Brush 1 side of patties with oil and season with salt and pepper. Using spatula, flip patties, brush with oil, and season second side. Place burgers over hot part of grill and cook until burgers are well browned on both sides and register 160 degrees, 4 to 7 minutes per side. (If cooking frozen burgers: After burgers are browned on both sides, transfer to cool side of grill, cover, and continue to cook until burgers register 160 degrees.)"
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer burgers to plate and let rest for 5 minutes. While burgers rest, grill buns over hot side of grill. Transfer burgers to buns, add desired toppings, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 54779,
+    "end": 54827,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

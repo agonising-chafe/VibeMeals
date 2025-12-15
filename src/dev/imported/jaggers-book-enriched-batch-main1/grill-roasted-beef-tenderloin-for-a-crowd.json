@@ -1,0 +1,106 @@
+{
+  "mapped": {
+    "id": "atk_grill-roasted-beef-tenderloin-for-a-crowd",
+    "name": "Grill-Roasted Beef Tenderloin for a Crowd",
+    "slug": "grill-roasted-beef-tenderloin-for-a-crowd",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "beef-tenderloin-trimmed-of-fat-and-silver-skin-tail-end-tucked-and-tied-with-kitchen-twine-at-2-inch-intervals",
+        "displayName": "beef tenderloin, trimmed of fat and silver skin, tail end tucked and tied with kitchen twine at 2-inch intervals",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained-optional",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained (optional)",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Pat tenderloin dry with paper towels and rub with salt. Cover loosely with plastic wrap and let sit at room temperature for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using large piece of heavy-duty aluminum foil, wrap soaked wood chips, if using, in foil packet and cut several vent holes in top."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Rub tenderloin with oil and season with pepper. Place roast on hot side of grill if using charcoal or opposite primary burner if using gas and cook (covered if using gas) until well browned on all sides, 8 to 10 minutes, turning as needed."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "For gas grill, leave primary burner on, turning off other burner(s). (Adjust primary burner as needed during cooking to maintain grill temperature around 350 degrees.) Move roast to cool side of grill, cover (position lid vent over meat if using charcoal), and cook until meat registers 115 to 120 degrees (for rare) or 120 to 125 degrees (for medium-rare), 15 to 30 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer roast to carving board, tent loosely with foil, and let rest for 10 to 15 minutes. Remove twine, cut into 1/2-inch-thick slices, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 50816,
+    "end": 50854,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

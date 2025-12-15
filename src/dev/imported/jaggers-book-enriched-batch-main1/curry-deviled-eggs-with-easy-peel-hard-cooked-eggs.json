@@ -1,0 +1,113 @@
+{
+  "mapped": {
+    "id": "atk_curry-deviled-eggs-with-easy-peel-hard-cooked-eggs",
+    "name": "Curry Deviled Eggs with Easy-Peel Hard-Cooked Eggs",
+    "slug": "curry-deviled-eggs-with-easy-peel-hard-cooked-eggs",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 12 eggs",
+      "baseServings": 12,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "recipe-easy-peel-hard-cooked-eggs",
+        "displayName": "recipe Easy-Peel Hard-Cooked Eggs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-plus-12-small-whole-parsley-leaves-for-garnishing",
+        "displayName": "minced fresh parsley, plus 12 small whole parsley leaves for garnishing",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "curry-powder",
+        "displayName": "curry powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Slice each egg in half lengthwise with paring knife. Transfer yolks to bowl; arrange whites on serving platter. Mash yolks with fork until no large lumps remain. Add mayonnaise and use rubber spatula to smear mixture against side of bowl until thick, smooth paste forms, 1 to 2 minutes. Add minced parsley, lemon juice, mustard, curry powder, and cayenne and mix until fully incorporated."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer yolk mixture to small heavy-duty plastic bag. Press mixture into 1 corner and twist top of bag. Using scissors, snip 1/2 inch off filled corner. Squeezing bag, distribute yolk mixture evenly among egg white halves. Garnish each egg half with parsley leaf and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 745,
+    "end": 786,
+    "yieldLine": "MAKES 12 eggs"
+  },
+  "fit": true
+}

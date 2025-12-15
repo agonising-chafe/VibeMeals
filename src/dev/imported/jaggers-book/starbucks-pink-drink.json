@@ -1,0 +1,134 @@
+{
+  "mapped": {
+    "id": "atk_starbucks-pink-drink",
+    "name": "Starbucks Pink Drink",
+    "slug": "starbucks-pink-drink",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-make-at-home-version-of-the-popular-starbucks-drink-has-all-the-flavor-and-fun-of-the-original-at-a-fraction-of-the-cost-feel-free-to-add-simple-syrup-or-other-liquid-sweetener-if-you-prefer-a-sweeter-drink-if-you-can-t-find-freeze-dried-strawberries-swap-with-cup-sliced-fresh-strawberries",
+        "displayName": "This make-at-home version of the popular Starbucks drink has all the flavor and fun of the original at a fraction of the cost. Feel free to add simple syrup or other liquid sweetener if you prefer a sweeter drink. If you can’t find freeze-dried strawberries, swap with ⅓ cup sliced fresh strawberries.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-boiling-water",
+        "displayName": "½ cup boiling water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bag-tazo-passion-tea",
+        "displayName": "bag Tazo Passion Tea",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-grape-juice",
+        "displayName": "white grape juice",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsweetened-full-fat-coconut-milk",
+        "displayName": "½ cup unsweetened full-fat coconut milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-freeze-dried-strawberries",
+        "displayName": "¼ cup freeze-dried strawberries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-heatproof-cup-add-boiling-water-and-tea-bag-let-steep-5-minutes-remove-tea-bag-and-let-tea-cool-to-room-temperature-about-30-minutes",
+        "displayName": "In a heatproof cup, add boiling water and tea bag. Let steep 5 minutes. Remove tea bag and let tea cool to room temperature, about 30 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "once-tea-has-cooled-mix-well-with-white-grape-juice-and-coconut-milk-stir-in-freeze-dried-strawberries",
+        "displayName": "Once tea has cooled, mix well with white grape juice and coconut milk. Stir in freeze-dried strawberries.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-a-tall-glass-with-ice-pour-in-tea-mixture-stir-well-serve-immediately",
+        "displayName": "Fill a tall glass with ice. Pour in tea mixture. Stir well. Serve immediately.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 11271,
+    "end": 11305,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_arby-s-apple-turnovers",
+    "name": "Arby’s Apple Turnovers",
+    "slug": "arby-s-apple-turnovers",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "aside-from-milkshakes-turnovers-are-the-bestselling-dessert-at-arby-s-this-recipe-is-easier-than-apple-pie-and-you-get-the-same-great-taste-as-the-restaurant-favorite-without-all-the-work",
+        "displayName": "Aside from milkshakes, turnovers are the bestselling dessert at Arby’s. This recipe is easier than apple pie, and you get the same great taste as the restaurant favorite without all the work.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-cooking-apples-peeled-cored-and-sliced",
+        "displayName": "large cooking apples, peeled, cored, and sliced",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "½ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-cinnamon",
+        "displayName": "¼ teaspoon ground cinnamon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "package-puff-pastry-sheets",
+        "displayName": "package puff pastry sheets",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-confectioners-sugar",
+        "displayName": "½ cup confectioners’ sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-saucepan-over-low-heat-cook-apples-with-granulated-sugar-cornstarch-lemon-juice-and-cinnamon-stirring-frequently-6-8-minutes-until-apples-are-tender-refrigerate-until-chilled-about-2-hours",
+        "displayName": "In a medium saucepan over low heat, cook apples with granulated sugar, cornstarch, lemon juice, and cinnamon, stirring frequently, 6–8 minutes until apples are tender. Refrigerate until chilled, about 2 hours.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thaw-puff-pastry-sheets-at-room-temperature-20-minutes",
+        "displayName": "Thaw puff pastry sheets at room temperature 20 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f",
+        "displayName": "Preheat oven to 400°F.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unfold-pastry-on-a-lightly-floured-surface-roll-each-sheet-into-a-12-inch-square-then-cut-into-four-6-inch-squares-place-cup-apple-mixture-in-center-of-each-square-brush-edges-with-water-fold-to-form-triangles-and-seal-edges-firmly-with-a-fork",
+        "displayName": "Unfold pastry on a lightly floured surface. Roll each sheet into a 12-inch square, then cut into four 6-inch squares. Place ¼ cup apple mixture in center of each square. Brush edges with water. Fold to form triangles and seal edges firmly with a fork.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-on-half-baking-sheets-and-bake-25-minutes-or-until-golden-cool-on-a-wire-rack",
+        "displayName": "Place on half baking sheets and bake 25 minutes or until golden. Cool on a wire rack.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-mix-together-confectioners-sugar-and-water-with-a-spoon-drizzle-sugar-drizzle-over-turnovers-and-allow-to-set-before-serving",
+        "displayName": "In a small bowl, mix together confectioners’ sugar and water. With a spoon, drizzle sugar drizzle over turnovers and allow to set before serving.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9708,
+    "end": 9754,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

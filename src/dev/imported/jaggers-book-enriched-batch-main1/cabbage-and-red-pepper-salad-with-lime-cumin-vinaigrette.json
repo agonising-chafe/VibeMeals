@@ -1,0 +1,151 @@
+{
+  "mapped": {
+    "id": "atk_cabbage-and-red-pepper-salad-with-lime-cumin-vinaigrette",
+    "name": "Cabbage and Red Pepper Salad with Lime-Cumin Vinaigrette",
+    "slug": "cabbage-and-red-pepper-salad-with-lime-cumin-vinaigrette",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 30,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "green-cabbage-about-1-2-medium-head-shredded-fine",
+        "displayName": "green cabbage (about 1/2 medium head), shredded fine",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lime-juice",
+        "displayName": "lime juice",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lime-zest-from-1-lime",
+        "displayName": "grated lime zest from 1 lime",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rice-vinegar-or-sherry-vinegar",
+        "displayName": "rice vinegar or sherry vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-seeded-and-cut-into-thin-strips",
+        "displayName": "red bell pepper, seeded and cut into thin strips",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Wilting Cabbage",
+        "description": "Toss shredded cabbage with salt and let stand in a colander for at least 1 hour, or up to 4 hours.",
+        "durationMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss shredded cabbage and 1 teaspoon salt in colander or large mesh strainer set over medium bowl. Let stand until cabbage wilts, at least 1 hour or up to 4 hours. Rinse cabbage under cold running water (or in large bowl of ice water if serving immediately). Press, but do not squeeze, to drain; pat dry with paper towels. (Can be stored in zipper-lock bag and refrigerated overnight.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Stir together lime juice, zest, oil, vinegar, honey, cumin, and cayenne in medium bowl. Toss cabbage and red pepper in dressing. Season to taste with salt; cover and refrigerate until ready to serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "meal_prep"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14414,
+    "end": 14456,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

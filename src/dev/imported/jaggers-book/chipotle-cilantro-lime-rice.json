@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_chipotle-cilantro-lime-rice",
+    "name": "Chipotle Cilantro Lime Rice",
+    "slug": "chipotle-cilantro-lime-rice",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cilantro-is-a-key-herb-in-mexican-cooking-and-this-flavorful-rice-dish-from-chipotle-is-great-as-a-side-dish-alongside-grilled-chicken-or-fish-inside-a-burrito-or-as-a-base-for-a-burrito-bowl",
+        "displayName": "Cilantro is a key herb in Mexican cooking, and this flavorful rice dish from Chipotle is great as a side dish alongside grilled chicken or fish, inside a burrito, or as a base for a burrito bowl.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-white-rice",
+        "displayName": "⅔ cup white rice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-lime-halved",
+        "displayName": "medium lime, halved",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-chopped-cilantro",
+        "displayName": "fresh chopped cilantro",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-2-quart-saucepan-over-low-heat-add-olive-oil-add-rice-and-juice-from-half-of-lime-saut-1-minute",
+        "displayName": "In a 2-quart saucepan over low heat, add olive oil. Add rice and juice from half of lime. Sauté 1 minute.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-water-and-salt-increase-heat-to-medium-and-bring-to-a-boil-once-boiling-cover-and-reduce-heat-to-low-and-cook-until-rice-is-tender-and-water-is-absorbed-about-25-minutes",
+        "displayName": "Add water and salt. Increase heat to medium and bring to a boil. Once boiling, cover and reduce heat to low and cook until rice is tender and water is absorbed, about 25 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-rice-from-heat-and-add-cilantro-and-juice-from-remaining-half-of-lime-cover-and-let-rice-stand-10-minutes-then-fluff-rice-with-a-fork-and-serve-hot",
+        "displayName": "Remove rice from heat and add cilantro and juice from remaining half of lime. Cover and let rice stand 10 minutes, then fluff rice with a fork and serve hot.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8820,
+    "end": 8856,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_red-wine-braised-pork-chops",
+    "name": "Red Wine–Braised Pork Chops",
+    "slug": "red-wine-braised-pork-chops",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "10-to-12-ounce-bone-in-pork-blade-chops-1-inch-thick",
+        "displayName": "(10- to 12-ounce) bone-in pork blade chops, 1 inch thick",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-halved-and-sliced-thin",
+        "displayName": "onions, halved and sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme-plus-1-4-teaspoon-minced",
+        "displayName": "sprigs fresh thyme plus 1/4 teaspoon minced",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-inch-piece-ginger-peeled-and-crushed",
+        "displayName": "(1/2-inch) piece ginger, peeled and crushed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-allspice",
+        "displayName": "ground allspice",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine",
+        "displayName": "red wine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ruby-port",
+        "displayName": "ruby port",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-2-teaspoon-red-wine-vinegar",
+        "displayName": "plus 1/2 teaspoon red wine vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 3 tablespoons salt in 11/2 quarts cold water in large container. Submerge chops in brine, cover, and refrigerate for 30 minutes or up to 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 275 degrees. Remove chops from brine and pat dry with paper towels. Trim off meat cap and any fat and cartilage opposite rib bones. Cut trimmings into 1-inch pieces. Heat oil in Dutch oven over medium-high heat until shimmering. Add trimmings and brown on all sides, 6 to 9 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Reduce heat to medium and add onions, thyme sprigs, garlic, bay leaves, ginger, and allspice. Cook, stirring occasionally, until onions are golden brown, 5 to 10 minutes. Stir in wine, port, and 2 tablespoons vinegar and cook until reduced to thin syrup, 5 to 7 minutes. Add chicken broth, spread onions and pork scraps into even layer, and bring to simmer. Arrange pork chops on top of pork scraps and onions."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Cover, transfer to oven, and cook until meat is tender, 11/4 to 11/2 hours. Remove from oven and let chops rest in pot, covered, for 30 minutes. Transfer chops to serving platter and tent with aluminum foil. Strain braising liquid through fine-mesh strainer; discard solids. Transfer braising liquid to fat separator and let stand for 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Wipe out now-empty pot with wad of paper towels. Return defatted braising liquid to pot and cook over medium-high heat until reduced to 1 cup, 3 to 7 minutes. Off heat, whisk in butter, minced thyme, and remaining 1/2 teaspoon vinegar. Season with salt and pepper to taste. Pour sauce over chops, sprinkle with parsley, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38020,
+    "end": 38074,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

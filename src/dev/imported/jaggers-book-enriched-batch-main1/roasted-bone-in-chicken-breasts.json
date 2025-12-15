@@ -1,0 +1,76 @@
+{
+  "mapped": {
+    "id": "atk_roasted-bone-in-chicken-breasts",
+    "name": "Roasted Bone-In Chicken Breasts",
+    "slug": "roasted-bone-in-chicken-breasts",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 65,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "10-to-12-ounce-bone-in-chicken-breasts-trimmed",
+        "displayName": "(10- to 12-ounce) bone-in chicken breasts, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 325 degrees. Line rimmed baking sheet with aluminum foil. Working with 1 breast at a time, use your fingers to carefully separate chicken skin from meat. Peel skin back, leaving it attached at top and bottom of breast and at ribs. Sprinkle salt evenly over all chicken, then lay skin back in place. Using metal skewer or tip of paring knife, poke 6 to 8 holes in fat deposits in skin. Arrange breasts skin side up on prepared sheet. Roast until chicken registers 160 degrees, 35 to 45 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 12-inch skillet over low heat for 5 minutes. Add oil and swirl to coat surface. Add chicken, skin side down, and increase heat to medium-high. Cook chicken without moving it until skin is well browned and crispy, 3 to 5 minutes. Using tongs, flip chicken and prop against side of skillet so thick side of breast is facing down; continue to cook until browned, 1 to 2 minutes longer. Transfer to platter and let rest for 5 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26833,
+    "end": 26857,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

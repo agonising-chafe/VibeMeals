@@ -1,0 +1,207 @@
+{
+  "mapped": {
+    "id": "atk_galettes-compl-tes-buckwheat-crepes-with-ham-egg-and-cheese",
+    "name": "Galettes Complètes (Buckwheat Crepes with Ham, Egg, and Cheese)",
+    "slug": "galettes-compl-tes-buckwheat-crepes-with-ham-egg-and-cheese",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "33-8-ounces-buckwheat-flour",
+        "displayName": "(33/8 ounces) buckwheat flour",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "11-4-ounces-all-purpose-flour",
+        "displayName": "(11/4 ounces) all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "milk",
+        "displayName": "milk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter-melted-and-cooled",
+        "displayName": "salted butter, melted and cooled",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CREPES",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "thin-slices-deli-ham-2-ounces",
+        "displayName": "thin slices deli ham (2 ounces)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "gruy-re-cheese-shredded-11-3-cups",
+        "displayName": "Gruyère cheese, shredded (11/3 cups)",
+        "amount": 5.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "salted-butter-melted",
+        "displayName": "salted butter, melted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-chives",
+        "displayName": "chopped fresh chives",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CREPES: Adjust oven rack to middle position and heat oven to 450 degrees. Heat oil in 12-inch nonstick skillet over low heat for at least 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While skillet heats, whisk buckwheat flour, all-purpose flour, and salt together in medium bowl. In second bowl, whisk together milk and eggs. Add half of milk mixture to flour mixture and whisk until smooth. Add melted butter and whisk until incorporated. Whisk in remaining milk mixture until smooth."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using paper towel, wipe out skillet, leaving thin film of oil on bottom and sides. Increase heat to medium and let skillet heat for 1 minute. Test heat of skillet by placing 1 teaspoon batter in center and cooking for 20 seconds. If mini crepe is golden brown on bottom, skillet is properly heated; if it is too light or too dark, adjust heat accordingly and retest."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Lift skillet off heat and pour 1/3 cup batter into far side of skillet; swirl gently in clockwise direction until batter evenly covers bottom of skillet. Return skillet to heat and cook crepe, without moving it, until surface is dry and crepe starts to brown at edges, loosening crepe from sides of skillet with rubber spatula, about 35 seconds. Gently slide spatula underneath edge of crepe, grasp edge with your fingertips, and flip crepe. Cook until second side is lightly spotted, about 20 seconds. Transfer crepe to wire rack. Return skillet to heat for 10 seconds before repeating with remaining batter. As crepes are done, stack on rack."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE FILLING: Line rimmed baking sheet with parchment paper and spray with vegetable oil spray. Arrange 4 crepes spotty side down on prepared sheet (they will hang over edge). (Reserve remaining crepes for another use.) Working with 1 crepe at a time, place 1 slice of ham in center of crepe, followed by 1/3 cup Gruyère, covering ham evenly. Make small well in center of cheese. Crack 1 egg into well. Fold in 4 sides, pressing to adhere."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Brush crepe edges with melted butter and transfer sheet to oven. Bake until egg whites are uniformly set and yolks have filmed over but are still runny, 8 to 10 minutes. Using thin metal spatula, transfer each crepe to plate and sprinkle with 1 teaspoon chives. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 4669,
+    "end": 4723,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

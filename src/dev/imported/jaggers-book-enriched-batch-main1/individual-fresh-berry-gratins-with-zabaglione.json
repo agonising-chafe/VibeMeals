@@ -1,0 +1,166 @@
+{
+  "mapped": {
+    "id": "atk_individual-fresh-berry-gratins-with-zabaglione",
+    "name": "Individual Fresh Berry Gratins with Zabaglione",
+    "slug": "individual-fresh-berry-gratins-with-zabaglione",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-ounces-raspberries-blueberries-and-or-blackberries",
+        "displayName": "(11 ounces) raspberries, blueberries, and/or blackberries",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BERRY MIXTURE"
+      },
+      {
+        "ingredientId": "4-ounces-strawberries-hulled-and-halved-lengthwise-if-small-or-quartered-if-large",
+        "displayName": "(4 ounces) strawberries, hulled and halved lengthwise if small or quartered if large",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BERRY MIXTURE"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BERRY MIXTURE"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BERRY MIXTURE"
+      },
+      {
+        "ingredientId": "large-egg-yolks",
+        "displayName": "large egg yolks",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "ZABAGLIONE",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "granulated-sugar-divided",
+        "displayName": "granulated sugar, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ZABAGLIONE"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ZABAGLIONE"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "heavy-cream-chilled",
+        "displayName": "heavy cream, chilled",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "ZABAGLIONE",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE BERRY MIXTURE: Toss berries, strawberries, sugar, and salt together in medium bowl. Divide berry mixture evenly among 4 shallow 6-ounce gratin dishes set on rimmed baking sheet; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE ZABAGLIONE: Whisk egg yolks, 2 tablespoons plus 1 teaspoon granulated sugar, and wine in medium glass bowl until sugar is dissolved, about 1 minute. Set bowl over saucepan of barely simmering water and cook, whisking constantly, until mixture is frothy. Continue to cook, whisking constantly, until mixture is slightly thickened, creamy, and glossy, 5 to 10 minutes (mixture will form loose mounds when dripped from whisk). Remove bowl from saucepan and whisk constantly for 30 seconds to cool slightly. Transfer bowl to refrigerator and chill until egg mixture is completely cool, about 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, adjust oven rack 6 inches from broiler element and heat broiler. Combine brown sugar and remaining 2 teaspoons granulated sugar in small bowl."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Whisk heavy cream in large bowl until it holds soft peaks, 30 to 90 seconds. Using rubber spatula, gently fold whipped cream into cooled egg mixture. Spoon zabaglione over berries and sprinkle sugar mixture evenly on top; let stand at room temperature for 10 minutes, until sugar dissolves."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Broil gratins until sugar is bubbly and caramelized, 1 to 4 minutes. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 81279,
+    "end": 81334,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

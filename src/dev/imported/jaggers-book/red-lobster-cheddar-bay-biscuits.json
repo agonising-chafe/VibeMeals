@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_red-lobster-cheddar-bay-biscuits",
+    "name": "Red Lobster Cheddar Bay Biscuits",
+    "slug": "red-lobster-cheddar-bay-biscuits",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6 (YIELDS 12 BISCUITS)",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "for-many-people-the-cheddar-bay-biscuits-at-red-lobster-are-more-popular-than-the-seafood-dishes-they-were-created-in-1992-by-kurt-hankins-and-by-2017-the-restaurants-were-selling-nearly-one-million-biscuits-per-day",
+        "displayName": "For many people, the Cheddar Bay Biscuits at Red Lobster are more popular than the seafood dishes. They were created in 1992 by Kurt Hankins, and by 2017 the restaurants were selling nearly one million biscuits per day!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bisquick-original-pancake-baking-mix",
+        "displayName": "Bisquick Original Pancake & Baking Mix",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-whole-milk",
+        "displayName": "⅔ cup whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-finely-shredded-cheddar-cheese",
+        "displayName": "½ cup finely shredded Cheddar cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-salted-butter-melted",
+        "displayName": "½ cup salted butter, melted",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "¼ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-parsley",
+        "displayName": "¼ teaspoon dried parsley",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-450-f-and-line-a-half-sheet-pan-with-parchment",
+        "displayName": "Preheat oven to 450°F and line a half sheet pan with parchment.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-mix-bisquick-milk-and-cheese-until-a-soft-dough-forms-drop-twelve-mounds-onto-prepared-baking-sheet",
+        "displayName": "In a large bowl, mix Bisquick, milk, and cheese until a soft dough forms. Drop twelve mounds onto prepared baking sheet.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-10-12-minutes-until-golden-brown",
+        "displayName": "Bake 10–12 minutes until golden brown.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-biscuits-bake-mix-butter-and-garlic-powder-in-a-small-bowl-set-aside",
+        "displayName": "While biscuits bake, mix butter and garlic powder in a small bowl. Set aside.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brush-butter-mixture-over-biscuits-just-after-they-come-out-of-the-oven-and-sprinkle-tops-with-parsley-cool-5-minutes-before-serving",
+        "displayName": "Brush butter mixture over biscuits just after they come out of the oven and sprinkle tops with parsley. Cool 5 minutes before serving.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9579,
+    "end": 9619,
+    "yieldLine": "SERVES 6 (YIELDS 12 BISCUITS)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

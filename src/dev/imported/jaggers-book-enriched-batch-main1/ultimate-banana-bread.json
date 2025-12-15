@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_ultimate-banana-bread",
+    "name": "Ultimate Banana Bread",
+    "slug": "ultimate-banana-bread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 80,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES one 9-inch loaf",
+      "baseServings": 10,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "83-4-ounces-all-purpose-flour",
+        "displayName": "(83/4 ounces) all-purpose flour",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-very-ripe-bananas-about-21-4-pounds-peeled-divided",
+        "displayName": "large very ripe bananas (about 21/4 pounds), peeled, divided",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-and-cooled-slightly",
+        "displayName": "unsalted butter, melted and cooled slightly",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-51-4-ounces-light-brown-sugar",
+        "displayName": "packed (51/4 ounces) light brown sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "walnuts-toasted-and-chopped-coarse-optional",
+        "displayName": "walnuts, toasted and chopped coarse (optional)",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Spray 81/2 by 41/2-inch loaf pan with vegetable oil spray. Whisk flour, baking soda, and salt together in large bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place 5 bananas in a microwave-safe bowl; cover with plastic wrap and cut several steam vents in plastic with paring knife. Microwave on high power until bananas are soft and have released their liquid, about 5 minutes. Transfer bananas to fine-mesh strainer placed over medium bowl and allow to drain, stirring occasionally, for 15 minutes (you should have 1/2 to 3/4 cup liquid)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer liquid to medium saucepan and cook over medium-high heat until reduced to 1/4 cup, about 5 minutes. Return drained bananas to bowl. Stir reduced liquid into bananas and mash them with potato masher until fairly smooth. Whisk in melted butter, eggs, brown sugar, and vanilla."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Pour banana mixture into flour mixture and stir until just combined with some streaks of flour remaining. Gently fold in walnuts, if using. Scrape batter into prepared pan. Slice remaining 1 banana diagonally into 1/4-inch-thick slices. Shingle banana slices on top of either side of loaf, leaving 11/2-inch-wide space down center to ensure even rise. Sprinkle granulated sugar evenly over loaf."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Bake until toothpick inserted in center of loaf comes out clean, 55 minutes to 11/4 hours. Let cool in pan on wire rack for 15 minutes, then remove from pan and continue to cool on wire rack. Serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63421,
+    "end": 63465,
+    "yieldLine": "MAKES one 9-inch loaf"
+  },
+  "fit": true
+}

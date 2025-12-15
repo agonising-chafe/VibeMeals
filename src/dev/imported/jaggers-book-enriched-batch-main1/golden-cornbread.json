@@ -1,0 +1,178 @@
+{
+  "mapped": {
+    "id": "atk_golden-cornbread",
+    "name": "Golden Cornbread",
+    "slug": "golden-cornbread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 16 cups crumbled corn bread",
+      "baseServings": 16
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "you-need-about-three-quarters-of-this-recipe-for-the-dressing-the-rest-is-for-nibbling",
+        "displayName": "You need about three-quarters of this recipe for the dressing; the rest is for nibbling.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-melted-plus-extra-for-the-baking-dish",
+        "displayName": "(1/2 stick) unsalted butter, melted, plus extra for the baking dish",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "milk",
+        "displayName": "milk",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "yellow-cornmeal",
+        "displayName": "yellow cornmeal",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "10-ounces-unbleached-all-purpose-flour",
+        "displayName": "(10 ounces) unbleached all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 375 degrees. Grease a 13 by 9-inch baking dish with butter."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Beat the eggs in medium bowl; whisk in the buttermilk and milk."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Whisk the cornmeal, flour, sugar, baking powder, baking soda, and salt together in a large bowl. Push the dry ingredients up the sides of the bowl to make a well, then pour the egg and milk mixture into the well and stir with a whisk until just combined; stir in the melted butter."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Pour the batter into the prepared baking dish. Bake until the top is golden brown and the edges have pulled away from the sides of the pan, 30 to 40 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer the baking dish to a wire rack and let cool completely before using, about 1 hour."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29723,
+    "end": 29765,
+    "yieldLine": "MAKES about 16 cups crumbled corn bread"
+  },
+  "fit": true
+}

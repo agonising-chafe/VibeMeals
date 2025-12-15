@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_california-pizza-kitchen-the-original-bbq-chicken-pizza",
+    "name": "California Pizza Kitchen The Original BBQ Chicken Pizza",
+    "slug": "california-pizza-kitchen-the-original-bbq-chicken-pizza",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-signature-cpk-pizza-has-been-on-the-menu-since-the-restaurant-was-founded-in-1985-if-you-want-to-dress-up-your-pizza-add-cup-chopped-cooked-bacon-or-cup-chopped-pineapple-before-baking",
+        "displayName": "This signature CPK pizza has been on the menu since the restaurant was founded in 1985. If you want to dress up your pizza, add ⅓ cup chopped cooked bacon or ⅓ cup chopped pineapple before baking.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prepared-refrigerated-pizza-dough",
+        "displayName": "prepared refrigerated pizza dough",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-grilled-chicken-breast-strips",
+        "displayName": "chopped grilled chicken breast strips",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-barbecue-sauce-divided",
+        "displayName": "¾ cup barbecue sauce, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-mozzarella-cheese",
+        "displayName": "½ cup shredded mozzarella cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-smoked-gouda-cheese",
+        "displayName": "½ cup shredded smoked Gouda cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-thin-sliced-red-onion",
+        "displayName": "⅓ cup thin-sliced red onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-dough-from-refrigerator-and-place-on-a-12-inch-pizza-pan-sprayed-with-nonstick-cooking-spray-cover-with-a-damp-towel-and-let-rest-at-room-temperature-30-minutes",
+        "displayName": "Remove dough from refrigerator and place on a 12-inch pizza pan sprayed with nonstick cooking spray. Cover with a damp towel and let rest at room temperature 30 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-dough-rests-preheat-oven-to-450-f",
+        "displayName": "While dough rests, preheat oven to 450°F.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-chicken-with-cup-barbecue-sauce-toss-to-evenly-coat-set-aside",
+        "displayName": "In a medium bowl, combine chicken with ¼ cup barbecue sauce. Toss to evenly coat. Set aside.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "once-rested-stretch-pizza-dough-into-a-12-inch-circle-in-pan-spread-remaining-barbecue-sauce-over-crust-leaving-a-inch-rim-around-crust-sprinkle-crust-with-mozzarella-cheese-smoked-gouda-chicken-red-onion-and-cilantro",
+        "displayName": "Once rested, stretch pizza dough into a 12-inch circle in pan. Spread remaining barbecue sauce over crust, leaving a ½-inch rim around crust. Sprinkle crust with mozzarella cheese, smoked Gouda, chicken, red onion, and cilantro.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-pizza-10-12-minutes-until-cheese-is-bubbling-and-crust-is-golden-brown-on-sides-and-bottom-remove-from-oven-and-let-stand-5-minutes-before-slicing-and-serving",
+        "displayName": "Bake pizza 10–12 minutes until cheese is bubbling and crust is golden brown on sides and bottom. Remove from oven and let stand 5 minutes before slicing and serving.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6170,
+    "end": 6212,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,163 @@
+{
+  "mapped": {
+    "id": "atk_pasta-alla-norma",
+    "name": "Pasta alla Norma",
+    "slug": "pasta-alla-norma",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "eggplant-cut-into-1-2-inch-pieces",
+        "displayName": "eggplant, cut into 1/2-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-plus-salt-for-cooking-pasta",
+        "displayName": "table salt, plus salt for cooking pasta",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-patted-dry-and-minced",
+        "displayName": "anchovy fillets, rinsed, patted dry, and minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "1-4-1-2-teaspoon-red-pepper-flakes",
+        "displayName": "1/4–1/2 teaspoon red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ziti-rigatoni-or-penne",
+        "displayName": "ziti, rigatoni, or penne",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ricotta-salata-shredded-1-cup",
+        "displayName": "ricotta salata, shredded (1 cup)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss eggplant with salt in bowl. Line entire surface of plate with double layer of coffee filters and lightly spray with vegetable oil spray. Spread eggplant in even layer on coffee filters; wipe out and reserve bowl. Microwave until eggplant is dry and shriveled to one-third of its original size, 8 to 15 minutes (eggplant should not brown). Transfer eggplant immediately to paper towel–lined plate. Let cool slightly."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer eggplant to now-empty bowl, drizzle with 1 tablespoon oil, and toss gently to coat; discard coffee filters and reserve plate. Heat 1 tablespoon oil in 12-inch nonstick skillet over medium-high heat until shimmering. Add eggplant and cook, stirring occasionally, until well browned and fully tender, about 10 minutes. Remove skillet from heat and transfer eggplant to now-empty plate."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add 1 tablespoon oil, garlic, anchovies, and pepper flakes to now-empty skillet and cook using residual heat, stirring constantly, until fragrant and garlic becomes pale golden, about 1 minute (if skillet is too cool to cook mixture, set it over medium heat). Add tomatoes and bring to simmer over medium-high heat. Cook, stirring occasionally, until slightly thickened, 8 to 10 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Gently stir in eggplant and cook until heated through and flavors meld, 3 to 5 minutes. Stir in basil and remaining 1 tablespoon oil. Season with salt to taste."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Meanwhile, bring 4 quarts water to boil in large pot. Add pasta and 1 tablespoon salt and cook, stirring often, until al dente. Reserve 1/2 cup cooking water, then drain pasta and return it to pot. Add sauce and toss to combine. Adjust consistency with reserved cooking water as needed. Serve, passing ricotta salata separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 18423,
+    "end": 18467,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

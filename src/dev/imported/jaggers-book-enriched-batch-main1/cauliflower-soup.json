@@ -1,0 +1,143 @@
+{
+  "mapped": {
+    "id": "atk_cauliflower-soup",
+    "name": "Cauliflower Soup",
+    "slug": "cauliflower-soup",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "head-cauliflower-2-pounds",
+        "displayName": "head cauliflower (2 pounds)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-tablespoon-pieces-divided",
+        "displayName": "unsalted butter, cut into 1-tablespoon pieces, divided",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "leek-white-and-light-green-parts-only-halved-lengthwise-sliced-thin-and-washed-thoroughly-see-this-page",
+        "displayName": "leek, white and light green parts only, halved lengthwise, sliced thin, and washed thoroughly (see this page)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-halved-and-sliced-thin",
+        "displayName": "small onion, halved and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 4.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-chives",
+        "displayName": "minced fresh chives",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Pull off outer leaves of cauliflower and trim stem. Using paring knife, cut around core to remove; thinly slice core and reserve. Cut heaping 1 cup of 1/2-inch florets from head of cauliflower; set aside. Cut remaining cauliflower crosswise into 1/2-inch-thick slices."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Melt 3 tablespoons butter in large saucepan over medium-low heat. Add leek, onion, and salt; cook, stirring frequently, until onion is softened but not browned, about 7 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Increase heat to medium-high; add water, sliced core, and half of sliced cauliflower; and bring to simmer. Reduce heat to medium-low and simmer gently for 15 minutes. Add remaining sliced cauliflower, return to simmer, and continue to cook until cauliflower is tender and crumbles easily, 15 to 20 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While soup simmers, melt remaining 5 tablespoons butter in 8-inch skillet over medium heat. Add reserved florets and cook, stirring frequently, until florets are golden brown and butter is browned, 6 to 8 minutes. Remove skillet from heat and use slotted spoon to transfer florets to small bowl. Toss florets with vinegar and season with salt to taste. Pour browned butter in skillet into small bowl and reserve for garnishing."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Process soup in blender until smooth, about 45 seconds. Rinse out pan. Return pureed soup to pan and return to simmer over medium heat, adjusting consistency with up to 1/2 cup water as needed (soup should have thick, velvety texture, but should be thin enough to settle with a flat surface after being stirred) and seasoning with salt to taste. Serve, garnishing individual bowls with browned florets, drizzles of browned butter, and chives and seasoning with pepper to taste."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10044,
+    "end": 10084,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,259 @@
+{
+  "mapped": {
+    "id": "atk_braciole",
+    "name": "Braciole",
+    "slug": "braciole",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 7,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced-divided",
+        "displayName": "cloves, minced, divided",
+        "amount": 10,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lemon-zest",
+        "displayName": "grated lemon zest",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-and-minced",
+        "displayName": "anchovy fillets, rinsed and minced",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-chopped-fresh-basil-divided",
+        "displayName": "plus 2 tablespoons chopped fresh basil, divided",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-pecorino-romano-cheese-plus-extra-for-serving",
+        "displayName": "grated Pecorino Romano cheese, plus extra for serving",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "plain-dried-bread-crumbs",
+        "displayName": "plain dried bread crumbs",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fontina-cheese-shredded-3-4-cup",
+        "displayName": "fontina cheese, shredded (3/4 cup)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "2-to-21-2-pound-flank-steak-trimmed",
+        "displayName": "(2- to 21/2-pound) flank steak, trimmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thin-slices-prosciutto-4-ounces",
+        "displayName": "thin slices prosciutto (4 ounces)",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-chopped-fine",
+        "displayName": "large onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-red-wine",
+        "displayName": "dry red wine",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 325 degrees. Stir 3 tablespoons oil, half of garlic, lemon zest, and anchovies together in medium bowl. Add 1/3 cup basil, parsley, Pecorino, and bread crumbs and stir to incorporate. Stir in fontina until evenly distributed and set aside filling."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Halve steak against grain to create 2 smaller steaks. Lay 1 steak on cutting board with grain running parallel to counter edge. Holding blade of chef’s knife parallel to counter, halve steak horizontally to create 2 thin pieces. Repeat with remaining steak. Cover 1 piece with plastic wrap and, using meat pounder, flatten into rough rectangle measuring no more than 1/4 inch thick. Repeat pounding with remaining 3 pieces. Cut each piece in half, with grain, to create total of 8 pieces."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Lay 4 pieces on cutting board with grain running parallel to counter edge (if 1 side is shorter than the other, place shorter side closer to you). Distribute half of filling evenly over pieces. Top filling on each piece with 1 slice of prosciutto, folding to fit, and press firmly. Keeping filling in place, roll each piece away from you to form tight log. Tie each roll with 2 pieces kitchen twine to secure. Repeat process with remaining steak pieces, filling, and prosciutto. Sprinkle rolls on both sides with salt and pepper."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat remaining 1/4 cup oil in large Dutch oven over medium-high heat until shimmering. Brown rolls on 2 sides, 8 to 10 minutes. Transfer rolls to plate. Add onion to pot and cook, stirring occasionally, until softened and browned, 5 to 7 minutes. Stir in pepper flakes and remaining garlic; cook until fragrant, 30 seconds. Stir in tomato paste and cook until slightly darkened, 3 to 4 minutes. Add wine and cook, scraping up any browned bits. Stir in tomatoes and broth. Return rolls to pot; bring to simmer. Cover and transfer to oven. Braise until meat is fork-tender, 21/2 to 3 hours, using tongs to flip rolls halfway through braising."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer braciole to serving dish and discard twine. Stir remaining 2 tablespoons basil into tomato sauce and season with salt and pepper to taste. Pour sauce over braciole and serve, passing extra Pecorino separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 34264,
+    "end": 34326,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

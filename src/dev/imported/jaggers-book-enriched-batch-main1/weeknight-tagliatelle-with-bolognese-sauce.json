@@ -1,0 +1,222 @@
+{
+  "mapped": {
+    "id": "atk_weeknight-tagliatelle-with-bolognese-sauce",
+    "name": "Weeknight Tagliatelle with Bolognese Sauce",
+    "slug": "weeknight-tagliatelle-with-bolognese-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "93-percent-lean-ground-beef",
+        "displayName": "93 percent lean ground beef",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper-divided",
+        "displayName": "pepper, divided",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pancetta-chopped-coarse",
+        "displayName": "pancetta, chopped coarse",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-coarse",
+        "displayName": "onion, chopped coarse",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-carrot-peeled-and-chopped-coarse",
+        "displayName": "large carrot, peeled and chopped coarse",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-chopped-coarse",
+        "displayName": "celery rib, chopped coarse",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-red-wine",
+        "displayName": "dry red wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-2-cup-plus-extra-for-serving",
+        "displayName": "Parmesan cheese, grated (1/2 cup), plus extra for serving",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "tagliatelle",
+        "displayName": "tagliatelle",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-for-cooking-pasta",
+        "displayName": "Table salt for cooking pasta",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss beef with 2 tablespoons water, 1/4 teaspoon pepper, and baking soda in bowl until thoroughly combined. Set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While beef sits, bring broth to boil over high heat in large pot (this pot will be used to cook pasta in step 6) and cook until reduced to 2 cups, about 15 minutes; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pulse pancetta in food processor until finely chopped, 15 to 20 pulses. Add onion, carrot, and celery and pulse until vegetables are finely chopped and mixture has paste-like consistency, 12 to 15 pulses, scraping down sides of bowl as needed."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat butter and oil in large Dutch oven over medium-high heat until shimmering. Add pancetta-vegetable mixture and remaining 1/4 teaspoon pepper and cook, stirring occasionally, until liquid has evaporated, about 8 minutes. Spread mixture in even layer in bottom of pot and continue to cook, stirring every couple of minutes, until very dark browned bits form on bottom of pot, 7 to 12 minutes longer. Stir in tomato paste and cook until paste is rust-colored and bottom of pot is dark brown, 1 to 2 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Reduce heat to medium, add beef, and cook, using wooden spoon to break meat into pieces no larger than 1/4 inch, until beef has just lost its raw pink color, 4 to 7 minutes. Stir in wine, scraping up any browned bits, and bring to simmer. Cook until wine has evaporated and sauce has thickened, about 5 minutes. Stir in broth and Parmesan. Return sauce to simmer; cover, reduce heat to low, and simmer for 30 minutes (sauce will look thin). Remove from heat and season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Rinse pot that held broth. While sauce simmers, bring 4 quarts water to boil in now-empty pot. Add pasta and 1 tablespoon salt and cook, stirring occasionally, until al dente. Reserve 1/4 cup cooking water, then drain pasta. Add pasta to pot with sauce and toss to combine. Adjust sauce consistency with reserved cooking water as needed. Transfer to platter or individual bowls and serve, passing extra Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 16756,
+    "end": 16816,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

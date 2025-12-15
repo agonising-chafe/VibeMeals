@@ -1,0 +1,184 @@
+{
+  "mapped": {
+    "id": "atk_longhorn-steakhouse-crispy-brussels-sprouts",
+    "name": "LongHorn Steakhouse Crispy Brussels Sprouts",
+    "slug": "longhorn-steakhouse-crispy-brussels-sprouts",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "most-people-think-potatoes-when-they-think-steakhouse-but-at-longhorn-steakhouse-one-of-the-most-popular-sides-are-these-crispy-brussels-sprouts-drizzled-with-a-spicy-sweet-glaze",
+        "displayName": "Most people think potatoes when they think steakhouse, but at LongHorn Steakhouse one of the most popular sides are these crispy Brussels sprouts drizzled with a spicy-sweet glaze!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brussels-sprouts-ends-trimmed",
+        "displayName": "Brussels sprouts, ends trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter-melted",
+        "displayName": "salted butter, melted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "crushed-red-pepper-flakes",
+        "displayName": "crushed red pepper flakes",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-smoked-paprika",
+        "displayName": "½ teaspoon smoked paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-chili-powder",
+        "displayName": "½ teaspoon chili powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f-and-line-a-half-sheet-pan-with-foil-sprayed-with-nonstick-cooking-spray",
+        "displayName": "Preheat oven to 400°F and line a half sheet pan with foil sprayed with nonstick cooking spray.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-a-large-pot-with-water-bring-to-a-boil-over-high-heat-and-add-brussels-sprouts-and-salt-boil-5-minutes-or-until-tender-drain-and-rinse-well-with-cold-water",
+        "displayName": "Fill a large pot with water. Bring to a boil over high heat and add Brussels sprouts and salt. Boil 5 minutes or until tender. Drain and rinse well with cold water.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cut-sprouts-in-half-and-add-to-a-large-bowl-add-olive-oil-and-toss-to-coat-place-sprouts-on-prepared-baking-sheet-cut-side-down-bake-20-25-minutes-stirring-halfway-through-cooking-time-until-golden-brown-and-crispy",
+        "displayName": "Cut sprouts in half and add to a large bowl. Add olive oil and toss to coat. Place sprouts on prepared baking sheet cut side down. Bake 20–25 minutes, stirring halfway through cooking time, until golden brown and crispy.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-sprouts-bake-combine-butter-honey-red-pepper-flakes-paprika-and-chili-powder-in-a-small-bowl-and-mix-well",
+        "displayName": "While sprouts bake, combine butter, honey, red pepper flakes, paprika, and chili powder in a small bowl and mix well.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-sprouts-from-oven-and-transfer-to-a-serving-plate-drizzle-with-sauce-and-toss-gently-to-coat-serve-hot",
+        "displayName": "Remove sprouts from oven and transfer to a serving plate. Drizzle with sauce and toss gently to coat. Serve hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9282,
+    "end": 9326,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

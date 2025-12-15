@@ -1,0 +1,210 @@
+{
+  "mapped": {
+    "id": "atk_make-ahead-turkey-gravy",
+    "name": "Make-Ahead Turkey Gravy",
+    "slug": "make-ahead-turkey-gravy",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 2 quarts",
+      "baseServings": 16
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "note-that-the-optional-roast-turkey-drippings-may-be-quite-salty-add-them-carefully-to-the-gravy-in-step-4-so-that-the-gravy-does-not-become-too-salty",
+        "displayName": "Note that the optional roast turkey drippings may be quite salty—add them carefully to the gravy in step 4 so that the gravy does not become too salty.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "turkey-thighs-trimmed-or-9-wings-separated-at-the-joints",
+        "displayName": "turkey thighs, trimmed, or 9 wings, separated at the joints",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrots-chopped-coarse",
+        "displayName": "medium carrots, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-celery-ribs-chopped-coarse",
+        "displayName": "medium celery ribs, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-chopped-coarse",
+        "displayName": "medium onions, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "head-garlic-halved",
+        "displayName": "head garlic, halved",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth-plus-extra-as-needed",
+        "displayName": "low-sodium chicken broth, plus extra as needed",
+        "amount": 10,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-as-needed",
+        "displayName": "Unsalted butter, as needed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "defatted-drippings-from-old-fashioned-stuffed-turkey-this-page-optional",
+        "displayName": "Defatted drippings from Old-Fashioned Stuffed Turkey (this page) (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 450 degrees. Toss the thighs, carrots, celery, onions, and garlic together in a roasting pan and spray with vegetable oil spray. Roast, stirring occasionally, until well browned, 11/2 to 13/4 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer the contents of the roasting pan to a large Dutch oven. Add the broth, wine, and thyme and bring to a boil, skimming as needed. Reduce to a gentle simmer and cook until the broth is brown and flavorful and measures about 8 cups when strained, about 11/2 hours. Strain the broth through a fine-mesh strainer into a large container, pressing on the solids to extract as much liquid as possible; discard the solids. (The turkey broth can be cooled and refrigerated in an airtight container for up to 2 days or frozen for up to 1 month.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Let the strained turkey broth settle (if necessary), then spoon off and reserve 1/2 cup of the fat that has risen to the top (add butter as needed if short on turkey fat). Heat the fat in a Dutch oven over medium-high heat until bubbling. Whisk in the flour and cook, whisking constantly, until well browned, 3 to 7 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Slowly whisk in the turkey broth and bring to a boil. Reduce to a simmer and cook until the gravy is very thick, 10 to 15 minutes. Add the defatted drippings (if using) to taste, then season with salt and pepper to taste and serve. (The gravy can be refrigerated in an airtight container for up to 2 days; reheat gently, adding additional chicken broth as needed to adjust the consistency)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "After placing 4 to 5 cups of the preheated stuffing into the turkey, use metal skewers (or cut bamboo skewers) and thread them through the skin on both sides of the cavity to seal the cavity shut."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Center a 2-foot piece of kitchen twine on the top skewer and then cross the twine as you wrap each end of it around and under the skewers. Loosely tie the legs together with another short piece of twine."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Flip the turkey over onto its breast. Stuff the neck cavity loosely with approximately 1 cup of stuffing. Pull the skin flap over and use a skewer to pin the flap to the turkey."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29392,
+    "end": 29462,
+    "yieldLine": "MAKES about 2 quarts"
+  },
+  "fit": true
+}

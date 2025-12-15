@@ -1,0 +1,98 @@
+{
+  "mapped": {
+    "id": "atk_basic-polenta",
+    "name": "Basic Polenta",
+    "slug": "basic-polenta",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-grind-cornmeal-preferably-stone-ground",
+        "displayName": "medium-grind cornmeal, preferably stone-ground",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-large-chunks",
+        "displayName": "unsalted butter, cut into large chunks",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring the water to a rolling boil in a 4-quart heavy-bottomed saucepan over medium-high heat. Reduce the heat to the lowest possible setting, add 11/2 teaspoons salt, and pour the cornmeal into the water in a very slow stream from a measuring cup, all the while whisking in a circular motion to prevent lumps."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cover and cook, vigorously stirring the polenta with a wooden spoon for about 10 seconds once every 5 minutes and making sure to scrape clean the bottom and corners of the pot, until the polenta has lost its raw cornmeal taste and becomes soft and smooth, about 30 minutes. Stir in the butter, season with salt and pepper to taste, and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61688,
+    "end": 61720,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

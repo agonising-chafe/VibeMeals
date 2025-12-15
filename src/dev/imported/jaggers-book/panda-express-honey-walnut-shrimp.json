@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_panda-express-honey-walnut-shrimp",
+    "name": "Panda Express Honey Walnut Shrimp",
+    "slug": "panda-express-honey-walnut-shrimp",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "added-to-the-panda-express-menu-in-2010-honey-walnut-shrimp-coats-crispy-fried-shrimp-in-a-sweet-sauce-and-serves-it-with-crisp-candied-walnuts-that-same-year-the-dish-won-the-menumasters-award-for-best-new-menu-item",
+        "displayName": "Added to the Panda Express menu in 2010, Honey Walnut Shrimp coats crispy fried shrimp in a sweet sauce and serves it with crisp candied walnuts. That same year, the dish won the MenuMasters award for Best New Menu Item!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "Vegetable oil, for frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-whites",
+        "displayName": "large egg whites",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cornstarch",
+        "displayName": "¼ cup cornstarch",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shrimp-peeled-and-deveined",
+        "displayName": "large shrimp, peeled and deveined",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-japanese-mayonnaise-such-as-kewpie",
+        "displayName": "¼ cup Japanese mayonnaise, such as Kewpie",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweetened-condensed-milk",
+        "displayName": "sweetened condensed milk",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "candied-walnuts",
+        "displayName": "candied walnuts",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-deep-fryer-with-oil-per-manufacturer-directions-and-heat-to-350-f-or-in-a-5-quart-dutch-oven-add-enough-oil-to-fill-pot-by-3-inches-leaving-at-least-3-inches-of-space-at-the-top-and-place-over-medium-high-heat-until-oil-reaches-350-f",
+        "displayName": "Fill deep fryer with oil per manufacturer directions and heat to 350°F, or in a 5 ½-quart Dutch oven add enough oil to fill pot by 3 inches, leaving at least 3 inches of space at the top, and place over medium-high heat until oil reaches 350°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-egg-whites-and-salt-whisk-until-foamy-then-add-cornstarch-and-whisk-until-smooth",
+        "displayName": "In a medium bowl, add egg whites and salt. Whisk until foamy, then add cornstarch and whisk until smooth.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dip-shrimp-in-cornstarch-batter-letting-excess-drip-off-then-add-to-hot-oil-fry-4-or-5-shrimp-at-a-time-in-oil-4-minutes-or-until-crisp-and-golden-brown-transfer-to-a-paper-towel-lined-plate-and-repeat-with-remaining-shrimp-and-batter",
+        "displayName": "Dip shrimp in cornstarch batter, letting excess drip off, then add to hot oil. Fry 4 or 5 shrimp at a time in oil 4 minutes or until crisp and golden brown. Transfer to a paper towel–lined plate and repeat with remaining shrimp and batter.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-mayonnaise-condensed-milk-and-honey-to-a-medium-bowl-and-whisk-to-combine-add-shrimp-and-gently-toss-to-coat",
+        "displayName": "Add mayonnaise, condensed milk, and honey to a medium bowl and whisk to combine. Add shrimp and gently toss to coat.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-shrimp-to-a-serving-plate-and-garnish-with-candied-walnuts-serve-hot",
+        "displayName": "Transfer shrimp to a serving plate and garnish with candied walnuts. Serve hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-make-candied-walnuts-in-a-12-inch-nonstick-skillet-over-medium-heat-add-1-cup-walnut-halves-cup-granulated-sugar-and-1-tablespoon-unsalted-butter-cook-until-sugar-melts-and-coats-walnuts-thickly-about-5-minutes-quickly-transfer-walnuts-to-parchment-lined-half-sheet-pan-and-spread-evenly-cool-completely-before-using",
+        "displayName": "To make candied walnuts: In a 12-inch nonstick skillet over medium heat, add 1 cup walnut halves, ¼ cup granulated sugar, and 1 tablespoon unsalted butter. Cook until sugar melts and coats walnuts thickly, about 5 minutes. Quickly transfer walnuts to parchment-lined half sheet pan and spread evenly. Cool completely before using.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7678,
+    "end": 7728,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

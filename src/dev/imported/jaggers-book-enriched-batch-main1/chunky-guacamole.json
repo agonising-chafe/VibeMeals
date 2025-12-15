@@ -1,0 +1,126 @@
+{
+  "mapped": {
+    "id": "atk_chunky-guacamole",
+    "name": "Chunky Guacamole",
+    "slug": "chunky-guacamole",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 20,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 21/2 to 3 cups",
+      "baseServings": 6,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "medium-ripe-avocados",
+        "displayName": "medium, ripe avocados",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro-leaves",
+        "displayName": "minced fresh cilantro leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-onion",
+        "displayName": "minced onion",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-jalape-o-chile-stemmed-seeded-and-minced",
+        "displayName": "small jalapeño chile, stemmed, seeded, and minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-clove-minced-or-pressed-through-a-garlic-press-about-1-teaspoon",
+        "displayName": "medium garlic clove, minced or pressed through a garlic press (about 1 teaspoon)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin-optional",
+        "displayName": "ground cumin (optional)",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "juice-from-1-lime",
+        "displayName": "juice from 1 lime",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Halve 1 avocado, remove the pit, and scoop the flesh into a medium bowl. Mash the flesh lightly with the cilantro, onion, jalapeño, garlic, cumin (if using), and 1/4 teaspoon salt with the tines of a fork until just combined."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Halve, pit, and cube the remaining 2 avocados. Add the cubes to the bowl with the mashed avocado mixture."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Sprinkle the lime juice over the diced avocado and mix the entire contents of the bowl lightly with a fork until combined but still chunky. Season with salt, if necessary, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 542,
+    "end": 578,
+    "yieldLine": "MAKES 21/2 to 3 cups"
+  },
+  "fit": true
+}

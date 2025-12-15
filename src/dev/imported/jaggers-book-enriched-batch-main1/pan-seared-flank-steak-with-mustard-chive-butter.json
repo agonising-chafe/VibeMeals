@@ -1,0 +1,153 @@
+{
+  "mapped": {
+    "id": "atk_pan-seared-flank-steak-with-mustard-chive-butter",
+    "name": "Pan-Seared Flank Steak with Mustard-Chive Butter",
+    "slug": "pan-seared-flank-steak-with-mustard-chive-butter",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-2-to-13-4-pound-flank-steak-trimmed",
+        "displayName": "(11/2- to 13/4-pound) flank steak, trimmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MUSTARD-CHIVE BUTTER",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-chives",
+        "displayName": "chopped fresh chives",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MUSTARD-CHIVE BUTTER"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MUSTARD-CHIVE BUTTER"
+      },
+      {
+        "ingredientId": "grated-lemon-zest-plus-1-teaspoon-juice",
+        "displayName": "grated lemon zest plus 1 teaspoon juice",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MUSTARD-CHIVE BUTTER"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 225 degrees. Pat steak dry with paper towels. Cut steak in half lengthwise. Cut each piece in half crosswise to create 4 steaks. Combine salt, sugar, and pepper in small bowl. Sprinkle half of salt mixture on 1 side of steaks and press gently to adhere. Flip steaks and repeat with remaining salt mixture. Place steaks on wire rack set in rimmed baking sheet; transfer sheet to oven. Cook until thermometer inserted through side into center of thickest steak registers 120 degrees, 30 to 40 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, combine butter, 1 tablespoon chives, mustard, and lemon zest and juice in small bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat oil in 12-inch skillet over medium-high heat until just smoking. Sear steaks, flipping every 1 minute, until brown crust forms on both sides, 4 minutes total. (Do not move steaks between flips.) Return steaks to wire rack and let rest for 10 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer steaks to cutting board with grain running from left to right. Spread 11/2 teaspoons butter mixture on top of each steak. Slice steak as thin as possible against grain. Transfer sliced steak to warm platter, dot with remaining butter mixture, sprinkle with remaining 2 tablespoons chives, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 33532,
+    "end": 33572,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

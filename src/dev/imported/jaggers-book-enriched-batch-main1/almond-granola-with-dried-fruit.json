@@ -1,0 +1,135 @@
+{
+  "mapped": {
+    "id": "atk_almond-granola-with-dried-fruit",
+    "name": "Almond Granola with Dried Fruit",
+    "slug": "almond-granola-with-dried-fruit",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 9 cups",
+      "baseServings": 9
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "maple-syrup",
+        "displayName": "maple syrup",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-21-3-ounces-light-brown-sugar",
+        "displayName": "packed (21/3 ounces) light brown sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "15-ounces-old-fashioned-rolled-oats",
+        "displayName": "(15 ounces) old-fashioned rolled oats",
+        "amount": 5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "10-ounces-raw-almonds-chopped-coarse",
+        "displayName": "(10 ounces) raw almonds, chopped coarse",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "raisins-or-other-dried-fruit-chopped",
+        "displayName": "raisins or other dried fruit, chopped",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to upper-middle position and heat oven to 325 degrees. Line rimmed baking sheet with parchment paper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk maple syrup, brown sugar, vanilla, and salt in large bowl. Whisk in oil. Fold in oats and almonds until thoroughly coated."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer oat mixture to prepared baking sheet and spread across sheet into thin, even layer (about 3/8 inch thick). Using stiff metal spatula, compress oat mixture until very compact. Bake until lightly browned, 40 to 45 minutes, rotating pan once halfway through baking. Let cool on wire rack to room temperature, about 1 hour. Break cooled granola into pieces of desired size. Stir in dried fruit. (Granola can be stored in airtight container for up to 2 weeks.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 6129,
+    "end": 6165,
+    "yieldLine": "MAKES 9 cups"
+  },
+  "fit": true
+}

@@ -1,0 +1,230 @@
+{
+  "mapped": {
+    "id": "atk_baked-ziti",
+    "name": "Baked Ziti",
+    "slug": "baked-ziti",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "2-cups-whole-milk-or-1-percent-cottage-cheese",
+        "displayName": "(2 cups) whole-milk or 1 percent cottage cheese",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs-lightly-beaten",
+        "displayName": "large eggs, lightly beaten",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-11-2-cups-divided",
+        "displayName": "Parmesan cheese, grated (11/2 cups), divided",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ziti-or-other-short-tubular-pasta",
+        "displayName": "ziti or other short tubular pasta",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-for-cooking-pasta",
+        "displayName": "Table salt for cooking pasta",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 5,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "can-tomato-sauce",
+        "displayName": "can tomato sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes",
+        "displayName": "can diced tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-chopped-fresh-basil-divided",
+        "displayName": "plus 2 tablespoons chopped fresh basil, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "whole-milk-mozzarella-cheese-cut-into-1-4-inch-pieces-11-2-cups-divided",
+        "displayName": "whole-milk mozzarella cheese, cut into 1/4-inch pieces (11/2 cups), divided",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Whisk cottage cheese, eggs, and 1 cup Parmesan together in medium bowl; set aside. Bring 4 quarts water to boil in large pot. Add pasta and 1 tablespoon salt and cook, stirring occasionally, until pasta begins to soften but is not yet cooked through, 5 to 7 minutes. Drain pasta and leave in colander (do not wash pot)."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, heat oil and garlic in 12-inch skillet over medium heat until garlic is fragrant but not brown, about 2 minutes. Stir in tomato sauce, diced tomatoes, and oregano; simmer until thickened, about 10 minutes. Off heat, stir in 1/2 cup basil and sugar; season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir cream and cornstarch together in small bowl; transfer mixture to now-empty pasta pot set over medium heat. Bring to simmer and cook until thickened, 3 to 4 minutes. Remove pot from heat and add cottage cheese mixture, 1 cup tomato sauce, and 3/4 cup mozzarella; stir to combine. Add pasta and stir to coat thoroughly with sauce."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer pasta to 13 by 9-inch baking dish and spread remaining tomato sauce evenly over pasta. Sprinkle remaining 3/4 cup mozzarella and remaining 1/2 cup Parmesan over top. Cover baking dish tightly with aluminum foil and bake for 30 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove foil and continue to cook until cheese is bubbling and beginning to brown, about 30 minutes longer. Let cool for 20 minutes. Sprinkle with remaining 2 tablespoons basil and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 18864,
+    "end": 18918,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

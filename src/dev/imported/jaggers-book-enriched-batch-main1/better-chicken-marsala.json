@@ -1,0 +1,239 @@
+{
+  "mapped": {
+    "id": "atk_better-chicken-marsala",
+    "name": "Better Chicken Marsala",
+    "slug": "better-chicken-marsala",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dry-marsala",
+        "displayName": "dry Marsala",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-porcini-mushrooms-rinsed",
+        "displayName": "dried porcini mushrooms, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-to-8-ounce-boneless-skinless-chicken-breasts-trimmed",
+        "displayName": "(6- to 8-ounce) boneless, skinless chicken breasts, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-teaspoon-vegetable-oil",
+        "displayName": "plus 1 teaspoon vegetable oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pancetta-cut-into-1-2-inch-pieces",
+        "displayName": "pancetta, cut into 1/2-inch pieces",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cremini-mushrooms-trimmed-and-sliced-thin",
+        "displayName": "cremini mushrooms, trimmed and sliced thin",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shallot-minced",
+        "displayName": "shallot, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-oregano",
+        "displayName": "minced fresh oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-6-pieces",
+        "displayName": "unsalted butter, cut into 6 pieces",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 2 cups Marsala, gelatin, and porcini mushrooms to boil in medium saucepan over high heat. Reduce heat to medium-high and vigorously simmer until reduced by half, 6 to 8 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, cut each chicken breast in half crosswise, then cut thick half in half again horizontally, creating 3 cutlets of about same thickness. Place cutlets between sheets of plastic wrap and pound gently to even 1/2-inch thickness. Place cutlets in bowl and toss with 2 teaspoons salt and 1/2 teaspoon pepper. Set aside for 15 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Strain Marsala reduction through fine-mesh strainer, pressing on solids to extract as much liquid as possible; discard solids. Return Marsala reduction to saucepan, add broth, and return to boil over high heat. Lower heat to medium-high and simmer until reduced to 11/2 cups, 10 to 12 minutes. Set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spread flour in shallow dish. Working with 1 cutlet at a time, dredge cutlets in flour, shaking gently to remove excess. Place on wire rack set in rimmed baking sheet. Heat 2 tablespoons oil in 12-inch skillet over medium-high heat until just smoking. Place 6 cutlets in skillet and lower heat to medium. Cook until golden brown on 1 side, 2 to 3 minutes. Flip and cook until golden brown on second side, 2 to 3 minutes. Return cutlets to wire rack. Repeat with 2 tablespoons oil and remaining 6 cutlets."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Return now-empty skillet to medium-low heat and add pancetta. Cook, stirring occasionally, scraping pan bottom to loosen any browned bits, until pancetta is brown and crisp, about 4 minutes. Add cremini mushrooms and increase heat to medium-high. Cook, stirring occasionally and scraping pan bottom, until liquid released by mushrooms evaporates and mushrooms begin to brown, about 8 minutes. Using slotted spoon, transfer cremini mushrooms and pancetta to bowl. Add remaining 1 teaspoon oil and shallot to pan and cook until softened, about 1 minute. Add tomato paste and garlic and cook until fragrant, about 30 seconds. Add reduced Marsala mixture, remaining 1/4 cup Marsala, lemon juice, and oregano and bring to simmer."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Add cutlets to sauce and simmer for 3 minutes, flipping halfway through simmering. Transfer cutlets to platter. Off heat, whisk in butter. Stir in parsley and cremini mushroom mixture. Season with salt and pepper to taste. Spoon sauce over chicken and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 22708,
+    "end": 22772,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

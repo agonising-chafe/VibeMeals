@@ -1,0 +1,160 @@
+{
+  "mapped": {
+    "id": "atk_garlic-lime-grilled-pork-tenderloin-steaks",
+    "name": "Garlic-Lime Grilled Pork Tenderloin Steaks",
+    "slug": "garlic-lime-grilled-pork-tenderloin-steaks",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "pork-tenderloins-trimmed",
+        "displayName": "pork tenderloins, trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lime-zest-plus-1-4-cup-juice-2-limes",
+        "displayName": "grated lime zest plus 1/4 cup juice (2 limes)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Slice each tenderloin in half crosswise to create 4 steaks total. Pound each half to 3/4-inch thickness. Using sharp knife, cut 1/8-inch-deep slits spaced 1/2 inch apart in crosshatch pattern on both sides of steaks."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk lime zest and juice, garlic, honey, fish sauce, salt, and pepper together in large bowl. Whisking constantly, slowly drizzle oil into lime mixture until smooth and slightly thickened. Transfer 1/2 cup lime mixture to small bowl and whisk in mayonnaise; set aside sauce. Add steaks to bowl with remaining marinade and toss thoroughly to coat; transfer steaks and marinade to large zipper-lock bag, press out as much air as possible, and seal bag. Let steaks sit at room temperature for 45 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Remove steaks from marinade (do not pat dry) and place over hotter part of grill. Cook, uncovered, until well browned on first side, 3 to 4 minutes. Flip steaks and cook until well browned on second side, 3 to 4 minutes. Transfer steaks to cooler part of grill, with wider end of each steak facing hotter part of grill. Cover and cook until meat registers 140 to 145 degrees, 3 to 8 minutes longer (remove steaks as they come to temperature). Transfer steaks to cutting board and let rest for 5 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While steaks rest, microwave reserved sauce until warm, 15 to 30 seconds; stir in cilantro. Slice steaks against grain 1/2 inch thick. Drizzle with half of sauce; sprinkle with flake sea salt, if desired; and serve, passing remaining sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51438,
+    "end": 51488,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

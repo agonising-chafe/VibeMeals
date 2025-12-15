@@ -1,0 +1,185 @@
+{
+  "mapped": {
+    "id": "atk_swiss-chard-and-kale-gratin",
+    "name": "Swiss Chard and Kale Gratin",
+    "slug": "swiss-chard-and-kale-gratin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "swiss-chard",
+        "displayName": "Swiss chard",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "curly-kale-stemmed-and-cut-into-1-inch-wide-strips",
+        "displayName": "curly kale, stemmed and cut into 1-inch-wide strips",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rustic-white-bread-cut-into-3-4-inch-cubes-3-cups",
+        "displayName": "rustic white bread, cut into 3/4-inch cubes (3 cups)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CRUMB_TOPPING"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-cup",
+        "displayName": "Parmesan cheese, grated (1 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CRUMB_TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper-divided",
+        "displayName": "pepper, divided",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-coarse",
+        "displayName": "onion, chopped coarse",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ground-nutmeg",
+        "displayName": "ground nutmeg",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to upper-middle position and heat oven to 375 degrees. Stem chard, then cut stems into 2-inch lengths and set aside. Slice leaves into 1-inch-wide strips. Bring 2 cups water to boil in Dutch oven over high heat. Add kale, cover, and reduce heat to medium-high. Cook until kale is wilted, about 5 minutes, stirring halfway through cooking. Add chard leaves, cover, and continue to cook until chard is wilted, about 4 minutes longer, stirring halfway through cooking. Transfer to colander set in sink and let drain. (Do not wash pot.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pulse garlic in food processor until coarsely chopped, 5 to 7 pulses. Add bread and 3 tablespoons oil and pulse until largest crumbs are smaller than 1/4 inch (most will be much smaller), 8 to 10 pulses. Add Parmesan, 1/4 teaspoon salt, and 1/4 teaspoon pepper and pulse to combine. Transfer to bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add onion and chard stems to now-empty processor and process until finely chopped, scraping down sides of bowl as needed, 20 to 30 seconds. Transfer to now-empty pot. Add thyme, remaining 2 tablespoons oil, remaining 1/2 teaspoon salt, and remaining 1/4 teaspoon pepper. Cook over medium-high heat, stirring occasionally, until moisture has evaporated and mixture is just beginning to brown, 8 to 10 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using spatula, press gently on greens in colander to remove excess moisture. Transfer greens to pot with onion mixture. Add cream and nutmeg and stir to combine. Transfer mixture to 13 by 9-inch baking dish. Sprinkle bread-crumb mixture evenly over surface. Bake until topping is golden brown and filling bubbles around edges, 20 to 25 minutes. Let cool for 10 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 60967,
+    "end": 61013,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

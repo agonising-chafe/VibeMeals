@@ -1,0 +1,150 @@
+{
+  "mapped": {
+    "id": "atk_american-potato-salad-with-eggs-and-sweet-pickles",
+    "name": "American Potato Salad with Eggs and Sweet Pickles",
+    "slug": "american-potato-salad-with-eggs-and-sweet-pickles",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "red-potatoes-about-6-medium-scrubbed",
+        "displayName": "red potatoes (about 6 medium), scrubbed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-pickles-chopped-fine",
+        "displayName": "sweet pickles, chopped fine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "easy-peel-hard-cooked-eggs-this-page-peeled-and-cut-into-1-2-inch-pieces",
+        "displayName": "Easy-Peel Hard-Cooked Eggs (this page), peeled and cut into 1/2-inch pieces",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-chopped-fine",
+        "displayName": "celery rib, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-red-onion",
+        "displayName": "minced red onion",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the potatoes in a large saucepan, cover with 1 inch of water, and bring to a boil over medium-high heat. Reduce the heat to medium and simmer, stirring occasionally, until the potatoes are tender (a paring knife can be slipped in and out of the potatoes with little resistance), 25 to 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Drain the potatoes and cool slightly; peel if desired. Cut the potatoes into 3/4-inch pieces, using a serrated knife, while still warm, rinsing the knife occasionally in warm water to remove starch."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Combine the potatoes, vinegar, 1/2 teaspoon salt, and 1/4 teaspoon pepper in a large bowl and toss gently. Cover and refrigerate until cool, about 20 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, combine the remaining ingredients and salt and pepper to taste. Add the potatoes, stir gently to combine, and serve. (The salad can be refrigerated in an airtight container for up to 1 day.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14203,
+    "end": 14249,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

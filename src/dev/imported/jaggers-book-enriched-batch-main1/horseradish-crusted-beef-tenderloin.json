@@ -1,0 +1,213 @@
+{
+  "mapped": {
+    "id": "atk_horseradish-crusted-beef-tenderloin",
+    "name": "Horseradish-Crusted Beef Tenderloin",
+    "slug": "horseradish-crusted-beef-tenderloin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "beef-tenderloin-center-cut-ch-teaubriand-trimmed-of-fat-and-silver-skin",
+        "displayName": "beef tenderloin center-cut Châteaubriand, trimmed of fat and silver skin",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "Kosher salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panko-japanese-style-bread-crumbs",
+        "displayName": "panko (Japanese-style bread crumbs)",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-vegetable-oil",
+        "displayName": "plus 2 teaspoons vegetable oil",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-shallot-minced-about-1-tablespoon",
+        "displayName": "small shallot, minced (about 1 tablespoon)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "well-drained-prepared-horseradish",
+        "displayName": "well-drained prepared horseradish",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-russet-potato-about-6-ounces-peeled-and-grated-on-the-large-holes-of-a-box-grater",
+        "displayName": "small russet potato (about 6 ounces), peeled and grated on the large holes of a box grater",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "powdered-gelatin",
+        "displayName": "powdered gelatin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 60,
+        "description": "Let beef tenderloin stand at room temperature for 1 hour or refrigerate for up to 24 hours after salting.",
+        "requirementType": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sprinkle the roast with 1 tablespoon salt, cover with plastic wrap, and let stand at room temperature for 1 hour or refrigerate for up to 24 hours. Adjust an oven rack to the middle position and heat the oven to 400 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Toss the bread crumbs with 2 teaspoons of the oil, 1/4 teaspoon salt, and 1/4 teaspoon of the pepper in a 10-inch nonstick skillet. Cook over medium heat, stirring frequently, until deep golden brown, 3 to 5 minutes. Transfer to a rimmed baking sheet and cool to room temperature (wipe out the skillet). Once cool, toss the bread crumbs with the shallot, garlic, 2 tablespoons of the horseradish, the parsley, and thyme."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Rinse the grated potato under cold water, then squeeze dry in a dish towel. Transfer the potatoes and remaining 1 cup oil to the skillet. Cook over high heat, stirring frequently, until the potatoes are golden brown and crisp, 6 to 8 minutes. Using a slotted spoon, transfer the potatoes to a paper towel–lined plate and season lightly with salt; let cool for 5 minutes. Reserve 1 tablespoon oil from the skillet and discard the remainder. Once the potatoes are cool, transfer to a quart-size zipper-lock bag and crush until coarsely ground. Transfer the potatoes to the baking sheet with the bread-crumb mixture and toss to combine."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Pat the exterior of the tenderloin dry with paper towels and sprinkle evenly with the remaining 1 teaspoon pepper. Heat the reserved 1 tablespoon oil in a 12-inch nonstick skillet over medium-high heat until just smoking. Sear the tenderloin until well browned on all sides, 5 to 7 minutes. Transfer to a wire rack set over a rimmed baking sheet and let rest for 10 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Combine the remaining 2 tablespoons horseradish, mayonnaise, and mustard in a small bowl. Just before coating the tenderloin, add the gelatin and stir to combine. Spread the horseradish paste on the top and sides of the meat, leaving the bottom and ends bare. Roll the coated sides of the tenderloin in the bread-crumb mixture, pressing gently so the crumbs adhere in an even layer that just covers the horseradish paste; pat off any excess."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Return the tenderloin to the wire rack. Roast until an instant-read thermometer inserted into the center of the roast registers 120 to 125 degrees for medium-rare, 25 to 30 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Transfer the roast to a carving board and let rest for 20 minutes. Carefully cut the meat crosswise into 1/2-inch-thick slices and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 34537,
+    "end": 34593,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

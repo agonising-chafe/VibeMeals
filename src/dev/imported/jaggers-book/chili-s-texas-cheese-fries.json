@@ -1,0 +1,264 @@
+{
+  "mapped": {
+    "id": "atk_chili-s-texas-cheese-fries",
+    "name": "Chili’s Texas Cheese Fries",
+    "slug": "chili-s-texas-cheese-fries",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "once-you-make-these-you-will-come-back-to-this-recipe-time-after-time-they-are-served-in-the-restaurant-with-ranch-salad-dressing-for-dipping-but-you-can-also-use-sour-cream",
+        "displayName": "Once you make these you will come back to this recipe time after time. They are served in the restaurant with ranch salad dressing for dipping, but you can also use sour cream.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "28-ounce-bag-frozen-steak-fries",
+        "displayName": "½ (28-ounce) bag frozen steak fries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-smoked-bacon",
+        "displayName": "thick-cut smoked bacon",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bag-shredded-mild-cheddar-cheese",
+        "displayName": "bag shredded mild Cheddar cheese",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-pickled-jalape-o-pepper-slices",
+        "displayName": "¼ cup pickled jalapeño pepper slices",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-ranch-salad-dressing",
+        "displayName": "½ cup ranch salad dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-fries-evenly-over-an-ungreased-half-sheet-pan-and-bake-according-to-package-directions",
+        "displayName": "Spread fries evenly over an ungreased half sheet pan and bake according to package directions.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "line-strips-of-bacon-on-another-ungreased-half-sheet-pan-and-bake-15-20-minutes-until-crispy",
+        "displayName": "Line strips of bacon on another ungreased half sheet pan and bake 15–20 minutes until crispy.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-a-thick-layer-of-cheese-and-jalape-os-on-top-of-cooked-fries-then-crumble-bacon-on-top",
+        "displayName": "Add a thick layer of cheese and jalapeños on top of cooked fries, then crumble bacon on top.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "return-fries-to-oven-and-bake-8-10-minutes-until-cheese-melts-serve-immediately-with-ranch-dressing-for-dipping",
+        "displayName": "Return fries to oven and bake 8–10 minutes until cheese melts. Serve immediately with ranch dressing for dipping.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chipotle-guacamole",
+        "displayName": "Chipotle Guacamole",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-secret-to-this-guacamole-is-to-gently-mash-the-onion-jalape-o-cilantro-lime-and-salt-to-help-release-their-flavors-before-adding-the-avocado-be-sure-to-use-ripe-avocados-for-the-best-texture",
+        "displayName": "The secret to this guacamole is to gently mash the onion, jalapeño, cilantro, lime, and salt to help release their flavors before adding the avocado. Be sure to use ripe avocados for the best texture.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-red-onion",
+        "displayName": "minced red onion",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-jalape-o",
+        "displayName": "minced jalapeño",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-lime-juice",
+        "displayName": "fresh lime juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-ripe-hass-avocados",
+        "displayName": "large ripe Hass avocados",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-onion-cilantro-jalape-o-lime-juice-and-salt-with-a-wooden-spoon-gently-mash-ingredients-five-or-six-times",
+        "displayName": "In a medium bowl, add onion, cilantro, jalapeño, lime juice, and salt. With a wooden spoon, gently mash ingredients five or six times.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "open-avocados-remove-pits-and-scoop-flesh-into-bowl-with-a-potato-masher-mash-until-avocado-is-mostly-smooth-with-some-small-chunks-remaining-serve-immediately",
+        "displayName": "open avocados, remove pits, and scoop flesh into bowl. With a potato masher, mash until avocado is mostly smooth with some small chunks remaining. Serve immediately.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "if-you-want-to-make-guacamole-up-to-a-day-ahead-of-time-prepare-as-directed-in-the-recipe-transfer-to-an-airtight-container-spritz-1-teaspoon-lime-juice-over-top-and-press-plastic-wrap-directly-onto-guacamole-place-lid-on-container-and-refrigerate-until-ready-to-enjoy",
+        "displayName": "If you want to make guacamole up to a day ahead of time, prepare as directed in the recipe. Transfer to an airtight container, spritz 1 teaspoon lime juice over top, and press plastic wrap directly onto guacamole. Place lid on container and refrigerate until ready to enjoy.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2324,
+    "end": 2399,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

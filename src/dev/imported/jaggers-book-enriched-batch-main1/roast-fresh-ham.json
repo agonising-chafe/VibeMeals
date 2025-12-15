@@ -1,0 +1,205 @@
+{
+  "mapped": {
+    "id": "atk_roast-fresh-ham",
+    "name": "Roast Fresh Ham",
+    "slug": "roast-fresh-ham",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 9,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "6-to-8-pound-bone-in-fresh-half-ham-with-skin-preferably-shank-end-rinsed",
+        "displayName": "(6- to 8-pound) bone-in fresh half ham with skin, preferably shank end, rinsed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-brown-sugar",
+        "displayName": "packed brown sugar",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heads-garlic-cloves-separated-lightly-crushed-and-peeled",
+        "displayName": "heads garlic, cloves separated, lightly crushed and peeled",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "black-peppercorns-crushed",
+        "displayName": "black peppercorns, crushed",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BRINE"
+      },
+      {
+        "ingredientId": "fresh-sage-leaves",
+        "displayName": "fresh sage leaves",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "parsley-leaves",
+        "displayName": "parsley leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "recipe-glaze-recipes-follow",
+        "displayName": "recipe glaze (recipes follow)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine the ham",
+        "durationMinutes": 1440,
+        "purpose": "Flavor and moisture",
+        "requirementKind": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE ROAST: Using sharp knife, cut through roast’s skin and fat cap in 1-inch crosshatch pattern, being careful not to cut into meat."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE BRINE: In large container, dissolve sugar and 2 cups salt in 2 gallons cold water. Add garlic, bay leaves, and crushed peppercorns. Submerge ham in brine and refrigerate for 8 to 24 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Set large disposable aluminum roasting pan on rimmed baking sheet for extra support; set wire rack in roasting pan. Remove ham from brine; rinse under cold water and dry thoroughly with paper towels. Place ham, wide cut side down, on rack. (If using sirloin end, place ham skin side up.) Let ham stand uncovered at room temperature for 1 hour."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE RUB: Meanwhile, adjust oven rack to lowest position and heat oven to 500 degrees. Process sage, parsley, oil, garlic, pepper, and salt in food processor until mixture forms smooth paste, about 30 seconds. Rub all sides of ham with paste."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Roast ham at 500 degrees for 20 minutes. Reduce oven temperature to 350 degrees and continue to roast, brushing ham with glaze every 45 minutes, until center of ham registers 145 to 150 degrees, about 21/2 hours longer. Remove from oven; tent ham with aluminum foil; and let stand until center of ham registers 155 to 160 degrees, 30 to 40 minutes. Carve and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 41034,
+    "end": 41092,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

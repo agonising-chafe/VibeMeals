@@ -1,0 +1,134 @@
+{
+  "mapped": {
+    "id": "atk_mcdonald-s-french-vanilla-iced-coffee",
+    "name": "McDonald’s French Vanilla Iced Coffee",
+    "slug": "mcdonald-s-french-vanilla-iced-coffee",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "mcdonald-s-answer-to-the-latte-this-popular-coffee-drink-is-made-with-sweet-french-vanilla-syrup-strong-brewed-coffee-and-light-cream-this-version-makes-an-even-creamier-drink-you-don-t-need-to-leave-home-for",
+        "displayName": "McDonald’s answer to the latte, this popular coffee drink is made with sweet French vanilla syrup, strong brewed coffee, and light cream. This version makes an even creamier drink you don’t need to leave home for.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coffee",
+        "displayName": "ground coffee",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-cold-water",
+        "displayName": "⅓ cups cold water",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweetened-condensed-milk",
+        "displayName": "sweetened condensed milk",
+        "amount": 14,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brew-coffee-and-water-in-a-coffee-maker-cool-30-minutes-or-until-warm-but-not-hot",
+        "displayName": "Brew coffee and water in a coffee maker. Cool 30 minutes or until warm but not hot.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "combine-brewed-coffee-and-condensed-milk-in-a-large-pitcher-stir-until-coffee-and-condensed-milk-are-thoroughly-blended-stir-in-vanilla-refrigerate-until-coffee-is-chilled-about-2-hours",
+        "displayName": "Combine brewed coffee and condensed milk in a large pitcher. Stir until coffee and condensed milk are thoroughly blended. Stir in vanilla. Refrigerate until coffee is chilled, about 2 hours.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "serve-in-glasses-filled-with-ice",
+        "displayName": "Serve in glasses filled with ice.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 11069,
+    "end": 11107,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

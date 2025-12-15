@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_halibut-la-nage-with-parsnips-and-tarragon",
+    "name": "Halibut à la Nage with Parsnips and Tarragon",
+    "slug": "halibut-la-nage-with-parsnips-and-tarragon",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "kosher-salt-for-blanching-herbs",
+        "displayName": "Kosher salt for blanching herbs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BLANCHING"
+      },
+      {
+        "ingredientId": "fresh-parsley-leaves",
+        "displayName": "fresh parsley leaves",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "TARRAGON OIL"
+      },
+      {
+        "ingredientId": "fresh-tarragon-leaves",
+        "displayName": "fresh tarragon leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "TARRAGON OIL"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "TARRAGON OIL"
+      },
+      {
+        "ingredientId": "5-to-6-ounce-skinless-halibut-fillets-3-4-to-1-inch-thick",
+        "displayName": "(5- to 6-ounce) skinless halibut fillets,3/4 to 1 inch thick",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt-divided",
+        "displayName": "kosher salt, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "parsnips-peeled-and-sliced-thin",
+        "displayName": "parsnips, peeled and sliced thin",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "shallot-sliced-thin",
+        "displayName": "shallot, sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "piece-parmesan-cheese-rind-about-21-2-inches-by-1-inch",
+        "displayName": "piece Parmesan cheese rind, about 21/2 inches by 1 inch",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "BROTH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "3-inch-strips-lemon-zest-plus-2-teaspoons-lemon-juice-plus-extra-juice-for-seasoning",
+        "displayName": "(3-inch) strips lemon zest plus 2 teaspoons lemon juice, plus extra juice for seasoning",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "sprigs-fresh-tarragon-plus-extra-for-garnish",
+        "displayName": "sprigs fresh tarragon, plus extra for garnish",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "whole-grain-mustard",
+        "displayName": "whole-grain mustard",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TARRAGON OIL: Bring 6 cups water and 2 teaspoons salt to boil in large saucepan. Add parsley and cook until leaves are tender but still bright green, about 30 seconds. Stir in tarragon, then drain herbs in fine-mesh strainer. Run under cold water until herbs are cool, about 10 seconds. Squeeze dry and transfer to blender. (Reserve strainer.) Add oil and process until herbs are finely ground and oil is bright green, about 2 minutes. (Oil can be refrigerated for up to 24 hours.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE FISH: Sprinkle halibut all over with 1 teaspoon salt and set aside. Add water, parsnips, shallot, cheese rind, lemon zest, 2 teaspoons lemon juice, peppercorns, vanilla, and remaining 1 teaspoon salt to 12-inch skillet and bring to boil over high heat. Adjust heat to maintain gentle simmer, cover, and cook for 25 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return liquid to boil over medium-high heat. Nestle halibut skinned side down in liquid, moving aside solids as much as possible (liquid will not quite cover fillets). Add tarragon and spoon some liquid over halibut. Reduce heat to low; cover and simmer gently until fish registers 110 degrees at thickest point, 4 to 7 minutes. Let stand off heat, covered, until fish is opaque when checked with the tip of a pairing knife and registers 130 degrees, 3 to 7 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Divide halibut among 4 shallow bowls. Season broth with salt and lemon juice to taste. Strain broth into 4-cup liquid measuring cup (you should have about 12/3 cups broth) and discard solids. Divide broth evenly among bowls. Garnish with tarragon leaves. Top each piece halibut with 3/4 teaspoon mustard. At table, drizzle about 1 tablespoon tarragon oil into each bowl. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43558,
+    "end": 43618,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

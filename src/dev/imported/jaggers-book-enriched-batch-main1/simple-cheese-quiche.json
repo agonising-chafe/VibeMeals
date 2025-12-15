@@ -1,0 +1,139 @@
+{
+  "mapped": {
+    "id": "atk_simple-cheese-quiche",
+    "name": "Simple Cheese Quiche",
+    "slug": "simple-cheese-quiche",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "recipe-single-crust-pie-dough-this-page-rolled-into-12-inch-round",
+        "displayName": "recipe single-crust pie dough (this page), rolled into 12-inch round",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "half-and-half",
+        "displayName": "half-and-half",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cheddar-cheese-shredded-1-cup",
+        "displayName": "cheddar cheese, shredded (1 cup)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-chives",
+        "displayName": "minced fresh chives",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Freeze pie crust",
+        "durationMinutes": 30,
+        "requirements": [
+          "FREEZE"
+        ],
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 375 degrees. Grease 10-inch cast-iron skillet. Roll crust loosely around rolling pin and gently unroll it onto prepared skillet. Ease crust into skillet by gently lifting and supporting edge of dough with your hand while pressing into skillet bottom and corners with your other hand. Tuck 1/2 inch of dough underneath itself to form tidy, even edge that lies against sides of skillet. Press tucked edge against sides of skillet using index finger to create attractive fluted rim. Wrap skillet loosely in plastic wrap and freeze until dough is firm, about 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Line pie crust with double layer of aluminum foil, covering edges, and fill with pie weights. Transfer skillet to oven and bake until pie dough looks dry and is pale in color, 25 to 30 minutes. Using pot holders, transfer skillet to wire rack and remove weights and foil. Reduce oven temperature to 350 degrees."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Beat eggs, half-and-half, salt, and pepper with fork in 4-cup liquid measuring cup. Stir in cheddar. Being careful of hot skillet handle, return skillet to oven. Carefully pour egg mixture into shell until it reaches about 1/2 inch from top edge of crust (you may have extra egg mixture)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bake quiche until center is set and knife inserted 1-inch from edge comes out clean, about 30 minutes. Let quiche cool for at least 1 hour before sprinkling with chives and serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 5057,
+    "end": 5093,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

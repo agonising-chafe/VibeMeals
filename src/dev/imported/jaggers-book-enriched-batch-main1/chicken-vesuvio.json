@@ -1,0 +1,159 @@
+{
+  "mapped": {
+    "id": "atk_chicken-vesuvio",
+    "name": "Chicken Vesuvio",
+    "slug": "chicken-vesuvio",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-to-7-ounce-bone-in-chicken-thighs-trimmed",
+        "displayName": "(5- to 7-ounce) bone-in chicken thighs, trimmed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-divided",
+        "displayName": "kosher salt, divided",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "yukon-gold-potatoes-2-to-3-inches-halved",
+        "displayName": "Yukon Gold potatoes, 2 to 3 inches, halved",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled-2-whole-12-halved-lengthwise",
+        "displayName": "cloves, peeled (2 whole, 12 halved lengthwise)",
+        "amount": 14,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "displayName": "dried thyme",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-divided",
+        "displayName": "minced fresh parsley, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to upper-middle position, and heat oven to 450 degrees. Pat chicken dry with paper towels and season both sides with 11/2 teaspoons salt and 1/2 teaspoon pepper. Toss potatoes with 1 tablespoon oil and remaining 1 teaspoon salt. Mince 2 whole garlic cloves and immediately combine with lemon juice in small bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat remaining 1 tablespoon oil in large roasting pan over medium-high heat until shimmering. Place chicken skin-side down in single layer in pan and cook without moving until chicken has rendered about 2 tablespoons of fat, 2 to 3 minutes. Place potatoes cut side down in chicken fat, arranging so that cut sides are in complete contact with surface of pan. Sprinkle chicken and potatoes with oregano and thyme. Continue to cook until chicken and potatoes are deeply browned and crisp, 8 to 12 minutes longer, moving chicken and potatoes to ensure even browning and turning pieces over when fully browned. When all pieces have been flipped, tuck halved garlic cloves in between chicken and potatoes. Remove roasting pan from heat and pour wine into pan (do not pour over chicken or potatoes). Transfer to oven. Roast until potatoes are tender when pierced with tip of paring knife and chicken registers 185 to 190 degrees, 15 to 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer chicken and potatoes to deep platter, browned sides up. Place roasting pan over medium heat (handles will be hot) and stir to incorporate any browned bits. Using slotted spoon, transfer garlic cloves to cutting board. Chop coarse, and then mash to smooth paste with side of knife. Whisk garlic into sauce. Continue to cook until sauce coats back of spoon, 3 to 5 minutes. Remove from heat and whisk in reserved lemon juice mixture and 1 tablespoon parsley. Pour sauce around chicken and potatoes. Sprinkle with remaining 1 tablespoon parsley, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 23303,
+    "end": 23345,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

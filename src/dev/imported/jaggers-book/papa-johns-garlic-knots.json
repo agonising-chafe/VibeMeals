@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_papa-johns-garlic-knots",
+    "name": "Papa Johns Garlic Knots",
+    "slug": "papa-johns-garlic-knots",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "garlic-knots-make-a-tasty-side-for-your-favorite-pizza-pasta-or-even-steak-dinner-they-can-also-be-a-snack-or-served-as-an-appetizer-for-a-party",
+        "displayName": "Garlic knots make a tasty side for your favorite pizza, pasta, or even steak dinner. They can also be a snack or served as an appetizer for a party.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prepared-refrigerated-pizza-dough",
+        "displayName": "prepared refrigerated pizza dough",
+        "amount": 16,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "stick-unsalted-butter-melted",
+        "displayName": "stick unsalted butter, melted",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "½ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-italian-seasoning",
+        "displayName": "½ teaspoon Italian seasoning",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-grated-parmesan-cheese",
+        "displayName": "½ cup grated Parmesan cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "let-dough-warm-up-to-room-temperature-30-minutes-divide-dough-into-eight-equal-pieces-and-roll-each-piece-into-a-6-inch-rope-tie-each-rope-into-a-knot-place-knots-2-inches-apart-on-a-half-sheet-pan-lined-with-parchment-cover-with-a-damp-towel-and-let-rise-on-the-countertop-30-minutes",
+        "displayName": "Let dough warm up to room temperature 30 minutes. Divide dough into eight equal pieces and roll each piece into a 6-inch rope. Tie each rope into a knot. Place knots 2 inches apart on a half sheet pan lined with parchment. Cover with a damp towel and let rise on the countertop 30 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-425-f",
+        "displayName": "Preheat oven to 425°F.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-combine-butter-garlic-and-italian-seasoning-mix-well",
+        "displayName": "In a small bowl, combine butter, garlic, and Italian seasoning. Mix well.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "once-knots-are-puffed-remove-towel-brush-knots-with-half-the-butter-mixture",
+        "displayName": "Once knots are puffed, remove towel. Brush knots with half the butter mixture.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-10-11-minutes-until-knots-are-golden-brown-on-top-and-bottom-remove-from-oven-and-brush-with-remaining-butter-mixture-and-sprinkle-with-parmesan-cheese-cool-5-minutes-before-serving",
+        "displayName": "Bake 10–11 minutes until knots are golden brown on top and bottom. Remove from oven and brush with remaining butter mixture and sprinkle with Parmesan cheese. Cool 5 minutes before serving.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2807,
+    "end": 2845,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

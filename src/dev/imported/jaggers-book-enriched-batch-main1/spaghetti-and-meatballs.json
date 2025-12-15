@@ -1,0 +1,278 @@
+{
+  "mapped": {
+    "id": "atk_spaghetti-and-meatballs",
+    "name": "Spaghetti and Meatballs",
+    "slug": "spaghetti-and-meatballs",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "hearty-white-sandwich-bread-crusts-removed-torn-into-small-pieces",
+        "displayName": "hearty white sandwich bread, crusts removed, torn into small pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "85-percent-lean-ground-beef",
+        "displayName": "85 percent lean ground beef",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese",
+        "displayName": "grated Parmesan cheese",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "large-egg-yolk",
+        "displayName": "large egg yolk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MEATBALLS"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-pan-frying",
+        "displayName": "Vegetable oil for pan-frying",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "spaghetti",
+        "displayName": "spaghetti",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-for-cooking-pasta",
+        "displayName": "Table salt for cooking pasta",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese",
+        "displayName": "Grated Parmesan cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MEATBALLS: Mash bread and buttermilk to smooth paste in large bowl. Let stand for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add beef, pork, Parmesan, parsley, egg yolk, garlic, salt, and pepper to mashed bread; stir gently until uniform. Gently form into 11/2-inch round meatballs (about 14 meatballs). (When forming meatballs use light touch; if you compact meatballs too much, they can become dense and hard.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pour oil into 12-inch skillet until it measures depth of 1/4 inch. Heat over medium-high heat until shimmering. Add meatballs in single layer and cook until well browned on all sides, about 10 minutes. Transfer meatballs to paper towel–lined plate and discard oil left in skillet."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "For the sauce: Add oil and garlic to now-empty skillet and cook over medium heat, scraping up any browned bits, until fragrant, about 30 seconds. Add tomatoes with their juice; bring to simmer; and cook until sauce thickens, about 10 minutes. Stir in basil and season with salt and pepper to taste. Add meatballs and simmer, turning them occasionally, until heated through, about 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE PASTA: Meanwhile, bring 4 quarts water to boil in large pot. Add pasta and 1 tablespoon salt and cook, stirring often, until al dente. Reserve 1/2 cup cooking water, then drain pasta and return it to pot. Add several large spoonfuls of tomato sauce (without meatballs) to pasta and toss to coat. Adjust consistency of sauce with reserved pasta cooking water as needed. Serve immediately, topping individual bowls with more tomato sauce and several meatballs and passing Parmesan separately."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Use fork to mash bread and buttermilk into smooth paste."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Working with 3 tablespoons meatball mixture at a time, form mixture into 11/2-inch ball by gently rolling it between your palms."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Fry meatballs, turning every so often, until crusty golden brown all over."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 16917,
+    "end": 17005,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

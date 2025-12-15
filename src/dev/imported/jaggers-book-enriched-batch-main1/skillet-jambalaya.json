@@ -1,0 +1,198 @@
+{
+  "mapped": {
+    "id": "atk_skillet-jambalaya",
+    "name": "Skillet Jambalaya",
+    "slug": "skillet-jambalaya",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "bone-in-chicken-thighs-trimmed",
+        "displayName": "bone-in chicken thighs, trimmed",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "andouille-sausage-halved-lengthwise-and-sliced-into-1-4-inch-pieces",
+        "displayName": "andouille sausage, halved lengthwise and sliced into 1/4-inch pieces",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped",
+        "displayName": "onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-stemmed-seeded-and-chopped",
+        "displayName": "red bell pepper, stemmed, seeded, and chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 5,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "long-grain-white-rice",
+        "displayName": "long-grain white rice",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained",
+        "displayName": "can diced tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottle-clam-juice",
+        "displayName": "bottle clam juice",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shrimp-31-to-40-per-pound-peeled-and-deveined",
+        "displayName": "large shrimp (31 to 40 per pound), peeled and deveined",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Pat chicken dry with paper towels, then sprinkle with 1/4 teaspoon salt and pepper. Heat 2 teaspoons oil in 12-inch nonstick skillet over medium-high heat until just smoking. Carefully lay chicken thighs in skillet, skin side down, and cook until golden, 4 to 6 minutes. Flip chicken over and continue to cook until second side is golden, about 3 minutes. Remove pan from heat and transfer chicken to plate. Using paper towels, remove and discard browned chicken skin."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour off all but 2 teaspoons fat left in skillet and return to medium-high heat until shimmering. Add andouille and cook until lightly browned, about 3 minutes; transfer sausage to small bowl and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add remaining 1 tablespoon oil to skillet and return to medium heat until shimmering. Add onion, bell pepper, garlic, and remaining 1/2 teaspoon salt; cook, scraping up any browned bits, until onion is softened, about 5 minutes. Add rice and cook until edges turn translucent, about 3 minutes. Stir in broth, tomatoes, and clam juice; bring to simmer. Gently nestle chicken and any accumulated juices into rice. Cover; reduce heat to low; and cook until chicken is tender and cooked through, 30 to 35 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer chicken to plate and cover with aluminum foil to keep warm. Stir shrimp and sausage into rice and continue to cook, covered, over low heat for 2 minutes. Remove skillet from heat and let stand, covered, until shrimp are fully cooked and rice is tender, about 5 minutes. Meanwhile, shred chicken into bite-size pieces. Stir parsley and shredded chicken into rice, season with salt and pepper to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 24196,
+    "end": 24246,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,134 @@
+{
+  "mapped": {
+    "id": "atk_starbucks-mocha-frappucino-blended-beverage",
+    "name": "Starbucks Mocha Frappucino Blended Beverage",
+    "slug": "starbucks-mocha-frappucino-blended-beverage",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-frappuccino-debuted-on-the-starbucks-menu-in-1995-but-got-its-start-in-1993-during-a-heat-wave-in-los-angeles-quick-thinking-baristas-were-blending-coffee-drinks-with-ice-and-a-classic-was-born",
+        "displayName": "The Frappuccino debuted on the Starbucks menu in 1995 but got its start in 1993 during a heat wave in Los Angeles. Quick-thinking baristas were blending coffee drinks with ice, and a classic was born.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "double-strength-brewed-dark-roast-coffee-divided",
+        "displayName": "double-strength brewed dark roast coffee, divided",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsweetened-cocoa-powder-plus-more-for-dusting",
+        "displayName": "⅔ cup unsweetened cocoa powder, plus more for dusting",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "nonfat-milk",
+        "displayName": "nonfat milk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-ice-cube-trays-with-3-cups-brewed-coffee-and-place-in-freezer",
+        "displayName": "Fill ice cube trays with 3 cups brewed coffee and place in freezer.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-remaining-brewed-coffee-cup-cocoa-powder-and-milk-and-stir-well-to-dissolve-cover-and-chill",
+        "displayName": "In a medium bowl, combine remaining brewed coffee, ⅔ cup cocoa powder, and milk and stir well to dissolve. Cover and chill.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-prepared-ice-cubes-to-a-large-resealable-plastic-bag-and-crush-cubes",
+        "displayName": "Transfer prepared ice cubes to a large resealable plastic bag and crush cubes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-four-glasses-with-crushed-ice-and-divide-coffee-and-cocoa-mixture-evenly-among-glasses-dust-top-of-each-glass-with-cocoa-powder-serve",
+        "displayName": "Fill four glasses with crushed ice and divide coffee and cocoa mixture evenly among glasses. Dust top of each glass with cocoa powder. Serve.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 11232,
+    "end": 11270,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

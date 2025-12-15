@@ -1,0 +1,148 @@
+{
+  "mapped": {
+    "id": "atk_yeasted-waffles",
+    "name": "Yeasted Waffles",
+    "slug": "yeasted-waffles",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES six 7-inch round waffles or four 9-inch square waffles",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "milk",
+        "displayName": "milk",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-8-pieces",
+        "displayName": "unsalted butter, cut into 8 pieces",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "10-ounces-all-purpose-flour",
+        "displayName": "(10 ounces) all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate batter for at least 12 hours or up to 24 hours.",
+        "durationMinutes": 720,
+        "kind": "SLOW_COOK",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat milk and butter in small saucepan over medium-low heat until butter is melted, 3 to 5 minutes. Let mixture cool until warm to touch."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk flour, sugar, yeast, and salt together in large bowl. In small bowl, whisk eggs and vanilla together. Gradually whisk warm milk mixture into flour mixture until smooth, then whisk in egg mixture. Scrape down bowl with rubber spatula, cover tightly with plastic wrap, and refrigerate for at least 12 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position and heat oven to 200 degrees. Set wire rack in rimmed baking sheet and place in oven. Heat waffle iron according to manufacturer’s instructions. Remove batter from refrigerator when waffle iron is hot (batter will be foamy and doubled in size). Whisk batter to recombine (batter will deflate)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Cook waffles according to manufacturer’s instructions (use about 1/2 cup batter for 7-inch round iron and about 1 cup batter for 9-inch square iron). Serve immediately or transfer to wire rack in oven to keep warm while cooking remaining waffles."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 5920,
+    "end": 5958,
+    "yieldLine": "MAKES six 7-inch round waffles or four 9-inch square waffles"
+  },
+  "fit": true
+}

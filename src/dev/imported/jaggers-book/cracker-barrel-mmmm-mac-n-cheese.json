@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_cracker-barrel-mmmm-mac-n-cheese",
+    "name": "Cracker Barrel Mmmm Mac N’ Cheese",
+    "slug": "cracker-barrel-mmmm-mac-n-cheese",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "macaroni-and-cheese-is-always-a-family-favorite-and-this-savory-and-creamy-version-from-cracker-barrel-will-be-sure-to-please-everyone-in-your-family-with-its-golden-brown-topping",
+        "displayName": "Macaroni and cheese is always a family favorite, and this savory and creamy version from Cracker Barrel will be sure to please everyone in your family with its golden brown topping.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-elbow-pasta",
+        "displayName": "dry elbow pasta",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-salted-butter",
+        "displayName": "¼ cup salted butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "¼ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-whole-milk",
+        "displayName": "½ cups whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cubed-deli-american-cheese",
+        "displayName": "½ cup cubed deli American cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-shredded-colby-jack-cheese-divided",
+        "displayName": "½ cups shredded colby jack cheese, divided",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-broiler-to-500-f-and-spray-a-2-quart-casserole-dish-with-nonstick-cooking-spray",
+        "displayName": "Preheat broiler to 500°F and spray a 2-quart casserole dish with nonstick cooking spray.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cook-pasta-according-to-instructions-drain-and-set-aside",
+        "displayName": "Cook pasta according to instructions, drain, and set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-2-quart-saucepan-over-medium-heat-add-butter-and-once-melted-and-foaming-add-flour-cook-stirring-constantly-1-minute-whisk-in-broth-and-milk-bring-mixture-to-a-simmer-over-medium-heat-about-5-minutes",
+        "displayName": "In a 2-quart saucepan over medium heat, add butter and once melted and foaming, add flour. Cook, stirring constantly, 1 minute. Whisk in broth and milk. Bring mixture to a simmer over medium heat, about 5 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "reduce-heat-to-low-and-whisk-in-american-cheese-once-melted-add-2-cups-colby-jack-cheese-and-whisk-until-smooth-fold-in-cooked-pasta",
+        "displayName": "Reduce heat to low and whisk in American cheese. Once melted, add 2 cups colby jack cheese and whisk until smooth. Fold in cooked pasta.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-to-prepared-casserole-dish-and-top-with-remaining-colby-jack-cheese-broil-3-4-minutes-until-cheese-topping-is-melted-and-deeply-golden-brown-cool-2-minutes-before-serving",
+        "displayName": "Transfer to prepared casserole dish and top with remaining colby jack cheese. Broil 3–4 minutes until cheese topping is melted and deeply golden brown. Cool 2 minutes before serving.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9035,
+    "end": 9077,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

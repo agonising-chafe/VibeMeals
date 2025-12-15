@@ -1,0 +1,143 @@
+{
+  "mapped": {
+    "id": "atk_panzanella-italian-bread-salad",
+    "name": "Panzanella (Italian Bread Salad)",
+    "slug": "panzanella-italian-bread-salad",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "loaf-rustic-italian-or-french-bread-cut-or-torn-into-1-inch-pieces-about-6-cups",
+        "displayName": "loaf rustic Italian or French bread, cut or torn into 1-inch pieces (about 6 cups)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomatoes-cored-seeded-and-cut-into-1-inch-pieces",
+        "displayName": "tomatoes, cored, seeded, and cut into 1-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cucumber-peeled-halved-lengthwise-seeded-and-sliced-thin",
+        "displayName": "cucumber, peeled, halved lengthwise, seeded, and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shallot-sliced-thin",
+        "displayName": "shallot, sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Toss bread pieces with 2 tablespoons oil and 1/4 teaspoon salt; arrange bread in single layer on rimmed baking sheet. Toast bread pieces until just starting to turn light golden, 15 to 20 minutes, stirring halfway through baking. Set aside and let cool to room temperature."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Gently toss tomatoes and remaining 1/2 teaspoon salt in large bowl. Transfer to colander set over bowl; set aside to drain for 15 minutes, tossing occasionally."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Whisk vinegar, pepper, and remaining 6 tablespoons oil into tomato juices. Add bread pieces, toss to coat, and let stand for 10 minutes, tossing occasionally."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add tomatoes, cucumber, shallot, and basil to bowl with bread pieces and toss to coat. Season with salt and pepper to taste, and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 13292,
+    "end": 13336,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

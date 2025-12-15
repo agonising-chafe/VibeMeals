@@ -1,0 +1,181 @@
+{
+  "mapped": {
+    "id": "atk_easier-fried-chicken",
+    "name": "Easier Fried Chicken",
+    "slug": "easier-fried-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MARINADE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "dash-of-hot-sauce",
+        "displayName": "Dash of hot sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 3,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "bone-in-skin-on-chicken-parts-breasts-thighs-and-drumsticks-or-a-mix-with-breasts-cut-in-half-trimmed-of-excess-fat",
+        "displayName": "bone-in, skin-on chicken parts (breasts, thighs, and drumsticks, or a mix, with breasts cut in half), trimmed of excess fat",
+        "amount": 3.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DREDGE"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DREDGE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "kind": "MARINATE",
+        "durationMinutes": 60,
+        "optional": false,
+        "description": "Marinate chicken in buttermilk mixture for at least 1 hour or up to overnight.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk 1 cup of the buttermilk, 1 tablespoon salt, the hot sauce, 1 teaspoon of the black pepper, 1/4 teaspoon of the garlic powder, 1/4 teaspoon of the paprika, and a pinch of cayenne together in a large bowl. Add the chicken pieces and turn to coat. Refrigerate, covered, for at least 1 hour or up to overnight."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 400 degrees. Whisk the flour, baking powder, 1 teaspoon salt, and the remaining 2 teaspoons black pepper, the remaining 3/4 teaspoon garlic powder, the remaining 3/4 teaspoon paprika, and the remaining cayenne together in a large bowl. Add the remaining 1/4 cup buttermilk to the flour mixture and mix with your fingers until combined and small clumps form. Working with one piece at a time, dredge the chicken pieces in the flour mixture, pressing the mixture onto the pieces to form a thick, even coating. Place the dredged chicken on a large plate, skin side up."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat the oil in an 11-inch straight-sided sauté pan over medium-high heat to 375 degrees, about 5 minutes. Carefully place the chicken pieces in the pan, skin side down, and cook until golden brown, 3 to 5 minutes. Carefully flip the chicken pieces and continue to cook until golden brown on the second side, 2 to 4 minutes longer. Transfer the chicken to a wire rack set over a rimmed baking sheet. Bake the chicken until an instant-read thermometer inserted into the thickest part of the chicken registers 160 degrees for the breasts and 175 for the legs and thighs, 15 to 20 minutes. (Smaller pieces may cook faster than larger pieces. Remove the chicken pieces from the oven as they reach the correct temperature.) Let the chicken rest for 5 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 28209,
+    "end": 28255,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

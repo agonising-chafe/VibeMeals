@@ -1,0 +1,187 @@
+{
+  "mapped": {
+    "id": "atk_greek-cherry-tomato-salad",
+    "name": "Greek Cherry Tomato Salad",
+    "slug": "greek-cherry-tomato-salad",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "pints-ripe-cherry-tomatoes-quartered-about-4-cups",
+        "displayName": "pints ripe cherry tomatoes, quartered (about 4 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "medium-shallot-minced-about-3-tablespoons",
+        "displayName": "medium shallot, minced (about 3 tablespoons)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "small-cucumber-peeled-halved-lengthwise-seeded-and-cut-into-1-2-inch-pieces",
+        "displayName": "small cucumber, peeled, halved lengthwise, seeded, and cut into 1/2-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "chopped-pitted-kalamata-olives",
+        "displayName": "chopped pitted kalamata olives",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "feta-cheese-crumbled-about-1-cup",
+        "displayName": "feta cheese, crumbled (about 1 cup)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley-leaves",
+        "displayName": "chopped fresh parsley leaves",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss the tomatoes, sugar, and 1/4 teaspoon salt in a medium bowl; let stand for 30 minutes. Transfer the tomatoes to a salad spinner and spin until the seeds and excess liquid have been removed, 45 to 60 seconds, stirring to redistribute the tomatoes several times during spinning. Return the tomatoes to the bowl and set aside. Strain the tomato liquid through a fine-mesh strainer into a liquid measuring cup, pressing on the solids to extract as much liquid as possible."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring 1/2 cup of the tomato liquid (discard any extra), the shallot, vinegar, garlic, and oregano to a simmer in a small saucepan over medium heat. Simmer until reduced to 3 tablespoons, 6 to 8 minutes. Transfer the mixture to a small bowl and cool to room temperature, about 5 minutes. Whisk in the oil until combined and season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the cucumber, olives, feta, parsley, and dressing to the bowl with the tomatoes; toss gently and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14111,
+    "end": 14157,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

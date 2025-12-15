@@ -1,0 +1,124 @@
+{
+  "mapped": {
+    "id": "atk_cracker-barrel-grilled-chicken-tenders",
+    "name": "Cracker Barrel Grilled Chicken Tenders",
+    "slug": "cracker-barrel-grilled-chicken-tenders",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "serve-these-savory-juicy-tenders-with-cracker-barrel-green-beans-and-cracker-barrel-carrots-see-chapter-9-for-a-full-meal",
+        "displayName": "Serve these savory, juicy tenders with Cracker Barrel Green Beans and Cracker Barrel Carrots (see Chapter 9) for a full meal.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-italian-dressing",
+        "displayName": "½ cup Italian dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-lime-juice",
+        "displayName": "fresh lime juice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoons-honey",
+        "displayName": "½ teaspoons honey",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-breast-tenders",
+        "displayName": "chicken breast tenders",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-mix-together-dressing-lime-juice-and-honey-pour-mixture-over-chicken-tenders-making-sure-all-chicken-is-covered-marinate-1-hour-in-refrigerator",
+        "displayName": "In a medium bowl, mix together dressing, lime juice, and honey. Pour mixture over chicken tenders, making sure all chicken is covered. Marinate 1 hour in refrigerator.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-indoor-smokeless-grill-to-350-f-or-heat-a-grill-pan-to-medium",
+        "displayName": "Preheat indoor smokeless grill to 350°F or heat a grill pan to medium.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-to-a-light-golden-color-and-an-internal-temperature-of-165-f-about-2-3-minutes-per-side-remove-from-grill-and-let-rest-3-minutes-before-serving",
+        "displayName": "chicken to a light golden color and an internal temperature of 165°F, about 2–3 minutes per side. Remove from grill and let rest 3 minutes before serving.",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6547,
+    "end": 6579,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

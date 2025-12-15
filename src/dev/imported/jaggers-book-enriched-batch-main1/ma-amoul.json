@@ -1,0 +1,293 @@
+{
+  "mapped": {
+    "id": "atk_ma-amoul",
+    "name": "Ma’amoul",
+    "slug": "ma-amoul",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 360,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 30 cookies SEASON 26",
+      "baseServings": 30
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "plus-3-tablespoons-121-2-ounces-semolina-flour",
+        "displayName": "plus 3 tablespoons (121/2 ounces) semolina flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "13-4-ounces-all-purpose-flour",
+        "displayName": "(13/4 ounces) all-purpose flour",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-mahlab",
+        "displayName": "ground mahlab",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-2-inch-pieces-and-softened",
+        "displayName": "unsalted butter, cut into 1/2-inch pieces and softened",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "orange-blossom-water",
+        "displayName": "orange blossom water",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rose-water",
+        "displayName": "rose water",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "raw-shelled-pistachios",
+        "displayName": "raw shelled pistachios",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "ground-anise-seeds",
+        "displayName": "ground anise seeds",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-mahlab",
+        "displayName": "ground mahlab",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "pitted-medjool-dates-9-to-10-dates",
+        "displayName": "pitted Medjool dates (9 to 10 dates)",
+        "amount": 7,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "confectioners-sugar-for-dusting",
+        "displayName": "Confectioners’ sugar for dusting",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Allow dough to stand at room temperature.",
+        "durationMinutes": 240,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Whisk semolina, all-purpose flour, and mahlab together in large bowl. Add butter, honey, orange blossom water, and rose water. Using your hands, gently fold semolina mixture over wet ingredients until rough dough forms. Continue folding dough over itself into center while turning bowl, rubbing butter into semolina mixture until cohesive dough forms. (Do not knead dough; it should feel like wet sand.) Cover bowl tightly and let dough stand at room temperature for 4 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE FILLING: Pulse pistachios, anise, cinnamon, mahlab, and salt in food processor until pistachios are chopped into rough 1/4-inch pieces, 5 to 7 pulses. Add dates, butter, and honey and process until mixture is smooth paste and pistachio pieces are 1/8 to 1/16 inch, about 20 seconds. Transfer to bowl, cover, and refrigerate until ready to use."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Microwave milk and salt for dough in bowl until just warm (about 110 degrees), 30 to 45 seconds. Sprinkle yeast over warm milk and stir to combine. Add milk mixture to dough and mix with hands until combined, about 30 seconds. Transfer dough to counter (don’t wash bowl) and knead until smooth, about 2 minutes. Return dough to bowl, cover tightly, and let stand at room temperature for 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While dough rests, line 2 rimmed baking sheets with parchment paper. Divide filling into 30 equal portions, weighing about 1/2 ounce each, and roll into balls. Place balls on 1 half of 1 prepared sheet. Cover with damp dish towel."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Divide dough into 2 equal portions (dough will be slightly tacky, soft, and somewhat elastic). Roll each piece into 15-inch log and cut into 15 equal pieces. Roll each portion into ball and place on sheet with filling. Cover with damp dish towel."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Place 1 dough ball in palm of your hand and gently press into 3-inch round of even thickness. Place 1 filling ball in center of dough. Bring sides of dough up around filling and pinch top to seal. Roll ball until smooth, place on second prepared baking sheet, and cover with damp dish towel. Repeat with remaining dough and filling."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Place 1 filled ball in ma’amoul mold and gently press until cookie fills crevices and top is flat. Turn mold over and tap edge on edge of counter so cookie releases onto palm of hand. (If cookie sticks, line mold with plastic wrap.) Return cookie, pattern side up, to baking sheet. Repeat, placing 15 cookies, evenly spaced, on each sheet."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Bake cookies, 1 sheet at a time, until bottoms are light golden, 15 to 20 minutes, rotating sheet halfway through baking. Transfer baking sheet to wire rack and let cool on sheet for 20 minutes. Dust liberally with confectioners’ sugar before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 69513,
+    "end": 69589,
+    "yieldLine": "MAKES 30 cookies SEASON 26"
+  },
+  "fit": true
+}

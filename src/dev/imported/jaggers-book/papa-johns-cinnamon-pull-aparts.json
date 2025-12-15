@@ -1,0 +1,264 @@
+{
+  "mapped": {
+    "id": "atk_papa-johns-cinnamon-pull-aparts",
+    "name": "Papa Johns Cinnamon Pull Aparts",
+    "slug": "papa-johns-cinnamon-pull-aparts",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "added-to-the-papa-johns-menu-in-2016-these-bite-sized-cinnamon-rolls-topped-with-cream-cheese-drizzle-are-the-perfect-way-to-end-a-meal-or-they-can-be-enjoyed-as-a-snack-or-even-as-breakfast",
+        "displayName": "Added to the Papa Johns menu in 2016, these bite-sized cinnamon rolls topped with cream cheese drizzle are the perfect way to end a meal, or they can be enjoyed as a snack or even as breakfast!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pull-aparts",
+        "displayName": "Pull Aparts",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "½ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon-divided",
+        "displayName": "ground cinnamon, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-plus-3-tablespoons-cubed-and-chilled-unsalted-butter-divided",
+        "displayName": "⅓ cup plus 3 tablespoons (cubed and chilled) unsalted butter, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cans-biscuits-cut-into-quarters",
+        "displayName": "cans biscuits, cut into quarters",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-packed-light-brown-sugar",
+        "displayName": "⅓ cup packed light brown sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "⅓ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drizzle",
+        "displayName": "Drizzle",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cream-cheese-room-temperature",
+        "displayName": "cream cheese, room temperature",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-room-temperature",
+        "displayName": "unsalted butter, room temperature",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-confectioners-sugar",
+        "displayName": "½ cup confectioners’ sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-pure-vanilla-extract",
+        "displayName": "¼ teaspoon pure vanilla extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-pull-aparts-preheat-oven-to-350-f-and-spray-an-8-8-square-baking-dish-with-nonstick-cooking-spray",
+        "displayName": "For the pull aparts: Preheat oven to 350°F and spray an 8\" × 8\" square baking dish with nonstick cooking spray.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-combine-granulated-sugar-and-1-teaspoon-cinnamon-whisk-to-combine",
+        "displayName": "In a small bowl, combine granulated sugar and 1 teaspoon cinnamon. Whisk to combine.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-microwave-safe-bowl-add-cup-butter-melt-on-high-heat-30-seconds",
+        "displayName": "In a small microwave-safe bowl, add ⅓ cup butter. Melt on high heat 30 seconds.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dip-biscuit-pieces-in-butter-then-roll-in-cinnamon-sugar-place-in-prepared-pan",
+        "displayName": "Dip biscuit pieces in butter, then roll in cinnamon sugar. Place in prepared pan.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-mix-together-brown-sugar-flour-remaining-cinnamon-and-remaining-butter-with-your-fingers-rub-mixture-together-to-form-a-crumble-having-the-consistency-of-sand-sprinkle-evenly-over-biscuit-pieces-in-pan",
+        "displayName": "In a medium bowl, mix together brown sugar, flour, remaining cinnamon, and remaining butter. With your fingers, rub mixture together to form a crumble having the consistency of sand. Sprinkle evenly over biscuit pieces in pan.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-25-28-minutes-until-biscuit-pieces-are-puffed-and-topping-is-golden-brown",
+        "displayName": "Bake 25–28 minutes until biscuit pieces are puffed and topping is golden brown.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-drizzle-while-pull-aparts-bake-in-a-separate-medium-bowl-add-all-ingredients-and-mix-with-a-hand-mixer-on-low-speed-until-smooth-mixture-should-have-the-texture-of-hot-fudge",
+        "displayName": "For the drizzle: While pull aparts bake, in a separate medium bowl add all ingredients and mix with a hand mixer on low speed until smooth. Mixture should have the texture of hot fudge.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-pull-aparts-from-oven-let-cool-10-minutes-then-drizzle-with-prepared-drizzle-serve-warm",
+        "displayName": "Remove pull aparts from oven, let cool 10 minutes, then drizzle with prepared drizzle. Serve warm.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10506,
+    "end": 10568,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

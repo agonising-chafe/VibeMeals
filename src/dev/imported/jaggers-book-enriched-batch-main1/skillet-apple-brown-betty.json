@@ -1,0 +1,186 @@
+{
+  "mapped": {
+    "id": "atk_skillet-apple-brown-betty",
+    "name": "Skillet Apple Brown Betty",
+    "slug": "skillet-apple-brown-betty",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-4-pieces",
+        "displayName": "unsalted butter, cut into 4 pieces",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-13-4-ounces-light-brown-sugar",
+        "displayName": "packed (13/4 ounces) light brown sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-ginger",
+        "displayName": "ground ginger",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "granny-smith-apples-about-3-large-peeled-cored-and-cut-into-1-2-inch-cubes-about-4-cups",
+        "displayName": "Granny Smith apples (about 3 large), peeled, cored, and cut into 1/2-inch cubes (about 4 cups)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "golden-delicious-apples-about-3-large-peeled-cored-and-cut-into-1-2-inch-cubes-about-4-cups",
+        "displayName": "Golden Delicious apples (about 3 large), peeled, cored, and cut into 1/2-inch cubes (about 4 cups)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "apple-cider",
+        "displayName": "apple cider",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 13,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "TO_TASTE",
+        "component": "FILLING"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE BREAD CRUMBS: Pulse the bread, butter, and sugar in a food processor until coarsely ground, 5 to 7 pulses. Transfer the bread crumbs to a 12-inch skillet and toast over medium heat, stirring constantly, until they are deep golden brown, 8 to 10 minutes. Transfer to a paper towel–lined plate; wipe out the skillet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE FILLING: Combine the sugar, spices, and salt in a small bowl. Melt 11/2 tablespoons of the butter in the now-empty skillet over high heat. Stir in the Granny Smith apples and half of the sugar mixture. Distribute the apples in an even layer and cook, stirring two or three times, until medium brown, about 5 minutes; transfer to a medium bowl. Repeat with the remaining butter, the Golden Delicious apples, and the remaining sugar mixture, returning the first batch of apples to the skillet when the second batch is done."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the apple cider to the skillet and scrape the bottom and sides of the pan with a wooden spoon to loosen the browned bits; cook until the apples are tender but not mushy and the liquid has reduced and is just beginning to thicken, 2 to 4 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the skillet from the heat; stir in the lemon juice (if using) and 1/3 cup of the toasted bread crumbs. Using a wooden spoon, lightly flatten the apples into an even layer in the skillet and evenly sprinkle with the remaining toasted bread crumbs. Spoon the warm betty into individual bowls and serve with vanilla ice cream, if desired."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 80787,
+    "end": 80841,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

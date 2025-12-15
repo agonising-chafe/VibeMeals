@@ -1,0 +1,259 @@
+{
+  "mapped": {
+    "id": "atk_chinese-pork-dumplings",
+    "name": "Chinese Pork Dumplings",
+    "slug": "chinese-pork-dumplings",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 40 dumplings",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "121-2-ounces-all-purpose-flour",
+        "displayName": "(121/2 ounces) all-purpose flour",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boiling-water",
+        "displayName": "boiling water",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-inch-napa-cabbage-pieces",
+        "displayName": "1-inch napa cabbage pieces",
+        "amount": 5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce-plus-extra-for-dipping",
+        "displayName": "soy sauce, plus extra for dipping",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil-plus-2-tablespoons-for-pan-frying-optional",
+        "displayName": "vegetable oil, plus 2 tablespoons for pan-frying (optional)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shaoxing-wine-or-dry-sherry",
+        "displayName": "Shaoxing wine or dry sherry",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hoisin-sauce",
+        "displayName": "hoisin sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-pepper",
+        "displayName": "white pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-chopped-fine",
+        "displayName": "scallions, chopped fine",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chinese-black-vinegar-or-unseasoned-rice-vinegar",
+        "displayName": "Chinese black vinegar or unseasoned rice vinegar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-oil",
+        "displayName": "Chili oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Rest Dough",
+        "durationMinutes": 30,
+        "criticality": "CRITICAL",
+        "timing": "PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "task": "Chill Filling",
+        "durationMinutes": 30,
+        "criticality": "CRITICAL",
+        "timing": "PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Place flour in food processor. With processor running, add boiling water. Continue to process until dough forms ball and clears sides of bowl, 30 to 45 seconds longer. Transfer dough to counter and knead until smooth, 2 to 3 minutes. Wrap dough in plastic wrap and let rest for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE FILLING: While dough rests, scrape any excess dough from now-empty processor bowl and blade. Pulse cabbage in processor until finely chopped, 8 to 10 pulses. Transfer cabbage to medium bowl and stir in 1/2 teaspoon salt; let sit for 10 minutes. Using your hands, squeeze excess moisture from cabbage. Transfer cabbage to small bowl and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pulse pork, soy sauce, sesame oil, 1 tablespoon vegetable oil, Shaoxing wine, hoisin, ginger, white pepper, and remaining 1/2 teaspoon salt in now-empty food processor until blended and slightly sticky, about 10 pulses. Scatter cabbage over pork mixture. Add scallions and pulse until vegetables are evenly distributed, about 8 pulses. Transfer pork mixture to small bowl and, using rubber spatula, smooth surface. Cover with plastic and refrigerate."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Line 2 rimmed baking sheets with parchment paper. Lightly dust with flour and set aside. Unwrap dough and transfer to counter. Roll dough into 12-inch cylinder and cut cylinder into 4 equal pieces. Set 3 pieces aside and cover with plastic. Roll remaining piece into 8-inch cylinder. Cut cylinder in half and cut each half into 5 equal pieces. Place dough pieces on 1 cut side on lightly floured counter and lightly dust with flour. Using palm of your hand, press each dough piece into 2-inch disk. Cover disks with damp towel."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Roll 1 disk into 31/2-inch round (wrappers needn’t be perfectly round) and re-cover disk with damp towel. Repeat with remaining disks. (Do not overlap disks.)"
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using rubber spatula, mark filling with cross to divide into 4 equal portions. Transfer 1 portion to small bowl and refrigerate remaining filling. Working with wrapper at a time (keep remaining wrappers covered), place scant 1 tablespoon filling in center of wrapper. Brush away any flour clinging to surface of wrapper. Lift side of wrapper closest to you and side farthest away and pinch together to form 11/2-inch-wide seam in center of dumpling. (When viewed from above, dumpling will have rectangular shape with rounded open ends.) Lift left corner farthest away from you and bring to center of seam. Pinch to seal. Pinch together remaining dough on left side to seal. Repeat pinching on right side. Gently press dumpling into crescent shape and transfer to prepared sheet. Repeat with remaining wrappers and filling in bowl. Repeat dumpling-making process with remaining 3 pieces dough and remaining 3 portions filling."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Serve dumplings hot, passing vinegar, chili oil, and extra soy sauce separately for dipping."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Place scant 1 tablespoon filling in center of wrapper."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Seal top and bottom edges to form 11/2-inch-wide seam."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Bring far left corner to center of seam and pinch together."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Pinch rest of left side to seal. Repeat process on right side."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Gently press dumpling into crescent shape."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 20925,
+    "end": 21035,
+    "yieldLine": "MAKES 40 dumplings"
+  },
+  "fit": true
+}

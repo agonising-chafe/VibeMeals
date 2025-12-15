@@ -1,0 +1,163 @@
+{
+  "mapped": {
+    "id": "atk_classic-gazpacho",
+    "name": "Classic Gazpacho",
+    "slug": "classic-gazpacho",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 25,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 9,
+      "yieldText": "SERVES 8 to 10",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "medium-ripe-beefsteak-tomatoes-about-11-2-pounds-cored-and-cut-into-1-4-inch-cubes-about-4-cups",
+        "displayName": "medium ripe beefsteak tomatoes (about 11/2 pounds), cored and cut into 1/4-inch cubes (about 4 cups)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-red-bell-peppers-about-1-pound-stemmed-seeded-and-cut-into-1-4-inch-cubes-about-2-cups",
+        "displayName": "medium red bell peppers (about 1 pound), stemmed, seeded, and cut into 1/4-inch cubes (about 2 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "small-cucumbers-about-1-pound-one-peeled-and-the-other-with-skin-on-both-seeded-and-cut-into-1-4-inch-cubes-about-2-cups",
+        "displayName": "small cucumbers (about 1 pound), one peeled and the other with skin on, both seeded and cut into 1/4-inch cubes (about 2 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "small-sweet-onion-such-as-vidalia-maui-or-walla-walla-or-2-large-shallots-minced-about-1-2-cup",
+        "displayName": "small sweet onion (such as Vidalia, Maui, or Walla Walla) or 2 large shallots, minced (about 1/2 cup)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "tomato-juice",
+        "displayName": "tomato juice",
+        "amount": 5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ice-cubes",
+        "displayName": "ice cubes",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hot-pepper-sauce-optional",
+        "displayName": "hot pepper sauce (optional)",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-for-serving",
+        "displayName": "Extra-virgin olive oil, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate to blend flavors",
+        "durationMinutes": 240,
+        "requirementType": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine the tomatoes, peppers, cucumbers, onion, garlic, vinegar, 2 teaspoons salt, and pepper to taste in a large (at least 4-quart) nonreactive bowl. Let stand until the vegetables just begin to release their juices, about 5 minutes. Stir in the tomato juice, ice cubes, and hot pepper sauce (if using). Cover tightly and refrigerate to blend flavors, at least 4 hours and up to 2 days."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Season with salt and pepper to taste and remove and discard any unmelted ice cubes. Serve cold, drizzling each portion with about 1 teaspoon olive oil and topping with the desired garnishes."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "meal_prep",
+      "vegetarian",
+      "vegan"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10806,
+    "end": 10846,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

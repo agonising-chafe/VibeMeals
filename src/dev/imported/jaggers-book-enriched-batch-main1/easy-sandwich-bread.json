@@ -1,0 +1,140 @@
+{
+  "mapped": {
+    "id": "atk_easy-sandwich-bread",
+    "name": "Easy Sandwich Bread",
+    "slug": "easy-sandwich-bread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 200,
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "yieldText": "MAKES 1 loaf",
+      "baseServings": 1,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-ounces-bread-flour",
+        "displayName": "(11 ounces) bread flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-ounces-whole-wheat-flour",
+        "displayName": "(2 ounces) whole-wheat flour",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 2.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-warm-water-120-degrees-divided",
+        "displayName": "plus 2 tablespoons warm water (120 degrees), divided",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-divided",
+        "displayName": "unsalted butter, melted, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten-with-1-teaspoon-water-and-pinch-table-salt",
+        "displayName": "large egg, lightly beaten with 1 teaspoon water and pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "In bowl of stand mixer, whisk bread flour, whole-wheat flour, and yeast together. Add 11/4 cups warm water, 2 tablespoons melted butter, and honey. Fit stand mixer with paddle and mix on low speed for 1 minute. Increase speed to medium and mix for 2 minutes. Scrape down bowl and paddle with greased rubber spatula. Continue to mix 2 minutes longer. Remove bowl and paddle from mixer. Scrape down bowl and paddle, leaving paddle in batter. Cover with plastic wrap and let batter rise in warm place until doubled in size, about 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 375 degrees. Spray 81/2 by 41/2-inch loaf pan with vegetable oil spray. Dissolve salt in remaining 2 tablespoons warm water. When batter has doubled, attach bowl and paddle to mixer. Add salt-water mixture and mix on low speed until water is mostly incorporated, about 40 seconds. Increase speed to medium and mix until thoroughly combined, about 1 minute, scraping down paddle if necessary. Transfer batter to prepared pan and smooth surface with greased rubber spatula. Cover and leave in warm place until batter reaches 1/2 inch below edge of pan, 15 to 20 minutes. Uncover and let rise until center of batter is level with edge of pan, 5 to 10 minutes longer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Gently brush top of risen loaf with egg mixture. Bake until deep golden brown and loaf registers 208 to 210 degrees, 40 to 45 minutes. Using clean dish towels, carefully invert bread onto wire rack. Reinvert loaf and brush top and sides with remaining 1 tablespoon melted butter. Let cool completely before slicing. (This bread is best eaten the day it is made; but it can be wrapped in plastic wrap and stored for up to 2 days at room temperature or frozen for up to 1 month.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 65160,
+    "end": 65200,
+    "yieldLine": "MAKES 1 loaf"
+  },
+  "fit": true
+}

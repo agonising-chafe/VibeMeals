@@ -1,0 +1,162 @@
+{
+  "mapped": {
+    "id": "atk_diy-chili-oil",
+    "name": "DIY Chili Oil",
+    "slug": "diy-chili-oil",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 150,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 13/4 cups",
+      "baseServings": 14,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chili-oil-neutral-oil-infused-with-aromatics-and-spices-and-tinted-vibrant-red-by-sichuan-chili-flakes-features-in-many-traditional-chinese-dishes-it-also-can-be-used-at-the-table-to-add-color-and-moderate-heat-to-noodles-soups-or-dumplings-such-as-har-gow-if-sichuan-chili-flakes-are-unavailable-or-you-d-prefer-a-less-spicy-chili-oil-you-can-substitute-gochugaru-korean-chili-flakes",
+        "displayName": "Chili oil, neutral oil infused with aromatics and spices and tinted vibrant red by Sichuan chili flakes, features in many traditional Chinese dishes. It also can be used at the table to add color and moderate heat to noodles, soups, or dumplings such as Har Gow. If Sichuan chili flakes are unavailable or you’d prefer a less spicy chili oil, you can substitute gochugaru (Korean chili flakes).",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shallot-sliced-into-1-4-inch-rings",
+        "displayName": "shallot, sliced into 1/4-inch rings",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-inch-piece-ginger-peeled-and-sliced-into-1-4-inch-thick-rounds",
+        "displayName": "(2-inch) piece ginger, peeled and sliced into 1/4-inch-thick rounds",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "star-anise-pod",
+        "displayName": "star anise pod",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cinnamon-stick",
+        "displayName": "cinnamon stick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sichuan-chili-flakes",
+        "displayName": "Sichuan chili flakes",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring oil, shallot, ginger, garlic, bay leaves, star anise, and cinnamon to simmer in small saucepan over medium heat. Reduce heat to low; tiny bubbles should surround aromatics, but aromatics should not fry. Cook until garlic and shallot are golden brown, taking care to maintain gentle bubbling, 45 minutes to 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine Sichuan chili flakes and salt in medium heatproof bowl. Strain oil mixture through fine-mesh strainer over chili flakes (mixture may bubble). Discard solids in strainer. Let chili oil cool completely, about 11/2 hours. Once cool, transfer mixture to airtight container. Store in refrigerator for up to 3 months."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "To create first pleat, use your thumb and index finger to pinch dough."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Use index finger of your other hand to push dough to begin second pleat."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Position second pleat against first pleat."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Repeat, rotating with each pleat, until dumpling has rounded shape. Press pleats above filling to seal."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Gently tear off excess dough."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 21211,
+    "end": 21656,
+    "yieldLine": "MAKES 13/4 cups"
+  },
+  "fit": true
+}

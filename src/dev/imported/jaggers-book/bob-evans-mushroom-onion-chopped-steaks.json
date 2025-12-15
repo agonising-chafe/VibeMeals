@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_bob-evans-mushroom-onion-chopped-steaks",
+    "name": "Bob Evans Mushroom & Onion Chopped Steaks",
+    "slug": "bob-evans-mushroom-onion-chopped-steaks",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "founded-as-part-of-the-popular-breakfast-sausage-company-bob-evans-restaurants-have-been-open-for-over-sixty-years-they-are-famous-for-country-style-comfort-food-and-hearty-breakfasts",
+        "displayName": "Founded as part of the popular breakfast sausage company, Bob Evans Restaurants have been open for over sixty years. They are famous for country-style comfort food and hearty breakfasts.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-sirloin-beef",
+        "displayName": "ground sirloin beef",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-onion-powder",
+        "displayName": "½ teaspoon onion powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "¼ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-yellow-onion-peeled-and-sliced",
+        "displayName": "medium yellow onion, peeled and sliced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sliced-button-mushrooms",
+        "displayName": "sliced button mushrooms",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-stock",
+        "displayName": "beef stock",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-heavy-cream",
+        "displayName": "¼ cup heavy cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-ground-beef-salt-onion-powder-pepper-and-garlic-powder-mix-well-then-form-into-4-1-inch-thick-patties",
+        "displayName": "In a medium bowl, combine ground beef, salt, onion powder, pepper, and garlic powder. Mix well, then form into 4 (1-inch-thick) patties.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-12-inch-nonstick-skillet-over-medium-heat-add-oil-once-hot-swirl-to-coat-pan-and-add-beef-patties-cook-3-minutes-per-side-then-transfer-to-a-plate",
+        "displayName": "In a 12-inch nonstick skillet over medium heat, add oil. Once hot, swirl to coat pan and add beef patties. Cook 3 minutes per side, then transfer to a plate.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-over-medium-heat-add-butter-once-melted-add-onion-and-mushrooms-and-saut-4-5-minutes-until-tender",
+        "displayName": "To same skillet over medium heat, add butter. Once melted, add onion and mushrooms and sauté 4–5 minutes until tender.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprinkle-flour-over-onion-and-mushrooms-and-cook-1-minute-then-stir-in-beef-stock-scraping-bottom-of-pan-to-release-any-brown-bits-return-patties-to-pan-and-bring-mixture-to-a-boil-about-2-minutes-reduce-heat-to-low-cover-and-cook-10-minutes-or-until-patties-reach-an-internal-temperature-of-160-f",
+        "displayName": "Sprinkle flour over onion and mushrooms and cook 1 minute, then stir in beef stock, scraping bottom of pan to release any brown bits. Return patties to pan and bring mixture to a boil, about 2 minutes. Reduce heat to low, cover, and cook 10 minutes or until patties reach an internal temperature of 160°F.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-patties-from-skillet-to-serving-plates-increase-heat-under-skillet-to-medium-and-stir-sauce-well-bring-to-a-boil-and-reduce-sauce-until-thick-enough-to-coat-the-back-of-a-spoon-stir-in-cream-spoon-sauce-along-with-onion-and-mushrooms-over-steaks-serve-immediately",
+        "displayName": "Remove patties from skillet to serving plates. Increase heat under skillet to medium and stir sauce well. Bring to a boil and reduce sauce until thick enough to coat the back of a spoon. Stir in cream. Spoon sauce along with onion and mushrooms over steaks. Serve immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "if-you-find-you-have-leftover-chopped-steaks-you-can-crumble-them-in-a-skillet-with-reserved-sauce-and-vegetables-and-1-tablespoon-tomato-paste-per-steak-heat-until-steaming-hot-about-3-minutes-then-stir-in-2-3-tablespoons-water-to-loosen-sauce-spoon-over-fresh-cooked-pasta-for-a-quick-beef-pasta-meal",
+        "displayName": "If you find you have leftover chopped steaks, you can crumble them in a skillet with reserved sauce and vegetables and 1 tablespoon tomato paste per steak. Heat until steaming hot, about 3 minutes, then stir in 2–3 tablespoons water to loosen sauce. Spoon over fresh-cooked pasta for a quick beef pasta meal.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5911,
+    "end": 5967,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,273 @@
+{
+  "mapped": {
+    "id": "atk_ultimate-grilled-pizza",
+    "name": "Ultimate Grilled Pizza",
+    "slug": "ultimate-grilled-pizza",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "161-2-ounces-king-arthur-bread-flour",
+        "displayName": "(161/2 ounces) King Arthur bread flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-ice-water-11-ounces",
+        "displayName": "plus 2 tablespoons ice water (11 ounces)",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "Vegetable oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "can-whole-peeled-plum-tomatoes-drained-juice-reserved",
+        "displayName": "can whole peeled plum tomatoes, drained, juice reserved",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-oregano",
+        "displayName": "minced fresh oregano",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "Sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "Extra-virgin olive oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "ASSEMBLY"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-11-2-cups",
+        "displayName": "Parmesan cheese, grated (11/2 cups)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "ASSEMBLY",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "fresh-whole-milk-mozzarella-cheese-torn-into-grape-size-pieces-about-2-cups",
+        "displayName": "fresh whole-milk mozzarella cheese, torn into grape-size pieces (about 2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "ASSEMBLY",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "shredded-fresh-basil",
+        "displayName": "shredded fresh basil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "coarse-sea-salt",
+        "displayName": "Coarse sea salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 24,
+        "description": "Refrigerate dough for at least 24 hours or up to 3 days.",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 1,
+        "description": "Remove dough from refrigerator and let stand at room temperature 1 hour before cooking.",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Process flour, sugar, and yeast in food processor until combined, about 2 seconds. With processor running, slowly add ice water; process until dough is just combined and no dry flour remains, about 10 seconds. Let dough stand for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add 1 tablespoon oil and salt to dough and process until dough forms satiny, sticky ball that clears sides of bowl, 30 to 60 seconds. Transfer dough to lightly oiled counter and knead until smooth, about 1 minute. Divide dough into 3 equal pieces (about 91/3 ounces each). Shape each piece into tight ball and transfer to well-oiled baking sheet (alternatively, place dough balls in individual well-oiled bowls). Cover tightly with plastic wrap (taking care not to compress dough) and refrigerate for at least 24 hours or up to 3 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE SAUCE: Pulse tomatoes in food processor until finely chopped, 12 to 15 pulses. Transfer to medium bowl and stir in oil, oregano, pepper flakes, reserved juice, 1/2 teaspoon salt, and 1/2 teaspoon sugar. Season with additional salt and sugar to taste, cover, and refrigerate until ready to use."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "One hour before cooking pizza, remove tray of dough from refrigerator and let stand at room temperature."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "While grill is heating, place sauce in small saucepan and bring to simmer over medium heat. Cover and keep warm."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE PIZZA: Clean and oil cooking grate. Pour 1/4 cup oil onto center of rimmed baking sheet. Transfer 1 dough round to sheet and coat both sides of dough with oil. Using your fingertips and palms, gently press and stretch dough toward edges of sheet to form rough 16 by 12-inch oval of even thickness. Using both of your hands, lift dough and carefully transfer to grill. (When transferring dough from sheet to grill, it will droop slightly to form half-moon or snowshoe shape.) Cook (over clearing if using charcoal and covered if using gas) until grill marks form, 2 to 3 minutes. Using tongs and spatula, carefully peel dough from grill grates, then rotate dough 90 degrees and continue to cook (covered if using gas) until second set of grill marks appears, 2 to 3 minutes longer. Flip dough and cook (covered if using gas) until second side of dough is lightly charred in spots, 2 to 3 minutes. Using tongs or pizza peel, transfer crust to cutting board, inverting so side that was grilled first is facing down. Repeat with remaining 2 dough rounds, adding 1 tablespoon oil to baking sheet for each round and keeping grill cover closed when not in use to retain heat."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Drizzle top of 1 crust with 1 tablespoon oil. Sprinkle one-third of Parmesan evenly over surface. Arrange one-third of mozzarella pieces, evenly spaced, on surface of pizza. Dollop one-third of sauce in evenly spaced 1-tablespoon mounds over surface of pizza. Using pizza peel or overturned rimmed baking sheet, transfer pizza to grill, cover, and cook until bottom is well browned and mozzarella is melted, 3 to 5 minutes, checking bottom and turning frequently to prevent burning. Transfer pizza to cutting board; repeat with remaining 2 crusts. Sprinkle pizzas with basil, drizzle lightly with oil, and season with salt to taste. Cut into wedges and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56813,
+    "end": 57186,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

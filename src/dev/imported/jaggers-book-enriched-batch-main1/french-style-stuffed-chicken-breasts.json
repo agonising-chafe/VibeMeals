@@ -1,0 +1,216 @@
+{
+  "mapped": {
+    "id": "atk_french-style-stuffed-chicken-breasts",
+    "name": "French-Style Stuffed Chicken Breasts",
+    "slug": "french-style-stuffed-chicken-breasts",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "7-to-8-ounce-boneless-skinless-chicken-breasts-tenderloins-removed-and-breasts-trimmed",
+        "displayName": "(7- to 8-ounce) boneless, skinless chicken breasts, tenderloins removed and breasts trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-mushrooms-wiped-clean-and-sliced-thin",
+        "displayName": "white mushrooms, wiped clean and sliced thin",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "small-leek-white-part-only-chopped-and-rinsed-thoroughly-about-1-cup",
+        "displayName": "small leek, white part only, chopped and rinsed thoroughly (about 1 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHICKEN AND STUFFING: Butterfly the chicken horizontally, stopping 1/2 inch from the edges so the halves remain attached, then open up each breast, cover with plastic wrap, and pound the cutlets to an even 1/4-inch thickness (each cutlet should measure about 8 by 6 inches). Trim about 1/2 inch from the long sides of the cutlets (11/2 to 2 ounces of meat per cutlet, or a total of 1/2 cup from all 4 cutlets) to form rectangles that measure about 8 by 5 inches. Process all the trimmings in a food processor until smooth, about 20 seconds. Transfer the puree to a medium bowl and set aside. (Do not wash the food processor bowl.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 1 tablespoon of the oil in a 12-inch skillet over medium-high heat until shimmering. Add the mushrooms and cook, stirring occasionally, until all the moisture has evaporated and the mushrooms are golden brown, 8 to 11 minutes. Add 1 tablespoon more oil and the leek; continue to cook, stirring frequently, until softened, 2 to 4 minutes. Add the garlic and thyme and cook until fragrant, about 30 seconds. Add 11/2 teaspoons of the lemon juice and cook until all the moisture has evaporated, about 30 seconds. Transfer the mixture to the bowl of the food processor. Return the pan to the heat, add the wine, and scrape the pan bottom to loosen any browned bits. Transfer the wine to a small bowl and set aside. Rinse and dry the skillet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pulse the mushroom mixture in the food processor until roughly chopped, about 5 pulses. Transfer the mushroom mixture to the bowl with the pureed chicken. Add 11/2 teaspoons of the parsley, 3/4 teaspoon salt, and 1/2 teaspoon pepper. Using a rubber spatula, fold together the stuffing ingredients until well combined (you should have about 11/2 cups stuffing)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spread one-quarter of the stuffing evenly over each cutlet with a rubber spatula, leaving a 3/4-inch border along the short sides of the cutlet and a 1/4-inch border along the long sides. Roll each breast up as tightly as possible without squeezing out the filling and place seam side down. Evenly space three pieces of kitchen twine (each about 12 inches long) beneath each breast and tie, trimming any excess."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Season the chicken with salt and pepper. Heat the remaining 1 tablespoon oil in the skillet over medium-high heat until just smoking. Add the chicken bundles and brown on all four sides, about 2 minutes per side. Add the broth and reserved wine to the pan and bring to a boil. Reduce the heat to low, cover the pan, and cook until the center of the chicken registers 160 degrees, 12 to 18 minutes. Transfer the chicken to a carving board and tent loosely with foil."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE SAUCE: While the chicken rests, whisk the mustard into the cooking liquid. Increase the heat to high and simmer, scraping the pan bottom to loosen the browned bits, until dark brown and reduced to 1/2 cup, 7 to 10 minutes. Off the heat, whisk in the butter and the remaining 11/2 teaspoons parsley and 11/2 teaspoons lemon juice; season with salt and pepper to taste. Remove the twine and cut each chicken bundle on the bias into six medallions. Spoon the sauce over the chicken and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 23469,
+    "end": 23531,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

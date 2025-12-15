@@ -1,0 +1,192 @@
+{
+  "mapped": {
+    "id": "atk_h-ng-sh-o-ni-r-u-chinese-braised-beef",
+    "name": "Hóng Shāo Niú Ròu (Chinese Braised Beef)",
+    "slug": "h-ng-sh-o-ni-r-u-chinese-braised-beef",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-tablespoon-water",
+        "displayName": "plus 1 tablespoon water",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-sherry",
+        "displayName": "dry sherry",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "hoisin-sauce",
+        "displayName": "hoisin sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-white-and-green-parts-separated-green-parts-sliced-thin-on-bias",
+        "displayName": "scallions, white and green parts separated, green parts sliced thin on bias",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-inch-piece-ginger-peeled-halved-lengthwise-and-crushed",
+        "displayName": "(2-inch) piece ginger, peeled, halved lengthwise, and crushed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled-and-smashed",
+        "displayName": "cloves, peeled and smashed",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "five-spice-powder",
+        "displayName": "five-spice powder",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-beef-short-ribs-trimmed-and-cut-into-4-inch-lengths",
+        "displayName": "boneless beef short ribs, trimmed and cut into 4-inch lengths",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sprinkle gelatin over 21/2 cups water in Dutch oven and let sit until gelatin softens, about 5 minutes. Adjust oven rack to middle position and heat oven to 300 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat softened gelatin over medium-high heat, stirring occasionally, until melted, 2 to 3 minutes. Stir in sherry, soy sauce, hoisin, molasses, scallion whites, ginger, garlic, five-spice powder, and pepper flakes. Stir in beef and bring to simmer. Remove pot from heat. Cover tightly with sheet of heavy-duty aluminum foil, then lid. Transfer to oven and cook until beef is tender, 2 to 21/2 hours, stirring halfway through cooking."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using slotted spoon, transfer beef to cutting board. Strain sauce through fine-mesh strainer into fat separator. Wipe out pot with paper towels. Let liquid settle for 5 minutes, then return defatted liquid to now-empty pot. Cook liquid over medium-high heat, stirring occasionally, until thickened and reduced to 1 cup, 20 to 25 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While sauce reduces, using 2 forks, break beef into 11/2-inch pieces. Whisk cornstarch and remaining 1 tablespoon water together in small bowl."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Reduce heat to medium-low, whisk cornstarch mixture into reduced sauce, and cook until sauce is slightly thickened, about 1 minute. Return beef to sauce and stir to coat. Cover and cook, stirring occasionally, until beef is heated through, about 5 minutes. Sprinkle scallion greens over top. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 36233,
+    "end": 36287,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

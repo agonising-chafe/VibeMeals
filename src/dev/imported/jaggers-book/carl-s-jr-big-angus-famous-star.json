@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_carl-s-jr-big-angus-famous-star",
+    "name": "Carl’s Jr. Big Angus Famous Star",
+    "slug": "carl-s-jr-big-angus-famous-star",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "if-you-are-looking-for-a-big-sit-down-restaurant-style-burger-on-the-go-the-big-angus-famous-star-is-for-you-this-copycat-version-has-all-the-flavor-without-the-trip-to-the-drive-through",
+        "displayName": "If you are looking for a big sit-down-restaurant-style burger on the go, the Big Angus Famous Star is for you! This copycat version has all the flavor without the trip to the drive-through.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-80-20-ground-angus-beef",
+        "displayName": "½ pound 80/20 ground Angus beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-inch-hamburger-bun-sliced-in-half-lengthwise",
+        "displayName": "(5-inch) hamburger bun, sliced in half lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 3,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mustard",
+        "displayName": "mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dill-pickle-slices",
+        "displayName": "dill pickle slices",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leaf-iceberg-lettuce",
+        "displayName": "leaf iceberg lettuce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "inch-slices-beefsteak-tomato",
+        "displayName": "(¼-inch) slices beefsteak tomato",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "inch-slices-red-onion-rings",
+        "displayName": "(⅛-inch) slices red onion rings",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-barbecue-or-smokeless-indoor-grill-to-medium-heat",
+        "displayName": "Preheat barbecue or smokeless indoor grill to medium heat.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "form-ground-beef-into-a-6-inch-patty-season-both-sides-of-patty-with-salt-and-pepper",
+        "displayName": "Form ground beef into a 6-inch patty. Season both sides of patty with salt and pepper.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "patty-3-4-minutes-per-side-until-patty-reaches-an-internal-temperature-of-145-f-for-medium-155-f-for-medium-well-or-165-f-for-well-done",
+        "displayName": "patty 3–4 minutes per side until patty reaches an internal temperature of 145°F for medium, 155°F for medium-well, or 165°F for well-done.",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "toast-cut-sides-of-bun-in-a-10-inch-skillet-over-medium-heat-about-3-4-minutes-once-toasted-spread-mayonnaise-on-both-halves-of-bun-spread-ketchup-and-mustard-on-top-half-of-bun",
+        "displayName": "Toast cut sides of bun in a 10-inch skillet over medium heat, about 3–4 minutes. Once toasted, spread mayonnaise on both halves of bun. Spread ketchup and mustard on top half of bun.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "arrange-pickle-slices-on-bottom-half-of-bun-add-lettuce-tomato-and-onion-on-top-of-pickles-add-burger-and-top-with-cheese-and-top-half-of-bun-serve-immediately",
+        "displayName": "Arrange pickle slices on bottom half of bun. Add lettuce, tomato, and onion on top of pickles. Add burger and top with cheese and top half of bun. Serve immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carl-s-jr-is-well-known-for-selling-big-sit-down-restaurant-style-burgers-they-started-with-the-six-dollar-burger-but-with-inflation-the-price-rose-and-they-renamed-it-the-thickburger-these-days-their-big-restaurant-style-burger-is-the-big-angus-famous-star",
+        "displayName": "Carl’s Jr. is well known for selling big sit-down-restaurant-style burgers! They started with the Six Dollar Burger, but with inflation the price rose and they renamed it the Thickburger. These days their big restaurant-style burger is the Big Angus Famous Star.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4482,
+    "end": 4538,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

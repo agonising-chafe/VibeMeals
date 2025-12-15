@@ -1,0 +1,188 @@
+{
+  "mapped": {
+    "id": "atk_fresh-salmon-burgers-with-sriracha-mayonnaise",
+    "name": "Fresh Salmon Burgers with Sriracha Mayonnaise",
+    "slug": "fresh-salmon-burgers-with-sriracha-mayonnaise",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "skinless-salmon-fillet-cut-into-3-4-inch-pieces",
+        "displayName": "skinless salmon fillet, cut into 3/4-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "panko-bread-crumbs",
+        "displayName": "panko bread crumbs",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-4-cup-mayonnaise-divided",
+        "displayName": "plus 1/4 cup mayonnaise, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BURGER"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-shallot",
+        "displayName": "minced shallot",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sriracha",
+        "displayName": "sriracha",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hamburger-buns-toasted",
+        "displayName": "hamburger buns, toasted",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bibb-lettuce-leaves",
+        "displayName": "Bibb lettuce leaves",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Freeze salmon",
+        "durationMinutes": 25,
+        "description": "Spread salmon pieces on parchment-lined rimmed baking sheet and freeze until very firm and starting to harden around edges but still pliable, 20 to 25 minutes.",
+        "startMinutesBeforeCooking": 25,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Spread salmon pieces on parchment-lined rimmed baking sheet and freeze until very firm and starting to harden around edges but still pliable, 20 to 25 minutes. Combine panko, parsley, 2 tablespoons mayonnaise, lemon juice, shallot, mustard, and pepper in medium bowl. Mix remaining 1/4 cup mayonnaise with sriracha in small bowl and set aside. Line plate with paper towel."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer salmon to food processor and sprinkle with salt (reserve parchment). Pulse until coarsely chopped into 1/4-inch pieces, 13 to 18 pulses. Transfer to bowl with panko mixture. Mix vigorously until uniformly combined. Smooth salmon into even layer and use edge of spatula to divide into 4 equal portions. Transfer portions to reserved parchment."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Shape each portion into patty about 31/2 inches in diameter and transfer to unheated 12-inch nonstick skillet. Heat skillet over medium-high heat and cook patties, without moving, until undersides are well browned and bottom 1/3 inch turns opaque, 5 to 6 minutes. Carefully flip patties and continue to cook until second side is well browned and burgers register 110 degrees at center, 4 to 5 minutes longer. Transfer to prepared plate and let rest for 5 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spread bun bottoms with sriracha mayonnaise. Top with lettuce, burgers, and bun tops and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 42871,
+    "end": 42917,
+    "yieldLine": "SERVES 4 SEASON 26"
+  },
+  "fit": true
+}

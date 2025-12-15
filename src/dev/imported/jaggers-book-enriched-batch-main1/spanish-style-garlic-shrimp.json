@@ -1,0 +1,142 @@
+{
+  "mapped": {
+    "id": "atk_spanish-style-garlic-shrimp",
+    "name": "Spanish-Style Garlic Shrimp",
+    "slug": "spanish-style-garlic-shrimp",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "medium-garlic-cloves-peeled",
+        "displayName": "medium garlic cloves, peeled",
+        "amount": 14,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shrimp-31-to-40-per-pound-peeled-deveined-and-tails-removed-see-this-page",
+        "displayName": "large shrimp (31 to 40 per pound), peeled, deveined and tails removed (see this page)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 8,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-inch-piece-mild-dried-chile-such-as-new-mexico-roughly-broken-seeds-included",
+        "displayName": "(2-inch) piece mild dried chile, such as New Mexico, roughly broken, seeds included",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "minutes": 30,
+        "hours": 0,
+        "type": "MARINATE",
+        "optional": false,
+        "description": "Marinate shrimp with garlic, olive oil, and salt."
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mince 2 of the garlic cloves with a chef’s knife or garlic press. Toss the minced garlic with the shrimp, 2 tablespoons of the olive oil, and salt in a medium bowl. Let the shrimp marinate at room temperature for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, using the flat side of a chef’s knife, smash 4 more garlic cloves. Heat the smashed garlic with the remaining 6 tablespoons olive oil in a 12-inch skillet over medium-low heat, stirring occasionally, until the garlic is light golden brown, 4 to 7 minutes. Remove the pan from the heat and allow the oil to cool to room temperature. Using a slotted spoon, remove the smashed garlic from the skillet and discard."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Slice the remaining 8 garlic cloves thin. Return the skillet to low heat and add the sliced garlic, bay leaf, and chile. Cook, stirring occasionally, until the garlic is tender but not browned, 4 to 7 minutes. (If the garlic has not begun to sizzle after 3 minutes, increase the heat to medium-low.) Increase the heat to medium-low and add the shrimp with the marinade to the pan in a single layer. Cook the shrimp, undisturbed, until the oil starts to gently bubble, about 2 minutes. Using tongs, flip the shrimp and continue to cook until almost cooked through, about 2 minutes longer. Increase the heat to high and add the sherry vinegar and parsley. Cook, stirring constantly, until the shrimp are cooked through and the oil is bubbling vigorously, 15 to 20 seconds. Serve immediately, discarding the bay leaf."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 44952,
+    "end": 44988,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,163 @@
+{
+  "mapped": {
+    "id": "atk_panang-beef-curry",
+    "name": "Panang Beef Curry",
+    "slug": "panang-beef-curry",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 135,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-beef-short-ribs-trimmed",
+        "displayName": "boneless beef short ribs, trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thai-red-curry-paste",
+        "displayName": "Thai red curry paste",
+        "amount": 24,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-unsweetened-coconut-milk",
+        "displayName": "can unsweetened coconut milk",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thai-red-chile-halved-lengthwise-optional",
+        "displayName": "Thai red chile, halved lengthwise (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "makrut-lime-leaves-middle-vein-removed-sliced-thin",
+        "displayName": "makrut lime leaves, middle vein removed, sliced thin",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-dry-roasted-peanuts-chopped-fine",
+        "displayName": "unsalted dry-roasted peanuts, chopped fine",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "PEANUT"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Cook beef until fork-tender (1 to 1.25 hours). Can be refrigerated for up to 24 hours.",
+        "durationMinutes": 60,
+        "criticality": "CRITICAL",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut each rib crosswise with grain into 3 equal pieces. Slice each piece against grain 1/4 inch thick. Place beef in large saucepan and add water to cover. Bring to boil over high heat. Cover, reduce heat to low, and cook until beef is fork-tender, 1 to 11/4 hours. Using slotted spoon, transfer beef to bowl; discard water. (Beef can refrigerated for up to 24 hours; when ready to use, add it to curry as directed in step 2.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in 12-inch nonstick skillet over medium heat until shimmering. Add 2 tablespoons curry paste and cook, stirring frequently, until paste is fragrant and darkens in color to brick red, 5 to 8 minutes. Add coconut milk, fish sauce, sugar, and chile, if using; stir to combine and dissolve sugar. Taste sauce and add up to 2 tablespoons more curry paste to achieve desired spiciness. Add beef, stir to coat with sauce, and bring to simmer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Rapidly simmer, stirring occasionally, until sauce is thickened and reduced by half and coats beef, 12 to 15 minutes. (Sauce should be quite thick, and streaks of oil will appear. Sauce will continue to thicken as it cools.) Add makrut lime leaves and simmer until fragrant, 1 to 2 minutes. Transfer to serving platter, sprinkle with peanuts, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "asian"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY",
+      "FISH",
+      "PEANUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 36288,
+    "end": 36326,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

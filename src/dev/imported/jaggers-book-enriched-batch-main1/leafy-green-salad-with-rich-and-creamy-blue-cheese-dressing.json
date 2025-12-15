@@ -1,0 +1,152 @@
+{
+  "mapped": {
+    "id": "atk_leafy-green-salad-with-rich-and-creamy-blue-cheese-dressing",
+    "name": "Leafy Green Salad with Rich and Creamy Blue Cheese Dressing",
+    "slug": "leafy-green-salad-with-rich-and-creamy-blue-cheese-dressing",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 20,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "blue-cheese-crumbled-about-1-2-cup",
+        "displayName": "blue cheese, crumbled (about 1/2 cup)",
+        "amount": 2.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "DRESSING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DRESSING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "sour cream",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DRESSING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "white-wine-vinegar",
+        "displayName": "white wine vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "loosely-packed-sturdy-salad-greens-such-as-romaine-or-curly-leaf-lettuce-washed-dried-and-torn-into-bite-size-pieces",
+        "displayName": "loosely packed sturdy salad greens, such as romaine or curly leaf lettuce, washed, dried, and torn into bite size pieces",
+        "amount": 10,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mash the blue cheese and buttermilk in a small bowl with a fork until the mixture resembles cottage cheese with small curds. Stir in the sour cream, mayonnaise, vinegar, sugar, and garlic powder and season with salt and pepper to taste. (The dressing can be refrigerated in an airtight container for up to 2 weeks.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place the greens in a large bowl. Pour the dressing over the greens and toss to coat evenly. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 12515,
+    "end": 12551,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

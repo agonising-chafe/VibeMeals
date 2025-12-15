@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_hardee-s-mushroom-swiss",
+    "name": "Hardee’s Mushroom & Swiss",
+    "slug": "hardee-s-mushroom-swiss",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "hardee-s-charbroils-their-burgers-giving-them-a-smoky-grilled-flavor-for-the-most-authentic-flavor-at-home-grilling-your-burgers-on-an-outdoor-grill-will-add-a-flavor-similar-to-the-restaurant-s",
+        "displayName": "Hardee’s charbroils their burgers, giving them a smoky grilled flavor. For the most authentic flavor at home, grilling your burgers on an outdoor grill will add a flavor similar to the restaurant’s.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-campbell-s-golden-mushroom-soup",
+        "displayName": "can Campbell’s Golden Mushroom Soup",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sliced-button-mushrooms",
+        "displayName": "sliced button mushrooms",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-accent-flavor-enhancer",
+        "displayName": "½ teaspoon Accent Flavor Enhancer",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-lawry-s-seasoned-salt",
+        "displayName": "½ teaspoon Lawry’s Seasoned Salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "80-20-ground-beef",
+        "displayName": "80/20 ground beef",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-hamburger-buns-sliced-in-half-lengthwise",
+        "displayName": "plain hamburger buns, sliced in half lengthwise",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "swiss-cheese",
+        "displayName": "Swiss cheese",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-mix-together-mushroom-soup-mushrooms-and-worcestershire-sauce-place-mixture-in-a-1-quart-saucepan-over-low-heat-and-bring-to-a-simmer-about-5-minutes-stir-and-simmer-5-minutes-or-until-mushrooms-are-tender-remove-from-heat-and-cover-to-keep-warm",
+        "displayName": "In a medium bowl, mix together mushroom soup, mushrooms, and Worcestershire sauce. Place mixture in a 1-quart saucepan over low heat and bring to a simmer, about 5 minutes. Stir and simmer 5 minutes or until mushrooms are tender. Remove from heat and cover to keep warm.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-accent-flavor-enhancer-lawry-s-seasoned-salt-and-pepper-mix-well-add-ground-beef-and-gently-mix-to-combine-form-mixture-into-four-inch-thick-patties",
+        "displayName": "In a medium bowl, add Accent Flavor Enhancer, Lawry’s Seasoned Salt, and pepper. Mix well. Add ground beef and gently mix to combine. Form mixture into four (½-inch-thick) patties.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-barbecue-or-smokeless-indoor-grill-to-medium-heat",
+        "displayName": "Preheat barbecue or smokeless indoor grill to medium heat.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "patties-4-5-minutes-per-side-until-patties-reach-an-internal-temperature-of-145-f-for-medium-155-f-for-medium-well-or-165-f-for-well-done",
+        "displayName": "patties 4–5 minutes per side until patties reach an internal temperature of 145°F for medium, 155°F for medium-well, or 165°F for well-done.",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-each-patty-on-bottom-half-of-a-bun-add-1-slice-swiss-cheese-each-and-top-with-mushroom-sauce-and-top-half-of-bun-serve-immediately",
+        "displayName": "Place each patty on bottom half of a bun, add 1 slice Swiss cheese each, and top with mushroom sauce and top half of bun. Serve immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4708,
+    "end": 4754,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

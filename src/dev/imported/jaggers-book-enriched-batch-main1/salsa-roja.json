@@ -1,0 +1,124 @@
+{
+  "mapped": {
+    "id": "atk_salsa-roja",
+    "name": "Salsa Roja",
+    "slug": "salsa-roja",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 11/2 cups",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-drizzle-able-slightly-spicy-tomatoey-sauce-meant-to-be-served-warm-brings-breakfast-tacos-to-life-to-make-the-salsa-spicier-reserve-and-add-the-jalape-o-seeds-to-the-blender-before-processing-make-sure-to-drain-the-tomatoes-after-microwaving-them-so-that-the-salsa-does-not-become-too-watery",
+        "displayName": "This drizzle-able, slightly spicy, tomatoey sauce—meant to be served warm—brings breakfast tacos to life. To make the salsa spicier, reserve and add the jalapeño seeds to the blender before processing. Make sure to drain the tomatoes after microwaving them so that the salsa does not become too watery.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plum-tomatoes-cored-and-chopped",
+        "displayName": "plum tomatoes, cored and chopped",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-chopped",
+        "displayName": "cloves, chopped",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jalape-o-chile-stemmed-seeded-and-chopped",
+        "displayName": "jalapeño chile, stemmed, seeded, and chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lime-juice",
+        "displayName": "lime juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine tomatoes and garlic in bowl and microwave, uncovered, until steaming and liquid begins to pool in bottom of bowl, about 4 minutes. Transfer tomato mixture to fine-mesh strainer set over bowl and let drain for 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine jalapeño, cilantro, lime juice, salt, pepper flakes, and drained tomato mixture in blender. Process until smooth, about 45 seconds. Season with salt to taste. Serve warm. (Salsa can be refrigerated for up to 3 days; cover and microwave briefly to rewarm before serving.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 3742,
+    "end": 3772,
+    "yieldLine": "MAKES 11/2 cups"
+  },
+  "fit": true
+}

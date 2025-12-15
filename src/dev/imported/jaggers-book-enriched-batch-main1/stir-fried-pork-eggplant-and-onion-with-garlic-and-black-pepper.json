@@ -1,0 +1,250 @@
+{
+  "mapped": {
+    "id": "atk_stir-fried-pork-eggplant-and-onion-with-garlic-and-black-pepper",
+    "name": "Stir-Fried Pork, Eggplant, and Onion with Garlic and Black Pepper",
+    "slug": "stir-fried-pork-eggplant-and-onion-with-garlic-and-black-pepper",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "light-brown-sugar",
+        "displayName": "light brown sugar",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "juice-from-1-lime",
+        "displayName": "juice from 1 lime",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pork-tenderloin-trimmed-of-fat-and-silver-skin-and-cut-into-1-4-inch-strips",
+        "displayName": "pork tenderloin, trimmed of fat and silver skin and cut into 1/4-inch strips",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PORK",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PORK",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "peanut-or-vegetable-oil",
+        "displayName": "peanut or vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-4-cup",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1/4 cup)",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARLIC"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARLIC"
+      },
+      {
+        "ingredientId": "medium-eggplant-1-pound-cut-into-3-4-inch-cubes",
+        "displayName": "medium eggplant (1 pound), cut into 3/4-inch cubes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-halved-and-cut-into-1-4-inch-wedges",
+        "displayName": "large onion, halved and cut into 1/4-inch wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro-leaves",
+        "displayName": "chopped fresh cilantro leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Marinate pork",
+        "durationMinutes": 10,
+        "requirementType": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE: Combine all ingredients in small bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE PORK AND VEGETABLES: Toss pork with soy sauce and fish sauce in medium bowl and let marinate for at least 10 minutes or up to 1 hour. In small bowl, mix 2 teaspoons of oil, garlic, and pepper together."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 2 teaspoons more oil in 12-inch nonstick skillet over high heat until just smoking. Add pork, break up any clumps, then cook without stirring until the meat is browned at the edges, about 1 minute. Stir pork and continue to cook until cooked through, about 1 minute longer. Transfer pork to clean bowl and cover with foil to keep warm."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add 1 tablespoon more oil to skillet and return to high heat until just smoking. Add eggplant and cook, stirring frequently, until browned and no longer spongy, about 5 minutes. Transfer eggplant to bowl with pork. Add remaining 2 teaspoons peanut oil to skillet and return to high heat until just smoking. Add onion and cook until beginning to brown and soften, about 2 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Clear center of skillet, add garlic mixture, and cook, mashing mixture into pan, until fragrant, 15 to 20 seconds. Stir garlic mixture into onion."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Stir in eggplant and pork with any accumulated juices. Whisk sauce to recombine, then add to skillet and cook, tossing constantly, until sauce is thickened, about 30 seconds. Transfer to serving platter, sprinkle with cilantro, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "FISH",
+      "PEANUT",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38758,
+    "end": 38822,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

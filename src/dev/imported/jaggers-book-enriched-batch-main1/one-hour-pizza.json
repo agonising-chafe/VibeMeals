@@ -1,0 +1,303 @@
+{
+  "mapped": {
+    "id": "atk_one-hour-pizza",
+    "name": "One-Hour Pizza",
+    "slug": "one-hour-pizza",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES two 111/2-inch pizzas",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "71-3-ounces-bread-flour",
+        "displayName": "(71/3 ounces) bread flour",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-ounces-semolina-flour",
+        "displayName": "(3 ounces) semolina flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-5-ounces-warm-water-115-degrees",
+        "displayName": "plus 2 tablespoons (5 ounces) warm water (115 degrees)",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-ounces-mild-lager",
+        "displayName": "(2 ounces) mild lager",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "All-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes-drained",
+        "displayName": "can whole peeled tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-and-patted-dry-optional",
+        "displayName": "anchovy fillets, rinsed and patted dry (optional)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-fine-1-2-cup",
+        "displayName": "Parmesan cheese, grated fine (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk-mozzarella-shredded-11-2-cups",
+        "displayName": "whole-milk mozzarella, shredded (11/2 cups)",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Adjust oven rack 4 to 5 inches from broiler element, set pizza stone on rack, and heat oven to 500 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While oven heats, process bread flour, semolina flour, yeast, and sugar in food processor until combined, about 2 seconds. With processor running, slowly pour warm water, lager, vinegar, and oil through feed tube; process until dough is just combined and no dry flour remains, about 10 seconds. Let dough stand for 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add salt to dough and process until dough forms satiny, sticky ball that clears sides of workbowl, 30 to 60 seconds. Transfer dough to lightly floured counter and gently knead until smooth, about 15 seconds. Divide dough into 2 equal pieces and shape each into smooth ball."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spray 11-inch circle in center of large sheet of parchment paper with oil spray. Place 1 ball of dough in center of parchment. Spray top of dough with oil spray. Using rolling pin, roll dough into 10-inch circle. Cover with second sheet of parchment. Using rolling pin and your hands, continue to roll and press dough into 111/2-inch circle. Set aside and repeat rolling with second ball of dough. Let dough stand at room temperature until slightly puffy, 30 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE SAUCE: Process all ingredients in food processor until smooth, about 30 seconds. Transfer to medium bowl."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE PIZZA: When dough has rested for 20 minutes, heat broiler for 10 minutes. Remove top piece of parchment from 1 disk of dough and dust top of dough lightly with all-purpose flour. Using your hands or pastry brush, spread flour evenly over dough, brushing off any excess. Liberally dust pizza peel with all-purpose flour. Flip dough onto peel, parchment side up. Carefully remove parchment and discard."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Using back of spoon or ladle, spread 1/2 cup sauce in thin layer over surface of dough, leaving 3/4-inch border around edge. Sprinkle 1/4 cup Parmesan evenly over sauce, followed by 3/4 cup mozzarella. Slide pizza carefully onto stone and return oven to 500 degrees. Bake until crust is well browned and cheese is bubbly and beginning to brown, 8 to 12 minutes, rotating pizza halfway through baking."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Transfer pizza to wire rack and let cool for 5 minutes before slicing and serving. Repeat steps 6 and 7 to top and bake second pizza."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 66713,
+    "end": 66791,
+    "yieldLine": "MAKES two 111/2-inch pizzas"
+  },
+  "fit": true
+}

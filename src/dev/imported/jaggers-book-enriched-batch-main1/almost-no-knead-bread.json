@@ -1,0 +1,153 @@
+{
+  "mapped": {
+    "id": "atk_almost-no-knead-bread",
+    "name": "Almost No-Knead Bread",
+    "slug": "almost-no-knead-bread",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 660,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 1 large round loaf",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "15-ounces-all-purpose-flour",
+        "displayName": "(15 ounces) all-purpose flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-water-room-temperature",
+        "displayName": "plus 2 tablespoons water, room temperature",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mild-flavored-lager",
+        "displayName": "mild-flavored lager",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "REST",
+        "durationMinutes": 480,
+        "optional": false,
+        "description": "Let dough sit at room temperature for at least 8 hours or up to 18 hours.",
+        "type": "LONG_PREP"
+      },
+      {
+        "task": "RISE",
+        "durationMinutes": 120,
+        "optional": false,
+        "description": "Let rise at room temperature until dough has doubled in size and does not readily spring back when poked with finger, about 2 hours.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk flour, salt, and yeast together in large bowl. Add water, lager, and vinegar. Using rubber spatula, fold mixture, scraping up dry flour from bottom of bowl, until shaggy ball forms. Cover bowl with plastic wrap and let dough sit at room temperature for at least 8 hours or up to 18 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Lay 18 by 12-inch sheet of parchment paper on counter and coat lightly with vegetable oil spray. Transfer dough to lightly floured counter and knead by hand to form smooth, round ball, 10 to 15 times. Shape dough into ball by pulling edges into middle. Transfer dough, seam side down, to center of parchment and spray surface of dough with oil spray. Pick up dough by lifting parchment overhang and lower into heavy-bottomed Dutch oven (let any excess parchment hang over pot edge). Cover loosely with plastic and let rise at room temperature until dough has doubled in size and does not readily spring back when poked with finger, about 2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position. Remove plastic from pot. Lightly flour top of dough and, using razor blade or sharp knife, make one 6-inch-long, 1/2-inch-deep slit along top of dough. Cover pot and place in oven. Heat oven to 425 degrees. Bake bread for 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove lid and continue to bake until loaf is deep brown and registers 210 degrees, 20 to 30 minutes. Carefully remove bread from pot; transfer to wire rack and let cool completely, about 2 hours."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Mix dough by stirring wet ingredients into dry ingredients with rubber spatula, then leave dough to rest for 8 to 18 hours."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Turn dough out onto lightly floured surface and knead 10 to 15 times. After kneading dough, shape into ball by pulling edges into middle."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Transfer loaf, seam side down, to large sheet of greased parchment and, using paper, transfer to Dutch oven. Cover loosely with plastic and let rise until doubled in size, 11/2 to 2 hours."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Sprinkle dough with flour and cut 1/2-inch-deep X into loaf. Cover pot, place in oven, and turn oven to 425 degrees. Bake for 30 minutes, then remove lid and bake until loaf registers 205 to 210 degrees."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 64367,
+    "end": 64439,
+    "yieldLine": "MAKES 1 large round loaf"
+  },
+  "fit": true
+}

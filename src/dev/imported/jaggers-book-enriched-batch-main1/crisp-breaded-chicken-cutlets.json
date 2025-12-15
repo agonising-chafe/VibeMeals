@@ -1,0 +1,128 @@
+{
+  "mapped": {
+    "id": "atk_crisp-breaded-chicken-cutlets",
+    "name": "Crisp Breaded Chicken Cutlets",
+    "slug": "crisp-breaded-chicken-cutlets",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "5-to-6-ounce-boneless-skinless-chicken-breasts-tenderloins-removed-and-breasts-trimmed",
+        "displayName": "(5- to 6-ounce) boneless, skinless chicken breasts, tenderloins removed and breasts trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-3-4-cup-vegetable-oil",
+        "displayName": "plus 3/4 cup vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-wedges-for-serving",
+        "displayName": "Lemon wedges, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Use a meat pounder to pound the chicken breasts to an even 1/2-inch thickness. Sprinkle the cutlets with salt and pepper and set aside. Set a large wire rack over a large baking sheet and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position, set a heatproof plate on the rack, and heat the oven to 200 degrees. Process the bread in a food processor until evenly fine-textured, 20 to 30 seconds. Transfer the crumbs to a pie plate or shallow dish. Spread the flour in a second plate. Beat the eggs with 1 tablespoon of the oil in a third plate."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Working with one cutlet at a time, dredge each cutlet in the flour, shaking off the excess. Using tongs, dip both sides of the cutlets in the egg mixture, allowing the excess to drip off. Dip both sides of the cutlets in the bread crumbs, pressing the crumbs with your fingers to form an even, cohesive coat. Place the breaded cutlets on the wire rack and allow the coating to dry for about 5 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, heat 6 tablespoons more oil in a 12-inch nonstick skillet over medium-high heat until shimmering but not smoking, about 2 minutes. Lay 2 cutlets gently in the skillet; cook until deep golden brown and crisp on the first side, gently pressing down on the cutlets with a metal spatula, about 21/2 minutes. Using tongs, flip the cutlets, reduce the heat to medium, and continue to cook until the meat feels firm when pressed gently and the second side is deep golden brown and crisp, 21/2 to 3 minutes longer. Line the warmed plate with a double layer of paper towels and set the cutlets on top; return the plate to the oven."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Discard the oil in the skillet and wipe the skillet clean with paper towels. Repeat step 4 using the remaining 6 tablespoons oil and remaining cutlets; serve with lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 21916,
+    "end": 21969,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

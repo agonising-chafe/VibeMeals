@@ -1,0 +1,145 @@
+{
+  "mapped": {
+    "id": "atk_home-fries-for-a-crowd",
+    "name": "Home Fries for a Crowd",
+    "slug": "home-fries-for-a-crowd",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 70,
+      "equipmentTags": [
+        "OVEN",
+        "DUTCH_OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "russet-potatoes-peeled-and-cut-into-3-4-inch-dice",
+        "displayName": "russet potatoes, peeled and cut into 3/4-inch dice",
+        "amount": 3.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-12-pieces",
+        "displayName": "unsalted butter, cut into 12 pieces",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-cut-into-1-2-inch-dice",
+        "displayName": "onions, cut into 1/2-inch dice",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-chives",
+        "displayName": "minced chives",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lowest position, place rimmed baking sheet on rack, and heat oven to 500 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring 10 cups water to boil in Dutch oven over high heat. Add potatoes and baking soda. Return to boil and cook for 1 minute. Drain potatoes. Return potatoes to Dutch oven and place over low heat. Cook, shaking pot occasionally, until any surface moisture has evaporated, about 2 minutes. Remove from heat. Add butter, 11/2 teaspoons salt, and cayenne; mix with rubber spatula until potatoes are coated with thick, starchy paste, about 30 seconds."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove baking sheet from oven and drizzle with 2 tablespoons oil. Transfer potatoes to baking sheet and spread into even layer. Roast for 15 minutes. While potatoes roast, combine onions, remaining 1 tablespoon oil, and 1/2 teaspoon salt in bowl."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove baking sheet from oven. Using thin, sharp metal spatula, scrape and turn potatoes. Clear about 8 by 5-inch space in center of baking sheet and add onion mixture. Roast for 15 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Scrape and turn again, mixing onions into potatoes. Continue to roast until potatoes are well browned and onions are softened and beginning to brown, 5 to 10 minutes. Stir in chives and season with salt and pepper to taste. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 6203,
+    "end": 6247,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

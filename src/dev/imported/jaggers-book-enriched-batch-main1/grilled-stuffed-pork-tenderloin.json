@@ -1,0 +1,113 @@
+{
+  "mapped": {
+    "id": "atk_grilled-stuffed-pork-tenderloin",
+    "name": "Grilled Stuffed Pork Tenderloin",
+    "slug": "grilled-stuffed-pork-tenderloin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "11-4-to-11-2-pound-pork-tenderloins-trimmed",
+        "displayName": "(11/4- to 11/2-pound) pork tenderloins, trimmed",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-olive-and-sun-dried-tomato-stuffing",
+        "displayName": "recipe Olive and Sun-Dried Tomato Stuffing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "baby-spinach",
+        "displayName": "baby spinach",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine sugar, 1 teaspoon salt, and 1 teaspoon pepper in bowl. Cut each tenderloin in half horizontally, stopping 1/2 inch from edge so halves remain attached. Open up tenderloins, cover with plastic wrap, and pound to 1/4-inch thickness. Trim any ragged edges to create rough rectangle about 10 inches by 6 inches. Season interior of pork with salt and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "With long side of pork facing you, spread half of stuffing mixture over bottom half of pork followed by 1/2 cup of spinach. Roll away from you into tight cylinder, taking care not to squeeze stuffing out ends. Position tenderloin seam side down, evenly space 5 pieces kitchen twine underneath, and tie. Repeat with remaining tenderloin, stuffing, and spinach."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Coat pork with oil, then rub entire surface with brown sugar mixture. Place pork on cool side of grill, cover, and cook until meat registers 135 to 140 degrees, 25 to 30 minutes, rotating pork halfway through cooking."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer pork to carving board, tent loosely with aluminum foil, and let rest for 20 minutes. Remove twine, slice pork into 1/2-inch-thick slices, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51612,
+    "end": 51650,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

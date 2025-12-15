@@ -1,0 +1,161 @@
+{
+  "mapped": {
+    "id": "atk_potato-burger-buns",
+    "name": "Potato Burger Buns",
+    "slug": "potato-burger-buns",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "yieldText": "MAKES 9 rolls",
+      "baseServings": 9
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "russet-potatoes-peeled-and-cut-into-1-inch-pieces",
+        "displayName": "russet potatoes, peeled and cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-4-pieces",
+        "displayName": "unsalted butter, cut into 4 pieces",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "121-3-ounces-bread-flour",
+        "displayName": "(121/3 ounces) bread flour",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-1-lightly-beaten-with-1-teaspoon-water-and-pinch-table-salt",
+        "displayName": "large eggs, 1 lightly beaten with 1 teaspoon water and pinch table salt",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "EGG WASH"
+      },
+      {
+        "ingredientId": "sesame-seeds-optional",
+        "displayName": "sesame seeds (optional)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "SESAME"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place potatoes in medium saucepan and add water to just cover. Bring to boil over high heat; reduce heat to medium-low and simmer until potatoes are cooked through, 8 to 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer 5 tablespoons cooking water to bowl to cool; drain potatoes. Return potatoes to saucepan and place over low heat. Cook, shaking pot occasionally, until any surface moisture has evaporated, about 1 minute. Remove from heat. Process potatoes through ricer or food mill or mash well with potato masher. Measure 1 very firmly packed cup potatoes and transfer to bowl. Reserve any remaining potatoes for another use. Stir in butter until melted."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Combine flour, sugar, yeast, and salt in bowl of stand mixer. Add warm potato mixture to flour mixture and mix with hands until combined (some large lumps are OK). Add 1 egg and reserved potato water; mix with dough hook on low speed until dough is soft and slightly sticky, 8 to 10 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Shape dough into ball and place in lightly greased container. Cover tightly with plastic wrap and allow to rise at room temperature until almost doubled in volume, 30 to 40 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Turn out dough onto counter, dusting with flour only if dough is too sticky to handle comfortably. Pat gently into 8-inch square of even thickness. Using bench scraper or chef’s knife, cut dough into 9 pieces (3 rows by 3 rows). Separate pieces and cover loosely with plastic."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Working with 1 piece of dough at a time and keeping remaining pieces covered, form dough pieces into smooth, taut rounds. (To round, set piece of dough on unfloured work surface. Loosely cup hand around dough and, without applying pressure to dough, move hand in small circular motions. Tackiness of dough against work surface and circular motion should work dough into smooth, even ball, but if dough sticks to hands, lightly dust fingers with flour.) Cover rounds with plastic and allow to rest for 15 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Line 2 rimmed baking sheets with parchment paper. On lightly floured surface, firmly press each dough round into 31/2-inch disk of even thickness, expelling large pockets of air. Arrange on prepared baking sheets. Cover loosely with plastic and let rise at room temperature until almost doubled in size, 30 to 40 minutes. While rolls rise, adjust oven racks to middle and upper-middle positions and heat oven to 425 degrees."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Brush rolls gently with egg wash and sprinkle with sesame seeds, if using. Bake rolls until deep golden brown, 15 to 18 minutes, rotating and switching baking sheets halfway through baking. Transfer baking sheets to wire racks and let cool for 5 minutes. Transfer rolls from baking sheets to wire racks. Serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 64309,
+    "end": 64355,
+    "yieldLine": "MAKES 9 rolls"
+  },
+  "fit": true
+}

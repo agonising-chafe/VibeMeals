@@ -1,0 +1,227 @@
+{
+  "mapped": {
+    "id": "atk_pasta-with-creamy-tomato-sauce",
+    "name": "Pasta with Creamy Tomato Sauce",
+    "slug": "pasta-with-creamy-tomato-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "small-onion-minced",
+        "displayName": "small onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prosciutto-minced-about-2-tablespoons",
+        "displayName": "prosciutto, minced (about 2 tablespoons)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-red-pepper-flakes",
+        "displayName": "Pinch red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oil-packed-sun-dried-tomatoes-drained-rinsed-patted-dry-and-chopped-coarse-about-3-tablespoons",
+        "displayName": "oil-packed sun-dried tomatoes, drained, rinsed, patted dry, and chopped coarse (about 3 tablespoons)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-dry-white-wine",
+        "displayName": "plus 2 tablespoons dry white wine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-crushed-tomatoes-from-one-28-ounce-can",
+        "displayName": "plus 2 tablespoons crushed tomatoes (from one 28-ounce can)",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ziti-penne-or-other-short-tubular-pasta",
+        "displayName": "ziti, penne, or other short tubular pasta",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil-leaves",
+        "displayName": "chopped fresh basil leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-for-serving",
+        "displayName": "Grated Parmesan cheese, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt the butter in a medium saucepan over medium heat. Add the onion, prosciutto, bay leaf, red pepper flakes, and 1/4 teaspoon salt; cook, stirring occasionally, until the onion is very soft and beginning to turn light gold, 8 to 12 minutes. Increase the heat to medium-high, add the garlic, and cook until fragrant, about 30 seconds. Stir in the sun-dried tomatoes and tomato paste and cook, stirring constantly, until slightly darkened, 1 to 2 minutes. Add 1/4 cup of the wine and cook, stirring frequently, until the liquid has evaporated, 1 to 2 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add 2 cups of the crushed tomatoes and bring to a simmer. Reduce the heat to low, partially cover, and cook, stirring occasionally, until the sauce is thickened, 25 to 30 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta to the boiling water and cook, stirring often, until al dente. Reserve 1/2 cup of the cooking water then drain the pasta and return it to the pot."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the bay leaf from the sauce and discard. Stir the cream, remaining 2 tablespoons crushed tomatoes, and remaining 2 tablespoons wine into the sauce; season with salt and pepper to taste. Add the sauce to the pasta and adjust the consistency of the sauce with the reserved pasta cooking water as needed. Stir in the basil and serve, passing the Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 15815,
+    "end": 15873,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

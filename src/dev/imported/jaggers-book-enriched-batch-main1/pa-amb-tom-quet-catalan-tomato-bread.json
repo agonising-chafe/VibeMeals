@@ -1,0 +1,109 @@
+{
+  "mapped": {
+    "id": "atk_pa-amb-tom-quet-catalan-tomato-bread",
+    "name": "Pa amb Tomàquet (Catalan Tomato Bread)",
+    "slug": "pa-amb-tom-quet-catalan-tomato-bread",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-ripe-tomatoes-halved-through-equator",
+        "displayName": "large ripe tomatoes, halved through equator",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "loaf-ciabatta-halved-horizontally-and-sliced-crosswise-2-inches-thick",
+        "displayName": "loaf ciabatta, halved horizontally and sliced crosswise 2 inches thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-garlic-clove-peeled-and-halved-crosswise",
+        "displayName": "large garlic clove, peeled and halved crosswise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-serving",
+        "displayName": "extra-virgin olive oil, plus extra for serving",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "flake-sea-salt",
+        "displayName": "Flake sea salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place box grater in medium bowl. Rub cut side of tomatoes against large holes of grater until tomato flesh is reduced to pulp (skins should remain intact). Discard skins. (You should have about 11/2 cups pulp.) Stir in table salt."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack 6 inches from broiler element and heat broiler. Set wire rack in rimmed baking sheet and arrange bread slices cut side up on rack. Broil until browned, crisp, and starting to char at edges, 2 to 4 minutes. Rub toasts with cut side of garlic (apply more pressure for more-potent flavor; rub lightly for delicate flavor)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Arrange toasts on serving plate. Distribute tomato pulp evenly among toasts and spread to edges. Drizzle with oil and season lightly with flake sea salt. Serve immediately, passing extra oil and sea salt separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 1413,
+    "end": 1449,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

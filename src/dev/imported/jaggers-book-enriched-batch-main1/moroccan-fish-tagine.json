@@ -1,0 +1,209 @@
+{
+  "mapped": {
+    "id": "atk_moroccan-fish-tagine",
+    "name": "Moroccan Fish Tagine",
+    "slug": "moroccan-fish-tagine",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "skinless-cod-fillets-1-to-11-2-inches-thick-cut-into-11-2-to-2-inch-pieces",
+        "displayName": "skinless cod fillets (1 to 11/2 inches thick), cut into 11/2- to 2-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves-plus-1-4-cup-chopped",
+        "displayName": "fresh cilantro leaves, plus 1/4 cup chopped",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-halved-and-sliced-through-root-end-1-4-inch-thick",
+        "displayName": "onion, halved and sliced through root end 1/4 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bell-pepper-stemmed-seeded-and-cut-into-1-4-inch-strips",
+        "displayName": "bell pepper, stemmed, seeded, and cut into 1/4-inch strips",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrot-peeled-and-sliced-on-bias-1-4-inch-thick",
+        "displayName": "carrot, peeled and sliced on bias 1/4 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes",
+        "displayName": "can diced tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-green-olives-quartered-lengthwise",
+        "displayName": "pitted green olives, quartered lengthwise",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-chopped-preserved-lemon",
+        "displayName": "finely chopped preserved lemon",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place cod in bowl and toss with 1/2 teaspoon salt. Set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pulse cilantro leaves, garlic, cumin, paprika, and cayenne in food processor until cilantro and garlic are finely chopped, about 12 pulses. Add lemon juice and pulse briefly to combine. Transfer mixture to small bowl and stir in 2 tablespoons oil. Set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat remaining 1/4 cup oil in large Dutch oven over medium heat until shimmering. Add onion, bell pepper, carrot, and remaining 1/4 teaspoon salt and cook, stirring frequently, until softened, 5 to 7 minutes. Stir in tomatoes and their juice, olives, and preserved lemon. Spread mixture in even layer on bottom of pot."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Toss cod with cilantro mixture until evenly coated, then arrange cod over vegetables in single layer. Cover and cook until cod starts to turn opaque and juices released from cod are simmering vigorously, 3 to 5 minutes. Remove pot from heat and let stand, covered, until cod registers 135 degrees, 3 to 5 minutes. Sprinkle with chopped cilantro and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43300,
+    "end": 43356,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

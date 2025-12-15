@@ -1,0 +1,230 @@
+{
+  "mapped": {
+    "id": "atk_grilled-vegetable-platter",
+    "name": "Grilled Vegetable Platter",
+    "slug": "grilled-vegetable-platter",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "GRILL",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil-plus-basil-leaves-for-garnish",
+        "displayName": "chopped fresh basil, plus basil leaves for garnish",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "red-bell-peppers",
+        "displayName": "red bell peppers",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-onion-cut-into-1-2-inch-thick-rounds",
+        "displayName": "red onion, cut into 1/2-inch-thick rounds",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plum-tomatoes-cored-and-halved-lengthwise",
+        "displayName": "plum tomatoes, cored and halved lengthwise",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "zucchini-ends-trimmed-sliced-lengthwise-into-3-4-inch-thick-planks",
+        "displayName": "zucchini, ends trimmed, sliced lengthwise into 3/4-inch-thick planks",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "eggplant-ends-trimmed-cut-crosswise-into-1-2-inch-thick-rounds",
+        "displayName": "eggplant, ends trimmed, cut crosswise into 1/2-inch-thick rounds",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "burrata-cheese-room-temperature",
+        "displayName": "burrata cheese, room temperature",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE LEMON-BASIL VINAIGRETTE: Whisk lemon juice, mustard, garlic, salt, and pepper together in bowl. Whisking constantly, slowly drizzle in oil. Stir in basil and season with salt and pepper to taste. (Vinaigrette can be refrigerated in an airtight container for up to 2 days. Bring to room temperature and whisk to recombine before serving.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE GRILLED VEGETABLE PLATTER: Slice 1/4 inch off tops and bottoms of bell peppers and remove cores. Make slit down 1 side of each bell pepper, then press flat into 1 long strip, removing ribs and remaining seeds with knife as needed. Cut strips in half crosswise (you should have 4 bell pepper pieces)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Push toothpick horizontally through each onion round to keep rings intact while grilling. Brush onion, bell peppers, tomatoes, and zucchini all over with oil, then brush eggplant with remaining oil (it will absorb more oil than other vegetables). Sprinkle vegetables with salt and pepper."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Clean and oil cooking grate. Grill vegetables until skins of bell peppers and tomatoes are well browned and onions, eggplant, and zucchini are tender, 10 to 16 minutes, flipping and moving vegetables as necessary to ensure even cooking and transferring vegetables to baking sheet as they finish cooking. Place bell peppers in bowl, cover with plastic wrap, and let steam to loosen skins, about 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove toothpicks from onion and separate rings. When cool enough to handle, peel bell peppers, discarding skins; slice into 1-inch-thick strips. Arrange vegetables and burrata attractively on serving platter with lemon-basil vinaigrette. Garnish platter with basil leaves. Serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56554,
+    "end": 56618,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

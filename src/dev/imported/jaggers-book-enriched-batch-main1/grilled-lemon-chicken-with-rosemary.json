@@ -1,0 +1,162 @@
+{
+  "mapped": {
+    "id": "atk_grilled-lemon-chicken-with-rosemary",
+    "name": "Grilled Lemon Chicken with Rosemary",
+    "slug": "grilled-lemon-chicken-with-rosemary",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 80,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken-giblets-discarded",
+        "displayName": "(31/2- to 4-pound) whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "lemons",
+        "displayName": "lemons",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-rosemary",
+        "displayName": "minced fresh rosemary",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine chicken",
+        "durationMinutes": 60,
+        "startTimeOffsetMinutes": -60,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "With chicken breast side down, using kitchen shears, cut through bones on either side of backbone; discard backbone. Flip chicken over and press on breastbone to flatten. Using fingers and shears, peel skin off chicken, leaving skin on wings."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Tuck wings behind back. Turn legs so drumsticks face inward toward breasts. Using chef’s knife, cut 1/2-inch-deep slits, spaced 1/2 inch apart, in breasts and legs. Insert skewer through thigh of 1 leg, into bottom of breast, and through thigh of second leg. Insert second skewer, about 1 inch lower, through thigh and drumstick of 1 leg and then through thigh and drumstick of second leg."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Dissolve sugar and 3/4 cup salt in 3 quarts cold water in large, wide container. Submerge chicken in brine, cover, and refrigerate for at least 30 minutes or up to 1 hour."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Zest lemons (you should have 2 tablespoons grated zest). Juice 1 lemon (you should have 3 tablespoons juice) and quarter remaining lemon lengthwise. Combine zest, oil, 11/2 teaspoons rosemary, 1 teaspoon mustard, and 1/2 teaspoon pepper in small bowl; set aside. Heat butter, remaining 1/2 teaspoon rosemary, remaining 1/2 teaspoon mustard, and 1/2 teaspoon pepper in small saucepan over low heat, stirring occasionally, until butter is melted and ingredients are combined. Remove pan from heat and stir in lemon juice; leave mixture in saucepan."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove chicken from brine and pat dry with paper towels. With chicken skinned side down, rub 1/2 teaspoon zest mixture over surface of legs. Flip chicken over and rub remaining zest mixture evenly over entire surface, making sure to work mixture into slits."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Clean and oil cooking grate. Place chicken, skinned side down, and lemon quarters over hotter side of grill. Cover and cook until chicken and lemon quarters are well browned, 8 to 10 minutes. Transfer lemon quarters to bowl and set aside. Flip chicken over and brush with one-third of butter mixture (place saucepan over cooler side of grill if mixture has solidified). Cover chicken loosely with aluminum foil. Continue to cook, covered, until chicken is well browned on second side, 8 to 10 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Remove foil and slide chicken to cooler side of grill. Brush with half of remaining butter mixture, and re-cover with foil. Continue to cook, covered, until breasts register 160 degrees and thighs/drumsticks register 175 degrees, 8 to 10 minutes longer."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Transfer chicken to carving board, brush with remaining butter mixture, tent loosely with foil, and let rest for 5 to 10 minutes. Carve into pieces and serve with reserved lemon quarters."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 54268,
+    "end": 54330,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

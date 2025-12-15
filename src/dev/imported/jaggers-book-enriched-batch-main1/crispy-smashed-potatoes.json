@@ -1,0 +1,75 @@
+{
+  "mapped": {
+    "id": "atk_crispy-smashed-potatoes",
+    "name": "Crispy Smashed Potatoes",
+    "slug": "crispy-smashed-potatoes",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "small-red-potatoes-unpeeled",
+        "displayName": "small red potatoes, unpeeled",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-thyme",
+        "displayName": "chopped fresh thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven racks to top and lowest positions and heat oven to 500 degrees. Spread potatoes on rimmed baking sheet, pour 3/4 cup water into baking sheet, and wrap tightly with aluminum foil. Cook on bottom rack until skewer or paring knife slips in and out of potatoes easily, 25 to 30 minutes (poke skewer through foil to test). Remove foil and let cool for 10 minutes. If any water remains on pan, blot dry with paper towel."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Drizzle 3 tablespoons oil over potatoes and roll to coat. Space potatoes evenly on sheet. Place second baking sheet on top; press down uniformly on sheet until potatoes are roughly 1/3 to 1/2 inch thick. Sprinkle with thyme and season with salt and pepper to taste; drizzle evenly with remaining 3 tablespoons oil. Roast potatoes on top rack for 15 minutes. Transfer potatoes to bottom rack and continue to roast until well browned, 20 to 30 minutes. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59577,
+    "end": 59613,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

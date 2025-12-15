@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_auntie-anne-s-pretzels",
+    "name": "Auntie Anne’s Pretzels",
+    "slug": "auntie-anne-s-pretzels",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 12",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "you-can-create-this-popular-mall-food-at-home-auntie-anne-s-began-as-a-stand-at-a-farmers-market-in-1988-and-today-has-more-than-1-200-locations-including-600-international-franchises",
+        "displayName": "You can create this popular mall food at home. Auntie Anne’s began as a stand at a farmers’ market in 1988 and today has more than 1,200 locations including 600 international franchises.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-warm-water-divided",
+        "displayName": "½ cups warm water, divided",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoons-active-dry-yeast",
+        "displayName": "⅛ teaspoons active dry yeast",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoons-salt",
+        "displayName": "⅛ teaspoons salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bread-flour",
+        "displayName": "bread flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pretzel-salt",
+        "displayName": "pretzel salt",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "melted-salted-butter",
+        "displayName": "melted salted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f",
+        "displayName": "Preheat oven to 400°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-1-cups-water-to-a-medium-mixing-bowl-and-add-yeast-stir-to-dissolve-let-stand-5-minutes",
+        "displayName": "Add 1 ½ cups water to a medium mixing bowl and add yeast. Stir to dissolve. Let stand 5 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-yeast-mixture-add-brown-sugar-and-salt-stir-to-dissolve-add-flours-and-knead-dough-by-hand-until-smooth-and-elastic-about-12-minutes",
+        "displayName": "To yeast mixture, add brown sugar and salt. Stir to dissolve. Add flours and knead dough by hand until smooth and elastic, about 12 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "let-dough-rise-on-the-countertop-at-least-30-minutes-or-until-doubled-in-bulk",
+        "displayName": "Let dough rise on the countertop at least 30 minutes or until doubled in bulk.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-dough-is-rising-combine-remaining-water-and-baking-soda-in-a-medium-bowl-stir-often",
+        "displayName": "While dough is rising, combine remaining water and baking soda in a medium bowl. Stir often.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "after-dough-has-risen-divide-into-twelve-pieces-roll-each-piece-into-a-14-inch-rope-about-inch-or-less-thick-and-lay-rope-on-a-work-surface-loop-the-rope-in-half-and-then-twist-the-ends-together-two-or-three-times-pull-the-ends-back-over-the-loop-to-create-the-classic-pretzel-shape-pressing-the-ends-into-the-pretzel-to-secure-them",
+        "displayName": "After dough has risen, divide into twelve pieces. Roll each piece into a 14-inch rope (about ½-inch or less thick) and lay rope on a work surface. Loop the rope in half and then twist the ends together two or three times. Pull the ends back over the loop to create the classic pretzel shape, pressing the ends into the pretzel to secure them.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dip-each-pretzel-in-baking-soda-solution-and-place-on-a-greased-half-baking-sheet-sprinkle-with-pretzel-salt",
+        "displayName": "Dip each pretzel in baking soda solution and place on a greased half baking sheet. Sprinkle with pretzel salt.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-10-minutes-or-until-golden-brush-with-melted-butter-and-serve",
+        "displayName": "Bake 10 minutes or until golden. Brush with melted butter and serve.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1888,
+    "end": 1940,
+    "yieldLine": "SERVES 12"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

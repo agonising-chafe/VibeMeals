@@ -1,0 +1,177 @@
+{
+  "mapped": {
+    "id": "atk_crispy-slow-roasted-pork-belly",
+    "name": "Crispy Slow-Roasted Pork Belly",
+    "slug": "crispy-slow-roasted-pork-belly",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "skin-on-center-cut-fresh-pork-belly-about-11-2-inches-thick",
+        "displayName": "skin-on center-cut fresh pork belly, about 11/2 inches thick",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "Vegetable oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "hot sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 720,
+        "description": "Refrigerate pork belly, uncovered, for at least 12 hours or up to 24 hours.",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PORK: Using sharp chef’s knife, slice pork belly lengthwise into 3 strips about 2 inches wide, then cut slits, spaced 1 inch apart in crosshatch pattern, in surface fat layer, being careful not to cut into meat. Combine 2 tablespoons salt and sugar in bowl. Rub salt mixture into bottom and sides of pork belly (do not rub into skin). Season skin of each strip evenly with 1/2 teaspoon salt. Place pork belly, skin side up, in 13 by 9-inch baking dish and refrigerate, uncovered, for at least 12 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to middle position and heat oven to 250 degrees. Set wire rack in rimmed baking sheet and spray with vegetable oil spray. Transfer pork belly, skin side up, to wire rack and roast until pork registers 195 degrees and paring knife inserted in pork meets little resistance, 3 to 31/2 hours, rotating sheet halfway through roasting."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE MUSTARD SAUCE: Whisk all ingredients together in bowl; set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer pork belly, skin side up, to large plate. (Pork belly can be held at room temperature for up to 1 hour.) Pour fat from sheet into 1-cup liquid measuring cup. Add vegetable oil as needed to equal 1 cup and transfer to 12-inch skillet. Arrange pork belly, skin side down, in skillet (strips can be sliced in half crosswise if skillet won’t fit strips whole) and place over medium heat until bubbles form around pork belly. Continue to fry, tilting skillet occasionally to even out hot spots, until skin puffs, crisps, and turns golden, 6 to 10 minutes. Transfer pork belly, skin side up, to carving board and let rest for 5 minutes. Flip pork belly skin side down and slice 1/2 inch thick (being sure to slice through original score marks). Reinvert slices and serve with sauce."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Cutting pork belly into 3 strips provides more surface area for seasoning. Smaller pieces of meat and skin also cook more quickly and evenly."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Seasoning meat with salt and brown sugar adds flavor, encourages browning, and helps it retain moisture. Sprinkling salt on skin (scored for deeper penetration) helps it dehydrate."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Letting seasoned meat sit overnight in refrigerator gives rub time to penetrate. It also dries out surface of skin so that it can crisp."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Slow roasting browns meat and further dehydrates skin while converting rigid collagen in both to gelatin. Gelatin keeps meat moist and helps skin puff when crisped."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Frying just skin portion of pork belly (start it in cold oil so that all skin heats at same pace) forces its remaining water to evaporate, leaving it puffed up and ultracrisp."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 40318,
+    "end": 40403,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

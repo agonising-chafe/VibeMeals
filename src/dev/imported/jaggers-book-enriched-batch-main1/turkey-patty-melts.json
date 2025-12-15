@@ -1,0 +1,189 @@
+{
+  "mapped": {
+    "id": "atk_turkey-patty-melts",
+    "name": "Turkey Patty Melts",
+    "slug": "turkey-patty-melts",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 4 sandwiches",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "recipe-ground-turkey-mix",
+        "displayName": "recipe Ground Turkey Mix",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "PATTIES"
+      },
+      {
+        "ingredientId": "onions-halved-and-sliced-thin",
+        "displayName": "onions, halved and sliced thin",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CARAMELIZED ONIONS"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CARAMELIZED ONIONS"
+      },
+      {
+        "ingredientId": "plus-4-teaspoons-unsalted-butter-divided",
+        "displayName": "plus 4 teaspoons unsalted butter, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CARAMELIZED ONIONS"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CARAMELIZED ONIONS"
+      },
+      {
+        "ingredientId": "pinch-baking-soda",
+        "displayName": "Pinch baking soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CARAMELIZED ONIONS"
+      },
+      {
+        "ingredientId": "balsamic-vinegar",
+        "displayName": "balsamic vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CARAMELIZED ONIONS"
+      },
+      {
+        "ingredientId": "packed-brown-sugar",
+        "displayName": "packed brown sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CARAMELIZED ONIONS"
+      },
+      {
+        "ingredientId": "hearty-sandwich-bread",
+        "displayName": "hearty sandwich bread",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper-jack-cheese-41-2-ounces-divided",
+        "displayName": "pepper Jack cheese (41/2 ounces), divided",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Divide ground turkey mix into 4 equal portions. Shape each portion into thin patties that are 1/4 inch larger than slices of bread. Place 2 patties in 12-inch nonstick skillet and cook over medium heat until spotty brown on bottom, about 3 minutes. Flip and cook, pressing down on patties frequently, until second side is lightly browned, about 2 minutes. Transfer to plate. Wipe out skillet and add remaining 2 patties. Repeat cooking process and transfer patties to plate, leaving fat in skillet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add onions, water, 1 tablespoon butter, salt, pepper, and baking soda and bring to simmer. Cover and cook for 8 minutes. Uncover and continue to cook, stirring occasionally, until onions are well browned, 7 to 10 minutes. Stir in vinegar and sugar."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While onions cook, arrange 4 slices of bread on cutting board. Spread 11/2 teaspoons mustard on each slice. Top each slice with 11/2 slices cheese, breaking up cheese as necessary to keep from hanging over edge. Arrange patties on top of cheese. Divide onions evenly over patties and top with remaining 6 slices cheese and remaining 4 slices bread."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "In clean, dry skillet, melt 1 teaspoon butter over medium-low heat. Add 2 sandwiches and cook until bottoms are well browned, 4 to 5 minutes, moving sandwiches as needed to ensure even browning. Flip, add 1 teaspoon butter to pan, and continue to cook until second side is well browned, 2 to 3 minutes. Remove sandwiches and repeat with remaining 2 teaspoons butter and remaining 2 sandwiches. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 30718,
+    "end": 30764,
+    "yieldLine": "MAKES 4 sandwiches"
+  },
+  "fit": true
+}

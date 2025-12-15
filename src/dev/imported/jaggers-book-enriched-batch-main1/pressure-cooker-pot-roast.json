@@ -1,0 +1,190 @@
+{
+  "mapped": {
+    "id": "atk_pressure-cooker-pot-roast",
+    "name": "Pressure-Cooker Pot Roast",
+    "slug": "pressure-cooker-pot-roast",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "31-2-to-4-pound-boneless-beef-chuck-eye-roast-pulled-into-2-pieces-at-natural-seam-and-trimmed-of-large-pieces-of-fat",
+        "displayName": "(31/2- to 4-pound) boneless beef chuck-eye roast, pulled into 2 pieces at natural seam and trimmed of large pieces of fat",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-4-pieces",
+        "displayName": "unsalted butter, cut into 4 pieces",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "onion-sliced-thick",
+        "displayName": "onion, sliced thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-sliced-thick",
+        "displayName": "celery rib, sliced thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrot-peeled-and-sliced-thick",
+        "displayName": "carrot, peeled and sliced thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine",
+        "displayName": "red wine",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprig-fresh-thyme",
+        "displayName": "sprig fresh thyme",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Using 3 pieces of kitchen twine per roast, tie each roast crosswise at equal intervals into loaf shape. Season roasts with salt and pepper and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Melt 2 tablespoons butter in pressure cooker over medium heat; refrigerate remaining 2 tablespoons butter. Add onion, celery, carrot, and baking soda to pot and cook until onion breaks down and liquid turns golden brown, about 5 minutes. Stir in broth, soy sauce, and bay leaves, scraping up any browned bits. Nestle roasts side by side on top of vegetables in cooker."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Lock lid in place and bring pot to high pressure over high heat, 3 to 8 minutes. As soon as indicator signals that pot has reached high pressure, reduce heat to medium-low and cook for 55 minutes, adjusting heat as needed to maintain high pressure."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove pot from heat and let pressure release naturally for 10 minutes. Quick-release any remaining pressure, then remove lid, allowing steam to escape away from you. Transfer roasts to carving board, tent with aluminum foil, and let rest for 20 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Meanwhile, strain liquid through fine-mesh strainer into fat separator; discard bay leaves. Transfer vegetables in strainer to blender. Let liquid settle for 5 minutes, then pour defatted liquid into blender with vegetables. Blend until smooth, about 1 minute. Transfer sauce to medium saucepan. Add wine, thyme sprig, and 2 tablespoons chilled butter and bring to boil over high heat. Cook until sauce is thickened and measures 2 cups, 5 to 8 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Remove twine from roasts and slice against grain into 1/2-inch-thick slices. Transfer meat to serving platter and season with salt to taste. Remove thyme sprig from sauce and season sauce with salt and pepper to taste. Spoon half of sauce over meat. Serve, passing remaining sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 34327,
+    "end": 34377,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

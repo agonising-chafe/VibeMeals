@@ -1,0 +1,243 @@
+{
+  "mapped": {
+    "id": "atk_croissants",
+    "name": "Croissants",
+    "slug": "croissants",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 360,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 22 croissants",
+      "baseServings": 22,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "european-style-unsalted-butter-very-cold-plus-3-tablespoons-unsalted-butter-at-room-temperature",
+        "displayName": "European-style unsalted butter, very cold, plus 3 tablespoons unsalted butter at room temperature",
+        "amount": 24,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "211-4-ounces-unbleached-all-purpose-flour",
+        "displayName": "(211/4 ounces) unbleached all-purpose flour",
+        "amount": 4.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-4-ounces-sugar",
+        "displayName": "(13/4 ounces) sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "cold-water",
+        "displayName": "cold water",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 4,
+        "description": "Chill the dough",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 1,
+        "description": "Chill the butter block",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 3,
+        "description": "Proof the dough",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt 3 tablespoons of the butter in a medium saucepan over low heat. Remove from the heat and immediately stir in the milk (the temperature should be lower than 90 degrees). Whisk in yeast; transfer the milk mixture to the bowl of a stand mixer. Add the flour, sugar, and 2 teaspoons salt. Using the mixer’s dough hook, knead on low speed until a cohesive dough forms, 2 to 3 minutes. Increase the speed to medium-low and knead for 1 minute. Remove the bowl from the mixer, remove the dough hook, and cover the bowl with plastic wrap. Let the dough rest at room temperature for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer the dough to a parchment paper–lined baking sheet and shape into a 10 by 7-inch rectangle about 1 inch thick. Wrap tightly with plastic and refrigerate for 2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "To make the butter block: While the dough chills, fold a 24-inch length of parchment in half to create a 12-inch rectangle. Fold over 3 open sides of the rectangle to form an 8-inch square with enclosed sides. Crease the folds firmly. Place the cold butter directly on the work surface and beat with a rolling pin for about 60 seconds until the butter is just pliable, but not warm, folding the butter in on itself using a bench scraper. Beat into a rough 6-inch square. Unfold the parchment envelope. Using the bench scraper, transfer the butter to the center of the parchment square, re-folding at the creases to enclose. Turn the packet over so that the flaps are underneath and gently roll the butter packet until the butter fills the parchment square, taking care to achieve an even thickness. Refrigerate for at least 45 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "TO LAMINATE THE DOUGH: Transfer the dough to the freezer. After 30 minutes, transfer the dough to a lightly floured work surface and roll into a 17 by 8-inch rectangle with the long side of the rectangle parallel to the edge of the work surface. Unwrap the butter and place it in the center of the dough so that the butter and dough are flush at the top and bottom. Fold 2 sides of the dough over the butter square so they meet in the center. Press the seam together. With the rolling pin, press firmly on each open end of the packet. Roll out the dough, perpendicular to the edge of the work surface, until it is 24 inches long and 8 inches wide. Bring the bottom third of the dough up, then fold the upper third over it, folding like a business letter into an 8-inch square. Turn the dough 90 degrees counterclockwise. Roll out the dough again, perpendicular to the edge of the work surface, into a 24 by 8-inch rectangle and fold into thirds. Place the dough on the baking sheet, wrap tightly with plastic wrap, and return to the freezer for 30 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer the dough to a lightly floured work surface so that the top flap of the dough is facing right. Roll once more, perpendicular to the edge of the work surface, into a 24 by 8-inch rectangle and fold into thirds. Place the dough on the baking sheet, wrap tightly with plastic wrap, and refrigerate for 2 hours."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer the dough to the freezer. After 30 minutes, transfer to a lightly floured work surface and roll into an 18 by 16-inch rectangle with the long side of the rectangle parallel to the edge of the work surface. Fold the upper half of the dough over the lower half. Using a ruler, mark the dough at 3-inch intervals along the bottom edge with a bench scraper (you should have 5 marks). Move the ruler to the top of the dough, measure in 11/2 inches from the left, then use this mark to measure out 3-inch intervals (you should have 6 marks). Starting at the lower left corner, use a pizza wheel or knife to cut the dough into triangles from mark to mark. You will have 12 single triangles and 5 double triangles; discard any scraps. Unfold the double triangles and cut into 10 single triangles (making 22 equal-size triangles in total). If the dough begins to soften, return to the freezer for 10 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "To shape the croissants: Position 1 triangle on the work surface. (Keep the remaining triangles covered with plastic while shaping.) Cut a 1/2-inch slit in the center of the short end of the triangle. Grasp the triangle by 2 corners on either side of the slit and stretch gently, then grasp the bottom point and stretch. Fold both sides of the slit down. Positioning your palms on the folds, roll partway toward the point. Gently stretch the point again; continue to roll, tucking the point underneath. Curve the ends gently toward one another to create a crescent shape. Repeat with the remaining triangles."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Place 12 croissants on 2 parchment-lined baking sheets, leaving at least 21/2 inches between the croissants, 6 croissants per sheet. Lightly wrap the baking sheets with plastic, leaving room for the croissants to expand. Let stand at room temperature until nearly doubled in size, 21/2 to 3 hours. (Shaped croissants can be refrigerated on trays for up to 18 hours. Remove from the refrigerator to rise and add at least 30 minutes to the rising time.)"
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "After the croissants have been rising for 2 hours, adjust the oven racks to the upper-middle and lower-middle positions and heat the oven to 425 degrees. In a small bowl, whisk together the egg, water, and a pinch of salt. Brush the croissants with the egg wash using a pastry brush. Place the croissants in the oven and reduce the temperature to 400 degrees. Bake for 12 minutes then switch and rotate the baking sheets. Continue to bake until deep golden brown, 8 to 12 minutes longer. Transfer the croissants to a wire rack and allow to cool until just warm, about 15 minutes. Serve warm or at room temperature."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Fold a 24-inch length of parchment in half to create a 12-inch rectangle. Fold over 3 open sides of the rectangle to form an 8-inch enclosed square. Crease the folds firmly."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Using a rolling pin, beat the butter until it is just pliable, then fold the butter in on itself using a bench scraper. Beat the butter into a rough 6-inch square."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Unfold the envelope and, using a bench scraper, transfer the butter to the parchment, re-folding at the creases to enclose. Turn the packet over; gently roll the butter to fill the parchment square, taking care to achieve an even thickness."
+      },
+      {
+        "stepNumber": 13,
+        "instruction": "Roll the dough into a 17 by 8-inch rectangle. Unwrap the butter and place in the center of the dough so that the edges of the butter and dough are flush at the top and bottom. Fold two sides of the dough over the butter so they meet in the center of the butter square."
+      },
+      {
+        "stepNumber": 14,
+        "instruction": "Using your fingertips, press the seam together. Using a rolling pin, press firmly on each open end of the packet. Roll the dough out lengthwise until it is 24 inches long and 8 inches wide."
+      },
+      {
+        "stepNumber": 15,
+        "instruction": "Starting at the bottom of the dough, fold it into thirds. Turn the dough 90 degrees; roll and fold again. Place it on a baking sheet, wrap with plastic wrap, and return to the freezer for 30 minutes. Roll and fold into thirds one more time."
+      },
+      {
+        "stepNumber": 16,
+        "instruction": "Transfer the dough from the freezer to a lightly floured work surface and roll it into an 18 by 12-inch rectangle. (If it begins to retract, fold it into thirds, wrap it, and return it to the freezer for 10 to 15 minutes.) Fold the upper half of the dough over the lower half."
+      },
+      {
+        "stepNumber": 17,
+        "instruction": "Using a ruler, mark the dough at 3-inch intervals along the bottom edge. Move the ruler to the top of the dough, measure in 11/2 inches from the left, then use this mark to measure out 3-inch intervals."
+      },
+      {
+        "stepNumber": 18,
+        "instruction": "Using a sharp pizza wheel or knife, cut the dough into triangles from mark to mark; discard any scraps."
+      },
+      {
+        "stepNumber": 19,
+        "instruction": "You should have 12 single triangles and 5 double triangles. Unfold the double triangles and cut in half to form 10 single triangles (making 22 triangles in all)."
+      },
+      {
+        "stepNumber": 20,
+        "instruction": "Cut a 1/2-inch slit in the center of the short end of a triangle. If the dough begins to soften, return it to the freezer for 10 minutes."
+      },
+      {
+        "stepNumber": 21,
+        "instruction": "Grasp the triangle by the 2 corners on either side of the slit and stretch gently, then grasp the point and stretch."
+      },
+      {
+        "stepNumber": 22,
+        "instruction": "Place the triangle on the work surface so the point is facing toward you. Fold both sides of the slit down."
+      },
+      {
+        "stepNumber": 23,
+        "instruction": "Positioning your palms on the folds, roll partway toward the point."
+      },
+      {
+        "stepNumber": 24,
+        "instruction": "Gently grasp the point with one hand and stretch again. Resume rolling, tucking the point underneath."
+      },
+      {
+        "stepNumber": 25,
+        "instruction": "Curve the ends gently toward one another to form a crescent shape. Repeat with the remaining triangles."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 65909,
+    "end": 66077,
+    "yieldLine": "MAKES 22 croissants"
+  },
+  "fit": true
+}

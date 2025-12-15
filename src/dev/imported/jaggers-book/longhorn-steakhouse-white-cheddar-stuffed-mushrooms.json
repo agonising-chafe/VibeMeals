@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_longhorn-steakhouse-white-cheddar-stuffed-mushrooms",
+    "name": "LongHorn Steakhouse White Cheddar Stuffed Mushrooms",
+    "slug": "longhorn-steakhouse-white-cheddar-stuffed-mushrooms",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "these-mushrooms-are-stuffed-with-a-rich-cheese-filling-and-served-in-a-pool-of-rich-cheese-sauce-you-can-stuff-the-mushrooms-up-to-1-day-ahead-then-cover-and-refrigerate-before-baking",
+        "displayName": "These mushrooms are stuffed with a rich cheese filling and served in a pool of rich cheese sauce. You can stuff the mushrooms up to 1 day ahead, then cover and refrigerate before baking.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-button-mushrooms-stems-removed",
+        "displayName": "large button mushrooms, stems removed",
+        "amount": 16,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "block-cream-cheese-room-temperature",
+        "displayName": "½ block cream cheese, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-white-cheddar-cheese",
+        "displayName": "½ cup shredded white Cheddar cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-chives",
+        "displayName": "chopped fresh chives",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "¼ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-onion-powder",
+        "displayName": "¼ teaspoon onion powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-thyme",
+        "displayName": "¼ teaspoon dried thyme",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-panko-bread-crumbs",
+        "displayName": "¼ cup panko bread crumbs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter-divided",
+        "displayName": "salted butter, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-grated-parmesan-cheese",
+        "displayName": "½ cup grated Parmesan cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-375-f-line-a-half-baking-sheet-with-parchment",
+        "displayName": "Preheat oven to 375°F. Line a half baking sheet with parchment.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-mushrooms-top-side-down-on-baking-sheet-set-aside",
+        "displayName": "Place mushrooms top side down on baking sheet. Set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-cream-cheese-cheddar-chives-garlic-powder-onion-powder-and-thyme-using-a-hand-mixer-beat-on-low-speed-until-just-combined-then-increase-speed-to-medium-and-beat-30-seconds-divide-mixture-evenly-between-mushroom-caps-refrigerate-10-minutes",
+        "displayName": "In a medium bowl, add cream cheese, Cheddar, chives, garlic powder, onion powder, and thyme. Using a hand mixer, beat on low speed until just combined, then increase speed to medium and beat 30 seconds. Divide mixture evenly between mushroom caps. Refrigerate 10 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-panko-in-a-small-microwave-safe-bowl-add-1-tablespoon-butter-microwave-30-seconds-then-stir-to-coat-panko-in-butter-divide-panko-over-top-of-mushrooms",
+        "displayName": "Place panko in a small microwave-safe bowl. Add 1 tablespoon butter. Microwave 30 seconds, then stir to coat panko in butter. Divide panko over top of mushrooms.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-mushrooms-15-20-minutes-until-tender",
+        "displayName": "Bake mushrooms 15–20 minutes until tender.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-mushrooms-cook-add-cream-and-remaining-butter-to-a-10-inch-skillet-over-medium-heat-heat-until-cream-simmers-and-butter-has-melted-reduce-heat-to-low-and-whisk-in-parmesan-cheese-and-pepper-continue-to-whisk-until-cheese-is-melted-and-sauce-is-smooth-set-aside",
+        "displayName": "While mushrooms cook, add cream and remaining butter to a 10-inch skillet over medium heat. Heat until cream simmers and butter has melted. Reduce heat to low and whisk in Parmesan cheese and pepper. Continue to whisk until cheese is melted and sauce is smooth. Set aside.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-serve-pour-prepared-sauce-into-a-serving-dish-place-mushrooms-over-sauce-serve-hot",
+        "displayName": "To serve, pour prepared sauce into a serving dish. Place mushrooms over sauce. Serve hot.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2573,
+    "end": 2629,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

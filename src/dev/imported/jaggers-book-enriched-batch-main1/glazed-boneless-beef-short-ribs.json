@@ -1,0 +1,247 @@
+{
+  "mapped": {
+    "id": "atk_glazed-boneless-beef-short-ribs",
+    "name": "Glazed Boneless Beef Short Ribs",
+    "slug": "glazed-boneless-beef-short-ribs",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-beef-short-ribs-trimmed",
+        "displayName": "boneless beef short ribs, trimmed",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-red-wine",
+        "displayName": "dry red wine",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-brown-sugar",
+        "displayName": "packed brown sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-miso",
+        "displayName": "white miso",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "large-onion-halved-and-sliced-thin",
+        "displayName": "large onion, halved and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-sliced-1-4-inch-thick",
+        "displayName": "carrots, peeled and sliced 1/4 inch thick",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "balsamic-vinegar",
+        "displayName": "balsamic vinegar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "hot sauce",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-or-chives",
+        "displayName": "minced fresh parsley or chives",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 24,
+        "description": "Cool ribs completely in braising liquid and refrigerate overnight or up to 3 days.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 275 degrees. Pat beef dry with paper towels and sprinkle with salt and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk broth, wine, sugar, miso, and soy sauce together in Dutch oven. Add onion, carrots, and thyme. Nestle short ribs into pot so that they are nearly submerged. Bring to simmer over high heat, cover, and transfer to oven. Cook until fork can be easily slipped in and out of ribs, 21/4 to 23/4 hours, using tongs to turn meat halfway through cooking. Cool ribs completely in braising liquid and refrigerate overnight or up to 3 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove solidified fat from top of braising liquid and discard. Transfer ribs to large plate and refrigerate until ready to use. Strain braising liquid through fine-mesh strainer set over large bowl, pressing on solids to extract as much liquid as possible. Discard solids."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer 3 cups braising liquid to medium saucepan (discard remaining liquid) and bring to simmer over medium-high heat. Cook, stirring occasionally, until reduced to 1 cup, 20 to 25 minutes. Off heat, stir in vinegar and molasses."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Combine cornstarch and water in bowl. Stir cornstarch mixture into glaze and bring to simmer over medium heat. Cook until slightly thickened, about 2 minutes. Stir in hot sauce and set aside to cool slightly."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "While glaze cools, adjust oven rack to middle position and heat oven to 450 degrees. Line rimmed baking sheet with parchment paper. Transfer beef to cutting board and use paring knife to trim any large pieces of fat from surface of ribs. Blot ribs dry with paper towels and evenly space on prepared sheet. Brush all surfaces of each rib with glaze."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Transfer sheet to oven and cook until beef registers 140 degrees, 20 to 25 minutes. Every 5 minutes, brush all sides of ribs with glaze and turn ribs so different side is touching pan. Apply 1 more coat of glaze to top of each rib and sprinkle with parsley. Serve, passing remaining glaze separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 35942,
+    "end": 36031,
+    "yieldLine": "SERVES 6 to 8 SEASON 26"
+  },
+  "fit": true
+}

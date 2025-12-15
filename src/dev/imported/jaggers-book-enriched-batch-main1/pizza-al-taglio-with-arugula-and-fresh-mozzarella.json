@@ -1,0 +1,264 @@
+{
+  "mapped": {
+    "id": "atk_pizza-al-taglio-with-arugula-and-fresh-mozzarella",
+    "name": "Pizza al Taglio with Arugula and Fresh Mozzarella",
+    "slug": "pizza-al-taglio-with-arugula-and-fresh-mozzarella",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "SHEET_PAN",
+        "OVEN",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "142-3-ounces-bread-flour",
+        "displayName": "(142/3 ounces) bread flour",
+        "amount": 2.6666666666666665,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-ounces-water-room-temperature",
+        "displayName": "(12 ounces) water, room temperature",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes-drained",
+        "displayName": "can whole peeled tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed",
+        "displayName": "anchovy fillets, rinsed",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "4-cups-baby-arugula",
+        "displayName": "(4 cups) baby arugula",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "fresh-mozzarella-cheese-torn-into-bite-size-pieces-about-2-cups",
+        "displayName": "fresh mozzarella cheese, torn into bite-size pieces (about 2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "parmesan-cheese-shredded-1-2-cup",
+        "displayName": "Parmesan cheese, shredded (1/2 cup)",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Proof dough",
+        "durationMinutes": 1020,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Whisk flour and yeast together in medium bowl. Add room-temperature water and oil and stir with wooden spoon until shaggy mass forms and no dry flour remains. Cover bowl with plastic wrap and let sit for 10 minutes. Sprinkle salt over dough and mix until fully incorporated. Cover bowl with plastic and let dough rest for 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using your wet hands, fold dough over itself by gently lifting and folding edge of dough toward middle. Turn bowl 90 degrees; fold again. Turn bowl and fold dough 4 more times (total of 6 turns). Cover bowl with plastic and let dough rest for 20 minutes. Repeat folding technique, turning bowl each time, until dough tightens slightly, 3 to 6 turns total. Cover bowl with plastic and let dough rest for 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Spray bottom of 13 by 9-inch baking pan liberally with oil spray. Transfer dough to prepared pan and spray top of dough lightly with oil spray. Gently press dough into 10 by 7-inch oval of even thickness. Cover pan tightly with plastic and refrigerate for at least 16 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE SAUCE: While dough rests, process all ingredients in blender until smooth, 20 to 30 seconds. Transfer sauce to bowl, cover, and refrigerate until needed. (Sauce can be refrigerated for up to 2 days.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE TOPPING: Brush top of dough with 2 tablespoons oil. Spray rimmed baking sheet (including rim) with oil spray. Invert prepared sheet on top of pan and flip, allowing dough to fall onto sheet (you may need to lift pan and nudge dough at 1 end to release). Using your fingertips, gently dimple dough into even thickness and stretch toward edges of sheet to form 15 by 11-inch oval. Spray top of dough lightly with oil spray, cover loosely with plastic, and let rest until slightly puffy, 1 to 11/4 hours."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Thirty minutes before baking, adjust oven rack to lowest position and heat oven to 450 degrees. Just before baking, use your fingertips to gently dimple dough into even thickness, pressing into corners of sheet. Using back of spoon or ladle, spread 1/2 cup sauce in even layer over surface of dough. (Leftover sauce can be frozen in an airtight container for up to 2 months.)"
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Drizzle 1 tablespoon oil over top of sauce and use back of spoon to spread evenly over surface. Transfer sheet to oven and bake until bottom of crust is evenly browned and top is lightly browned in spots, 20 to 25 minutes, rotating sheet halfway through baking. Transfer sheet to wire rack and let cool for 5 minutes. Run knife around rim of sheet to loosen pizza. Transfer pizza to cutting board and cut into 8 rectangles. Toss arugula with remaining 1 tablespoon oil in bowl. Top pizza with arugula, followed by mozzarella and Parmesan, and serve."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "To fold dough in on itself, grasp section of dough with your wet fingertips and gently lift."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Place edge down in middle of dough. Rotate bowl 90 degrees and repeat for total of 6 turns."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 66926,
+    "end": 67016,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

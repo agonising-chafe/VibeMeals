@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_ihop-chicken-fajita-omelette",
+    "name": "IHOP Chicken Fajita Omelette",
+    "slug": "ihop-chicken-fajita-omelette",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fajitas-are-not-just-for-sizzling-platters-quesadillas-and-nachos-at-ihop-they-are-also-for-breakfast-if-you-have-leftover-chicken-fajita-filling-from-dinner-earlier-in-the-week-this-is-an-excellent-way-to-use-it",
+        "displayName": "Fajitas are not just for sizzling platters, quesadillas, and nachos. At IHOP they are also for breakfast! If you have leftover chicken fajita filling from dinner earlier in the week, this is an excellent way to use it.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-leftover-chicken-fajita-filling-chicken-onions-and-peppers",
+        "displayName": "½ cup leftover chicken fajita filling (chicken, onions, and peppers)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-mexican-cheese-blend",
+        "displayName": "½ cup shredded Mexican cheese blend",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-salsa",
+        "displayName": "¼ cup salsa",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-beat-together-eggs-and-water",
+        "displayName": "In a small bowl, beat together eggs and water.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-10-inch-skillet-over-medium-heat-add-egg-mixture-and-cook-1-minute-then-using-a-spatula-draw-edges-of-eggs-into-center-and-tilt-pan-to-let-uncooked-eggs-run-to-edges-of-pan-continue-until-eggs-are-set",
+        "displayName": "Heat a 10-inch skillet over medium heat. Add egg mixture and cook 1 minute, then using a spatula, draw edges of eggs into center and tilt pan to let uncooked eggs run to edges of pan. Continue until eggs are set.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-chicken-onions-and-peppers-fold-omelette-in-half-turn-off-heat-top-omelette-with-cheese-and-salsa",
+        "displayName": "Add chicken, onions, and peppers. Fold omelette in half. Turn off heat. Top omelette with cheese and salsa.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-skillet-with-a-lid-and-let-sit-2-minutes-or-until-cheese-melts-serve-immediately",
+        "displayName": "Cover skillet with a lid and let sit 2 minutes or until cheese melts. Serve immediately.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1282,
+    "end": 1318,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

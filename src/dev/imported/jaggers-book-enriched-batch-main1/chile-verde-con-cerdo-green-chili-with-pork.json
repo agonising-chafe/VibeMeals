@@ -1,0 +1,248 @@
+{
+  "mapped": {
+    "id": "atk_chile-verde-con-cerdo-green-chili-with-pork",
+    "name": "Chile Verde con Cerdo (Green Chili with Pork)",
+    "slug": "chile-verde-con-cerdo-green-chili-with-pork",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR",
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "31-2-to-4-pound-boneless-pork-butt-roast-trimmed-and-cut-into-11-2-inch-pieces-trimmings-reserved",
+        "displayName": "(31/2- to 4-pound) boneless pork butt roast, trimmed and cut into 11/2-inch pieces, trimmings reserved",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-teaspoon-kosher-salt-divided",
+        "displayName": "plus 1 teaspoon kosher salt, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomatillos-husks-and-stems-removed-rinsed-well-and-dried",
+        "displayName": "tomatillos, husks and stems removed, rinsed well and dried",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "poblano-chiles-stemmed-halved-and-seeded",
+        "displayName": "poblano chiles, stemmed, halved, and seeded",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-peeled-cut-into-8-wedges-through-root-end",
+        "displayName": "large onion, peeled, cut into 8 wedges through root end",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-unpeeled",
+        "displayName": "cloves, unpeeled",
+        "amount": 5,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jalape-o-chile-stemmed-and-halved",
+        "displayName": "jalapeño chile, stemmed and halved",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-ground-cloves",
+        "displayName": "Pinch ground cloves",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro-plus-extra-for-serving",
+        "displayName": "minced fresh cilantro, plus extra for serving",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "MARINATE",
+        "durationMinutes": 60,
+        "description": "Toss pork with 1 tablespoon salt and refrigerate for 1 hour.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss pork pieces with 1 tablespoon salt in large bowl. Cover and refrigerate for 1 hour. Meanwhile, chop pork trimmings coarse. Transfer to Dutch oven. Add water and bring to simmer over high heat. Cook, adjusting heat to maintain vigorous simmer and stirring occasionally, until all liquid evaporates and trimmings begin to sizzle, about 12 minutes. Continue to cook, stirring frequently, until dark fond forms on bottom of pot and trimmings have browned and crisped, about 6 minutes longer. Using slotted spoon, discard trimmings. Pour off all but 2 tablespoons fat; set aside pot."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust 1 oven rack to lower-middle position and second rack 6 inches from broiler element and heat broiler. Line rimmed baking sheet with aluminum foil. Place tomatillos, poblanos, onion, garlic, and jalapeño on prepared sheet and drizzle with oil. Arrange chiles skin side up. Broil until chile skins are blackened and vegetables begin to soften, 10 to 13 minutes, rotating sheet halfway through broiling. Transfer poblanos, jalapeño, and garlic to cutting board."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Turn off broiler and heat oven to 325 degrees. Transfer tomatillos, onion, and any accumulated juices to food processor. When poblanos, jalapeño, and garlic are cool enough to handle, remove and discard skins (it’s OK if some small bits of chile skin remain). Remove seeds from jalapeño and reserve. Add poblanos, jalapeño, and garlic to processor. Pulse until mixture is roughly pureed, about 10 pulses, scraping down sides of bowl as needed. If spicier chili is desired, add reserved jalapeño seeds and pulse 3 times."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat reserved fat in Dutch oven over medium heat until just shimmering. Add oregano, cumin, cinnamon, and cloves and cook, stirring constantly, until fragrant, about 30 seconds. Stir in tomatillo mixture, bay leaves, sugar, pepper, and remaining 1 teaspoon salt, scraping up any browned bits. Stir in pork and bring to simmer. Cover, transfer to oven, and cook until pork is tender, about 11/2 hours, stirring halfway through cooking."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove pot from oven and let sit, covered, for 10 minutes. Discard bay leaves. Using heatproof rubber spatula, scrape browned bits from sides of pot. Stir in any fat that has risen to top of chili. Stir in cilantro; season with salt and pepper to taste. Serve, passing lime wedges and extra cilantro separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 8967,
+    "end": 9027,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

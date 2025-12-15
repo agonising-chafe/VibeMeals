@@ -1,0 +1,171 @@
+{
+  "mapped": {
+    "id": "atk_shrimp-fra-diavolo-with-linguine",
+    "name": "Shrimp Fra Diavolo with Linguine",
+    "slug": "shrimp-fra-diavolo-with-linguine",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "linguine-or-spaghetti",
+        "displayName": "linguine or spaghetti",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shrimp-31-to-40-per-pound-peeled-and-deveined-see-this-page",
+        "displayName": "large shrimp (31 to 40 per pound), peeled and deveined (see this page)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes-plus-more-to-taste",
+        "displayName": "red pepper flakes, plus more to taste",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "cognac-or-brandy",
+        "displayName": "cognac or brandy",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-4-cup",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1/4 cup)",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained",
+        "displayName": "can diced tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta to the boiling water and cook, stirring often, until al dente. Reserve 1/2 cup of the cooking water then drain the pasta and return it to the pot."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, toss the shrimp with 2 tablespoons of the oil, 1/2 teaspoon of the red pepper flakes, and 3/4 teaspoon salt. Heat a 12-inch skillet over high heat. Add the shrimp to the skillet in a single layer and cook, without stirring, until the bottoms of the shrimp turn spotty brown, about 30 seconds. Remove the skillet from the heat, flip the shrimp, and add the cognac; wait until the cognac has warmed slightly, about 5 seconds, and return the skillet to high heat. Wave a lit match over the skillet until the cognac ignites, shaking the pan to distribute the flame over the entire pan. When the flames subside (this will take 15 to 30 seconds), transfer the shrimp to a medium bowl and set aside. Let the skillet cool, off the heat, about 2 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add 3 tablespoons more oil and 3 tablespoons of the garlic to the cooled skillet and cook over low heat, stirring constantly, until the garlic becomes sticky and straw colored, 7 to 10 minutes. Add the remaining red pepper flakes, 3/4 teaspoon salt, the tomatoes, wine, and sugar, increase the heat to medium-high, and simmer until thickened, about 8 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Stir the shrimp with accumulated juices, the remaining 1 tablespoon garlic, and the parsley into the tomato sauce. Simmer until the shrimp have heated through, about 1 minute. Off the heat, stir in the remaining 1 tablespoon oil. Add 1/2 cup of the tomato sauce (no shrimp) to the pasta; toss to coat and adjust the consistency of the sauce with the reserved pasta cooking water as needed. Serve immediately, topping individual bowls with the sauce and shrimp."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "italian"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 18719,
+    "end": 18767,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

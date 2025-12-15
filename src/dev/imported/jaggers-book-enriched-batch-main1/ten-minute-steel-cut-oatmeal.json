@@ -1,0 +1,82 @@
+{
+  "mapped": {
+    "id": "atk_ten-minute-steel-cut-oatmeal",
+    "name": "Ten-Minute Steel-Cut Oatmeal",
+    "slug": "ten-minute-steel-cut-oatmeal",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 15,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water-divided",
+        "displayName": "water, divided",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "steel-cut-oats",
+        "displayName": "steel-cut oats",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Soak oats",
+        "durationMinutes": 720,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 3 cups water to boil in large saucepan over high heat. Remove pan from heat; stir in oats and salt. Cover pan and let stand overnight."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Stir remaining 1 cup water into oats and bring to boil over medium-high heat. Reduce heat to medium and cook, stirring occasionally, until oats are softened but still retain some chew and mixture thickens and resembles warm pudding, 4 to 6 minutes. Remove pan from heat and let stand for 5 minutes. Stir and serve, passing desired toppings separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "vegetarian",
+      "vegan"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 6004,
+    "end": 6055,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

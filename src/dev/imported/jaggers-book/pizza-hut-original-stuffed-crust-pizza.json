@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_pizza-hut-original-stuffed-crust-pizza",
+    "name": "Pizza Hut Original Stuffed Crust Pizza",
+    "slug": "pizza-hut-original-stuffed-crust-pizza",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "created-in-1995-stuffed-crust-pizza-took-america-by-storm-here-is-a-quick-and-easy-way-to-re-create-stuffed-crust-pizza-like-pizza-hut-s-using-ready-made-refrigerated-pizza-dough-from-your-deli-counter-and-string-cheese",
+        "displayName": "Created in 1995, stuffed crust pizza took America by storm! Here is a quick and easy way to re-create stuffed crust pizza like Pizza Hut’s using ready-made refrigerated pizza dough from your deli counter and string cheese.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prepared-refrigerated-pizza-dough",
+        "displayName": "prepared refrigerated pizza dough",
+        "amount": 16,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pieces-string-cheese",
+        "displayName": "pieces string cheese",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-marinara-sauce",
+        "displayName": "½ cup marinara sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-mozzarella-cheese",
+        "displayName": "shredded mozzarella cheese",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepperoni",
+        "displayName": "pepperoni",
+        "amount": 24,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-dough-from-refrigerator-and-transfer-to-a-medium-bowl-cover-with-plastic-wrap-and-let-stand-at-room-temperature-1-hour",
+        "displayName": "Remove dough from refrigerator and transfer to a medium bowl. Cover with plastic wrap and let stand at room temperature 1 hour.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-425-f",
+        "displayName": "Preheat oven to 425°F.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "roll-out-dough-on-a-floured-surface-into-an-18-inch-circle-place-on-a-pizza-pan",
+        "displayName": "Roll out dough on a floured surface into an 18-inch circle. Place on a pizza pan.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-a-ring-of-string-cheese-end-to-end-all-the-way-around-edge-of-dough",
+        "displayName": "Place a ring of string cheese end to end all the way around edge of dough.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fold-edge-of-dough-up-and-over-cheese-and-press-firmly-forming-a-crust-ring-brush-top-of-folded-dough-with-olive-oil",
+        "displayName": "Fold edge of dough up and over cheese and press firmly, forming a crust ring. Brush top of folded dough with olive oil.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-center-of-pizza-with-sauce-cheese-and-pepperoni-bake-12-16-minutes-until-crust-browns-and-cheese-has-melted-let-cool-5-minutes-before-slicing",
+        "displayName": "Cover center of pizza with sauce, cheese, and pepperoni. Bake 12–16 minutes until crust browns and cheese has melted. Let cool 5 minutes before slicing.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7062,
+    "end": 7104,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

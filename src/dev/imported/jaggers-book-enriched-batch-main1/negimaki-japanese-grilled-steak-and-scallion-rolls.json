@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_negimaki-japanese-grilled-steak-and-scallion-rolls",
+    "name": "Negimaki (Japanese Grilled Steak and Scallion Rolls)",
+    "slug": "negimaki-japanese-grilled-steak-and-scallion-rolls",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10 as an appetizer or 4 to 6 as a main dish"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "flank-steak-trimmed",
+        "displayName": "flank steak, trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "mirin",
+        "displayName": "mirin",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sake",
+        "displayName": "sake",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "scallions-trimmed-and-halved-crosswise",
+        "displayName": "scallions, trimmed and halved crosswise",
+        "amount": 16,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-seeds-toasted",
+        "displayName": "sesame seeds, toasted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "SESAME"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Freeze flank steak",
+        "durationMinutes": 30,
+        "criticality": "CRITICAL",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place flank steak on large plate and freeze until firm, about 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring soy sauce, sugar, mirin, and sake to simmer in small saucepan over high heat, stirring to dissolve sugar. Reduce heat to medium and cook until slightly syrupy and reduced to 1/2 cup, 3 to 5 minutes. Divide evenly between two bowls and let cool. Cover one bowl with plastic wrap and set aside for serving."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place flank steak on cutting board. Starting at thinner end, slice steak 3/8 inch thick, against grain, on bias until width of steak is about 7 inches across (usually 2 to 3 slices). Cut steak in half lengthwise. Continue to slice each half, against grain, on bias. You should end up with at least 24 slices. Pound each slice into 3/16-inch thickness between two sheets of plastic wrap."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Arrange 3 slices on cutting board, overlapping slices by 1/4 inch and alternating tapered ends as needed, to form rough rectangle that measures 4 to 6 inches wide and at least 4 inches long. Place 4 scallion halves along edge of rectangle nearest to edge of work surface, with white tips slightly overhanging edges on either side. Starting from bottom edge and rolling away from you, roll into tight log. Insert three equally spaced toothpicks into end flaps and through center of roll. Transfer to platter and repeat with remaining steak and scallions. (Rolls can be assembled, wrapped tightly in plastic wrap, and refrigerated for up to 24 hours.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Clean and oil cooking grate. Place rolls over hot part of grill and cook until first side is beginning to char, 4 to 6 minutes. Flip rolls, brush cooked sides with glaze, and continue to cook until second side is beginning to char, 4 to 6 minutes. Cook remaining two sides, glazing after each turn, until all 4 sides of rolls are evenly charred and thermometer inserted from end of roll into scallions at core registers 150 to 155 degrees, 16 to 24 minutes total. Transfer rolls to cutting board, tent loosely with foil, and let rest for 5 minutes. Discard remaining glaze."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Remove toothpicks from rolls and cut rolls crosswise into 1-inch pieces. Arrange rolls cut-side down on clean platter, drizzle with 2 tablespoons reserved glaze, sprinkle with sesame seeds, and serve, passing remaining reserved glaze separately."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Slice chilled steak against grain on bias into 24 pieces."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Pound slices to 3/16-inch thickness."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Arrange slices like jigsaw puzzle, overlapping them by 1/4 inch to form rough 4- to 6-inch by 4-inch rectangle."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Lay scallion halves head to toe over beef, letting white tips overhang edge."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Roll steak away from you into tight log and fasten with three toothpicks."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 49947,
+    "end": 50033,
+    "yieldLine": "SERVES 8 to 10 as an appetizer or 4 to 6 as a main dish"
+  },
+  "fit": true
+}

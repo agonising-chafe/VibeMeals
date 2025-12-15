@@ -1,0 +1,108 @@
+{
+  "mapped": {
+    "id": "atk_broiled-pork-tenderloin",
+    "name": "Broiled Pork Tenderloin",
+    "slug": "broiled-pork-tenderloin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "pork-tenderloins-trimmed",
+        "displayName": "pork tenderloins, trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-by-9-inch-disposable-aluminum-roasting-pan",
+        "displayName": "(13 by 9-inch) disposable aluminum roasting pan",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack 4 to 5 inches from broiler element and heat oven to 325 degrees. Fold thin tip of each tenderloin under about 2 inches to create uniformly shaped roast. Tie tenderloins crosswise with kitchen twine at 2-inch intervals, making sure folded tip is secured underneath. Trim any excess twine close to meat to prevent it from scorching under broiler."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Mix salt, oil, and pepper in small bowl until salt is evenly coated with oil. Add baking soda and stir until well combined. Rub salt mixture evenly over pork. Place tenderloins in disposable pan, evenly spaced between sides of pan and each other."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Turn oven to broil. Broil tenderloins for 5 minutes. Flip tenderloins and continue to broil until golden brown and meat registers 125 to 130 degrees, 8 to 14 minutes. Remove disposable pan from oven, tent loosely with aluminum foil, and let rest for 10 minutes. Remove twine, slice tenderloins into 1/2-inch-thick slices, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38677,
+    "end": 38709,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

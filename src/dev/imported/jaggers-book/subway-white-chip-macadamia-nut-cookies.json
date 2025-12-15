@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_subway-white-chip-macadamia-nut-cookies",
+    "name": "Subway White Chip Macadamia Nut Cookies",
+    "slug": "subway-white-chip-macadamia-nut-cookies",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 12 (YIELDS 24 COOKIES)",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "while-most-people-think-of-subway-for-sandwiches-their-cookies-have-developed-something-of-a-cult-following-these-white-chocolate-macadamia-cookies-are-among-their-most-popular-cookie-offerings",
+        "displayName": "While most people think of Subway for sandwiches, their cookies have developed something of a cult following. These white chocolate macadamia cookies are among their most popular cookie offerings.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter",
+        "displayName": "½ cup unsalted butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "¾ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-room-temperature",
+        "displayName": "large egg, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-all-purpose-flour",
+        "displayName": "¼ cups all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-baking-soda",
+        "displayName": "½ teaspoon baking soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-white-chocolate",
+        "displayName": "chopped white chocolate",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jar-chopped-macadamia-nuts",
+        "displayName": "jar chopped macadamia nuts",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-375-f",
+        "displayName": "Preheat oven to 375°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-work-bowl-of-a-stand-mixer-fitted-with-paddle-attachment-or-in-a-large-bowl-with-a-hand-mixer-add-butter-and-sugar-beat-on-low-speed-1-minute-then-add-egg-and-vanilla-and-beat-30-seconds",
+        "displayName": "In work bowl of a stand mixer fitted with paddle attachment or in a large bowl with a hand mixer, add butter and sugar. Beat on low speed 1 minute, then add egg and vanilla and beat 30 seconds.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-flour-baking-soda-and-salt-add-flour-mixture-to-butter-mixture-beat-on-low-speed-30-seconds-to-combine-add-chocolate-and-nuts-and-mix-10-seconds-to-combine",
+        "displayName": "In a medium bowl, combine flour, baking soda, and salt. Add flour mixture to butter mixture. Beat on low speed 30 seconds to combine. Add chocolate and nuts and mix 10 seconds to combine.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drop-cookies-by-heaping-teaspoonfuls-onto-an-ungreased-half-baking-sheet-about-2-inches-apart-bake-8-10-minutes-until-lightly-browned-around-edges",
+        "displayName": "Drop cookies by heaping teaspoonfuls onto an ungreased half baking sheet, about 2 inches apart. Bake 8–10 minutes until lightly browned around edges.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "remove-from-oven-and-cool-on-baking-sheet-10-minutes-before-transferring-to-a-wire-rack-to-cool-completely-serve",
+        "displayName": "Remove from oven and cool on baking sheet 10 minutes before transferring to a wire rack to cool completely. Serve.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10707,
+    "end": 10759,
+    "yieldLine": "SERVES 12 (YIELDS 24 COOKIES)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

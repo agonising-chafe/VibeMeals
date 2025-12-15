@@ -1,0 +1,366 @@
+{
+  "mapped": {
+    "id": "atk_crab-towers-with-avocado-and-gazpacho-salsas",
+    "name": "Crab Towers with Avocado and Gazpacho Salsas",
+    "slug": "crab-towers-with-avocado-and-gazpacho-salsas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "champagne-vinegar",
+        "displayName": "champagne vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "minced-or-grated-lemon-zest",
+        "displayName": "minced or grated lemon zest",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CRAB SALAD"
+      },
+      {
+        "ingredientId": "lump-or-backfin-atlantic-blue-crabmeat-carefully-picked-over-to-remove-cartilage-and-shell-fragments",
+        "displayName": "lump or backfin Atlantic blue crabmeat, carefully picked over to remove cartilage and shell fragments",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "CRAB SALAD",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "small-yellow-bell-pepper-cored-seeded-and-cut-into-1-8-inch-pieces-about-1-2-cup",
+        "displayName": "small yellow bell pepper, cored, seeded, and cut into 1/8-inch pieces (about 1/2 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "small-cucumber-peeled-if-desired-seeded-and-cut-into-1-8-inch-pieces-about-1-2-cup",
+        "displayName": "small cucumber, peeled if desired, seeded, and cut into 1/8-inch pieces (about 1/2 cup)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "medium-plum-tomato-cored-seeded-and-cut-into-1-8-inch-pieces-about-1-2-cup",
+        "displayName": "medium plum tomato, cored, seeded, and cut into 1/8-inch pieces (about 1/2 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "small-celery-rib-cut-into-1-8-inch-pieces-about-1-2-cup",
+        "displayName": "small celery rib, cut into 1/8-inch pieces (about 1/2 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "small-red-onion-minced-about-1-4-cup",
+        "displayName": "small red onion, minced (about 1/4 cup)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "small-jalape-o-chile-stemmed-seeded-and-minced",
+        "displayName": "small jalapeño chile, stemmed, seeded, and minced",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro-leaves",
+        "displayName": "minced fresh cilantro leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GAZPACHO SALSA"
+      },
+      {
+        "ingredientId": "ripe-avocados-pitted-peed-and-cut-into-1-4-inch-dice",
+        "displayName": "ripe avocados, pitted, peed, and cut into 1/4-inch dice",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "AVOCADO SALSA"
+      },
+      {
+        "ingredientId": "juice-from-1-lime",
+        "displayName": "juice from 1 lime",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "AVOCADO SALSA"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "AVOCADO SALSA"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "AVOCADO SALSA"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "AVOCADO SALSA"
+      },
+      {
+        "ingredientId": "fris-e",
+        "displayName": "frisée",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "oranges-peeled-using-a-paring-knife-and-segmented-optional",
+        "displayName": "oranges, peeled using a paring knife and segmented (optional)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CRABMEAT SALAD: Whisk the olive oil, champagne vinegar, lemon zest, mustard, salt, and pepper together in a small bowl. Measure 3 tablespoons of the vinaigrette into a medium bowl and mix with the mayonnaise. Add the crabmeat to the mayonnaise mixture and toss to coat. Cover with plastic wrap and refrigerate until needed. Set the remaining vinaigrette aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE GAZPACHO SALSA: Toss the bell pepper, cucumber, tomato, celery, red onion, jalapeño, cilantro, olive oil, sherry vinegar, salt, and pepper in a medium bowl and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE AVOCADO SALSA: Toss the avocados, lime juice, coriander, salt, and pepper in a medium bowl and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "TO ASSEMBLE: Place a 3-inch-wide round biscuit cutter in the center of an individual plate. Press 1/3 cup of the Avocado Salsa into the bottom of the cutter using the back of a soup spoon. Lift the cutter off the plate slightly to reveal some but not all of the avocado. Holding the cutter aloft, press 1/3 cup of the Crabmeat Salad evenly into the cutter on top of the avocado. Lift the cutter further to reveal some but not all of the crab salad. Holding the cutter aloft, use a soup spoon to press 1/3 cup of the Gazpacho Salsa evenly into the cutter on top of the crab. Gently lift the cutter up and away from the plate to reveal the crab tower. Repeat the procedure five more times with the remaining ingredients."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Dress the frisée with the remaining champagne vinaigrette. Place a few sprigs of the dressed frisée on top of each crab tower and arrange the orange segments (if using) around the towers. Serve immediately."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Start by slicing a 1/2-inch piece from the top and bottom of the orange. With the fruit resting flat against a work surface, use a very sharp paring knife to slice off the rind, including the white pith."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Slip the knife blade between a membrane and one section of the fruit and slice to the center. Turn the blade so that it is facing out and slide the blade from the center out along the membrane to completely free the section."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Place the biscuit cutter in the center of the plate and, using the back of a soup spoon, press 1/3 cup of the Avocado Salsa evenly into the cutter. Lift the cutter off the plate slightly to reveal some but not all of the avocado."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Holding the cutter aloft, press 1/3 cup of the Crabmeat Salad evenly into the cutter, on top of the avocado. Lift the cutter farther off the plate and press 1/3 cup of the Gazpacho Salsa evenly into the cutter, on top of the crab."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Gently lift the cutter up and away from the plate to reveal the crab tower. Repeat with the remaining salsas and crabmeat salad."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 45798,
+    "end": 45924,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

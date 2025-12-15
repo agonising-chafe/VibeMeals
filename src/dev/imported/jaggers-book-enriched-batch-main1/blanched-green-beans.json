@@ -1,0 +1,149 @@
+{
+  "mapped": {
+    "id": "atk_blanched-green-beans",
+    "name": "Blanched Green Beans",
+    "slug": "blanched-green-beans",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "green-beans-trimmed",
+        "displayName": "green beans, trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bring-21-2-quarts-water-to-a-boil-in-a-large-saucepan-over-high-heat-add-the-salt-and-green-beans-return-to-a-boil-and-cook-until-the-beans-are-bright-green-and-crisp-tender-3-to-4-minutes-drain-the-beans-and-transfer-them-immediately-to-a-large-bowl-filled-with-ice-water-when-the-beans-have-cooled-to-room-temperature-drain-again-and-dry-thoroughly-with-paper-towels-set-aside-or-refrigerate-until-needed",
+        "displayName": "Bring 21/2 quarts water to a boil in a large saucepan over high heat; add the salt and green beans, return to a boil, and cook until the beans are bright green and crisp-tender, 3 to 4 minutes. Drain the beans and transfer them immediately to a large bowl filled with ice water. When the beans have cooled to room temperature, drain again and dry thoroughly with paper towels. Set aside (or refrigerate) until needed.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "PREP"
+      },
+      {
+        "ingredientId": "green-beans-amandine",
+        "displayName": "Green Beans Amandine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "AMANDINE"
+      },
+      {
+        "ingredientId": "sliced-almonds",
+        "displayName": "sliced almonds",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "AMANDINE",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-pieces",
+        "displayName": "unsalted butter, cut into pieces",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "AMANDINE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "AMANDINE"
+      },
+      {
+        "ingredientId": "green-beans-trimmed",
+        "displayName": "green beans, trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toast the almonds in a large skillet over medium-low heat, stirring often, until just golden, about 6 minutes. Add the butter and cook, stirring constantly, until the butter is golden brown and has a nutty aroma, about 3 minutes. Transfer the almond mixture to a bowl and stir in the lemon juice."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add the beans, 1/2 cup water, and 1/2 teaspoon salt to the now-empty skillet. Cover and cook over medium-low heat, stirring occasionally, until the beans are nearly tender, 8 to 10 minutes. Remove the lid and cook over medium-high heat until the liquid evaporates, 3 to 5 minutes. Off the heat, add the reserved almond mixture to the skillet and toss to combine. Season with salt to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 58173,
+    "end": 58226,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

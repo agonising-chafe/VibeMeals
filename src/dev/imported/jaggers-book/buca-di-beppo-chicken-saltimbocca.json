@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_buca-di-beppo-chicken-saltimbocca",
+    "name": "Buca di Beppo Chicken Saltimbocca",
+    "slug": "buca-di-beppo-chicken-saltimbocca",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-name-saltimbocca-means-jump-into-the-mouth-because-the-dish-is-so-delicious-people-will-not-be-able-to-eat-it-fast-enough-serve-with-cooked-pasta-such-as-fettuccine-or-linguine-or-with-mashed-potatoes",
+        "displayName": "The name “saltimbocca” means “jump into the mouth,” because the dish is so delicious people will not be able to eat it fast enough! Serve with cooked pasta such as fettuccine or linguine or with mashed potatoes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts",
+        "displayName": "boneless, skinless chicken breasts",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-sage",
+        "displayName": "chopped fresh sage",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thin-slices-prosciutto",
+        "displayName": "thin slices prosciutto",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-olive-oil",
+        "displayName": "¼ cup olive oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "artichoke-heart-quarters",
+        "displayName": "artichoke heart quarters",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-fresh-lemon-juice",
+        "displayName": "¼ cup fresh lemon juice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "¼ heavy cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "capers",
+        "displayName": "capers",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lightly-salt-chicken-breasts-and-sprinkle-evenly-with-sage-place-1-slice-prosciutto-on-top-of-each-chicken-breast-lay-a-piece-of-wax-paper-over-chicken-and-pound-to-inch-thickness",
+        "displayName": "Lightly salt chicken breasts and sprinkle evenly with sage. Place 1 slice prosciutto on top of each chicken breast. Lay a piece of wax paper over chicken and pound to ⅜-inch thickness.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-add-olive-oil",
+        "displayName": "In a 10-inch skillet over medium heat, add olive oil.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-flour-to-a-shallow-dish-and-lightly-dredge-chicken-in-flour-place-chicken-in-pan-prosciutto-side-down-cook-2-minutes-or-until-lightly-browned-then-flip-and-cook-second-side-2-3-minutes-until-chicken-reaches-an-internal-temperature-of-165-f-remove-chicken-to-a-plate",
+        "displayName": "Add flour to a shallow dish and lightly dredge chicken in flour. Place chicken in pan, prosciutto side down. Cook 2 minutes or until lightly browned, then flip and cook second side 2–3 minutes until chicken reaches an internal temperature of 165°F. Remove chicken to a plate.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drain-off-excess-oil-then-return-pan-to-medium-heat-and-deglaze-pan-with-wine-scraping-any-brown-bits-from-bottom-of-pan-add-artichoke-lemon-juice-cream-and-butter-cook-until-butter-is-melted-about-30-seconds-then-cook-for-1-minute-stirring-constantly-return-chicken-to-pan-along-with-any-juices-on-plate-and-turn-to-coat-in-sauce",
+        "displayName": "Drain off excess oil, then return pan to medium heat and deglaze pan with wine, scraping any brown bits from bottom of pan. Add artichoke, lemon juice, cream, and butter. Cook until butter is melted, about 30 seconds, then cook for 1 minute, stirring constantly. Return chicken to pan along with any juices on plate and turn to coat in sauce.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "on-a-large-platter-place-chicken-breasts-pour-sauce-from-pan-over-chicken-and-garnish-with-capers-serve-hot",
+        "displayName": "On a large platter, place chicken breasts, pour sauce from pan over chicken, and garnish with capers. Serve hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6064,
+    "end": 6116,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

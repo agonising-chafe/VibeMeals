@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_tgi-fridays-sizzling-chicken-cheese",
+    "name": "TGI Fridays Sizzling Chicken & Cheese",
+    "slug": "tgi-fridays-sizzling-chicken-cheese",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "well-known-around-the-world-for-american-style-bar-food-tgi-fridays-boasts-more-than-600-locations-around-the-world-this-recipe-is-served-sizzling-in-a-hot-skillet-so-be-careful-when-enjoying",
+        "displayName": "Well-known around the world for American-style bar food, TGI Fridays boasts more than 600 locations around the world. This recipe is served sizzling in a hot skillet, so be careful when enjoying.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts",
+        "displayName": "boneless, skinless chicken breasts",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-garlic",
+        "displayName": "chopped garlic",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "crushed-red-pepper-flakes",
+        "displayName": "crushed red pepper flakes",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil-divided",
+        "displayName": "olive oil, divided",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-green-bell-pepper-seeded-and-julienned",
+        "displayName": "medium green bell pepper, seeded and julienned",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-red-bell-pepper-seeded-and-julienned",
+        "displayName": "medium red bell pepper, seeded and julienned",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-yellow-onion-peeled-and-julienned",
+        "displayName": "medium yellow onion, peeled and julienned",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cooked-mashed-potatoes",
+        "displayName": "cooked mashed potatoes",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-chihuahua-white-cheese",
+        "displayName": "½ cup shredded Chihuahua white cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-breasts-between-two-pieces-of-wax-paper-with-a-meat-mallet-to-inch-thickness",
+        "displayName": "chicken breasts between two pieces of wax paper with a meat mallet to ½-inch thickness.",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-resealable-plastic-bag-combine-garlic-parsley-red-pepper-flakes-black-pepper-salt-and-2-tablespoons-olive-oil-place-chicken-breasts-in-marinade-and-refrigerate-2-4-hours",
+        "displayName": "In a large resealable plastic bag, combine garlic, parsley, red pepper flakes, black pepper, salt, and 2 tablespoons olive oil. Place chicken breasts in marinade and refrigerate 2–4 hours.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-cast-iron-skillet-over-medium-heat-heat-remaining-olive-oil-add-chicken-breasts-and-cook-5-minutes-per-side-until-chicken-reaches-an-internal-temperature-of-165-f-and-is-golden-brown-remove-from-pan",
+        "displayName": "In a 10-inch cast iron skillet over medium heat, heat remaining olive oil. Add chicken breasts and cook 5 minutes per side until chicken reaches an internal temperature of 165°F and is golden brown. Remove from pan.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-over-medium-heat-add-bell-peppers-and-onion-and-cook-2-3-minutes-until-just-tender-remove-from-skillet",
+        "displayName": "To same skillet over medium heat, add bell peppers and onion and cook 2–3 minutes until just tender. Remove from skillet.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-separate-10-inch-cast-iron-skillet-over-high-heat-place-mashed-potatoes-in-half-of-skillet-then-add-cheeses-bell-peppers-and-onion-to-other-half",
+        "displayName": "Heat a separate 10-inch cast iron skillet over high heat. Place mashed potatoes in half of skillet, then add cheeses, bell peppers, and onion to other half.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-chicken-on-top-of-potatoes-serve-hot-directly-in-skillet",
+        "displayName": "Place chicken on top of potatoes. Serve hot directly in skillet.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7280,
+    "end": 7336,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

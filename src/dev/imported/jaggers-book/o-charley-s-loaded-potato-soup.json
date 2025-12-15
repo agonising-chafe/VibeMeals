@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_o-charley-s-loaded-potato-soup",
+    "name": "O’Charley’s Loaded Potato Soup",
+    "slug": "o-charley-s-loaded-potato-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "a-one-of-a-kind-signature-soup-from-o-charley-s-sure-to-make-you-happy-it-is-full-of-beloved-flavors-like-cheddar-cheese-chives-and-crumbled-bacon",
+        "displayName": "A one-of-a-kind signature soup from O’Charley’s sure to make you happy. It is full of beloved flavors like Cheddar cheese, chives, and crumbled bacon.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-potatoes-peeled-and-diced-into-inch-cubes",
+        "displayName": "red potatoes, peeled and diced into ½-inch cubes",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-melted-margarine",
+        "displayName": "¼ cup melted margarine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "¼ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "half-and-half",
+        "displayName": "half-and-half",
+        "amount": 8,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "block-velveeta-cheese-melted",
+        "displayName": "block Velveeta cheese, melted",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "½ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hot-pepper-sauce",
+        "displayName": "hot pepper sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-smoked-bacon-cooked-crisp-and-crumbled",
+        "displayName": "thick-cut smoked bacon, cooked crisp and crumbled",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-cheddar-cheese",
+        "displayName": "½ cup shredded Cheddar cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-fresh-parsley",
+        "displayName": "½ cup chopped fresh parsley",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-fresh-chives",
+        "displayName": "½ cup chopped fresh chives",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-potatoes-in-a-3-quart-saucepan-cover-with-water-and-boil-over-high-heat-10-minutes-or-until-tender",
+        "displayName": "Place potatoes in a 3-quart saucepan, cover with water, and boil over high heat 10 minutes or until tender.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-2-quart-saucepan-over-low-heat-combine-margarine-and-flour-stir-constantly-gradually-adding-half-and-half-until-liquid-begins-to-thicken-about-5-7-minutes-add-velveeta-cheese-and-stir-well",
+        "displayName": "In a 2-quart saucepan over low heat, combine margarine and flour. Stir constantly, gradually adding half-and-half, until liquid begins to thicken, about 5–7 minutes. Add Velveeta cheese and stir well.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drain-potatoes-and-add-to-velveeta-mixture-stir-in-garlic-powder-and-hot-pepper-sauce-cover-and-cook-over-low-heat-30-minutes-stirring-occasionally",
+        "displayName": "Drain potatoes and add to Velveeta mixture. Stir in garlic powder and hot pepper sauce. Cover and cook over low heat 30 minutes, stirring occasionally.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-to-individual-serving-bowls-and-top-with-crumbled-bacon-cheddar-parsley-and-chives",
+        "displayName": "Transfer to individual serving bowls and top with crumbled bacon, Cheddar, parsley, and chives.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "o-charley-s-is-a-casual-dining-family-restaurant-chain-with-over-sixty-locations-in-thirteen-states-they-serve-freshly-prepared-steaks-grilled-to-perfection-seafood-chicken-salads-desserts-and-more-loaded-potato-soup-is-one-of-their-most-popular-menu-items-and-the-recipe-is-one-that-many-people-have-tried-to-re-create",
+        "displayName": "O’Charley’s is a casual-dining family restaurant chain with over sixty locations in thirteen states. They serve freshly prepared steaks grilled to perfection, seafood, chicken, salads, desserts, and more. Loaded Potato Soup is one of their most popular menu items, and the recipe is one that many people have tried to re-create.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 3627,
+    "end": 3679,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

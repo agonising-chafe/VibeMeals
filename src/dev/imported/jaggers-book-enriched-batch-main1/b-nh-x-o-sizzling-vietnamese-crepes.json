@@ -1,0 +1,295 @@
+{
+  "mapped": {
+    "id": "atk_b-nh-x-o-sizzling-vietnamese-crepes",
+    "name": "Bánh Xèo (Sizzling Vietnamese Crepes)",
+    "slug": "b-nh-x-o-sizzling-vietnamese-crepes",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sugar-divided",
+        "displayName": "sugar, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "NƯỚC CHẤM"
+      },
+      {
+        "ingredientId": "small-thai-chile-stemmed-and-minced",
+        "displayName": "small Thai chile, stemmed and minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "NƯỚC CHẤM"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "NƯỚC CHẤM"
+      },
+      {
+        "ingredientId": "hot-water",
+        "displayName": "hot water",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "NƯỚC CHẤM"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "NƯỚC CHẤM",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "lime-juice-2-limes",
+        "displayName": "lime juice (2 limes)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "NƯỚC CHẤM"
+      },
+      {
+        "ingredientId": "head-boston-lettuce-8-ounces-leaves-separated-and-left-whole",
+        "displayName": "head Boston lettuce (8 ounces), leaves separated and left whole",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "fresh-thai-basil-leaves",
+        "displayName": "fresh Thai basil leaves",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves-and-thin-stems",
+        "displayName": "fresh cilantro leaves and thin stems",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "hot-water-120-to-130-degrees",
+        "displayName": "hot water (120 to 130 degrees)",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CREPE"
+      },
+      {
+        "ingredientId": "3-ounces-white-rice-flour",
+        "displayName": "(3 ounces) white rice flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CREPE"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CREPE"
+      },
+      {
+        "ingredientId": "ground-turmeric",
+        "displayName": "ground turmeric",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CREPE"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "boneless-country-style-pork-ribs-trimmed-and-cut-into-2-inch-long-matchsticks",
+        "displayName": "boneless country-style pork ribs, trimmed and cut into 2-inch-long matchsticks",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "small-red-onion-halved-and-sliced-thin",
+        "displayName": "small red onion, halved and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "medium-large-shrimp-31-to-40-per-pound-peeled-deveined-halved-lengthwise-and-halved-crosswise",
+        "displayName": "medium-large shrimp (31 to 40 per pound), peeled, deveined, halved lengthwise, and halved crosswise",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CREPE",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "canned-coconut-milk",
+        "displayName": "canned coconut milk",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "3-cups-bean-sprouts-divided",
+        "displayName": "(3 cups) bean sprouts, divided",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE NƯỚC CHẤM: Using mortar and pestle (or using flat side of chef’s knife on cutting board), mash 1 tablespoon sugar, Thai chile, and garlic to fine paste. Transfer to medium bowl and add hot water and remaining 2 tablespoons sugar. Stir until sugar is dissolved. Stir in fish sauce and lime juice. Divide sauce among 4 individual small serving bowls."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE CREPES: Adjust oven rack to middle position and heat oven to 275 degrees. Set wire rack in rimmed baking sheet, spray rack with vegetable oil spray, and set aside. Arrange lettuce, basil, and cilantro on serving platter. Whisk hot water, rice flour, cornstarch, turmeric, and 1/4 teaspoon salt in bowl until smooth."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 1 teaspoon oil in 12-inch nonstick skillet over medium-high heat until shimmering. Add pork and onion and cook, stirring occasionally, until pork is no longer pink and onion is softened, 5 to 7 minutes. Add shrimp and remaining 1/4 teaspoon salt and continue to cook, stirring occasionally, until shrimp just begin to turn pink, about 2 minutes longer. Transfer mixture to second bowl. Wipe skillet clean with paper towels. Add coconut milk and 2 teaspoons oil to crepe batter and stir to combine."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat 2 teaspoons oil in now-empty skillet over medium-high heat until just smoking. Add one-third of pork mixture and heat through until sizzling, about 30 seconds. Spread pork mixture over half of skillet. Pour 1/2 cup batter evenly over entire skillet. (Batter poured over filling will drain to skillet surface. If needed, tilt skillet gently to fill gaps.) Spread 1 cup bean sprouts over filling. Cook until crepe loosens completely from bottom of skillet with gentle shake, 4 to 5 minutes. Reduce heat to medium-low and continue to cook, shaking skillet occasionally, until edges of crepe are lacy and crisp and underside is golden brown, 2 to 4 minutes longer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Gently fold unfilled side of crepe over sprouts. Slide crepe onto prepared wire rack and transfer to oven to keep warm. Repeat 2 more times with remaining oil, pork mixture, batter, and bean sprouts. When final crepe is cooked, use 2 spatulas to transfer all 3 crepes to cutting board and cut each crosswise into 11/4-inch-wide strips."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "TO SERVE: Place crepes and greens in center of table, and give each diner 1 bowl of sauce. To eat, wrap individual strip of crepe and several leaves of basil and cilantro in lettuce leaf and dip into sauce."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "SHELLFISH",
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 45535,
+    "end": 45605,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

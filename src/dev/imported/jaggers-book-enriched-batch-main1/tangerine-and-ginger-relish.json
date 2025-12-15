@@ -1,0 +1,102 @@
+{
+  "mapped": {
+    "id": "atk_tangerine-and-ginger-relish",
+    "name": "Tangerine and Ginger Relish",
+    "slug": "tangerine-and-ginger-relish",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 11/4 cups",
+      "baseServings": 8,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "tangerines-rind-and-pith-removed-and-segments-cut-into-1-2-inch-pieces-about-1-cup",
+        "displayName": "tangerines, rind and pith removed and segments cut into 1/2-inch pieces (about 1 cup)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallion-sliced-thin-about-1-4-cup",
+        "displayName": "scallion, sliced thin (about 1/4 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-or-grated-fresh-ginger",
+        "displayName": "minced or grated fresh ginger",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the tangerines in a fine-mesh strainer set over a medium bowl and drain for 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour off all but 1 tablespoon tangerine juice from the bowl; whisk in the scallion, ginger, lemon juice, and oil. Stir in the tangerines and season with salt and pepper to taste."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 42662,
+    "end": 42700,
+    "yieldLine": "MAKES about 11/4 cups"
+  },
+  "fit": true
+}

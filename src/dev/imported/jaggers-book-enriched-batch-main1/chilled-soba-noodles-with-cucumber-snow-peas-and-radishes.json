@@ -1,0 +1,178 @@
+{
+  "mapped": {
+    "id": "atk_chilled-soba-noodles-with-cucumber-snow-peas-and-radishes",
+    "name": "Chilled Soba Noodles with Cucumber, Snow Peas, and Radishes",
+    "slug": "chilled-soba-noodles-with-cucumber-snow-peas-and-radishes",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "equipmentTags": [
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dried-soba-noodles",
+        "displayName": "dried soba noodles",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "8-inch-square-sheet-nori-optional",
+        "displayName": "(8-inch square) sheet nori (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-miso",
+        "displayName": "white miso",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mirin",
+        "displayName": "mirin",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "displayName": "sesame seeds",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-4-1-2-teaspoon-red-pepper-flakes",
+        "displayName": "1/4–1/2 teaspoon red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "english-cucumber-quartered-lengthwise-seeded-and-sliced-thin-on-bias",
+        "displayName": "English cucumber, quartered lengthwise, seeded, and sliced thin on bias",
+        "amount": 0.3333333333333333,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "snow-peas-strings-removed-cut-lengthwise-into-matchsticks",
+        "displayName": "snow peas, strings removed, cut lengthwise into matchsticks",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "radishes-trimmed-halved-and-sliced-into-thin-half-moons",
+        "displayName": "radishes, trimmed, halved, and sliced into thin half-moons",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin-on-bias",
+        "displayName": "scallions, sliced thin on bias",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 4 quarts water to boil in large pot. Stir in noodles and cook according to package directions, stirring occasionally, until noodles are cooked through but still retain some chew. Drain noodles and rinse under cold water until chilled. Drain well and transfer to large bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Grip nori sheet, if using, with tongs and hold about 2 inches above low flame on gas burner. Toast nori, flipping every 3 to 5 seconds, until nori is aromatic and shrinks slightly, about 20 seconds. If you do not have a gas stove, toast nori on rimmed baking sheet in 275-degree oven until it is aromatic and shrinks slightly, 20 to 25 minutes, flipping nori halfway through toasting. Using scissors, cut nori into four 2-inch strips. Stack strips and cut crosswise into thin strips."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Combine miso, mirin, oil, 1 tablespoon water, sesame seeds, ginger, and pepper flakes in small bowl and whisk until smooth. Add dressing to noodles and toss to combine. Add cucumber; snow peas; radishes; scallions; and nori, if using, and toss well to evenly distribute. Season with salt to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 20168,
+    "end": 20212,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

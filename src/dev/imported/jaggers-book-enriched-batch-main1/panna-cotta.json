@@ -1,0 +1,132 @@
+{
+  "mapped": {
+    "id": "atk_panna-cotta",
+    "name": "Panna Cotta",
+    "slug": "panna-cotta",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 2.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-bean-halved-lengthwise",
+        "displayName": "vanilla bean, halved lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "recipe-raspberry-coulis-recipe-follows",
+        "displayName": "recipe Raspberry Coulis (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "RASPBERRY_COULIS"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Pour the milk into a medium saucepan; sprinkle the surface evenly with the gelatin and let stand for 10 minutes. Meanwhile, turn the contents of two ice cube trays (about 32 cubes) into a large bowl; add 4 cups cold water. Pour the cream into a large measuring cup or pitcher. With a paring knife, scrape the vanilla seeds into the cream; place the pod in the cream along with the seeds and set the mixture aside. Set eight 4-ounce ramekins on a rimmed baking sheet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat the milk and gelatin mixture over high heat, stirring constantly, until the gelatin is dissolved and the mixture registers 135 degrees on an instant-read thermometer, about 11/2 minutes. Off the heat, add the sugar and salt; stir until dissolved, about 1 minute."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stirring constantly, slowly pour the cream with the vanilla into the saucepan containing the milk, then transfer the mixture to a medium bowl and set the bowl over the ice water bath. Stir frequently until thickened to the consistency of eggnog and the mixture registers 50 degrees on an instant-read thermometer, about 10 minutes. Strain the mixture into a large measuring cup or pitcher, then distribute evenly among the ramekins. Cover the baking sheet with plastic wrap, making sure that the plastic does not mar the surface of the cream; refrigerate until just set (the mixture should wobble when shaken gently), about 4 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "To serve, spoon a portion of the raspberry coulis onto eight individual serving plates. Pour 1 cup boiling water into a small wide-mouthed bowl, dip a ramekin filled with panna cotta into the water for 3 seconds and lift the ramekin out of the water. With a moistened finger, press lightly on the periphery of the panna cotta to loosen the edges. Dip the ramekin back into the hot water for another 3 seconds. Invert the ramekin over your palm and loosen the panna cotta by cupping your fingers between the panna cotta and the edges of the ramekin. Gently lower the panna cotta onto a serving plate with the coulis. Repeat the process with the remaining ramekins of panna cotta. Serve. (To make the panna cotta a day ahead, decrease the amount of gelatin to 21/2 teaspoons, and chill the filled wine glasses or ramekins for 18 to 24 hours.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 76162,
+    "end": 76198,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

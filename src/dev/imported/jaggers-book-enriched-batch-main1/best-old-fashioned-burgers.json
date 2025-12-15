@@ -1,0 +1,162 @@
+{
+  "mapped": {
+    "id": "atk_best-old-fashioned-burgers",
+    "name": "Best Old-Fashioned Burgers",
+    "slug": "best-old-fashioned-burgers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 4 burgers",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sirloin-steak-tips-cut-into-1-inch-chunks",
+        "displayName": "sirloin steak tips, cut into 1-inch chunks",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-beef-short-ribs-cut-into-1-inch-chunks",
+        "displayName": "boneless beef short ribs, cut into 1-inch chunks",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "soft-hamburger-buns",
+        "displayName": "soft hamburger buns",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "thinly-sliced-onion",
+        "displayName": "Thinly sliced onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "recipe-classic-burger-sauce",
+        "displayName": "recipe Classic Burger Sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the beef chunks on a baking sheet in a single layer, leaving 1/2 inch of space around each chunk. Freeze the meat until very firm and starting to harden around the edges but still pliable, 15 to 25 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place half of the meat in a food processor and pulse until the meat is coarsely ground, 10 to 15 pulses, stopping and redistributing the meat around the bowl as necessary to ensure the beef is evenly ground. Transfer the meat to a baking sheet by overturning the bowl, without touching the meat. Repeat the grinding with the remaining meat. Spread the meat over the sheet and inspect carefully, discarding any long strands of gristle or large chunks of hard meat or fat."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Gently separate the ground meat into four equal mounds. Without picking the meat up, with your fingers gently shape each mound into a loose patty 1/2 inch thick and 4 inches in diameter, leaving the edges and surface ragged. Season the top of each patty with salt and pepper. Using a spatula, flip the patties and season the other side. Refrigerate while toasting the buns."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Melt 1/2 tablespoon of the butter in a heavy-bottomed 12-inch skillet over medium heat. Add the bun tops, cut side down, and toast until light golden brown, about 2 minutes. Repeat with the remaining 1/2 tablespoon butter and the bun bottoms. Set the buns aside and wipe out the skillet with paper towels."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Return the skillet to high heat; add the oil and heat until just smoking. Using a spatula, transfer the burgers to the skillet and cook without moving them for 3 minutes. Using the spatula, flip the burgers over and cook for 1 minute. Top each patty with a slice of the cheese and continue to cook until the cheese is melted, about 1 minute longer."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer the patties to the bun bottoms and top with the onion. Spread 2 teaspoons of the burger sauce on each bun top. Cover the burgers with the bun tops and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 31231,
+    "end": 31275,
+    "yieldLine": "MAKES 4 burgers"
+  },
+  "fit": true
+}

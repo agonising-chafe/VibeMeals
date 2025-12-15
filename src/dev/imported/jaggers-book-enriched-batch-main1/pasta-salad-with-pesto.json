@@ -1,0 +1,188 @@
+{
+  "mapped": {
+    "id": "atk_pasta-salad-with-pesto",
+    "name": "Pasta Salad with Pesto",
+    "slug": "pasta-salad-with-pesto",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "medium-garlic-cloves-unpeeled",
+        "displayName": "medium garlic cloves, unpeeled",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "farfalle",
+        "displayName": "farfalle",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-tablespoon-extra-virgin-olive-oil",
+        "displayName": "plus 1 tablespoon extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "packed-fresh-basil-leaves-about-4-ounces",
+        "displayName": "packed fresh basil leaves (about 4 ounces)",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "packed-baby-spinach-about-1-ounce",
+        "displayName": "packed baby spinach (about 1 ounce)",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "pine-nuts-33-4-ounces-toasted",
+        "displayName": "pine nuts (33/4 ounces), toasted",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PESTO",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "parmesan-cheese-finely-grated-about-3-4-cup-plus-extra-for-serving",
+        "displayName": "Parmesan cheese, finely grated (about 3/4 cup), plus extra for serving",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PESTO",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "pint-cherry-tomatoes-quartered-or-grape-tomatoes-halved-optional",
+        "displayName": "pint cherry tomatoes, quartered, or grape tomatoes, halved (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 4 quarts water to a boil in a large pot. Add the garlic to the boiling water and let cook for 1 minute. Remove the garlic with a slotted spoon and rinse under cold water; set aside to cool. Stir 1 tablespoon salt and the pasta into the boiling water and cook, stirring often, until the pasta is just past al dente. Reserve 1/4 cup of the pasta cooking water, drain the pasta, toss with 1 tablespoon of the oil, spread in a single layer on a rimmed baking sheet, and cool to room temperature, about 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Peel and mince the garlic or press it through a garlic press. Process the garlic, basil, spinach, 1/4 cup of the nuts, lemon juice, pepper, remaining 1/4 cup oil, and 1 teaspoon salt in a food processor until smooth, scraping down the sides of the work bowl as necessary. Add the Parmesan and mayonnaise and process until thoroughly combined. Transfer the mixture to a large serving bowl. Cover and refrigerate until ready to assemble the salad."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Toss the pasta with the pesto, adding the reserved pasta water, 1 tablespoon at a time, until the pesto evenly coats the pasta. Fold in the remaining 1/2 cup nuts and the tomatoes (if using). Serve, passing extra Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14496,
+    "end": 14540,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

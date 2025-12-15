@@ -1,0 +1,276 @@
+{
+  "mapped": {
+    "id": "atk_simplified-cassoulet-with-pork-and-kielbasa",
+    "name": "Simplified Cassoulet with Pork and Kielbasa",
+    "slug": "simplified-cassoulet-with-pork-and-kielbasa",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-to-6-ounce-bone-in-skin-on-chicken-thighs-trimmed-and-skin-removed",
+        "displayName": "(5- to 6-ounce) bone-in, skin-on chicken thighs, trimmed and skin removed",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-flageolet-or-great-northern-beans-picked-over-and-rinsed",
+        "displayName": "dried flageolet or great Northern beans, picked over and rinsed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-peeled-plus-1-small-onion-minced",
+        "displayName": "medium onion, peeled, plus 1 small onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-head-garlic-outer-papery-skin-removed-and-top-1-2-inch-sliced-off-plus-2-medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium head garlic, outer papery skin removed and top 1/2 inch sliced off, plus 2 medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "about-6-slices-bacon-cut-into-1-4-inch-pieces",
+        "displayName": "(about 6 slices) bacon, cut into 1/4-inch pieces",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-blade-end-pork-loin-roast-trimmed-and-cut-into-1-inch-pieces",
+        "displayName": "boneless blade-end pork loin roast, trimmed and cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained",
+        "displayName": "can diced tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-sprig-fresh-thyme",
+        "displayName": "large sprig fresh thyme",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cloves",
+        "displayName": "ground cloves",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 3.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kielbasa-halved-lengthwise-and-cut-into-1-4-inch-slices",
+        "displayName": "kielbasa, halved lengthwise and cut into 1/4-inch slices",
+        "amount": 0.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-cut-into-1-2-inch-cubes",
+        "displayName": "high-quality white sandwich bread, cut into 1/2-inch cubes",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CROUTONS"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CROUTONS",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine chicken",
+        "minutesBeforeCooking": 60,
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Soak beans",
+        "minutesBeforeCooking": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHICKEN: Dissolve the sugar and salt in 1 quart cold water in a gallon-size zipper-lock bag. Add the chicken, pressing out as much air as possible, seal the bag, and refrigerate for 1 hour. Remove the chicken from the brine, rinse, and pat dry with paper towels. Refrigerate until ready to use."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE BEANS: Bring the beans, the peeled onion, head of garlic, salt, 1/4 teaspoon pepper, and 8 cups water to a boil in a large Dutch oven over high heat. Cover, reduce the heat to medium-low, and simmer until the beans are almost tender, 11/4 to 11/2 hours. Drain the beans; discard the onion and garlic."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While the beans are cooking, fry the bacon in a large Dutch oven over medium heat until just beginning to crisp and most of the fat has rendered, 5 to 6 minutes. Using a slotted spoon, add half of the bacon to the pot with the beans; transfer the remaining bacon to a paper towel–lined plate and set aside. Increase the heat to medium-high and add half of the chicken, skinned side down; cook until lightly browned, 4 to 5 minutes. Flip the chicken thighs and cook until lightly browned on the second side, 3 to 4 minutes longer. Transfer the chicken to a large plate; repeat with the remaining thighs and set aside. Pour off all but 2 tablespoons fat from the pot. Return the pot to medium heat; add the pork pieces and cook, stirring occasionally, until lightly browned, about 5 minutes. Add the minced onion and cook, stirring occasionally, until softened, 3 to 4 minutes. Add the minced garlic, tomatoes, tomato paste, thyme, bay leaf, cloves, and pepper to taste and cook until fragrant, about 1 minute. Stir in the chicken broth and wine, scraping up any browned bits. Submerge the chicken in the pot, adding any accumulated juices, increase the heat to high, and bring to a boil. Reduce the heat to low, cover, and simmer for 40 minutes. Uncover and continue to simmer until the chicken and pork are fully tender, 20 to 30 minutes more."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE CROUTONS: While the chicken is simmering, adjust an oven rack to the lower-middle position and heat the oven to 400 degrees. Toss the bread cubes with the melted butter and spread out over a rimmed baking sheet. Bake until light golden brown and crisp, 8 to 12 minutes. Cool to room temperature; set aside (do not turn off the oven)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Gently stir the kielbasa, drained beans, and reserved bacon into the pot with the chicken and pork; remove and discard the thyme and bay leaf and season with pepper to taste. Sprinkle the croutons evenly over the surface and bake, uncovered, until the croutons are deep golden brown, about 15 minutes. Let stand for 10 minutes; serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 40557,
+    "end": 40631,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

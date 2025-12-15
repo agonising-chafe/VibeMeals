@@ -1,0 +1,188 @@
+{
+  "mapped": {
+    "id": "atk_blueberry-scones",
+    "name": "Blueberry Scones",
+    "slug": "blueberry-scones",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 8 scones",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "2-sticks-unsalted-butter-frozen-whole",
+        "displayName": "(2 sticks) unsalted butter, frozen whole",
+        "amount": 16,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "about-71-2-ounces-fresh-blueberries-picked-over",
+        "displayName": "(about 71/2 ounces) fresh blueberries, picked over",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "sour cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "10-ounces-unbleached-all-purpose-flour-plus-extra-for-the-work-surface",
+        "displayName": "(10 ounces) unbleached all-purpose flour, plus extra for the work surface",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "31-2-ounces-sugar-plus-1-tablespoon-for-sprinkling",
+        "displayName": "(31/2 ounces) sugar, plus 1 tablespoon for sprinkling",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-zest-from-1-lemon",
+        "displayName": "grated zest from 1 lemon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Freeze butter",
+        "durationMinutes": 60,
+        "hoursBeforeCooking": 1,
+        "strategy": "FREEZE",
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Freeze blueberries",
+        "durationMinutes": 30,
+        "hoursBeforeCooking": 0.5,
+        "strategy": "FREEZE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 425 degrees. Score and remove half of the wrapper from each stick of frozen butter. Grate the unwrapped ends on the large holes of a box grater (you should grate a total of 8 tablespoons). Place the grated butter in the freezer until needed. Melt 2 tablespoons of the remaining ungrated butter and set aside. Save the remaining 6 tablespoons butter for another use. Place the blueberries in the freezer until needed."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk the milk and sour cream together in a medium bowl; refrigerate until needed. Whisk the flour, 1/2 cup of the sugar, the baking powder, salt, baking soda, and lemon zest together in a medium bowl. Add the frozen butter to the flour mixture and toss with your fingers until the butter is thoroughly coated."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add the milk mixture to the flour mixture; fold with a rubber spatula until just combined. Using the spatula, transfer the dough to a liberally floured work surface. Dust the surface of the dough with flour; with floured hands, knead the dough six to eight times, until it just holds together in a ragged ball, adding flour as needed to prevent sticking."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Roll the dough into an approximate 12-inch square. Fold the dough into thirds like a business letter, using a bench scraper or metal spatula to release the dough if it sticks to the work surface. Lift the short ends of the dough and fold into thirds again to form an approximate 4-inch square. Transfer the dough to a plate lightly dusted with flour and chill in the freezer for 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer the dough to a floured work surface and roll into an approximate 12-inch square again. Sprinkle the blueberries evenly over the surface of the dough, then press down so they are slightly embedded in the dough. Using a bench scraper or a thin metal spatula, loosen the dough from the work surface. Roll the dough, pressing to form a tight log. Lay the log seam side down and press it into a 12 by 4-inch rectangle. Using a sharp, floured knife, cut the rectangle crosswise into four equal rectangles. Cut each rectangle diagonally to form two triangles and transfer to a parchment-lined baking sheet."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Brush the tops of the scones with the melted butter and sprinkle with the remaining 1 tablespoon sugar. Bake until the tops and bottoms are golden brown, 18 to 25 minutes. Transfer to a wire rack and cool for 10 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63627,
+    "end": 63673,
+    "yieldLine": "MAKES 8 scones"
+  },
+  "fit": true
+}

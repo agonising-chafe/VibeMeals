@@ -1,0 +1,222 @@
+{
+  "mapped": {
+    "id": "atk_gai-yang-thai-grilled-cornish-game-hens-with-chili-dipping-sauce",
+    "name": "Gai Yang (Thai Grilled Cornish Game Hens with Chili Dipping Sauce)",
+    "slug": "gai-yang-thai-grilled-cornish-game-hens-with-chili-dipping-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "GRILL",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cornish-game-hens-11-4-to-11-2-pounds-each-giblets-discarded",
+        "displayName": "Cornish game hens (11/4 to 11/2 pounds each), giblets discarded",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves-and-stems-chopped-coarse",
+        "displayName": "fresh cilantro leaves and stems, chopped coarse",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Marinade"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 12,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Marinade"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Marinade"
+      },
+      {
+        "ingredientId": "ground-white-pepper",
+        "displayName": "ground white pepper",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Marinade"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Marinade"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Marinade"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Marinade",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Dipping Sauce"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Dipping Sauce"
+      },
+      {
+        "ingredientId": "minced-thai-chiles",
+        "displayName": "minced Thai chiles",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Dipping Sauce"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Dipping Sauce"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Dipping Sauce"
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Marinate Hens",
+        "description": "Marinate hens in refrigerator for at least 6 hours or up to 24 hours.",
+        "type": "MARINATE",
+        "durationMinutes": 360
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE HENS: Working with 1 hen at a time, place hen breast side down on cutting board and use kitchen shears to cut through bones on either side of backbone; discard backbone. Flip hen and press on breastbone to flatten. Trim off any excess fat and skin."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pulse cilantro leaves and stems, garlic, sugar, pepper, coriander, and salt in food processor until finely chopped, 10 to 15 pulses; transfer to small bowl. Add fish sauce and stir until marinade has consistency of loose paste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Rub hens all over with marinade. Transfer hens and any excess marinade to large zipper-lock bag and refrigerate for at least 6 hours or up to 24 hours, turning bag halfway through marinating."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE DIPPING SAUCE: Bring vinegar to boil in small saucepan. Add sugar and stir to dissolve. Reduce heat to medium-low and simmer until vinegar mixture is slightly thickened, 5 minutes. Remove from heat and let vinegar mixture cool to room temperature. Add chiles, garlic, and salt and stir until combined. Transfer sauce to airtight container and refrigerate until ready to use. (Sauce can be refrigerated for up to 2 weeks. Bring to room temperature before serving.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Clean and oil cooking grate. Remove hens from bag, leaving any marinade that sticks to hens in place. Tuck wingtips behind backs and turn legs so drumsticks face inward toward breasts. Place hens, skin side up, on cooler side of grill (if using charcoal, arrange hens so that legs and thighs are facing coals). Cover and cook until skin has browned and breasts register 145 to 150 degrees, 30 to 35 minutes, rotating hens halfway through cooking."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using tongs, carefully flip hens and place skin side down on hotter side of grill. Cover and cook until skin is crisp, deeply browned, and charred in spots and breasts register 160 degrees, 3 to 5 minutes, being careful to avoid burning."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Transfer hens, skin side up, to cutting board, tent with aluminum foil, and let rest for 10 minutes. Carve each hen in half or into 4 pieces and serve, passing dipping sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "asian"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 54716,
+    "end": 54778,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,136 @@
+{
+  "mapped": {
+    "id": "atk_oven-roasted-pork-chops",
+    "name": "Oven-Roasted Pork Chops",
+    "slug": "oven-roasted-pork-chops",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "51-4-ounces-dark-brown-sugar",
+        "displayName": "(51/4 ounces) dark brown sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-crushed",
+        "displayName": "medium garlic cloves, crushed",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves-crumbled",
+        "displayName": "bay leaves, crumbled",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-cloves",
+        "displayName": "whole cloves",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-black-peppercorns-crushed",
+        "displayName": "whole black peppercorns, crushed",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-rib-loin-pork-chops-about-11-2-inches-thick-trimmed-of-excess-fat",
+        "displayName": "bone-in rib loin pork chops, about 11/2 inches thick, trimmed of excess fat",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 1,
+        "description": "Submerge chops in brine, cover with plastic wrap, and refrigerate for 1 hour.",
+        "requirementKind": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve sugar and salt in 6 cups cold water in large bowl or container. Add garlic, bay leaves, cloves, and peppercorns. Submerge chops in brine, cover with plastic wrap, and refrigerate for 1 hour. Remove chops from brine, rinse, and pat dry with paper towels. Use sharp knife to cut two slits, about 2 inches apart, through outer layer of fat and silver skin of each chop (do not cut into meat of chops)."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lower-middle position, place rimmed baking sheet on rack, and heat oven to 450 degrees. When oven reaches 450 degrees, heat oil in 12-inch skillet over high heat until shimmering. Place chops in skillet and cook until well browned, about 2 minutes. Flip chops and continue to cook until second side is well browned, about 2 minutes longer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer chops to baking sheet in oven. Roast until center of chops registers 140 to 145 degrees on instant-read thermometer, about 15 minutes, turning chops over once halfway through cooking time. Transfer chops to platter, cover loosely with foil, and let rest until internal temperature registers 150 degrees on instant-read thermometer, 5 to 10 minutes or while preparing pan sauce."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38228,
+    "end": 38264,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

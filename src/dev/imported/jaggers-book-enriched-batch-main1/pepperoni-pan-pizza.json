@@ -1,0 +1,193 @@
+{
+  "mapped": {
+    "id": "atk_pepperoni-pan-pizza",
+    "name": "Pepperoni Pan Pizza",
+    "slug": "pepperoni-pan-pizza",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES two 9-inch pizzas",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "skim-milk-plus-2-additional-tablespoons-warmed-to-110-degrees",
+        "displayName": "skim milk plus 2 additional tablespoons, warmed to 110 degrees",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "115-8-ounces-unbleached-all-purpose-flour-plus-extra-for-the-work-surface",
+        "displayName": "(115/8 ounces) unbleached all-purpose flour, plus extra for the work surface",
+        "amount": 2.3333333333333335,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "envelope-instant-yeast",
+        "displayName": "envelope instant yeast",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "package-sliced-pepperoni",
+        "displayName": "package sliced pepperoni",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quick-tomato-sauce-for-pizza",
+        "displayName": "Quick Tomato Sauce for Pizza",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-part-skim-mozzarella-cheese-about-3-cups",
+        "displayName": "shredded part-skim mozzarella cheese (about 3 cups)",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "TO MAKE THE DOUGH: Adjust an oven rack to the lowest position and heat the oven to 200 degrees. When the oven reaches 200 degrees, turn it off. Lightly coat a large bowl with vegetable oil spray. Coat each of two 9-inch cake pans with 3 tablespoons of the oil."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Mix the milk, sugar, and remaining 2 tablespoons oil in a measuring cup. Mix the flour, yeast, and salt in a stand mixer fitted with the dough hook. Turn the machine to low and slowly add the milk mixture. After the dough comes together, increase the speed to medium-low and mix until the dough is shiny and smooth, about 5 minutes. Turn the dough onto a lightly floured work surface, gently shape into a ball, and place in the greased bowl. Cover with plastic wrap and place in the warm oven until doubled in size, about 30 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "TO MAKE THE SAUCE: Process tomatoes in food processor until smooth, about 5 pulses. Heat oil and garlic in medium saucepan over medium heat until garlic is fragrant, about 30 seconds. Stir in tomatoes; bring to simmer and cook, uncovered, until sauce thickens, about 15 minutes. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "TO SHAPE AND TOP THE DOUGH: Transfer the dough to a lightly floured work surface, divide it in half, and lightly roll each half into a ball. Working with 1 dough ball at a time, roll and shape the dough into a 91/2-inch round and press into the oiled pans. Cover with plastic wrap and set in a warm spot (not in the oven) until puffy and slightly risen, about 20 minutes. Meanwhile, heat the oven to 400 degrees."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "While the dough rises, put half of the pepperoni in a single layer on a microwave-safe plate lined with 2 paper towels. Cover with 2 more paper towels and microwave on high for 30 seconds. Discard the towels and set the pepperoni aside; repeat with new paper towels and the remaining pepperoni."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Remove the plastic wrap from the dough. Ladle 3/4 cup of the sauce on each round, leaving a 1/2-inch border around the edges. Sprinkle each with 11/2 cups of the cheese and top with the pepperoni. Bake until the cheese is melted and the pepperoni is browning around the edges, about 20 minutes. Remove from the oven; let the pizzas rest in the pans for 1 minute. Using a spatula, transfer the pizzas to a cutting board and cut each into 8 wedges. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 67484,
+    "end": 67540,
+    "yieldLine": "MAKES two 9-inch pizzas"
+  },
+  "fit": true
+}

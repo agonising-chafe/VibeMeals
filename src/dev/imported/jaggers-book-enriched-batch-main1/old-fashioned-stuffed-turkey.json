@@ -1,0 +1,241 @@
+{
+  "mapped": {
+    "id": "atk_old-fashioned-stuffed-turkey",
+    "name": "Old-Fashioned Stuffed Turkey",
+    "slug": "old-fashioned-stuffed-turkey",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 300,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "12-to-14-pound-turkey-giblets-and-neck-reserved-for-gravy-if-making",
+        "displayName": "(12- to 14-pound) turkey, giblets and neck reserved for gravy, if making",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-kosher-salt",
+        "displayName": "plus 2 teaspoons kosher salt",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt-pork-cut-into-1-4-inch-thick-slices-and-rinsed",
+        "displayName": "salt pork, cut into 1/4-inch-thick slices and rinsed",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "about-15-slices-high-quality-white-sandwich-bread-cut-into-1-2-inch-cubes-about-12-cups",
+        "displayName": "(about 15 slices) high-quality white sandwich bread, cut into 1/2-inch cubes (about 12 cups)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-plus-extra-for-the-baking-dish",
+        "displayName": "(1/2 stick) unsalted butter, plus extra for the baking dish",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "STUFFING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "celery-ribs-chopped-fine",
+        "displayName": "celery ribs, chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "kosher-salt-and-ground-black-pepper",
+        "displayName": "Kosher salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "minced-fresh-marjoram-leaves",
+        "displayName": "minced fresh marjoram leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "minced-fresh-sage-leaves",
+        "displayName": "minced fresh sage leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      },
+      {
+        "ingredientId": "36-inch-square-cheesecloth-folded-in-quarters",
+        "displayName": "36-inch square cheesecloth, folded in quarters",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "STUFFING"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Salt and refrigerate the turkey.",
+        "durationMinutes": 2880,
+        "type": "MARINATE"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TURKEY: Use your fingers or the handle of a wooden spoon to separate the turkey skin from the meat on the breast, legs, thighs, and back; avoid breaking the skin. Rub 1 tablespoon of the salt evenly inside the cavity of the turkey, 11/2 teaspoons salt under the skin of each breast half, and 11/2 teaspoons salt under the skin of each leg. Wrap the turkey tightly with plastic wrap; refrigerate for 24 to 48 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE STUFFING: Adjust an oven rack to the lowest position and heat the oven to 250 degrees. Spread the bread cubes in a single layer on a rimmed baking sheet; bake until the edges have dried but the centers are slightly moist (the cubes should yield to pressure), about 45 minutes, stirring several times during baking. Transfer to a large bowl and increase the oven temperature to 325 degrees. (The bread can be toasted up to 1 day ahead.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While the bread dries, heat the butter in a 12-inch skillet over medium-high heat; when the foaming subsides, add the onion, celery, 2 teaspoons salt, and 1 teaspoon pepper; cook, stirring occasionally, until the vegetables begin to soften and brown slightly, 7 to 10 minutes. Stir in the herbs; cook until fragrant, about 1 minute. Add the vegetables to the bowl with the dried bread; add 1 cup of the broth and toss until evenly moistened."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "TO ROAST THE TURKEY: Combine the remaining 2 teaspoons salt and the baking powder in a small bowl. Remove the turkey from the refrigerator and unwrap. Thoroughly dry the turkey inside and out with paper towels. Using a skewer, poke 15 to 20 holes in the fat deposits on top of the breast halves and thighs, 4 to 5 holes in each deposit. Sprinkle the surface of the turkey with the salt–baking powder mixture and rub in the mixture with your hands, coating the skin evenly. Tuck the wings underneath the turkey. Line the turkey cavity with the cheesecloth, pack with 4 to 5 cups stuffing, and tie the ends of the cheesecloth together. Cover the remaining stuffing with plastic wrap and refrigerate. Using kitchen twine, loosely tie the turkey legs together. Place the turkey breast side down in a V-rack set in a roasting pan and drape the salt pork slices over the back."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Roast the turkey breast side down until the thickest part of the breast registers 130 degrees on an instant-read thermometer, 2 to 21/2 hours. Remove the roasting pan from the oven and increase the oven temperature to 450 degrees. Transfer the turkey in the V-rack to a rimmed baking sheet. Remove and discard the salt pork. Using clean potholders or kitchen towels, rotate the turkey breast side up. Cut the twine binding the legs and remove the stuffing bag; empty into the reserved stuffing in the bowl. Pour the drippings from the roasting pan into a fat separator and reserve for gravy."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Once the oven has come to temperature, return the turkey in the V-rack to the roasting pan and roast until the skin is golden brown and crisp, the thickest part of the breast registers 160 degrees, and the thickest part of the thigh registers 175 degrees, about 45 minutes, rotating the pan halfway through. Transfer the turkey to a carving board and let rest, uncovered, for 30 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "While the turkey rests, reduce the oven temperature to 400 degrees. Whisk the eggs and remaining 1/2 cup broth together in a small bowl. Pour the egg mixture over the stuffing and toss to combine, breaking up any large chunks; spread in a buttered 13 by 9-inch baking dish. Bake until the stuffing registers 165 degrees and the top is golden brown, about 15 minutes. Carve the turkey and serve with the stuffing."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29329,
+    "end": 29391,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

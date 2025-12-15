@@ -1,0 +1,176 @@
+{
+  "mapped": {
+    "id": "atk_folded-enchiladas",
+    "name": "Folded Enchiladas",
+    "slug": "folded-enchiladas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "feta-cheese-can-be-substituted-for-the-queso-fresco-guajillo-chiles-are-tangy-with-just-a-bit-of-heat",
+        "displayName": "Feta cheese can be substituted for the queso fresco. Guajillo chiles are tangy, with just a bit of heat.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "dried-guajillo-chiles-wiped-clean",
+        "displayName": "dried guajillo chiles, wiped clean",
+        "amount": 0.6666666666666666,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-tomato-sauce",
+        "displayName": "can tomato sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-peeled-and-smashed",
+        "displayName": "clove, peeled and smashed",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-soft-corn-tortillas",
+        "displayName": "(6-inch) soft corn tortillas",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-chopped-fine",
+        "displayName": "small onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "queso-fresco-crumbled-1-2-cup",
+        "displayName": "queso fresco, crumbled (1/2 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toast guajillos in 10-inch nonstick skillet over medium-high heat until softened and fragrant, 1 to 2 minutes per side. Transfer to large plate and, when cool enough to handle, remove stems and seeds. Place guajillos in blender and process until finely ground, 60 to 90 seconds, scraping down sides of blender jar as needed. Add tomato sauce, broth, oil, garlic, vinegar, and cumin to blender and process until very smooth, 60 to 90 seconds, scraping down sides of blender jar as needed. Season with salt to taste."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place 1 cup enchilada sauce in large bowl. Spray both sides of tortillas with oil spray and stack on plate. Microwave, covered, until softened and warm, 60 to 90 seconds. Working with 1 tortilla at a time, dip into sauce in bowl to coat both sides, fold in quarters, and place in 8-inch square baking dish (enchiladas will overlap slightly in dish)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "When ready to serve, pour remaining sauce evenly over enchiladas. Microwave enchiladas until hot throughout, 3 to 5 minutes. Sprinkle evenly with onion and queso fresco. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 50449,
+    "end": 50489,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

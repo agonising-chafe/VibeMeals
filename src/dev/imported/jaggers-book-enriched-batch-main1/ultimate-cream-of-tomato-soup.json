@@ -1,0 +1,185 @@
+{
+  "mapped": {
+    "id": "atk_ultimate-cream-of-tomato-soup",
+    "name": "Ultimate Cream of Tomato Soup",
+    "slug": "ultimate-cream-of-tomato-soup",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "baseServings": 3.5,
+      "yieldText": "SERVES 3 to 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "why-this-recipes-works-canned-cream-of-tomato-soup-is-a-childhood-favorite-we-wanted-a-version-for-grown-ups-a-well-balanced-cream-of-tomato-soup-one-with-rich-color-great-tomato-flavor-and-a-silky-texture-right-away-we-turned-to-canned-tomatoes-fresh-tomatoes-are-at-their-best-just-a-few-months-out-of-the-year-and-we-didn-t-want-to-restrict-our-soup-making-to-just-one-season-to-coax-the-most-flavor-from-our-canned-whole-tomatoes-we-roasted-them-the-intense-dry-heat-concentrated-the-flavor-and-a-sprinkling-of-brown-sugar-encouraged-caramelization-we-cooked-our-roasted-tomatoes-with-shallots-chicken-broth-and-reserved-tomato-juice-to-develop-robust-flavor-then-pureed-the-tomatoes-with-broth-to-keep-the-deep-flavor-of-the-tomato-broth-intact-finished-with-heavy-cream-and-a-splash-of-brandy-this-soup-will-satisfy-everyone-at-the-table-make-sure-to-use-canned-whole-tomatoes-that-are-not-packed-in-puree-you-will-need-some-of-the-juice-to-make-the-soup",
+        "displayName": "WHY THIS RECIPES WORKS Canned cream of tomato soup is a childhood favorite. We wanted a version for grown-ups, a well-balanced cream of tomato soup, one with rich color, great tomato flavor, and a silky texture. Right away, we turned to canned tomatoes; fresh tomatoes are at their best just a few months out of the year and we didn’t want to restrict our soup-making to just one season. To coax the most flavor from our canned whole tomatoes, we roasted them. The intense dry heat concentrated the flavor, and a sprinkling of brown sugar encouraged caramelization. We cooked our roasted tomatoes with shallots, chicken broth, and reserved tomato juice to develop robust flavor, then pureed the tomatoes (with broth) to keep the deep flavor of the tomato broth intact. Finished with heavy cream and a splash of brandy, this soup will satisfy everyone at the table. Make sure to use canned whole tomatoes that are not packed in puree; you will need some of the juice to make the soup.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cans-whole-tomatoes-not-packed-in-puree-drained-3-cups-juice-reserved-tomatoes-seeded",
+        "displayName": "cans whole tomatoes (not packed in puree), drained, 3 cups juice reserved, tomatoes seeded",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dark-brown-sugar",
+        "displayName": "dark brown sugar",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-shallots-minced",
+        "displayName": "large shallots, minced",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-ground-allspice",
+        "displayName": "Pinch ground allspice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "brandy-or-dry-sherry",
+        "displayName": "brandy or dry sherry",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "Cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to upper-middle position and heat oven to 450 degrees; line rimmed baking sheet with aluminum foil. Spread tomatoes in single layer on foil, and sprinkle evenly with brown sugar. Bake until all liquid has evaporated and tomatoes begin to color, about 30 minutes. Let tomatoes cool slightly, then peel them off foil; transfer to small bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat butter over medium heat in medium nonreactive saucepan until foaming; add shallots, tomato paste, and allspice. Reduce heat to low, cover, and cook, stirring occasionally, until shallots are softened, 7 to 10 minutes. Add flour and cook, stirring constantly, until thoroughly combined, about 30 seconds. Whisking constantly, gradually add broth; stir in reserved tomato juice and roasted tomatoes. Cover, increase heat to medium, and bring to boil; reduce heat to low and simmer, stirring occasionally, to blend flavors, about 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Strain mixture through fine-mesh strainer set over medium bowl. Process solids from strainer and 1 cup strained liquid in blender until smooth, 1 to 2 minutes. (Soup can be refrigerated for up to 3 days or frozen for up to 2 months. Reheat over low heat before proceeding with step 4.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return pureed mixture and remaining strained liquid to clean saucepan. Stir in cream and heat over low heat until hot, about 3 minutes. Off heat, stir in brandy. Season with salt and cayenne to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10552,
+    "end": 10600,
+    "yieldLine": "SERVES 3 to 4"
+  },
+  "fit": true
+}

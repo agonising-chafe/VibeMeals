@@ -1,0 +1,143 @@
+{
+  "mapped": {
+    "id": "atk_scrambled-eggs-with-pinto-beans-and-cotija-cheese",
+    "name": "Scrambled Eggs with Pinto Beans and Cotija Cheese",
+    "slug": "scrambled-eggs-with-pinto-beans-and-cotija-cheese",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 15,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "if-cotija-cheese-is-unavailable-you-can-substitute-feta-cheese-we-like-to-serve-these-eggs-with-warm-tortillas-and-hot-sauce-this-recipe-can-easily-be-halved-if-desired-use-a-10-inch-skillet",
+        "displayName": "If cotija cheese is unavailable, you can substitute feta cheese. We like to serve these eggs with warm tortillas and hot sauce. This recipe can easily be halved if desired; use a 10-inch skillet.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jarred-sliced-jalape-os-chopped-coarse",
+        "displayName": "jarred sliced jalapeños, chopped coarse",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "can-pinto-beans-rinsed",
+        "displayName": "can pinto beans, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro-divided",
+        "displayName": "chopped fresh cilantro, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "cotija-cheese-crumbled-1-4-cup",
+        "displayName": "cotija cheese, crumbled (1/4 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "In medium bowl, beat eggs, 2 tablespoons oil, and salt with fork until no streaks of white remain. Heat 1 teaspoon olive oil, jalapeños, and garlic in 12-inch nonstick skillet over medium heat until fragrant, about 1 minute. Add beans and 3 tablespoons cilantro and cook, stirring frequently, until moisture has evaporated, about 1 minute. Transfer bean mixture to small bowl and set aside. Wipe skillet clean with paper towels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat remaining 2 teaspoons oil in now-empty skillet over medium-high heat until shimmering. Add egg mixture and, using rubber spatula, constantly and firmly scrape along bottom and sides of skillet until eggs begin to clump and spatula just leaves trail on bottom of skillet, 30 to 60 seconds. Reduce heat to low and gently but constantly fold eggs until clumped and just slightly wet, 30 to 60 seconds. Fold in bean mixture. Transfer to serving dish, sprinkle with cotija and remaining 1 tablespoon cilantro, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 3426,
+    "end": 3458,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

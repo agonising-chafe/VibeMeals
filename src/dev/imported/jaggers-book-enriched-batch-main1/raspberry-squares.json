@@ -1,0 +1,148 @@
+{
+  "mapped": {
+    "id": "atk_raspberry-squares",
+    "name": "Raspberry Squares",
+    "slug": "raspberry-squares",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 100,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 25 squares",
+      "baseServings": 25
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "71-2-ounces-all-purpose-flour",
+        "displayName": "(71/2 ounces) all-purpose flour",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "33-4-ounces-quick-oats",
+        "displayName": "(33/4 ounces) quick oats",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecans-or-almonds-chopped-fine",
+        "displayName": "pecans or almonds, chopped fine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "21-3-ounces-granulated-sugar",
+        "displayName": "(21/3 ounces) granulated sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-21-3-ounces-light-brown-sugar",
+        "displayName": "packed (21/3 ounces) light brown sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-12-pieces-and-softened",
+        "displayName": "unsalted butter, cut into 12 pieces and softened",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "raspberry-preserves",
+        "displayName": "raspberry preserves",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 350 degrees. Make foil sling for 9-inch square baking pan by folding 2 long sheets of aluminum foil so each is 9 inches wide. Lay sheets of foil in pan perpendicular to each other, with extra foil hanging over edges of pan. Push foil into corners and up sides of pan, smoothing foil flush to pan. Spray with vegetable oil spray."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk flour, oats, pecans, granulated sugar, brown sugar, baking soda, and salt together in large bowl. Using stand mixer fitted with paddle, beat flour mixture and butter at low speed until well blended and mixture resembles wet sand, about 2 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer two-thirds of mixture to prepared pan. Press crumbs evenly and firmly into bottom of pan. Bake until just starting to brown, about 20 minutes. Using rubber spatula, spread preserves evenly over hot crust; sprinkle remaining flour mixture evenly over preserves. Bake until bubbling around edges and top is golden brown, about 30 minutes, rotating pan halfway through baking. Let cool completely in pan on wire rack. Using foil overhang, lift bars out of pan and transfer to cutting board. Cut bars into 25 squares and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 70663,
+    "end": 70701,
+    "yieldLine": "MAKES 25 squares"
+  },
+  "fit": true
+}

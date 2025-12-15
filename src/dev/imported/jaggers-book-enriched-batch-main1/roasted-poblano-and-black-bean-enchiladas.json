@@ -1,0 +1,251 @@
+{
+  "mapped": {
+    "id": "atk_roasted-poblano-and-black-bean-enchiladas",
+    "name": "Roasted Poblano and Black Bean Enchiladas",
+    "slug": "roasted-poblano-and-black-bean-enchiladas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "tomatillos-husks-and-stems-removed-rinsed-well-dried-and-halved",
+        "displayName": "tomatillos, husks and stems removed, rinsed well, dried, and halved",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "poblano-chiles-halved-stemmed-and-seeded",
+        "displayName": "poblano chiles, halved, stemmed, and seeded",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-4-cup-vegetable-oil-divided",
+        "displayName": "plus 1/4 cup vegetable oil, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-chopped-fine-divided",
+        "displayName": "onions, chopped fine, divided",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves-divided",
+        "displayName": "fresh cilantro leaves, divided",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-broth",
+        "displayName": "vegetable broth",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cloves-minced-divided",
+        "displayName": "cloves, minced, divided",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "lime-juice",
+        "displayName": "lime juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "chili-powder",
+        "displayName": "chili powder",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "can-black-beans-rinsed-half-of-beans-mashed-smooth",
+        "displayName": "can black beans, rinsed, half of beans mashed smooth",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "monterey-jack-cheese-shredded-2-cups-divided",
+        "displayName": "Monterey Jack cheese, shredded (2 cups), divided",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "6-inch-corn-tortillas",
+        "displayName": "(6-inch) corn tortillas",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack 6 inches from broiler element and heat broiler. Line rimmed baking sheet with aluminum foil. Toss tomatillos and poblanos with 1 teaspoon oil. Arrange tomatillos cut side down and poblanos skin side up on prepared sheet. Broil until vegetables are blackened and beginning to soften, 5 to 10 minutes. Let vegetables cool slightly. Remove skins and seeds from poblanos (leave tomatillo skins intact), then chop into 1/2-inch pieces."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process broiled tomatillos, 1 cup onion, 1/2 cup cilantro, broth, cream, 1 tablespoon oil, half of garlic, lime juice, 1 teaspoon salt, and sugar in food processor until sauce is smooth, about 2 minutes. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 1 tablespoon oil in 12-inch skillet over medium heat until shimmering. Add remaining onion and remaining 1/4 teaspoon salt and cook until softened, 5 to 7 minutes. Stir in chili powder, coriander, cumin, and remaining garlic and cook until fragrant, about 30 seconds. Stir in mashed and whole beans and chopped poblanos and cook until warmed through, about 2 minutes. Transfer mixture to large bowl and let cool slightly. Stir in 1 cup Monterey Jack, 1/2 cup tomatillo sauce, and remaining 1/2 cup cilantro. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Spread 1/2 cup tomatillo sauce over bottom of 13 by 9-inch baking dish. Brush both sides of tortillas with remaining 2 tablespoons oil. Arrange tortillas, overlapping, on rimmed baking sheet in 2 rows (6 tortillas each). Bake until tortillas are warm and pliable, about 5 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Working with 1 warm tortilla at a time, spread 1/4 cup bean-cheese filling across center of tortilla. Roll tortilla tightly around filling and place seam side down in baking dish; arrange enchiladas in 2 rows across width of dish."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Pour remaining sauce over top to cover completely and sprinkle remaining 1 cup cheese down center of enchiladas. Cover dish tightly with greased aluminum foil. Bake until enchiladas are heated through and cheese is melted, about 25 minutes. Let cool for 5 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 47777,
+    "end": 47841,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

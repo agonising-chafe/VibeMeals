@@ -1,0 +1,172 @@
+{
+  "mapped": {
+    "id": "atk_beef-satay",
+    "name": "Beef Satay",
+    "slug": "beef-satay",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 9,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "peanut-or-vegetable-oil",
+        "displayName": "peanut or vegetable oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro-leaves",
+        "displayName": "minced fresh cilantro leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin",
+        "displayName": "scallions, sliced thin",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sriracha-or-more-to-taste",
+        "displayName": "sriracha, or more to taste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "flank-steak-trimmed-halved-lengthwise-frozen-for-30-minutes-and-sliced-across-the-grain-into-1-4-inch-thick-strips",
+        "displayName": "flank steak, trimmed, halved lengthwise, frozen for 30 minutes, and sliced across the grain into 1/4-inch-thick strips",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-spicy-peanut-dipping-sauce-recipe-follows",
+        "displayName": "recipe Spicy Peanut Dipping Sauce (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "kind": "MARINATE",
+        "durationMinutes": 60,
+        "optional": false,
+        "description": "Marinate beef in refrigerator for 1 hour.",
+        "criticality": "CRITICAL",
+        "type": "LONG_PREP"
+      },
+      {
+        "kind": "FREEZE",
+        "durationMinutes": 30,
+        "optional": false,
+        "description": "Freeze flank steak for 30 minutes to make slicing easier.",
+        "criticality": "CRITICAL",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine the soy sauce, oil, sugar, cilantro, scallions, sriracha, and garlic in a large bowl. Stir in the beef, cover, and refrigerate for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack 6 inches from the heating element and heat the broiler."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Weave the meat onto 6-inch bamboo skewers (one piece per skewer). Lay the skewers on a wire rack set over a rimmed baking sheet and cover the skewer ends with foil. Broil the skewers until the meat is browned, 6 to 9 minutes, flipping the skewers over halfway through. Transfer the skewers to a serving platter and serve with the peanut sauce."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "PEANUT",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 33642,
+    "end": 33680,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

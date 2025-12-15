@@ -1,0 +1,205 @@
+{
+  "mapped": {
+    "id": "atk_black-bean-burgers",
+    "name": "Black Bean Burgers",
+    "slug": "black-bean-burgers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cans-black-beans-rinsed",
+        "displayName": "cans black beans, rinsed",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-minced-1-4-cup",
+        "displayName": "scallions, minced (1/4 cup)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro",
+        "displayName": "minced fresh cilantro",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hot-sauce-optional",
+        "displayName": "hot sauce (optional)",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "tortilla-chips-crushed-coarse-1-2-cup",
+        "displayName": "tortilla chips, crushed coarse (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 8,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "burger-buns",
+        "displayName": "burger buns",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate black bean mixture for at least 1 hour or up to 24 hours.",
+        "durationMinutes": 60,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Line rimmed baking sheet with triple layer of paper towels and spread black beans over towels. Let stand for 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk eggs and flour in large bowl until uniform paste forms. Stir in scallions; cilantro; garlic; cumin; coriander; salt; pepper; and hot sauce, if using, until well combined."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Process tortilla chips in food processor until finely ground, about 30 seconds. Add black beans and pulse until beans are roughly broken down, about 5 pulses. Transfer black bean mixture to bowl with egg mixture and mix until well combined. Cover and refrigerate for at least 1 hour or up to 24 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Divide bean mixture into 6 equal portions. Firmly pack each portion into tight ball, then flatten to 31/2-inch patty. (Patties can be wrapped individually in plastic wrap, placed in a zipper-lock bag, and frozen for up to 2 weeks. Thaw patties before cooking.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat 2 teaspoons oil in 10-inch nonstick skillet over medium heat until shimmering. Carefully lay 3 patties in skillet and cook until bottoms are well-browned and crisp, about 5 minutes. Flip patties, add 2 teaspoons oil, and cook second sides until well-browned and crisp, 3 to 5 minutes. Transfer patties to buns and repeat with remaining 3 patties and 4 teaspoons oil. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 48973,
+    "end": 49025,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

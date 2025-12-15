@@ -1,0 +1,226 @@
+{
+  "mapped": {
+    "id": "atk_cuban-style-black-beans-and-rice",
+    "name": "Cuban-Style Black Beans and Rice",
+    "slug": "cuban-style-black-beans-and-rice",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-for-soaking-beans",
+        "displayName": "table salt for soaking beans",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-black-beans-picked-over-and-rinsed",
+        "displayName": "dried black beans, picked over and rinsed",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-green-bell-peppers-stemmed-seeded-and-halved-divided",
+        "displayName": "large green bell peppers, stemmed, seeded, and halved, divided",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-halved-crosswise-root-end-left-intact-divided",
+        "displayName": "large onion, halved crosswise, root end left intact, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "head-5-cloves-minced-remaining-head-halved-crosswise-with-skin-left-intact",
+        "displayName": "head (5 cloves minced, remaining head halved crosswise with skin left intact)",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "long-grain-white-rice",
+        "displayName": "long-grain white rice",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lean-salt-pork-cut-into-1-4-inch-pieces",
+        "displayName": "lean salt pork, cut into 1/4-inch pieces",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-oregano",
+        "displayName": "minced fresh oregano",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-sliced-thin",
+        "displayName": "scallions, sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Soak black beans",
+        "durationMinutes": 480,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 11/2 tablespoons salt in 2 quarts cold water in large bowl or container. Add beans and soak at room temperature for at least 8 hours or up to 24 hours. Drain and rinse well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "In Dutch oven, stir together drained beans, broth, 2 cups water, 1 bell pepper half, 1 onion half (with root end), halved garlic head, bay leaves, and 1 teaspoon salt. Bring to simmer over medium-high heat, cover, and reduce heat to low. Cook until beans are just soft, 30 to 35 minutes. Using tongs, discard pepper, onion, garlic, and bay leaves. Drain beans in colander set over large bowl, reserving 21/2 cups bean cooking liquid. (If you don’t have enough bean cooking liquid, add water to equal 21/2 cups.) Do not wash Dutch oven."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position and heat oven to 350 degrees. Place rice in large fine-mesh strainer and rinse under cold running water until water runs clear, about 11/2 minutes. Shake strainer vigorously to remove all excess water; set rice aside. Cut remaining peppers and onion into 2-inch pieces and process in food processor until broken into rough 1/4-inch pieces, about 8 pulses, scraping down bowl as necessary; set vegetables aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "In now-empty Dutch oven, heat 1 tablespoon oil and salt pork over medium-low heat and cook, stirring frequently, until lightly browned and rendered, 15 to 20 minutes. Add remaining 1 tablespoon oil, chopped bell peppers and onion, cumin, and oregano. Increase heat to medium and continue to cook, stirring frequently, until vegetables are softened and beginning to brown, 10 to 15 minutes longer. Add minced garlic and cook, stirring constantly, until fragrant, about 1 minute. Add rice and stir to coat, about 30 seconds."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Stir in beans, reserved bean cooking liquid, vinegar, and remaining 1/2 teaspoon salt. Increase heat to medium-high and bring to simmer. Cover and transfer to oven. Cook until liquid is absorbed and rice is tender, about 30 minutes. Fluff with fork and let rest, uncovered, for 5 minutes. Serve, passing scallions and lime wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 41264,
+    "end": 41320,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

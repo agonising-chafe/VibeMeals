@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_buca-di-beppo-chicken-marsala",
+    "name": "Buca di Beppo Chicken Marsala",
+    "slug": "buca-di-beppo-chicken-marsala",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chicken-marsala-is-an-elegant-and-delicious-italian-dish-that-is-also-really-easy-to-make-food-at-buca-di-beppo-is-served-family-style-so-serve-this-dish-on-a-big-platter-in-the-center-of-the-table",
+        "displayName": "Chicken Marsala is an elegant and delicious Italian dish that is also really easy to make. Food at Buca di Beppo is served family style, so serve this dish on a big platter in the center of the table.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts",
+        "displayName": "boneless, skinless chicken breasts",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter",
+        "displayName": "salted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "marsala-wine",
+        "displayName": "marsala wine",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-stock",
+        "displayName": "chicken stock",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-sliced-fresh-baby-portobello-mushrooms",
+        "displayName": "¼ cups sliced fresh baby portobello mushrooms",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-linguine-pasta-cooked-per-package-directions",
+        "displayName": "dry linguine pasta, cooked per package directions",
+        "amount": 16,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-chicken-breasts-1-at-a-time-between-two-sheets-of-wax-paper-pound-until-chicken-is-about-inch-thick",
+        "displayName": "Place chicken breasts 1 at a time between two sheets of wax paper. Pound until chicken is about ¼-inch thick.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-small-bowl-combine-flour-salt-pepper-and-oregano-dredge-chicken-in-flour-mixture-until-coated-thoroughly",
+        "displayName": "In a small bowl, combine flour, salt, pepper, and oregano. Dredge chicken in flour mixture until coated thoroughly.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-olive-oil-and-butter-in-a-10-inch-skillet-over-medium-high-heat-add-chicken-breasts-and-cook-until-almost-fully-cooked-about-3-minutes-per-side-remove-from-pan-and-set-aside",
+        "displayName": "Heat olive oil and butter in a 10-inch skillet over medium-high heat. Add chicken breasts and cook until almost fully cooked, about 3 minutes per side. Remove from pan and set aside.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "still-over-medium-high-heat-add-wine-to-pan-making-sure-to-scrape-any-brown-bits-from-bottom-of-pan-add-chicken-stock-mushrooms-and-garlic-cook-10-minutes-or-until-sauce-has-been-reduced-by-half",
+        "displayName": "Still over medium-high heat, add wine to pan, making sure to scrape any brown bits from bottom of pan. Add chicken stock, mushrooms, and garlic. Cook 10 minutes or until sauce has been reduced by half.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "return-chicken-to-pan-and-cook-10-minutes-more-sauce-should-be-thick-place-cooked-pasta-on-a-platter-add-chicken-and-pour-sauce-over-top-serve-immediately",
+        "displayName": "Return chicken to pan and cook 10 minutes more. Sauce should be thick. Place cooked pasta on a platter. Add chicken and pour sauce over top. Serve immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "there-are-about-eighty-of-these-restaurants-operating-nationwide-the-chain-specializes-in-italian-american-food-which-is-served-family-style-and-meant-to-be-shared-among-the-dining-party",
+        "displayName": "There are about eighty of these restaurants operating nationwide. The chain specializes in Italian American food, which is served family style and meant to be shared among the dining party.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7984,
+    "end": 8040,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

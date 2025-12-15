@@ -1,0 +1,130 @@
+{
+  "mapped": {
+    "id": "atk_fettuccine-alfredo",
+    "name": "Fettuccine Alfredo",
+    "slug": "fettuccine-alfredo",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-fettuccine",
+        "displayName": "fresh fettuccine",
+        "amount": 9,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-3-4-cup",
+        "displayName": "Parmesan cheese, grated (about 3/4 cup)",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "grated-nutmeg",
+        "displayName": "grated nutmeg",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 1 cup of the heavy cream and the butter to a simmer in a medium saucepan over medium heat; reduce the heat to low and simmer gently until the mixture reduces to 2/3 cup, 12 to 15 minutes. Off the heat, stir in the remaining 1/2 cup cream, 1/2 teaspoon salt, and the pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While the cream reduces, bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta to the boiling water and cook, stirring often, until just shy of al dente. Reserve 1/4 cup of the cooking water then drain the pasta and return it to the pot."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, return the cream mixture to a simmer over medium-high heat; reduce the heat to low and add the pasta, cheese, and nutmeg to the cream mixture. Cook over low heat, tossing the pasta to combine, until the cheese is melted, the sauce coats the pasta, and the pasta is just al dente, 1 to 2 minutes. Stir in the reserved pasta cooking water and toss to coat; the sauce may look thin but will gradually thicken as the pasta is served. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 17935,
+    "end": 17969,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

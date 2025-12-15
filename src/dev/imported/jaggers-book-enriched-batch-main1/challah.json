@@ -1,0 +1,286 @@
+{
+  "mapped": {
+    "id": "atk_challah",
+    "name": "Challah",
+    "slug": "challah",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 405,
+      "equipmentTags": [
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "yieldText": "MAKES 1 loaf",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FLOUR PASTE"
+      },
+      {
+        "ingredientId": "bread-flour",
+        "displayName": "bread flour",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FLOUR PASTE"
+      },
+      {
+        "ingredientId": "large-egg-plus-2-large-yolks",
+        "displayName": "large egg plus 2 large yolks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "DOUGH",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "151-8-ounces-bread-flour",
+        "displayName": "(151/8 ounces) bread flour",
+        "amount": 2.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "13-4-ounces-sugar",
+        "displayName": "(13/4 ounces) sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "EGG WASH",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "EGG WASH"
+      },
+      {
+        "ingredientId": "sesame-seeds-or-poppy-seeds-optional",
+        "displayName": "sesame seeds or poppy seeds (optional)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "EGG WASH",
+        "allergens": [
+          "SESAME"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "stepNumbers": [],
+        "minutes": 90,
+        "hours": 1.5,
+        "description": "Let dough rise until about doubled in volume",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "stepNumbers": [],
+        "minutes": 180,
+        "hours": 3,
+        "description": "Let rise until dough does not spring back fully when gently pressed with your knuckle",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "stepNumbers": [
+          9
+        ],
+        "minutes": 30,
+        "hours": 0.5,
+        "description": "Begin egg wash 30 minutes before baking",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "stepNumbers": [],
+        "minutes": 120,
+        "hours": 2,
+        "description": "Let cool completely before slicing",
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE FLOUR PASTE: Whisk water and flour in small bowl until no lumps remain. Microwave, whisking every 20 seconds, until mixture thickens to stiff, smooth, pudding-like consistency that forms mound when dropped from end of whisk into bowl, 40 to 80 seconds."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE DOUGH: In bowl of stand mixer, whisk flour paste, egg and yolks, water, and oil until well combined. Add flour and yeast. Fit mixer with dough hook and mix on low speed until all flour is moistened, 3 to 4 minutes. Let stand for 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add sugar and salt and mix on medium speed for 9 minutes (dough will be quite firm and dry). Transfer dough to counter and lightly spray now-empty mixer bowl with oil spray. Knead dough briefly to form ball and return it to prepared bowl. Lightly spray dough with oil spray and cover bowl with plastic wrap. Let dough rise until about doubled in volume, about 11/2 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Line rimmed baking sheet with parchment paper and nest in second rimmed baking sheet. Transfer dough to counter and press into 8-inch square, expelling as much air as possible. Cut dough in half lengthwise to form 2 rectangles. Cut each rectangle in half lengthwise to form 4 equal strips of dough. Roll 1 strip of dough into 16-inch rope. Continue rolling, tapering ends, until rope is 18 inches long. Repeat with remaining dough strips. Arrange ropes in plus-sign shape, with 4 ends overlapping in center by 1/2 inch. Firmly press center of cross into counter to seal ropes to each other and to counter."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Lift rope at 12 o’clock, bring over center, and place in 5 o’clock position. Lift rope at 6 o’clock, bring over center, and place in 12 o’clock position."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Lift rope at 9 o’clock, bring over center, and place in 4 o’clock position. Lift rope at 3 o’clock and, working toward yourself, bring over braid and place in 8 o’clock position. Adjust ropes so they are at 12, 3, 6, and 9 o’clock positions."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Repeat steps 5 and 6, working toward yourself, until you can no longer braid. Loaf will naturally list to 1 side."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Pinch ends of ropes together and tuck both ends under braid. Carefully transfer braid to prepared sheets. Cover loosely with plastic and let rise until dough does not spring back fully when gently pressed with your knuckle, about 3 hours."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "FOR THE EGG WASH: Thirty minutes before baking, adjust oven rack to middle position and heat oven to 350 degrees. Whisk together egg and salt. Brush loaf with egg wash and sprinkle with sesame seeds, if using. Bake until loaf is deep golden brown and registers at least 195 degrees, 35 to 40 minutes. Let cool on sheets for 20 minutes. Transfer loaf to wire rack and let cool completely before slicing, about 2 hours."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "After arranging ropes in cross shape following recipe, lift rope at 12 o’clock, bring over center, and place in 5 o’clock position."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Lift rope at 6 o’clock, bring over center, and place in 12 o’clock position."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Lift rope at 9 o’clock, bring over center, and place in 4 o’clock position."
+      },
+      {
+        "stepNumber": 13,
+        "instruction": "Lift rope at 3 o’clock and, working toward yourself, bring over braid and place in 8 o’clock position."
+      },
+      {
+        "stepNumber": 14,
+        "instruction": "Adjust ropes so they are at 12, 3, 6, and 9 o’clock positions. Repeat steps 1 through 5."
+      },
+      {
+        "stepNumber": 15,
+        "instruction": "Continue braiding, working toward yourself, until you can no longer braid. Loaf will naturally list to 1 side. Pinch ends of ropes together. Tuck both ends under braid."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 65554,
+    "end": 65660,
+    "yieldLine": "MAKES 1 loaf"
+  },
+  "fit": true
+}

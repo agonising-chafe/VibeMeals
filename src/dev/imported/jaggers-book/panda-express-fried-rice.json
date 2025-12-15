@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_panda-express-fried-rice",
+    "name": "Panda Express Fried Rice",
+    "slug": "panda-express-fried-rice",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fried-rice-is-a-popular-side-dish-at-panda-express-that-can-be-served-with-any-of-their-main-dishes-but-it-also-makes-a-good-main-dish-for-meat-free-days-for-the-best-texture-use-leftover-cooked-rice",
+        "displayName": "Fried Rice is a popular side dish at Panda Express that can be served with any of their main dishes, but it also makes a good main dish for meat-free days. For the best texture use leftover cooked rice.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-green-onion-white-part-only",
+        "displayName": "¼ cup chopped green onion, white part only",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-frozen-peas-and-carrots",
+        "displayName": "¼ cup frozen peas and carrots",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-beaten",
+        "displayName": "large eggs, beaten",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cooked-and-cooled-white-rice",
+        "displayName": "cooked and cooled white rice",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "light-soy-sauce",
+        "displayName": "light soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "displayName": "sesame oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-thinly-sliced-green-onion-green-part-only",
+        "displayName": "¼ cup thinly sliced green onion, green part only",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-high-heat-add-1-teaspoon-vegetable-oil-once-hot-swirl-to-coat-bottom-of-pan-and-add-chopped-green-onion-and-frozen-peas-and-carrots-cook-30-seconds-or-until-peas-and-carrots-are-thawed-transfer-to-a-plate-and-set-aside",
+        "displayName": "In a 10-inch skillet over medium-high heat, add 1 teaspoon vegetable oil. Once hot, swirl to coat bottom of pan and add chopped green onion and frozen peas and carrots. Cook 30 seconds or until peas and carrots are thawed. Transfer to a plate and set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "return-pan-to-medium-high-heat-and-add-remaining-vegetable-oil-once-hot-swirl-to-coat-bottom-of-pan-and-add-eggs-let-eggs-stand-10-seconds-then-scramble-30-seconds-add-rice-breaking-up-any-large-clumps-and-mix-with-eggs",
+        "displayName": "Return pan to medium-high heat and add remaining vegetable oil. Once hot, swirl to coat bottom of pan and add eggs. Let eggs stand 10 seconds, then scramble 30 seconds. Add rice, breaking up any large clumps, and mix with eggs.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fold-in-cooked-vegetables-soy-sauce-sesame-oil-and-sliced-green-onion-mix-until-fully-combined-and-hot-about-1-minute-serve-hot",
+        "displayName": "Fold in cooked vegetables, soy sauce, sesame oil, and sliced green onion. Mix until fully combined and hot, about 1 minute. Serve hot.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9407,
+    "end": 9447,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

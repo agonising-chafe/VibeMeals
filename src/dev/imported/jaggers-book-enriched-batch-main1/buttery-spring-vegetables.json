@@ -1,0 +1,148 @@
+{
+  "mapped": {
+    "id": "atk_buttery-spring-vegetables",
+    "name": "Buttery Spring Vegetables",
+    "slug": "buttery-spring-vegetables",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 35,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "turnips-peeled-and-cut-into-1-2-inch-by-1-2-inch-by-2-inch-batons",
+        "displayName": "turnips, peeled and cut into 1/2-inch by 1/2-inch by 2-inch batons",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "asparagus-trimmed-and-cut-on-bias-into-2-inch-lengths",
+        "displayName": "asparagus, trimmed and cut on bias into 2-inch lengths",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar-snap-peas-strings-removed-trimmed",
+        "displayName": "sugar snap peas, strings removed, trimmed",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-radishes-halved-and-sliced-thin",
+        "displayName": "large radishes, halved and sliced thin",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-shallot",
+        "displayName": "minced shallot",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-wine-vinegar",
+        "displayName": "white wine vinegar",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-6-pieces-and-chilled",
+        "displayName": "unsalted butter, cut into 6 pieces and chilled",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-chives",
+        "displayName": "minced fresh chives",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 1 cup water to boil in large saucepan over high heat. Place steamer basket over boiling water. Add turnips and asparagus to basket, cover saucepan, and reduce heat to medium. Cook until vegetables are slightly softened, about 2 minutes. Add snap peas, cover, and cook until snap peas are crisp-tender, about 2 minutes. Add radishes, cover, and cook for 1 minute. Lift basket out of saucepan and transfer vegetables to platter. Spread into even layer to allow steam to dissipate. Discard all but 3 tablespoons liquid from saucepan."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Return saucepan to medium heat. Add shallot, vinegar, salt, and sugar and cook until mixture is reduced to 11/2 tablespoons (it will barely cover bottom of saucepan), about 2 minutes. Reduce heat to low. Add butter, 1 piece at a time, whisking vigorously after each addition, until butter is incorporated and sauce has consistency of heavy cream, 4 to 5 minutes. Remove saucepan from heat. Add vegetables and stir to coat. Dry platter and return vegetables to platter. Sprinkle with chives and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 57354,
+    "end": 57392,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

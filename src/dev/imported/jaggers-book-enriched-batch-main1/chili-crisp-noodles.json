@@ -1,0 +1,250 @@
+{
+  "mapped": {
+    "id": "atk_chili-crisp-noodles",
+    "name": "Chili Crisp Noodles",
+    "slug": "chili-crisp-noodles",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sichuan-peppercorns",
+        "displayName": "Sichuan peppercorns",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsweetened-natural-peanut-butter",
+        "displayName": "unsweetened natural peanut butter",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "chinese-black-vinegar",
+        "displayName": "Chinese black vinegar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "chili-crisp-plus-extra-for-serving",
+        "displayName": "chili crisp, plus extra for serving",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-minced-to-paste",
+        "displayName": "cloves, minced to paste",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "fresh-chinese-wheat-noodles",
+        "displayName": "fresh Chinese wheat noodles",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "baby-bok-choy-stalks-sliced-thin-crosswise-greens-cut-into-3-4-inch-pieces",
+        "displayName": "baby bok choy, stalks sliced thin crosswise, greens cut into 3/4-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "scallions-white-and-green-parts-separated-and-sliced-thin",
+        "displayName": "scallions, white and green parts separated and sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "shaoxing-wine",
+        "displayName": "Shaoxing wine",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE AND NOODLES: Grind Sichuan peppercorns using mortar and pestle until finely ground; transfer to medium bowl. Whisk in peanut butter and soy sauce until fully incorporated, then whisk in vinegar until combined. Add chili crisp, sugar, garlic, and ginger and whisk to combine; set aside. (Sauce should be thick enough to coat a spoon, add 1 to 2 tablespoons water to thin out sauce if needed. Sauce can be refrigerated for up to 1 week.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring 4 quarts water to boil in large pot. Add noodles; reduce heat to maintain very gentle simmer, and cook, stirring occasionally, until almost tender (center of noodles should be firm with slightly opaque dot), 3 to 5 minutes. Drain noodles in colander then rinse under running water. Drain well. Transfer noodles to bowl with 3/4 cup sauce, tossing to coat."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE TOPPING: While water comes to boil, heat oil in 12-inch nonstick skillet over medium-high heat until shimmering. Add pork and cook until browned, breaking up meat into small pieces, 5 to 7 minutes. Add bok choy stalks and scallion whites and cook, stirring constantly, for 1 minute."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Stir in bok choy greens, Shaoxing wine, soy sauce, and sugar, stirring to coat pork and bok choy. Reduce heat to medium and cook until bok choy greens are wilted, about 1 minute. Remove from heat."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "To serve, divide noodles among individual serving bowls. Top with pork mixture then sprinkle with scallion greens. Serve with remaining chili crisp sauce and extra chili crisp, mixing each bowl well before eating."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "PEANUT",
+      "TREE_NUT",
+      "DAIRY",
+      "SOY",
+      "WHEAT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 20734,
+    "end": 20794,
+    "yieldLine": "SERVES 4 to 6 SEASON 26"
+  },
+  "fit": true
+}

@@ -1,0 +1,212 @@
+{
+  "mapped": {
+    "id": "atk_braised-monkfish-with-saffron-and-cured-olives",
+    "name": "Braised Monkfish with Saffron and Cured Olives",
+    "slug": "braised-monkfish-with-saffron-and-cured-olives",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "2-inch-strips-orange-zest-divided",
+        "displayName": "(2-inch) strips orange zest, divided",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced-divided",
+        "displayName": "cloves, minced, divided",
+        "amount": 5,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onion-halved-and-sliced-1-4-inch-thick",
+        "displayName": "large onion, halved and sliced 1/4 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-halved-lengthwise-and-sliced-1-4-inch-thick",
+        "displayName": "carrots, peeled, halved lengthwise, and sliced 1/4 inch thick",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-mint",
+        "displayName": "dried mint",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "saffron-threads-crumbled",
+        "displayName": "saffron threads, crumbled",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottle-clam-juice",
+        "displayName": "bottle clam juice",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "skinless-monkfish-fillets-1-to-11-2-inches-thick-trimmed-and-cut-into-3-inch-pieces",
+        "displayName": "skinless monkfish fillets, 1 to 11/2 inches thick, trimmed and cut into 3-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-oil-cured-black-olives-quartered",
+        "displayName": "pitted oil-cured black olives, quartered",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-mint",
+        "displayName": "minced fresh mint",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mince 1 strip orange zest and combine with 1 teaspoon garlic in bowl; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in Dutch oven over medium heat until shimmering. Add onion, carrots, salt, and remaining 2 strips orange zest and cook until vegetables are softened and lightly browned, 10 to 12 minutes. Stir in remaining garlic, tomato paste, paprika, cumin, dried mint, and saffron and cook until fragrant, about 30 seconds. Stir in clam juice, scraping up any browned bits."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pat monkfish dry with paper towels and season with salt and pepper. Nestle monkfish into pot, spoon some cooking liquid over top, and bring to simmer. Reduce heat to medium-low, cover, and simmer gently until monkfish is opaque when checked with tip of paring knife in center and registers 140 degrees, 8 to 12 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Discard orange zest. Gently stir in olives, fresh mint, vinegar, and garlic–orange zest mixture. Season with salt and pepper to taste. Serve"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43619,
+    "end": 43685,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

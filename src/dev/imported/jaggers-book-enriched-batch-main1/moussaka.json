@@ -1,0 +1,324 @@
+{
+  "mapped": {
+    "id": "atk_moussaka",
+    "name": "Moussaka",
+    "slug": "moussaka",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "OVEN",
+        "DUTCH_OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "eggplant-cut-into-3-4-inch-cubes",
+        "displayName": "eggplant, cut into 3/4-inch cubes",
+        "amount": 3.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-plus-3-tablespoons-extra-virgin-olive-oil-divided",
+        "displayName": "plus 2 teaspoons plus 3 tablespoons extra-virgin olive oil, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper-divided",
+        "displayName": "pepper, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "yukon-gold-potatoes-unpeeled-sliced-crosswise-1-4-inch-thick",
+        "displayName": "Yukon Gold potatoes, unpeeled, sliced crosswise 1/4 inch thick",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-red-wine",
+        "displayName": "dry red wine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "80-percent-lean-ground-beef",
+        "displayName": "80 percent lean ground beef",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "kasseri-cheese-shredded-1-cup",
+        "displayName": "kasseri cheese, shredded (1 cup)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-nutmeg",
+        "displayName": "ground nutmeg",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-yolks-lightly-beaten",
+        "displayName": "large egg yolks, lightly beaten",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE VEGETABLES: Adjust oven racks to middle and lower-middle positions and heat oven to 450 degrees. Line 2 rimmed baking sheets with aluminum foil and spray with vegetable oil spray. Divide eggplant evenly between prepared sheets. Toss each batch with 1/4 cup oil, 1/2 teaspoon salt, and 1/4 teaspoon pepper until evenly coated, and spread eggplant into single layer. Roast until eggplant is softened and lightly browned, about 30 minutes, switching and rotating sheets halfway through roasting. Transfer sheets to wire racks to cool. Reduce oven temperature to 400 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While eggplant roasts, grease 13 by 9-inch baking dish with 2 teaspoons oil. In medium bowl, toss potatoes with remaining 3 tablespoons oil, 1 teaspoon salt, and 1/4 teaspoon pepper. Cover and microwave until potatoes can be easily pierced with tip of paring knife, 8 to 10 minutes, stirring halfway through microwaving. Transfer potatoes, along with any accumulated liquid, to prepared dish and let rest until cool enough to handle, about 15 minutes. Shingle evenly in dish."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE MEAT SAUCE: Heat oil in Dutch oven over medium heat until shimmering. Add onion and salt and cook, stirring occasionally, until just starting to brown, 6 to 8 minutes. Add garlic and stir constantly until fragrant, about 1 minute. Add tomato paste and cook, stirring frequently, until paste darkens, about 2 minutes. Stir in wine, scraping up any browned bits from bottom of pot. Add paprika, oregano, pepper flakes, and cinnamon and cook, stirring frequently, until wine is almost completely evaporated, 2 to 3 minutes. Add beef; increase heat to medium-high; and cook, breaking up meat with wooden spoon, until no pink remains, 4 to 5 minutes. Add tomatoes and cook, stirring occasionally, until liquid has almost completely evaporated and spoon leaves trail when dragged through sauce, 6 to 8 minutes. Stir in vinegar, cover, and remove from heat."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE BÉCHAMEL: Melt butter in medium saucepan over medium heat. Whisk in flour and cook until golden, about 1 minute. Slowly whisk in milk and cook, whisking constantly, until mixture is thick, smooth, and comes to boil, about 5 minutes. Off heat, whisk in kasseri, salt, and nutmeg. Cover and let stand for 5 minutes. Whisk in egg yolks and cover to keep warm."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Cover potatoes with eggplant, lightly pressing into even layer. Spread meat sauce in even layer over eggplant. Top with béchamel. Place dish on rimmed baking sheet and bake on middle rack until top of moussaka is deeply browned in spots and is bubbling at edges, about 30 minutes. Let cool for 30 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 32047,
+    "end": 32127,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

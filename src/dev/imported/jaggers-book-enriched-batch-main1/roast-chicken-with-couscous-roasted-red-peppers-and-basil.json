@@ -1,0 +1,170 @@
+{
+  "mapped": {
+    "id": "atk_roast-chicken-with-couscous-roasted-red-peppers-and-basil",
+    "name": "Roast Chicken with Couscous, Roasted Red Peppers, and Basil",
+    "slug": "roast-chicken-with-couscous-roasted-red-peppers-and-basil",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 110,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "kosher-salt-divided",
+        "displayName": "kosher salt, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-chicken-giblets-discarded",
+        "displayName": "whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "couscous",
+        "displayName": "couscous",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jarred-roasted-red-peppers-chopped-fine",
+        "displayName": "jarred roasted red peppers, chopped fine",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Stir 21/2 teaspoons salt and pepper together in small bowl. Place chicken breast side up on cutting board. Using kitchen shears, thoroughly trim excess fat and skin from cavity. Lift 1 drumstick and use paring knife to cut 1/2-inch slit in skin where drumstick and thigh meet. Turn chicken on side so breast faces edge of counter. Cut 1/2-inch slit in skin where top of thigh meets breast. Repeat both cuts on opposite side of chicken. Tuck wingtips behind back. Sprinkle about one-third of salt mixture into cavity. Brush top and sides of chicken with melted butter. Sprinkle remaining salt mixture evenly over all sides of chicken."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in 12-inch skillet over medium-high heat until shimmering. Place chicken breast side up in skillet; transfer to oven; and roast until thickest part of breast registers 150 to 155 degrees, 1 hour to 1 hour 10 minutes, rotating skillet halfway through roasting. Transfer chicken to carving board and let rest for 15 minutes (chicken temperature will continue to rise as it rests)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, pour pan juices into fat separator. Add 2 teaspoons fat to now-empty skillet. Add garlic and cook over medium-low heat, stirring occasionally, until garlic is pale golden brown, about 3 minutes. Add couscous and stir until well combined. Stir in 1/4 cup defatted pan juices, water, vinegar, and remaining 1/2 teaspoon salt and bring to simmer. Spread red peppers in even layer over couscous; turn off heat; cover; and let sit until couscous is just tender and all liquid is absorbed, about 10 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Carve chicken and transfer to platter. Fluff couscous, stir in basil, season with salt to taste, and transfer to bowl. Serve chicken with couscous."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27553,
+    "end": 27601,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

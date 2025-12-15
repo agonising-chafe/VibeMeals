@@ -1,0 +1,152 @@
+{
+  "mapped": {
+    "id": "atk_x-h-ngsh-ch-o-j-d-n-chinese-stir-fried-tomatoes-and-eggs",
+    "name": "Xīhóngshì Chăo Jīdàn (Chinese Stir-Fried Tomatoes and Eggs)",
+    "slug": "x-h-ngsh-ch-o-j-d-n-chinese-stir-fried-tomatoes-and-eggs",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "scallions-white-parts-sliced-thin-green-parts-cut-into-1-inch-lengths",
+        "displayName": "scallions, white parts sliced thin, green parts cut into 1-inch lengths",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shaoxing-wine-or-dry-sherry",
+        "displayName": "Shaoxing wine or dry sherry",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes-drained-with-juice-reserved-cut-into-1-inch-pieces",
+        "displayName": "can whole peeled tomatoes, drained with juice reserved, cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine scallion whites, 1 tablespoon vegetable oil, garlic, and ginger in small bowl; set aside. Whisk eggs, Shaoxing wine, sesame oil, and 1/2 teaspoon salt together in separate bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat remaining 2 tablespoons vegetable oil in 12-inch nonstick or carbon-steel skillet or 14-inch flat-bottomed wok over medium-high heat until shimmering. Add egg mixture. Using rubber spatula, slowly but constantly scrape along bottom and sides of pan until eggs just form cohesive mass, 1 to 2 minutes (eggs will not be completely dry); transfer to clean bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add garlic mixture to now-empty pan and cook over medium heat, mashing mixture into pan, until fragrant, about 30 seconds. Add tomatoes and their juice, sugar, and remaining 1/2 teaspoon salt and simmer until almost completely dry, 5 to 7 minutes. Stir in egg mixture and scallion greens and cook, breaking up any large curds, until heated through, about 1 minute. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 3344,
+    "end": 3388,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

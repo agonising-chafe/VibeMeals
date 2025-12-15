@@ -1,0 +1,122 @@
+{
+  "mapped": {
+    "id": "atk_best-prime-rib",
+    "name": "Best Prime Rib",
+    "slug": "best-prime-rib",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 360,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "first-cut-beef-standing-rib-roast-3-bones-meat-removed-from-bones-bones-reserved",
+        "displayName": "first-cut beef standing rib roast (3 bones), meat removed from bones, bones reserved",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "step": 1,
+        "durationMinutes": 5760,
+        "instruction": "Salt and refrigerate roast, uncovered, for at least 24 hours or up to 4 days.",
+        "requirement": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Using sharp knife, cut through roast’s fat cap in 1-inch crosshatch pattern, being careful not to cut into meat. Rub salt over entire roast and into slits. Place meat back on bones (to save space in refrigerator), transfer to large plate, and refrigerate, uncovered, for at least 24 hours or up to 4 days."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to middle position and heat oven to 200 degrees. Set wire rack in rimmed baking sheet. Heat oil in 12-inch skillet over high heat until just smoking. Sear sides and top of roast (reserving bones) until browned, 6 to 8 minutes total (do not sear side where roast was cut from bones). Place meat back on ribs so bones fit where they were cut and let cool for 10 minutes; tie meat to bones with 2 lengths of kitchen twine between ribs. Transfer roast, fat side up, to prepared wire rack and sprinkle with pepper. Roast until meat registers 110 degrees, 3 to 4 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Turn off oven; leave roast in oven, opening door as little as possible, until meat registers 120 degrees for rare or 125 degrees for medium-rare, 30 minutes to 11/4 hours longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove roast from oven (leave roast on baking sheet), tent with aluminum foil, and let rest for at least 30 minutes or up to 11/4 hours."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Adjust oven rack to about 8 inches from broiler element and heat broiler. Remove foil from roast, form into 3-inch ball, and place under ribs to elevate fat cap. Broil until top of roast is well browned and crisp, 2 to 8 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer roast to carving board; cut twine and remove ribs from roast. Slice meat 3/4 inch thick. Season with salt to taste, and serve."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Remove ribs to make it easier to sear prime rib in skillet. Run sharp knife down length of bones, following contours as closely as possible to remove ribs."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Score fat cap in 1-inch crosshatch pattern to allow salt to contact meat directly and to improve fat rendering and crisping."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "After searing meat, place meat back on ribs so bones fit where they were cut and let cool for 10 minutes; tie meat to bones with 2 lengths of kitchen twine between ribs. Bones provide insulation to meat so it cooks evenly."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 35207,
+    "end": 35265,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

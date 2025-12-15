@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_olive-garden-chicken-gnocchi-soup",
+    "name": "Olive Garden Chicken & Gnocchi Soup",
+    "slug": "olive-garden-chicken-gnocchi-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chicken-gnocchi-soup-is-one-of-the-most-popular-soups-on-the-menu-at-olive-garden-look-for-premade-gnocchi-in-the-frozen-food-section-of-your-local-supermarket",
+        "displayName": "Chicken & Gnocchi Soup is one of the most popular soups on the menu at Olive Garden. Look for premade gnocchi in the frozen food section of your local supermarket.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-salted-butter",
+        "displayName": "⅓ cup salted butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cubed-chicken-breast",
+        "displayName": "cubed chicken breast",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "⅓ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrot-shredded",
+        "displayName": "½ medium carrot, shredded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-stalk-celery-shredded",
+        "displayName": "medium stalk celery, shredded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-yellow-onion",
+        "displayName": "¼ cup shredded yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-torn-fresh-spinach",
+        "displayName": "½ cup torn fresh spinach",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-bouillon-cubes",
+        "displayName": "chicken bouillon cubes",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "package-frozen-gnocchi",
+        "displayName": "package frozen gnocchi",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-3-quart-saucepan-over-medium-heat-melt-butter-add-garlic-and-saut-2-3-minutes-add-chicken-and-cook-8-10-minutes-until-chicken-is-golden-brown-and-reaches-an-internal-temperature-of-165-f",
+        "displayName": "In a 3-quart saucepan over medium heat, melt butter. Add garlic and sauté 2–3 minutes. Add chicken and cook 8–10 minutes until chicken is golden brown and reaches an internal temperature of 165°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "stir-in-flour-and-pepper-and-mix-well-cook-2-3-minutes-until-flour-is-cooked-into-chicken-add-milk-and-cream-and-stir-well",
+        "displayName": "Stir in flour and pepper and mix well. Cook 2–3 minutes until flour is cooked into chicken. Add milk and cream and stir well.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-carrot-celery-onion-and-spinach-drop-bouillon-cubes-into-pot-mix-ingredients-well-stirring-occasionally-cover-and-simmer-10-minutes",
+        "displayName": "Add carrot, celery, onion, and spinach. Drop bouillon cubes into pot. Mix ingredients well, stirring occasionally. Cover and simmer 10 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-gnocchi-to-pan-cook-3-4-minutes-more-until-gnocchi-is-done-serve-hot",
+        "displayName": "Add gnocchi to pan. Cook 3–4 minutes more, until gnocchi is done. Serve hot.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "gnocchi-is-an-italian-dumpling-most-gnocchi-are-potato-based-but-they-can-be-made-with-semolina-or-polenta-flour-gnocchi-are-eaten-as-entr-es-or-used-as-alternatives-to-pasta-in-soups-they-are-widely-available-dried-frozen-or-fresh-in-vacuum-sealed-packages-in-supermarkets-and-specialty-stores",
+        "displayName": "Gnocchi is an Italian dumpling. Most gnocchi are potato based, but they can be made with semolina or polenta flour. Gnocchi are eaten as entrées or used as alternatives to pasta in soups. They are widely available dried, frozen, or fresh in vacuum-sealed packages in supermarkets and specialty stores.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 3680,
+    "end": 3736,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

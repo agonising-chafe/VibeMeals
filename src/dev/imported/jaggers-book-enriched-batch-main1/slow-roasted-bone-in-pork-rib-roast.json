@@ -1,0 +1,114 @@
+{
+  "mapped": {
+    "id": "atk_slow-roasted-bone-in-pork-rib-roast",
+    "name": "Slow-Roasted Bone-In Pork Rib Roast",
+    "slug": "slow-roasted-bone-in-pork-rib-roast",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 270,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "4-to-5-pound-center-cut-bone-in-pork-rib-roast-chine-bone-removed",
+        "displayName": "(4- to 5-pound) center-cut bone-in pork rib roast, chine bone removed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-port-wine-cherry-sauce-recipe-follows",
+        "displayName": "recipe Port Wine–Cherry Sauce (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 6,
+        "description": "Wrap roast and ribs in plastic wrap and refrigerate for at least 6 hours or up to 24 hours after rubbing with sugar mixture.",
+        "strategy": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Using sharp knife, remove roast from bones, running knife down length of bones and following contours as closely as possible. Reserve bones. Combine sugar and salt in small bowl. Pat roast dry with paper towels. If necessary, trim thick spots of fat cap to about 1/4-inch thickness. Using sharp knife, cut through fat cap in 1-inch crosshatch pattern, being careful not to cut into meat. Rub roast evenly with sugar mixture. Wrap roast and ribs in plastic wrap and refrigerate for at least 6 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 250 degrees. Sprinkle roast evenly with pepper. Place roast back on ribs so bones fit where they were cut; tie roast to bones with lengths of kitchen twine between ribs. Transfer roast, fat side up, to wire rack set in rimmed baking sheet. Roast until meat registers 145 degrees, 3 to 4 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove roast from oven (leave roast on sheet), tent with aluminum foil, and let rest for 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Adjust oven rack 8 inches from broiler element and heat broiler. Return roast to oven and broil until top of roast is well browned and crispy, 2 to 6 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer roast to carving board; cut twine and remove meat from ribs. Slice meat 3/4 inch thick and serve, passing sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 39593,
+    "end": 39627,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

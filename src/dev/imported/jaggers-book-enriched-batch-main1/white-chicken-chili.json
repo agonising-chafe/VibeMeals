@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_white-chicken-chili",
+    "name": "White Chicken Chili",
+    "slug": "white-chicken-chili",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "bone-in-skin-on-chicken-breast-halves-trimmed",
+        "displayName": "bone-in, skin-on chicken breast halves, trimmed",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jalape-o-chiles",
+        "displayName": "jalapeño chiles",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "poblano-chiles-stemmed-seeded-and-cut-into-large-pieces",
+        "displayName": "poblano chiles, stemmed, seeded, and cut into large pieces",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anaheim-chiles-stemmed-seeded-and-cut-into-large-pieces",
+        "displayName": "Anaheim chiles, stemmed, seeded, and cut into large pieces",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-cut-into-large-pieces",
+        "displayName": "onions, cut into large pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cans-cannellini-beans-rinsed-divided",
+        "displayName": "cans cannellini beans, rinsed, divided",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth-divided",
+        "displayName": "chicken broth, divided",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro-leaves",
+        "displayName": "minced fresh cilantro leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lime-juice-2-limes",
+        "displayName": "lime juice (2 limes)",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "scallions-white-and-light-green-parts-sliced-thin",
+        "displayName": "scallions, white and light green parts sliced thin",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sprinkle chicken evenly with 1/2 teaspoon salt and pepper. Heat oil in Dutch oven over medium-high heat until just smoking. Add chicken, skin side down, and cook without moving until the skin is golden brown, about 4 minutes. Using tongs, turn chicken and lightly brown other side, about 2 minutes. Transfer chicken to plate; remove and discard skin."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While chicken is browning, remove and discard ribs and seeds from 2 jalapeños; mince flesh. In food processor, pulse half of poblanos, Anaheims, and onions until consistency of chunky salsa, 10 to 12 pulses, scraping down sides of workbowl halfway through. Transfer mixture to medium bowl. Repeat with remaining poblanos, Anaheims, and onions; combine with first batch (do not wash food processor blade or workbowl)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pour off all but 1 tablespoon fat from Dutch oven (adding more vegetable oil if necessary) and reduce heat to medium. Add minced jalapeños, chile-onion mixture, garlic, cumin, coriander, and remaining 1/4 teaspoon salt. Cover and cook, stirring occasionally, until vegetables soften, about 10 minutes. Remove pot from heat."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer 1 cup cooked vegetable mixture to now-empty food processor workbowl. Add 1 cup beans and 1 cup broth and process until smooth, about 20 seconds. Add vegetable-bean mixture, remaining 2 cups broth, and chicken breasts to Dutch oven and bring to boil over medium-high heat. Reduce heat to medium-low and simmer, covered, stirring occasionally, until chicken registers 160 degrees (175 degrees if using thighs), 15 to 20 minutes (40 minutes if using thighs)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Using tongs, transfer chicken to large plate. Stir in remaining beans and continue to simmer, uncovered, until beans are heated through and chili has thickened slightly, about 10 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Mince remaining jalapeño, reserving and mincing ribs and seeds, and set aside. When cool enough to handle, shred chicken into bite-size pieces, discarding bones. Stir shredded chicken, cilantro, lime juice, scallions, and minced jalapeño (with seeds if desired) into chili and return to simmer. Season with salt and pepper to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7424,
+    "end": 7482,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

@@ -1,0 +1,191 @@
+{
+  "mapped": {
+    "id": "atk_braised-oxtails-with-white-beans-tomatoes-and-aleppo-pepper",
+    "name": "Braised Oxtails with White Beans, Tomatoes, and Aleppo Pepper",
+    "slug": "braised-oxtails-with-white-beans-tomatoes-and-aleppo-pepper",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 280,
+      "equipmentTags": [
+        "OVEN",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "oxtails-trimmed",
+        "displayName": "oxtails, trimmed",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrot-peeled-and-chopped-fine",
+        "displayName": "carrot, peeled and chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-dried-aleppo-pepper",
+        "displayName": "ground dried Aleppo pepper",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-oregano-divided",
+        "displayName": "minced fresh oregano, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes",
+        "displayName": "can whole peeled tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-navy-beans-rinsed",
+        "displayName": "can navy beans, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 450 degrees. Pat oxtails dry with paper towels and season with salt and pepper. Arrange oxtails cut side down in single layer in large roasting pan and roast until meat begins to brown, about 45 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Discard any accumulated fat and juices in pan and continue to roast until meat is well browned, 15 to 20 minutes. Transfer oxtails to bowl and tent loosely with aluminum foil; set aside. Stir chicken broth into pan, scraping up any browned bits; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Reduce oven temperature to 300 degrees. Heat oil in Dutch oven over medium heat until shimmering. Add onion and carrot and cook until softened, about 5 minutes. Stir in garlic, tomato paste, Aleppo pepper, and 1 teaspoon oregano and cook until fragrant, about 30 seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Stir in broth mixture from roasting pan and tomatoes and their juice and bring to simmer. Nestle oxtails into pot and bring to simmer. Cover, transfer pot to oven, and cook until oxtails are tender and fork slips easily in and out of meat, about 3 hours."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer oxtails to bowl and tent loosely with aluminum foil. Strain braising liquid through fine-mesh strainer into fat separator; return solids to now-empty pot. Let braising liquid settle for 5 minutes, then pour defatted liquid into pot with solids."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Stir in beans, vinegar, and remaining 2 teaspoons oregano. Return oxtails and any accumulated juices to pot, bring to gentle simmer over medium heat, and cook until oxtails and beans are heated through, about 5 minutes. Season with salt and pepper to taste. Transfer oxtails to serving platter and spoon 1 cup sauce over top. Serve, passing remaining sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 37080,
+    "end": 37132,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

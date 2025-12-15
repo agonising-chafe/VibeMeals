@@ -1,0 +1,136 @@
+{
+  "mapped": {
+    "id": "atk_pepper-crusted-beef-tenderloin-roast",
+    "name": "Pepper-Crusted Beef Tenderloin Roast",
+    "slug": "pepper-crusted-beef-tenderloin-roast",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 135,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 4.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 9,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coarsely-cracked-black-peppercorns",
+        "displayName": "coarsely cracked black peppercorns",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PEPPER"
+      },
+      {
+        "ingredientId": "finely-grated-orange-zest",
+        "displayName": "finely grated orange zest",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PEPPER"
+      },
+      {
+        "ingredientId": "ground-nutmeg",
+        "displayName": "ground nutmeg",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PEPPER"
+      },
+      {
+        "ingredientId": "whole-beef-tenderloin-trimmed",
+        "displayName": "whole beef tenderloin, trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees. Combine salt, sugar, and baking soda in bowl; set aside. Heat 6 tablespoons oil and peppercorns in small saucepan over low heat until faint bubbles appear. Continue to cook at bare simmer, swirling pan occasionally, until pepper is fragrant, 7 to 10 minutes. Using fine-mesh strainer, drain cooking oil from peppercorns. Discard cooking oil and mix peppercorns with remaining 3 tablespoons oil, orange zest, and nutmeg."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Set tenderloin on sheet of plastic wrap. Sprinkle salt mixture evenly over surface of tenderloin and rub into tenderloin until surface is tacky. Tuck tail end of tenderloin under about 6 inches to create more even shape. Rub top and side of tenderloin with peppercorn mixture, pressing to make sure peppercorns adhere. Spray three 12-inch lengths kitchen twine with vegetable oil spray; tie head of tenderloin to maintain even shape, spacing twine at 2-inch intervals."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer prepared tenderloin to wire rack set in rimmed baking sheet, keeping tail end tucked under. Roast until thickest part of meat registers about 120 degrees for rare and about 125 degrees for medium-rare (thinner parts of tenderloin will be slightly more done), 60 to 70 minutes. Transfer to carving board and let rest for 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove twine and slice meat into 1/2-inch-thick slices. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 34770,
+    "end": 34808,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

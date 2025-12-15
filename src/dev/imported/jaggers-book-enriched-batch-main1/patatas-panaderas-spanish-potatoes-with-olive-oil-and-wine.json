@@ -1,0 +1,115 @@
+{
+  "mapped": {
+    "id": "atk_patatas-panaderas-spanish-potatoes-with-olive-oil-and-wine",
+    "name": "Patatas Panaderas (Spanish Potatoes with Olive Oil and Wine)",
+    "slug": "patatas-panaderas-spanish-potatoes-with-olive-oil-and-wine",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 80,
+      "equipmentTags": [
+        "OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "yukon-gold-potatoes-peeled-and-sliced-crosswise-1-4-inch-thick",
+        "displayName": "Yukon Gold potatoes, peeled and sliced crosswise 1/4 inch thick",
+        "amount": 2.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 3.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-halved-and-sliced-thin",
+        "displayName": "onion, halved and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Stir potatoes and oil in large bowl until potatoes are evenly coated. Stir in salt and pepper until well distributed. Stir in onion and garlic. Transfer potato mixture to 13 by 9-inch baking dish and spread into even layer. Cover tightly with aluminum foil and bake until potatoes can be easily pierced with tip of paring knife, about 40 minutes. Reduce oven temperature to 350 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Carefully remove foil and set aside. Pour wine evenly over potatoes. Lightly place reserved foil on top of dish, leaving sides open so moisture can escape, and return dish to oven. Bake until wine has evaporated or been absorbed (there will still be some oil bubbling around edges of dish), about 20 minutes. Carefully remove foil. Let cool for 10 minutes and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59195,
+    "end": 59231,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

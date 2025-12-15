@@ -1,0 +1,240 @@
+{
+  "mapped": {
+    "id": "atk_skillet-barbecued-pork-chops",
+    "name": "Skillet-Barbecued Pork Chops",
+    "slug": "skillet-barbecued-pork-chops",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 55,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "8-to-10-ounce-bone-in-rib-loin-pork-chops-3-4-to-1-inch-thick-trimmed-of-excess-fat",
+        "displayName": "(8- to 10-ounce) bone-in rib loin pork chops, 3/4 to 1 inch thick, trimmed of excess fat",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "brown-sugar",
+        "displayName": "brown sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "light-or-mild-molasses",
+        "displayName": "light or mild molasses",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "grated-onion",
+        "displayName": "grated onion",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "displayName": "Worcestershire sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "brown-sugar",
+        "displayName": "brown sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "liquid-smoke",
+        "displayName": "liquid smoke",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE PORK CHOPS: Dissolve the salt in 2 quarts cold water in a large bowl or container. Submerge the chops in the brine, cover with plastic wrap, and refrigerate for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE SPICE RUB: Combine the rub ingredients in a small bowl. Measure 2 teaspoons of the mixture into a medium bowl and set aside for the sauce. Transfer the remaining spice rub to a large plate."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE SAUCE: Whisk the sauce ingredients in the bowl with the reserved spice mixture until thoroughly combined; set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the chops from the brine, rinse, and pat dry with paper towels. Use a sharp knife to cut two slits, about 2 inches apart, through the outer layer of fat and silver skin of each chop (do not cut into the meat of the chops). Coat both sides of the chops with the spice rub, pressing gently so the rub adheres. Shake off the excess rub."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat 1 tablespoon of the oil in a 12-inch nonstick skillet over medium heat until just smoking. Place the chops in the skillet in a pinwheel pattern, with the ribs pointing toward the center, and cook until browned and charred in spots, 5 to 8 minutes. Flip the chops and continue to cook until the second side is browned and the center of the chops registers 130 degrees on an instant-read thermometer, 4 to 8 minutes. Remove the skillet from the heat and transfer the chops to a plate. Lightly brush the top of each chop with 2 teaspoons of the sauce."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Wipe out the pan with paper towels and return to medium heat. Add the remaining 1 teaspoon oil and heat until just smoking. Add the chops to the pan, sauce side down, and cook without moving them until the sauce has caramelized and charred in spots, about 1 minute. While cooking, lightly brush the top of each chop with 2 more teaspoons sauce. Flip the chops and cook until the second side is charred and caramelized and the center of the chops registers 140 to 145 degrees on an instant-read thermometer, 1 to 2 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Transfer the chops back to the plate, cover loosely with foil, and let rest until the center of the chops registers 150 degrees on an instant-read thermometer, about 5 minutes."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Meanwhile, add the remaining sauce to the pan and cook over medium heat, scraping up any browned bits, until thickened and it measures 2/3 cup, about 3 minutes. Brush each chop with 1 tablespoon of the sauce and serve, passing the remaining sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 37947,
+    "end": 38019,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

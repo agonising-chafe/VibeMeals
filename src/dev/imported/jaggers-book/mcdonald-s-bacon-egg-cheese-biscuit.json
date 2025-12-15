@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_mcdonald-s-bacon-egg-cheese-biscuit",
+    "name": "McDonald’s Bacon, Egg & Cheese Biscuit",
+    "slug": "mcdonald-s-bacon-egg-cheese-biscuit",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "frozen-buttermilk-biscuits-make-this-breakfast-sandwich-easy-to-prepare-any-day-of-the-week-and-also-make-this-recipe-easy-to-double-triple-or-more",
+        "displayName": "Frozen buttermilk biscuits make this breakfast sandwich easy to prepare any day of the week and also make this recipe easy to double, triple, or more.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-buttermilk-biscuit-prepared-per-package-instructions",
+        "displayName": "Frozen Buttermilk Biscuit, prepared per package instructions",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salted-butter-melted",
+        "displayName": "salted butter, melted",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-smoked-bacon",
+        "displayName": "thick-cut smoked bacon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "when-biscuit-comes-out-of-oven-brush-it-with-melted-butter-slice-in-half-lengthwise-and-set-aside-to-cool",
+        "displayName": "When biscuit comes out of oven, brush it with melted butter. Slice in half lengthwise and set aside to cool.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-12-inch-nonstick-skillet-over-medium-heat-once-hot-add-bacon-cook-turning-often-until-crisp-about-12-15-minutes-transfer-to-a-paper-towel-lined-plate-to-drain",
+        "displayName": "Heat a 12-inch nonstick skillet over medium heat. Once hot, add bacon. Cook, turning often, until crisp, about 12–15 minutes. Transfer to a paper towel–lined plate to drain.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drain-all-but-1-teaspoon-bacon-fat-from-skillet-and-reduce-heat-to-low-in-a-small-bowl-add-egg-and-water-and-beat-with-a-fork-until-fluffy-about-30-seconds-add-egg-to-pan-and-swirl-to-coat-pan-evenly-let-stand-30-45-seconds-or-until-just-set-carefully-flip-and-let-cook-30-45-seconds-more-or-until-egg-is-cooked-through-remove-egg-to-a-cutting-board-and-fold-in-half-then-fold-sides-into-center-to-form-a-square",
+        "displayName": "Drain all but 1 teaspoon bacon fat from skillet and reduce heat to low. In a small bowl add egg and water and beat with a fork until fluffy, about 30 seconds. Add egg to pan and swirl to coat pan evenly. Let stand 30–45 seconds or until just set. Carefully flip and let cook 30–45 seconds more or until egg is cooked through. Remove egg to a cutting board and fold in half, then fold sides into center to form a square.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-assemble-place-cheese-on-bottom-of-biscuit-break-bacon-slice-in-half-and-place-on-cheese-top-with-folded-egg-and-top-biscuit-serve-immediately",
+        "displayName": "To assemble, place cheese on bottom of biscuit. Break bacon slice in half and place on cheese. Top with folded egg and top biscuit. Serve immediately.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1468,
+    "end": 1506,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,137 @@
+{
+  "mapped": {
+    "id": "atk_spaghetti-al-limone-spaghetti-with-lemon-and-olive-oil",
+    "name": "Spaghetti al Limone (Spaghetti with Lemon and Olive Oil)",
+    "slug": "spaghetti-al-limone-spaghetti-with-lemon-and-olive-oil",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 40,
+      "equipmentTags": [
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "spaghetti",
+        "displayName": "spaghetti",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-drizzling",
+        "displayName": "extra-virgin olive oil, plus extra for drizzling",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-shallot-minced-about-3-tablespoons",
+        "displayName": "medium shallot, minced (about 3 tablespoons)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-1-2-cup-plus-extra-for-serving",
+        "displayName": "Parmesan cheese, grated (about 1/2 cup), plus extra for serving",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "grated-zest-plus-1-4-cup-juice-from-2-lemons",
+        "displayName": "grated zest plus 1/4 cup juice from 2 lemons",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil-leaves",
+        "displayName": "chopped fresh basil leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta to the boiling water and cook until al dente. Reserve 13/4 cups of the cooking water, then drain the pasta."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 1 tablespoon of the oil in the now-empty pot over medium heat until shimmering. Add the shallot and 1/2 teaspoon salt and cook until softened, about 2 minutes. Stir in 11/2 cups of the reserved cooking water and the cream, bring to a simmer, and cook for 2 minutes. Off the heat, add the drained pasta, remaining 3 tablespoons oil, Parmesan, lemon zest, lemon juice, and 1/2 teaspoon pepper, and toss to combine."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Cover and let the pasta rest for 2 minutes, tossing frequently and adding the remaining cooking water as needed to adjust the consistency. Stir in the basil and season with salt and pepper to taste. Drizzle individual portions with oil and serve, passing the additional Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 15485,
+    "end": 15521,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

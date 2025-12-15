@@ -1,0 +1,249 @@
+{
+  "mapped": {
+    "id": "atk_oatmeal-muffins",
+    "name": "Oatmeal Muffins",
+    "slug": "oatmeal-muffins",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "yieldText": "MAKES 12 muffins",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-2-ounces-old-fashioned-rolled-oats",
+        "displayName": "(11/2 ounces) old-fashioned rolled oats",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "12-3-ounces-all-purpose-flour",
+        "displayName": "(12/3 ounces) all-purpose flour",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "pecans-chopped-fine",
+        "displayName": "pecans, chopped fine",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "TOPPING",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "packed-21-3-ounces-light-brown-sugar",
+        "displayName": "packed (21/3 ounces) light brown sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-plus-6-tablespoons-melted",
+        "displayName": "unsalted butter, plus 6 tablespoons melted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "6-ounces-old-fashioned-rolled-oats",
+        "displayName": "(6 ounces) old-fashioned rolled oats",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS"
+      },
+      {
+        "ingredientId": "83-4-ounces-all-purpose-flour",
+        "displayName": "(83/4 ounces) all-purpose flour",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS"
+      },
+      {
+        "ingredientId": "packed-91-3-ounces-light-brown-sugar",
+        "displayName": "packed (91/3 ounces) light brown sugar",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS"
+      },
+      {
+        "ingredientId": "milk",
+        "displayName": "milk",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs-beaten",
+        "displayName": "large eggs, beaten",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "MUFFINS"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TOPPING: Combine oats, flour, pecans, sugar, cinnamon, and salt in medium bowl. Drizzle melted butter over mixture and stir to thoroughly combine; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE MUFFINS: Grease and flour 12-cup muffin tin. Melt 2 tablespoons butter in 10-inch skillet over medium heat. Add oats and cook, stirring frequently, until oats turn golden brown and smell of cooking popcorn, 6 to 8 minutes. Transfer oats to food processor and process into fine meal, about 30 seconds. Add flour, salt, baking powder, and baking soda to oats and pulse until combined, about 3 pulses."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir 6 tablespoons melted butter and sugar together in large bowl until smooth. Add milk and eggs and whisk until smooth. Using whisk, gently fold half of oat mixture into wet ingredients, tapping whisk against side of bowl to release clumps. Add remaining oat mixture and continue to fold with whisk until no streaks of flour remain. Set aside batter for 20 minutes to thicken. Meanwhile, adjust oven rack to middle position and heat oven to 375 degrees."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using ice cream scoop or large spoon, divide batter equally among prepared muffin cups (about 1/2 cup batter per cup; cups will be filled to rim). Evenly sprinkle topping over muffins (about 2 tablespoons per muffin). Bake until toothpick inserted in center comes out clean, 18 to 25 minutes, rotating muffin tin halfway through baking."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Let muffins cool in muffin tin on wire rack for 10 minutes. Remove muffins from muffin tin and serve or let cool completely before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63313,
+    "end": 63373,
+    "yieldLine": "MAKES 12 muffins"
+  },
+  "fit": true
+}

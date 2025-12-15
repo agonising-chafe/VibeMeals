@@ -1,0 +1,131 @@
+{
+  "mapped": {
+    "id": "atk_barbecued-salmon",
+    "name": "Barbecued Salmon",
+    "slug": "barbecued-salmon",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 110,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "skin-on-salmon-fillet",
+        "displayName": "skin-on salmon fillet",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-paprika",
+        "displayName": "sweet paprika",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-white-pepper",
+        "displayName": "ground white pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "step": 1,
+        "hoursBefore": 3,
+        "requirement": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve sugar and salt in 7 cups cold water in gallon-size zipper-lock bag. Add salmon, seal bag, and refrigerate for 3 hours. Remove salmon from brine, pat dry with paper towels, and rub thoroughly with oil. Lay salmon skin side down on 30-inch sheet of heavy-duty aluminum foil and season top and sides with paprika and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean cooking grate, then repeatedly brush grate with well-oiled paper towels until black and glossy, 5 to 10 times. Gently slide salmon off foil onto cooler side of grill, skin-side down and perpendicular to grill grate. Cover (position lid vent over meat if using charcoal) and cook until heavily flavored with smoke, about 11/2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using two spatulas, gently remove salmon from grill. Serve hot or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 55217,
+    "end": 55255,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

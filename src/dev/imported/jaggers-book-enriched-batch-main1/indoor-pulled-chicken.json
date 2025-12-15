@@ -1,0 +1,139 @@
+{
+  "mapped": {
+    "id": "atk_indoor-pulled-chicken",
+    "name": "Indoor Pulled Chicken",
+    "slug": "indoor-pulled-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "liquid-smoke-divided",
+        "displayName": "liquid smoke, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-halved-crosswise",
+        "displayName": "boneless, skinless chicken thighs, halved crosswise",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-sweet-and-tangy-barbecue-sauce",
+        "displayName": "recipe Sweet and Tangy Barbecue Sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "Hot sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring broth, molasses, sugar, 2 teaspoons liquid smoke, gelatin, and salt to boil in large Dutch oven over high heat, stirring to dissolve sugar. Add chicken and return to simmer. Reduce heat to medium-low; cover; and cook, stirring occasionally, until chicken is easily shredded with fork, about 25 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer chicken to medium bowl and set aside. Strain cooking liquid through fine-mesh strainer set over bowl (do not wash pot). Let liquid settle for 5 minutes; skim fat from surface. Set aside fat and defatted liquid."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using tongs, squeeze chicken until shredded into bite-size pieces. Transfer chicken, 1 cup barbecue sauce, 1/2 cup reserved defatted liquid, 3 tablespoons reserved fat, and remaining 1 teaspoon liquid smoke to now-empty pot. Cook mixture over medium heat, stirring frequently, until liquid has been absorbed and exterior of meat appears dry, about 5 minutes. Season with salt, pepper, and hot sauce to taste. Serve, passing remaining barbecue sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26681,
+    "end": 26719,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_panda-express-chow-mein",
+    "name": "Panda Express Chow Mein",
+    "slug": "panda-express-chow-mein",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "chow-mein-is-a-chinese-american-dish-usually-featuring-bits-of-meat-and-vegetables-served-over-noodles-if-you-are-not-able-to-find-chow-mein-stir-fry-noodles-you-can-swap-them-for-lo-mein-or-thin-spaghetti",
+        "displayName": "Chow mein is a Chinese American dish usually featuring bits of meat and vegetables served over noodles. If you are not able to find chow mein stir-fry noodles, you can swap them for lo mein or thin spaghetti.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "diced-medium-green-onions",
+        "displayName": "diced medium green onions",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-sliced-napa-cabbage",
+        "displayName": "½ cups sliced napa cabbage",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-sliced-celery",
+        "displayName": "¼ cup sliced celery",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-bean-sprouts",
+        "displayName": "¼ cup bean sprouts",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-granulated-sugar",
+        "displayName": "¼ teaspoon granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chicken-broth",
+        "displayName": "½ cup chicken broth",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tablespoon-soy-sauce",
+        "displayName": "½ tablespoon soy sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-oil",
+        "displayName": "sesame oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tablespoon-cornstarch-dissolved-in-1-tablespoon-cold-water",
+        "displayName": "½ tablespoon cornstarch dissolved in 1 tablespoon cold water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-crushed-red-pepper-flakes",
+        "displayName": "¼ teaspoon crushed red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-chow-mein-stir-fry-noodles-cooked-per-package-directions",
+        "displayName": "dry chow mein stir-fry noodles, cooked per package directions",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-cast-iron-skillet-over-medium-heat-heat-vegetable-oil-until-hot-but-not-smoking-add-green-onions-cabbage-celery-and-sprouts-and-stir-fry-3-minutes-or-until-cabbage-is-wilted",
+        "displayName": "In a medium cast iron skillet over medium heat, heat vegetable oil until hot but not smoking. Add green onions, cabbage, celery, and sprouts and stir-fry 3 minutes or until cabbage is wilted.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "reduce-heat-to-medium-low-and-add-sugar-broth-soy-sauce-and-sesame-oil-and-allow-to-simmer-3-minutes",
+        "displayName": "Reduce heat to medium-low and add sugar, broth, soy sauce, and sesame oil and allow to simmer 3 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dissolved-cornstarch-a-stir-and-then-stir-into-vegetable-mixture-increase-heat-to-medium-and-bring-liquid-to-a-boil",
+        "displayName": "dissolved cornstarch a stir and then stir into vegetable mixture. Increase heat to medium and bring liquid to a boil.",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-red-pepper-flakes-reduce-heat-to-low-and-simmer-5-minutes-or-until-heated-through-serve-over-prepared-noodles",
+        "displayName": "Add red pepper flakes. Reduce heat to low and simmer 5 minutes or until heated through. Serve over prepared noodles.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8418,
+    "end": 8468,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,113 @@
+{
+  "mapped": {
+    "id": "atk_gravlax",
+    "name": "Gravlax",
+    "slug": "gravlax",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 1445,
+      "equipmentTags": [
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 1 pound salmon",
+      "baseServings": 16
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "skin-on-salmon-fillet",
+        "displayName": "skin-on salmon fillet",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "brandy",
+        "displayName": "brandy",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coarsely-chopped-fresh-dill",
+        "displayName": "coarsely chopped fresh dill",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Cure",
+        "description": "Cure salmon in refrigerator.",
+        "durationMinutes": 4320,
+        "startMinutesBeforeCooking": 4320,
+        "strategy": "SLOW_COOK",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine sugar and salt in bowl. Place salmon, skin side down, in 13 by 9-inch baking dish. Drizzle entire surface with brandy. Rub salmon evenly with sugar mixture, pressing firmly to adhere. Cover with dill, pressing firmly to adhere."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cover salmon loosely with plastic wrap; top with square baking dish or pie plate; and weight with several large, heavy cans. Refrigerate until salmon feels firm, about 3 days, basting salmon with liquid released into dish once a day."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Scrape off dill. Remove salmon from dish and pat dry with paper towels. Slice thin and serve. (Gravlax can be wrapped tightly in plastic and refrigerated for up to 1 week. Don’t slice until ready to serve.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 2477,
+    "end": 2507,
+    "yieldLine": "MAKES 1 pound salmon"
+  },
+  "fit": true
+}

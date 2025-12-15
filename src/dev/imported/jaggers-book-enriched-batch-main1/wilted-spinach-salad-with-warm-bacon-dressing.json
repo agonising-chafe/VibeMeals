@@ -1,0 +1,134 @@
+{
+  "mapped": {
+    "id": "atk_wilted-spinach-salad-with-warm-bacon-dressing",
+    "name": "Wilted Spinach Salad with Warm Bacon Dressing",
+    "slug": "wilted-spinach-salad-with-warm-bacon-dressing",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "baby-spinach-about-6-cups-washed-and-dried",
+        "displayName": "baby spinach (about 6 cups), washed and dried",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "about-8-slices-thick-cut-bacon-cut-into-1-2-inch-pieces",
+        "displayName": "(about 8 slices) thick-cut bacon, cut into 1/2-inch pieces",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-red-onion-chopped-medium",
+        "displayName": "medium red onion, chopped medium",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-garlic-clove-minced-or-pressed-through-a-garlic-press-about-1-2-teaspoon",
+        "displayName": "small garlic clove, minced or pressed through a garlic press (about 1/2 teaspoon)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hard-cooked-eggs-recipe-follows-peeled-and-quartered",
+        "displayName": "hard-cooked eggs (recipe follows), peeled and quartered",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the spinach in a large bowl. Whisk the vinegar, sugar, pepper, and salt in a small bowl until the sugar dissolves; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Fry the bacon in a medium skillet over medium-high heat, stirring occasionally, until crisp, about 10 minutes. Using a slotted spoon, transfer the bacon to a paper towel–lined plate. Pour off all but 3 tablespoons of the bacon fat left in the pan. Add the onion to the skillet and cook over medium heat, stirring frequently, until softened, about 3 minutes. Stir in the garlic and cook until fragrant, about 15 seconds. Add the vinegar mixture, then remove the skillet from the heat. Working quickly, scrape the bottom of the skillet with a wooden spoon to loosen the browned bits. Pour the hot dressing over the spinach, add the bacon, and toss gently until the spinach is slightly wilted. Divide the salad among individual plates, arrange the egg quarters over each, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 12738,
+    "end": 12774,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

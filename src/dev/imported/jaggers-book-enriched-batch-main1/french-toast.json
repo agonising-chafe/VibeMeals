@@ -1,0 +1,147 @@
+{
+  "mapped": {
+    "id": "atk_french-toast",
+    "name": "French Toast",
+    "slug": "french-toast",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-slices-high-quality-hearty-white-sandwich-bread-or-challah",
+        "displayName": "large slices high-quality hearty white sandwich bread or challah",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk-warmed",
+        "displayName": "whole milk, warmed",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-egg-yolks",
+        "displayName": "large egg yolks",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "light-brown-sugar",
+        "displayName": "light brown sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-plus-2-tablespoons-for-cooking",
+        "displayName": "unsalted butter, melted, plus 2 tablespoons for cooking",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees. Place bread on wire rack set over rimmed baking sheet. Bake bread until almost dry throughout (center should remain slightly moist), about 16 minutes, flipping slices halfway through cooking. Remove bread from rack and let cool for 5 minutes. Return baking sheet with wire rack to oven and reduce temperature to 200 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk milk, egg yolks, sugar, 2 tablespoons melted butter, vanilla, cinnamon, and salt in large bowl until well blended. Transfer mixture to 13 by 9-inch baking pan."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Soak bread in milk mixture until saturated but not falling apart, 20 seconds per side. Using firm slotted spatula, pick up 1 bread slice and allow excess milk mixture to drip off; repeat with remaining slices. Place soaked bread on another baking sheet or platter."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Melt 1/2 tablespoon of butter in 12-inch skillet over medium-low heat. Use slotted spatula to transfer 2 slices of soaked bread to skillet and cook until golden brown, 3 to 4 minutes. Flip and continue to cook until second side is golden brown, 3 to 4 minutes longer. (If toast is cooking too quickly, reduce heat slightly.) Transfer to baking sheet in oven. Wipe out skillet with paper towels. Repeat cooking with remaining bread, 2 pieces at a time, adding 1/2 tablespoon more butter for each batch. Serve warm."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 5182,
+    "end": 5220,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

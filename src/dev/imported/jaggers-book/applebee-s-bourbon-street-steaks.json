@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_applebee-s-bourbon-street-steaks",
+    "name": "Applebee’s Bourbon Street Steaks",
+    "slug": "applebee-s-bourbon-street-steaks",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-cajun-style-dish-is-named-after-the-famous-street-in-the-french-quarter-in-new-orleans-serve-these-steaks-with-mashed-potatoes-and-saut-ed-mushrooms-and-onions-for-the-full-restaurant-experience",
+        "displayName": "This Cajun-style dish is named after the famous street in the French Quarter in New Orleans. Serve these steaks with mashed potatoes and sautéed mushrooms and onions for the full restaurant experience.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-bottled-steak-sauce",
+        "displayName": "½ cup bottled steak sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-bourbon-whiskey",
+        "displayName": "¼ cup bourbon whiskey",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prepared-mustard",
+        "displayName": "prepared mustard",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "usda-top-sirloin-select-steaks",
+        "displayName": "USDA top sirloin select steaks",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-herb-butter-such-as-kerrygold",
+        "displayName": "garlic herb butter, such as Kerrygold",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-resealable-plastic-bag-combine-steak-sauce-whiskey-honey-and-mustard-add-steaks-remove-air-from-bag-and-seal-massage-lightly-to-cover-steaks-refrigerate-2-hours-or-overnight",
+        "displayName": "In a large resealable plastic bag, combine steak sauce, whiskey, honey, and mustard. Add steaks, remove air from bag, and seal. Massage lightly to cover steaks. Refrigerate 2 hours or overnight.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-outdoor-barbecue-or-smokeless-indoor-grill-to-medium-high-heat",
+        "displayName": "Preheat outdoor barbecue or smokeless indoor grill to medium-high heat.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "steaks-4-minutes-per-side-for-rare-5-minutes-per-side-for-medium-or-7-minutes-per-side-for-well-done-remove-steaks-from-grill-to-serving-plates-and-top-each-with-garlic-herb-butter-serve-hot",
+        "displayName": "steaks 4 minutes per side for rare, 5 minutes per side for medium, or 7 minutes per side for well-done. Remove steaks from grill to serving plates and top each with garlic herb butter. Serve hot.",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5778,
+    "end": 5820,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

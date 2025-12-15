@@ -1,0 +1,162 @@
+{
+  "mapped": {
+    "id": "atk_fish-meuni-re-with-browned-butter-and-lemon",
+    "name": "Fish Meunière with Browned Butter and Lemon",
+    "slug": "fish-meuni-re-with-browned-butter-and-lemon",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-to-6-ounce-sole-or-flounder-fillets-3-8-inch-thick",
+        "displayName": "(5- to 6-ounce) sole or flounder fillets, 3/8 inch thick",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-2-pieces",
+        "displayName": "unsalted butter, cut into 2 pieces",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-cut-into-4-pieces",
+        "displayName": "(1/2 stick) unsalted butter, cut into 4 pieces",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BROWNED BUTTER",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley-leaves",
+        "displayName": "chopped fresh parsley leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BROWNED BUTTER"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BROWNED BUTTER"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "BROWNED BUTTER"
+      },
+      {
+        "ingredientId": "lemon-wedges-for-serving",
+        "displayName": "Lemon wedges, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE FISH: Adjust an oven rack to the lower-middle position, set four heatproof dinner plates on the rack, and heat the oven to 200 degrees. Place the flour in a large baking dish. Pat the fillets dry with paper towels and season with salt and pepper; let stand until the fillets are glistening with moisture, about 5 minutes. Coat both sides of the fillets with flour, shake off the excess, and place in a single layer on a rimmed baking sheet."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 1 tablespoon of the oil in a 12-inch nonstick skillet over high heat until shimmering; add 1 tablespoon of the butter and swirl to coat the pan bottom. Carefully place 2 fillets, skinned side up, in the skillet. Immediately reduce the heat to medium-high and cook, without moving the fish, until the edges of the fillets are opaque and the bottoms are golden brown, about 3 minutes. Using two spatulas, gently flip the fillets and cook on the second side until the thickest part of the fillet easily separates into flakes when a toothpick is inserted, about 2 minutes longer. Transfer the fillets to two of the heated dinner plates, keeping them boned side up, and return the plates to the oven. Wipe out the skillet and repeat with the remaining 1 tablespoon oil, remaining 1 tablespoon butter, and the remaining fish fillets."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE BROWNED BUTTER: Melt the butter in a 10-inch traditional skillet over medium-high heat. Continue to cook, swirling the pan constantly, until the butter is golden brown and has a nutty aroma, 1 to 11/2 minutes; remove the skillet from the heat. Remove the plates from the oven and sprinkle the fillets with the parsley. Add the lemon juice to the browned butter and season with salt to taste. Spoon the sauce over the fish and serve immediately, garnished with the lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43224,
+    "end": 43268,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,354 @@
+{
+  "mapped": {
+    "id": "atk_vegetable-lasagna",
+    "name": "Vegetable Lasagna",
+    "slug": "vegetable-lasagna",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 9,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "can-crushed-tomatoes",
+        "displayName": "can crushed tomatoes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-basil-leaves",
+        "displayName": "minced fresh basil leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "whole-milk-cottage-cheese-about-1-cup",
+        "displayName": "whole-milk cottage cheese (about 1 cup)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-2-cups",
+        "displayName": "Parmesan cheese, grated (about 2 cups)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "eggplant-peeled-and-cut-into-1-2-inch-pieces",
+        "displayName": "eggplant, peeled and cut into 1/2-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "kosher-salt-and-ground-black-pepper",
+        "displayName": "Kosher salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "zucchini-cut-into-1-2-inch-pieces",
+        "displayName": "zucchini, cut into 1/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "yellow-squash-cut-into-1-2-inch-pieces",
+        "displayName": "yellow squash, cut into 1/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "plus-1-teaspoon-extra-virgin-olive-oil",
+        "displayName": "plus 1 teaspoon extra-virgin olive oil",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-4-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 4 teaspoons)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "baby-spinach-12-cups",
+        "displayName": "baby spinach (12 cups)",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "pitted-kalamata-olives-minced",
+        "displayName": "pitted kalamata olives, minced",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "whole-milk-mozzarella-cheese-shredded-about-3-cups",
+        "displayName": "whole-milk mozzarella cheese, shredded (about 3 cups)",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "no-boil-lasagna-noodles",
+        "displayName": "no-boil lasagna noodles",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil-leaves",
+        "displayName": "chopped fresh basil leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TOMATO SAUCE: Whisk all the ingredients together in a bowl; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE CREAM SAUCE: Whisk all the ingredients together in a separate bowl; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE FILLING: Adjust an oven rack to the middle position and heat the oven to 375 degrees. Toss the eggplant with 1 teaspoon kosher salt in a large bowl. Line the surface of a large plate with a double layer of coffee filters and lightly spray with vegetable oil spray. Spread the eggplant in an even layer over the coffee filters; wipe out and reserve the bowl. Microwave the eggplant, uncovered, until dry to the touch and slightly shriveled, about 10 minutes, tossing halfway through cooking. Cool slightly. Return the eggplant to the bowl and toss with the zucchini and summer squash."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Combine 1 tablespoon of the oil, the garlic, and thyme in a small bowl. Heat 2 tablespoons more oil in a 12-inch nonstick skillet over medium-high heat until shimmering. Add half of the eggplant mixture, 1/4 teaspoon kosher salt, and 1/4 teaspoon pepper and cook, stirring occasionally, until the vegetables are lightly browned, about 7 minutes. Clear the center of the skillet, add half of the garlic mixture, and cook, mashing with a spatula, until fragrant, about 30 seconds. Stir the garlic mixture into the vegetables and transfer to a medium bowl. Repeat with the remaining eggplant mixture, 2 tablespoons more oil, and the remaining garlic mixture; transfer to the bowl."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat the remaining 1 teaspoon oil in the now-empty skillet over medium-high heat until shimmering. Add the spinach and cook, stirring frequently, until wilted, about 3 minutes. Transfer the spinach to a paper towel–lined plate and drain for 2 minutes. Stir into the eggplant mixture."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Grease a 13 by 9-inch baking dish. Spread 1 cup of the tomato sauce evenly over the bottom of the dish. Arrange 4 noodles on top of the sauce (the noodles will overlap). Spread half of the vegetable mixture over the noodles, followed by half of the olives. Spoon half of the cream sauce over the top and sprinkle with 1 cup of the mozzarella. Repeat the layering with 4 more noodles, 1 cup more tomato sauce, the remaining vegetables, remaining olives, remaining cream sauce and 1 cup more mozzarella. For the final layer, arrange the remaining 4 noodles on top and cover completely with the remaining tomato sauce. Sprinkle with the remaining 1 cup mozzarella."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Cover the dish tightly with aluminum foil that has been sprayed with vegetable oil spray and bake until the edges are just bubbling, about 35 minutes, rotating the dish halfway through baking. Cool the lasagna for 25 minutes, then sprinkle with the basil and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 19410,
+    "end": 19494,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_mahogany-chicken-thighs",
+    "name": "Mahogany Chicken Thighs",
+    "slug": "mahogany-chicken-thighs",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "dry-sherry",
+        "displayName": "dry sherry",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-to-7-ounce-bone-in-chicken-thighs-trimmed",
+        "displayName": "(5- to 7-ounce) bone-in chicken thighs, trimmed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-inch-piece-ginger-peeled-halved-and-smashed",
+        "displayName": "(2-inch) piece ginger, peeled, halved, and smashed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled-and-smashed",
+        "displayName": "cloves, peeled and smashed",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 300 degrees. Whisk 1 cup water, soy sauce, sherry, sugar, molasses, and vinegar together in ovensafe 12-inch skillet until sugar is dissolved. Arrange chicken, skin side down, in soy mixture and nestle ginger and garlic between pieces of chicken."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring soy mixture to simmer over medium heat and simmer for 5 minutes. Transfer skillet to oven and cook, uncovered, for 30 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Flip chicken skin side up and continue to cook, uncovered, until chicken registers 195 degrees, 20 to 30 minutes longer. Transfer chicken to platter, taking care not to tear skin. Pour cooking liquid through fine-mesh strainer into fat separator and let settle for 5 minutes. Heat broiler."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Whisk cornstarch and remaining 1/2 cup water together in bowl. Pour 1 cup defatted cooking liquid into now-empty skillet and bring to simmer over medium heat. Whisk cornstarch mixture into cooking liquid and simmer until thickened, about 1 minute. Pour sauce into bowl and set aside for serving."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Return chicken skin side up to now-empty skillet and broil until well browned, about 4 minutes. Return chicken to platter, and let rest for 5 minutes. Serve, passing reserved sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 24865,
+    "end": 24909,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

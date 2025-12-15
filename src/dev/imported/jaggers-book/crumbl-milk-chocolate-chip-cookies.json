@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_crumbl-milk-chocolate-chip-cookies",
+    "name": "Crumbl Milk Chocolate Chip Cookies",
+    "slug": "crumbl-milk-chocolate-chip-cookies",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-version-of-the-popular-crumbl-chocolate-chip-cookie-uses-milk-chocolate-chips-to-give-them-a-mild-chocolaty-flavor-to-get-the-closest-to-crumbl-flavor-use-guittard-chocolate",
+        "displayName": "This version of the popular Crumbl Chocolate Chip Cookie uses milk chocolate chips to give them a mild chocolaty flavor. To get the closest to Crumbl flavor, use Guittard chocolate.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter-room-temperature",
+        "displayName": "¾ cup unsalted butter, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-packed-light-brown-sugar",
+        "displayName": "¾ cup packed light brown sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "⅓ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-room-temperature",
+        "displayName": "large egg, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-baking-powder",
+        "displayName": "½ teaspoon baking powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-milk-chocolate-chips",
+        "displayName": "½ cups milk chocolate chips",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-work-bowl-of-a-stand-mixer-fitted-with-paddle-attachment-or-in-a-large-bowl-with-a-hand-mixer-add-butter-cream-30-seconds-on-low-speed-until-creamy-add-brown-sugar-and-granulated-sugar-and-beat-3-minutes-on-medium-speed-or-until-fluffy-add-egg-and-beat-on-medium-speed-1-minute-stir-in-vanilla",
+        "displayName": "In work bowl of a stand mixer fitted with paddle attachment or in a large bowl with a hand mixer, add butter. Cream 30 seconds on low speed until creamy. Add brown sugar and granulated sugar and beat 3 minutes on medium speed or until fluffy. Add egg and beat on medium speed 1 minute. Stir in vanilla.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-sift-together-flour-cornstarch-baking-soda-and-baking-powder-add-flour-mixture-and-salt-to-work-bowl-or-large-bowl-and-beat-on-low-speed-until-just-combined-about-30-seconds-fold-in-chocolate-chips-with-a-spatula-to-combine",
+        "displayName": "In a medium bowl sift together flour, cornstarch, baking soda, and baking powder. Add flour mixture and salt to work bowl or large bowl and beat on low speed until just combined, about 30 seconds. Fold in chocolate chips with a spatula to combine.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-dough-with-plastic-wrap-and-refrigerate-2-hours-or-overnight",
+        "displayName": "Cover dough with plastic wrap and refrigerate 2 hours or overnight.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-375-f-and-line-a-half-baking-sheet-with-parchment",
+        "displayName": "Preheat oven to 375°F and line a half baking sheet with parchment.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-dough-into-eight-equal-pieces-roll-each-piece-into-a-ball-and-lightly-flatten-place-four-balls-on-prepared-baking-sheet-2-inches-apart-bake-15-18-minutes-then-remove-from-oven-and-cool-on-baking-sheet-10-minutes-before-transferring-to-a-wire-rack-to-cool-completely-repeat-with-remaining-cookie-dough-enjoy-warm-or-at-room-temperature",
+        "displayName": "Divide dough into eight equal pieces. Roll each piece into a ball and lightly flatten. Place four balls on prepared baking sheet 2 inches apart. Bake 15–18 minutes, then remove from oven and cool on baking sheet 10 minutes before transferring to a wire rack to cool completely. Repeat with remaining cookie dough. Enjoy warm or at room temperature.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10127,
+    "end": 10177,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

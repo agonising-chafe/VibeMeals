@@ -1,0 +1,268 @@
+{
+  "mapped": {
+    "id": "atk_classic-green-bean-casserole",
+    "name": "Classic Green Bean Casserole",
+    "slug": "classic-green-bean-casserole",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_POT",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "canned-fried-onions-about-6-ounces",
+        "displayName": "canned fried onions (about 6 ounces)",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BEANS"
+      },
+      {
+        "ingredientId": "green-beans-ends-trimmed-cut-on-the-diagonal-into-2-inch-pieces",
+        "displayName": "green beans, ends trimmed, cut on the diagonal into 2-inch pieces",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BEANS"
+      },
+      {
+        "ingredientId": "dried-porcini-mushrooms",
+        "displayName": "dried porcini mushrooms",
+        "amount": 0.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "3-4-stick-unsalted-butter",
+        "displayName": "(3/4 stick) unsalted butter",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "white-button-mushrooms-wiped-clean-and-sliced-1-4-inch-thick",
+        "displayName": "white button mushrooms, wiped clean and sliced 1/4 inch thick",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cremini-mushrooms-wiped-clean-and-sliced-1-4-inch-thick",
+        "displayName": "cremini mushrooms, wiped clean and sliced 1/4 inch thick",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TOPPING: Pulse the bread, butter, salt, and pepper in a food processor until the mixture resembles coarse crumbs, 10 to 15 pulses. Transfer to a large bowl and toss with the onions; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE BEANS: Heat the oven to 375 degrees. Bring 4 quarts water to a boil in a large pot. Add 2 tablespoons salt and the beans. Cook until bright green and slightly crunchy, 4 to 5 minutes. Drain the beans and plunge immediately into a large bowl filled with ice water to stop cooking. Spread the beans out onto a paper towel–lined baking sheet to drain."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, cover the dried porcini with 1/2 cup hot tap water in a small microwave-safe bowl; cover with plastic wrap, cut several steam vents with a paring knife, and microwave on high power for 30 seconds. Let stand until the mushrooms soften, about 5 minutes. Lift the mushrooms from the liquid with a fork and mince using a chef’s knife (you should have about 2 tablespoons). Pour the liquid through a paper towel–lined sieve and reserve."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Melt the butter in a large nonstick skillet over medium-high heat. Add the onion, garlic, button mushrooms, and cremini mushrooms and cook until the mushrooms release their moisture, about 2 minutes. Add the porcini mushrooms along with their strained soaking liquid, the thyme, 1 teaspoon salt, and the pepper and cook until all the mushrooms are tender and the liquid has reduced to 2 tablespoons, about 5 minutes. Add the flour and cook for 1 minute. Stir in the chicken broth and reduce the heat to medium. Stir in the cream and simmer gently until the sauce has the consistency of dense soup, about 15 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Arrange the beans in a 3-quart gratin dish. Pour the mushroom mixture over the beans and mix to coat the beans evenly. Sprinkle with the bread-crumb mixture and bake until the top is golden brown and the sauce is bubbling around the edges, about 15 minutes. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 58294,
+    "end": 58358,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

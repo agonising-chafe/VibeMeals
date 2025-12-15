@@ -1,0 +1,182 @@
+{
+  "mapped": {
+    "id": "atk_pan-seared-shrimp-with-peanuts-black-pepper-and-lime",
+    "name": "Pan-Seared Shrimp with Peanuts, Black Pepper, and Lime",
+    "slug": "pan-seared-shrimp-with-peanuts-black-pepper-and-lime",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-large-shrimp-21-to-25-per-pound-peeled-deveined-and-tails-removed-see-left",
+        "displayName": "extra-large shrimp (21 to 25 per pound), peeled, deveined, and tails removed (see left)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt-divided",
+        "displayName": "kosher salt, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coriander-seeds",
+        "displayName": "coriander seeds",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar-divided",
+        "displayName": "sugar, divided",
+        "amount": 1.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves-and-tender-stems-chopped",
+        "displayName": "fresh cilantro leaves and tender stems, chopped",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "lime-juice-plus-lime-wedges-for-serving",
+        "displayName": "lime juice, plus lime wedges for serving",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-roasted-peanuts-chopped-coarse",
+        "displayName": "dry-roasted peanuts, chopped coarse",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss shrimp and 1/2 teaspoon salt together in bowl; set aside for 15 to 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, grind coriander seeds and peppercorns using spice grinder or mortar and pestle until coarsely ground. Transfer to small bowl. Add paprika, garlic, 1 teaspoon sugar, pepper flakes, and remaining 1/2 teaspoon salt and stir until combined."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pat shrimp dry with paper towels. Add 1 tablespoon oil and remaining 1/8 teaspoon sugar to bowl with shrimp and toss to coat. Add shrimp to cold 12-inch nonstick or well-seasoned carbon-steel skillet in single layer and cook over high heat until undersides of shrimp are spotty brown and edges turn pink, 3 to 4 minutes. Remove skillet from heat. Working quickly, use tongs to flip each shrimp; let stand until second side is opaque, about 2 minutes. Transfer shrimp to platter."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add remaining 1 teaspoon oil to now-empty skillet. Add spice mixture and cook over medium heat until fragrant, about 30 seconds. Off heat, return shrimp to skillet. Add cilantro and lime juice and toss to combine. Transfer to platter; sprinkle with peanuts; and serve, passing lime wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH",
+      "PEANUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 44518,
+    "end": 44564,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

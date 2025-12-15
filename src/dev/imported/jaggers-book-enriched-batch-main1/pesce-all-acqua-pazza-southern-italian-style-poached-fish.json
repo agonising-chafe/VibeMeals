@@ -1,0 +1,158 @@
+{
+  "mapped": {
+    "id": "atk_pesce-all-acqua-pazza-southern-italian-style-poached-fish",
+    "name": "Pesce all’Acqua Pazza (Southern Italian-Style Poached Fish)",
+    "slug": "pesce-all-acqua-pazza-southern-italian-style-poached-fish",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "skin-on-haddock-fillets-3-4-to-1-inch-thick",
+        "displayName": "skin-on haddock fillets, 3/4 to 1 inch thick",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-divided",
+        "displayName": "kosher salt, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "crushed-red-pepper-flakes",
+        "displayName": "crushed red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-chopped-fine",
+        "displayName": "small onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cherry-or-grape-tomatoes-halved",
+        "displayName": "cherry or grape tomatoes, halved",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parsley-stems-plus-3-tablespoons-chopped-fresh-parsley-leaves",
+        "displayName": "parsley stems, plus 3 tablespoons chopped fresh parsley leaves",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Season fish fillets all over with 1/2 teaspoon salt and pepper to taste and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil, garlic, and red pepper flakes in 12-inch skillet over medium heat, stirring constantly, until garlic begins to sizzle gently, 11/2 to 2 minutes. Add onion, bay leaf, and remaining 1/2 teaspoon salt and cook, stirring constantly, until onion just starts to soften, 2 to 3 minutes. Add tomatoes and cook, stirring constantly, until they begin to soften, 2 to 3 minutes. Stir in water, wine, parsley stems and half of chopped parsley and bring to boil. Nestle fillets skin side down in liquid, moving aside solids as much as possible (it’s fine if fillets fold over slightly at ends; liquid will not quite cover fillets). Spoon some liquid and solids over fillets. Adjust heat to low, cover, and simmer gently until fillets register 110 at thickest point, 4 to 7 minutes. Remove skillet from heat and let stand, covered, until fish is opaque and just cooked through (fish should register at least 135 degrees), 3 to 7 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Divide fish among 4 shallow soup plates. Remove bay leaf and parsley stems from skillet; stir in remaining parsley. Season broth with salt and pepper to taste. Spoon a portion of broth and solids over each serving of fish and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43087,
+    "end": 43129,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

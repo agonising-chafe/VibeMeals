@@ -1,0 +1,268 @@
+{
+  "mapped": {
+    "id": "atk_daube-proven-al",
+    "name": "Daube Provençal",
+    "slug": "daube-proven-al",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dried-porcini-mushrooms-rinsed",
+        "displayName": "dried porcini mushrooms, rinsed",
+        "amount": 0.75,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-beef-chuck-eye-roast-trimmed-and-cut-into-2-inch-chunks",
+        "displayName": "boneless beef chuck-eye roast, trimmed and cut into 2-inch chunks",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt-pork-rind-removed",
+        "displayName": "salt pork, rind removed",
+        "amount": 5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-halved-pole-to-pole-and-cut-into-1-8-inch-thick-slices-about-4-cups",
+        "displayName": "medium onions, halved pole to pole and cut into 1/8-inch-thick slices (about 4 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-carrots-peeled-and-cut-into-1-inch-thick-rounds-about-2-cups",
+        "displayName": "large carrots, peeled and cut into 1-inch-thick rounds (about 2 cups)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-peeled-and-sliced-thin",
+        "displayName": "medium garlic cloves, peeled and sliced thin",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottle-bold-red-wine",
+        "displayName": "bottle bold red wine",
+        "amount": 1,
+        "unit": "ML",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-ni-oise-olives-drained-well",
+        "displayName": "pitted niçoise olives, drained well",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "zest-from-1-orange-each-strip-about-3-inches-long-removed-with-a-vegetable-peeler-cleaned-of-white-pith-and-cut-lengthwise-into-thin-strips",
+        "displayName": "zest from 1 orange, each strip about 3 inches long, removed with a vegetable peeler, cleaned of white pith, and cut lengthwise into thin strips",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-minced-about-1-teaspoon",
+        "displayName": "anchovy fillets, minced (about 1 teaspoon)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme-tied-together-with-kitchen-twine",
+        "displayName": "sprigs fresh thyme, tied together with kitchen twine",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-whole-tomatoes-drained-and-cut-into-1-2-inch-cubes",
+        "displayName": "can whole tomatoes, drained and cut into 1/2-inch cubes",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine the mushrooms and 1 cup water in a small microwave-safe bowl; cover with plastic wrap, cut three vents for steam with a knife, and microwave on high power for 30 seconds. Let stand until the mushrooms soften, about 5 minutes. Lift the mushrooms from the liquid with a fork and chop into 1/2-inch pieces (you should have about 4 tablespoons). Strain the liquid through a fine-mesh strainer lined with a paper towel into a medium bowl. Set the mushrooms and liquid aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 325 degrees. Dry the beef thoroughly with paper towels, then season with the salt and pepper. Heat 2 tablespoons of the oil in a large heavy-bottomed Dutch oven over medium-high heat until just smoking; add half of the beef. Cook without moving the pieces until well browned, about 2 minutes on each side, for a total of 8 to 10 minutes, reducing the heat if the fat begins to smoke. Transfer the meat to a medium bowl. Repeat with the remaining 2 tablespoons oil and the remaining beef."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Reduce the heat to medium and add the salt pork, onions, carrots, tomato paste, and garlic to the now-empty pot; cook, stirring occasionally, until light brown, about 2 minutes. Stir in the flour and cook, stirring constantly, about 1 minute. Slowly add the wine, gently scraping up any browned bits. Add the broth, water, and beef with any accumulated juices. Increase the heat to medium-high and bring to a simmer. Add the mushrooms and their liquid, 1/2 cup of the olives, the orange zest, anchovies, thyme, and bay leaves, distributing evenly and arranging the beef so it is completely covered by the liquid; partially cover the pot and place in the oven. Cook until a fork inserted in the beef meets little resistance (the meat should not be falling apart), 21/2 to 3 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Discard the salt pork, thyme, and bay leaves. Add the tomatoes and the remaining 1/2 cup olives; warm over medium-high heat until heated through, about 1 minute. Cover the pot and allow the stew to settle, about 5 minutes. Using a spoon, skim the excess fat from the surface of the stew. Stir in the parsley and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7875,
+    "end": 7939,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

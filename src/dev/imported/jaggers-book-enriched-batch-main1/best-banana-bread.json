@@ -1,0 +1,165 @@
+{
+  "mapped": {
+    "id": "atk_best-banana-bread",
+    "name": "Best Banana Bread",
+    "slug": "best-banana-bread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES one 9-inch loaf",
+      "baseServings": 10
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "10-ounces-unbleached-all-purpose-flour",
+        "displayName": "(10 ounces) unbleached all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "51-4-ounces-sugar",
+        "displayName": "(51/4 ounces) sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "very-ripe-bananas-mashed-well-about-11-2-cups",
+        "displayName": "very ripe bananas, mashed well (about 11/2 cups)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "plain-yogurt",
+        "displayName": "plain yogurt",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs-lightly-beaten",
+        "displayName": "large eggs, lightly beaten",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-4-stick-unsalted-butter-melted-and-cooled",
+        "displayName": "(3/4 stick) unsalted butter, melted and cooled",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "walnuts-toasted-and-chopped-coarse",
+        "displayName": "walnuts, toasted and chopped coarse",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the lower-middle position and heat the oven to 350 degrees. Grease and flour a 9 by 5-inch loaf pan; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk the flour, sugar, baking soda, and salt together in a large bowl; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Mix the mashed bananas, yogurt, eggs, butter, and vanilla together with a wooden spoon in a medium bowl. Lightly fold the banana mixture into the dry ingredients with a rubber spatula until just combined and the batter looks thick and chunky. Fold in the walnuts. Scrape the batter into the prepared loaf pan and smooth the surface with a rubber spatula."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bake until the loaf is golden brown and a toothpick inserted in the center comes out clean, about 55 minutes. Cool in the pan for 5 minutes, then transfer to a wire rack. Serve warm or at room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 63374,
+    "end": 63420,
+    "yieldLine": "MAKES one 9-inch loaf"
+  },
+  "fit": true
+}

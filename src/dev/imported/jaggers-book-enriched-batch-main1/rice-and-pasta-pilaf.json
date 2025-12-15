@@ -1,0 +1,139 @@
+{
+  "mapped": {
+    "id": "atk_rice-and-pasta-pilaf",
+    "name": "Rice and Pasta Pilaf",
+    "slug": "rice-and-pasta-pilaf",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "basmati-or-other-long-grain-white-rice",
+        "displayName": "basmati or other long-grain white rice",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vermicelli-broken-into-1-inch-pieces",
+        "displayName": "vermicelli, broken into 1-inch pieces",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-grated",
+        "displayName": "onion, grated",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Soak rice in hot tap water for 15 minutes before cooking, then rinse thoroughly.",
+        "durationMinutes": 15,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place rice in medium bowl and cover with hot tap water by 2 inches; let stand for 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using your hands, gently swish grains to release excess starch. Carefully pour off water, leaving rice in bowl. Add cold tap water to rice and pour off water. Repeat adding and pouring off cold water 4 to 5 times, until water runs almost clear. Drain rice in fine-mesh strainer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Melt butter in saucepan over medium heat. Add pasta and cook, stirring occasionally, until browned, about 3 minutes. Add onion and garlic and cook, stirring occasionally, until onion is softened but not browned, about 4 minutes. Add rice and cook, stirring occasionally, until edges of rice begin to turn translucent, about 3 minutes. Add broth and salt and bring to boil. Reduce heat to low, cover, and cook until all liquid is absorbed, about 10 minutes. Off heat, remove lid, fold clean dish towel in half, and place over pan; replace lid. Let stand for 10 minutes. Fluff rice with fork, stir in parsley, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61417,
+    "end": 61457,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

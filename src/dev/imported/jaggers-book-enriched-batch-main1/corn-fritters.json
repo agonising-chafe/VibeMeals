@@ -1,0 +1,171 @@
+{
+  "mapped": {
+    "id": "atk_corn-fritters",
+    "name": "Corn Fritters",
+    "slug": "corn-fritters",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 12 fritters",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "ears-corn-kernels-cut-from-cobs-3-cups-divided",
+        "displayName": "ears corn, kernels cut from cobs (3 cups), divided",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-2-cup-vegetable-oil-divided",
+        "displayName": "plus 1/2 cup vegetable oil, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-4-teaspoon-table-salt-divided",
+        "displayName": "plus 1/4 teaspoon table salt, divided",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-minced-chives-divided",
+        "displayName": "finely minced chives, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese",
+        "displayName": "grated Parmesan cheese",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten",
+        "displayName": "large egg, lightly beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Process 11/2 cups corn kernels in food processor to uniformly coarse puree, 15 to 20 seconds, scraping down bowl halfway through processing. Set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat 1 teaspoon oil in 12-inch nonstick skillet over medium-high heat until shimmering. Add remaining 11/2 cups corn kernels and 1/8 teaspoon salt, and cook, stirring frequently, until light golden, 3 to 4 minutes. Transfer to medium bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return skillet to medium heat, add corn puree, and cook, stirring frequently with heatproof spatula, until puree is consistency of thick oatmeal (puree clings to spatula rather than dripping off), about 5 minutes. Transfer puree to bowl with kernels and stir to combine. Rinse skillet and dry with paper towels."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Stir flour, 3 tablespoons chives, Parmesan, cornstarch, pepper, cayenne, and remaining 1/4 teaspoon salt into corn mixture until well combined. Gently stir in egg until incorporated."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Line rimmed baking sheet with paper towels. Heat remaining 1/2 cup oil in now-empty skillet over medium heat until shimmering. Drop six 2-tablespoon portions batter into skillet. Press with spatula to flatten into 21/2- to 3-inch disks. Fry until deep golden brown on both sides, 2 to 3 minutes per side. Transfer fritters to prepared sheet. Repeat with remaining batter."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer fritters to large plate or platter, sprinkle with remaining 1 tablespoon chives, and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 57926,
+    "end": 57972,
+    "yieldLine": "MAKES 12 fritters"
+  },
+  "fit": true
+}

@@ -1,0 +1,115 @@
+{
+  "mapped": {
+    "id": "atk_memphis-style-barbecued-spareribs",
+    "name": "Memphis-Style Barbecued Spareribs",
+    "slug": "memphis-style-barbecued-spareribs",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 270,
+      "equipmentTags": [
+        "GRILL",
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "recipe-spice-rub",
+        "displayName": "recipe Spice Rub",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "21-2-to-3-pound-racks-st-louis-style-spareribs-trimmed",
+        "displayName": "(21/2- to 3-pound) racks St. Louis–style spareribs, trimmed",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "apple-juice",
+        "displayName": "apple juice",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-by-9-inch-disposable-aluminum-roasting-pan-if-using-charcoal-or-2-9-inch-disposable-aluminum-pie-plates-if-using-gas",
+        "displayName": "(13 by 9-inch) disposable aluminum roasting pan (if using charcoal) or 2 (9-inch) disposable aluminum pie plates (if using gas)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Rub 2 tablespoons spice rub on each side of each rack of ribs. Let ribs sit at room temperature while preparing grill."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine apple juice and vinegar in small bowl and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place ribs meat side down on cooler side of grill over water-filled pan. Cover (position lid vent over meat if using charcoal) and cook until ribs are deep red and smoky, about 11/2 hours, brushing with apple juice mixture and flipping and rotating racks halfway through cooking. About 20 minutes before removing ribs from grill, adjust oven rack to lower-middle position and heat oven to 300 degrees."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Set wire rack in rimmed baking sheet and transfer ribs to rack. Brush top of each rack with 2 tablespoons apple juice mixture. Pour 11/2 cups water into bottom of sheet; roast for 1 hour. Brush ribs with remaining apple juice mixture and continue to cook until meat is tender and registers 195 degrees, 1 to 2 hours. Transfer ribs to cutting board and let rest for 15 minutes. Slice ribs between bones and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 52593,
+    "end": 52631,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

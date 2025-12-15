@@ -1,0 +1,147 @@
+{
+  "mapped": {
+    "id": "atk_grilled-well-done-hamburgers",
+    "name": "Grilled Well-Done Hamburgers",
+    "slug": "grilled-well-done-hamburgers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "hearty-white-sandwich-bread-crust-removed-bread-cut-into-1-4-inch-pieces",
+        "displayName": "hearty white sandwich bread, crust removed, bread cut into 1/4-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "steak-sauce",
+        "displayName": "steak sauce",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "80-percent-lean-ground-chuck",
+        "displayName": "80 percent lean ground chuck",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sliced-cheese-optional",
+        "displayName": "sliced cheese (optional)",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "hamburger-buns-toasted",
+        "displayName": "hamburger buns, toasted",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mash bread and milk in large bowl with fork until homogeneous. Stir in steak sauce, garlic, salt, and pepper. Using hands, gently break up meat over bread mixture and toss lightly to distribute. Divide meat into 4 portions and lightly toss 1 portion from hand to hand to form ball, then lightly flatten ball with fingertips into 3/4-inch-thick patty. Press center of patty down with fingertips until it is about 1/2 inch thick, creating slight depression. Repeat with remaining portions."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean and oil cooking grate. Place burgers on grill (on hot side if using charcoal) and cook, without pressing on them, until well browned on first side, 2 to 4 minutes. Flip burgers and cook until meat registers 140 to 145 degrees (for medium-well done) 3 to 4 minutes or 150 to 155 degrees (for well done), 4 to 5 minutes, adding cheese, if using, about 2 minutes before reaching desired doneness and covering grill to melt cheese."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer burgers to serving platter, tent loosely with aluminum foil, and let rest for 5 to 10 minutes before serving on buns."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 49596,
+    "end": 49649,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

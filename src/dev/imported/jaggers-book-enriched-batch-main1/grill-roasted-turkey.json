@@ -1,0 +1,119 @@
+{
+  "mapped": {
+    "id": "atk_grill-roasted-turkey",
+    "name": "Grill-Roasted Turkey",
+    "slug": "grill-roasted-turkey",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 10,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-to-14-pound-turkey-trimmed-neck-giblets-and-tailpiece-removed-and-wings-tucked-behind-back",
+        "displayName": "(12- to 14-pound) turkey, trimmed, neck, giblets, and tailpiece removed, and wings tucked behind back",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 12,
+        "description": "Brine turkey for 6 to 12 hours",
+        "strategy": "REFRIGERATE",
+        "type": "LONG_PREP"
+      },
+      {
+        "hoursBefore": 0.25,
+        "description": "Soak wood chips for 15 minutes",
+        "strategy": "SOAK",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve salt in 2 gallons cold water in large container. Submerge turkey in brine, cover, and refrigerate or store in very cool spot (40 degrees or less) for 6 to 12 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Lightly spray V-rack with vegetable oil spray. Remove turkey from brine and pat dry, inside and out, with paper towels. Brush both sides of turkey with melted butter and place breast side down in prepared V-rack."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using 3 large pieces of heavy-duty aluminum foil, wrap soaked chips in 3 foil packets and cut several vent holes in top."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Clean and oil cooking grate. Place V-rack with turkey on cool side of grill with leg and wing facing coal, cover (position lid vent over turkey if using charcoal), and cook for 1 hour."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Using potholders, transfer V-rack with turkey to rimmed baking sheet or roasting pan. If using charcoal, remove cooking grate and add 12 new briquettes and second wood chip packet to pile of coals; set cooking grate in place. If using gas, place remaining wood chip packets directly on primary burner. With wad of paper towels in each hand, flip turkey breast side up in rack and return V-rack with turkey to cool side of grill, with other leg and wing facing heat. Cover (position lid vent over turkey if using charcoal) and cook for 45 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using potholders, carefully rotate V-rack with turkey (breast remains up) 180 degrees. Cover and continue to cook until breast registers 160 degrees and thighs register 175 degrees, 15 to 45 minutes longer. Transfer turkey to carving board, tent loosely with foil, and let rest for 20 to 30 minutes. Carve and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 54982,
+    "end": 55020,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

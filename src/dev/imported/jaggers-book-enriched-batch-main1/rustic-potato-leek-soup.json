@@ -1,0 +1,120 @@
+{
+  "mapped": {
+    "id": "atk_rustic-potato-leek-soup",
+    "name": "Rustic Potato-Leek Soup",
+    "slug": "rustic-potato-leek-soup",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "3-4-stick-unsalted-butter",
+        "displayName": "(3/4 stick) unsalted butter",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "leeks-white-and-light-green-parts-only-halved-lengthwise-sliced-crosswise-1-inch-thick-and-rinsed-thoroughly-about-11-cups-see-this-page",
+        "displayName": "leeks, white and light green parts only, halved lengthwise, sliced crosswise 1 inch thick, and rinsed thoroughly (about 11 cups); (see this page)",
+        "amount": 45,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 5.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-potatoes-about-5-medium-peeled-and-cut-into-3-4-inch-chunks",
+        "displayName": "red potatoes (about 5 medium), peeled and cut into 3/4-inch chunks",
+        "amount": 1.75,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt the butter in a large Dutch oven over medium-low heat. Add the leeks, increase the heat to medium, cover, and cook, stirring occasionally, until the leeks are tender but not mushy, 15 to 20 minutes; do not brown them. Add the flour and cook, stirring constantly, until thoroughly combined, about 2 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Increase the heat to high; whisking constantly, gradually add the broth. Add the potatoes and bay leaf, cover, and bring to a boil. Reduce the heat to medium-low and simmer, covered, until the potatoes are almost tender, 5 to 7 minutes. Remove the pot from the heat and let stand, covered, until the potatoes are tender, 10 to 15 minutes. Discard the bay leaf, season with salt and pepper to taste, and serve. (The soup can be refrigerated in an airtight container for up to 2 days. Warm over low heat until hot; do not boil.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10515,
+    "end": 10551,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_chili-s-molten-chocolate-cakes",
+    "name": "Chili’s Molten Chocolate Cakes",
+    "slug": "chili-s-molten-chocolate-cakes",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "molten-chocolate-cake-is-the-most-popular-dessert-on-the-chili-s-menu-they-serve-this-cake-topped-with-a-scoop-of-vanilla-ice-cream-coated-in-a-crunchy-chocolate-shell-that-can-be-made-easily-at-home-with-smucker-s-magic-shell-chocolate-flavored-topping",
+        "displayName": "Molten Chocolate Cake is the most popular dessert on the Chili’s menu. They serve this cake topped with a scoop of vanilla ice cream coated in a crunchy chocolate shell that can be made easily at home with Smucker’s Magic Shell Chocolate Flavored Topping.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-plus-more-for-greasing",
+        "displayName": "unsalted butter, plus more for greasing",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cocoa-powder-plus-more-for-dusting",
+        "displayName": "cocoa powder, plus more for dusting",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounces-dark-chocolate-chopped",
+        "displayName": "½ ounces dark chocolate, chopped",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-yolk",
+        "displayName": "large egg yolk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 3,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "four-5-ounce-ramekins-with-butter-and-dust-with-cocoa-powder",
+        "displayName": "four 5-ounce ramekins with butter and dust with cocoa powder.",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-microwave-safe-bowl-melt-5-tablespoons-butter-and-chocolate-together-in-microwave-on-medium-heat-2-3-minutes-stir-to-combine",
+        "displayName": "In a medium microwave-safe bowl, melt 5 tablespoons butter and chocolate together in microwave on medium heat 2–3 minutes. Stir to combine.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-mixing-bowl-whisk-together-eggs-egg-yolk-sugar-and-vanilla-until-mixture-is-light-yellow-in-color-and-sugar-is-dissolved",
+        "displayName": "In a large mixing bowl, whisk together eggs, egg yolk, sugar, and vanilla until mixture is light yellow in color and sugar is dissolved.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "stir-chocolate-mixture-into-egg-mixture-and-whisk-until-combined-sift-in-flour-2-teaspoons-cocoa-powder-and-salt-then-fold-in-with-a-spatula-until-combined",
+        "displayName": "Stir chocolate mixture into egg mixture and whisk until combined. Sift in flour, 2 teaspoons cocoa powder, and salt, then fold in with a spatula until combined.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spoon-batter-into-buttered-ramekins-and-tap-on-table-to-settle-any-air-bubbles-refrigerate-30-minutes",
+        "displayName": "Spoon batter into buttered ramekins and tap on table to settle any air bubbles. Refrigerate 30 minutes.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-425-f",
+        "displayName": "Preheat oven to 425°F.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-ramekins-in-a-9-13-baking-dish-and-add-water-to-dish-until-halfway-up-sides-of-ramekins-bake-15-minutes",
+        "displayName": "Place ramekins in a 9\" × 13\" baking dish and add water to dish until halfway up sides of ramekins. Bake 15 minutes.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "run-a-knife-blade-around-the-sides-of-ramekins-to-loosen-cakes-place-a-serving-dish-on-top-of-each-ramekin-and-then-flip-over-to-release-cake-onto-dish-serve-warm",
+        "displayName": "Run a knife blade around the sides of ramekins to loosen cakes. Place a serving dish on top of each ramekin and then flip over to release cake onto dish. Serve warm.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "legend-has-it-that-this-cake-was-the-result-of-a-major-culinary-disaster-a-cook-took-chocolate-sponge-cakes-out-of-the-oven-too-soon-leaving-the-centers-still-liquefied-since-there-was-no-time-to-cook-the-cakes-further-the-chef-simply-introduced-the-dessert-as-a-chocolate-lava-cake",
+        "displayName": "Legend has it that this cake was the result of a major culinary disaster. A cook took chocolate sponge cakes out of the oven too soon, leaving the centers still liquefied. Since there was no time to cook the cakes further, the chef simply introduced the dessert as a chocolate lava cake.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9916,
+    "end": 9972,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

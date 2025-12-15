@@ -1,0 +1,163 @@
+{
+  "mapped": {
+    "id": "atk_grilled-blackened-red-snapper",
+    "name": "Grilled Blackened Red Snapper",
+    "slug": "grilled-blackened-red-snapper",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "GRILL",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-powder",
+        "displayName": "onion powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-pepper",
+        "displayName": "black pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-pepper",
+        "displayName": "white pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "6-to-8-ounce-skin-on-red-snapper-fillets-3-4-inch-thick",
+        "displayName": "(6- to 8-ounce) skin-on red snapper fillets, 3/4 inch thick",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine paprika, onion powder, garlic powder, coriander, salt, cayenne, black pepper, and white pepper in bowl. Melt butter in 10-inch skillet over medium heat. Stir in spice mixture and cook, stirring frequently, until fragrant and spices turn dark rust color, 2 to 3 minutes. Transfer mixture to pie plate and let cool to room temperature. Use a fork to break up any large clumps."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean cooking grate, then repeatedly brush grate with well-oiled paper towels until black and glossy, 5 to 10 times."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, pat fillets dry with paper towels. Using sharp knife, make shallow diagonal slashes every inch along skin side of fish, being careful not to cut into flesh. Place fillets skin side up on large plate. Using your fingers, rub spice mixture in thin, even layer on top and sides of fish. Flip fillets over and repeat on other side (you should use all of spice mixture)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Place fish skin side down on grill (hot side if using charcoal) with fillets diagonal to grate. Cook until skin is very dark brown and crisp, 3 to 5 minutes. Carefully flip fish and continue to cook until dark brown and beginning to flake and center is opaque but still moist, about 5 minutes longer. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 55363,
+    "end": 55409,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

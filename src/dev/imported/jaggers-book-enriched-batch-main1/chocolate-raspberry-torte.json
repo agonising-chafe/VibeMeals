@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_chocolate-raspberry-torte",
+    "name": "Chocolate-Raspberry Torte",
+    "slug": "chocolate-raspberry-torte",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 14,
+      "yieldText": "SERVES 12 to 16"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "bittersweet-chocolate-chopped-fine",
+        "displayName": "bittersweet chocolate, chopped fine",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "11-2-sticks-unsalted-butter-cut-into-1-2-inch-pieces",
+        "displayName": "(11/2 sticks) unsalted butter, cut into 1/2-inch pieces",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-espresso-powder",
+        "displayName": "instant espresso powder",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "61-8-ounces-sliced-almonds-toasted",
+        "displayName": "(61/8 ounces) sliced almonds, toasted",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "11-4-ounces-unbleached-all-purpose-flour",
+        "displayName": "(11/4 ounces) unbleached all-purpose flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-at-room-temperature",
+        "displayName": "large eggs, at room temperature",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "51-4-ounces-sugar",
+        "displayName": "(51/4 ounces) sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-cup-raspberries-plus-16-individual-raspberries",
+        "displayName": "(1/2 cup) raspberries, plus 16 individual raspberries",
+        "amount": 2.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "seedless-raspberry-jam",
+        "displayName": "seedless raspberry jam",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "bittersweet-chocolate-chopped-fine",
+        "displayName": "bittersweet chocolate, chopped fine",
+        "amount": 5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "plus-1-tablespoon-heavy-cream",
+        "displayName": "plus 1 tablespoon heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GLAZE",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CAKE: Adjust an oven rack to the middle position and heat the oven to 325 degrees. Grease and flour two 9-inch round cake pans, line the bottoms with parchment paper, then grease and flour the parchment. Melt the chocolate and butter in a large heatproof bowl set over a saucepan filled with 1 inch of simmering water, stirring occasionally until smooth. Remove from the heat and let cool to room temperature, about 30 minutes. Stir in the vanilla and espresso powder."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pulse 3/4 cup of the almonds in a food processor until coarsely chopped, 6 to 8 pulses, and set aside. Process the remaining 1 cup almonds until very finely ground, about 45 seconds. Add the flour and salt and continue to process until combined, about 15 seconds. Transfer the almond-flour mixture to a medium bowl. Process the eggs until lightened in color and almost doubled in volume, about 3 minutes. With the processor running, slowly add the sugar and process until thoroughly combined, about 15 seconds. Using a whisk, gently fold the egg mixture into the chocolate mixture until some streaks of egg remain. Sprinkle half of the almond-flour mixture over the chocolate mixture and gently whisk until just combined. Sprinkle with the remaining almond-flour mixture and gently whisk until just combined."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Divide the batter evenly between the prepared pans and smooth the tops with a rubber spatula. Bake until the center is firm and a toothpick inserted in the center comes out with a few moist crumbs attached, 14 to 16 minutes. Transfer the cakes to a wire rack and let cool completely in the pans, about 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Run a paring knife around the sides of the cakes to loosen and invert the cakes onto cardboard rounds cut the same size as the diameter of the cake; discard the parchment. Using a wire rack, turn 1 cake right side up, then slide from the rack back onto the cardboard round."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE FILLING: Place 1/2 cup of the raspberries in a medium bowl and coarsely mash with a fork. Stir in the raspberry jam until just combined."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "TO ASSEMBLE THE TORTE: Spread the raspberry mixture onto the cake layer that is right side up. Top with the second cake layer, leaving it upside down. Transfer the assembled cake, still on the cardboard round, to a wire rack set in a rimmed baking sheet."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "FOR THE GLAZE: Melt the chocolate and cream in a medium heatproof bowl set over a saucepan filled with 1 inch of simmering water, stirring occasionally until smooth. Remove from the heat and gently whisk until very smooth. Pour the glaze onto the center of the assembled cake. Using an offset spatula, spread the glaze evenly over the top of the cake, letting it drip down the sides. Spread the glaze along the sides of the cake to coat evenly."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Using a fine-mesh strainer, sift the reserved chopped almonds to remove any fine bits. Holding the bottom of the cake on the cardboard round with 1 hand, gently press the sifted almonds onto the cake sides with the other hand. Arrange the remaining 16 raspberries around the circumference. Refrigerate the cake on the rack until the glaze is set, at least 1 hour or up to 24 hours (if refrigerating the cake for more than 1 hour, let sit at room temperature for about 30 minutes before serving). Transfer the cake to a platter and serve."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "With the fully assembled cake placed on a cardboard round, hold the bottom of the cake in one hand and gently press the chopped nuts onto its side with the other hand."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Place one raspberry on the cake at 12 o’clock, then another at 6 o’clock. Place a third berry at 9 o’clock and a fourth at 3 o’clock. Continue to place raspberries directly opposite each other until all have been arranged in an evenly spaced circle."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 74105,
+    "end": 74185,
+    "yieldLine": "SERVES 12 to 16"
+  },
+  "fit": true
+}

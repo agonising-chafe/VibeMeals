@@ -1,0 +1,232 @@
+{
+  "mapped": {
+    "id": "atk_buffalo-wings",
+    "name": "Buffalo Wings",
+    "slug": "buffalo-wings",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "frank-s-redhot-original-sauce",
+        "displayName": "Frank’s RedHot Original Sauce",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tabasco-or-other-hot-sauce-plus-more-to-taste",
+        "displayName": "Tabasco or other hot sauce, plus more to taste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "quarts-peanut-oil-for-frying",
+        "displayName": "quarts peanut oil, for frying",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRY_RUB"
+      },
+      {
+        "ingredientId": "chicken-wings-cut-at-joints-wingtips-discarded",
+        "displayName": "chicken wings, cut at joints, wingtips discarded",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-cut-into-thin-sticks",
+        "displayName": "carrots, peeled and cut into thin sticks",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "celery-ribs-cut-into-thin-sticks",
+        "displayName": "celery ribs, cut into thin sticks",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "blue-cheese-dressing",
+        "displayName": "Blue cheese dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE: Melt butter in small saucepan over low heat. Whisk in hot sauces, sugar, and vinegar until combined. Remove from heat and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE WINGS: Heat oven to 200 degrees. Line baking sheet with paper towels. In large Dutch oven fitted with clip-on candy thermometer, heat 21/2 inches oil over medium-high heat to 360 degrees. While oil heats, combine cornstarch, salt, pepper, and cayenne in a small bowl. Dry chicken with paper towels and place pieces in large bowl. Sprinkle spice mixture over wings and toss with rubber spatula until evenly coated. Fry half of chicken wings until golden and crisp, 10 to 12 minutes. With slotted spoon, transfer fried chicken wings to prepared sheet. Keep first batch of chicken warm in oven while frying remaining wings. (The fried, unsauced wings can be kept warm in the oven for up to 11/2 hours. Toss them with the sauce just before serving.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pour sauce mixture into large bowl, add chicken wings, and toss until wings are uniformly coated. Serve immediately with carrot and celery sticks and blue cheese dressing on side."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Cut into skin between larger sections of wing until you hit joint."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Bend back 2 sections to pop and break joint."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Cut through skin and flesh to completely separate 2 meaty portions."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Hack off wingtip and discard."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "PEANUT",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 28456,
+    "end": 28538,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

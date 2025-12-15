@@ -1,0 +1,231 @@
+{
+  "mapped": {
+    "id": "atk_baked-manicotti",
+    "name": "Baked Manicotti",
+    "slug": "baked-manicotti",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cans-diced-tomatoes",
+        "displayName": "cans diced tomatoes",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes-optional",
+        "displayName": "red pepper flakes (optional)",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-cups-part-skim-ricotta-cheese",
+        "displayName": "(3 cups) part-skim ricotta cheese",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-2-cups-divided",
+        "displayName": "Parmesan cheese, grated (2 cups), divided",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk-mozzarella-cheese-shredded-2-cups",
+        "displayName": "whole-milk mozzarella cheese, shredded (2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs-lightly-beaten",
+        "displayName": "large eggs, lightly beaten",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil",
+        "displayName": "chopped fresh basil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "no-boil-lasagna-noodles",
+        "displayName": "no-boil lasagna noodles",
+        "amount": 16,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SAUCE: Adjust oven rack to middle position and heat oven to 375 degrees. Pulse 1 can tomatoes with their juice in food processor until coarsely chopped, 3 to 4 pulses. Transfer to bowl. Repeat with remaining can of tomatoes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil; garlic; and pepper flakes, if using, in large saucepan over medium heat until fragrant but not brown, 1 to 2 minutes. Stir in tomatoes and salt and simmer until slightly thickened, about 15 minutes. Stir in basil; season with salt to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE CHEESE FILLING AND PASTA: Combine ricotta, 1 cup Parmesan, mozzarella, eggs, parsley, basil, salt, and pepper in medium bowl; set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Pour 2 inches boiling water into 13 by 9-inch broiler-safe baking dish. Slip noodles into water, one at a time, and let them soak until pliable, about 5 minutes, separating them with tip of knife to prevent sticking. Remove noodles from water and place in single layer on clean dish towels. Discard water and dry baking dish."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Spread bottom of baking dish evenly with 11/2 cups sauce. Using spoon, spread 1/4 cup cheese mixture evenly onto bottom three-quarters of each noodle (with short side facing you), leaving top quarter of noodle exposed. Roll into tube shape and arrange in baking dish, seam side down. Top evenly with remaining sauce, making certain that pasta is completely covered."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Cover baking dish tightly with aluminum foil and bake until bubbling, about 40 minutes. Remove baking dish from oven and remove foil. Adjust oven rack 6 inches from broiler element and heat broiler. Sprinkle manicotti evenly with remaining 1 cup Parmesan. Broil until cheese is spotty brown, 4 to 6 minutes. Cool for 15 minutes; cut into pieces and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 19011,
+    "end": 19075,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

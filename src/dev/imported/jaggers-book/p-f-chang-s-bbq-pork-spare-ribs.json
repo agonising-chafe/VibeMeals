@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_p-f-chang-s-bbq-pork-spare-ribs",
+    "name": "P.F. Chang’s BBQ Pork Spare Ribs",
+    "slug": "p-f-chang-s-bbq-pork-spare-ribs",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "one-of-the-most-popular-dishes-on-p-f-chang-s-appetizer-menu-is-the-spareribs-that-come-slathered-with-an-asian-barbecue-sauce",
+        "displayName": "One of the most popular dishes on P.F. Chang’s appetizer menu is the spareribs that come slathered with an Asian barbecue sauce.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "light-corn-syrup",
+        "displayName": "light corn syrup",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-hoisin-sauce",
+        "displayName": "½ cup hoisin sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-water",
+        "displayName": "½ cup water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-packed-light-brown-sugar",
+        "displayName": "⅓ cup packed light brown sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-onions",
+        "displayName": "minced onions",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rice-vinegar",
+        "displayName": "rice vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1216,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rack-pork-spareribs",
+        "displayName": "rack pork spareribs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "displayName": "sesame seeds",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "diced-green-onion",
+        "displayName": "diced green onion",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-saucepan-over-medium-heat-combine-ketchup-corn-syrup-hoisin-sauce-water-brown-sugar-onions-and-vinegar-bring-mixture-to-a-boil-then-reduce-heat-to-medium-low-and-simmer-5-minutes-or-until-thick-cool",
+        "displayName": "In a medium saucepan over medium heat, combine ketchup, corn syrup, hoisin sauce, water, brown sugar, onions, and vinegar. Bring mixture to a boil, then reduce heat to medium-low and simmer 5 minutes or until thick. Cool.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-water-in-a-large-saucepan-or-dutch-oven-over-high-heat-add-salt",
+        "displayName": "Heat water in a large saucepan or Dutch oven over high heat. Add salt.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "as-water-comes-to-a-boil-trim-excess-fat-and-slice-between-bones-of-each-rib-to-separate-toss-ribs-in-boiling-water-and-boil-12-14-minutes-remove-ribs-to-a-plate-to-cool",
+        "displayName": "As water comes to a boil, trim excess fat and slice between bones of each rib to separate. Toss ribs in boiling water and boil 12–14 minutes. Remove ribs to a plate to cool.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-separate-large-saucepan-over-medium-heat-heat-oil-to-375-f",
+        "displayName": "In a separate large saucepan over medium heat, heat oil to 375°F.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-four-to-six-ribs-at-a-time-to-hot-oil-and-fry-2-4-minutes-until-browned-drain-on-a-rack-or-paper-towel-lined-plate-repeat-with-remaining-ribs",
+        "displayName": "Add four to six ribs at a time to hot oil and fry 2–4 minutes until browned. Drain on a rack or paper towel–lined plate. Repeat with remaining ribs.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "once-ribs-are-browned-heat-a-wok-over-medium-heat-when-hot-add-ribs-and-prepared-sauce-tossing-ribs-to-coat-simmer-ribs-in-sauce-stirring-often-about-1-minute-remove-to-a-serving-plate-sprinkle-ribs-with-sesame-seeds-and-green-onion-serve-hot",
+        "displayName": "Once ribs are browned, heat a wok over medium heat. When hot, add ribs and prepared sauce, tossing ribs to coat. Simmer ribs in sauce, stirring often, about 1 minute. Remove to a serving plate. Sprinkle ribs with sesame seeds and green onion. Serve hot.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6879,
+    "end": 6935,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

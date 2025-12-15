@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_grilled-beef-kebabs-with-lemon-and-rosemary-marinade",
+    "name": "Grilled Beef Kebabs with Lemon and Rosemary Marinade",
+    "slug": "grilled-beef-kebabs-with-lemon-and-rosemary-marinade",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "BLENDER",
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "onion-chopped",
+        "displayName": "onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "beef-broth",
+        "displayName": "beef broth",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "cloves-chopped",
+        "displayName": "cloves, chopped",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "chopped-fresh-rosemary",
+        "displayName": "chopped fresh rosemary",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "grated-lemon-zest",
+        "displayName": "grated lemon zest",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "sirloin-steak-tips-trimmed-and-cut-into-2-inch-chunks",
+        "displayName": "sirloin steak tips, trimmed and cut into 2-inch chunks",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-zucchini-or-summer-squash-halved-lengthwise-and-sliced-1-inch-thick",
+        "displayName": "large zucchini or summer squash, halved lengthwise and sliced 1 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-red-or-green-bell-pepper-stemmed-seeded-and-cut-into-11-2-inch-pieces",
+        "displayName": "large red or green bell pepper, stemmed, seeded, and cut into 11/2-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-red-or-sweet-onion-halved-lengthwise-each-half-cut-into-4-wedges-and-each-wedge-cut-crosswise-into-thirds",
+        "displayName": "large red or sweet onion, halved lengthwise, each half cut into 4 wedges and each wedge cut crosswise into thirds",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "kind": "MARINATE",
+        "description": "Marinate beef in refrigerator for at least 1 to 2 hours, flipping bag every 30 minutes.",
+        "durationMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MARINADE: Process all ingredients in blender until smooth, about 45 seconds. Transfer 3/4 cup marinade to large bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE BEEF AND VEGETABLES: Place remaining marinade and beef in 1-gallon zipper-lock bag and toss to coat; press out as much air as possible and seal bag. Refrigerate for at least 1 to 2 hours, flipping bag every 30 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add zucchini, bell pepper, and onion to bowl with reserved marinade and toss to coat. Cover and let sit at room temperature for at least 30 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove beef from bag and pat dry with paper towels. Thread beef tightly onto two 12-inch metal skewers. Alternating pattern of zucchini, bell pepper, and onion, thread vegetables onto two 12-inch metal skewers."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Clean and oil cooking grate. Place beef skewers on grill (directly over coals if using charcoal or over hotter side of grill if using gas). Place vegetable skewers on grill (near edge of coals but still over coals if using charcoal or over cooler side of grill if using gas). Cook (covered if using gas), turning skewers every 3 to 4 minutes, until beef is well browned and registers 120 to 125 degrees (for medium-rare) or 130 to 135 degrees (for medium), 12 to 16 minutes. Transfer beef skewers to platter and tent loosely with aluminum foil. Continue to cook vegetable skewers until tender and lightly charred, about 5 minutes; serve with beef skewers."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51074,
+    "end": 51138,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

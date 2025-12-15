@@ -1,0 +1,258 @@
+{
+  "mapped": {
+    "id": "atk_hong-kong-style-wonton-noodle-soup",
+    "name": "Hong Kong–Style Wonton Noodle Soup",
+    "slug": "hong-kong-style-wonton-noodle-soup",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shrimp-26-to-30-per-pound-peeled-deveined-tails-removed-and-shells-reserved-see-this-page",
+        "displayName": "large shrimp (26 to 30 per pound), peeled, deveined, tails removed, and shells reserved (see this page)",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "WONTON",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "chicken-broth-this-page",
+        "displayName": "Chicken Broth (this page)",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BROTH"
+      },
+      {
+        "ingredientId": "plus-1-8-teaspoon-table-salt-divided",
+        "displayName": "plus 1/8 teaspoon table salt, divided",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BROTH, WONTON"
+      },
+      {
+        "ingredientId": "dried-flounder-fish-powder-divided",
+        "displayName": "dried flounder fish powder, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BROTH, WONTON"
+      },
+      {
+        "ingredientId": "soy-sauce-divided",
+        "displayName": "soy sauce, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BROTH, WONTON",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "white-pepper-divided",
+        "displayName": "white pepper, divided",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BROTH, WONTON"
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "WONTON"
+      },
+      {
+        "ingredientId": "scallion-minced",
+        "displayName": "scallion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "WONTON"
+      },
+      {
+        "ingredientId": "shaoxing-wine",
+        "displayName": "Shaoxing wine",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "WONTON"
+      },
+      {
+        "ingredientId": "oyster-sauce",
+        "displayName": "oyster sauce",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "WONTON",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "toasted-sesame-oil-plus-extra-for-serving",
+        "displayName": "toasted sesame oil, plus extra for serving",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "WONTON, GARNISH",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "3-inch-square-hong-kong-style-wonton-wrappers",
+        "displayName": "(3-inch) square Hong Kong–style wonton wrappers",
+        "amount": 24,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "WONTON"
+      },
+      {
+        "ingredientId": "heads-baby-bok-choy-4-ounces-each-greens-separated",
+        "displayName": "heads baby bok choy (4 ounces each), greens separated",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-thin-wonton-noodles",
+        "displayName": "fresh thin wonton noodles",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat vegetable oil in large saucepan over high heat until shimmering. Add reserved shrimp shells and cook, stirring frequently, until shells begin to turn spotty brown, about 2 minutes. Add broth, water, and 1/4 teaspoon salt and bring to boil. Off heat, stir in 1/2 teaspoon flounder powder and let steep for 15 minutes. Strain broth through fine-mesh strainer and return to now-empty saucepan. Stir in 2 teaspoons soy sauce and 1/8 teaspoon pepper. Cover and keep warm."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Halve each shrimp crosswise; set aside. Using wooden spoon or 4 bundled chopsticks, vigorously stir pork in medium bowl until it has stiffened and started to pull away from sides of bowl and has slightly lightened in color, about 5 minutes. Stir in scallion, Shaoxing wine, oyster sauce, sesame oil, remaining 1/8 teaspoon salt, remaining 1/2 teaspoon flounder powder, remaining 1 teaspoon soy sauce, and remaining 1/8 teaspoon pepper until well combined."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Lightly dust parchment paper–lined rimmed baking sheet with flour. Place 6 wrappers on sheet, place heaping 1/2 teaspoon pork filling in center of each wrapper, then top with 1 piece of shrimp and gently press into filling. Form wontons by gathering corners of wrapper around filling and pinching dough tightly just above filling to seal; leave ends of wrapper unsealed. Transfer wontons to prepared sheet, cover with damp dish towel, and repeat with remaining wrappers and filling in 3 batches. (Wontons can be refrigerated for up to 24 hours or frozen on sheet until solid, then transferred to zipper-lock bag and stored in freezer for up to 1 month. Do not thaw frozen dumplings before cooking; increase simmer time to about 6 minutes.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, bring 4 quarts water to boil in Dutch oven. Add bok choy and cook until tender, about 1 minute. Using spider skimmer or slotted spoon, transfer bok choy to plate. Return water to boil, add wonton noodles, and cook until just tender. Using spider skimmer, transfer noodles to colander and rinse thoroughly; divide noodles among serving bowls. Return water to boil, add wontons, and cook until wontons turn translucent and tender and float to the top, about 4 minutes. Using spider skimmer, divide wontons among bowls and top with bok choy."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Return broth to boil over high heat, then ladle over bok choy, noodles, and dumplings. Serve, passing extra sesame oil separately."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Place heaping 1/2 teaspoon pork filling in center of each wrapper, then top with 1 piece of shrimp and gently press into filling."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Form wontons by gathering corners of wrapper around filling."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Pinch dough tightly just above filling to seal; leave ends of wrapper unsealed."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH",
+      "SOY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 7002,
+    "end": 7088,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

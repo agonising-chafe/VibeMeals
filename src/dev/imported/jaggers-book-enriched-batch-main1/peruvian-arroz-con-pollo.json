@@ -1,0 +1,292 @@
+{
+  "mapped": {
+    "id": "atk_peruvian-arroz-con-pollo",
+    "name": "Peruvian Arroz con Pollo",
+    "slug": "peruvian-arroz-con-pollo",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "2-ounces-fresh-cilantro-leaves-and-stems",
+        "displayName": "(2 ounces) fresh cilantro leaves and stems",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "5-to-7-ounce-bone-in-chicken-thighs-trimmed",
+        "displayName": "(5- to 7-ounce) bone-in chicken thighs, trimmed",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 2.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "red-onion-chopped-fine",
+        "displayName": "red onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "aj-amarillo-paste",
+        "displayName": "ají amarillo paste",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "displayName": "minced garlic",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "dark-beer",
+        "displayName": "dark beer",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "chicken-broth-plus-extra-as-needed",
+        "displayName": "chicken broth, plus extra as needed",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "long-grain-white-rice-rinsed",
+        "displayName": "long-grain white rice, rinsed",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "red-bell-pepper-stemmed-seeded-and-cut-into-1-2-inch-wide-strips",
+        "displayName": "red bell pepper, stemmed, seeded, and cut into 1/2-inch-wide strips",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-cut-into-1-2-inch-pieces-1-cup",
+        "displayName": "carrots, peeled and cut into 1/2-inch pieces (1 cup)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "frozen-peas",
+        "displayName": "frozen peas",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED",
+        "component": "ARROZ_CON_POLLO"
+      },
+      {
+        "ingredientId": "red-onion-halved-and-sliced-through-root-end-1-16-inch-thick",
+        "displayName": "red onion, halved and sliced through root end 1/16 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SARZA_CRIOLLA"
+      },
+      {
+        "ingredientId": "table-salt-plus-salt-for-salting-onion",
+        "displayName": "table salt, plus salt for salting onion",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SARZA_CRIOLLA"
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SARZA_CRIOLLA"
+      },
+      {
+        "ingredientId": "lime-juice",
+        "displayName": "lime juice",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SARZA_CRIOLLA"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SARZA_CRIOLLA"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE ARROZ CON POLLO: Process cilantro and water in blender until cilantro is finely chopped and very loose puree forms, about 1 minute, scraping down sides of blender jar as needed; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pat chicken dry and sprinkle both sides with 11/2 teaspoons salt and pepper. Heat oil in large Dutch oven over medium heat until shimmering. Add chicken, skin side down, and cook, without moving, until well browned, 8 to 12 minutes. Using tongs, flip chicken and brown on second side, about 2 minutes. Transfer chicken to large plate."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add onion, chile paste, garlic, cumin, and remaining 3/4 teaspoon salt to fat left in pot and cook, stirring often, until onion is softened, 5 to 7 minutes. Increase heat to medium-high and add beer, scraping up any browned bits. Cook until mixture is almost dry, 7 to 10 minutes. Stir in cilantro puree and return chicken to pot, skin side up (chicken will be almost entirely above surface of liquid). Adjust heat to maintain simmer, cover, and cook until chicken registers at least 195 degrees, 18 to 20 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using tongs, transfer chicken to clean plate and tent with aluminum foil. Transfer cooking liquid and solids to 4-cup liquid measuring cup (you should have about 11/2 cups). Add enough broth to measure 31/2 cups. Return broth mixture to pot and stir in rice, bell pepper, and carrots. Bring to boil, adjust heat to simmer, cover, and cook until rice is tender, 20 to 25 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Off heat, stir in peas (browning at bottom of rice is OK). Arrange chicken on top of rice and pour any accumulated juices into pot. Cover and let stand until peas and chicken are warmed through, 5 to 10 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE SARZA CRIOLLA: Toss onion and 1/2 teaspoon table salt in strainer or colander set over bowl. Let stand for 10 minutes. Rinse onion under cold water and pat dry. Combine onion, cilantro, lime juice, pepper, and salt in bowl. (Sarza criolla can be made up to 1 hour ahead.) Serve with chicken and rice."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 24037,
+    "end": 24114,
+    "yieldLine": "SERVES 4 to 6 SEASON 26"
+  },
+  "fit": true
+}

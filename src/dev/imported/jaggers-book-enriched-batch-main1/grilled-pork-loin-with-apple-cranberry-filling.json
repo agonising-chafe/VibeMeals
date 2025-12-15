@@ -1,0 +1,217 @@
+{
+  "mapped": {
+    "id": "atk_grilled-pork-loin-with-apple-cranberry-filling",
+    "name": "Grilled Pork Loin with Apple-Cranberry Filling",
+    "slug": "grilled-pork-loin-with-apple-cranberry-filling",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "GRILL",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "4-ounces-dried-apples",
+        "displayName": "(4 ounces) dried apples",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "apple-cider",
+        "displayName": "apple cider",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "dried-cranberries",
+        "displayName": "dried cranberries",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "large-shallot-halved-lengthwise-and-sliced-thin-crosswise",
+        "displayName": "large shallot, halved lengthwise and sliced thin crosswise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "yellow-mustard-seeds",
+        "displayName": "yellow mustard seeds",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-allspice",
+        "displayName": "ground allspice",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "1-8-1-4-teaspoon-cayenne-pepper",
+        "displayName": "1/8–1/4 teaspoon cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "boneless-center-cut-pork-loin-roast-trimmed",
+        "displayName": "boneless center-cut pork loin roast, trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE FILLING: Bring all ingredients to simmer in medium saucepan over medium-high heat. Cover, reduce heat to low, and cook until apples are very soft, about 20 minutes. Pour mixture through fine-mesh strainer set over bowl, pressing with back of spoon to extract as much liquid as possible. Return liquid to saucepan and simmer over medium-high heat until reduced to 1/3 cup, about 5 minutes; reserve for glazing. Pulse apple mixture in food processor until coarsely chopped, about 15 pulses. Transfer filling to bowl and refrigerate until needed."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE PORK: Position roast fat side up. Insert knife 1/2 inch from bottom of roast and cut horizontally, stopping 1/2 inch before edge. Open up this flap. Cut through thicker half of roast about 1/2 inch from bottom, stopping about 1/2 inch before edge. Open up this flap. Repeat until pork is even 1/2-inch thickness throughout. If uneven, cover with plastic wrap and use meat pounder to even out. Season interior with salt and pepper and spread filling in even layer, leaving 1/2-inch border. Roll tightly and tie with kitchen twine at 1-inch intervals. Season with salt and pepper. (Pork loin can be stuffed and tied and wrapped tightly in plastic wrap for up to 1 day ahead; do not season until ready to grill.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using large piece of heavy-duty aluminum foil, wrap soaked chips in foil packet and cut several vent holes in top."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Clean and oil cooking grate. Place pork, fat side up, on cooler side of grill, cover (position lid vent over roast if using charcoal), and cook until meat registers 130 to 135 degrees, 55 minutes to 1 hour 10 minutes, flipping halfway through cooking."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Brush roast evenly with reserved glaze. (Reheat glaze, if necessary, to make it spreadable.) Continue to cook until glaze is glossy and meat registers 135 to 140 degrees, 5 to 10 minutes longer. Transfer to carving board, tent loosely with foil, and let rest for 15 minutes. Remove twine, cut roast into 1/2-inch-thick slices, and serve."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Position the roast fat side up. Insert a knife 1/2 inch from the bottom of the roast and cut horizontally, stopping 1/2 inch before the edge. Open up this flap."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Cut through the thicker half of the roast about 1/2 inch from the bottom, stopping about 1/2 inch before the edge. Open up this flap."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Repeat until the pork loin is an even 1/2-inch thickness throughout. If uneven, cover with plastic wrap and use a meat pounder to even out."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "With the long side of the meat facing you, season the meat and spread the filling, leaving a 1/2-inch border on all sides."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Starting from the short side, roll the pork loin tightly, then tie the roast with kitchen twine at 1-inch intervals."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51678,
+    "end": 51772,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,80 @@
+{
+  "mapped": {
+    "id": "atk_roasted-okra",
+    "name": "Roasted Okra",
+    "slug": "roasted-okra",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fresh-okra-caps-trimmed-and-halved-lengthwise",
+        "displayName": "fresh okra, caps trimmed and halved lengthwise",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 425 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Toss okra with oil and salt in bowl until well combined. Arrange okra, cut sides down, in single layer on rimmed baking sheet. Cover tightly with aluminum foil and roast until okra is bright green, 12 to 15 minutes (cut sides of a few pieces may be beginning to brown). Remove foil and roast until cut sides are well browned, 7 to 12 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Let okra rest on sheet for 5 minutes. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 58723,
+    "end": 58749,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

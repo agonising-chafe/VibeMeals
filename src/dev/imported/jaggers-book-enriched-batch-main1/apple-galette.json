@@ -1,0 +1,196 @@
+{
+  "mapped": {
+    "id": "atk_apple-galette",
+    "name": "Apple Galette",
+    "slug": "apple-galette",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 10,
+      "yieldText": "SERVES 10 to 12"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "71-2-ounces-all-purpose-flour",
+        "displayName": "(71/2 ounces) all-purpose flour",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-ounces-wondra-flour",
+        "displayName": "(21/2 ounces) Wondra flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-4-inch-pieces-and-chilled",
+        "displayName": "unsalted butter, cut into 1/4-inch pieces and chilled",
+        "amount": 12,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ice-water",
+        "displayName": "ice water",
+        "amount": 79,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "DOUGH"
+      },
+      {
+        "ingredientId": "granny-smith-apples-peeled-cored-and-sliced-1-8-inch-thick",
+        "displayName": "Granny Smith apples, peeled, cored, and sliced 1/8 inch thick",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-4-inch-pieces",
+        "displayName": "unsalted butter, cut into 1/4-inch pieces",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "13-4-ounces-sugar",
+        "displayName": "(13/4 ounces) sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "apple-jelly",
+        "displayName": "apple jelly",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Chill Dough",
+        "description": "Refrigerate dough for 1 hour.",
+        "durationMinutes": 60,
+        "requirementKind": "CHILL",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Process all-purpose flour, Wondra, salt, and sugar in food processor until combined, about 5 seconds. Scatter butter pieces over top and pulse until mixture resembles coarse cornmeal, about 15 pulses. Continue to pulse, adding water through feed tube 1 tablespoon at a time until dough begins to form small curds that hold together when pinched with your fingers (dough will be crumbly), about 10 pulses."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Turn dough crumbs onto lightly floured counter and gather into rectangular-shaped pile. Starting at farthest end, use heel of your hand to smear small amount of dough against counter. Continue to smear dough until all crumbs have been worked. Gather smeared crumbs together in another rectangular-shaped pile and repeat process. Press dough into 4-inch square, wrap tightly in plastic wrap, and refrigerate for 1 hour. Before rolling dough out, let it sit on counter to soften slightly, about 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Cut piece of parchment to measure exactly 16 by 12 inches. Roll dough out over parchment, dusting with flour as needed, until it just overhangs parchment. Trim edges of dough even with parchment. Roll outer 1 inch of dough up to create 1/2-inch-thick border. Slide parchment with dough onto rimmed baking sheet."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE TOPPING: Starting in 1 corner of tart, shingle apple slices onto crust in tidy diagonal rows, overlapping them by a third. Dot with butter and sprinkle evenly with sugar. Bake tart until bottom is deep golden brown and apples have caramelized, 45 minutes to 1 hour, rotating sheet halfway through baking."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Melt jelly in small saucepan over medium-high heat, stirring occasionally to smooth out any lumps. Brush glaze over apples and let tart cool slightly on sheet for 10 minutes. Slide tart onto large platter or cutting board and slice tart in half lengthwise, then crosswise into square pieces. Serve warm or at room temperature."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Cut piece of parchment paper to measure exactly 16 by 12 inches, then roll dough out on top of parchment until it just overhangs edge and is about 1/8 inch thick."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Trim dough so that edges are even with parchment. (We use parchment as a guide to cut a perfectly even rectangle of dough from which we can make a large thin crust.)"
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Roll up 1 inch of each edge to create 1/2-inch-thick border. (This border is decorative and helps keep the apple slices in place.)"
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Slide parchment and dough onto rimmed baking sheet. Starting in 1 corner, shingle apple slices in tidy rows on diagonal over dough, overlapping each row by a third."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 80095,
+    "end": 80173,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

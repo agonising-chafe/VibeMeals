@@ -1,0 +1,117 @@
+{
+  "mapped": {
+    "id": "atk_mango-orange-and-jicama-salad",
+    "name": "Mango, Orange, and Jicama Salad",
+    "slug": "mango-orange-and-jicama-salad",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lime-zest-plus-3-tablespoons-juice-2-limes",
+        "displayName": "grated lime zest plus 3 tablespoons juice (2 limes)",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-salt",
+        "displayName": "Pinch salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "jicama-peeled-and-cut-into-1-4-inch-dice-11-2-cups",
+        "displayName": "jicama, peeled and cut into 1/4-inch dice (11/2 cups)",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oranges",
+        "displayName": "oranges",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mangos-peeled-pitted-and-cut-into-1-2-inch-dice",
+        "displayName": "mangos, peeled, pitted, and cut into 1/2-inch dice",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring sugar, lime zest and juice, pepper flakes, and salt to simmer in small saucepan over medium heat, stirring constantly, until sugar is dissolved, 1 to 2 minutes. Remove pan from heat, stir in jicama, and let syrup cool for 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, cut away peel and pith from oranges. Slice into 1/2-inch-thick rounds, then cut rounds into 1/2-inch pieces. Place oranges and mangos in large bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "When syrup is cool, pour over oranges and mangos and toss to combine. Refrigerate for 15 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 14937,
+    "end": 14991,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

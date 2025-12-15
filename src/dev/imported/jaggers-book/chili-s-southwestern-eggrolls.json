@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_chili-s-southwestern-eggrolls",
+    "name": "Chili’s Southwestern Eggrolls",
+    "slug": "chili-s-southwestern-eggrolls",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 15",
+      "baseServings": 15
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-recipe-has-an-assortment-of-traditional-southwestern-style-ingredients-like-black-beans-corn-and-jalape-os-wrapped-inside-tortillas-and-deep-fried",
+        "displayName": "This recipe has an assortment of traditional Southwestern-style ingredients like black beans, corn, and jalapeños wrapped inside tortillas and deep-fried.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-black-beans-rinsed-and-drained",
+        "displayName": "can black beans, rinsed and drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-corn-rinsed-and-drained",
+        "displayName": "can corn, rinsed and drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-spinach-washed-and-drained",
+        "displayName": "fresh spinach, washed and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-jalape-os-chopped",
+        "displayName": "medium jalapeños, chopped",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-pressed-in-a-garlic-press",
+        "displayName": "garlic, pressed in a garlic press",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-fresh-cilantro",
+        "displayName": "¼ cup chopped fresh cilantro",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-minced-yellow-onion",
+        "displayName": "¼ cup minced yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-chili-powder",
+        "displayName": "½ teaspoon chili powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-mexican-cheese-blend",
+        "displayName": "grated Mexican cheese blend",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-whole-wheat-tortillas",
+        "displayName": "(6-inch) whole-wheat tortillas",
+        "amount": 15,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-vegetable-oil",
+        "displayName": "½ cup vegetable oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-prepared-salsa",
+        "displayName": "½ cup prepared salsa",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-full-fat-sour-cream",
+        "displayName": "½ cup full-fat sour cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-mixing-bowl-combine-beans-corn-spinach-jalape-os-garlic-cilantro-onion-chili-powder-salt-pepper-and-cheese-and-mix-well",
+        "displayName": "In a large mixing bowl, combine beans, corn, spinach, jalapeños, garlic, cilantro, onion, chili powder, salt, pepper, and cheese and mix well.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-2-tablespoons-mixture-on-each-tortilla-and-roll-into-an-eggroll-shape",
+        "displayName": "Place 2 tablespoons mixture on each tortilla and roll into an eggroll shape.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-10-inch-skillet-over-medium-high-heat-using-1-tablespoon-oil-per-2-or-3-eggrolls-shallow-fry-eggrolls-in-pan-until-golden-brown-then-transfer-to-paper-towel-lined-plate-to-drain",
+        "displayName": "Heat a 10-inch skillet over medium-high heat. Using 1 tablespoon oil per 2 or 3 eggrolls, shallow fry eggrolls in pan until golden brown, then transfer to paper towel–lined plate to drain.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "with-salsa-and-sour-cream-serve-immediately",
+        "displayName": "with salsa and sour cream. Serve immediately.",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2267,
+    "end": 2323,
+    "yieldLine": "SERVES 15"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

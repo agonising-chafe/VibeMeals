@@ -1,0 +1,345 @@
+{
+  "mapped": {
+    "id": "atk_glazed-all-beef-meatloaf",
+    "name": "Glazed All-Beef Meatloaf",
+    "slug": "glazed-all-beef-meatloaf",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "monterey-jack-cheese-shredded-on-small-holes-of-box-grater-3-4-cup",
+        "displayName": "Monterey Jack cheese, shredded on small holes of box grater (3/4 cup)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "celery-rib-minced",
+        "displayName": "celery rib, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "tomato-juice",
+        "displayName": "tomato juice",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "crushed-saltines",
+        "displayName": "crushed saltines",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "90-percent-lean-ground-sirloin",
+        "displayName": "90 percent lean ground sirloin",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "80-percent-lean-ground-chuck",
+        "displayName": "80 percent lean ground chuck",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "Meatloaf"
+      },
+      {
+        "ingredientId": "ketchup",
+        "displayName": "ketchup",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Glaze"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Glaze"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "Glaze"
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "hot sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "Glaze"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "Glaze"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Freeze shredded cheese",
+        "durationMinutes": 15,
+        "kind": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MEATLOAF: Adjust oven rack to middle position and heat oven to 375 degrees. Spread cheese on plate and place in freezer until ready to use. Set wire rack in rimmed baking sheet. Fold sheet of heavy-duty aluminum foil to form 10 by 6-inch rectangle. Center foil on rack and poke holes in foil with skewer (about half an inch apart). Spray foil with vegetable oil spray."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Melt butter in 10-inch skillet over medium-high heat; add onion and celery and cook, stirring occasionally, until beginning to brown, 6 to 8 minutes. Add thyme, paprika, and garlic and cook, stirring, until fragrant, about 1 minute. Reduce heat to low and add tomato juice. Cook, stirring to scrape up any browned bits, until thickened, about 1 minute. Transfer mixture to small bowl and set aside to cool."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Whisk broth and eggs together in large bowl until combined. Sprinkle gelatin over liquid and let stand for 5 minutes. Stir in saltines, parsley, soy sauce, mustard, salt, pepper, and onion mixture. Crumble frozen cheese into coarse powder and sprinkle over mixture. Add sirloin and chuck; mix gently with your hands until thoroughly combined, about 1 minute. Transfer meat to foil rectangle and shape into 10 by 6-inch oval about 2 inches high. Smooth top and edges of meatloaf with moistened spatula. Bake until center of loaf registers 135 to 140 degrees, 55 minutes to 1 hour 5 minutes. Remove meatloaf from oven and heat broiler."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE GLAZE: While meatloaf cooks, combine glaze ingredients in small saucepan; bring to simmer over medium heat and cook, stirring, until thick and syrupy, about 5 minutes. Spread half of glaze evenly over cooked meatloaf with rubber spatula; place under broiler and cook until glaze bubbles and begins to brown at edges, about 5 minutes. Remove meatloaf from oven and spread evenly with remaining glaze; place back under broiler and cook until glaze is again bubbling and beginning to brown, about 5 minutes more. Let meatloaf cool for about 20 minutes before slicing."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Set wire rack in rimmed baking sheet and top with 10 by 6-inch rectangle of aluminum foil."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using skewer, poke holes in foil, spacing them about half an inch apart."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 32325,
+    "end": 32423,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

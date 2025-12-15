@@ -1,0 +1,278 @@
+{
+  "mapped": {
+    "id": "atk_lumpiang-shanghai-with-seasoned-vinegar",
+    "name": "Lumpiang Shanghai with Seasoned Vinegar",
+    "slug": "lumpiang-shanghai-with-seasoned-vinegar",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 18 to 20 lumpia",
+      "baseServings": 19
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sukang-maasim",
+        "displayName": "sukang maasim",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "chopped-onion",
+        "displayName": "chopped onion",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "chopped-carrot",
+        "displayName": "chopped carrot",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "chopped-celery",
+        "displayName": "chopped celery",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "1-2-inch-piece-ginger-peeled",
+        "displayName": "(1/2-inch) piece ginger, peeled",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "large-egg",
+        "displayName": "large egg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "8-inch-square-lumpia-wrappers-or-spring-roll-wrappers",
+        "displayName": "(8-inch) square lumpia wrappers or spring roll wrappers",
+        "amount": 1820,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quarts-vegetable-oil-for-frying",
+        "displayName": "quarts vegetable oil for frying",
+        "amount": 1.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DIPPING SAUCE: Stir all ingredients together in bowl. Let stand at room temperature for at least 30 minutes to let flavors meld or refrigerate for up to 4 days."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE LUMPIA: Process onion, carrot, celery, garlic, and ginger in food processor until finely chopped, scraping down sides of bowl as needed, about 20 seconds. Beat egg in small bowl until homogeneous. Add 2 tablespoons beaten egg to food processor, reserving remainder. Add pork, soy sauce, pepper, and salt and process until combined, scraping down sides of bowl as needed, 10 to 15 seconds. Transfer mixture to large heavy-duty zipper-lock bag and snip 1 corner to create 1-inch opening. Peel wrappers apart to separate; stack neatly and cover with very lightly dampened dish towel."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place 1 wrapper on counter so 1 corner points to edge of counter. Pipe 5 by 3/4-inch strip of filling parallel to counter, just below center of wrapper. Using pastry brush, apply light layer of egg wash onto upper 11/2 inches of top corner of wrapper, making sure to brush all the way to edges. Fold bottom corner of wrapper over filling and press gently along length of filling to remove air pockets. Fold side corners over to enclose filling snugly and gently roll to form tight cylinder. Transfer, egg-washed corner down, to rimmed baking sheet or large platter. (Do not stack.) Wipe any excess egg from counter and repeat with remaining wrappers and filling, filling two at a time if you feel comfortable with it. (Lumpia can be refrigerated in single layer in airtight container for up to 24 hours. Alternatively, freeze in single layer and then stack in airtight container and freeze for up to 1 month. Do not thaw before frying.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat oil in Dutch oven over medium heat to 350 degrees. Set wire rack in rimmed baking sheet. Line rack with paper towels. Using tongs, transfer 6 lumpia to oil and fry, adjusting burner, if necessary, to maintain oil temperature of 340 to 360 degrees, until lumpia are golden brown, 5 to 7 minutes (frozen lumpia will take 1 to 2 minutes longer). Transfer to prepared rack. Repeat with remaining lumpia in 2 batches. Let cool for at least 5 minutes before serving with dipping sauce."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Pipe even 5 by 3/4-inch strip of filling just below center of wrapper."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Apply light layer of egg wash onto top corner of wrapper with pastry brush, making sure to brush all the way to edges."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Fold bottom corner of wrapper over filling and gently press along length of filling to remove air pockets."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Fold side corners over to enclose filling and gently roll to form tight cylinder."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 2137,
+    "end": 2229,
+    "yieldLine": "MAKES 18 to 20 lumpia"
+  },
+  "fit": true
+}

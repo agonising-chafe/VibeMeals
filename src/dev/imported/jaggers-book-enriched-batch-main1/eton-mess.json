@@ -1,0 +1,175 @@
+{
+  "mapped": {
+    "id": "atk_eton-mess",
+    "name": "Eton Mess",
+    "slug": "eton-mess",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "21-3-ounces-sugar",
+        "displayName": "(21/3 ounces) sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-whites",
+        "displayName": "large egg whites",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "strawberries-hulled-and-quartered-41-2-cups-divided",
+        "displayName": "strawberries, hulled and quartered (41/2 cups), divided",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "STRAWBERRIES"
+      },
+      {
+        "ingredientId": "sugar-divided",
+        "displayName": "sugar, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STRAWBERRIES"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "STRAWBERRIES"
+      },
+      {
+        "ingredientId": "heavy-cream-chilled",
+        "displayName": "heavy cream, chilled",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "WHIPPED CREAM",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "WHIPPED CREAM"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MERINGUE: Adjust oven rack to middle position and heat oven to 200 degrees. Line rimmed baking sheet with parchment paper. Combine sugar and cornstarch in small bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using stand mixer fitted with whisk attachment, whip egg whites, vanilla, and salt on high speed until frothy, 20 to 30 seconds. Reduce speed to medium and slowly add sugar mixture in steady stream down side of mixer bowl (process should take about 15 seconds). Stop mixer and scrape down sides and bottom of bowl. Return mixer to high speed and beat until glossy, stiff peaks form, 1 to 2 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer meringue to pastry bag fitted with 1/2-inch plain tip. Pipe 1/2- to 3/4-inch-thick strip of meringue in zigzag pattern across width of prepared pan. Bake until exterior is dry, but meringue is still soft, 11/2 hours. Meringue should be quite pale (a hint of creamy color is OK). Turn off oven and let meringue cool in oven until dry and crisp, about 1 hour. Remove from oven and let cool to room temperature, about 20 minutes. (Cooled meringue can be wrapped tightly in plastic wrap and stored at room temperature for up to 1 week.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE STRAWBERRIES: Meanwhile, combine half of strawberries, 1 tablespoon sugar, and lemon juice in medium bowl. Combine remaining berries and remaining 2 tablespoons sugar in medium saucepan. Using potato masher, crush strawberries in saucepan. Bring to boil over medium-high heat and cook, stirring frequently, until rubber spatula drawn across bottom of pot leaves distinct trail, 4 to 5 minutes. Remove from heat and let cool slightly. Add to bowl with fresh berries and stir until evenly coated. Set aside 6 coated berry quarters for garnish."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE WHIPPED CREAM: Using clean, dry mixer bowl and whisk attachment, whip cream and sugar on medium-low speed until foamy, about 1 minute. Increase speed to medium-high and whip until thickened but still pourable, about 30 seconds (do not overbeat; cream will thicken further when added to meringue)."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Cut meringue into 1-inch pieces, reserving any meringue dust and smaller bits. Set aside 1/2 cup meringue pieces for garnish and transfer remaining meringue (plus dust and bits) to wide serving bowl. Pour cream over meringue in serving bowl and stir to combine. Dollop strawberry mixture over surface of meringue and cream in 4 places. Lightly fold to just combine (this should take 1 or 2 folds; do not overmix). Garnish with reserved meringue and strawberry pieces. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 81930,
+    "end": 81986,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

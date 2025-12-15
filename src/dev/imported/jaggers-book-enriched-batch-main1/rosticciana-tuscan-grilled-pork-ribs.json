@@ -1,0 +1,143 @@
+{
+  "mapped": {
+    "id": "atk_rosticciana-tuscan-grilled-pork-ribs",
+    "name": "Rosticciana (Tuscan Grilled Pork Ribs)",
+    "slug": "rosticciana-tuscan-grilled-pork-ribs",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "21-2-to-3-pound-racks-st-louis-style-spareribs-trimmed-membrane-removed-and-each-rack-cut-into-2-rib-sections",
+        "displayName": "(21/2- to 3-pound) racks St. Louis–style spareribs, trimmed, membrane removed, and each rack cut into 2-rib sections",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "finely-chopped-fresh-rosemary",
+        "displayName": "finely chopped fresh rosemary",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Let ribs sit at room temperature for 1 hour.",
+        "durationMinutes": 60,
+        "startDeltaMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE RIBS: Pat ribs dry with paper towels. Rub evenly on both sides with salt and place on wire rack set in rimmed baking sheet. Let sit at room temperature for 1 hour. Brush meat side of ribs with oil and sprinkle with pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE VINAIGRETTE: Combine oil, garlic, and rosemary in small bowl and microwave until fragrant and just starting to bubble, about 30 seconds. Stir in lemon juice and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place ribs meat side down on grill. Cover and cook until meat side begins to develop spotty browning and light but defined grill marks, 4 to 6 minutes. Flip ribs and cook, covered, until second side is lightly browned, 4 to 6 minutes, moving ribs as needed to ensure even browning. Flip again and cook, covered, until meat side is deeply browned with slight charring and thick ends of ribs register 175 to 185 degrees, 4 to 6 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer ribs to cutting board and let rest for 10 minutes. Cut ribs between bones and serve, passing vinaigrette separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 52353,
+    "end": 52399,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

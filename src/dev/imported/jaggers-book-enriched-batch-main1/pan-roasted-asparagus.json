@@ -1,0 +1,91 @@
+{
+  "mapped": {
+    "id": "atk_pan-roasted-asparagus",
+    "name": "Pan-Roasted Asparagus",
+    "slug": "pan-roasted-asparagus",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 20,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 3,
+      "yieldText": "SERVES 3 to 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "thick-asparagus-2-bunches-tough-ends-trimmed",
+        "displayName": "thick asparagus (2 bunches), tough ends trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-optional",
+        "displayName": "lemon (optional)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil and butter in 12-inch skillet over medium-high heat. When butter has melted, add half of asparagus to skillet with tips pointed in 1 direction; add remaining asparagus with tips pointed in opposite direction. Using tongs, distribute spears in even layer (spears will not quite fit into single layer); cover and cook until asparagus is bright green and still crisp, about 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Uncover and increase heat to high; season asparagus with salt and pepper to taste. Cook until spears are tender and well browned along 1 side, 5 to 7 minutes, using tongs to occasionally move spears from center of pan to edge of pan to ensure all are browned. Transfer asparagus to dish, adjust seasonings with salt and pepper, and squeeze lemon half, if using, over spears. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 57279,
+    "end": 57314,
+    "yieldLine": "SERVES 3 to 4"
+  },
+  "fit": true
+}

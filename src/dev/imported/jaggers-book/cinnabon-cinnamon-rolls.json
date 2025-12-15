@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_cinnabon-cinnamon-rolls",
+    "name": "Cinnabon Cinnamon Rolls",
+    "slug": "cinnabon-cinnamon-rolls",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 12",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cinnabon-was-founded-in-1985-and-is-famous-for-their-soft-and-gooey-cinnamon-rolls-this-version-is-easy-to-make-since-the-recipe-uses-prepared-pizza-dough-it-is-sure-to-become-a-family-favorite",
+        "displayName": "Cinnabon was founded in 1985 and is famous for their soft and gooey cinnamon rolls. This version is easy to make since the recipe uses prepared pizza dough. It is sure to become a family favorite.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tube-refrigerated-pizza-dough",
+        "displayName": "tube refrigerated pizza dough",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-light-brown-sugar",
+        "displayName": "packed light brown sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tablespoons-ground-cinnamon",
+        "displayName": "½ tablespoons ground cinnamon",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-plus-4-tablespoons-softened-unsalted-butter-divided",
+        "displayName": "⅓ cup plus 4 tablespoons softened unsalted butter, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cream-cheese",
+        "displayName": "cream cheese",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-confectioners-sugar",
+        "displayName": "½ cups confectioners’ sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-pure-vanilla-extract",
+        "displayName": "½ teaspoon pure vanilla extract",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "⅛ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f-and-lightly-grease-a-9-inch-13-inch-baking-dish",
+        "displayName": "Preheat oven to 400°F and lightly grease a 9-inch × 13-inch baking dish.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-pizza-dough-on-a-lightly-floured-surface",
+        "displayName": "Spread pizza dough on a lightly floured surface.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "combine-brown-sugar-and-cinnamon-in-a-small-bowl-set-aside",
+        "displayName": "Combine brown sugar and cinnamon in a small bowl. Set aside.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-cup-butter-evenly-over-dough-sprinkle-brown-sugar-mixture-evenly-over-surface-of-dough-roll-up-long-side-of-dough-like-a-jelly-roll",
+        "displayName": "Spread ⅓ cup butter evenly over dough. Sprinkle brown sugar mixture evenly over surface of dough. Roll up long side of dough like a jelly roll.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cut-dough-into-twelve-even-slices-and-place-in-prepared-baking-dish-cut-side-up-bake-rolls-15-minutes-or-until-golden-brown",
+        "displayName": "Cut dough into twelve even slices and place in prepared baking dish cut side up. Bake rolls 15 minutes or until golden brown.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-rolls-are-baking-combine-remaining-butter-cream-cheese-confectioners-sugar-vanilla-and-salt-in-a-medium-bowl-blend-well-with-an-electric-mixer-until-fluffy-about-3-minutes-spread-icing-over-warm-rolls-serve",
+        "displayName": "While rolls are baking, combine remaining butter, cream cheese, confectioners’ sugar, vanilla, and salt in a medium bowl. Blend well with an electric mixer until fluffy, about 3 minutes. Spread icing over warm rolls. Serve.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 945,
+    "end": 991,
+    "yieldLine": "SERVES 12"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

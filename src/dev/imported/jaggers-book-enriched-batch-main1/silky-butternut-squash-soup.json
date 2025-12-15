@@ -1,0 +1,147 @@
+{
+  "mapped": {
+    "id": "atk_silky-butternut-squash-soup",
+    "name": "Silky Butternut Squash Soup",
+    "slug": "silky-butternut-squash-soup",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 70,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-shallot-minced-about-1-4-cup",
+        "displayName": "large shallot, minced (about 1/4 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "butternut-squash-about-1-large-squash-cut-in-half-lengthwise-each-half-cut-in-half-widthwise-seeds-and-fibers-scraped-out-and-reserved",
+        "displayName": "butternut squash (about 1 large squash), cut in half lengthwise, each half cut in half widthwise; seeds and fibers scraped out and reserved",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "dark-brown-sugar",
+        "displayName": "dark brown sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-grated-nutmeg",
+        "displayName": "Pinch grated nutmeg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt butter in Dutch oven over medium-low heat. Add shallot and cook, stirring frequently, until translucent, about 3 minutes. Add seeds and fibers from squash and cook, stirring occasionally, until butter turns saffron color, about 4 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add water and salt to pot and bring to boil over high heat. Reduce heat to medium-low, place squash, cut side down, in steamer basket, and lower basket into pot. Cover and steam until squash is completely tender, about 30 minutes. Take pot off heat and use tongs to transfer squash to rimmed baking sheet. When cool enough to handle, use large spoon to scrape flesh from skin. Reserve squash flesh in bowl and discard skin."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Strain steaming liquid through fine-mesh strainer into second bowl; discard solids in strainer. (You should have 21/2 to 3 cups liquid.) Rinse and dry pot."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Working in batches and filling blender jar only halfway for each batch, puree squash, adding enough reserved steaming liquid to obtain smooth consistency. Transfer puree to clean pot and stir in remaining steaming liquid, cream, and brown sugar. Warm soup over medium-low heat until hot, about 3 minutes. Stir in nutmeg, season with salt to taste, and serve. (Soup can be refrigerated in airtight container for up to 2 days. Warm over low heat until hot; do not boil.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 9878,
+    "end": 9920,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

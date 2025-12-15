@@ -1,0 +1,139 @@
+{
+  "mapped": {
+    "id": "atk_garlicky-broiled-shrimp",
+    "name": "Garlicky Broiled Shrimp",
+    "slug": "garlicky-broiled-shrimp",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 as a Main Course or 6 as an Appetizer"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-large-shrimp-21-to-25-per-pound-peeled-and-deveined-tails-left-on-see-this-page",
+        "displayName": "extra-large shrimp (21 to 25 per pound), peeled and deveined, tails left on (see this page)",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced-to-paste",
+        "displayName": "cloves, minced to paste",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-3-4-teaspoon-red-pepper-flakes",
+        "displayName": "1/2–3/4 teaspoon red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Toss shrimp with salt and let sit.",
+        "durationMinutes": 30,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss shrimp and salt together in bowl; set aside and let sit for 15 to 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine butter and honey in small bowl. Cover and microwave until butter is melted, 30 to 60 seconds. Add garlic and pepper flakes and stir to combine. Let cool slightly, about 5 minutes. While mixture cools, adjust oven rack 4 inches from broiler element and heat broiler. Line rimmed baking sheet with aluminum foil and set wire rack in sheet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Spread out shrimp on large plate or cutting board and pat dry with paper towels. Return to bowl and pour butter mixture over shrimp. Toss until shrimp are thoroughly and evenly coated, including where they are split from deveining (it’s OK if butter starts to solidify). Arrange shrimp in single layer on prepared rack."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Broil until shrimp are opaque throughout and beginning to lightly char in spots, 3 to 5 minutes. Transfer shrimp to serving platter and serve, passing lemon wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 44661,
+    "end": 44710,
+    "yieldLine": "SERVES 4 as a Main Course or 6 as an Appetizer"
+  },
+  "fit": true
+}

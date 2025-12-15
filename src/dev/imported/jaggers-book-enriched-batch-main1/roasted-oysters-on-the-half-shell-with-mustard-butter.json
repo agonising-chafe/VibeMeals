@@ -1,0 +1,109 @@
+{
+  "mapped": {
+    "id": "atk_roasted-oysters-on-the-half-shell-with-mustard-butter",
+    "name": "Roasted Oysters on the Half Shell with Mustard Butter",
+    "slug": "roasted-oysters-on-the-half-shell-with-mustard-butter",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-divided",
+        "displayName": "minced fresh parsley, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-grain-mustard",
+        "displayName": "whole-grain mustard",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oysters-21-2-to-3-inches-long-well-scrubbed",
+        "displayName": "oysters, 21/2 to 3 inches long, well scrubbed",
+        "amount": 24,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 450 degrees. Stir butter, 2 tablespoons parsley, and mustard in bowl until well combined. Gently crumple and uncrumple two 24-inch lengths of aluminum foil. Place 1 piece in 18 by 13-inch rimmed baking sheet and second piece on large serving platter; cover foil on platter with dish towel for presentation, if desired. Nestle oysters, cupped side down, into foil on prepared sheet and bake until oysters open slightly, about 5 minutes. (It’s OK to eat oysters that don’t open.) Let oysters rest until cool enough to handle, about 5 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Shuck 1 oyster and discard top shell. Return oyster to foil, being careful not to spill much liquid. Repeat with remaining oysters."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Distribute mustard butter evenly among oysters, about 3/4 teaspoon per oyster. Bake until thickest part of largest oyster registers 160 to 165 degrees, 5 to 8 minutes. Let rest for 5 minutes. Using tongs, carefully transfer oysters to prepared platter, nestling them into foil or towel to hold them level. Sprinkle remaining 1 tablespoon parsley over oysters. Serve, passing lemon wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 2508,
+    "end": 2538,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

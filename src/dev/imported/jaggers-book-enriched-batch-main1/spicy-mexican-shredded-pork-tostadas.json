@@ -1,0 +1,262 @@
+{
+  "mapped": {
+    "id": "atk_spicy-mexican-shredded-pork-tostadas",
+    "name": "Spicy Mexican Shredded Pork Tostadas",
+    "slug": "spicy-mexican-shredded-pork-tostadas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-pork-butt-roast-trimmed-of-excess-fat-and-cut-into-1-inch-pieces",
+        "displayName": "boneless pork butt roast, trimmed of excess fat and cut into 1-inch pieces",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-1-quartered-and-1-chopped-fine",
+        "displayName": "medium onions, 1 quartered and 1 chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-3-peeled-and-smashed-and-2-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, 3 peeled and smashed and 2 minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "can-tomato-sauce",
+        "displayName": "can tomato sauce",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "ground-chipotle-powder",
+        "displayName": "ground chipotle powder",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PORK"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOSTADAS"
+      },
+      {
+        "ingredientId": "6-inch-corn-tortillas",
+        "displayName": "(6-inch) corn tortillas",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOSTADAS"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "TOSTADAS"
+      },
+      {
+        "ingredientId": "queso-fresco-or-feta-cheese",
+        "displayName": "Queso fresco or feta cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves",
+        "displayName": "Fresh cilantro leaves",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "Sour cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "diced-avocado",
+        "displayName": "Diced avocado",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SHREDDED PORK: Bring the pork, quartered onion, smashed garlic cloves, thyme, 1 teaspoon salt, and 6 cups water to a simmer in a large saucepan over medium-high heat, skimming off any foam that rises to the surface. Reduce the heat to medium-low, partially cover, and cook until the pork is tender, 11/4 to 11/2 hours. Drain the pork, reserving 1 cup cooking liquid. Discard the onion, garlic, and thyme. Return the pork to the saucepan and, using a potato masher, mash until shredded into rough 1/2-inch pieces; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat the olive oil in a 12-inch nonstick skillet over medium-high heat until shimmering. Add the shredded pork, chopped onion, and oregano; cook, stirring often, until the pork is well browned and crisp, 7 to 10 minutes. Add the minced garlic and cook until fragrant, about 30 seconds."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir in the tomato sauce, chipotle powder, reserved pork cooking liquid, and bay leaves; simmer until almost all the liquid has evaporated, 5 to 7 minutes. Remove and discard the bay leaves and season with salt to taste."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "TO FRY THE TOSTADAS: Heat the vegetable oil in an 8-inch heavy-bottomed skillet over medium heat to 350 degrees. Using a fork, poke the center of each tortilla three or four times (to prevent puffing and allow for even cooking). Fry one at a time, holding a metal potato masher in the upright position on top of the tortilla to keep it submerged, until crisp and lightly browned, 45 to 60 seconds (no flipping is necessary). Drain on a paper towel–lined plate and season with salt to taste. Repeat with the remaining tortillas."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "TO SERVE: Spoon a small amount of shredded pork onto the center of each tostada and serve, passing the garnishes separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 39843,
+    "end": 39909,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

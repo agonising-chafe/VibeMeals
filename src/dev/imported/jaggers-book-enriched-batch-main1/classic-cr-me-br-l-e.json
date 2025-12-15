@@ -1,0 +1,142 @@
+{
+  "mapped": {
+    "id": "atk_classic-cr-me-br-l-e",
+    "name": "Classic Crème Brûlée",
+    "slug": "classic-cr-me-br-l-e",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 300,
+      "equipmentTags": [
+        "OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vanilla-bean",
+        "displayName": "vanilla bean",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream-divided",
+        "displayName": "heavy cream, divided",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "42-3-ounces-granulated-sugar",
+        "displayName": "(42/3 ounces) granulated sugar",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "large-egg-yolks",
+        "displayName": "large egg yolks",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "turbinado-or-demerara-sugar",
+        "displayName": "turbinado or Demerara sugar",
+        "amount": 8,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate ramekins for at least 4 hours.",
+        "durationMinutes": 240,
+        "kind": "CHILL",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 300 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cut vanilla bean in half lengthwise. Using tip of paring knife, scrape out seeds. Combine vanilla bean and seeds, 2 cups cream, granulated sugar, and salt in medium saucepan. Bring cream mixture to boil over medium heat, stirring occasionally to dissolve sugar. Off heat, let steep for 15 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, place dish towel in bottom of large baking dish or roasting pan; set eight 6-ounce ramekins on towel (they should not touch). Bring kettle of water to boil."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "After cream mixture has steeped, stir in remaining 2 cups cream. Whisk egg yolks in large bowl until uniform. Whisk about 1 cup cream mixture into yolks until combined; repeat with another 1 cup cream mixture. Add remaining cream mixture and whisk until evenly colored and thoroughly combined. Strain mixture through fine-mesh strainer into large bowl; discard solids in strainer. Divide mixture evenly among ramekins."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Set baking dish on oven rack. Taking care not to splash water into ramekins, pour enough boiling water into dish to reach two-thirds up sides of ramekins. Bake until centers of custards are just barely set and register 170 to 175 degrees, 30 to 35 minutes, checking temperature about 5 minutes before recommended minimum time."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer ramekins to wire rack and let cool completely, about 2 hours. Set ramekins on baking sheet, cover tightly with plastic wrap, and refrigerate until cold, at least 4 hours."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Uncover ramekins; if condensation has collected on custards, blot moisture from tops of custards with paper towel. Sprinkle each with about 1 teaspoon turbinado sugar; tilt and tap each ramekin to distribute sugar evenly, dumping out excess sugar. Ignite torch and caramelize sugar, keeping torch flame 2 inches above sugar and slowly sweeping flame across sugar, starting at perimeter and moving toward middle, until sugar is bubbling and deep golden brown. Refrigerate ramekins, uncovered, to rechill, 30 to 45 minutes; serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 76267,
+    "end": 76307,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

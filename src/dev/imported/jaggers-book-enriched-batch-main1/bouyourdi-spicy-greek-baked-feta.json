@@ -1,0 +1,129 @@
+{
+  "mapped": {
+    "id": "atk_bouyourdi-spicy-greek-baked-feta",
+    "name": "Bouyourdi (Spicy Greek Baked Feta)",
+    "slug": "bouyourdi-spicy-greek-baked-feta",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-tomato-cored",
+        "displayName": "large tomato, cored",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "longhorn-chile-or-1-2-jalape-o-chile-stemmed",
+        "displayName": "longhorn chile or 1/2 jalapeño chile, stemmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bell-pepper-cut-into-1-4-inch-pieces",
+        "displayName": "bell pepper, cut into 1/4-inch pieces",
+        "amount": 0.25,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano-divided",
+        "displayName": "dried oregano, divided",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "block-feta-cheese",
+        "displayName": "block feta cheese",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "bukovo-or-red-pepper-flakes",
+        "displayName": "bukovo or red pepper flakes",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to upper-middle position and heat oven to 350 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Slice two 1/4-inch rounds from tomato and set aside. Chop remaining tomato into 1/2-inch pieces and place in small bowl. Cut longhorn chile in half crosswise (reserve 1 half for other use). Slice two 1/4-inch rings from longhorn chile half and set aside. Mince remaining longhorn chile and add to chopped tomatoes along with bell pepper, 2 tablespoons oil, and 1 teaspoon oregano. Stir to combine, pour into baking dish, and smooth into even layer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Center feta block on top of vegetables. Arrange tomato slices and longhorn chile rings in single layer on top of feta. Drizzle with remaining 1 tablespoon oil and sprinkle with remaining 1/2 teaspoon oregano. Cover dish tightly with aluminum foil and bake until diced vegetables have softened and tomato slices are beginning to soften at edges, about 25 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove foil and return dish to oven. Turn on broiler. Broil until edges of tomato and longhorn chile slices are browned, 4 to 7 minutes. Remove dish from oven, sprinkle with bukovo, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 1337,
+    "end": 1373,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

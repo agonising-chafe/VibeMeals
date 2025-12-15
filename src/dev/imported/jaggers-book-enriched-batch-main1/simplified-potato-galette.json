@@ -1,0 +1,134 @@
+{
+  "mapped": {
+    "id": "atk_simplified-potato-galette",
+    "name": "Simplified Potato Galette",
+    "slug": "simplified-potato-galette",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 80,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "yukon-gold-potatoes-unpeeled-sliced-1-8-inch-thick",
+        "displayName": "Yukon Gold potatoes, unpeeled, sliced 1/8 inch thick",
+        "amount": 2.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-divided",
+        "displayName": "unsalted butter, melted, divided",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-rosemary-leaves-optional",
+        "displayName": "chopped fresh rosemary leaves (optional)",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lowest position and heat oven to 450 degrees. Place potatoes in large bowl and fill with cold water. Using your hands, swirl to remove excess starch, drain, then spread potatoes onto dish towels and dry thoroughly."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk 4 tablespoons melted butter; cornstarch; rosemary, if using; salt; and pepper together in large bowl. Add dried potatoes and toss to thoroughly coat. Place remaining 1 tablespoon butter in 10-inch ovensafe nonstick skillet and swirl to coat. Place 1 potato slice in center of skillet, then overlap slices in circle around center slice, followed by outer circle of overlapping slices. Gently place remaining sliced potatoes on top of first layer, arranging so they form even thickness."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place skillet over medium-high heat and cook until sizzling and potatoes around edge of skillet start to turn translucent, about 5 minutes. Spray 12-inch square of aluminum foil with vegetable oil spray. Place foil, sprayed side down, on top of potatoes. Place 9-inch cake pan on top of foil and fill with 2 cups pie weights. Firmly press down on cake pan to compress potatoes. Transfer skillet to oven and bake for 20 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove cake pan and foil from skillet. Continue to bake until potatoes are tender when paring knife is inserted in center, 20 to 25 minutes. Return skillet to stovetop and cook over medium heat, gently shaking pan, until galette releases from sides of pan, 2 to 3 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Invert galette onto cutting board. Using serrated knife, gently cut into wedges and serve immediately."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using spatula, loosen galette and slide it out of skillet onto large plate."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Gently place cutting board over galette. (Do not use an overly heavy board, which may crush the cake.)"
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Flip plate over so board is on bottom. Remove plate; galette is now ready to be sliced and served."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59287,
+    "end": 59347,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

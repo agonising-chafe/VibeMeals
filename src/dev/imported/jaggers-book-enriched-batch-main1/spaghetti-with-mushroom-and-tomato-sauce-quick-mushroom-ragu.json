@@ -1,0 +1,192 @@
+{
+  "mapped": {
+    "id": "atk_spaghetti-with-mushroom-and-tomato-sauce-quick-mushroom-ragu",
+    "name": "Spaghetti with Mushroom and Tomato Sauce (Quick Mushroom Ragu)",
+    "slug": "spaghetti-with-mushroom-and-tomato-sauce-quick-mushroom-ragu",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "dried-porcini-mushrooms-rinsed",
+        "displayName": "dried porcini mushrooms, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pancetta-cut-into-1-2-inch-pieces",
+        "displayName": "pancetta, cut into 1/2-inch pieces",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "portobello-mushroom-caps-gills-removed-caps-cut-into-1-2-inch-pieces-about-11-2-cups",
+        "displayName": "portobello mushroom caps, gills removed, caps cut into 1/2-inch pieces (about 11/2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-peeled-and-sliced-thin",
+        "displayName": "medium garlic cloves, peeled and sliced thin",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-rosemary-leaves",
+        "displayName": "minced fresh rosemary leaves",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "can-whole-peeled-tomatoes-roughly-crushed-by-hand",
+        "displayName": "can whole peeled tomatoes, roughly crushed by hand",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "spaghetti",
+        "displayName": "spaghetti",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-pecorino-romano-cheese",
+        "displayName": "Grated Pecorino Romano cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Rehydrate porcini mushrooms in broth for 10 minutes",
+        "durationMinutes": 10,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Microwave broth and porcini in covered bowl until steaming, about 1 minute. Let sit until softened, about 10 minutes. Drain mushrooms through fine-mesh strainer lined with coffee filter into medium bowl, reserve broth, and chop mushrooms fine."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat pancetta in 12-inch skillet over medium heat; cook, stirring occasionally, until rendered and crisp, 7 to 10 minutes. Add portobellos, chopped porcini, oil, garlic, tomato paste, and rosemary; cook, stirring occasionally, until all liquid has evaporated and tomato paste starts to brown, 5 to 7 minutes. Add reserved broth and crushed tomatoes and their juice; increase heat to high and bring to simmer. Reduce heat to medium-low and simmer until thickened, 15 to 20 minutes. Season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "While sauce simmers, bring 4 quarts water to boil in large Dutch oven. Add pasta and 1 tablespoon salt; cook, stirring often, until al dente. Reserve 1/2 cup cooking water, then drain pasta and return it to pot. Add sauce to pasta and toss to combine. Add reserved cooking water as needed to adjust consistency and season with salt and pepper to taste. Serve, passing Pecorino separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 17567,
+    "end": 17615,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

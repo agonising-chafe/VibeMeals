@@ -1,0 +1,78 @@
+{
+  "mapped": {
+    "id": "atk_grilled-boneless-beef-short-ribs",
+    "name": "Grilled Boneless Beef Short Ribs",
+    "slug": "grilled-boneless-beef-short-ribs",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-beef-short-ribs-trimmed",
+        "displayName": "boneless beef short ribs, trimmed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut ribs into 3- to 4-inch lengths. Sprinkle all sides with salt and pepper. Let sit at room temperature for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean and oil cooking grate. Arrange ribs on hotter side of grill. Cook (covered if using gas), flipping ribs every minute, until meat is well browned on all sides and registers about 130 degrees at thickest part, 8 to 14 minutes. (Ribs will be very pale after first flip but will continue to brown as they cook. This cut can quickly overcook; start checking temperature of smaller ribs after 8 minutes.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer ribs to cutting board, tent with aluminum foil, and let rest for 10 minutes. Slice ribs as thin as possible against grain. (Grain runs diagonally, so as long as you slice lengthwise, you will be cutting against grain.) Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 50613,
+    "end": 50643,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

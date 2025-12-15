@@ -1,0 +1,129 @@
+{
+  "mapped": {
+    "id": "atk_garlic-studded-roast-pork-loin",
+    "name": "Garlic-Studded Roast Pork Loin",
+    "slug": "garlic-studded-roast-pork-loin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dried-thyme",
+        "displayName": "dried thyme",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cloves-or-allspice",
+        "displayName": "ground cloves or allspice",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-garlic-cloves-peeled-and-cut-into-slivers",
+        "displayName": "large garlic cloves, peeled and cut into slivers",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-center-loin-pork-roast-fat-trimmed-to-about-1-8-inch-thick-and-roast-tied-at-11-2-inch-intervals",
+        "displayName": "boneless center loin pork roast, fat trimmed to about 1/8 inch thick and roast tied at 11/2-inch intervals",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-mustard-shallot-sauce-with-thyme-optional-recipe-follows",
+        "displayName": "recipe Mustard–Shallot Sauce with Thyme (optional; recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate roast for at least 2 hours or up to 24 hours.",
+        "durationMinutes": 120,
+        "type": "MARINATE"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mix together thyme, salt, pepper, and cloves. Coat garlic slivers in spice mixture. Poke slits in roast with point of paring knife; insert garlic slivers. Rub remaining spice mixture onto meat. Tie roast with kitchen twine into tight cylinder. Wrap roast in plastic wrap and refrigerate for at least 2 hours or up to 24 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to middle position and heat oven to 475 degrees. Take meat directly from refrigerator, remove plastic wrap, and place it on wire rack set in shallow roasting pan. Roast for exactly 30 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove meat from oven; immediately reduce oven temperature to 325 degrees. Insert instant-read thermometer at one end of roast, going into thickest part at center (temperature will range from 80 to 110 degrees); let roast rest at room temperature, uncovered, for exactly 30 minutes. (At this point roast’s internal temperature will range from 115 to 140 degrees.) After this 30-minute rest, remove thermometer, return meat to oven, and roast until thickest part of roast reaches internal temperature of 140 to 145 degrees, 15 to 30 minutes longer, depending on roast’s internal temperature at end of resting period. Since roast may cook unevenly, take temperature readings from couple of locations, each time plunging thermometer into center of meat and waiting 15 seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Let roast stand at room temperature, uncovered, for 15 to 20 minutes to finish cooking. (The temperature should register 150 degrees.) Remove twine, slice meat thin, and serve with sauce (if using)."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 39213,
+    "end": 39249,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

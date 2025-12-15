@@ -1,0 +1,484 @@
+{
+  "mapped": {
+    "id": "atk_white-castle-original-sliders",
+    "name": "White Castle Original Sliders",
+    "slug": "white-castle-original-sliders",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6 (YIELDS 24 SLIDER SANDWICHES)",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "white-castile-is-a-popular-midwest-burger-chain-famous-for-their-sliders-the-sliders-famous-flavor-comes-from-the-onion-cooked-with-the-burger-patties-this-version-makes-cooking-the-patties-easier-while-keeping-the-original-flavor",
+        "displayName": "White Castile is a popular Midwest burger chain famous for their sliders. The sliders’ famous flavor comes from the onion cooked with the burger patties. This version makes cooking the patties easier while keeping the original flavor.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-dried-minced-onions",
+        "displayName": "¼ cup dried minced onions",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-hot-water",
+        "displayName": "¾ cup hot water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "80-20-ground-beef",
+        "displayName": "80/20 ground beef",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "24-count-packages-king-s-hawaiian-savory-butter-rolls",
+        "displayName": "(24-count) packages King’s Hawaiian Savory Butter Rolls",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f",
+        "displayName": "Preheat oven to 350°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-dry-onions-and-hot-water-let-onions-soak-20-minutes-drain-well",
+        "displayName": "In a medium bowl, add dry onions and hot water. Let onions soak 20 minutes. Drain well.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-mixing-bowl-combine-ground-beef-salt-and-rehydrated-onion-mix-until-just-combined-divide-mixture-evenly-between-two-ungreased-half-sheet-pans-spread-beef-into-a-inch-thick-rectangle",
+        "displayName": "In a large mixing bowl, combine ground beef, salt, and rehydrated onion. Mix until just combined. Divide mixture evenly between two ungreased half sheet pans. Spread beef into a ⅛-inch-thick rectangle.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-20-minutes-drain-excess-oil-from-pans-then-cut-beef-into-twenty-four-squares-with-a-pizza-cutter",
+        "displayName": "Bake 20 minutes. Drain excess oil from pans, then cut beef into twenty-four squares with a pizza cutter.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hawaiian-rolls-into-individual-rolls-and-then-slice-each-roll-in-half-place-roll-halves-in-microwave-and-heat-20-seconds-to-soften-place-a-beef-patty-on-bottom-half-of-each-roll-and-top-with-top-half-serve-hot",
+        "displayName": "Hawaiian rolls into individual rolls and then slice each roll in half. Place roll halves in microwave and heat 20 seconds to soften. Place a beef patty on bottom half of each roll and top with top half. Serve hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-oldest-fast-food-chain-in-the-country-white-castle-lays-claim-to-inventing-the-slider-they-used-the-term-slider-to-describe-their-little-square-hamburger-patties-white-castle-burgers-sold-for-a-nickel-a-piece-in-the-1920s-and-still-have-a-cultlike-following-to-this-day",
+        "displayName": "The oldest fast-food chain in the country, White Castle lays claim to inventing the slider. They used the term “slider” to describe their little square hamburger patties. White Castle burgers sold for a nickel a piece in the 1920s and still have a cultlike following to this day.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chapter-6-beef-chicken-and-pork-entr-es",
+        "displayName": "CHAPTER 6 Beef, Chicken, and Pork Entrées",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "applebee-s-bourbon-street-steaks",
+        "displayName": "Applebee’s Bourbon Street Steaks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "applebee-s-double-glazed-baby-back-ribs",
+        "displayName": "Applebee’s Double-Glazed Baby Back Ribs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "applebee-s-fiesta-lime-chicken",
+        "displayName": "Applebee’s Fiesta Lime Chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bob-evans-mushroom-onion-chopped-steaks",
+        "displayName": "Bob Evans Mushroom & Onion Chopped Steaks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bob-evans-slow-roasted-turkey",
+        "displayName": "Bob Evans Slow-Roasted Turkey",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buca-di-beppo-chicken-limone",
+        "displayName": "Buca di Beppo Chicken Limone",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buca-di-beppo-chicken-saltimbocca",
+        "displayName": "Buca di Beppo Chicken Saltimbocca",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "burger-king-chicken-fries",
+        "displayName": "Burger King Chicken Fries",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "california-pizza-kitchen-the-original-bbq-chicken-pizza",
+        "displayName": "California Pizza Kitchen The Original BBQ Chicken Pizza",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrabba-s-italian-grill-meatballs",
+        "displayName": "Carrabba’s Italian Grill Meatballs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-cheesecake-factory-bang-bang-chicken-and-shrimp",
+        "displayName": "The Cheesecake Factory Bang-Bang Chicken and Shrimp",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chili-s-margarita-grilled-chicken",
+        "displayName": "Chili’s Margarita Grilled Chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chipotle-beef-barbacoa",
+        "displayName": "Chipotle Beef Barbacoa",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chipotle-carnitas",
+        "displayName": "Chipotle Carnitas",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chipotle-chicken",
+        "displayName": "Chipotle Chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cracker-barrel-grilled-chicken-tenders",
+        "displayName": "Cracker Barrel Grilled Chicken Tenders",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jack-in-the-box-tacos",
+        "displayName": "Jack in the Box Tacos",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "longhorn-steakhouse-outlaw-ribeye",
+        "displayName": "LongHorn Steakhouse Outlaw Ribeye",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "longhorn-steakhouse-parmesan-crusted-chicken",
+        "displayName": "LongHorn Steakhouse Parmesan Crusted Chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panda-express-beijing-beef",
+        "displayName": "Panda Express Beijing Beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panda-express-orange-chicken",
+        "displayName": "Panda Express Orange Chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "p-f-chang-s-bbq-pork-spare-ribs",
+        "displayName": "P.F. Chang’s BBQ Pork Spare Ribs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "p-f-chang-s-chicken-lettuce-wraps",
+        "displayName": "P.F. Chang’s Chicken Lettuce Wraps",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "p-f-chang-s-mongolian-beef",
+        "displayName": "P.F. Chang’s Mongolian Beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pizza-hut-original-stuffed-crust-pizza",
+        "displayName": "Pizza Hut Original Stuffed Crust Pizza",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "popeyes-signature-chicken",
+        "displayName": "Popeyes Signature Chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "taco-bell-crunchwrap-supreme",
+        "displayName": "Taco Bell Crunchwrap Supreme",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "taco-bell-mexican-pizza",
+        "displayName": "Taco Bell Mexican Pizza",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tgi-fridays-sizzling-chicken-cheese",
+        "displayName": "TGI Fridays Sizzling Chicken & Cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wendy-s-chili-con-carne",
+        "displayName": "Wendy’s Chili con Carne",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 5662,
+    "end": 5777,
+    "yieldLine": "SERVES 6 (YIELDS 24 SLIDER SANDWICHES)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

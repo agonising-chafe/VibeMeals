@@ -1,0 +1,202 @@
+{
+  "mapped": {
+    "id": "atk_french-style-pork-chops-with-apples-and-calvados",
+    "name": "French-Style Pork Chops with Apples and Calvados",
+    "slug": "french-style-pork-chops-with-apples-and-calvados",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "12-to-14-ounce-bone-in-pork-rib-chops-1-inch-thick-trimmed",
+        "displayName": "(12- to 14-ounce) bone-in pork rib chops, 1 inch thick, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "or-golden-delicious-apples-peeled-and-cored",
+        "displayName": "or Golden Delicious apples, peeled and cored",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bacon-cut-into-1-2-inch-pieces",
+        "displayName": "bacon, cut into 1/2-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shallots-sliced",
+        "displayName": "shallots, sliced",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-ground-nutmeg",
+        "displayName": "Pinch ground nutmeg",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "calvados",
+        "displayName": "Calvados",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "apple-cider",
+        "displayName": "apple cider",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme-plus-1-4-teaspoon-minced",
+        "displayName": "sprigs fresh thyme, plus 1/4 teaspoon minced",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "apple-cider-vinegar",
+        "displayName": "apple cider vinegar",
+        "amount": 0.047619047619047616,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Salt pork chops and refrigerate.",
+        "durationMinutes": 60,
+        "kind": "REFRIGERATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Evenly sprinkle each chop with 3/4 teaspoon salt. Place chops on large plate, cover loosely with plastic wrap, and refrigerate for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While chops rest, cut 2 apples into 1/2-inch pieces. Cook bacon in medium saucepan over medium heat until crisp, 5 to 7 minutes. Add shallots, nutmeg, and 1/4 teaspoon salt; cook, stirring frequently, until shallots are softened and beginning to brown, 3 to 4 minutes. Off heat, add 1/4 cup Calvados and let warm through, about 5 seconds. Wave lit match over pan until Calvados ignites, then shake pan gently to distribute flames. When flames subside, 30 to 60 seconds, cover pan to ensure flame is extinguished, 15 seconds. Add remaining 1/4 cup Calvados and repeat flambéing (flames will subside after 11/2 to 2 minutes). (If you have trouble igniting second addition, return pan to medium heat, bring to bare simmer, and remove from heat and try again.) Once flames have extinguished, increase heat to medium-high; add cider, 1 cup broth, thyme sprigs, butter, and chopped apples; and bring to rapid simmer. Cook, stirring occasionally, until apples are very tender and mixture has reduced to 21/3 cups, 25 to 35 minutes. Cover and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees. Slice remaining 2 apples into 1/2-inch-thick rings. Pat chops dry with paper towels and evenly sprinkle each chop with pepper. Heat oil in 12-inch skillet over medium heat until just beginning to smoke. Increase heat to high and brown chops on both sides, 6 to 8 minutes total. Transfer chops to large plate and reduce heat to medium. Add apple rings and cook until lightly browned, 1 to 2 minutes. Add remaining 1/4 cup broth and cook, scraping up any browned bits with rubber spatula, until liquid has evaporated, about 30 seconds. Remove pan from heat, flip apple rings, and place chops on top of apple rings. Place skillet in oven and cook until chops register 135 to 140 degrees, 11 to 15 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer chops and apple rings to serving platter, tent loosely with aluminum foil, and let rest for 10 minutes. While chops rest, strain apple-brandy mixture through fine-mesh strainer set in large bowl, pressing on solids with ladle or rubber spatula to extract liquid; discard solids. (Make sure to use rubber spatula to scrape any apple solids on bottom of strainer into sauce.) Stir in minced thyme and season sauce with vinegar, salt, and pepper to taste. Transfer sauce to serving bowl. Serve chops and apple rings, passing sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 38128,
+    "end": 38176,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

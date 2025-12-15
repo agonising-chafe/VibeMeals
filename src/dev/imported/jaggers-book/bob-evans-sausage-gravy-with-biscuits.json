@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_bob-evans-sausage-gravy-with-biscuits",
+    "name": "Bob Evans Sausage Gravy with Biscuits",
+    "slug": "bob-evans-sausage-gravy-with-biscuits",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-simple-sausage-gravy-will-give-you-all-the-flavors-of-a-country-breakfast-and-is-served-spooned-over-warm-buttermilk-biscuits-for-a-richer-flavor-use-half-and-half-in-place-of-milk",
+        "displayName": "This simple sausage gravy will give you all the flavors of a country breakfast and is served spooned over warm buttermilk biscuits. For a richer flavor, use half-and-half in place of milk.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "roll-pork-sausage",
+        "displayName": "roll pork sausage",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-all-purpose-flour",
+        "displayName": "¼ cup all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "buttermilk-frozen-biscuits-prepared-per-package-instructions",
+        "displayName": "Buttermilk Frozen Biscuits, prepared per package instructions",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-skillet-over-medium-heat-add-sausage-cook-crumbling-well-until-browned-about-8-minutes-stir-in-flour-and-cook-1-minute-gradually-stir-in-milk-mixing-until-smooth",
+        "displayName": "In a large skillet over medium heat, add sausage. Cook, crumbling well, until browned, about 8 minutes. Stir in flour and cook 1 minute. Gradually stir in milk, mixing until smooth.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cook-gravy-until-thick-and-bubbly-about-5-7-minutes-stirring-constantly-season-with-salt-and-pepper-and-stir-well-serve-over-hot-biscuits",
+        "displayName": "Cook gravy until thick and bubbly, about 5–7 minutes, stirring constantly. Season with salt and pepper and stir well. Serve over hot biscuits.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bob-evans-has-many-great-lines-of-grocery-products-in-your-local-supermarket-if-you-love-their-farm-fresh-flavor-you-can-now-buy-their-signature-meat-and-side-dishes-to-take-home-and-cook-in-your-kitchen-there-are-refrigerated-side-dishes-microwaveable-sandwiches-and-frozen-homestyle-entr-es-to-choose-from",
+        "displayName": "Bob Evans has many great lines of grocery products in your local supermarket. If you love their farm-fresh flavor, you can now buy their signature meat and side dishes to take home and cook in your kitchen. There are refrigerated side dishes, microwaveable sandwiches, and frozen homestyle entrées to choose from.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 810,
+    "end": 848,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

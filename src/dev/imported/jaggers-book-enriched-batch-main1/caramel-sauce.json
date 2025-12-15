@@ -1,0 +1,125 @@
+{
+  "mapped": {
+    "id": "atk_caramel-sauce",
+    "name": "Caramel Sauce",
+    "slug": "caramel-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 25,
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 11/2 cups",
+      "baseServings": 12,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cooking-the-sugar-with-some-water-in-a-covered-pot-helps-trap-moisture-and-ensures-that-the-sugar-will-dissolve-when-the-hot-cream-mixture-is-added-in-step-3-the-hot-sugar-syrup-will-bubble-vigorously-and-dangerously-so-don-t-use-a-smaller-saucepan-if-you-make-the-caramel-sauce-ahead-reheat-it-in-the-microwave-or-a-small-saucepan-over-low-heat-until-warm-and-fluid",
+        "displayName": "Cooking the sugar with some water in a covered pot helps trap moisture and ensures that the sugar will dissolve. When the hot cream mixture is added in step 3, the hot sugar syrup will bubble vigorously (and dangerously), so don’t use a smaller saucepan. If you make the caramel sauce ahead, reheat it in the microwave or a small saucepan over low heat until warm and fluid.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "7-ounces-sugar",
+        "displayName": "(7 ounces) sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream",
+        "displayName": "heavy cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the water in a 2-quart saucepan; pour the sugar into the center of the pan, taking care not to let the sugar crystals stick to the sides of the pan. Cover and bring the mixture to a boil over high heat; once the mixture is boiling, uncover the pan and continue to boil until the sugar syrup is thick and straw-colored and registers 300 degrees on an instant-read thermometer, about 7 minutes. Reduce the heat to medium and continue to cook until the syrup is deep amber and registers 350 degrees, 1 to 2 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, bring the cream and salt to a simmer in a small saucepan over high heat (if the cream boils before the sugar syrup reaches a deep amber color, remove the cream from the heat and cover to keep warm)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove the pan with the sugar syrup from the heat; very carefully pour about one-quarter of the hot cream into it (the mixture will bubble vigorously), and let the bubbling subside. Add the remaining cream, the vanilla, and lemon juice; whisk until the sauce is smooth. (The sauce can be cooled and refrigerated in an airtight container for up to 2 weeks.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 5809,
+    "end": 5839,
+    "yieldLine": "MAKES about 11/2 cups"
+  },
+  "fit": true
+}

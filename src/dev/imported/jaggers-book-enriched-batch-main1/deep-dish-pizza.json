@@ -1,0 +1,205 @@
+{
+  "mapped": {
+    "id": "atk_deep-dish-pizza",
+    "name": "Deep-Dish Pizza",
+    "slug": "deep-dish-pizza",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 210,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "medium-russet-potato-about-9-ounces-peeled-and-quartered",
+        "displayName": "medium russet potato (about 9 ounces), peeled and quartered",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "31-4-31-2-cups-161-4-to-171-2-ounces-unbleached-all-purpose-flour",
+        "displayName": "31/4–31/2 cups (161/4 to 171/2 ounces) unbleached all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil-plus-extra-for-oiling-the-bowl",
+        "displayName": "olive oil, plus extra for oiling the bowl",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "warm-water-110-degrees",
+        "displayName": "warm water (110 degrees)",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plum-tomatoes-5-to-6-medium-cored-seeded-and-cut-into-1-inch-pieces",
+        "displayName": "plum tomatoes (5 to 6 medium), cored, seeded, and cut into 1-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "whole-milk-mozzarella-cheese-shredded-about-11-2-cups-see-note",
+        "displayName": "whole-milk mozzarella cheese, shredded (about 11/2 cups; see note)",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-2-3-cup",
+        "displayName": "Parmesan cheese, grated (about 2/3 cup)",
+        "amount": 1.25,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "TOPPING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "shredded-fresh-basil-leaves",
+        "displayName": "shredded fresh basil leaves",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Dough rise",
+        "durationMinutes": 90,
+        "requirementType": "LONG_PREP",
+        "type": "LONG_PREP"
+      },
+      {
+        "description": "Second dough rise",
+        "durationMinutes": 30,
+        "requirementType": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Bring 4 cups water and the potato to a boil in a small saucepan over medium-high heat; cook until tender, 10 to 15 minutes. Drain and cool until the potato can be handled; press the potato through the fine disk of a potato ricer or grate it on the large holes of a box grater. Measure 11/3 cups lightly packed potato; discard the remaining potato."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process 31/4 cups of the flour, the potato, salt and yeast in a food processor (fitted with the dough blade, if possible) until combined, about 5 seconds. With the motor running, pour 2 tablespoons of the oil and then the water through the feed tube and process until the dough comes together in a ball, about 30 seconds. If after 30 seconds the dough is sticky and clings to the blade, add the remaining 1/4 cup flour 1 tablespoon at a time. Lightly coat a medium bowl with oil. Transfer the dough to the bowl; cover tightly with plastic wrap and set in a warm spot until doubled in volume, 11/2 to 2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE TOPPING: Meanwhile, mix the tomatoes and garlic together in a medium bowl; season with salt and pepper to taste and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Oil the bottom of a 14-inch deep-dish pizza pan with the remaining 4 tablespoons olive oil. Remove the dough from the oven and gently punch it down; turn the dough onto a clean, dry work surface and pat it into a 12-inch round. Transfer the round to the oiled pan, cover with plastic wrap, and let rest until the dough no longer resists shaping, about 10 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Adjust the oven racks to the lowest and top positions, set a pizza stone on the lower rack, and heat the oven to 500 degrees. Uncover the dough and pull it into the edges and up the sides of the pan to form a 1-inch-high lip. Cover with plastic wrap; let rise in a warm, draft-free spot until doubled in size, about 30 minutes. Uncover the dough and prick it generously with a fork. Reduce the oven temperature to 425 degrees, place the pan with the pizza on the hot pizza stone, and bake until dry and lightly browned, about 15 minutes. Add the tomato mixture, followed by the mozzarella, then the Parmesan. Bake the pizza on the stone or baking sheet until the cheese melts, 10 to 15 minutes (5 to 10 minutes for 10-inch pizzas). Move the pizza to the top rack and bake until the cheese is spotty golden brown, about 5 minutes longer. Cool for 5 minutes, then, holding the pizza pan at an angle with a potholder, use a wide spatula to slide the pizza from the pan to a cutting board, cut into wedges, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 67186,
+    "end": 67238,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

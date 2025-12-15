@@ -1,0 +1,236 @@
+{
+  "mapped": {
+    "id": "atk_beef-braised-in-barolo",
+    "name": "Beef Braised in Barolo",
+    "slug": "beef-braised-in-barolo",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-beef-chuck-eye-roast",
+        "displayName": "boneless beef chuck-eye roast",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pancetta-cut-into-1-4-inch-cubes",
+        "displayName": "pancetta, cut into 1/4-inch cubes",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-chopped",
+        "displayName": "onions, chopped",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-chopped",
+        "displayName": "carrots, chopped",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-ribs-chopped",
+        "displayName": "celery ribs, chopped",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "750-ml-bottle-barolo-wine",
+        "displayName": "(750-ml) bottle Barolo wine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained",
+        "displayName": "can diced tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprig-fresh-thyme-plus-1-teaspoon-minced-thyme",
+        "displayName": "sprig fresh thyme plus 1 teaspoon minced thyme",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprig-fresh-rosemary",
+        "displayName": "sprig fresh rosemary",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley",
+        "displayName": "sprigs fresh parsley",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees. Pull roast apart at its major seams (delineated by lines of fat) into 2 halves. Use knife as necessary. With knife, remove large knobs of fat from each piece, leaving thin layer of fat on meat. Tie 3 pieces of kitchen twine around each piece of meat. Thoroughly pat beef dry with paper towels; sprinkle with salt and pepper. Place pancetta in large Dutch oven; cook over medium heat, stirring occasionally, until browned and crisp, about 8 minutes. Using slotted spoon, transfer pancetta to paper towel–lined plate and reserve. Pour off all but 2 tablespoons of fat; set Dutch oven over medium-high heat and heat fat until just smoking. Add beef to pot and cook until well browned on all sides, about 8 minutes total. Transfer beef to large plate; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Reduce heat to medium; add onions, carrots, celery, and tomato paste to pot and cook, stirring occasionally, until vegetables begin to soften and brown, about 6 minutes. Add garlic, flour, sugar, and reserved pancetta; cook, stirring constantly, until combined and fragrant, about 30 seconds. Add wine and tomatoes, scraping up any browned bits; add thyme sprig, rosemary, and parsley. Return roast and any accumulated juice to pot; increase heat to high and bring liquid to boil, then place large sheet of aluminum foil over pot and cover tightly with lid. Set pot in oven and cook, using tongs to turn beef every 45 minutes, until dinner fork easily slips in and out of meat, about 3 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer beef to carving board and tent with foil to keep warm. Allow braising liquid to settle for about 5 minutes, then, using wide shallow spoon, skim fat off surface. Add minced thyme, bring liquid to boil over high heat, and cook, whisking vigorously to help vegetables break down, until mixture is thickened and reduced to about 31/2 cups, about 18 minutes. Strain liquid through large fine-mesh strainer, pressing on solids with spatula to extract as much liquid as possible; you should have 11/2 cups strained sauce (if necessary, return strained sauce to Dutch oven and reduce to 11/2 cups). Discard solids in strainer. Season sauce with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove kitchen twine from meat and discard. Using chef’s knife or carving knife, slice meat against grain 1/2 inch thick. Divide meat among warmed bowls or plates; pour about 1/4 cup sauce over each portion and serve immediately."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Lay 1 steak on cutting board with grain running parallel to counter edge. Slice horizontally to create 2 thin pieces. Repeat with second steak."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Cover 1 piece with plastic wrap and pound into rough rectangle measuring about 1/4 inch thick. Repeat with remaining 3 pieces."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Cut each piece in half, with grain, to create total of 8 pieces."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Arrange 4 pieces so grain runs parallel to counter edge. Distribute half of filling over pieces and top with prosciutto slice."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Keeping filling in place, roll each piece away from you to form tight log."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Tie each roll with 2 pieces kitchen twine to secure. Repeat process with remaining steak pieces, filling, and prosciutto."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 34167,
+    "end": 34263,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

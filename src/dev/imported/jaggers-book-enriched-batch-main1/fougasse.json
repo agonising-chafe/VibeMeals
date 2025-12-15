@@ -1,0 +1,190 @@
+{
+  "mapped": {
+    "id": "atk_fougasse",
+    "name": "Fougasse",
+    "slug": "fougasse",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 (Makes 2 loaves)"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-3-ounces-whole-wheat-flour",
+        "displayName": "(11/3 ounces) whole-wheat flour",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "15-ounces-king-arthur-all-purpose-flour",
+        "displayName": "(15 ounces) King Arthur all-purpose flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-room-temperature",
+        "displayName": "water, room temperature",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornmeal-or-semolina-flour",
+        "displayName": "Cornmeal or semolina flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-rosemary-divided",
+        "displayName": "chopped fresh rosemary, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coarse-sea-salt-divided",
+        "displayName": "coarse sea salt, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Proof dough",
+        "durationMinutes": 960,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sift whole-wheat flour through fine-mesh strainer into bowl of stand mixer; discard bran remaining in strainer. Add all-purpose flour, salt, and yeast to mixer bowl. Using dough hook on low speed, slowly add water to flour mixture and mix until cohesive dough starts to form and no dry flour remains, 5 to 7 minutes, scraping down bowl as needed. Transfer dough to lightly oiled large bowl or container, cover tightly with plastic wrap, and let rise for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Holding edge of dough with your fingertips, fold dough over itself by gently lifting and folding edge of dough toward center. Turn bowl 45 degrees and fold dough again; repeat turning bowl and folding dough 6 more times (total of 8 folds). Cover tightly with plastic and let rise for 30 minutes. Repeat folding and rising every 30 minutes, 3 more times. After fourth set of folds, cover bowl tightly with plastic and refrigerate for at least 16 hours or up to 2 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer dough to lightly floured counter, stretch gently into 8-inch round (do not deflate), and divide in half. Working with 1 piece of dough at a time, gently stretch and fold over 3 sides of dough to create rough triangle with 5-inch sides. Transfer triangles seam side down to lightly floured rimmed baking sheet, cover loosely with lightly oiled plastic, and let rest until no longer cool to the touch, 30 minutes to 1 hour."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Place baking stone on lower-middle rack of oven and heat oven to 450 degrees. Line 2 overturned rimmed baking sheets with parchment paper, and dust liberally with cornmeal. Transfer 1 piece of dough to lightly floured counter and gently roll into triangular shape with 8-inch base and 10-inch sides, about 1/2 inch thick. Transfer dough to prepared sheet, with base facing short side of sheet."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Using pizza cutter, make 6-inch-long cut down center of triangle, through dough to sheet, leaving about 11/2 inches at either end. Make three 2- to 3-inch diagonal cuts through dough on eqch side of center cut, leaving 1-inch border on each end of cuts, to create leaf-vein pattern (cuts shoul not connect to one another or to edges of dough)."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Gently stretch dough toward sides of sheet to widen cuts and emphasize leaf shape; overall size of loaf should measure about 10 by 12 inches. Cover loosely with lightly oiled plastic and let rise until nearly doubled in size, 30 to 45 minutes. Twenty minutes after shaping first loaf, repeat rolling, cutting, and shaping with second piece of dough. (Staggering shaping of leaves will allow them to be baked in succession.)"
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Brush top and sides of first loaf with 2 tablespoons oil. Sprinkle loaf evenly with 11/2 teaspoons rosemary and 1 teaspoon coarse salt. Slide parchment with loaf onto baking stone and bake until golden brown, 18 to 22 minutes, rotating loaf halfway through baking. Transfer load to wire rack, discard parchment, and let cool for 20 minutes. Repeat topping and baking with second loaf. Serve warm or at room temperature."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Working with one 8-inch round of dough at a time, stretch and fold over 3 sides of dough to create triangle with 5-inch sides. Transfer to baking sheet, cover with plastic, and let rest 30 minutes to 1 hour."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Transfer 1 piece of dough to floured counter and roll into triangular shape with 8-inch base and 10-inch sides, about 1/2 inch thick. Transfer to parchment-lined baking sheet dusted with cornmeal."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Using pizza cutter, make 6-inch-long cut down center of triangle, through dough to sheet, leaving about 11/2 inches at either end."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "Make three 2- to 3-inch diagonal cuts through dough on each side of center cut, leaving 1-inch border on each side to create leaf-vein pattern."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Gently stretch dough toward sides of sheet to widen cuts and emphasize leaf shape; overall leaf should measure about 10 by 12 inches. Let rise 30 to 45 minutes."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 64850,
+    "end": 64954,
+    "yieldLine": "SERVES 8 (Makes 2 loaves)"
+  },
+  "fit": true
+}

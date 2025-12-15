@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_dave-buster-s-pretzel-dogs",
+    "name": "Dave & Buster’s Pretzel Dogs",
+    "slug": "dave-buster-s-pretzel-dogs",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dave-buster-s-popular-pretzel-dogs-use-all-beef-franks-for-an-extra-savory-flavor-if-making-these-for-a-party-cut-the-finished-dogs-in-half-for-a-fun-finger-food",
+        "displayName": "Dave & Buster’s popular Pretzel Dogs use all-beef franks for an extra-savory flavor. If making these for a party, cut the finished dogs in half for a fun finger food.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-honey-mustard-dressing",
+        "displayName": "½ cup honey mustard dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-mayonnaise",
+        "displayName": "¼ cup mayonnaise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "habanero-hot-sauce",
+        "displayName": "habanero hot sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-garlic-powder",
+        "displayName": "¼ teaspoon garlic powder",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-dinner-rolls-thawed",
+        "displayName": "frozen dinner rolls, thawed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-beef-hot-dogs",
+        "displayName": "all-beef hot dogs",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quarts-water",
+        "displayName": "quarts water",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-baking-soda",
+        "displayName": "⅓ cup baking soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pretzel-salt",
+        "displayName": "pretzel salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-honey-mustard-dressing-mayonnaise-and-hot-sauce-mix-well-cover-and-chill-1-hour-or-up-to-5-days",
+        "displayName": "In a medium bowl, combine honey mustard dressing, mayonnaise, and hot sauce. Mix well, cover, and chill 1 hour or up to 5 days.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-425-f-and-line-a-half-baking-sheet-with-parchment",
+        "displayName": "Preheat oven to 425°F and line a half baking sheet with parchment.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "roll-each-dinner-roll-into-a-16-inch-rope-wrap-each-hot-dog-in-a-corkscrew-fashion-with-bread-dough-pinching-ends-to-secure-bread",
+        "displayName": "Roll each dinner roll into a 16-inch rope. Wrap each hot dog in a corkscrew fashion with bread dough, pinching ends to secure bread.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-water-to-a-large-saucepan-over-high-heat-and-bring-to-a-boil-once-boiling-add-baking-soda-and-stir-well-add-2-or-3-dogs-to-water-at-a-time-and-boil-30-seconds-transfer-dogs-to-prepared-baking-sheet-and-sprinkle-with-pretzel-salt",
+        "displayName": "Add water to a large saucepan over high heat and bring to a boil. Once boiling, add baking soda and stir well. Add 2 or 3 dogs to water at a time and boil 30 seconds. Transfer dogs to prepared baking sheet and sprinkle with pretzel salt.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-12-15-minutes-until-deep-golden-brown-and-firm-remove-from-oven-and-brush-with-butter-cool-5-minutes-before-serving-with-prepared-sauce-for-dipping",
+        "displayName": "Bake 12–15 minutes until deep golden brown and firm. Remove from oven and brush with butter. Cool 5 minutes before serving with prepared sauce for dipping.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2455,
+    "end": 2503,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

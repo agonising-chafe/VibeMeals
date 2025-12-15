@@ -1,0 +1,89 @@
+{
+  "mapped": {
+    "id": "atk_weeknight-roast-chicken",
+    "name": "Weeknight Roast Chicken",
+    "slug": "weeknight-roast-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 80,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken-giblets-discarded",
+        "displayName": "(31/2- to 4-pound) whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position, place 12-inch ovensafe skillet on rack, and heat the oven to 450 degrees. Combine salt and pepper in bowl. Pat chicken dry with paper towels and rub entire surface with oil. Sprinkle evenly all over with salt mixture and rub in mixture with your hands to coat evenly. Tie legs together with twine and tuck wingtips behind back."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer chicken, breast side up, to preheated skillet in oven. Roast chicken until thickest part of breasts registers 120 degrees and the thickest part of thighs registers 135 degrees, 25 to 35 minutes. Turn off oven and leave chicken in oven until breasts register 160 degrees and the thighs register 175 degrees, 25 to 35 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer chicken to carving board and let rest, uncovered, for 20 minutes. Carve and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27102,
+    "end": 27130,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,155 @@
+{
+  "mapped": {
+    "id": "atk_quick-tomatillo-sauce",
+    "name": "Quick Tomatillo Sauce",
+    "slug": "quick-tomatillo-sauce",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 30,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 1 cup",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "you-will-need-at-least-one-15-ounce-can-of-tomatillos-for-this-recipe",
+        "displayName": "You will need at least one 15-ounce can of tomatillos for this recipe.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "hearty-white-sandwich-bread-cut-into-1-2-inch-pieces",
+        "displayName": "hearty white sandwich bread, cut into 1/2-inch pieces",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "pepitas",
+        "displayName": "pepitas",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "canned-tomatillos-rinsed",
+        "displayName": "canned tomatillos, rinsed",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "jarred-sliced-jalape-os-plus-2-teaspoons-brine",
+        "displayName": "jarred sliced jalapeños plus 2 teaspoons brine",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves",
+        "displayName": "fresh cilantro leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-bread-pepitas-and-1-tablespoon-oil-in-12-inch-skillet-over-medium-heat-cook-stirring-constantly-until-pepitas-and-bread-are-lightly-toasted-21-2-to-3-minutes-add-garlic-and-cook-stirring-constantly-until-fragrant-about-30-seconds-transfer-bread-mixture-to-food-processor-and-pulse-until-coarsely-chopped-about-5-pulses-add-tomatillos-jalape-os-and-brine-cilantro-honey-salt-and-remaining-1-tablespoon-oil-to-processor-pulse-until-finely-chopped-5-to-8-pulses-transfer-to-bowl-and-let-stand-for-at-least-10-minutes-sauce-can-be-refrigerated-in-an-airtight-container-for-up-to-2-days",
+        "displayName": "Heat bread, pepitas, and 1 tablespoon oil in 12-inch skillet over medium heat; cook, stirring constantly, until pepitas and bread are lightly toasted, 21/2 to 3 minutes. Add garlic and cook, stirring constantly, until fragrant, about 30 seconds. Transfer bread mixture to food processor and pulse until coarsely chopped, about 5 pulses. Add tomatillos, jalapeños and brine, cilantro, honey, salt, and remaining 1 tablespoon oil to processor. Pulse until finely chopped, 5 to 8 pulses. Transfer to bowl and let stand for at least 10 minutes. (Sauce can be refrigerated in an airtight container for up to 2 days.)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Remove tenderloin from underside of breast if necessary. Lay chicken smooth side up on cutting board. To make cutlets, place your hand on top of chicken and carefully slice it in half horizontally."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Separate breast to yield 2 cutlets between 3/8 and 1/2 inch thick. If necessary, pound to even thickness."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 21820,
+    "end": 21870,
+    "yieldLine": "MAKES 1 cup"
+  },
+  "fit": true
+}

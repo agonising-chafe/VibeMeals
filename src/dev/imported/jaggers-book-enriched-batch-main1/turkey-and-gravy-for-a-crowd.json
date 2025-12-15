@@ -1,0 +1,297 @@
+{
+  "mapped": {
+    "id": "atk_turkey-and-gravy-for-a-crowd",
+    "name": "Turkey and Gravy for a Crowd",
+    "slug": "turkey-and-gravy-for-a-crowd",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 300,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 19,
+      "yieldText": "SERVES 18 to 20"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "onions-chopped",
+        "displayName": "onions, chopped",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-ribs-chopped",
+        "displayName": "celery ribs, chopped",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-chopped",
+        "displayName": "carrots, peeled and chopped",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-crushed-and-peeled",
+        "displayName": "cloves, crushed and peeled",
+        "amount": 10,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-plus-extra-as-needed",
+        "displayName": "unsalted butter, melted, plus extra as needed",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-parsley",
+        "displayName": "sprigs fresh parsley",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "11-2-to-2-pound-turkey-leg-quarters-trimmed",
+        "displayName": "(11/2- to 2-pound) turkey leg quarters, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "TURKEY_LEG"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TURKEY_LEG"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TURKEY_LEG"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GRAVY"
+      },
+      {
+        "ingredientId": "5-to-6-pound-bone-in-turkey-breasts-trimmed",
+        "displayName": "(5- to 6-pound) bone-in turkey breasts, trimmed",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "TURKEY_BREAST"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-kosher-salt-divided",
+        "displayName": "plus 2 teaspoons kosher salt, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TURKEY_BREAST"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-divided",
+        "displayName": "unsalted butter, melted, divided",
+        "amount": 7,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "TURKEY_BREAST",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Dry-brine turkey breasts",
+        "description": "Salt turkey breasts and refrigerate uncovered for 24 hours.",
+        "durationMinutes": 1440,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE TURKEY LEGS AND GRAVY (UP TO 3 DAYS AHEAD): Adjust oven rack to lower-middle position and heat oven to 325 degrees. Toss onions, celery, carrots, garlic, melted butter, thyme sprigs, parsley sprigs, bay leaves, and peppercorns together in large roasting pan; spread into even layer. Place pan over medium heat and cook, stirring occasionally, until vegetables are softened and lightly browned and fond forms on bottom of pan, about 15 minutes. Add broth, water, and wine and bring to simmer, scraping up any browned bits. Remove pan from heat."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cut leg quarters at joints into thighs and drumsticks, and sprinkle with salt and pepper. Place pieces skin side up in pan (braising liquid should come about three-quarters of way up legs and thighs). Place 12 by 16-inch piece of parchment paper over turkey pieces. Cover pan tightly with aluminum foil. Cook in oven until thighs register 170 degrees, 21/2 to 3 hours. Remove pan from oven. Transfer turkey pieces to large, shallow container and let cool completely, about 1 hour. Once cool, cover and refrigerate."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using spatula, scrape up any browned bits from bottom and sides of pan. Strain contents of pan through fine-mesh strainer set over large bowl, pressing on solids with spatula to extract as much liquid as possible; discard solids."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer liquid to fat separator and let settle for 5 minutes. Reserve 1/2 cup plus 1 tablespoon fat (if there is not enough fat, add extra melted butter to make up difference) and 8 cups liquid; discard remaining liquid."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat reserved fat in large saucepan over medium-high heat. Add flour and cook, stirring constantly, until flour is medium golden brown and fragrant, about 5 minutes. Slowly whisk in reserved liquid and bring to boil. Reduce heat to medium-low and simmer, stirring occasionally, until gravy is thickened and reduced to 6 cups, 15 to 20 minutes. Off heat, season gravy with salt and pepper to taste. Transfer to large container and let cool completely, about 1 hour. (The legs and gravy can be prepared up to 3 days in advance and refrigerated.)"
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE TURKEY BREASTS (THE DAY BEFORE): Place breasts on cutting board skin side down. Using kitchen shears, cut through ribs, following vertical lines of fat where breasts meet backs, from tapered ends of breasts to wing joints. Using your hands, bend backs away from breasts to pop shoulder joints out of sockets. Using paring knife, cut through joints between bones to separate backs from breasts."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Flip breasts skin side up. Using your fingers, gently loosen skin covering each side of 1 breast. Peel back skin, leaving it attached at top and center. Rub 1 teaspoon salt onto each side of breast, then place skin back over meat. Rub 1 teaspoon salt onto underside of breast cavity. Repeat with second breast. Place breasts on rimmed baking sheet and refrigerate, uncovered, for 24 hours."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Roast the breasts and reheat the dark meat and gravy (serving day): Adjust oven rack to middle position and heat oven to 325 degrees. Measure out 20-inch piece of foil and roll into loose ball. Unroll foil, place on second rimmed baking sheet, and top with wire rack (crinkled foil will insulate bottom of sheet to keep it from smoking during roasting). Place breasts, skin side up, on prepared wire rack; brush with 4 tablespoons melted butter and sprinkle each whole breast with 1 teaspoon remaining salt. Roast until thickest part of breast registers 130 degrees, about 11/2 hours."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Remove breasts from oven and increase oven temperature to 500 degrees. When oven reaches temperature, return breasts to oven and roast until skin is deeply browned and thickest part of breast registers 160 degrees, 20 to 30 minutes. Transfer to carving board and let rest, uncovered, for 30 minutes. Pour any juices from sheet into bowl and set aside."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Adjust oven rack to upper-middle position. Place thighs and drumsticks skin side up on now-empty wire rack set in sheet and brush with remaining 3 tablespoons melted butter. Place in oven and reheat until skin is well browned and thighs register 110 degrees, 18 to 22 minutes. Transfer thighs and drumsticks to large platter."
+      },
+      {
+        "stepNumber": 11,
+        "instruction": "While thighs reheat, bring gravy to simmer in large saucepan over medium-low heat, whisking occasionally. Add any reserved juices from breasts and season with salt and pepper to taste. Cover and keep warm."
+      },
+      {
+        "stepNumber": 12,
+        "instruction": "Carve breasts and transfer to platter with thighs and drumsticks. Serve, passing gravy separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29908,
+    "end": 29992,
+    "yieldLine": "SERVES 18 to 20"
+  },
+  "fit": true
+}

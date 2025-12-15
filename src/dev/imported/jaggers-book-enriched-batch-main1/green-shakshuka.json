@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_green-shakshuka",
+    "name": "Green Shakshuka",
+    "slug": "green-shakshuka",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "swiss-chard-stems-sliced-1-4-inch-thick-2-cups-leaves-cut-into-11-2-to-2-inch-pieces-8-cups",
+        "displayName": "Swiss chard, stems sliced 1/4 inch thick (2 cups), leaves cut into 11/2- to 2-inch pieces (8 cups)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-chopped-fresh-parsley-leaves-and-stems-divided",
+        "displayName": "plus 2 tablespoons chopped fresh parsley leaves and stems, divided",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "16-cups-baby-spinach",
+        "displayName": "(16 cups) baby spinach",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "country-style-bread-cut-into-1-2-inch-pieces-1-2-cup-plus-bread-for-serving",
+        "displayName": "country-style bread, cut into 1/2-inch pieces (1/2 cup), plus bread for serving",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-sumac-divided",
+        "displayName": "ground sumac, divided",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "goat-cheese-or-feta-cheese-crumbled-1-4-cup",
+        "displayName": "goat cheese or feta cheese, crumbled (1/4 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil in 12-inch nonstick skillet over medium heat until shimmering. Add chard stems, onion, garlic, and 1/2 teaspoon salt. Cook, stirring occasionally, until vegetables are soft and lightly browned, 8 to 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add coriander and cumin and cook until fragrant, about 1 minute. Add chard leaves and 2 cups parsley. Adjust heat to medium-low and cook, covered, stirring occasionally, until greens are just wilted but still bright green, 2 to 3 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add half of spinach, cover, and cook until just wilted. Add remaining spinach and cook, covered, stirring occasionally, until all spinach is wilted but still bright green, 3 to 5 minutes. Off heat, transfer 11/2 cups greens mixture to blender. Add bread, water, 1 teaspoon sumac, and remaining 1/2 teaspoon salt. Process until smooth puree forms, about 1 minute, scraping sides of blender jar as needed. Stir puree into skillet and smooth into even layer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Using back of spoon, make 8 shallow indentations (about 1 inch wide) in surface of greens (seven around perimeter and one in center). Crack 1 egg into each indentation (which will hold yolk in place but not fully contain egg). Spoon greens over edges of egg whites so whites are partially covered and yolks are exposed."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Bring to simmer over medium heat. Cover and cook until yolks film over, 3 to 5 minutes, adjusting heat to maintain gentle simmer. Continue to cook, covered, until whites are softly but uniformly set (if skillet is shaken lightly, each egg should jiggle as single unit), 1 to 2 minutes longer. Off heat, sprinkle with goat cheese, remaining 2 tablespoons parsley, and remaining 1/2 teaspoon sumac. Season with salt to taste and serve, passing bread separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 4536,
+    "end": 4588,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

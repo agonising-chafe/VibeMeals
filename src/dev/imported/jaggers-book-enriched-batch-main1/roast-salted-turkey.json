@@ -1,0 +1,169 @@
+{
+  "mapped": {
+    "id": "atk_roast-salted-turkey",
+    "name": "Roast Salted Turkey",
+    "slug": "roast-salted-turkey",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 300,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 11,
+      "yieldText": "SERVES 10 to 12",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "12-to-14-pound-turkey-giblets-neck-and-tailpiece-removed-and-reserved-for-gravy-see-this-page",
+        "displayName": "(12- to 14-pound) turkey; giblets, neck, and tailpiece removed and reserved for gravy (see this page)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bag-ice-cubes",
+        "displayName": "bag ice cubes",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-melted",
+        "displayName": "(1/2 stick) unsalted butter, melted",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-onions-chopped-coarse",
+        "displayName": "medium onions, chopped coarse",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-carrots-chopped-coarse",
+        "displayName": "medium carrots, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "celery-ribs-chopped-coarse",
+        "displayName": "celery ribs, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "water-plus-more-as-needed",
+        "displayName": "water, plus more as needed",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [
+      {
+        "durationHours": 24,
+        "description": "Salt turkey and refrigerate.",
+        "instruction": "Carefully separate the turkey skin from the meat on the breast, legs, thighs, and back; avoid breaking the skin. Then rub 2 tablespoons of the salt evenly inside the cavity of the turkey, 1 tablespoon more salt under the skin of each breast half, and 11/2 teaspoons more salt under the skin of each leg. Wrap the turkey tightly with plastic wrap; refrigerate for 24 to 48 hours.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Carefully separate the turkey skin from the meat on the breast, legs, thighs, and back; avoid breaking the skin. Then rub 2 tablespoons of the salt evenly inside the cavity of the turkey, 1 tablespoon more salt under the skin of each breast half, and 11/2 teaspoons more salt under the skin of each leg. Wrap the turkey tightly with plastic wrap; refrigerate for 24 to 48 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove the turkey from the refrigerator. Rinse off any excess salt between the meat and skin and in the cavity, then pat dry inside and out with paper towels. Add ice to two 1-gallon zipper-lock bags until each is half full. Place the bags in a large roasting pan and lay the turkey, breast side down, on top of the ice. Add ice to two 1-quart zipper-lock bags until each is one-third full; place one bag of ice in the large cavity of the turkey and the other bag in the neck cavity. (Make sure that the ice touches the breast only, not the thighs or legs; see the photo.) Keep the turkey on ice for 1 hour (the roasting pan should remain on the counter)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, adjust an oven rack to the lowest position and heat the oven to 425 degrees. Line a large V-rack with heavy-duty foil and poke several holes in the foil. Set the V-rack in a roasting pan and spray the foil with vegetable oil spray."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the turkey from the ice and pat dry with paper towels (discard the ice). Tuck the tips of the drumsticks into the skin at the tail to secure and tuck the wings under the bird. Brush the turkey breast with 2 tablespoons of the melted butter. Scatter the vegetables and thyme in the roasting pan and pour 1 cup water over the vegetable mixture. Place the turkey, breast side down, on the V-rack. Brush the turkey with the remaining 2 tablespoons melted butter."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Roast the turkey for 45 minutes. Remove the pan from the oven (close the oven door to retain the oven heat) and reduce the oven temperature to 325 degrees. With a dish towel in each hand, rotate the turkey breast side up; continue to roast until the thickest part of the breast registers 160 degrees and the thickest part of the thigh registers 175 degrees on an instant-read thermometer, 1 to 11/2 hours longer. Transfer the turkey to a carving board and let rest, uncovered, for 30 minutes. Carve the turkey and serve with the gravy."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Use a chopstick or a thin wooden spoon handle to separate the skin from the meat over the breast, legs, thighs, and back. Rub 2 tablespoons kosher salt inside the main cavity."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Lift the skin and apply 1 tablespoon kosher salt over each breast half, placing half of the salt on each end of each breast, then massaging the salt evenly over the meat."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Apply 11/2 teaspoons kosher salt over the top and bottom of each leg."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 29083,
+    "end": 29149,
+    "yieldLine": "SERVES 10 to 12"
+  },
+  "fit": true
+}

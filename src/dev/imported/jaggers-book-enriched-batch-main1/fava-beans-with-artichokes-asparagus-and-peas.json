@@ -1,0 +1,182 @@
+{
+  "mapped": {
+    "id": "atk_fava-beans-with-artichokes-asparagus-and-peas",
+    "name": "Fava Beans with Artichokes, Asparagus, and Peas",
+    "slug": "fava-beans-with-artichokes-asparagus-and-peas",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "grated-lemon-zest-plus-1-lemon",
+        "displayName": "grated lemon zest, plus 1 lemon",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baby-artichokes-3-ounces-each",
+        "displayName": "baby artichokes (3 ounces each)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fava-beans-shelled-1-cup",
+        "displayName": "fava beans, shelled (1 cup)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-extra-for-serving",
+        "displayName": "extra-virgin olive oil, plus extra for serving",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leek-white-and-light-green-parts-only-halved-lengthwise-sliced-thin-and-washed-thoroughly",
+        "displayName": "leek, white and light green parts only, halved lengthwise, sliced thin, and washed thoroughly",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-or-vegetable-broth",
+        "displayName": "chicken or vegetable broth",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "asparagus-trimmed-and-cut-on-bias-into-2-inch-lengths",
+        "displayName": "asparagus, trimmed and cut on bias into 2-inch lengths",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-peas-shelled-11-4-cups",
+        "displayName": "fresh peas, shelled (11/4 cups)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-fresh-basil",
+        "displayName": "shredded fresh basil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-mint",
+        "displayName": "chopped fresh mint",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut lemon in half, squeeze halves into container filled with 2 quarts water, then add spent halves. Working with 1 artichoke at a time, trim stem to about 3/4 inch and cut off top quarter of artichoke. Break off bottom 3 or 4 rows of tough outer leaves by pulling them downward. Using paring knife, trim outer layer of stem and base, removing any dark green parts. Cut artichoke into quarters and submerge in lemon water."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring 2 cups water and baking soda to boil in small saucepan. Add beans and cook until edges begin to darken, 1 to 2 minutes. Drain and rinse well with cold water."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat oil in 12-inch skillet over medium heat until shimmering. Add leek, 1 tablespoon water, and 1 teaspoon salt and cook until softened, about 3 minutes. Stir in garlic and cook until fragrant, about 30 seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove artichokes from lemon water, shaking off excess water, and add to skillet. Stir in broth and bring to simmer. Reduce heat to medium-low, cover, and cook until artichokes are almost tender, 6 to 8 minutes. Stir in asparagus and peas, cover, and cook until crisp-tender, 5 to 7 minutes. Stir in beans and cook until heated through and artichokes are fully tender, about 2 minutes. Off heat, stir in basil, mint, and lemon zest. Season with salt and pepper to taste and drizzle with extra oil. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61282,
+    "end": 61330,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_p-f-chang-s-mongolian-beef",
+    "name": "P.F. Chang’s Mongolian Beef",
+    "slug": "p-f-chang-s-mongolian-beef",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "one-of-the-reasons-p-f-chang-s-tastes-so-good-is-that-each-restaurant-makes-their-food-from-scratch-this-version-is-also-made-from-scratch-so-you-can-enjoy-the-same-flavor-at-home",
+        "displayName": "One of the reasons P.F. Chang’s tastes so good is that each restaurant makes their food from scratch. This version is also made from scratch so you can enjoy the same flavor at home.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-vegetable-oil-divided",
+        "displayName": "plus 2 teaspoons vegetable oil, divided",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-minced-ginger",
+        "displayName": "½ teaspoon minced ginger",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-garlic",
+        "displayName": "chopped garlic",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-soy-sauce",
+        "displayName": "½ cup soy sauce",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-water",
+        "displayName": "½ cup water",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-packed-dark-brown-sugar",
+        "displayName": "¾ cup packed dark brown sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "flank-steak",
+        "displayName": "flank steak",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cornstarch",
+        "displayName": "¼ cup cornstarch",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-green-onions",
+        "displayName": "large green onions",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-2-quart-saucepan-over-medium-heat-add-2-teaspoons-oil-once-hot-add-ginger-and-garlic-and-cook-10-seconds-then-add-soy-sauce-and-water",
+        "displayName": "In a 2-quart saucepan over medium heat, add 2 teaspoons oil. Once hot, add ginger and garlic and cook 10 seconds, then add soy sauce and water.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-brown-sugar-and-stir-until-dissolved-raise-heat-to-high-and-boil-2-3-minutes-until-sauce-thickens-remove-from-heat",
+        "displayName": "Add brown sugar and stir until dissolved. Raise heat to high and boil 2–3 minutes until sauce thickens. Remove from heat.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "steak-against-grain-into-inch-thick-bite-sized-pieces-dip-pieces-in-cornstarch-and-toss-to-coat-all-sides-let-sit-10-minutes-so-cornstarch-adheres",
+        "displayName": "steak against grain into ¼-inch-thick bite-sized pieces. Dip pieces in cornstarch and toss to coat all sides. Let sit 10 minutes so cornstarch adheres.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "as-beef-sits-heat-remaining-oil-in-a-wok-over-medium-heat-until-it-reaches-350-f",
+        "displayName": "As beef sits, heat remaining oil in a wok over medium heat until it reaches 350°F.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-beef-to-oil-and-fry-stirring-occasionally-2-minutes-or-until-beef-just-begins-to-darken-at-edges-transfer-beef-to-a-paper-towel-lined-plate-to-drain-pour-oil-out-of-wok",
+        "displayName": "Add beef to oil and fry, stirring occasionally, 2 minutes or until beef just begins to darken at edges. Transfer beef to a paper towel–lined plate to drain. Pour oil out of wok.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-wok-back-over-medium-heat-and-add-prepared-sauce-cook-stirring-constantly-1-minute-add-beef-and-toss-to-coat-evenly-add-green-onions-and-cook-1-minute-remove-beef-and-green-onions-with-tongs-or-a-slotted-spoon-to-a-serving-plate-serve-hot",
+        "displayName": "Place wok back over medium heat and add prepared sauce. Cook, stirring constantly, 1 minute. Add beef and toss to coat evenly. Add green onions and cook 1 minute. Remove beef and green onions with tongs or a slotted spoon to a serving plate. Serve hot.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7013,
+    "end": 7061,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

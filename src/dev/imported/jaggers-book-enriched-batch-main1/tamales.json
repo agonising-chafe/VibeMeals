@@ -1,0 +1,189 @@
+{
+  "mapped": {
+    "id": "atk_tamales",
+    "name": "Tamales",
+    "slug": "tamales",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 18 tamales",
+      "baseServings": 18
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "plus-2-tablespoons-quick-grits",
+        "displayName": "plus 2 tablespoons quick grits",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boiling-water",
+        "displayName": "boiling water",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "4-ounces-plus-2-tablespoons-masa-harina",
+        "displayName": "(4 ounces) plus 2 tablespoons masa harina",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-dried-corn-husks",
+        "displayName": "large dried corn husks",
+        "amount": 20,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-corn-thawed",
+        "displayName": "frozen corn, thawed",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-2-inch-cubes-and-softened",
+        "displayName": "unsalted butter, cut into 1/2-inch cubes and softened",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "lard-softened",
+        "displayName": "lard, softened",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 2.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-red-chile-chicken-filling-recipe-follows",
+        "displayName": "recipe Red Chile Chicken Filling (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 1,
+        "description": "Soak corn husks in hot water until pliable (at least 30 minutes).",
+        "requirementType": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place grits in medium bowl; whisk in boiling water; and let stand until water is mostly absorbed, about 10 minutes. Stir in masa harina; cover; and let cool to room temperature, about 20 minutes. Meanwhile, place husks in large bowl; cover with hot water; and let soak until pliable, about 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process masa dough, corn, butter, lard, sugar, baking powder, and salt in food processor until mixture is light, sticky, and very smooth, about 1 minute, scraping down sides as necessary. Remove husks from water and pat dry with dish towel."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Working with 1 husk at a time, lay on counter, cupped side up, with long side facing you and wide end on right side. Spread 1/4 cup tamale dough into 4-inch square over bottom right-hand corner, pushing it flush to bottom edge but leaving 11/2-inch border at wide edge. Mound scant 2 tablespoons filling in line across center of dough, parallel to bottom edge. Roll husk away from you and over filling, so that dough surrounds filling and forms cylinder. Fold up tapered end, leaving top open, and transfer seam side down to platter."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Fit large pot or Dutch oven with steamer basket, removing feet from steamer basket if pot is short. Fill pot with water until it just touches bottom of basket and bring to boil. Gently lay tamales in basket with open ends facing up and seam sides facing down. Cover and steam, checking water level often and adding additional water as needed, until tamales easily come free from husks, about 1 hour. Transfer tamales to large platter. Reheat remaining sauce from filling in covered bowl in microwave, about 30 seconds, and serve with tamales."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Arrange corn husk with long side parallel to counter edge. Spoon scant 1/4 cup dough onto center of husk. Spread into 4-inch square, pushing it flush to bottom edge but leaving 11/2-inch border at wide end."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Place scant 2 tablespoons of filling down center of dough. Roll husk away from you so that dough surrounds filling. It is important to roll tamales tightly so that they don’t leak while cooking."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Fold tapered end of tamale up, leaving top open, and transfer to platter, seam side down. Keeping tamales seam side down means that you can skip tedious task of tying each one closed."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 25473,
+    "end": 25541,
+    "yieldLine": "MAKES 18 tamales"
+  },
+  "fit": true
+}

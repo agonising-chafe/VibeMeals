@@ -1,0 +1,288 @@
+{
+  "mapped": {
+    "id": "atk_lahmajun-armenian-flatbread",
+    "name": "Lahmajun (Armenian Flatbread)",
+    "slug": "lahmajun-armenian-flatbread",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "161-4-ounces-king-arthur-all-purpose-flour",
+        "displayName": "(161/4 ounces) King Arthur All-Purpose Flour",
+        "amount": 3.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "10-ounces-ice-water",
+        "displayName": "(10 ounces) ice water",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-stemmed-seeded-and-cut-into-1-inch-pieces",
+        "displayName": "red bell pepper, stemmed, seeded, and cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "small-onion",
+        "displayName": "small onion",
+        "amount": 0.25,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "fresh-parsley-leaves-and-tender-stems",
+        "displayName": "fresh parsley leaves and tender stems",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "mild-biber-sal-as",
+        "displayName": "mild biber salçası",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "clove-peeled",
+        "displayName": "clove, peeled",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "ground-allspice",
+        "displayName": "ground allspice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "ground-lamb-broken-into-small-pieces",
+        "displayName": "ground lamb, broken into small pieces",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 16,
+        "description": "Refrigerate dough for at least 16 hours or up to 2 days.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Process flour and yeast in food processor until combined, about 2 seconds. With processor running, slowly add ice water; process until dough is just combined and no dry flour remains, about 10 seconds. Let dough rest for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add oil and salt and process until dough forms shaggy ball, 30 to 60 seconds. Transfer dough to lightly oiled counter and knead until uniform, about 1 minute (texture will remain slightly rough). Divide dough into 4 equal pieces, about 62/3 ounces each. Shape dough pieces into tight balls and transfer, seam side down, to rimmed baking sheet coated with oil spray. Spray tops of balls lightly with oil spray. Cover tightly with plastic wrap and refrigerate for at least 16 hours or up to 2 days."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE TOPPING: In now-empty processor, process bell pepper, onion, parsley, biber salçası, tomato paste, garlic, allspice, paprika, cumin, salt, pepper, and cayenne until smooth, scraping down sides of bowl as needed, about 15 seconds. Add lamb and pulse to combine, 8 to 10 pulses. Transfer to container, cover, and refrigerate until needed. (Topping can be refrigerated for up to 24 hours)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "One hour before baking lahmajun, remove dough from refrigerator and let stand at room temperature until slightly puffy and no longer cool to touch. Meanwhile, adjust oven rack to upper-middle position (rack should be 4 to 5 inches from broiler element), set baking stone on rack, and heat oven to 500 degrees."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Place 1 dough ball on unfloured counter and dust top lightly with flour. Using heel of your hand, press dough ball into 5-inch disk. Using rolling pin, gently roll into 12-inch round of even thickness. (Use tackiness of dough on counter to aid with rolling; if dough becomes misshapen, periodically peel round from counter, reposition, and continue to roll.) Dust top of round lightly but evenly with flour and, starting at 1 edge, peel dough off counter and flip, floured side down, onto floured baking peel (dough will spring back to about 11 inches in diameter). Place one-quarter of topping (about 1/2 cup) in center of dough. Cover dough with 12 by 12-inch sheet of plastic and, using your fingertips and knuckles, gently spread filling evenly across dough, leaving 1/8-inch border. Starting at 1 edge, peel away plastic, leaving topping in place (reserve plastic for topping remaining lahmajun)."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Carefully slide lahmajun onto stone and bake until bottom crust is browned, edges are lightly browned, and topping is steaming, 4 to 6 minutes. While lahmajun bakes, begin rolling next dough ball."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Transfer baked lahmajun to wire rack. Repeat rolling, topping, and baking remaining 3 dough balls."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Serve with lemon wedges or Cucumber-Tomato Salad."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 67080,
+    "end": 67154,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,203 @@
+{
+  "mapped": {
+    "id": "atk_spaghetti-with-olive-pesto",
+    "name": "Spaghetti with Olive Pesto",
+    "slug": "spaghetti-with-olive-pesto",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_POT",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-black-pesto-is-called-olivada-in-italy-make-sure-to-use-high-quality-olives-in-this-recipe-the-anchovy-adds-flavor-but-not-fishiness-to-the-pesto-and-we-recommend-its-inclusion",
+        "displayName": "This black pesto is called olivada in Italy. Make sure to use high-quality olives in this recipe. The anchovy adds flavor but not fishiness to the pesto and we recommend its inclusion.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-unpeeled",
+        "displayName": "medium garlic cloves, unpeeled",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-kalamata-olives",
+        "displayName": "pitted kalamata olives",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-about-1-2-cup-plus-extra-for-serving",
+        "displayName": "Parmesan cheese, grated (about 1/2 cup), plus extra for serving",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "component": "PESTO",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "packed-fresh-parsley-leaves",
+        "displayName": "packed fresh parsley leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "medium-shallot-chopped-coarse-about-3-tablespoons",
+        "displayName": "medium shallot, chopped coarse (about 3 tablespoons)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "large-basil-leaves",
+        "displayName": "large basil leaves",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "PESTO"
+      },
+      {
+        "ingredientId": "anchovy-fillet-rinsed-optional",
+        "displayName": "anchovy fillet, rinsed (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "PESTO",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "spaghetti",
+        "displayName": "spaghetti",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-wedges-for-serving",
+        "displayName": "Lemon wedges, for serving",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toast the garlic in a small skillet over medium heat, shaking the pan occasionally, until the garlic is softened and spotty brown, about 8 minutes; when cool, remove and discard the skins."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Process the garlic, olives, 1/2 cup of the Parmesan, oil, parsley, shallot, basil, lemon juice, and anchovy (if using) in a food processor, scraping down the sides of the workbowl as necessary. Transfer the mixture to a small bowl and season with salt and pepper to taste."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bring 4 quarts water to a boil in a large pot. Add 1 tablespoon salt and the pasta to the boiling water and cook, stirring often, until al dente. Reserve 1/2 cup of the cooking water then drain the pasta and return it to the pot. Stir 1/4 cup of the reserved pasta cooking water into the pesto and add the pesto to the pasta. Toss to combine, adjusting the consistency of the sauce with the remaining reserved pasta cooking water as needed. Serve immediately, passing the lemon wedges and extra Parmesan separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "TREE_NUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 18229,
+    "end": 18275,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

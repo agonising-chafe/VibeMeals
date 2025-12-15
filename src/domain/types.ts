@@ -48,6 +48,8 @@ export type PreflightRequirementType =
   | 'SLOW_COOK'
   | 'LONG_PREP';
 export type PreflightStatus = 'NONE_REQUIRED' | 'ALL_GOOD' | 'MISSED' | 'UNKNOWN';
+
+export type MealComponentKind = 'SIDE' | 'SAUCE' | 'APPETIZER' | 'DESSERT';
 export type TonightStatus =
   | 'NO_PLAN'
   | 'READY'
@@ -260,6 +262,8 @@ export interface PlannedDinner {
   outEating: boolean;
   preflightStatus: PreflightStatus;
   originalRecipeId?: RecipeId;
+  // Optional add-ons selected by the user (book-authored accompaniments, sides, sauces, etc.)
+  accompaniments?: { kind: MealComponentKind; recipeId: RecipeId }[];
 }
 
 export interface PlanDay {

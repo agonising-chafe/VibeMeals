@@ -1,0 +1,168 @@
+{
+  "mapped": {
+    "id": "atk_leek-fennel-and-squash-soup-with-sausage",
+    "name": "Leek, Fennel, and Squash Soup with Sausage",
+    "slug": "leek-fennel-and-squash-soup-with-sausage",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "hot-italian-sausage-casings-removed",
+        "displayName": "hot Italian sausage, casings removed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leeks-white-and-light-green-parts-only-halved-lengthwise-cut-into-1-2-inch-pieces-and-washed-thoroughly",
+        "displayName": "leeks, white and light green parts only, halved lengthwise, cut into 1/2-inch pieces, and washed thoroughly",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fennel-bulb-halved-cored-and-cut-into-1-4-inch-pieces",
+        "displayName": "fennel bulb, halved, cored, and cut into 1/4-inch pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled-and-sliced-thin",
+        "displayName": "cloves, peeled and sliced thin",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kabocha-squash-peeled-seeded-and-cut-into-1-inch-pieces",
+        "displayName": "kabocha squash, peeled, seeded, and cut into 1-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-cannellini-beans-rinsed",
+        "displayName": "can cannellini beans, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-chopped-fresh-parsley",
+        "displayName": "finely chopped fresh parsley",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cook sausage in Dutch oven over medium-high heat until browned, 5 to 7 minutes, breaking up meat with wooden spoon. Use slotted spoon to transfer sausage to plate, leaving fat behind in pot; set sausage aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add leeks, fennel, garlic, oil, salt, bay leaf, and thyme sprigs to pot. Reduce heat to medium and cook, stirring occasionally, until vegetables are tender and just beginning to brown, about 7 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir in squash, broth, beans, and sausage, scraping up any browned bits. Cover pot, increase heat to high, and bring soup to vigorous simmer. Reduce heat to medium and simmer vigorously until squash is tender, 20 to 25 minutes, adjusting heat as needed. Remove pot from heat, discard bay leaf and thyme sprigs, and stir in parsley. Season with salt and pepper to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 10177,
+    "end": 10225,
+    "yieldLine": "SERVES 4 to 6 SEASON 26"
+  },
+  "fit": true
+}

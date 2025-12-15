@@ -1,0 +1,94 @@
+{
+  "mapped": {
+    "id": "atk_shrimp-cocktail",
+    "name": "Shrimp Cocktail",
+    "slug": "shrimp-cocktail",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shell-on-jumbo-shrimp-16-to-20-per-pound-peeled-and-deveined-tails-left-on-see-this-page",
+        "displayName": "shell-on jumbo shrimp (16 to 20 per pound), peeled and deveined, tails left on (see this page)",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "ice",
+        "displayName": "ice",
+        "amount": 8,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 2 tablespoons salt and sugar in 1 quart cold (65- to 70-degree) water in large Dutch oven. Submerge shrimp in brine for 15 minutes. Meanwhile, combine ice and 1 quart water in large bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add additional 1 quart cold water and remaining 1 tablespoon salt to Dutch oven and gently stir until salt dissolves. Set pot over medium heat and cook, stirring frequently, until water registers 160 degrees and shrimp are firm and have turned pink, about 12 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using spider skimmer or slotted spoon, immediately transfer shrimp to prepared ice bath and let shrimp cool completely, about 10 minutes. Drain shrimp and transfer to bowl. Cover and refrigerate until ready to use."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 2230,
+    "end": 2258,
+    "yieldLine": "SERVES 8 SEASON 26"
+  },
+  "fit": true
+}

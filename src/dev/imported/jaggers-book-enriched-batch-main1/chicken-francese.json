@@ -1,0 +1,212 @@
+{
+  "mapped": {
+    "id": "atk_chicken-francese",
+    "name": "Chicken Francese",
+    "slug": "chicken-francese",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "6-to-8-ounce-boneless-skinless-chicken-breasts-trimmed",
+        "displayName": "(6- to 8-ounce) boneless, skinless chicken breasts, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-lemon",
+        "displayName": "large lemon",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-divided",
+        "displayName": "unsalted butter, divided",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "all-purpose-flour-divided",
+        "displayName": "all-purpose flour, divided",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-for-frying",
+        "displayName": "extra-virgin olive oil for frying",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-for-frying",
+        "displayName": "vegetable oil for frying",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 200 degrees. Cut each chicken breast in half crosswise, then cut thick half in half again horizontally, creating 3 cutlets of similar thickness. Place cutlets between sheets of plastic wrap and gently pound to even 1/4-inch thickness. Place cutlets in bowl and toss with salt and pepper. Set aside for 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Grate peel from 1 end of lemon to yield 1 teaspoon zest. Cut lemon in half crosswise and juice zested lemon half. Measure out 2 tablespoons juice. Slice remaining (unzested) lemon half into four 1/4-inch-thick rounds. Discard end. Cut 3 tablespoons butter into 1/2-inch cubes and transfer to small bowl. Sprinkle cubes with 1 teaspoon flour and toss until cubes are fully coated and no loose flour remains in bowl; refrigerate until needed."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Set wire rack in rimmed baking sheet. Spread remaining flour in shallow dish. In medium bowl, whisk eggs with water. Working with 1 cutlet at a time, dredge cutlets in flour, shaking gently to remove excess. Transfer to prepared rack."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat olive oil and vegetable oil in 12-inch skillet over medium-high heat until shimmering. Working with 1 cutlet at a time, coat 4 cutlets with egg mixture and gently place in skillet. Reduce heat to medium and cook until golden brown on 1 side, about 2 minutes. Using tongs, flip and cook until golden brown on second side, about 2 minutes. Arrange cutlets on serving platter and place in oven. Repeat with remaining cutlets in 2 batches."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Discard oil. Gently wipe out skillet with paper towels. Return skillet to medium heat and add lemon slices and remaining 1 tablespoon butter. Cook, flipping slices occasionally, until lightly browned on both sides, about 3 minutes. Transfer lemon slices to cutting board."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Add garlic to now-empty skillet and cook, stirring constantly, until fragrant, about 30 seconds. Stir in wine, scraping up any browned bits, and increase heat to medium-high. Bring to rapid simmer and cook until wine is mostly evaporated, 2 to 3 minutes. Stir in broth and continue to simmer, stirring occasionally, until liquid is reduced to 2/3 cup, 6 to 8 minutes longer."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Reduce heat to low and stir in reserved lemon zest and juice. Whisk in floured butter cubes, a few at a time, until sauce is thickened to consistency of heavy cream, 11/2 to 2 minutes. Off heat, stir in parsley. Season with salt and pepper to taste. Cut browned lemon slices in half and scatter over cutlets. Spoon sauce over cutlets and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 22918,
+    "end": 22974,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

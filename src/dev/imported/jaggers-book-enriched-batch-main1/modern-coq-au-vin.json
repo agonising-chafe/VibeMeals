@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_modern-coq-au-vin",
+    "name": "Modern Coq au Vin",
+    "slug": "modern-coq-au-vin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "thick-cut-bacon-chopped",
+        "displayName": "thick-cut bacon, chopped",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "Vegetable oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-skin-on-chicken-pieces-split-breasts-cut-in-half-drumsticks-and-or-thighs",
+        "displayName": "bone-in, skin-on chicken pieces (split breasts cut in half, drumsticks, and/or thighs)",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "frozen-pearl-onions",
+        "displayName": "frozen pearl onions",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-mushrooms-trimmed-and-quartered",
+        "displayName": "white mushrooms, trimmed and quartered",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "750-ml-bottle-medium-bodied-red-wine",
+        "displayName": "(750-ml) bottle medium-bodied red wine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-or-1-4-teaspoon-dried",
+        "displayName": "minced fresh thyme or 1/4 teaspoon dried",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-2-pieces-chilled",
+        "displayName": "unsalted butter, cut into 2 pieces, chilled",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Fry bacon in large Dutch oven over medium heat until crisp, 5 to 7 minutes. Transfer bacon to paper towel–lined plate, leaving fat in pot (you should have about 2 tablespoons; if necessary, add vegetable oil to make this amount). Set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pat chicken dry with paper towels and sprinkle with salt and pepper. Return pot with bacon fat to medium-high heat until shimmering. Brown half of chicken on both sides, 5 to 8 minutes per side, reducing heat if pan begins to scorch. Transfer chicken to plate, leaving fat in pot. Return pot to medium-high heat and repeat with remaining chicken; transfer chicken to plate."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pour off all but 1 tablespoon fat in pot (or add vegetable oil if needed to make this amount). Add onions and mushrooms and cook over medium heat, stirring occasionally, until lightly browned, about 10 minutes. Stir in garlic and tomato paste and cook until fragrant, about 30 seconds. Stir in flour and cook for 1 minute. Stir in wine, broth, thyme, and bay leaves, scraping up any browned bits."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Nestle chicken, along with any accumulated juices, into pot and bring to simmer. Cover, turn heat to medium-low, and simmer until chicken is tender and thickest part of breasts registers 160 degrees, about 20 minutes, or thickest part of thighs and drumsticks registers 175 degrees, about 1 hour. (If using both types of chicken, simmer thighs and drumsticks for 40 minutes before adding breasts.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer chicken to serving dish, tent with aluminum foil, and let rest while finishing sauce. Skim as much fat as possible off surface of sauce and return to simmer until sauce is thickened and measures about 2 cups, about 20 minutes. Off heat, remove bay leaves, whisk in butter, and season with salt and pepper to taste. Pour sauce over chicken, sprinkle with reserved bacon and parsley, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 25115,
+    "end": 25171,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

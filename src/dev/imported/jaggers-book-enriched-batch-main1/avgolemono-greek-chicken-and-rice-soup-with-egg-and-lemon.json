@@ -1,0 +1,152 @@
+{
+  "mapped": {
+    "id": "atk_avgolemono-greek-chicken-and-rice-soup-with-egg-and-lemon",
+    "name": "Avgolemono (Greek Chicken and Rice Soup with Egg and Lemon)",
+    "slug": "avgolemono-greek-chicken-and-rice-soup-with-egg-and-lemon",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-trimmed",
+        "displayName": "boneless, skinless chicken breasts, trimmed",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-inch-strips-lemon-zest-plus-6-tablespoons-juice-plus-extra-juice-for-seasoning-3-lemons",
+        "displayName": "(3-inch) strips lemon zest plus 6 tablespoons juice, plus extra juice for seasoning (3 lemons)",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-dill-plus-2-teaspoons-chopped",
+        "displayName": "sprigs fresh dill, plus 2 teaspoons chopped",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "coriander-seeds",
+        "displayName": "coriander seeds",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-peeled-and-smashed",
+        "displayName": "clove, peeled and smashed",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 8,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "long-grain-rice",
+        "displayName": "long-grain rice",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-plus-2-large-yolks",
+        "displayName": "large eggs plus 2 large yolks",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut each chicken breast in half lengthwise. Toss with salt and let sit at room temperature for at least 15 minutes or up to 30 minutes. Cut 8-inch square of triple-thickness cheesecloth. Place lemon zest, dill sprigs, coriander seeds, peppercorns, and garlic in center of cheesecloth and tie into bundle with kitchen twine."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring broth, rice, and spice bundle to boil in large saucepan over high heat. Reduce heat to low, cover, and cook for 5 minutes. Turn off heat, add chicken, cover, and let sit for 15 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer chicken to large plate and discard spice bundle. Using 2 forks, shred chicken into bite-size pieces. Using ladle, transfer 1 cup cooked rice to blender (leave any liquid in pot). Add lemon juice and eggs and yolks to blender and process until smooth, about 1 minute."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return chicken and any accumulated juices to pot. Return soup to simmer over high heat. Remove pot from heat and stir in egg mixture until fully incorporated. Stir in chopped dill and season with salt, pepper, and extra lemon juice to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 6898,
+    "end": 6944,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

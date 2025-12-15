@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_tommy-bahama-cucumber-smash",
+    "name": "Tommy Bahama Cucumber Smash",
+    "slug": "tommy-bahama-cucumber-smash",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-cool-and-refreshing-drink-is-perfect-for-a-hot-summer-day-hendrick-s-gin-is-infused-with-rose-and-cucumber-so-it-is-a-great-choice-for-this-beverage",
+        "displayName": "This cool and refreshing drink is perfect for a hot summer day. Hendrick’s Gin is infused with rose and cucumber, so it is a great choice for this beverage.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "piece-english-cucumber-quartered",
+        "displayName": "piece English cucumber, quartered",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounce-fresh-lime-juice",
+        "displayName": "½ ounce fresh lime juice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounces-hendrick-s-gin",
+        "displayName": "½ ounces Hendrick’s Gin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounce-elderflower-liqueur",
+        "displayName": "¾ ounce elderflower liqueur",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ounce-simple-syrup",
+        "displayName": "½ ounce simple syrup",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-crushed-ice",
+        "displayName": "½ cup crushed ice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "club-soda",
+        "displayName": "club soda",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thin-slices-english-cucumber-for-garnish",
+        "displayName": "thin slices English cucumber, for garnish",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-rocks-glass-add-quartered-cucumber-and-lime-juice-with-a-muddler-crush-cucumber-until-it-is-crushed-in-small-pieces-add-gin-liqueur-and-simple-syrup-and-stir-to-combine-add-ice-and-stir-well-to-chill-drink",
+        "displayName": "In a rocks glass, add quartered cucumber and lime juice. With a muddler, crush cucumber until it is crushed in small pieces. Add gin, liqueur, and simple syrup and stir to combine. Add ice and stir well to chill drink.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "top-drink-with-club-soda-and-garnish-with-cucumber-slices-serve",
+        "displayName": "Top drink with club soda and garnish with cucumber slices. Serve.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 11349,
+    "end": 11387,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

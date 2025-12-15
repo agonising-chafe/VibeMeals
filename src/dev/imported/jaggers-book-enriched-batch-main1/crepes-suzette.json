@@ -1,0 +1,220 @@
+{
+  "mapped": {
+    "id": "atk_crepes-suzette",
+    "name": "Crepes Suzette",
+    "slug": "crepes-suzette",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "BLENDER",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "71-2-ounces-unbleached-all-purpose-flour",
+        "displayName": "(71/2 ounces) unbleached all-purpose flour",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-plus-extra-for-brushing-the-pan",
+        "displayName": "unsalted butter, melted, plus extra for brushing the pan",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cognac",
+        "displayName": "cognac",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cognac",
+        "displayName": "cognac",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ORANGE SAUCE"
+      },
+      {
+        "ingredientId": "juice-plus-1-tablespoon-finely-grated-zest-from-3-to-4-large-oranges",
+        "displayName": "juice plus 1 tablespoon finely grated zest from 3 to 4 large oranges",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "ORANGE SAUCE"
+      },
+      {
+        "ingredientId": "3-4-stick-unsalted-butter-cut-into-6-pieces",
+        "displayName": "(3/4 stick) unsalted butter, cut into 6 pieces",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "ORANGE SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "13-4-ounces-sugar",
+        "displayName": "(13/4 ounces) sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ORANGE SAUCE"
+      },
+      {
+        "ingredientId": "orange-flavored-liqueur-preferably-triple-sec",
+        "displayName": "orange-flavored liqueur, preferably triple sec",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "ORANGE SAUCE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CREPES: Combine the eggs, milk, flour, water, melted butter, sugar, cognac, and salt in a blender until a smooth batter forms, about 10 seconds. Transfer the batter to a medium bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using a pastry brush, brush the bottom and sides of a 10-inch nonstick skillet very lightly with melted butter and heat the skillet over medium heat. When the butter stops sizzling, tilt the pan slightly to the right and begin pouring in a scant 1/4 cup batter. Continue to pour the batter in a slow, steady stream, rotating your wrist and twirling the pan slowly counterclockwise until the pan bottom is covered with an even layer of batter. Cook until the crepe starts to lose its opaqueness and turns spotty light golden brown on the bottom, loosening the crepe from the side of the pan with a heatproof rubber spatula, 30 seconds to 1 minute. To flip the crepe, loosen the edge with the spatula and, with your fingertips on the top side, slide the spatula under the crepe and flip. Cook until dry on the second side, about 20 seconds."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place the cooked crepe on a plate and repeat the cooking process with the remaining batter, brushing the pan very lightly with butter before making each crepe. As they are done, stack the crepes on a plate (you will need 12 crepes). (The crepes can be double-wrapped in plastic wrap and refrigerated for up to 3 days; bring to room temperature before making the sauce.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE ORANGE SAUCE: Adjust an oven rack to the lower-middle position and heat the broiler. Add 3 tablespoons of the cognac to a broiler-safe 12-inch skillet; heat the pan over medium heat just until the vapors begin to rise from the cognac, about 5 seconds. Remove the pan from the heat and wave a lit match over the pan until the cognac ignites, shaking the pan until the flames subside, about 15 seconds; reignite if the flame dies too soon."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Add 1 cup of the orange juice, the butter, and 3 tablespoons of the sugar and simmer briskly over high heat, stirring occasionally, until many large bubbles appear and the mixture reduces to a thick syrup, 6 to 8 minutes (you should have just over 1/2 cup sauce). Transfer the sauce to a small bowl; do not wash the skillet. Stir the remaining 1/4 cup orange juice, zest, liqueur, and the remaining 1 tablespoon cognac into the sauce; cover."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "TO ASSEMBLE: Fold each crepe in half, then in half again to form a wedge shape. Arrange nine folded crepes around the edge of the now-empty skillet, with the rounded edges facing inward, overlapping as necessary to fit. Arrange the remaining three crepes in the center of the pan. Sprinkle the crepes evenly with the remaining 1 tablespoon sugar. Broil until the sugar caramelizes and the crepes turn spotty brown, about 5 minutes. (Watch the crepes constantly to prevent scorching; turn the pan as necessary.) Carefully remove the pan from the oven and pour half of the sauce over the crepes, leaving some areas uncovered. Transfer the crepes to individual serving dishes and serve immediately, passing the extra sauce separately."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Pour 1/4 cup batter into far side of skillet."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Tilt and shake skillet gently until batter evenly covers bottom of skillet."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Gently slide spatula underneath edge of crepe, grasp edge with your fingertips, and flip crepe."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 81604,
+    "end": 81684,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

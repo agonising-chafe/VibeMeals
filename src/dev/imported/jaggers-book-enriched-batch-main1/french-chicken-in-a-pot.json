@@ -1,0 +1,152 @@
+{
+  "mapped": {
+    "id": "atk_french-chicken-in-a-pot",
+    "name": "French Chicken in a Pot",
+    "slug": "french-chicken-in-a-pot",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 160,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "41-2-to-5-pound-whole-chicken-giblets-discarded-wings-tucked-under-back",
+        "displayName": "(41/2- to 5-pound) whole chicken, giblets discarded, wings tucked under back",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-onion-chopped",
+        "displayName": "small onion, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-celery-rib-chopped",
+        "displayName": "small celery rib, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled-and-trimmed",
+        "displayName": "cloves, peeled and trimmed",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprig-fresh-rosemary-optional",
+        "displayName": "sprig fresh rosemary (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 0.047619047619047616,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lowest position and heat oven to 250 degrees. Pat chicken dry with paper towels and sprinkle with salt and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in large Dutch oven over medium heat until just smoking. Add chicken, breast side down, and scatter onion, celery, garlic cloves, bay leaf, and rosemary (if using) around chicken. Cook until breast is lightly browned, about 5 minutes. Flip chicken breast side up and continue to cook until chicken and vegetables are well browned, 6 to 8 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Off heat, place large sheet of aluminum foil over pot and cover tightly with lid. Transfer pot to oven and cook until thickest part of breast registers 160 degrees and thickest part of the thighs registers 175 degrees, 1 hour and 20 minutes to 1 hour and 50 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove pot from oven. Transfer chicken to carving board, tent with foil, and let rest for 20 minutes. Strain chicken juices from pot into fat separator, pressing on solids to extract liquid; discard solids (you should have about 3/4 cup juices). Let liquid settle for 5 minutes, then pour into saucepan and cook over low heat until hot. Carve chicken, adding any accumulated juices to saucepan. Season sauce with lemon juice to taste. Serve chicken, passing sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27704,
+    "end": 27746,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

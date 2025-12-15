@@ -1,0 +1,165 @@
+{
+  "mapped": {
+    "id": "atk_classic-cr-me-caramel",
+    "name": "Classic Crème Caramel",
+    "slug": "classic-cr-me-caramel",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 8,
+      "yieldText": "SERVES 8",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "light-corn-syrup",
+        "displayName": "light corn syrup",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "7-ounces-sugar",
+        "displayName": "(7 ounces) sugar",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CUSTARD",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "light-cream",
+        "displayName": "light cream",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CUSTARD",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs-plus-2-large-yolks",
+        "displayName": "large eggs, plus 2 large yolks",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CUSTARD"
+      },
+      {
+        "ingredientId": "42-3-ounces-sugar",
+        "displayName": "(42/3 ounces) sugar",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CUSTARD"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CUSTARD"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "CUSTARD"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CARAMEL: Combine the water, corn syrup, and lemon juice in a 2 to 3-quart saucepan. Pour the sugar into the center of the saucepan, taking care not to let the sugar granules touch the sides of the pan. Gently stir with a clean spatula to moisten the sugar thoroughly. Bring to a boil over medium-high heat and cook, without stirring, until the sugar is completely dissolved and the liquid is clear, 6 to 10 minutes. Reduce the heat to medium-low and continue to cook (swirling occasionally) until the caramel darkens to a honey color, 4 to 5 minutes longer. Remove the pan immediately from the heat and, working quickly but carefully (the caramel is above 300 degrees and will burn if it touches your skin), pour a portion of the caramel into each of eight ungreased 6-ounce ramekins. Allow the caramel to cool and harden, about 15 minutes. (The caramel-coated ramekins can be covered with plastic wrap and refrigerated for up to 2 days; return to room temperature before adding the custard.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE CUSTARD: Adjust an oven rack to the middle position and heat the oven to 350 degrees. Heat the milk and cream in a medium saucepan over medium heat, stirring occasionally, until steam appears and/or the mixture registers 160 degrees on an instant-read thermometer, 6 to 8 minutes; remove from the heat. Meanwhile, gently whisk the whole eggs, egg yolks, and sugar in a large bowl until just combined. Off the heat, gently whisk the warm milk mixture, vanilla, and salt into the eggs until just combined but not at all foamy. Strain the mixture through a fine-mesh strainer into a large measuring cup or pitcher (or clean medium bowl); set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bring a kettle or large saucepan of water to a boil. Meanwhile, place a dish towel in the bottom of a large baking dish or roasting pan. Arrange the ramekins on the towel (making sure they do not touch). Divide the reserved custard mixture among the ramekins and carefully place the baking dish on the oven rack. Pour the boiling water into the dish, taking care not to splash water into the ramekins, until the water reaches halfway up the sides of the ramekins; cover the entire pan loosely with aluminum foil. Bake until a paring knife inserted halfway between the center and the edge of the custards comes out clean, 35 to 40 minutes. Transfer the custards to a wire rack and cool to room temperature. (The custards can be covered with plastic wrap and refrigerated for up to 2 days.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "To unmold, slide a paring knife around the perimeter of each ramekin, pressing the knife against the side of the dish. Hold a serving plate over the top of the ramekin and invert; set the plate on a work surface and shake the ramekin gently to release the custard. Repeat with the remaining ramekins and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 76345,
+    "end": 76391,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": true
+}

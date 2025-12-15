@@ -1,0 +1,92 @@
+{
+  "mapped": {
+    "id": "atk_grilled-glazed-bone-in-chicken-breasts",
+    "name": "Grilled Glazed Bone-In Chicken Breasts",
+    "slug": "grilled-glazed-bone-in-chicken-breasts",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-for-brining",
+        "displayName": "table salt for brining",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "10-to-12-ounce-bone-in-split-chicken-breasts-trimmed",
+        "displayName": "(10- to 12-ounce) bone-in split chicken breasts, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "recipe-orange-chipotle-glaze",
+        "displayName": "recipe Orange-Chipotle Glaze",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve salt in 2 quarts cold water in large container. Submerge chicken breasts in brine, cover, and refrigerate for 30 minutes to 1 hour. Remove chicken from brine and pat dry with paper towels. Sprinkle chicken with pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Clean and oil cooking grate. Place chicken on hotter side of grill, skin side up, and cook (covered if using gas) until lightly browned on both sides, 6 to 8 minutes, flipping halfway through cooking. Move chicken, skin side down, to cooler side of grill, with thicker end of breasts facing coals and flames. Cover and continue to cook until chicken registers 150 degrees, 15 to 20 minutes longer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Brush bone side of chicken generously with half of glaze; move to hotter side of grill; and cook until browned, 5 to 10 minutes. Brush skin side of chicken with remaining glaze; flip chicken; and continue to cook until chicken registers 160 degrees, 2 to 3 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer chicken to serving platter, tent with aluminum foil, and let rest for 5 to 10 minutes before serving, passing reserved glaze separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 53255,
+    "end": 53289,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

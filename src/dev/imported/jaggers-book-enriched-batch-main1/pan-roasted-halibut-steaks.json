@@ -1,0 +1,118 @@
+{
+  "mapped": {
+    "id": "atk_pan-roasted-halibut-steaks",
+    "name": "Pan-Roasted Halibut Steaks",
+    "slug": "pan-roasted-halibut-steaks",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 40,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "full-halibut-steaks-about-11-4-inches-thick-and-10-to-12-inches-long-about-21-2-pounds-total-gently-rinsed-dried-well-with-paper-towels-and-trimmed-of-cartilage-at-both-ends",
+        "displayName": "(full) halibut steaks, about 11/4 inches thick and 10 to 12 inches long (about 21/2 pounds total), gently rinsed, dried well with paper towels, and trimmed of cartilage at both ends",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-chipotle-garlic-butter-with-lime-and-cilantro",
+        "displayName": "recipe Chipotle-Garlic Butter with Lime and Cilantro",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "BUTTER",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 425 degrees. When oven reaches 425 degrees, heat oil in 12-inch ovensafe skillet over high heat until oil just begins to smoke."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, sprinkle both sides of halibut steaks with salt and pepper. Reduce heat to medium-high and swirl oil in pan to distribute; carefully lay steaks in pan and sear, without moving them, until spotty brown, about 4 minutes. (If steaks are thinner than 11/4 inches, check browning at 31/2 minutes; thicker steaks of 11/2 inches may require extra time, so check at 41/2 minutes.) Off heat, flip steaks over in pan using 2 thin-bladed metal spatulas."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer skillet to oven and roast until centers are just steaks register 130 degrees, about 9 minutes (thicker steaks may take up to 10 minutes). Remove skillet from oven. Remove skin from cooked steaks and separate each quadrant of meat from bones by slipping spatula or knife gently between them. Transfer fish to warm platter and serve with chipotle-garlic butter."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Cut off cartilage at each end of steaks to ensure they will fit neatly in pan and prevent small bones located there from winding up on your plate."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove skin from cooked steaks and separate quadrants of meat from bone by slipping knife gently between them."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43445,
+    "end": 43493,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

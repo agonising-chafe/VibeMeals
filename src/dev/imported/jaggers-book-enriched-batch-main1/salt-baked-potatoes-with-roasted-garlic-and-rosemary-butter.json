@@ -1,0 +1,117 @@
+{
+  "mapped": {
+    "id": "atk_salt-baked-potatoes-with-roasted-garlic-and-rosemary-butter",
+    "name": "Salt-Baked Potatoes with Roasted Garlic and Rosemary Butter",
+    "slug": "salt-baked-potatoes-with-roasted-garlic-and-rosemary-butter",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 110,
+      "equipmentTags": [
+        "OVEN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "plus-1-8-teaspoon-table-salt",
+        "displayName": "plus 1/8 teaspoon table salt",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-russet-potatoes-about-8-ounces-each-well-scrubbed-and-dried",
+        "displayName": "medium russet potatoes (about 8 ounces each), well scrubbed and dried",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-rosemary-plus-1-4-teaspoon-minced-leaves",
+        "displayName": "sprigs fresh rosemary plus 1/4 teaspoon minced leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "BUTTER"
+      },
+      {
+        "ingredientId": "whole-garlic-head-outer-papery-skin-removed-and-top-quarter-of-head-cut-off-and-discarded",
+        "displayName": "whole garlic head, outer papery skin removed and top quarter of head cut off and discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-softened",
+        "displayName": "(1/2 stick) unsalted butter, softened",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BUTTER",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 450 degrees. Spread the salt into an even layer in a 13 by 9-inch baking dish. Gently nestle the potatoes in the salt, broad side down, leaving space between each potato. Add the rosemary sprigs and the garlic, cut side up, to the baking dish. Cover the baking dish with aluminum foil and crimp the edges to tightly seal. Bake for 1 hour and 15 minutes; remove the pan from the oven. Increase the oven temperature to 500 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Carefully remove the foil. Remove the garlic head from the baking dish and set aside to cool. Brush the exposed portion of each potato with 1 teaspoon oil. Return the uncovered baking dish to the oven and continue to bake until the potatoes are tender and the skins are glossy, 15 to 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, once the garlic is cool enough to handle, squeeze the root end until the cloves slip out of their skins. Using a fork, mash the garlic, butter, minced rosemary, and remaining 1/8 teaspoon salt to a smooth paste. Remove any clumped salt from the potatoes (holding the potatoes with a kitchen mitt if necessary), split lengthwise, top with a portion of the butter and serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59470,
+    "end": 59502,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

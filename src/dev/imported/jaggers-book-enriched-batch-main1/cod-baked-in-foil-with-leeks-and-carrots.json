@@ -1,0 +1,159 @@
+{
+  "mapped": {
+    "id": "atk_cod-baked-in-foil-with-leeks-and-carrots",
+    "name": "Cod Baked in Foil with Leeks and Carrots",
+    "slug": "cod-baked-in-foil-with-leeks-and-carrots",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "finely-grated-zest-from-1-lemon-divided-lemon-cut-into-wedges",
+        "displayName": "finely grated zest from 1 lemon, divided; lemon cut into wedges",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-about-2-teaspoons-divided",
+        "displayName": "medium garlic cloves, minced (about 2 teaspoons), divided",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrots-peeled-and-cut-into-matchsticks-about-11-2-cups",
+        "displayName": "medium carrots, peeled and cut into matchsticks (about 11/2 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-leeks-white-and-light-green-parts-halved-lengthwise-washed-and-cut-into-matchsticks-about-2-cups",
+        "displayName": "medium leeks, white and light green parts halved lengthwise, washed, and cut into matchsticks (about 2 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vermouth-or-dry-white-wine",
+        "displayName": "vermouth or dry white wine",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "skinless-cod-fillets-1-to-11-4-inches-thick-about-6-ounces-each",
+        "displayName": "skinless cod fillets, 1 to 11/4 inches thick (about 6 ounces each)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine butter, 1/4 teaspoon zest, 1 teaspoon garlic, thyme, 1/4 teaspoon salt, and 1/8 teaspoon pepper in small bowl. Combine parsley, remaining 1 teaspoon zest, and remaining 1 teaspoon garlic in another small bowl; set aside. Place carrots and leeks in medium bowl, season with salt and pepper, and toss together."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 450 degrees. Cut eight 12-inch sheets of foil; arrange four flat on counter. Divide carrot and leek mixture among foil sheets, mounding in center of each. Pour 1 tablespoon vermouth over each mound of vegetables. Pat fish dry with paper towels; season with salt and pepper and place one fillet on top of each vegetable mound. Spread one-quarter of butter mixture on top of each fillet. Place second square of foil on top of fish; crimp edges together in 1/2-inch fold, then fold over three more times to create a packet about 7 inches square. Place packets on rimmed baking sheet (overlapping slightly if necessary)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bake packets for 15 minutes. Carefully open foil, allowing steam to escape away from you. Using thin metal spatula, gently slide fish and vegetables onto plate with any accumulated juices; sprinkle with parsley mixture. Serve immediately, passing lemon wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43404,
+    "end": 43444,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

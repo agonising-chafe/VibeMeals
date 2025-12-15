@@ -1,0 +1,213 @@
+{
+  "mapped": {
+    "id": "atk_beijing-style-meat-sauce-and-noodles",
+    "name": "Beijing-Style Meat Sauce and Noodles",
+    "slug": "beijing-style-meat-sauce-and-noodles",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "ground-pork",
+        "displayName": "ground pork",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-miso-paste",
+        "displayName": "red miso paste",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "hoisin-sauce",
+        "displayName": "hoisin sauce",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "scallions-white-and-light-green-parts-cut-into-1-2-inch-pieces-dark-green-parts-sliced-thin-on-bias",
+        "displayName": "scallions, white and light green parts cut into 1/2-inch pieces, dark green parts sliced thin on bias",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-peeled",
+        "displayName": "cloves, peeled",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "1-2-inch-piece-ginger-peeled-and-sliced-into-1-8-inch-rounds",
+        "displayName": "(1/2-inch) piece ginger, peeled and sliced into 1/8-inch rounds",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "shiitake-mushrooms-stemmed-and-sliced-1-2-inch-thick",
+        "displayName": "shiitake mushrooms, stemmed and sliced 1/2 inch thick",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fresh-lo-mein-noodles",
+        "displayName": "fresh lo mein noodles",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "english-cucumber-unpeeled-cut-into-21-2-inch-long-matchsticks-2-cups",
+        "displayName": "English cucumber, unpeeled, cut into 21/2-inch-long matchsticks (2 cups)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "3-cups-bean-sprouts",
+        "displayName": "(3 cups) bean sprouts",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toss pork, 2 teaspoons water, and baking soda in bowl until thoroughly combined. Let stand for 5 minutes. Whisk 1/2 cup water, miso paste, soy sauce, hoisin, and molasses together in second bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pulse white and light green scallion parts, garlic, and ginger in food processor until coarsely chopped, 5 to 10 pulses, scraping down sides of bowl as needed. Add mushrooms and pulse until mixture is finely chopped, 5 to 10 pulses."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat oil and pork mixture in large saucepan over medium heat for 1 minute, breaking up meat with wooden spoon. Add mushroom mixture and cook, stirring frequently, until mixture is dry and just begins to stick to saucepan, 5 to 7 minutes. Add miso mixture to saucepan and bring to simmer. Cook, stirring occasionally, until mixture thickens, 8 to 10 minutes. Cover and keep warm while noodles cook."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Bring 4 quarts water to boil in large pot. Add noodles and cook, stirring often, until almost tender (center should still be firm with slightly opaque dot), 3 to 5 minutes. Drain noodles and transfer to wide, shallow serving bowl."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Ladle sauce over center of noodles and sprinkle with cucumber, sprouts, and dark green scallion parts. Toss well and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 20545,
+    "end": 20601,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

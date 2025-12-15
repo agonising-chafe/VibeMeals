@@ -1,0 +1,162 @@
+{
+  "mapped": {
+    "id": "atk_zaalouk-moroccan-eggplant-meze",
+    "name": "Zaalouk (Moroccan Eggplant Meze)",
+    "slug": "zaalouk-moroccan-eggplant-meze",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "eggplant",
+        "displayName": "eggplant",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 7,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomatoes-cored-peeled-and-chopped",
+        "displayName": "tomatoes, cored, peeled, and chopped",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-cilantro-divided",
+        "displayName": "minced fresh cilantro, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "lemon-juice-plus-extra-for-serving",
+        "displayName": "lemon juice, plus extra for serving",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Poke eggplant about 6 times with paring knife."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "When eggplant has cooled, peel and discard skin. Chop eggplant flesh coarse and transfer to bowl. (Eggplant can be refrigerated for up to 24 hours.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 2 tablespoons oil in 12-inch nonstick or carbon-steel skillet over medium heat until shimmering. Add garlic, cumin, paprika, salt, sugar, and cayenne and cook until fragrant, 30 to 60 seconds. Stir in tomatoes and cook, mashing and stirring occasionally with wooden spoon, until tomatoes have softened and most liquid has evaporated, 12 to 15 minutes. Stir in eggplant and 11/2 tablespoons cilantro and continue to cook, mashing and stirring occasionally, until eggplant has broken down and mixture is dry, 12 to 15 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Off heat, stir in lemon juice. Season with salt and extra lemon juice to taste. Transfer to shallow bowl and garnish with remaining 2 tablespoons oil and remaining 11/2 teaspoons cilantro. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 1193,
+    "end": 1245,
+    "yieldLine": "SERVES 4 SEASON 26"
+  },
+  "fit": true
+}

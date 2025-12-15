@@ -1,0 +1,200 @@
+{
+  "mapped": {
+    "id": "atk_ultimate-veggie-burgers",
+    "name": "Ultimate Veggie Burgers",
+    "slug": "ultimate-veggie-burgers",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "yieldText": "MAKES 12 patties",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "brown-lentils-picked-over-and-rinsed",
+        "displayName": "brown lentils, picked over and rinsed",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-plus-salt-for-cooking-lentils-and-bulgur",
+        "displayName": "table salt, plus salt for cooking lentils and bulgur",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-grind-bulgur-rinsed",
+        "displayName": "medium-grind bulgur, rinsed",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided-plus-extra-as-needed",
+        "displayName": "vegetable oil, divided, plus extra as needed",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-chopped-fine",
+        "displayName": "onions, chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "celery-rib-chopped-fine",
+        "displayName": "celery rib, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-leek-white-and-light-green-parts-only-halved-lengthwise-chopped-fine-and-washed-thoroughly",
+        "displayName": "small leek, white and light green parts only, halved lengthwise, chopped fine, and washed thoroughly",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cremini-or-white-mushrooms-trimmed-and-sliced-1-4-inch-thick",
+        "displayName": "cremini or white mushrooms, trimmed and sliced 1/4 inch thick",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "raw-cashews",
+        "displayName": "raw cashews",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "mayonnaise",
+        "displayName": "mayonnaise",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "panko-bread-crumbs",
+        "displayName": "panko bread crumbs",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hamburger-buns-toasted-if-desired",
+        "displayName": "hamburger buns, toasted if desired",
+        "amount": 412,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring 3 cups water, lentils, and 1 teaspoon salt to boil in medium saucepan over high heat. Reduce heat to medium-low and simmer gently, stirring occasionally, until lentils are just beginning to fall apart, about 25 minutes. Drain lentils, spread out over paper towel–lined rimmed baking sheet, and pat dry; let cool to room temperature."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring 2 cups water and 1/2 teaspoon salt to boil in small saucepan. Off heat, stir in bulgur, cover, and let sit until tender, 15 to 20 minutes. Drain bulgur, pressing with rubber spatula to remove excess moisture, and transfer to large bowl; let cool slightly."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 1 tablespoon oil in 12-inch nonstick skillet over medium-high heat until shimmering. Add onions, celery, leek, and garlic and cook, stirring occasionally, until vegetables begin to brown, about 10 minutes. Spread vegetable mixture onto second rimmed baking sheet."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Heat 1 tablespoon oil in now-empty skillet over high heat until shimmering. Add mushrooms and cook, stirring occasionally, until golden brown, about 12 minutes; add to baking sheet with other vegetables and let cool to room temperature, about 20 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Pulse cashews in food processor until finely chopped, about 15 pulses. Stir cashews into bulgur, then stir in cooled lentils, vegetable-mushroom mixture, and mayonnaise. Working in 2 batches, pulse mixture in now-empty food processor until coarsely chopped, 15 to 20 pulses (mixture should be cohesive but roughly textured); transfer to clean bowl."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Stir in panko and salt. Divide mixture into 12 equal portions (about 1/2 cup each), then tightly pack each portion into 1/2-inch-thick patty. (Patties can be refrigerated for up to 3 days or frozen for up to 1 month.) To freeze, transfer patties to 2 parchment paper–lined rimmed baking sheets and freeze until firm, about 1 hour. Stack patties, separated by parchment paper; wrap in plastic."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "TO COOK BURGERS: Heat remaining 2 tablespoons oil in 12-inch nonstick skillet over medium-high heat until shimmering. Place 4 patties in skillet and cook until well browned on first side, about 4 minutes. Using 2 spatulas, gently flip patties and continue to cook until well browned on second side, about 4 minutes, adding extra oil as needed if skillet looks dry. Transfer burgers to platter, wipe skillet clean with paper towels, and repeat with extra oil and remaining patties as desired. (If patties were previously frozen, transfer to wire rack set in rimmed baking sheet and bake in 350-degree oven until heated through, about 10 minutes.) Serve burgers on buns."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 48900,
+    "end": 48972,
+    "yieldLine": "MAKES 12 patties"
+  },
+  "fit": true
+}

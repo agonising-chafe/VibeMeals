@@ -1,0 +1,163 @@
+{
+  "mapped": {
+    "id": "atk_crispy-fish-sandwiches",
+    "name": "Crispy Fish Sandwiches",
+    "slug": "crispy-fish-sandwiches",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "beer",
+        "displayName": "beer",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quarts-peanut-or-vegetable-oil-for-frying",
+        "displayName": "quarts peanut or vegetable oil for frying",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "4-to-6-ounce-skinless-haddock-fillets-1-inch-thick",
+        "displayName": "(4- to 6-ounce) skinless haddock fillets, 1 inch thick",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brioche-buns-toasted",
+        "displayName": "brioche buns, toasted",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "leaves-bibb-lettuce",
+        "displayName": "leaves Bibb lettuce",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "label": "Batter Chill",
+        "description": "Cover and refrigerate batter",
+        "durationMinutes": 20,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk flour, cornstarch, salt, and baking powder together in large bowl. Whisk in beer until smooth. Cover and refrigerate for 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Set wire rack in rimmed baking sheet. Add oil to large Dutch oven until it measures about 11/2 inches deep and heat over medium-high heat to 375 degrees. Pat haddock dry with paper towels and transfer to batter, tossing gently to coat. Using fork, remove haddock from batter, 1 piece at a time, allowing excess batter to drip back into bowl; add to hot oil, briefly dragging haddock along surface of oil to set batter before gently dropping into oil. Adjust burner, if necessary, to maintain oil temperature between 350 and 375 degrees."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Cook, stirring gently to prevent pieces from sticking together, until deep golden brown and crispy, about 4 minutes per side. Using spider skimmer or slotted spoon, transfer haddock to prepared rack. Divide tartar sauce evenly among bun bottoms, followed by haddock and lettuce. Cover with bun tops. Serve with lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "PEANUT",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 44176,
+    "end": 44216,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

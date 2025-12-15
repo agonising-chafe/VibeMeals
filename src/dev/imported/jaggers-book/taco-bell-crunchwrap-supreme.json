@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_taco-bell-crunchwrap-supreme",
+    "name": "Taco Bell Crunchwrap Supreme",
+    "slug": "taco-bell-crunchwrap-supreme",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "one-of-taco-bell-s-most-popular-items-the-crunchwrap-supreme-traditionally-comes-with-ground-beef-but-you-can-also-make-a-vegetarian-version-by-swapping-the-beef-for-canned-seasoned-black-beans",
+        "displayName": "One of Taco Bell’s most popular items, the Crunchwrap Supreme traditionally comes with ground beef, but you can also make a vegetarian version by swapping the beef for canned seasoned black beans.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-80-20-ground-beef",
+        "displayName": "½ pound 80/20 ground beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-minced-onion",
+        "displayName": "¼ teaspoon dried minced onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-ounce-packet-taco-seasoning",
+        "displayName": "½ (1-ounce) packet taco seasoning",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-inch-flour-tortillas",
+        "displayName": "(12-inch) flour tortillas",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "nacho-cheese-sauce",
+        "displayName": "nacho cheese sauce",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "corn-tostada-shells",
+        "displayName": "corn tostada shells",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-iceberg-lettuce",
+        "displayName": "shredded iceberg lettuce",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "diced-tomatoes",
+        "displayName": "diced tomatoes",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "full-fat-sour-cream",
+        "displayName": "full-fat sour cream",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-add-ground-beef-cook-7-10-minutes-until-browned-drain-fat-from-pan-then-add-salt-onion-taco-seasoning-and-water-let-mixture-simmer-over-medium-heat-10-minutes-stirring-often",
+        "displayName": "In a 10-inch skillet over medium heat, add ground beef. Cook 7–10 minutes until browned. Drain fat from pan, then add salt, onion, taco seasoning, and water. Let mixture simmer over medium heat 10 minutes, stirring often.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-griddle-over-medium-heat",
+        "displayName": "Heat a griddle over medium heat.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "warm-tortillas-in-microwave-20-30-seconds-until-tortillas-are-warm-and-flexible",
+        "displayName": "Warm tortillas in microwave 20–30 seconds until tortillas are warm and flexible.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cut-1-tortilla-into-four-wedges-place-remaining-tortillas-on-a-work-surface-divide-ground-beef-and-cheese-sauce-evenly-among-tortillas-placing-in-center-of-each-tortilla-top-each-with-a-tostada-shell-lettuce-tomatoes-and-sour-cream-center-a-wedge-of-tortilla-on-top-then-fold-bottom-tortilla-edges-up-and-over-center-as-tightly-as-possible",
+        "displayName": "Cut 1 tortilla into four wedges. Place remaining tortillas on a work surface. Divide ground beef and cheese sauce evenly among tortillas, placing in center of each tortilla. Top each with a tostada shell, lettuce, tomatoes, and sour cream. Center a wedge of tortilla on top, then fold bottom tortilla edges up and over center as tightly as possible.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-wraps-seam-side-down-on-heated-griddle-work-in-batches-if-all-wraps-do-not-fit-on-griddle-cook-2-3-minutes-until-golden-brown-then-flip-and-cook-second-side-2-minutes-transfer-to-serving-plates-and-enjoy-immediately",
+        "displayName": "Place wraps seam side down on heated griddle. Work in batches if all wraps do not fit on griddle. Cook 2–3 minutes until golden brown, then flip and cook second side 2 minutes. Transfer to serving plates and enjoy immediately.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7172,
+    "end": 7222,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

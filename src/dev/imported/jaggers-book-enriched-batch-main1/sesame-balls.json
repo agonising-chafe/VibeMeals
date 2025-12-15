@@ -1,0 +1,155 @@
+{
+  "mapped": {
+    "id": "atk_sesame-balls",
+    "name": "Sesame Balls",
+    "slug": "sesame-balls",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 8 balls",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "81-4-ounces-glutinous-rice-flour",
+        "displayName": "(81/4 ounces) glutinous rice flour",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-3-ounces-sugar",
+        "displayName": "(21/3 ounces) sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smooth-sweetened-red-bean-paste",
+        "displayName": "smooth sweetened red bean paste",
+        "amount": 8,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "sesame-seeds",
+        "displayName": "sesame seeds",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "quarts-peanut-or-vegetable-oil-for-frying",
+        "displayName": "quarts peanut or vegetable oil for frying",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk flour, baking powder, and salt together in large bowl. Bring 3/4 cup water and sugar to boil in small saucepan over high heat until sugar has dissolved. Using rubber spatula, stir hot syrup into flour mixture until combined and no dry flour remains. Transfer dough to clean counter and knead with hands until smooth, about 3 minutes. Return dough to bowl, cover tightly with plastic wrap, and let rest for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, divide bean paste into 1 teaspoon portions. Using lightly moistened hands, roll each portion into ball and transfer to plate. Cover loosely with plastic and refrigerate until ready to use."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Divide dough into 8 equal pieces (about 2 ounces each). Cover with damp towel. Working with 1 piece of dough at a time, use hands to roll into ball. Place ball on counter and flatten with palm of hand into 2-inch-wide circle. Place 1 portion of bean paste in center of circle. Gather sides of dough around paste, pushing out air pockets, and pinch top to seal, enclosing paste in center. Remoisten hands and roll ball, smoothing any cracks with your fingertips. Cover with damp towel."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Place 1/2 cup water in small bowl. Place sesame seeds in shallow plate. Working with 1 ball at a time, roll in water, letting excess drip off, then coat with sesame seeds, pressing gently to adhere. Transfer to plate."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Line rimmed baking sheet with triple layer of paper towels. Add oil to 14-inch flat-bottomed wok or large Dutch oven until it measures about 11/2 inches deep and heat over medium-high heat to 325 degrees. Using spider skimmer or slotted spoon, carefully add balls, 1 at a time, to hot oil. Cook, stirring constantly, until balls begin to float, about 4 minutes. Adjust burner, if necessary, to maintain oil temperature between 300 and 325 degrees."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Using spider skimmer, fully submerge each ball, gently pressing it against side or bottom of wok to deflate by about 1/2 inch, then release. Continuously submerge, press, and release balls until puffy and light golden brown, about 4 minutes. Using spider skimmer, transfer sesame balls to prepared sheet. Let cool for 5 minutes. Serve."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Place 1 portion of bean paste on dough circle, then gather sides of dough around paste, pushing out air pockets."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Pinch top of dough to seal, enclosing paste in center."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Working with 1 ball at a time, roll in water, letting excess drip off, then coat with sesame seeds, pressing gently to adhere."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "asian",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SESAME",
+      "PEANUT",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 1850,
+    "end": 1914,
+    "yieldLine": "MAKES 8 balls"
+  },
+  "fit": true
+}

@@ -1,0 +1,167 @@
+{
+  "mapped": {
+    "id": "atk_classic-roast-lemon-chicken",
+    "name": "Classic Roast Lemon Chicken",
+    "slug": "classic-roast-lemon-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 3 to 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken-giblets-discarded",
+        "displayName": "(31/2- to 4-pound) whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemons",
+        "displayName": "lemons",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-crushed-and-peeled",
+        "displayName": "medium garlic cloves, crushed and peeled",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-stick-unsalted-butter-2-tablespoons-melted-and-2-tablespoons-chilled-and-cut-into-2-pieces",
+        "displayName": "(1/2 stick) unsalted butter, 2 tablespoons melted and 2 tablespoons chilled and cut into 2 pieces",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine chicken",
+        "durationMinutes": 60,
+        "startOffsetMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve the salt in 2 quarts cold water in a large container. Submerge the chicken in the brine, cover, and refrigerate for 1 hour. Remove the chicken from the brine, rinse well, and pat dry with paper towels."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position; heat the oven to 375 degrees. Spray a V-rack with vegetable oil spray and set in a roasting pan."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Cut 1 of the lemons lengthwise into quarters. Place the lemon quarters and garlic in the cavity of the chicken. Brush the breast side of the chicken with 1 tablespoon of the melted butter and season generously with pepper. Place the chicken, breast side down, in the V-rack, then brush the back with the remaining 1 tablespoon melted butter and season generously with pepper."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Roast the chicken for 40 minutes. Remove the roasting pan from the oven; increase the oven temperature to 450 degrees. Using two large wads of paper towels, rotate the chicken breast side up; add 1 cup of the chicken broth to the roasting pan. Return the roasting pan to the oven and continue roasting until the thickest part of the breasts registers 160 degrees and the thickest part of the thighs registers 175 degrees on an instant-read thermometer, 35 to 40 minutes longer. Remove the roasting pan from the oven; tip the V-rack to let the juices from the chicken cavity run into the roasting pan. Transfer the chicken to a carving board and let rest, uncovered, while making the sauce. Remove the V-rack from the roasting pan."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Adjust the oven rack to the upper-middle position and heat the broiler. Skim the fat from the drippings in the roasting pan, add the remaining 3/4 cup chicken broth, and set the roasting pan on a burner over high heat. Simmer the liquid, scraping the pan bottom with a wooden spoon to loosen the browned bits, until reduced to 1/2 cup, about 4 minutes; set aside off the heat."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Discard the lemons and garlic from the chicken cavity. Cut the chicken into quarters. Pour the accumulated chicken juices into the roasting pan, then place the chicken quarters, skin side up, into the sauce in the roasting pan; broil the chicken until the skin is crisp and deep golden brown, 3 to 5 minutes. Transfer the chicken to a serving platter."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Halve the remaining lemon lengthwise; squeeze the juice of one half into the roasting pan; cut the remaining half into four wedges and set aside. Whisk the remaining 2 tablespoons butter into the sauce until combined; stir in the parsley and thyme. Season with salt and pepper to taste. Serve the chicken with the pan sauce and lemon wedges."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27335,
+    "end": 27381,
+    "yieldLine": "SERVES 3 to 4"
+  },
+  "fit": true
+}

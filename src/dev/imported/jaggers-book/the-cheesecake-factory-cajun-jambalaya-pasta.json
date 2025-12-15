@@ -1,0 +1,214 @@
+{
+  "mapped": {
+    "id": "atk_the-cheesecake-factory-cajun-jambalaya-pasta",
+    "name": "The Cheesecake Factory Cajun Jambalaya Pasta",
+    "slug": "the-cheesecake-factory-cajun-jambalaya-pasta",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-is-one-of-the-california-based-restaurant-chains-most-popular-dishes-while-jambalaya-is-typically-served-over-rice-this-version-features-plump-shrimp-and-chicken-served-over-fresh-cooked-linguine",
+        "displayName": "This is one of the California-based restaurant chains most popular dishes. While jambalaya is typically served over rice, this version features plump shrimp and chicken served over fresh-cooked linguine.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-salted-butter",
+        "displayName": "½ cup salted butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cajun-seasoning",
+        "displayName": "Cajun seasoning",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-green-bell-pepper-seeded-and-julienned",
+        "displayName": "medium green bell pepper, seeded and julienned",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-red-bell-pepper-seeded-and-julienned",
+        "displayName": "medium red bell pepper, seeded and julienned",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-red-onion-peeled-and-julienned",
+        "displayName": "½ medium red onion, peeled and julienned",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-cut-into-1-inch-pieces",
+        "displayName": "boneless, skinless chicken breasts, cut into 1-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-seafood-stock",
+        "displayName": "¼ cup seafood stock",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-medium-shrimp-peeled-and-deveined",
+        "displayName": "½ pound medium shrimp, peeled and deveined",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-roma-tomatoes",
+        "displayName": "½ cup diced Roma tomatoes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-linguine-pasta-cooked-per-package-directions",
+        "displayName": "dry linguine pasta, cooked per package directions",
+        "amount": 16,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-paprika",
+        "displayName": "½ teaspoon paprika",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-parsley",
+        "displayName": "½ teaspoon dried parsley",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-saut-pan-add-butter-and-cajun-seasoning-let-butter-melt-until-it-starts-to-foam-and-seasoning-become-fragrant-add-peppers-and-onion-and-saut-3-minutes-add-chicken-and-continue-to-cook-4-minutes-or-until-chicken-is-about-half-done",
+        "displayName": "In a large sauté pan, add butter and Cajun seasoning. Let butter melt until it starts to foam and seasoning become fragrant. Add peppers and onion and sauté 3 minutes. Add chicken and continue to cook 4 minutes or until chicken is about half done.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-seafood-stock-into-pan-and-cook-1-minute-or-until-chicken-is-almost-done",
+        "displayName": "Pour seafood stock into pan and cook 1 minute or until chicken is almost done.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-shrimp-and-toss-ingredients-together-continue-to-cook-2-minutes-then-add-tomatoes-and-cook-5-minutes-more-or-until-both-shrimp-and-chicken-are-thoroughly-cooked",
+        "displayName": "Add shrimp and toss ingredients together. Continue to cook 2 minutes, then add tomatoes and cook 5 minutes more or until both shrimp and chicken are thoroughly cooked.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "divide-pasta-between-serving-bowls-spoon-equal-portions-of-jambalaya-mixture-over-pasta-garnish-with-paprika-and-parsley-serve-hot",
+        "displayName": "Divide pasta between serving bowls. Spoon equal portions of jambalaya mixture over pasta. Garnish with paprika and parsley. Serve hot.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8249,
+    "end": 8299,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

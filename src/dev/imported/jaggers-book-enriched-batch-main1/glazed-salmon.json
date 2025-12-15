@@ -1,0 +1,116 @@
+{
+  "mapped": {
+    "id": "atk_glazed-salmon",
+    "name": "Glazed Salmon",
+    "slug": "glazed-salmon",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "light-brown-sugar",
+        "displayName": "light brown sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "11-2-to-2-pound-skin-on-salmon-fillet-sliced-crosswise-into-4-equal-pieces",
+        "displayName": "(11/2- to 2-pound) skin-on salmon fillet, sliced crosswise into 4 equal pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-glaze-recipes-follow",
+        "displayName": "recipe glaze (recipes follow)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 300 degrees. Combine brown sugar, salt, and cornstarch in small bowl. Pat fillets dry with paper towels and season with pepper. Sprinkle brown sugar mixture evenly over flesh side of salmon, rubbing to distribute."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat oil in 12-inch ovensafe nonstick skillet over medium-high heat until just smoking. Place salmon, flesh side down, in skillet and cook until well browned, about 1 minute. Using tongs and thin spatula, carefully flip salmon and cook on skin side for 1 minute."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove skillet from heat and spoon glaze evenly over salmon fillets. Transfer skillet to oven and cook until fillets register 125 degrees (for medium-rare), 7 to 10 minutes. Transfer fillets to platter or individual plates and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 42358,
+    "end": 42390,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

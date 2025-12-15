@@ -1,0 +1,124 @@
+{
+  "mapped": {
+    "id": "atk_jack-in-the-box-oreo-shake",
+    "name": "Jack in the Box Oreo Shake",
+    "slug": "jack-in-the-box-oreo-shake",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cookies-and-cream-lovers-are-sure-to-swoon-for-this-extra-thick-ice-cold-treat-you-can-add-a-minty-twist-to-this-shake-by-adding-teaspoon-peppermint-extract-and-a-few-drops-of-green-food-coloring",
+        "displayName": "Cookies-and-cream lovers are sure to swoon for this extra-thick ice-cold treat! You can add a minty twist to this shake by adding ¼ teaspoon peppermint extract and a few drops of green food coloring.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-ice-cream",
+        "displayName": "vanilla ice cream",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oreo-cookies",
+        "displayName": "Oreo cookies",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-blender-pur-e-ice-cream-and-milk-until-smooth-about-45-seconds",
+        "displayName": "In a blender, purée ice cream and milk until smooth, about 45 seconds.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "break-oreo-cookies-in-half-and-add-to-blender-pulse-ten-times-or-until-cookies-are-mostly-pur-ed-but-a-few-larger-pieces-remain-stir-with-a-spoon-to-help-incorporate-cookies",
+        "displayName": "Break Oreo cookies in half and add to blender. Pulse ten times or until cookies are mostly puréed but a few larger pieces remain. Stir with a spoon to help incorporate cookies.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-shakes-into-two-12-ounce-glasses-serve-immediately",
+        "displayName": "Pour shakes into two (12-ounce) glasses. Serve immediately.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10997,
+    "end": 11033,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

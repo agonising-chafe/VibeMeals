@@ -1,0 +1,136 @@
+{
+  "mapped": {
+    "id": "atk_braised-collard-greens",
+    "name": "Braised Collard Greens",
+    "slug": "braised-collard-greens",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-smashed-and-peeled",
+        "displayName": "cloves, smashed and peeled",
+        "amount": 5,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-divided",
+        "displayName": "water, divided",
+        "amount": 12,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smoked-ham-hocks-rinsed",
+        "displayName": "smoked ham hocks, rinsed",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "collard-greens",
+        "displayName": "collard greens",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "pinch-cayenne-pepper",
+        "displayName": "Pinch cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil in large Dutch oven over medium heat until shimmering. Add garlic and cook, stirring occasionally, until fragrant, about 1 minute."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add 8 cups water and ham hocks. Increase heat to high, cover, and bring to boil. Continue to boil, covered, until water has turned slightly opaque and is reduced by about half, about 45 minutes. While ham hocks cook, prepare collards."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using sharp knife, remove stem and central vein from each leaf. Stack 4 or 5 leaves, roll lengthwise, and slice roll crosswise to create 1/2-inch ribbons. Repeat with remaining collards. Transfer ribbons to large bowl and cover with cool water. Swish with your hand to dislodge grit. Repeat with fresh water, as needed, until grit no longer appears in bottom of bowl. Remove collards from water and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add collards, remaining 4 cups water, broth, pepper, and cayenne to pot (it will be full) and cover. Cook until collards wilt, 4 to 5 minutes. Stir well. Cover and continue to boil, turning ham hocks and stirring halfway through cooking, until collards are very tender, about 11/2 hours. (If liquid is more than 2 inches deep at this point, continue to cook, uncovered, until liquid has reduced to about 1 inch, about 30 minutes longer. If liquid is less than 1 inch deep, add enough water to measure 1 inch.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer hocks to cutting board and let cool for 10 minutes. Remove meat from bones. Chop meat and stir into collards; discard skin and bones. Season collards with salt to taste, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 57782,
+    "end": 57826,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

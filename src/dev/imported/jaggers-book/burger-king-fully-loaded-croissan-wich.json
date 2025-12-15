@@ -1,0 +1,194 @@
+{
+  "mapped": {
+    "id": "atk_burger-king-fully-loaded-croissan-wich",
+    "name": "Burger King Fully Loaded Croissan’wich",
+    "slug": "burger-king-fully-loaded-croissan-wich",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-breakfast-sandwich-is-loaded-with-fluffy-eggs-cheese-bacon-ham-and-sausage-you-can-assemble-it-the-night-before-and-reheat-it-for-1-minute-in-the-microwave",
+        "displayName": "This breakfast sandwich is loaded with fluffy eggs, cheese, bacon, ham, and sausage. You can assemble it the night before and reheat it for 1 minute in the microwave.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bulk-breakfast-sausage",
+        "displayName": "bulk breakfast sausage",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-smoked-bacon",
+        "displayName": "thick-cut smoked bacon",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-beaten",
+        "displayName": "large egg, beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "slices-thin-sliced-black-forest-ham",
+        "displayName": "slices thin-sliced Black Forest ham",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "all-butter-croissant-sliced-in-half-lengthwise",
+        "displayName": "all-butter croissant, sliced in half lengthwise",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shape-sausage-into-a-thin-patty-and-refrigerate-15-minutes",
+        "displayName": "Shape sausage into a thin patty and refrigerate 15 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-12-inch-nonstick-skillet-over-medium-heat-once-hot-add-bacon-and-cook-turning-often-until-bacon-is-crisp-about-13-15-minutes-once-crisp-transfer-to-a-paper-towel-lined-plate-and-set-aside-pour-off-all-but-1-tablespoon-bacon-fat-and-return-skillet-to-medium-heat",
+        "displayName": "Heat a 12-inch nonstick skillet over medium heat. Once hot, add bacon and cook, turning often, until bacon is crisp, about 13–15 minutes. Once crisp, transfer to a paper towel–lined plate and set aside. Pour off all but 1 tablespoon bacon fat and return skillet to medium heat.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-add-sausage-patty-and-cook-2-minutes-or-until-golden-brown-then-flip-and-cook-2-3-minutes-more-until-sausage-is-fully-cooked-and-golden-on-both-sides-transfer-from-pan-to-same-plate-with-bacon-and-set-aside",
+        "displayName": "To same skillet, add sausage patty and cook 2 minutes or until golden brown, then flip and cook 2–3 minutes more until sausage is fully cooked and golden on both sides. Transfer from pan to same plate with bacon and set aside.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-over-medium-heat-add-egg-immediately-reduce-heat-to-low-and-let-bottom-of-egg-set-about-15-seconds-use-a-silicone-or-heatproof-spatula-to-gently-push-edges-of-egg-to-center-of-pan-while-tilting-pan-so-uncooked-egg-moves-to-edges-until-no-wet-egg-remains-about-30-seconds-flip-egg-and-cook-20-seconds-more-then-transfer-to-plate-with-sausage",
+        "displayName": "To same skillet over medium heat, add egg. Immediately reduce heat to low and let bottom of egg set, about 15 seconds. Use a silicone or heatproof spatula to gently push edges of egg to center of pan while tilting pan so uncooked egg moves to edges until no wet egg remains, about 30 seconds. Flip egg and cook 20 seconds more, then transfer to plate with sausage.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "increase-heat-to-medium-and-add-ham-to-skillet-cook-20-seconds-per-side-or-until-ham-is-hot-transfer-to-plate-with-sausage",
+        "displayName": "Increase heat to medium and add ham to skillet. Cook 20 seconds per side or until ham is hot. Transfer to plate with sausage.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-same-skillet-add-croissant-cut-side-down-cook-45-seconds-or-until-cut-side-is-just-starting-to-toast-transfer-to-plate-cut-side-up",
+        "displayName": "To same skillet, add croissant cut side down. Cook 45 seconds or until cut side is just starting to toast. Transfer to plate cut side up.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-egg-on-bottom-half-of-croissant-top-with-sausage-patty-1-slice-american-cheese-ham-slices-bacon-remaining-slice-american-cheese-and-top-half-of-croissant-serve-immediately",
+        "displayName": "Place egg on bottom half of croissant. Top with sausage patty, 1 slice American cheese, ham slices, bacon, remaining slice American cheese, and top half of croissant. Serve immediately.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 894,
+    "end": 944,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

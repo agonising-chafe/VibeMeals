@@ -1,0 +1,101 @@
+{
+  "mapped": {
+    "id": "atk_buttermilk-mashed-potatoes",
+    "name": "Buttermilk Mashed Potatoes",
+    "slug": "buttermilk-mashed-potatoes",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "yukon-gold-potatoes-about-4-medium-peeled-and-cut-into-1-inch-chunks",
+        "displayName": "Yukon Gold potatoes (about 4 medium), peeled and cut into 1-inch chunks",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-4-stick-unsalted-butter-melted-and-cooled",
+        "displayName": "(3/4 stick) unsalted butter, melted and cooled",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "buttermilk-room-temperature",
+        "displayName": "buttermilk, room temperature",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the potatoes in a large saucepan and add cold water to cover by 1 inch; add 1 tablespoon salt. Bring to a boil over high heat, then reduce the heat to medium and simmer until the potatoes break apart very easily when a paring knife is inserted, about 18 minutes. Drain the potatoes briefly, then immediately return them to the saucepan set on the still-hot (but off) burner."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using a potato masher, mash the potatoes until a few small lumps remain. Gently mix the melted butter and buttermilk in a small bowl until combined. Add the buttermilk mixture to the potatoes; using a rubber spatula, fold gently until just incorporated. Season with salt and pepper to taste and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 59867,
+    "end": 59895,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

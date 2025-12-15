@@ -1,0 +1,454 @@
+{
+  "mapped": {
+    "id": "atk_papa-johns-italian-papadia",
+    "name": "Papa Johns Italian Papadia",
+    "slug": "papa-johns-italian-papadia",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 2",
+      "baseServings": 2
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "refrigerated-pizza-dough-is-a-great-shortcut-ingredient-found-in-the-deli-department-of-most-grocery-stores-and-makes-this-a-meal-you-can-enjoy-any-night-of-the-week",
+        "displayName": "Refrigerated pizza dough is a great shortcut ingredient found in the deli department of most grocery stores and makes this a meal you can enjoy any night of the week.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "prepared-refrigerated-pizza-dough",
+        "displayName": "prepared refrigerated pizza dough",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-barbecue-sauce-divided",
+        "displayName": "⅓ cup barbecue sauce, divided",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-mozzarella-cheese",
+        "displayName": "½ cup shredded mozzarella cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-monterey-jack-cheese",
+        "displayName": "¼ cup shredded Monterey jack cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-smoked-gouda-cheese",
+        "displayName": "¼ cup shredded smoked Gouda cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thick-cut-smoked-bacon-cooked-crisp-and-chopped",
+        "displayName": "thick-cut smoked bacon, cooked crisp and chopped",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grilled-chicken-breast-strips",
+        "displayName": "grilled chicken breast strips",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-thin-sliced-yellow-onion",
+        "displayName": "¼ cup thin-sliced yellow onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese",
+        "displayName": "grated Parmesan cheese",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-450-f-and-line-a-half-sheet-pan-with-parchment",
+        "displayName": "Preheat oven to 450°F and line a half sheet pan with parchment.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bring-pizza-dough-to-room-temperature-on-a-lightly-floured-surface-roll-dough-into-a-12-inch-circle-transfer-to-prepared-pan",
+        "displayName": "Bring pizza dough to room temperature. On a lightly floured surface, roll dough into a 12-inch circle. Transfer to prepared pan.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-half-of-barbecue-sauce-over-half-of-pizza-crust-top-with-mozzarella-monterey-jack-and-gouda-cheeses-bacon-chicken-and-onion-drizzle-with-remaining-barbecue-sauce-fold-dough-over-encasing-the-fillings-but-do-not-crimp-edges-brush-dough-with-olive-oil-and-sprinkle-with-parmesan-cheese",
+        "displayName": "Spread half of barbecue sauce over half of pizza crust. Top with mozzarella, Monterey jack, and Gouda cheeses, bacon, chicken, and onion. Drizzle with remaining barbecue sauce. Fold dough over, encasing the fillings, but do not crimp edges. Brush dough with olive oil and sprinkle with Parmesan cheese.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-20-minutes-or-until-pizza-crust-is-golden-and-fillings-are-melted-let-cool-5-minutes-before-slicing-in-half-and-serving",
+        "displayName": "Bake 20 minutes or until pizza crust is golden and fillings are melted. Let cool 5 minutes before slicing in half and serving.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "texas-roadhouse-rolls-with-honey-cinnamon-butter",
+        "displayName": "Texas Roadhouse Rolls with Honey Cinnamon Butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "these-rolls-are-fluffy-buttery-and-delicious-served-warm-with-a-scoop-of-lightly-sweet-butter-flavored-with-cinnamon",
+        "displayName": "These rolls are fluffy, buttery, and delicious served warm with a scoop of lightly sweet butter flavored with cinnamon.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rolls",
+        "displayName": "Rolls",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-whole-milk",
+        "displayName": "¾ cups whole milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "¼ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dry-active-yeast",
+        "displayName": "¾ teaspoon dry active yeast",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-room-temperature",
+        "displayName": "large egg, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "stick-unsalted-butter-melted-and-cooled",
+        "displayName": "stick unsalted butter, melted and cooled",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-all-purpose-flour",
+        "displayName": "½ cups all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-bread-flour",
+        "displayName": "½ cups bread flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cinnamon-butter",
+        "displayName": "Cinnamon Butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "softened-unsalted-butter",
+        "displayName": "softened unsalted butter",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-sweetened-condensed-milk",
+        "displayName": "¼ cup sweetened condensed milk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-rolls-heat-milk-in-a-small-microwave-safe-bowl-on-high-20-seconds-stir-in-sugar-and-yeast-and-allow-to-stand-until-yeast-is-bubbling-and-foamy-about-10-minutes",
+        "displayName": "For the rolls: Heat milk in a small microwave-safe bowl on high 20 seconds. Stir in sugar and yeast and allow to stand until yeast is bubbling and foamy, about 10 minutes.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-using-a-wooden-spoon-add-yeast-mixture-egg-and-butter-stir-in-the-salt-and-flour-until-it-forms-a-shaggy-ball-then-knead-on-a-lightly-floured-surface-by-hand-until-dough-is-smooth-about-10-minutes",
+        "displayName": "In a large bowl using a wooden spoon, add yeast mixture, egg, and butter. Stir in the salt and flour until it forms a shaggy ball, then knead on a lightly floured surface by hand until dough is smooth, about 10 minutes.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "form-dough-into-a-smooth-ball-cover-bowl-with-a-damp-towel-and-let-rise-in-a-draft-free-spot-1-hour-or-until-doubled-in-bulk",
+        "displayName": "Form dough into a smooth ball, cover bowl with a damp towel, and let rise in a draft-free spot 1 hour or until doubled in bulk.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-375-f-and-line-a-half-sheet-pan-with-parchment",
+        "displayName": "Preheat oven to 375°F and line a half sheet pan with parchment.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "turn-out-dough-onto-a-lightly-floured-surface-press-out-any-air-bubbles-with-your-palm-shape-dough-into-an-8-inch-12-inch-rectangle-cut-dough-into-twelve-squares",
+        "displayName": "Turn out dough onto a lightly floured surface. Press out any air bubbles with your palm. Shape dough into an 8-inch × 12-inch rectangle. Cut dough into twelve squares.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-dough-squares-to-prepared-baking-sheet-at-least-1-inch-apart-cover-with-a-damp-towel-and-allow-to-rise-30-40-minutes-until-rolls-are-puffy-and-a-finger-pressed-into-the-side-leaves-a-mark",
+        "displayName": "Transfer dough squares to prepared baking sheet at least 1 inch apart. Cover with a damp towel and allow to rise 30–40 minutes until rolls are puffy and a finger pressed into the side leaves a mark.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-18-20-minutes-until-rolls-are-golden-brown-on-top-and-bottom-cool-on-sheet-pan-10-minutes-before-serving",
+        "displayName": "Bake 18–20 minutes until rolls are golden brown on top and bottom. Cool on sheet pan 10 minutes before serving.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "for-the-cinnamon-butter-place-all-ingredients-in-a-food-processor-blend-until-smooth",
+        "displayName": "For the cinnamon butter: Place all ingredients in a food processor. Blend until smooth.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 2846,
+    "end": 2963,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

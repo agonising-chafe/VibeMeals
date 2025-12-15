@@ -1,0 +1,110 @@
+{
+  "mapped": {
+    "id": "atk_roasted-fennel",
+    "name": "Roasted Fennel",
+    "slug": "roasted-fennel",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fennel-bulbs-bases-lightly-trimmed-2-tablespoons-fronds-chopped-coarse-stalks-discarded",
+        "displayName": "fennel bulbs, bases lightly trimmed, 2 tablespoons fronds chopped coarse, stalks discarded",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "recipe-topping-optional-recipe-follows",
+        "displayName": "recipe topping (optional) (recipe follows)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "APPROXIMATE",
+        "component": "TOPPING"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 450 degrees. Spray rimmed baking sheet with vegetable oil spray."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cut each fennel bulb lengthwise through core into 8 wedges (do not remove core). Whisk water and salt in large bowl until salt is dissolved. Add fennel wedges to bowl and toss gently to coat. Drizzle with oil, sprinkle with pepper, and toss gently to coat. Arrange fennel wedges cut side down along 2 longer sides of prepared sheet. Drizzle any water in bowl evenly over fennel wedges. Cover sheet tightly with aluminum foil and roast for 20 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove foil from sheet and continue to roast until side of fennel touching sheet is browned, 5 to 8 minutes longer, rotating sheet halfway through roasting. Flip each fennel wedge to second cut side. Continue to roast until second side is browned, 3 to 5 minutes longer. Transfer to plate; sprinkle with topping, if using, and fennel fronds; and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 58115,
+    "end": 58147,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

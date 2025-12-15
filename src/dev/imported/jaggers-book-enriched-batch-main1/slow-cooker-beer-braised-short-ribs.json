@@ -1,0 +1,213 @@
+{
+  "mapped": {
+    "id": "atk_slow-cooker-beer-braised-short-ribs",
+    "name": "Slow-Cooker Beer-Braised Short Ribs",
+    "slug": "slow-cooker-beer-braised-short-ribs",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 720,
+      "equipmentTags": [
+        "SLOW_COOKER",
+        "LARGE_SKILLET",
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "english-style-beef-short-ribs-6-to-8-ribs-trimmed-of-excess-fat",
+        "displayName": "English-style beef short ribs (6 to 8 ribs), trimmed of excess fat",
+        "amount": 5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "yellow-onions-about-6-medium-halved-and-sliced-thin",
+        "displayName": "yellow onions (about 6 medium), halved and sliced thin",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottles-dark-beer",
+        "displayName": "bottles dark beer",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-prunes",
+        "displayName": "pitted prunes",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "minute-tapioca",
+        "displayName": "Minute tapioca",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 8,
+        "description": "Refrigerate braising liquid after cooking, to allow fat to harden for easy skimming.",
+        "strategy": "REFRIGERATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Season the ribs with salt and pepper. Heat the oil in a 12-inch skillet over medium-high heat until just smoking. Add half of the ribs, meaty side down, and cook until well browned, about 5 minutes. Turn each rib on one side and cook until well browned, about 1 minute. Repeat with the remaining sides. Transfer the ribs to a slow-cooker insert, arranging them meaty side down. Repeat with the remaining ribs."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour off all but 1 teaspoon fat from the skillet. Add the butter and reduce the heat to medium. When the butter has melted, add the onions and cook, stirring occasionally, until well browned, 25 to 30 minutes. Stir in the tomato paste and cook, coating the onions with the tomato paste, until the paste begins to brown, about 5 minutes. Stir in the beer, bring to a simmer, and cook, scraping the browned bits from the pan bottom with a wooden spoon, until the foaming subsides, about 5 minutes. Remove the skillet from the heat and stir in the prunes, soy sauce, tapioca, bay leaves, and 1 teaspoon of the thyme. Transfer to the slow-cooker insert."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Set the slow cooker on low, cover, and cook until the ribs are fork-tender, 10 to 11 hours. (Alternatively, cook on high for 4 to 5 hours.) Transfer the ribs to a baking dish and strain the liquid through a fine-mesh strainer into a bowl. Cover and refrigerate for at least 8 hours or up to 2 days."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "When ready to serve, use a spoon to skim off the hardened fat from the liquid. Place the short ribs, meaty side down, and the liquid in a Dutch oven and reheat over medium heat until warmed through, about 20 minutes. Transfer the ribs to a serving platter. Whisk the mustard and remaining 1 teaspoon thyme into the sauce and season with salt and pepper to taste. Pour 1 cup of the sauce over the ribs. Sprinkle with the parsley and serve, passing the remaining sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 36032,
+    "end": 36086,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

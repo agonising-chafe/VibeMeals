@@ -1,0 +1,93 @@
+{
+  "mapped": {
+    "id": "atk_oven-roasted-chicken-thighs",
+    "name": "Oven-Roasted Chicken Thighs",
+    "slug": "oven-roasted-chicken-thighs",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "6-to-8-ounce-bone-in-chicken-thighs-trimmed",
+        "displayName": "(6- to 8-ounce) bone-in chicken thighs, trimmed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven racks to middle and lowest positions, place rimmed baking sheet on lower rack, and heat oven to 450 degrees."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Using metal skewer, poke skin side of chicken thighs 10 to 12 times. Sprinkle both sides of thighs with salt and pepper; spray skin lightly with vegetable oil spray. Place thighs skin side down on preheated baking sheet. Return sheet to bottom rack."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Roast chicken until skin side is beginning to brown and meat registers 160 degrees, 20 to 25 minutes, rotating pan as needed for even browning. Remove chicken from oven and heat broiler."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While broiler heats, flip chicken skin side up. Broil chicken on middle rack until skin is crisp and well browned and meat registers 175 degrees, about 5 minutes, rotating pan as needed for even browning. Transfer chicken to platter and let rest for 5 minutes. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26887,
+    "end": 26917,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

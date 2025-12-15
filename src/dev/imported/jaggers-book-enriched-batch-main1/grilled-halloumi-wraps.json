@@ -1,0 +1,201 @@
+{
+  "mapped": {
+    "id": "atk_grilled-halloumi-wraps",
+    "name": "Grilled Halloumi Wraps",
+    "slug": "grilled-halloumi-wraps",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "red-onion-halved-and-sliced-thin",
+        "displayName": "red onion, halved and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-sumac",
+        "displayName": "ground sumac",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove",
+        "displayName": "clove",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-greek-yogurt",
+        "displayName": "plain Greek yogurt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-red-bell-pepper",
+        "displayName": "large red bell pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "8-inch-pitas-divided",
+        "displayName": "(8-inch) pitas, divided",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "halloumi-cheese-sliced-crosswise-1-2-inch-thick",
+        "displayName": "halloumi cheese, sliced crosswise 1/2 inch thick",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-cups-arugula",
+        "displayName": "(2 cups) arugula",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine onion, vinegar, sumac, and 1/4 teaspoon salt in medium bowl. Stir until well combined; set aside. Place lemon juice in small bowl. Mince or grate garlic and add to juice. Add 1/4 teaspoon salt and whisk to combine. Whisk in yogurt until smooth."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Slice 1/2 inch from top and bottom of bell pepper. Gently remove stem from top. Twist and pull out core, using knife to loosen at edges if necessary. Cut slit down 1 side of bell pepper. Turn bell pepper skin side down and gently press so it opens to create long strip. Slide knife along insides to remove remaining ribs and seeds."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Lightly moisten 2 pitas with water. Sandwich remaining pitas between moistened pitas and wrap tightly in lightly greased heavy-duty aluminum foil."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Turn all burners on gas grill to high; cover; and heat grill until hot, about 15 minutes. Leave primary burner on high and turn off other burner(s). Clean and oil cooking grate. Arrange halloumi slices and bell pepper pieces, skin side up, on hotter side of grill. Cook, covered, until undersides of cheese and bell pepper are lightly browned, 3 to 5 minutes. Using tongs, flip cheese and bell pepper and continue to cook until second side of cheese and bell pepper are lightly browned, 3 to 5 minutes longer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Meanwhile, place packet of pitas on cooler side of grill. Flip occasionally to heat, about 5 minutes. Transfer cheese and bell pepper to cutting board. Cut bell pepper into 1/2-inch pieces and transfer to second small bowl. Add oil, pepper flakes, and remaining 1/4 teaspoon salt and toss to combine."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Lay each warm pita on 12-inch square of foil or parchment paper. Spread each pita with one-quarter of yogurt mixture. Place one-quarter of cheese in middle of each pita. Top with pepper, onion, and arugula. Drizzle with any remaining onion liquid. Roll pita into cylinder. Wrap in foil, cut in half, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56619,
+    "end": 56675,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

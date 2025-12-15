@@ -1,0 +1,209 @@
+{
+  "mapped": {
+    "id": "atk_summer-vegetable-gratin",
+    "name": "Summer Vegetable Gratin",
+    "slug": "summer-vegetable-gratin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "zucchini-ends-trimmed-and-cut-crosswise-into-1-4-inch-thick-slices",
+        "displayName": "zucchini, ends trimmed and cut crosswise into 1/4-inch-thick slices",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "yellow-summer-squash-ends-trimmed-and-cut-crosswise-into-1-4-inch-thick-slices",
+        "displayName": "yellow summer squash, ends trimmed and cut crosswise into 1/4-inch-thick slices",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ripe-tomatoes-3-to-4-large-cut-into-1-4-inch-thick-slices",
+        "displayName": "ripe tomatoes (3 to 4 large), cut into 1/4-inch-thick slices",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onions-halved-pole-to-pole-and-sliced-thin-about-3-cups",
+        "displayName": "medium onions, halved pole to pole and sliced thin (about 3 cups)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-2-teaspoons",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 2 teaspoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-parmesan-cheese-about-1-cup",
+        "displayName": "grated Parmesan cheese (about 1 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-shallots-minced-about-6-tablespoons",
+        "displayName": "medium shallots, minced (about 6 tablespoons)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-basil-leaves",
+        "displayName": "chopped fresh basil leaves",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Salting Zucchini and Squash",
+        "durationMinutes": 45,
+        "type": "LONG_PREP"
+      },
+      {
+        "task": "Salting Tomatoes",
+        "durationMinutes": 30,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the upper-middle position and heat the oven to 400 degrees. Brush a 13 by 9-inch baking dish with 1 tablespoon of the oil; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Toss the zucchini and summer squash slices with 1 teaspoon of the salt in a large bowl; transfer to a colander set over a bowl. Let stand until the zucchini and squash release at least 3 tablespoons of liquid, about 45 minutes. Arrange the slices on a triple layer of paper towels; cover with another triple layer of paper towels. Firmly press each slice to remove as much liquid as possible."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place the tomato slices in a single layer on a double layer of paper towels and sprinkle evenly with 1/2 teaspoon more salt; let stand for 30 minutes. Place a second double layer of paper towels on top of the tomatoes and press firmly to dry the tomatoes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, heat 1 tablespoon more oil in a 12-inch nonstick skillet over medium heat until shimmering. Add the onions, the remaining 1/2 teaspoon salt, and 1/4 teaspoon of the pepper; cook, stirring occasionally, until the onions are softened and dark golden brown, 20 to 25 minutes. Set the onions aside."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Combine the garlic, 3 tablespoons more oil, the remaining 1/2 teaspoon pepper, and the thyme in a small bowl. In a large bowl, toss the zucchini and summer squash in half of the oil mixture, then arrange in the greased baking dish. Arrange the caramelized onions in an even layer over the squash. Slightly overlap the tomato slices in a single layer on top of the onions. Spoon the remaining garlic-oil mixture evenly over the tomatoes. Bake until the vegetables are tender and the tomatoes are starting to brown on the edges, 40 to 45 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Meanwhile, process the bread in a food processor until finely ground, about 10 seconds. (You should have about 1 cup crumbs.) Combine the bread crumbs, remaining 1 tablespoon oil, the Parmesan, and shallots in a medium bowl. Remove the baking dish from the oven and increase the heat to 450 degrees. Sprinkle the bread crumb mixture evenly on top of the tomatoes. Bake the gratin until bubbling and the cheese is lightly browned, 5 to 10 minutes. Sprinkle with the basil and cool for 10 minutes before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 48464,
+    "end": 48516,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

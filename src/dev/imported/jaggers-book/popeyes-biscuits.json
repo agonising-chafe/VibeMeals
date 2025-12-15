@@ -1,0 +1,144 @@
+{
+  "mapped": {
+    "id": "atk_popeyes-biscuits",
+    "name": "Popeyes Biscuits",
+    "slug": "popeyes-biscuits",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 9 (YIELDS 18 BISCUITS)",
+      "baseServings": 9
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "any-good-southern-meal-should-include-some-biscuits-and-this-recipe-from-popeyes-makes-a-big-batch-that-can-be-frozen-the-secret-to-their-signature-buttery-flavor-is-to-brush-them-with-butter-before-and-after-baking",
+        "displayName": "Any good Southern meal should include some biscuits, and this recipe from Popeyes makes a big batch that can be frozen. The secret to their signature buttery flavor is to brush them with butter before and after baking.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bisquick-original-pancake-baking-mix",
+        "displayName": "Bisquick Original Pancake & Baking Mix",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "sour cream",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-club-soda",
+        "displayName": "¾ cup club soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-salted-butter-melted",
+        "displayName": "¼ cup salted butter, melted",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f-and-line-a-half-baking-sheet-with-parchment",
+        "displayName": "Preheat oven to 400°F and line a half baking sheet with parchment.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-mix-together-bisquick-sour-cream-and-club-soda-turn-dough-out-onto-lightly-floured-wax-paper-and-pat-dough-into-inch-flat-rectangle-with-your-hand-cut-with-a-2-inch-biscuit-cutter-into-eighteen-biscuits",
+        "displayName": "In a large bowl, mix together Bisquick, sour cream, and club soda. Turn dough out onto lightly floured wax paper and pat dough into ½-inch flat rectangle with your hand. Cut with a 2-inch biscuit cutter into eighteen biscuits.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-biscuits-on-prepared-baking-sheet-brush-half-of-melted-butter-over-biscuits-then-bake-15-20-minutes",
+        "displayName": "Place biscuits on prepared baking sheet. Brush half of melted butter over biscuits, then bake 15–20 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brush-remaining-butter-over-biscuits-as-soon-as-they-come-out-of-oven-serve-warm",
+        "displayName": "Brush remaining butter over biscuits as soon as they come out of oven. Serve warm.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-popeyes-franchise-began-in-louisiana-in-the-early-1970s-they-serve-chicken-products-in-mild-and-spicy-flavors-and-offer-sides-such-as-cajun-fries-mashed-potatoes-with-cajun-gravy-and-homestyle-mac-cheese",
+        "displayName": "The Popeyes franchise began in Louisiana in the early 1970s. They serve chicken products in mild and spicy flavors and offer sides such as Cajun Fries, Mashed Potatoes with Cajun Gravy, and Homestyle Mac & Cheese.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 9497,
+    "end": 9535,
+    "yieldLine": "SERVES 9 (YIELDS 18 BISCUITS)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

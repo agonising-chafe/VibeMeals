@@ -1,0 +1,239 @@
+{
+  "mapped": {
+    "id": "atk_linguine-allo-scoglio-linguini-with-seafood",
+    "name": "Linguine allo Scoglio (Linguini with Seafood)",
+    "slug": "linguine-allo-scoglio-linguini-with-seafood",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 12,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "littleneck-clams-scrubbed",
+        "displayName": "littleneck clams, scrubbed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "mussels-scrubbed-and-debearded",
+        "displayName": "mussels, scrubbed and debearded",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "cherry-tomatoes-half-of-tomatoes-halved-remaining-left-whole",
+        "displayName": "cherry tomatoes (half of tomatoes halved, remaining left whole)",
+        "amount": 1.25,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bottle-clam-juice",
+        "displayName": "bottle clam juice",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-divided",
+        "displayName": "minced fresh parsley, divided",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-patted-dry-and-minced",
+        "displayName": "anchovy fillets, rinsed, patted dry, and minced",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-plus-salt-for-cooking-pasta",
+        "displayName": "table salt, plus salt for cooking pasta",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "linguine",
+        "displayName": "linguine",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-large-shrimp-21-to-25-per-pound-peeled-and-deveined-see-this-page",
+        "displayName": "extra-large shrimp (21 to 25 per pound), peeled and deveined (see this page)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "squid-sliced-crosswise-into-1-2-inch-thick-rings",
+        "displayName": "squid, sliced crosswise into 1/2-inch-thick rings",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lemon-zest-plus-lemon-wedges-for-serving",
+        "displayName": "grated lemon zest, plus lemon wedges for serving",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat 1/4 cup oil in large Dutch oven over medium-high heat until shimmering. Add garlic and pepper flakes and cook until fragrant, about 1 minute. Add clams, cover, and cook, shaking pan occasionally, for 4 minutes. Add mussels, cover, and continue to cook, shaking pan occasionally, until clams and mussels have opened, 3 to 4 minutes longer. Transfer clams and mussels to bowl, discarding any that haven’t opened, and cover to keep warm; leave any broth in pot."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add whole tomatoes, clam juice, wine, 1/2 cup parsley, tomato paste, anchovies, thyme, and salt to pot and bring to simmer over medium-high heat. Reduce heat to medium and cook, stirring occasionally, until tomatoes have started to break down and sauce is reduced by one-third, about 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Meanwhile, bring 4 quarts water to boil in large pot. Add pasta and 1 tablespoon salt and cook, stirring often, for 7 minutes. Reserve 1/2 cup cooking water, then drain pasta."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Add pasta to sauce in Dutch oven and cook over medium heat, stirring gently, for 2 minutes. Reduce heat to medium-low, stir in shrimp, cover, and cook for 4 minutes. Stir in squid, lemon zest, halved tomatoes, and remaining 1/2 cup parsley; cover and continue to cook until shrimp and squid are just cooked through, about 2 minutes longer. Gently stir in clams and mussels. Remove pot from heat, cover, and let stand until clams and mussels are warmed through, about 2 minutes. Season with salt and pepper to taste, and adjust consistency with reserved cooking water as needed. Transfer to large serving dish, drizzle with remaining 2 tablespoons oil, and serve, passing lemon wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 18521,
+    "end": 18577,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

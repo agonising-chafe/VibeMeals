@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_california-pizza-kitchen-dakota-smashed-pea-barley-soup",
+    "name": "California Pizza Kitchen Dakota Smashed Pea + Barley Soup",
+    "slug": "california-pizza-kitchen-dakota-smashed-pea-barley-soup",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-unique-soup-is-full-of-flavor-and-is-a-signature-dish-at-cpk-you-can-easily-make-it-vegetarian-by-swapping-the-chicken-broth-for-vegetable-broth",
+        "displayName": "This unique soup is full of flavor and is a signature dish at CPK. You can easily make it vegetarian by swapping the chicken broth for vegetable broth.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "split-peas-rinsed-and-drained",
+        "displayName": "split peas, rinsed and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-divided",
+        "displayName": "water, divided",
+        "amount": 8,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-minced-onion",
+        "displayName": "⅓ cup minced onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-clove-garlic-minced",
+        "displayName": "large clove garlic, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "displayName": "lemon juice",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-parsley",
+        "displayName": "¼ teaspoon dried parsley",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-white-pepper",
+        "displayName": "¼ teaspoon ground white pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-thyme",
+        "displayName": "⅛ teaspoon dried thyme",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-barley",
+        "displayName": "½ cup barley",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-carrots-diced",
+        "displayName": "medium carrots, diced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-stalk-celery-diced",
+        "displayName": "½ medium stalk celery, diced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "to-a-3-quart-saucepan-add-split-peas-to-a-large-pot-with-6-cups-water-chicken-broth-onion-garlic-lemon-juice-salt-sugar-parsley-pepper-and-thyme-stir-well-then-bring-to-a-boil-over-high-heat-reduce-heat-to-medium-low-and-simmer-75-minutes-or-until-peas-are-soft",
+        "displayName": "To a 3-quart saucepan add split peas to a large pot with 6 cups water, chicken broth, onion, garlic, lemon juice, salt, sugar, parsley, pepper, and thyme. Stir well, then bring to a boil over high heat. Reduce heat to medium-low and simmer 75 minutes or until peas are soft.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "while-peas-are-cooking-combine-barley-with-remaining-water-in-a-1-quart-saucepan-bring-to-a-boil-over-high-heat-reduce-heat-to-medium-low-and-simmer-75-minutes-or-until-barley-is-soft-and-most-of-water-has-been-absorbed",
+        "displayName": "While peas are cooking, combine barley with remaining water in a 1-quart saucepan. Bring to a boil over high heat, reduce heat to medium-low, and simmer 75 minutes or until barley is soft and most of water has been absorbed.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "drain-barley-in-a-colander-and-add-to-split-peas-add-carrots-and-celery-and-continue-to-simmer-soup-15-30-minutes-until-carrots-are-tender-stir-occasionally",
+        "displayName": "Drain barley in a colander and add to split peas. Add carrots and celery and continue to simmer soup 15–30 minutes until carrots are tender. Stir occasionally.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "turn-off-heat-cover-soup-and-let-sit-10-15-minutes-before-serving",
+        "displayName": "Turn off heat, cover soup, and let sit 10–15 minutes before serving.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 3174,
+    "end": 3228,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

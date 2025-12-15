@@ -1,0 +1,158 @@
+{
+  "mapped": {
+    "id": "atk_sweet-and-saucy-grilled-salmon-with-lime-jalape-o-glaze",
+    "name": "Sweet and Saucy Grilled Salmon with Lime-Jalapeño Glaze",
+    "slug": "sweet-and-saucy-grilled-salmon-with-lime-jalape-o-glaze",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "equipmentTags": [
+        "GRILL",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "jalape-o-jelly",
+        "displayName": "jalapeño jelly",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-fresh-cilantro-leaves-and-stems",
+        "displayName": "packed fresh cilantro leaves and stems",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-lime-zest-and",
+        "displayName": "grated fresh lime zest and",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "fresh-lime-juice",
+        "displayName": "fresh lime juice",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "scallions-chopped-coarse",
+        "displayName": "scallions, chopped coarse",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GLAZE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "6-to-8-ounce-skinless-salmon-fillets-about-11-4-inches-thick",
+        "displayName": "(6- to 8-ounce) skinless salmon fillets, about 11/4 inches thick",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Process jelly, cilantro, lime zest, lime juice, scallions, and garlic in food processor or blender to a smooth glaze. Transfer glaze to small saucepan and cook over medium heat until just bubbling, 2 to 3 minutes. Measure out and reserve 1/4 cup glaze. Stir butter into remaining glaze."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cut 4 rectangles of heavy-duty foil and crimp edges to make four 7 by 5-inch trays. Coat trays with vegetable oil spray. Season fillets with salt and pepper, and brush each thoroughly, on both sides, with 1 tablespoon of the reserved 1/4 cup glaze. Place fillets, skinned side up, on trays."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place trays on grill. Cook (covered if using gas) until glaze forms a golden-brown crust, 6 to 8 minutes. Flip fillets, keeping them in trays, and spoon half of buttered glaze over salmon. Continue to cook until fish is opaque and flakes apart when gently prodded with paring knife, about 2 to 4 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer trays to wire rack, tent loosely with foil, and let rest for 5 minutes. Transfer salmon to platter, spoon remaining buttered glaze over the top, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 55160,
+    "end": 55216,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

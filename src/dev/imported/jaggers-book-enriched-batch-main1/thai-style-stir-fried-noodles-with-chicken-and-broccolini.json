@@ -1,0 +1,245 @@
+{
+  "mapped": {
+    "id": "atk_thai-style-stir-fried-noodles-with-chicken-and-broccolini",
+    "name": "Thai-Style Stir-Fried Noodles with Chicken and Broccolini",
+    "slug": "thai-style-stir-fried-noodles-with-chicken-and-broccolini",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 55,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "white-vinegar",
+        "displayName": "white vinegar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CHILE VINEGAR"
+      },
+      {
+        "ingredientId": "serrano-chile-stemmed-and-sliced-into-thin-rings",
+        "displayName": "serrano chile, stemmed and sliced into thin rings",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CHILE VINEGAR"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-breasts-trimmed-and-cut-against-grain-into-1-4-inch-thick-slices",
+        "displayName": "boneless, skinless chicken breasts, trimmed and cut against grain into 1/4-inch-thick slices",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-4-inch-wide-rice-noodles",
+        "displayName": "(1/4-inch-wide) rice noodles",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oyster-sauce",
+        "displayName": "oyster sauce",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-soy-sauce",
+        "displayName": "plus 2 teaspoons soy sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-vinegar",
+        "displayName": "white vinegar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "molasses",
+        "displayName": "molasses",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "cloves-sliced-thin",
+        "displayName": "cloves, sliced thin",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "broccolini-florets-cut-into-1-inch-pieces-stalks-cut-on-bias-into-1-2-inch-pieces-5-cups",
+        "displayName": "broccolini, florets cut into 1-inch pieces, stalks cut on bias into 1/2-inch pieces (5 cups)",
+        "amount": 10,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Prepare chile vinegar",
+        "durationMinutes": 15,
+        "type": "MARINATE",
+        "optional": false,
+        "timeOffsetMinutes": -15
+      },
+      {
+        "description": "Marinate chicken",
+        "durationMinutes": 15,
+        "type": "MARINATE",
+        "optional": false,
+        "timeOffsetMinutes": -15
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHILE VINEGAR: Combine vinegar and serrano in bowl. Let stand at room temperature for at least 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE STIR-FRY: Combine chicken with 2 tablespoons water and baking soda in bowl. Let sit at room temperature for 15 minutes. Rinse chicken in cold water and drain well."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bring 6 cups water to boil. Place noodles in large bowl. Pour boiling water over noodles. Stir, then soak until noodles are almost tender, about 8 minutes, stirring once halfway through soaking. Drain and rinse with cold water. Drain well and toss with 2 teaspoons oil."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Whisk oyster sauce, soy sauce, sugar, vinegar, molasses, and fish sauce together in bowl."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat 2 teaspoons oil and garlic in 12-inch nonstick skillet over high heat, stirring occasionally, until garlic is deep golden brown, 1 to 2 minutes. Add chicken and 2 tablespoons sauce mixture, toss to coat, and spread chicken into even layer. Cook, without stirring, until chicken begins to brown, 1 to 11/2 minutes. Flip chicken and cook, without stirring, until second side begins to brown, 1 to 11/2 minutes. Push chicken to 1 side of skillet. Add 2 teaspoons oil to cleared side of skillet. Add eggs to clearing. Using rubber spatula, stir eggs gently and cook until set but still wet. Stir eggs into chicken and continue to cook, breaking up large pieces of egg, until eggs are fully cooked, 30 to 60 seconds. Transfer chicken mixture to bowl."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Heat 2 teaspoons oil in now-empty skillet until smoking. Add broccolini and 2 tablespoons sauce and toss to coat. Cover skillet and cook for 2 minutes, stirring once halfway through cooking. Remove lid and continue to cook until broccolini is crisp and very brown in spots, 2 to 3 minutes, stirring once halfway through cooking. Transfer broccolini to bowl with chicken mixture."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Heat 2 teaspoons oil in again-empty skillet until smoking. Add half of noodles and 2 tablespoons sauce and toss to coat. Cook until noodles are starting to brown in spots, about 2 minutes, stirring halfway through cooking. Transfer noodles to bowl with chicken mixture. Repeat with remaining 2 teaspoons oil, noodles, and sauce. When second batch of noodles is cooked, add contents of bowl back to skillet and toss to combine. Cook, without stirring, until everything is warmed through, 1 to 11/2 minutes. Transfer to platter and serve immediately, passing chile vinegar separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SHELLFISH",
+      "SOY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 20268,
+    "end": 20330,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

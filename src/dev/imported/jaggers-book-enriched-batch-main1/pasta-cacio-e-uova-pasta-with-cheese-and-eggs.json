@@ -1,0 +1,147 @@
+{
+  "mapped": {
+    "id": "atk_pasta-cacio-e-uova-pasta-with-cheese-and-eggs",
+    "name": "Pasta Cacio e Uova (Pasta with Cheese and Eggs)",
+    "slug": "pasta-cacio-e-uova-pasta-with-cheese-and-eggs",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "lard-or-extra-virgin-olive-oil",
+        "displayName": "lard or extra-virgin olive oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-lightly-crushed-and-peeled",
+        "displayName": "cloves, lightly crushed and peeled",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-2-cup",
+        "displayName": "Parmesan cheese, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pecorino-romano-cheese-grated-1-2-cup",
+        "displayName": "Pecorino Romano cheese, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-plus-salt-for-cooking-pasta",
+        "displayName": "table salt, plus salt for cooking pasta",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "11-2-cups-tubetti",
+        "displayName": "(11/2 cups) tubetti",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt lard in 8-inch skillet over medium-low heat. Add garlic and cook, swirling skillet and flipping garlic occasionally, until garlic is pale golden brown, 7 to 10 minutes. (Tiny bubbles will surround garlic, but garlic should not actively fry. Reduce heat if necessary.) Turn off heat, but leave skillet on burner. Discard garlic."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While garlic cooks, bring 2 quarts water to boil in large saucepan. Beat eggs in medium bowl until very few streaks of white remain. Stir in Parmesan, Pecorino, parsley, salt, and pepper and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stir pasta and 11/2 teaspoons salt into boiling water and cook, stirring often, until pasta is tender (slightly past al dente). Reserve 1/4 cup cooking water, then drain pasta and return it to saucepan. Immediately add lard, egg mixture, and 1 tablespoon reserved cooking water to pasta and stir until cheese is fully melted. Adjust consistency with remaining reserved cooking water, 1 tablespoon at a time, as needed. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 15555,
+    "end": 15593,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

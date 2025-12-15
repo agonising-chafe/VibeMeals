@@ -1,0 +1,239 @@
+{
+  "mapped": {
+    "id": "atk_pissaladi-re-proven-al-pizza",
+    "name": "Pissaladière (Provençal Pizza)",
+    "slug": "pissaladi-re-proven-al-pizza",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 2 tarts, serving 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-ounces-bread-flour-plus-extra-for-dusting-the-work-surface",
+        "displayName": "(11 ounces) bread flour, plus extra for dusting the work surface",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil-plus-extra-for-brushing-the-dough-and-greasing-hands",
+        "displayName": "olive oil, plus extra for brushing the dough and greasing hands",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "warm-water-110-degrees",
+        "displayName": "warm water (110 degrees)",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onions-about-4-medium-halved-and-sliced-1-4-inch-thick",
+        "displayName": "onions (about 4 medium), halved and sliced 1/4 inch thick",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "brown-sugar",
+        "displayName": "brown sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "Olive oil",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ni-oise-olives-pitted-and-chopped-coarse",
+        "displayName": "niçoise olives, pitted and chopped coarse",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-patted-dry-and-chopped-coarse-about-2-tablespoons-plus-12-fillets-rinsed-and-patted-dry-for-garnish-optional",
+        "displayName": "anchovy fillets, rinsed, patted dry, and chopped coarse (about 2 tablespoons), plus 12 fillets, rinsed and patted dry for garnish (optional)",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-thyme-leaves",
+        "displayName": "minced fresh thyme leaves",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fennel-seeds-optional",
+        "displayName": "fennel seeds (optional)",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves-optional",
+        "displayName": "minced fresh parsley leaves (optional)",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 90,
+        "description": "Let dough rise in a warm place until doubled in volume.",
+        "strategy": "LONG_PREP",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Pulse the flour, yeast, and salt in a food processor (fitted with a dough blade, if possible) until combined, about 5 pulses. With the machine running, slowly add the oil, then the water, through the feed tube; continue to process until the dough forms a ball, about 15 seconds. Turn the dough out onto a lightly floured work surface and form it into a smooth, round ball. Place the dough in a large lightly oiled bowl and cover tightly with greased plastic wrap. Let rise in a warm place until doubled in volume, 1 to 11/2 hours."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE CARAMELIZED ONIONS: While the dough is rising, heat the oil in a 12-inch nonstick skillet over medium-low heat until shimmering. Stir in the onions, sugar, and salt. Cover and cook, stirring occasionally, until the onions are softened and have released their juice, about 10 minutes. Remove the lid, increase the heat to medium-high, and continue to cook, stirring often, until the onions are deeply browned, 10 to 15 minutes. Off the heat, stir in the water, then transfer the onions to a bowl and set aside. Adjust the oven rack to the lowest position, set a baking stone on the rack, and heat the oven to 500 degrees. (Let the baking stone heat for at least 30 minutes but no longer than 1 hour.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "To shape, top, and bake the dough: Turn the dough out onto a lightly floured work surface, divide it into two equal pieces, and cover with greased plastic wrap. Working with one piece at a time (keep the other piece covered), form each piece into a rough ball by gently pulling the edges of the dough together and pinching to seal. With floured hands, turn the dough ball seam side down. Cupping the dough with both hands, gently push the dough in a circular motion to form a taut ball. Repeat with the second piece. Brush each piece lightly with oil, cover with plastic wrap, and let rest for 10 minutes. Meanwhile, cut two 20-inch lengths of parchment paper and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Coat your fingers and palms generously with oil. Working with one piece of dough at a time, hold the dough up and gently stretch it to a 12-inch length. Place the dough on the parchment sheet and gently dimple the surface of the dough with your fingertips. Using your oiled palms, push and flatten the dough into a 14 by 8-inch oval. Brush the dough with oil and sprinkle with 1/4 teaspoon of the pepper. Leaving a 1/2-inch border around the edge, sprinkle 1/4 cup of the olives, 1 tablespoon of the chopped anchovies, and 1 teaspoon of the thyme evenly over the dough, then evenly scatter with half of the onions. Arrange 6 whole anchovy fillets (if using) on the tart and sprinkle with 1/2 teaspoon of the fennel seeds (if using). Slip the parchment with the tart onto a pizza peel (or inverted baking sheet), then slide it onto the hot baking stone. Bake until deep golden brown, 13 to 15 minutes. While the first tart bakes, shape and top the second tart."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove the first tart from the oven with a peel (or pull the parchment onto a baking sheet). Transfer the tart to a cutting board and slide the parchment out from under the tart; cool for 5 minutes. While the first tart cools, bake the second tart. Sprinkle with the parsley (if using) and cut each tart into 8 pieces before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 67017,
+    "end": 67079,
+    "yieldLine": "MAKES 2 tarts, serving 6"
+  },
+  "fit": true
+}

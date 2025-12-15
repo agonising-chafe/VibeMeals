@@ -1,0 +1,159 @@
+{
+  "mapped": {
+    "id": "atk_pork-schnitzel-breaded-pork-cutlets",
+    "name": "Pork Schnitzel (Breaded Pork Cutlets)",
+    "slug": "pork-schnitzel-breaded-pork-cutlets",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-crusts-removed-cut-into-3-4-inch-cubes-about-4-cups",
+        "displayName": "high-quality white sandwich bread, crusts removed, cut into 3/4-inch cubes (about 4 cups)",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-tablespoon-vegetable-oil",
+        "displayName": "plus 1 tablespoon vegetable oil",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pork-tenderloin-trimmed-of-fat-and-silver-skin-and-tenderloin-cut-on-an-angle-into-4-equal-pieces",
+        "displayName": "pork tenderloin, trimmed of fat and silver skin and tenderloin cut on an angle into 4 equal pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-ground-black-pepper",
+        "displayName": "Table salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "lemon-cut-into-wedges",
+        "displayName": "lemon, cut into wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley-leaves",
+        "displayName": "chopped fresh parsley leaves",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "capers-rinsed",
+        "displayName": "capers, rinsed",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "large-hard-cooked-egg-this-page-yolk-and-white-separated-and-passed-separately-through-a-fine-mesh-strainer-optional",
+        "displayName": "large hard-cooked egg (this page), yolk and white separated and passed separately through a fine-mesh strainer (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "EGG"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the bread cubes on a large microwave-safe plate. Microwave on high power for 4 minutes, stirring well halfway through the cooking time. Microwave on medium power until the bread is dry and a few pieces start to lightly brown, 3 to 5 minutes longer, stirring every minute. Process the dry bread in a food processor to very fine crumbs, about 45 seconds. Transfer the bread crumbs to a shallow dish (you should have about 11/4 cups crumbs). Spread the flour in a second shallow dish. Beat the eggs with 1 tablespoon of the oil in a third shallow dish."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Place the pork, with one cut side down, between two sheets of plastic wrap and pound to an even thickness of between 1/8 and 1/4 inch. Season the cutlets with salt and pepper. Working with one cutlet at a time, dredge the cutlets thoroughly in flour, shaking off the excess, then coat with the egg, allowing the excess to drip back into the dish to ensure a very thin coating, and coat evenly with the bread crumbs, pressing on the crumbs to adhere. Place the breaded cutlets in a single layer on a wire rack set over a baking sheet; let the coating dry for 5 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat the remaining 2 cups oil in a large Dutch oven over medium-high heat until it registers 375 degrees on an instant-read thermometer. Lay two cutlets, without overlapping, in the pan and cook, shaking the pan continuously and gently, until wrinkled and light golden brown on both sides, 1 to 2 minutes per side. Transfer the cutlets to a paper towel–lined plate and flip the cutlets several times to blot the excess oil. Repeat with the remaining cutlets. Serve immediately with the garnishes."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 37259,
+    "end": 37305,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

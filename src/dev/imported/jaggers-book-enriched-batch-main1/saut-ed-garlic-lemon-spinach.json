@@ -1,0 +1,106 @@
+{
+  "mapped": {
+    "id": "atk_saut-ed-garlic-lemon-spinach",
+    "name": "Sautéed Garlic-Lemon Spinach",
+    "slug": "saut-ed-garlic-lemon-spinach",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 15,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil-plus-1-teaspoon-for-drizzling",
+        "displayName": "extra-virgin olive oil, plus 1 teaspoon for drizzling",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-sliced-thin-crosswise-about-4-teaspoons",
+        "displayName": "medium garlic cloves, sliced thin crosswise (about 4 teaspoons)",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bags-curly-leaf-spinach-stems-removed-leaves-washed-and-dried",
+        "displayName": "bags curly-leaf spinach, stems removed, leaves washed and dried",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-red-pepper-flakes",
+        "displayName": "Pinch red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-zest-plus-2-teaspoons-juice-from-1-lemon",
+        "displayName": "grated zest plus 2 teaspoons juice from 1 lemon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat 2 tablespoons of the oil and the garlic in a large Dutch oven over medium-high heat until shimmering; cook until the garlic is light golden brown, shaking the pan back and forth when the garlic begins to sizzle, about 3 minutes. Add the spinach by the handful, using tongs to stir and coat the spinach with the oil."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Once all the spinach is added, sprinkle 1/4 teaspoon salt, the red pepper flakes, and lemon zest over the top and continue stirring with the tongs until the spinach is uniformly wilted and glossy, about 2 minutes. Using the tongs, transfer the spinach to a colander set in a sink and gently squeeze the spinach with the tongs to release the excess liquid. Return the spinach to the Dutch oven; sprinkle with the lemon juice and stir to coat. Drizzle with the remaining 1 teaspoon olive oil and season with salt to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight",
+      "vegetarian"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 60647,
+    "end": 60677,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

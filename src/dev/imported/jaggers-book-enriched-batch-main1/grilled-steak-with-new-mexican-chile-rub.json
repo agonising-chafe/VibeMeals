@@ -1,0 +1,225 @@
+{
+  "mapped": {
+    "id": "atk_grilled-steak-with-new-mexican-chile-rub",
+    "name": "Grilled Steak with New Mexican Chile Rub",
+    "slug": "grilled-steak-with-new-mexican-chile-rub",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "GRILL",
+        "LARGE_SKILLET",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fish-sauce",
+        "displayName": "fish sauce",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-powder",
+        "displayName": "onion powder",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-powder",
+        "displayName": "garlic powder",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "11-2-to-13-4-pound-boneless-shell-sirloin-steaks-1-to-11-4-inches-thick",
+        "displayName": "(11/2- to 13/4-pound) boneless shell sirloin steaks, 1 to 11/4 inches thick",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-new-mexican-chiles-stemmed-seeded-and-flesh-torn-into-1-2-inch-pieces",
+        "displayName": "dried New Mexican chiles, stemmed, seeded, and flesh torn into 1/2-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "cumin-seeds",
+        "displayName": "cumin seeds",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "coriander-seeds",
+        "displayName": "coriander seeds",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "black-peppercorns",
+        "displayName": "black peppercorns",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "ground-cloves",
+        "displayName": "ground cloves",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SPICE RUB"
+      },
+      {
+        "ingredientId": "vegetable-oil-spray",
+        "displayName": "Vegetable oil spray",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Let steaks stand at room temperature",
+        "durationMinutes": 60,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE STEAK: Combine tomato paste, fish sauce, salt, onion powder, and garlic powder in bowl. Pat steaks dry with paper towels. With sharp knife, cut 1/16-inch-deep slits on both sides of steaks, spaced 1/2 inch apart, in crosshatch pattern. Rub salt mixture evenly on both sides of steaks. Place steaks on wire rack set in rimmed baking sheet; let stand at room temperature for at least 1 hour. After 30 minutes, prepare grill."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE SPICE RUB: Toast chiles, cumin, coriander, pepper flakes, and peppercorns in 10-inch skillet over medium-low heat, stirring frequently, until just beginning to smoke, 3 to 4 minutes. Transfer to plate to cool, about 5 minutes. Grind spices in spice grinder or in mortar with pestle until coarsely ground. Transfer spices to bowl and stir in sugar, paprika, and cloves."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Sprinkle half of spice rub evenly over 1 side of steaks and press to adhere until spice rub is fully moistened. Lightly spray rubbed side of steak with vegetable oil spray, about 3 seconds. Flip steaks and repeat process of sprinkling with spice rub and coating with vegetable oil spray on second side."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Place steaks over hotter part of grill and cook until browned and charred on both sides and center registers 120 to 125 degrees (for medium-rare), 130 to 135 degrees (for medium) 3 to 4 minutes per side. If steaks have not reached desired temperature, move to cooler side of grill and continue to cook. Transfer steaks to clean wire rack set in rimmed baking sheet, tent loosely with aluminum foil, and let rest for 10 minutes. Slice meat thin against grain and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 50228,
+    "end": 50288,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

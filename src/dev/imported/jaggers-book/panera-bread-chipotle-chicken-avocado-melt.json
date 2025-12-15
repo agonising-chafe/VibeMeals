@@ -1,0 +1,154 @@
+{
+  "mapped": {
+    "id": "atk_panera-bread-chipotle-chicken-avocado-melt",
+    "name": "Panera Bread Chipotle Chicken Avocado Melt",
+    "slug": "panera-bread-chipotle-chicken-avocado-melt",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "panera-is-famous-for-their-deli-sandwiches-and-this-one-is-among-their-most-popular",
+        "displayName": "Panera is famous for their deli sandwiches, and this one is among their most popular.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-inch-focaccia-bread-square-sliced-in-half-lengthwise",
+        "displayName": "(5-inch) focaccia bread square, sliced in half lengthwise",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chipotle-mayonnaise",
+        "displayName": "chipotle mayonnaise",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smoked-gouda-cheese",
+        "displayName": "smoked Gouda cheese",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-shredded-smoked-chicken-breast",
+        "displayName": "½ cup shredded smoked chicken breast",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "finely-chopped-fresh-cilantro",
+        "displayName": "finely chopped fresh cilantro",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-chopped-peppadew-peppers",
+        "displayName": "¼ cup chopped peppadew peppers",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-avocado-thinly-sliced",
+        "displayName": "½ medium avocado, thinly sliced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f-and-line-a-quarter-sheet-pan-with-parchment",
+        "displayName": "Preheat oven to 350°F and line a quarter sheet pan with parchment.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-focaccia-bread-on-prepared-sheet-pan-cut-side-up-and-spread-top-half-with-mayonnaise-top-each-half-with-cheese-add-chicken-to-bottom-half-and-spread-evenly",
+        "displayName": "Place focaccia bread on prepared sheet pan cut side up and spread top half with mayonnaise. Top each half with cheese. Add chicken to bottom half and spread evenly.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-5-minutes-or-until-cheese-is-melted-remove-from-oven-and-add-cilantro-peppadew-peppers-and-avocado-top-with-top-half-of-bread-serve-hot",
+        "displayName": "Bake 5 minutes or until cheese is melted. Remove from oven and add cilantro, peppadew peppers, and avocado. Top with top half of bread. Serve hot.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 4994,
+    "end": 5032,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

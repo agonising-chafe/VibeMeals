@@ -1,0 +1,180 @@
+{
+  "mapped": {
+    "id": "atk_quick-cheese-bread",
+    "name": "Quick Cheese Bread",
+    "slug": "quick-cheese-bread",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 95,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES one 8-inch loaf",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "parmesan-cheese-shredded-on-the-large-holes-of-a-box-grater-about-1-cup",
+        "displayName": "Parmesan cheese, shredded on the large holes of a box grater (about 1 cup)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "15-ounces-unbleached-all-purpose-flour",
+        "displayName": "(15 ounces) unbleached all-purpose flour",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-sharp-cheddar-cheese-cut-into-1-2-inch-cubes-or-mild-asiago-crumbled-into-1-4-to-1-2-inch-pieces-about-1-cup",
+        "displayName": "extra-sharp cheddar cheese, cut into 1/2-inch cubes, or mild Asiago, crumbled into 1/4- to 1/2-inch pieces (about 1 cup)",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten",
+        "displayName": "large egg, lightly beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "sour-cream",
+        "displayName": "sour cream",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 350 degrees. Spray an 81/2 by 41/2-inch loaf pan with vegetable oil spray; sprinkle 1/2 cup of the Parmesan evenly over the bottom of the pan."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk the flour, baking powder, salt, cayenne, and black pepper together in a large bowl. Using a rubber spatula, mix in the cheddar, breaking up clumps. Whisk the milk, melted butter, egg, and sour cream together in a medium bowl. Using a rubber spatula, gently fold the wet ingredients into the dry ingredients until just combined (the batter will be heavy and thick); do not overmix. Scrape the batter into the prepared loaf pan; smooth the surface with a rubber spatula. Sprinkle the remaining 1/2 cup Parmesan evenly over the surface."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bake until deep golden brown and a toothpick inserted in the center comes out clean, 45 to 50 minutes. Cool on a wire rack for 5 minutes; invert the loaf onto the wire rack, then turn right side up and continue to cool until warm, about 45 minutes. Cut into slices and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 62546,
+    "end": 62597,
+    "yieldLine": "MAKES one 8-inch loaf"
+  },
+  "fit": true
+}

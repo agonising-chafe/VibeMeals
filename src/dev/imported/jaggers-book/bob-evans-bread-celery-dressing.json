@@ -1,0 +1,224 @@
+{
+  "mapped": {
+    "id": "atk_bob-evans-bread-celery-dressing",
+    "name": "Bob Evans Bread & Celery Dressing",
+    "slug": "bob-evans-bread-celery-dressing",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-bread-dressing-made-famous-at-the-bob-evans-restaurants-is-perfect-alongside-roasted-turkey-or-chicken-dinners",
+        "displayName": "This bread dressing, made famous at the Bob Evans Restaurants, is perfect alongside roasted turkey or chicken dinners.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "white-bread-cubed",
+        "displayName": "white bread, cubed",
+        "amount": 16,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-stalks-celery-chopped",
+        "displayName": "medium stalks celery, chopped",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-yellow-onion-peeled-and-chopped",
+        "displayName": "medium yellow onion, peeled and chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-carrot-chopped",
+        "displayName": "large carrot, chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-sage",
+        "displayName": "ground sage",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "poultry-seasoning",
+        "displayName": "poultry seasoning",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "½ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-stock",
+        "displayName": "chicken stock",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-parsley",
+        "displayName": "dried parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-200-f-and-line-a-half-sheet-pan-with-parchment",
+        "displayName": "Preheat oven to 200°F and line a half sheet pan with parchment.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spread-bread-cubes-on-prepared-sheet-pan-bake-20-25-minutes-stirring-every-5-minutes-until-bread-is-dry-and-crisp-set-aside-to-cool",
+        "displayName": "Spread bread cubes on prepared sheet pan. Bake 20–25 minutes, stirring every 5 minutes, until bread is dry and crisp. Set aside to cool.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "increase-oven-temperature-to-350-f-and-spray-a-9-inch-13-inch-baking-dish-with-nonstick-cooking-spray",
+        "displayName": "Increase oven temperature to 350°F and spray a 9-inch × 13-inch baking dish with nonstick cooking spray.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-add-butter-once-melted-add-celery-onion-and-carrot-cook-stirring-often-until-tender-about-6-minutes-remove-from-heat-and-stir-in-sage-poultry-seasoning-salt-and-pepper",
+        "displayName": "In a 10-inch skillet over medium heat, add butter. Once melted, add celery, onion, and carrot. Cook, stirring often, until tender, about 6 minutes. Remove from heat and stir in sage, poultry seasoning, salt, and pepper.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-add-vegetable-mixture-and-bread-cubes-fold-to-combine-then-add-chicken-stock-and-stir-until-bread-is-moistened-let-stand-5-minutes-to-ensure-bread-is-thoroughly-saturated",
+        "displayName": "In a large bowl, add vegetable mixture and bread cubes. Fold to combine, then add chicken stock and stir until bread is moistened. Let stand 5 minutes to ensure bread is thoroughly saturated.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "transfer-to-prepared-baking-dish-and-spread-evenly-but-do-not-compress-sprinkle-parsley-over-top-bake-25-35-minutes-until-center-of-dressing-is-jiggly-but-edges-are-set-cool-10-minutes-before-serving",
+        "displayName": "Transfer to prepared baking dish and spread evenly but do not compress. Sprinkle parsley over top. Bake 25–35 minutes until center of dressing is jiggly but edges are set. Cool 10 minutes before serving.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8691,
+    "end": 8743,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,182 @@
+{
+  "mapped": {
+    "id": "atk_suan-la-bai-cai-sour-and-hot-napa-cabbage",
+    "name": "Suan La Bai Cai (Sour and Hot Napa Cabbage)",
+    "slug": "suan-la-bai-cai-sour-and-hot-napa-cabbage",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "head-napa-cabbage-2-pounds",
+        "displayName": "head napa cabbage (2 pounds)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "zhenjiang-also-called-chinkiang-black-vinegar",
+        "displayName": "Zhenjiang (also called Chinkiang) black vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oyster-sauce",
+        "displayName": "oyster sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "peanut-or-vegetable-oil",
+        "displayName": "peanut or vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "small-dried-chiles-stemmed-halved-and-seeded",
+        "displayName": "small dried chiles, stemmed, halved, and seeded",
+        "amount": 35,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallion-white-and-green-parts-separated-and-sliced-thin",
+        "displayName": "scallion, white and green parts separated and sliced thin",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-garlic",
+        "displayName": "minced garlic",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Discard any outer leaves from cabbage that are bruised or torn. Peel away enough leaves to yield 11/2 pounds (16 to 20 leaves). Reserve smaller leaves near core for other use. Stack three similar-size leaves and, using sharp knife, remove white portion from center. Keeping pieces stacked, cut cabbage whites crosswise at 45-degree angle into 1-inch-thick slices and place in medium bowl. Cut cabbage greens into 2-inch pieces and place in second medium bowl. Repeat with remaining leaves."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk soy sauce, vinegar, oyster sauce, cornstarch, and sugar together in small bowl."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat oil in wok over medium heat until just smoking. Add chiles and cook, stirring constantly with wok spatula or wooden spoon, until they begin to brown, about 30 seconds. Add scallion whites, ginger, and garlic, and cook, stirring constantly, until fragrant, about 1 minute."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Increase heat to high and add sliced cabbage whites. Cook, stirring constantly, until cabbage begins to turn translucent at edges, about 2 minutes. Add chopped cabbage greens, and cook, stirring constantly, until greens begin to collapse and wilt, about 11/2 minutes longer."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Whisk soy sauce mixture to recombine and pour over cabbage. Cook, stirring constantly, until cabbage is evenly coated and sauce has thickened, about 30 seconds. Immediately transfer cabbage to large serving bowl. Garnish with scallion greens and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "asian",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SHELLFISH",
+      "PEANUT",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 58676,
+    "end": 58722,
+    "yieldLine": "SERVES 4 to 6 SEASON 26"
+  },
+  "fit": true
+}

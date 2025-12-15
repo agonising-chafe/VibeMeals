@@ -1,0 +1,161 @@
+{
+  "mapped": {
+    "id": "atk_black-olive-tapenade",
+    "name": "Black Olive Tapenade",
+    "slug": "black-olive-tapenade",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES about 11/2 cups",
+      "baseServings": 12
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "the-tapenade-must-be-refrigerated-for-at-least-18-hours-before-using-use-untoasted-pine-nuts-in-this-recipe-so-that-they-provide-creaminess-but-little-flavor-of-their-own-we-prefer-the-rich-flavor-of-kalamata-olives-but-any-high-quality-brine-cured-black-olive-such-as-ni-oise-sicilian-or-greek-can-be-substituted-do-not-substitute-brine-cured-olives-for-the-salt-cured-olives-serve-extra-tapenade-as-a-spread-with-sliced-crusty-bread-or-as-a-dip-with-raw-vegetables",
+        "displayName": "The tapenade must be refrigerated for at least 18 hours before using. Use untoasted pine nuts in this recipe so that they provide creaminess but little flavor of their own. We prefer the rich flavor of kalamata olives, but any high-quality brine-cured black olive, such as niçoise, Sicilian, or Greek, can be substituted. Do not substitute brine-cured olives for the salt-cured olives. Serve extra tapenade as a spread with sliced crusty bread or as a dip with raw vegetables.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pine-nuts",
+        "displayName": "pine nuts",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "pitted-kalamata-olives",
+        "displayName": "pitted kalamata olives",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-salt-cured-black-olives",
+        "displayName": "pitted salt-cured black olives",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "capers-rinsed",
+        "displayName": "capers, rinsed",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-fillets-rinsed-and-patted-dry",
+        "displayName": "anchovy fillets, rinsed and patted dry",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "clove-minced",
+        "displayName": "clove, minced",
+        "amount": 0.5,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate tapenade",
+        "durationHours": 18,
+        "strategy": "REFRIGERATE",
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "In food processor fitted with metal blade, process pine nuts until reduced to paste that clings to walls and avoids blade, about 20 seconds. Scrape down bowl to redistribute paste and process until paste again clings to walls and avoids blade, about 5 seconds. Repeat scraping and processing once more (pine nuts should form mostly smooth, tahini-like paste)."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Scrape down bowl to redistribute paste and add olives capers, anchovies, mustard, and garlic. Pulse until finely chopped, about 15 pulses, scraping down bowl halfway through pulsing. Transfer mixture to medium bowl and stir in oil until well combined."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer to container, cover, and refrigerate for at least 18 hours or up to 2 weeks. Bring to room temperature and stir thoroughly before serving."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 60338,
+    "end": 60372,
+    "yieldLine": "MAKES about 11/2 cups"
+  },
+  "fit": true
+}

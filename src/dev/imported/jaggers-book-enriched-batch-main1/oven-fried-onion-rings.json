@@ -1,0 +1,160 @@
+{
+  "mapped": {
+    "id": "atk_oven-fried-onion-rings",
+    "name": "Oven-Fried Onion Rings",
+    "slug": "oven-fried-onion-rings",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 55,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-at-room-temperature",
+        "displayName": "large egg, at room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "buttermilk-at-room-temperature",
+        "displayName": "buttermilk, at room temperature",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "saltine-crackers",
+        "displayName": "saltine crackers",
+        "amount": 30,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kettle-cooked-potato-chips",
+        "displayName": "kettle-cooked potato chips",
+        "amount": 4,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-yellow-onions-cut-into-24-large-rings",
+        "displayName": "large yellow onions, cut into 24 large rings",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust the oven racks to the lower-middle and upper-middle positions and heat the oven to 450 degrees. Place 1/4 cup of the flour in a shallow baking dish. Beat the egg and buttermilk in a medium bowl. Whisk the remaining 1/4 cup flour, the salt, black pepper, and cayenne into the buttermilk mixture. Pulse the saltines and chips together in a food processor until finely ground; place in a separate shallow baking dish."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Working one at a time, dredge each onion ring in the flour, shaking off the excess. Dip in the buttermilk mixture, allowing the excess to drip back into the bowl, then drop into the crumb coating, turning the ring over to coat evenly. Transfer to a large plate. (At this point, the onion rings can be refrigerated for up to 1 hour. Let them sit at room temperature for 30 minutes before baking.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Pour 3 tablespoons of the oil onto each of two rimmed baking sheets. Place in the oven and heat until just smoking, about 8 minutes. Carefully tilt the heated sheets to coat evenly with the oil, then arrange the onion rings on the sheets. Bake, flipping the onion rings over and switching and rotating the baking sheets halfway through baking, until golden brown on both sides, about 15 minutes. Briefly drain the onion rings on paper towels. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 58809,
+    "end": 58849,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

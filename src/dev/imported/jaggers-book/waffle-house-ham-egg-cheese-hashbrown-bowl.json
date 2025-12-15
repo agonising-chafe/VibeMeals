@@ -1,0 +1,134 @@
+{
+  "mapped": {
+    "id": "atk_waffle-house-ham-egg-cheese-hashbrown-bowl",
+    "name": "Waffle House Ham, Egg & Cheese Hashbrown Bowl",
+    "slug": "waffle-house-ham-egg-cheese-hashbrown-bowl",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-hearty-breakfast-starts-with-a-base-of-waffle-house-hashbrowns-that-is-topped-with-cheese-scrambled-eggs-and-ham-you-can-also-use-crumbled-cooked-sausage-or-chopped-cooked-bacon",
+        "displayName": "This hearty breakfast starts with a base of Waffle House Hashbrowns that is topped with cheese, scrambled eggs, and ham. You can also use crumbled cooked sausage or chopped cooked bacon.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipes-waffle-house-hashbrowns-prepared-see-recipe-in-this-chapter",
+        "displayName": "recipes Waffle House Hashbrowns, prepared (see recipe in this chapter)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-beaten",
+        "displayName": "large eggs, beaten",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-ham",
+        "displayName": "½ cup diced ham",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-serving-bowl-add-hashbrowns-and-top-with-cheese-slices-set-aside",
+        "displayName": "In a serving bowl, add hashbrowns and top with cheese slices. Set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-an-8-inch-skillet-over-medium-heat-add-butter-once-melted-swirl-to-coat-bottom-of-pan-and-add-eggs-reduce-heat-to-low-and-let-eggs-cook-20-seconds-then-use-a-spatula-to-start-scrambling-eggs-cook-until-eggs-are-set-about-1-minute-transfer-eggs-to-serving-bowl",
+        "displayName": "In an 8-inch skillet over medium heat, add butter. Once melted, swirl to coat bottom of pan and add eggs. Reduce heat to low and let eggs cook 20 seconds, then use a spatula to start scrambling eggs. Cook until eggs are set, about 1 minute. Transfer eggs to serving bowl.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "return-skillet-to-medium-heat-and-add-ham-cook-stirring-often-until-ham-is-hot-and-starting-to-brown-about-3-minutes-transfer-ham-to-bowl-on-top-of-eggs-serve-immediately",
+        "displayName": "Return skillet to medium heat and add ham. Cook, stirring often, until ham is hot and starting to brown, about 3 minutes. Transfer ham to bowl on top of eggs. Serve immediately.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1675,
+    "end": 1709,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,117 @@
+{
+  "mapped": {
+    "id": "atk_grill-roasted-beer-can-chicken",
+    "name": "Grill-Roasted Beer Can Chicken",
+    "slug": "grill-roasted-beer-can-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "can-beer",
+        "displayName": "can beer",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken",
+        "displayName": "(31/2- to 4-pound) whole chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spice-rub-recipe-follows",
+        "displayName": "Spice Rub (recipe follows)",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RUB"
+      },
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-by-9-inch-disposable-aluminum-roasting-pan-if-using-charcoal",
+        "displayName": "(13 by 9-inch) disposable aluminum roasting pan (if using charcoal)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Open beer can and pour out (or drink) about 1/4 cup. With church key can opener, punch 2 more large holes in the top of can (for total of 3 holes). Crumble bay leaves into beer."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pat chicken dry with paper towels. Rub chicken evenly, inside and out, with spice rub, lifting up skin over breast and rubbing spice rub directly onto meat. Using skewer, poke skin all over. Slide chicken over beer can so that drumsticks reach down to bottom of can and chicken stands upright; set aside at room temperature."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Using large piece of heavy-duty aluminum foil, wrap soaked chips in foil packet and cut several vent holes in top."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Clean and oil cooking grate. Place chicken (with can) in center of grill (over roasting pan if using charcoal), using drumsticks to help steady bird. Cover (position lid vent over chicken if using charcoal) and cook until breast registers 160 degrees and thighs register 175 degrees, 1 to 11/2 hours."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Using large wad of paper towels, carefully transfer chicken (with can) to tray, making sure to keep can upright. Tent loosely with foil and let rest for 15 minutes. Carefully lift chicken off can and onto carving board. Discard remaining beer and can. Carve chicken and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 54485,
+    "end": 54525,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,104 @@
+{
+  "mapped": {
+    "id": "atk_sonic-cherry-limeade",
+    "name": "Sonic Cherry Limeade",
+    "slug": "sonic-cherry-limeade",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 1",
+      "baseServings": 1
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sonic-is-known-for-its-burgers-and-refreshing-line-of-drinks-and-slushes-the-most-popular-of-these-is-the-cherry-limeade-which-can-be-made-with-fewer-calories-if-you-swap-regular-sprite-for-sprite-zero",
+        "displayName": "Sonic is known for its burgers and refreshing line of drinks and slushes. The most popular of these is the Cherry Limeade, which can be made with fewer calories if you swap regular Sprite for Sprite Zero.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-sprite",
+        "displayName": "can Sprite",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "juice-of-3-lime-wedges",
+        "displayName": "Juice of 3 lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-cherry-juice",
+        "displayName": "¼ cup cherry juice",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fill-a-16-ounce-glass-two-thirds-of-the-way-with-ice",
+        "displayName": "Fill a 16-ounce glass two-thirds of the way with ice.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-sprite-over-ice-squeeze-lime-juice-into-drink-and-drop-wedges-in-add-cherry-juice-and-stir-gently-to-combine-serve-with-a-straw",
+        "displayName": "Pour Sprite over ice. Squeeze lime juice into drink and drop wedges in. Add cherry juice and stir gently to combine. Serve with a straw.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 11170,
+    "end": 11198,
+    "yieldLine": "SERVES 1"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

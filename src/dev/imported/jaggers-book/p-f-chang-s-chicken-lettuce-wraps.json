@@ -1,0 +1,344 @@
+{
+  "mapped": {
+    "id": "atk_p-f-chang-s-chicken-lettuce-wraps",
+    "name": "P.F. Chang’s Chicken Lettuce Wraps",
+    "slug": "p-f-chang-s-chicken-lettuce-wraps",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 6",
+      "baseServings": 6
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "lettuce-wraps-are-the-most-popular-menu-item-at-p-f-chang-s-they-are-a-delightful-mix-of-crisp-cool-lettuce-and-a-savory-hot-filling-made-of-quickly-cooked-spiced-chicken-and-vegetables",
+        "displayName": "Lettuce wraps are the most popular menu item at P.F. Chang’s. They are a delightful mix of crisp, cool lettuce and a savory hot filling made of quickly cooked spiced chicken and vegetables.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-shiitake-mushrooms",
+        "displayName": "dried shiitake mushrooms",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "hoisin-sauce",
+        "displayName": "hoisin sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-soy-sauce-divided",
+        "displayName": "plus 2 teaspoons soy sauce, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-dry-sherry-divided",
+        "displayName": "plus 2 teaspoons dry sherry, divided",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oyster-sauce",
+        "displayName": "oyster sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-water-divided",
+        "displayName": "plus 2 teaspoons water, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sesame-oil-divided",
+        "displayName": "sesame oil, divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-teaspoon-cornstarch-divided",
+        "displayName": "plus 1 teaspoon cornstarch, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "¼ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pounds-boneless-skinless-chicken-breasts",
+        "displayName": "½ pounds boneless, skinless chicken breasts",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-ginger",
+        "displayName": "minced fresh ginger",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-dried-chilies",
+        "displayName": "small dried chilies",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-green-onions-minced",
+        "displayName": "medium green onions, minced",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-bamboo-shoots-drained-and-minced",
+        "displayName": "can bamboo shoots, drained and minced",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-water-chestnuts-drained-and-minced",
+        "displayName": "can water chestnuts, drained and minced",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "package-prepared-chinese-rice-noodles",
+        "displayName": "package prepared Chinese rice noodles",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-iceberg-lettuce-leaves",
+        "displayName": "large iceberg lettuce leaves",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-mushrooms-with-boiling-water-let-stand-30-minutes-then-drain-cut-and-discard-stems-and-then-mince-mushrooms-set-aside",
+        "displayName": "Cover mushrooms with boiling water, let stand 30 minutes, then drain. Cut and discard stems and then mince mushrooms. Set aside.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-mix-together-hoisin-sauce-1-tablespoon-soy-sauce-1-tablespoon-sherry-oyster-sauce-1-tablespoon-water-sesame-oil-sugar-and-2-teaspoons-cornstarch-set-aside",
+        "displayName": "In a medium bowl, mix together hoisin sauce, 1 tablespoon soy sauce, 1 tablespoon sherry, oyster sauce, 1 tablespoon water, sesame oil, sugar, and 2 teaspoons cornstarch. Set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-another-medium-bowl-combine-remaining-cornstarch-remaining-sherry-remaining-soy-sauce-remaining-water-salt-pepper-and-chicken-stir-to-coat-chicken-thoroughly-stir-in-1-teaspoon-vegetable-oil-and-marinate-chicken-15-minutes",
+        "displayName": "In another medium bowl, combine remaining cornstarch, remaining sherry, remaining soy sauce, remaining water, salt, pepper, and chicken. Stir to coat chicken thoroughly. Stir in 1 teaspoon vegetable oil and marinate chicken 15 minutes.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-a-wok-or-10-inch-skillet-over-medium-high-heat-add-3-tablespoons-vegetable-oil-then-add-chicken-and-stir-fry-3-4-minutes-transfer-chicken-to-a-plate-and-set-aside",
+        "displayName": "Heat a wok or 10-inch skillet over medium-high heat. Add 3 tablespoons vegetable oil, then add chicken and stir-fry 3–4 minutes. Transfer chicken to a plate and set aside.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-remaining-vegetable-oil-to-pan-add-ginger-garlic-chilies-and-green-onions-and-stir-fry-about-1-minute",
+        "displayName": "Add remaining vegetable oil to pan. Add ginger, garlic, chilies, and green onions and stir-fry, about 1 minute.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-mushrooms-bamboo-shoots-and-water-chestnuts-and-stir-fry-an-additional-2-minutes",
+        "displayName": "Add mushrooms, bamboo shoots, and water chestnuts and stir-fry an additional 2 minutes.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "return-chicken-to-pan-add-prepared-sauce-and-cook-5-minutes-or-until-thickened-and-hot",
+        "displayName": "Return chicken to pan. Add prepared sauce and cook 5 minutes or until thickened and hot.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "break-noodles-into-small-pieces-and-add-to-a-serving-dish-to-cover-bottom-pour-chicken-mixture-over-top-divide-chicken-mixture-and-noodles-evenly-between-lettuce-leaves-and-roll-then-serve",
+        "displayName": "Break noodles into small pieces and add to a serving dish to cover bottom. Pour chicken mixture over top. Divide chicken mixture and noodles evenly between lettuce leaves and roll, then serve.",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 6936,
+    "end": 7012,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

@@ -1,0 +1,206 @@
+{
+  "mapped": {
+    "id": "atk_bittersweet-chocolate-roulade",
+    "name": "Bittersweet Chocolate Roulade",
+    "slug": "bittersweet-chocolate-roulade",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 9,
+      "yieldText": "SERVES 8 to 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "11-4-ounces-unbleached-all-purpose-flour-plus-extra-for-the-pan",
+        "displayName": "(11/4 ounces) unbleached all-purpose flour, plus extra for the pan",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bittersweet-or-semisweet-chocolate-chopped-fine",
+        "displayName": "bittersweet or semisweet chocolate, chopped fine",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cold-unsalted-butter-cut-into-2-pieces",
+        "displayName": "cold unsalted butter, cut into 2 pieces",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cold-water",
+        "displayName": "cold water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dutch-processed-cocoa-powder-sifted-plus-1-tablespoon-for-unmolding",
+        "displayName": "Dutch-processed cocoa powder, sifted, plus 1 tablespoon for unmolding",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-at-room-temperature-and-separated",
+        "displayName": "large eggs, at room temperature and separated",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-3-ounces-sugar",
+        "displayName": "(21/3 ounces) sugar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cream-of-tartar",
+        "displayName": "cream of tartar",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "recipe-espresso-mascarpone-cream",
+        "displayName": "recipe Espresso-Mascarpone Cream",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "recipe-dark-chocolate-ganache",
+        "displayName": "recipe Dark Chocolate Ganache",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GANACHE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the upper-middle position and heat the oven to 400 degrees. Spray a 171/2 by 12-inch rimmed baking sheet with vegetable oil spray, cover the pan bottom with parchment paper, and spray the parchment with vegetable oil spray; dust with flour and tap out the excess."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat the chocolate, butter, and water in a small heatproof bowl set over a saucepan filled with 1 inch of barely simmering water, stirring occasionally until smooth. Set aside to cool slightly. Sift 1/4 cup of the cocoa, the flour, and salt together into a small bowl and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "In a stand mixer fitted with the whisk attachment, beat the egg yolks at medium-high speed until just combined, about 15 seconds. With the mixer running, add half of the sugar. Continue to beat, scraping down the sides of the bowl as necessary, until the yolks are pale yellow and the mixture falls in a thick ribbon when the whisk is lifted, about 8 minutes. Add the vanilla and beat to combine, scraping down the bowl once, about 30 seconds. Turn the mixture into a medium bowl; wash and dry the mixer bowl and whisk attachment."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "In the clean bowl with the clean whisk attachment, beat the egg whites and cream of tartar at medium speed until foamy, about 30 seconds. With the mixer running, add about 1 teaspoon more sugar; continue beating until soft peaks form, about 40 seconds. Gradually add the remaining sugar and beat until the egg whites are glossy and hold stiff peaks when the whisk is lifted, about 1 minute longer. Do not over beat."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Stir the chocolate mixture into the egg yolks. With a rubber spatula, stir one-quarter of the egg whites into the chocolate mixture to lighten it. Fold in the remaining egg whites until almost no streaks remain. Sprinkle the cocoa-flour mixture over the top and fold in quickly but gently."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Pour the batter into the prepared pan; using a spatula and working quickly, even the surface and smooth the batter into the pan corners. Lightly tap the pan against the countertop two or three times to settle the batter. Bake until the center of the cake springs back when touched with a finger, 8 to 10 minutes, rotating the pan halfway through the baking time. Cool the cake in the pan on a wire rack for 5 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "While the cake is cooling, lay a clean dish towel over the work surface and sift the remaining 1 tablespoon cocoa over the towel; rub the cocoa into the towel. Run a small knife around the baking sheet to loosen the cake. Flip the cake onto the towel and peel off the parchment."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Roll the cake, towel and all, into a jellyroll shape. Cool for 15 minutes, then unroll the cake and towel. Using a spatula, immediately spread the filling evenly over the cake, almost to the edges. Roll up the cake gently but snugly around the filling. Set a large sheet of parchment paper on an overturned rimmed baking sheet and set the roulade, seam side down, on top. Trim both ends on the diagonal. Spread the ganache evenly over the roulade. Use a fork to make wood-grain striations, if desired, on the surface of the ganache before the icing has set. Refrigerate the cake, on the baking sheet, uncovered, to slightly set the icing, about 20 minutes."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Carefully slide two wide metal spatulas under the cake and transfer the cake to a serving platter. Cut into slices and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 74493,
+    "end": 74549,
+    "yieldLine": "SERVES 8 to 10"
+  },
+  "fit": true
+}

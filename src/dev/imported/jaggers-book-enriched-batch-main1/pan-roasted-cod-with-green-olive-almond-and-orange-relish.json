@@ -1,0 +1,178 @@
+{
+  "mapped": {
+    "id": "atk_pan-roasted-cod-with-green-olive-almond-and-orange-relish",
+    "name": "Pan-Roasted Cod with Green Olive, Almond, and Orange Relish",
+    "slug": "pan-roasted-cod-with-green-olive-almond-and-orange-relish",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "pitted-brine-cured-green-olives-chopped-coarse",
+        "displayName": "pitted brine-cured green olives, chopped coarse",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RELISH"
+      },
+      {
+        "ingredientId": "toasted-slivered-almonds",
+        "displayName": "toasted slivered almonds",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RELISH",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "small-garlic-clove-minced",
+        "displayName": "small garlic clove, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "RELISH"
+      },
+      {
+        "ingredientId": "grated-zest-plus-1-4-cup-juice-from-1-large-orange",
+        "displayName": "grated zest plus 1/4 cup juice from 1 large orange",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "RELISH"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RELISH"
+      },
+      {
+        "ingredientId": "minced-fresh-mint",
+        "displayName": "minced fresh mint",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "RELISH"
+      },
+      {
+        "ingredientId": "white-wine-vinegar",
+        "displayName": "white wine vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "RELISH"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "Cayenne pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "RELISH"
+      },
+      {
+        "ingredientId": "4-to-6-ounce-skinless-cod-fillets-1-to-11-2-inches-thick",
+        "displayName": "(4- to 6-ounce) skinless cod fillets, 1 to 11/2 inches thick",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE RELISH: Adjust oven rack to middle position and heat oven to 425 degrees. Pulse olives, nuts, garlic, and orange zest in food processor until finely chopped, 10 to 12 pulses. Transfer to bowl and stir in orange juice, oil, mint, and vinegar. Season with salt and cayenne to taste. Set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE COD: Pat cod dry with paper towels, season with salt and pepper, and sprinkle sugar evenly on 1 side of each fillet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat oil in 12-inch ovensafe skillet over medium-high heat until just smoking. Place cod sugared side down in skillet and press lightly to ensure even contact with skillet. Cook until browned on first side, about 2 minutes. Gently flip cod using 2 spatulas, transfer skillet to oven, and roast until fillets register 135 degrees, 7 to 10 minutes. Serve with relish."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43743,
+    "end": 43789,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

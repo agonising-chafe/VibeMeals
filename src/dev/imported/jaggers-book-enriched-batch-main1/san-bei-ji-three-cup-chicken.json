@@ -1,0 +1,192 @@
+{
+  "mapped": {
+    "id": "atk_san-bei-ji-three-cup-chicken",
+    "name": "San Bei Ji (Three-Cup Chicken)",
+    "slug": "san-bei-ji-three-cup-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 55,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "dry-sherry",
+        "displayName": "dry sherry",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "packed-brown-sugar",
+        "displayName": "packed brown sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-trimmed-and-cut-into-2-inch-pieces",
+        "displayName": "boneless, skinless chicken thighs, trimmed and cut into 2-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-inch-piece-ginger-peeled-halved-lengthwise-and-sliced-into-thin-half-rounds",
+        "displayName": "(2-inch) piece ginger, peeled, halved lengthwise, and sliced into thin half-rounds",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled-and-halved-lengthwise",
+        "displayName": "cloves, peeled and halved lengthwise",
+        "amount": 12,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-2-3-4-teaspoon-red-pepper-flakes",
+        "displayName": "1/2–3/4 teaspoon red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "scallions-white-and-green-parts-separated-and-sliced-thin-on-bias",
+        "displayName": "scallions, white and green parts separated and sliced thin on bias",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "thai-basil-leaves-large-leaves-halved-lengthwise",
+        "displayName": "Thai basil leaves, large leaves halved lengthwise",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "toasted-sesame-oil",
+        "displayName": "toasted sesame oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SESAME"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk soy sauce, sherry, and sugar together in medium bowl. Add chicken and toss to coat; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat vegetable oil, ginger, garlic, and pepper flakes in 12-inch nonstick skillet over medium-low heat. Cook, stirring frequently, until garlic is golden brown and beginning to soften, 8 to 10 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add chicken and marinade to skillet, increase heat to medium-high, and bring to simmer. Reduce heat to medium-low and simmer, stirring occasionally, for 10 minutes. Stir in scallion whites and continue to cook until chicken registers about 200 degrees, 8 to 10 minutes longer."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Whisk water and cornstarch together in small bowl, then whisk into sauce; simmer until sauce is slightly thickened, about 1 minute. Remove skillet from heat. Stir in basil, sesame oil, and scallion greens. Transfer to platter and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26048,
+    "end": 26096,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

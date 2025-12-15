@@ -1,0 +1,130 @@
+{
+  "mapped": {
+    "id": "atk_perfect-roast-chicken",
+    "name": "Perfect Roast Chicken",
+    "slug": "perfect-roast-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 3,
+      "yieldText": "SERVES 2 to 3"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken-giblets-discarded",
+        "displayName": "(31/2- to 4-pound) whole chicken, giblets discarded",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-softened",
+        "displayName": "unsalted butter, softened",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Brine the chicken",
+        "durationMinutes": 60,
+        "startOffsetMinutes": 60,
+        "strategy": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve the salt and sugar in 2 quarts cold water in a large container. Submerge the chicken in the brine, cover, and refrigerate for 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust an oven rack to the lower-middle position, place a roasting pan on the rack, and heat the oven to 400 degrees. Coat a V-rack with vegetable oil spray and set aside. Remove the chicken from the brine, rinse well, and pat dry with paper towels."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Use your fingers to gently loosen the center portion of the skin covering each breast; place the butter under the skin, directly on the meat in the center of each breast. Gently press on the skin to distribute the butter over the meat. Tuck the wings behind the back. Rub the skin with the oil, season with pepper, and place the chicken, wing side up, on the prepared V-rack. Place the V-rack in the preheated roasting pan and roast for 15 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove the roasting pan from the oven and, using two large wads of paper towels, rotate the chicken so that the opposite wing side is facing up. Return the roasting pan to the oven and roast for another 15 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Using two large wads of paper towels, rotate the chicken again so that the breast side is facing up and continue to roast until the thickest part of the breasts registers 160 to 165 degrees and the thickest part of the thighs registers 175 degrees on an instant-read thermometer, 20 to 25 minutes longer. Transfer the chicken to a carving board and let rest for 10 minutes. Carve the chicken and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27065,
+    "end": 27101,
+    "yieldLine": "SERVES 2 to 3"
+  },
+  "fit": true
+}

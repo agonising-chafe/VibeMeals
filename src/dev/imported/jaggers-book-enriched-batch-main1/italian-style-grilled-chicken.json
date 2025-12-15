@@ -1,0 +1,148 @@
+{
+  "mapped": {
+    "id": "atk_italian-style-grilled-chicken",
+    "name": "Italian-Style Grilled Chicken",
+    "slug": "italian-style-grilled-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "GRILL",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 8,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-lemon-zest-plus-2-tablespoons-juice",
+        "displayName": "grated lemon zest plus 2 tablespoons juice",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-red-pepper-flakes",
+        "displayName": "Pinch red pepper flakes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-fresh-rosemary",
+        "displayName": "minced fresh rosemary",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "31-2-to-4-pound-whole-chicken",
+        "displayName": "(31/2- to 4-pound) whole chicken",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-and-pepper",
+        "displayName": "Table salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate chicken on wire rack for 1 to 2 hours.",
+        "durationMinutes": 60,
+        "kind": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil, garlic, lemon zest, and pepper flakes in small saucepan over medium-low heat until sizzling, about 3 minutes. Stir in 1 tablespoon thyme and 2 teaspoons rosemary and continue to cook for 30 seconds longer. Strain mixture through fine-mesh strainer set over small bowl, pushing on solids to extract oil. Transfer solids to bowl and cool; set oil and solids aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "TO BUTTERFLY CHICKEN: Use kitchen shears to cut along both sides of backbone to remove it. Flatten breastbone and tuck wings behind back. Use hands or handle of wooden spoon to loosen skin over breast and thighs and remove any excess fat."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Combine 11/2 teaspoons salt and 1 teaspoon pepper in bowl. Mix 2 teaspoons salt mixture with cooled garlic solids. Spread salt-garlic mixture evenly under skin over chicken breast and thighs. Sprinkle remaining 1/2 teaspoon salt mixture on exposed meat of bone side. Place chicken skin side up on wire rack set in rimmed baking sheet and refrigerate for 1 to 2 hours."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Clean and oil cooking grate. Place chicken on cooler side of grill, skin side down, with legs facing coals and flames. Place hot bricks lengthwise over each breast half, cover, and cook until skin is lightly browned and faint grill marks appear, 22 to 25 minutes. Remove bricks from chicken. Using tongs, grip legs and flip chicken (chicken should release freely from grill; use thin metal spatula to loosen if stuck), then transfer to hot side of grill, skin side up. Place bricks over breast, cover, and cook until chicken is well browned, 12 to 15 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove bricks, flip chicken skin side down, and continue to cook until skin is well browned and breast registers 160 degrees and thighs register 175 degrees, 5 to 10 minutes longer. Transfer chicken to carving board, tent loosely with foil, and let rest for 15 minutes."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Whisk lemon juice, remaining 1 teaspoon thyme, and remaining 1 teaspoon rosemary into reserved oil and season with salt and pepper to taste. Carve chicken and serve, passing sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 54555,
+    "end": 54601,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

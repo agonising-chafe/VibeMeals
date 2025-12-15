@@ -1,0 +1,265 @@
+{
+  "mapped": {
+    "id": "atk_orange-flavored-chicken",
+    "name": "Orange-Flavored Chicken",
+    "slug": "orange-flavored-chicken",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "juice-11-2-teaspoons-grated-zest-and-8-strips-peel-each-about-2-inches-long-by-1-2-inch-wide-from-2-oranges",
+        "displayName": "juice, 11/2 teaspoons grated zest, and 8 strips peel (each about 2 inches long by 1/2 inch wide) from 2 oranges",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-minced-or-pressed-through-a-garlic-press-about-1-tablespoon",
+        "displayName": "medium garlic cloves, minced or pressed through a garlic press (about 1 tablespoon)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "minced-or-grated-fresh-ginger",
+        "displayName": "minced or grated fresh ginger",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "boneless-skinless-chicken-thighs-trimmed-and-cut-into-11-2-inch-pieces",
+        "displayName": "boneless, skinless chicken thighs, trimmed and cut into 11/2-inch pieces",
+        "amount": 1.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "component": "MAIN"
+      },
+      {
+        "ingredientId": "cold-water",
+        "displayName": "cold water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "plus-2-teaspoons-cornstarch",
+        "displayName": "plus 2 teaspoons cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "small-whole-dried-red-chiles-optional",
+        "displayName": "small whole dried red chiles (optional)",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "large-egg-whites",
+        "displayName": "large egg whites",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "COATING",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "COATING"
+      },
+      {
+        "ingredientId": "peanut-or-vegetable-oil",
+        "displayName": "peanut or vegetable oil",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Marinate chicken",
+        "durationMinutes": 60,
+        "timeUnitsBeforePrep": 60,
+        "type": "MARINATE"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MARINADE AND SAUCE: Whisk the broth, orange juice, grated zest, sugar, vinegar, soy sauce, garlic, ginger, and cayenne together in a large saucepan until the sugar is fully dissolved. Transfer 3/4 cup of the mixture to a medium bowl and add the chicken. Let marinate for at least 10 minutes or up to 1 hour."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "In a small bowl, stir the cold water and cornstarch together. Bring the remaining mixture in the saucepan to a simmer over high heat. Whisk the cornstarch mixture into the sauce, bring to a simmer, and cook, stirring occasionally, until thick and translucent, about 1 minute. Off the heat, stir in the orange peel and chiles (if using) and set aside. (The sauce should measure 11/2 cups.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE COATING: Using a fork, lightly beat the egg whites in a shallow dish until frothy. In a second shallow dish, whisk the cornstarch, baking soda, and cayenne together until combined. Drain the chicken and pat dry with paper towels. Place half of the chicken pieces in the egg whites and turn to coat. Transfer the chicken pieces to the cornstarch mixture and coat thoroughly. Place the dredged chicken pieces on a wire rack set over a baking sheet. Repeat with the remaining chicken pieces."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "TO FRY THE CHICKEN: Heat the oil in a Dutch oven over high heat until the oil registers 350 degrees on an instant-read or deep-fry thermometer. Carefully place half of the chicken in the oil and fry until golden brown, about 5 minutes, turning each piece with tongs halfway through. Transfer the chicken pieces to a paper towel–lined plate. Return the oil to 350 degrees and repeat with the remaining chicken."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "TO SERVE: Reheat the sauce over medium heat until simmering, about 2 minutes. Add the chicken and toss gently until evenly coated and heated through. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "EGG",
+      "PEANUT",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 26097,
+    "end": 26163,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

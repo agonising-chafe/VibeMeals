@@ -1,0 +1,125 @@
+{
+  "mapped": {
+    "id": "atk_easy-grilled-boneless-pork-chops",
+    "name": "Easy Grilled Boneless Pork Chops",
+    "slug": "easy-grilled-boneless-pork-chops",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "6-to-8-ounce-boneless-pork-chops-3-4-to-1-inch-thick",
+        "displayName": "(6- to 8-ounce) boneless pork chops, 3/4 to 1 inch thick",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-for-brining",
+        "displayName": "table salt for brining",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "anchovy-paste",
+        "displayName": "anchovy paste",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "recipe-onion-olive-and-caper-relish-optional-this-page",
+        "displayName": "recipe Onion, Olive, and Caper Relish (optional) (this page)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut 2 slits about 1 inch apart through outer layer of fat and connective tissue on each chop to prevent buckling. Dissolve salt in 11/2 quarts cold water in large container. Submerge chops in brine and let stand at room temperature for 30 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Whisk together oil, honey, anchovy paste, and pepper to form smooth paste. Remove pork from brine and pat dry with paper towels. Using spoon, spread half of oil mixture evenly over 1 side of each chop (about 1/4 teaspoon per side)."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Place chops, oiled side down, over hotter part of grill and cook, uncovered, until well browned on first side, 4 to 6 minutes. While chops are grilling, spread remaining oil mixture evenly over second side of chops. Flip chops and continue to cook until chops register 140 to 145 degrees, 4 to 6 minutes longer (if chops are well browned but register less than 140 degrees, move to cooler part of grill to finish cooking). Transfer chops to plate and let rest for 5 minutes. Serve with relish, if using."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 51233,
+    "end": 51271,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

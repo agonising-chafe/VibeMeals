@@ -1,0 +1,199 @@
+{
+  "mapped": {
+    "id": "atk_drunken-beans",
+    "name": "Drunken Beans",
+    "slug": "drunken-beans",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 600,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 as a main dish"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "21-2-cups-dried-pinto-beans-picked-over-and-rinsed",
+        "displayName": "(21/2 cups) dried pinto beans, picked over and rinsed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-cilantro-1-bunch",
+        "displayName": "sprigs fresh cilantro (1 bunch)",
+        "amount": 30,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "bacon-cut-into-1-4-inch-pieces",
+        "displayName": "bacon, cut into 1/4-inch pieces",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "poblano-chiles-stemmed-seeded-and-chopped-fine",
+        "displayName": "poblano chiles, stemmed, seeded, and chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tequila",
+        "displayName": "tequila",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mexican-lager",
+        "displayName": "Mexican lager",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-paste",
+        "displayName": "tomato paste",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "limes-quartered",
+        "displayName": "limes, quartered",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "cotija-cheese-crumbled-1-2-cup",
+        "displayName": "cotija cheese, crumbled (1/2 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "NON_CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 8,
+        "description": "Soak beans in salted water for at least 8 hours or up to 24 hours.",
+        "kind": "SOAK",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 3 tablespoons salt in 4 quarts cold water in large bowl or container. Add beans and soak at room temperature for at least 8 hours or up to 24 hours. Drain and rinse well."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 275 degrees. Pick leaves from 20 cilantro sprigs (reserve stems), mince, and refrigerate until needed. Using kitchen twine, tie remaining 10 cilantro sprigs and reserved stems into bundle."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Cook bacon in Dutch oven over medium heat, stirring occasionally, until crisp, 5 to 8 minutes. Using slotted spoon, transfer bacon to paper towel–lined bowl and set aside. Add onion, poblanos, and garlic to fat in pot and cook, stirring frequently, until vegetables are softened, 6 to 7 minutes. Remove from heat. Add tequila and cook until evaporated, 3 to 4 minutes. Return to heat. Increase heat to high; stir in 31/2 cups water, bay leaves, 1 teaspoon salt, beans, and cilantro bundle; and bring to boil. Cover, transfer to oven, and cook until beans are just soft, 45 to 60 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove pot from oven. Discard bay leaves and cilantro bundle. Stir in beer and tomato paste and bring to simmer over medium-low heat. Simmer vigorously, stirring frequently, until liquid is thick and beans are fully tender, about 30 minutes. Season with salt to taste. Serve, passing minced cilantro, lime wedges, cotija, and reserved bacon separately. (Cooled beans can be refrigerated in an airtight container for up to 2 days. Before reheating, thin beans slightly with water.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61233,
+    "end": 61281,
+    "yieldLine": "SERVES 6 as a main dish"
+  },
+  "fit": true
+}

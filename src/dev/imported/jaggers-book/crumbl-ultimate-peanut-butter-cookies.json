@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_crumbl-ultimate-peanut-butter-cookies",
+    "name": "Crumbl Ultimate Peanut Butter Cookies",
+    "slug": "crumbl-ultimate-peanut-butter-cookies",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "you-can-dress-these-cookies-up-a-bit-by-topping-them-with-a-smear-of-creamy-peanut-butter-and-a-sprinkle-of-chopped-peanut-butter-cups-you-can-also-fold-cup-peanut-butter-chips-in-the-batter-for-more-texture-and-peanut-butter-flavor",
+        "displayName": "You can dress these cookies up a bit by topping them with a smear of creamy peanut butter and a sprinkle of chopped peanut butter cups. You can also fold ¾ cup peanut butter chips in the batter for more texture and peanut butter flavor.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-creamy-peanut-butter",
+        "displayName": "½ cup creamy peanut butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-unsalted-butter-room-temperature",
+        "displayName": "⅓ cup unsalted butter, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-packed-light-brown-sugar",
+        "displayName": "⅔ cup packed light brown sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "granulated-sugar",
+        "displayName": "granulated sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-room-temperature",
+        "displayName": "large egg, room temperature",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pure-vanilla-extract",
+        "displayName": "pure vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-all-purpose-flour",
+        "displayName": "¼ cups all-purpose flour",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-baking-soda",
+        "displayName": "½ teaspoon baking soda",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "¼ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-work-bowl-of-a-stand-mixer-fitted-with-paddle-attachment-or-in-a-medium-bowl-with-a-hand-mixer-combine-peanut-butter-and-butter-beat-on-low-speed-to-mix-then-increase-speed-to-medium-and-beat-30-seconds-or-until-well-combined-and-fluffy-add-brown-sugar-and-granulated-sugar-and-mix-on-low-speed-until-well-combined-about-20-seconds",
+        "displayName": "In work bowl of a stand mixer fitted with paddle attachment or in a medium bowl with a hand mixer, combine peanut butter and butter. Beat on low speed to mix, then increase speed to medium and beat 30 seconds or until well combined and fluffy. Add brown sugar and granulated sugar and mix on low speed until well combined, about 20 seconds.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-egg-and-vanilla-and-mix-on-low-speed-10-seconds-then-increase-speed-to-medium-and-beat-until-well-combined-about-30-seconds",
+        "displayName": "Add egg and vanilla and mix on low speed 10 seconds, then increase speed to medium and beat until well combined, about 30 seconds.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-separate-medium-bowl-sift-together-flour-baking-soda-and-salt-add-dry-ingredients-to-wet-ingredients-and-mix-on-low-speed-until-combined-about-20-seconds",
+        "displayName": "In a separate medium bowl, sift together flour, baking soda, and salt. Add dry ingredients to wet ingredients and mix on low speed until combined, about 20 seconds.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-dough-and-refrigerate-2-hours-or-overnight",
+        "displayName": "Cover dough and refrigerate 2 hours or overnight.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f-and-line-a-half-sheet-pan-with-parchment-scoop-dough-into-eight-balls-place-four-balls-on-prepared-sheet-pan-and-flatten-with-tines-of-a-fork-to-form-a-crosshatch-pattern-on-cookie",
+        "displayName": "Preheat oven to 350°F and line a half sheet pan with parchment. Scoop dough into eight balls. Place four balls on prepared sheet pan and flatten with tines of a fork to form a crosshatch pattern on cookie.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bake-12-15-minutes-until-cookies-are-set-in-center-and-lightly-puffed-cool-10-minutes-on-pan-before-transferring-to-a-wire-rack-to-cool-completely-repeat-with-remaining-dough-balls-serve-warm-or-at-room-temperature",
+        "displayName": "Bake 12–15 minutes until cookies are set in center and lightly puffed. Cool 10 minutes on pan before transferring to a wire rack to cool completely. Repeat with remaining dough balls. Serve warm or at room temperature.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 10178,
+    "end": 10226,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

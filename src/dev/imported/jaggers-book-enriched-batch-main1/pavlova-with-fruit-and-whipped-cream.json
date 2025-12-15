@@ -1,0 +1,157 @@
+{
+  "mapped": {
+    "id": "atk_pavlova-with-fruit-and-whipped-cream",
+    "name": "Pavlova with Fruit and Whipped Cream",
+    "slug": "pavlova-with-fruit-and-whipped-cream",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 10,
+      "yieldText": "SERVES 10"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "101-2-ounces-sugar",
+        "displayName": "(101/2 ounces) sugar",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-ounces-egg-whites-5-to-7-large-eggs",
+        "displayName": "(6 ounces) egg whites (5 to 7 large eggs)",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heavy-cream-chilled",
+        "displayName": "heavy cream, chilled",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "WHIPPED CREAM",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "WHIPPED CREAM"
+      },
+      {
+        "ingredientId": "recipe-orange-cranberry-and-mint-topping",
+        "displayName": "recipe Orange, Cranberry, and Mint Topping",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "TOPPING"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MERINGUE: Adjust oven rack to middle position and heat oven to 250 degrees. Using pencil, draw 10-inch circle in center of 18 by 13-inch piece of parchment paper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine sugar and egg whites in bowl of stand mixer; place bowl over saucepan filled with 1 inch simmering water, making sure that water does not touch bottom of bowl. Whisking gently but constantly, heat until sugar is dissolved and mixture registers 160 to 165 degrees, 5 to 8 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Fit stand mixer with whisk attachment and whip mixture on high speed until meringue forms stiff peaks, is smooth and creamy, and is bright white with sheen, about 4 minutes (bowl may still be slightly warm to touch). Stop mixer and scrape down bowl with spatula. Add vinegar, cornstarch, and vanilla and whip on high speed until combined, about 10 seconds."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Spoon about 1/4 teaspoon meringue onto each corner of rimmed baking sheet. Press parchment, marked side down, onto sheet to secure. Pile meringue in center of circle on parchment. Using circle as guide, spread and smooth meringue with back of spoon or spatula from center outward, building 10-inch disk that is slightly higher around edges. Finished disk should measure about 1 inch high with 1/4-inch depression in center."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Bake meringue until exterior is dry and crisp and meringue releases cleanly from parchment when gently lifted at edge with thin metal spatula, 1 to 11/2 hours. Meringue should be quite pale (a hint of creamy color is OK). Turn off oven, prop door open with wooden spoon, and let meringue cool in oven for 11/2 hours. Remove from oven and let cool completely before topping, about 15 minutes. (Cooled meringue can be wrapped tightly in plastic wrap and stored at room temperature for up to 1 week.)"
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "FOR THE WHIPPED CREAM: Whip cream and sugar in chilled bowl of stand mixer fitted with whisk attachment on low speed until small bubbles form, about 30 seconds. Increase speed to medium and whip until whisk leaves trail, about 30 seconds. Increase speed to high and continue to whip until cream is smooth, thick, and nearly doubled in volume, about 20 seconds longer for soft peaks. If necessary, finish whipping by hand to adjust consistency."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Carefully peel meringue away from parchment and place on large serving platter. Spoon whipped cream into center of meringue. Top whipped cream with fruit topping. Let stand for at least 5 minutes or up to 1 hour, then slice and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "EGG",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 76876,
+    "end": 76933,
+    "yieldLine": "SERVES 10"
+  },
+  "fit": true
+}

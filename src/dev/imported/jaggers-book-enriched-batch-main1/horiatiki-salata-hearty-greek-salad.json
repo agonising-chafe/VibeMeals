@@ -1,0 +1,168 @@
+{
+  "mapped": {
+    "id": "atk_horiatiki-salata-hearty-greek-salad",
+    "name": "Horiatiki Salata (Hearty Greek Salad)",
+    "slug": "horiatiki-salata-hearty-greek-salad",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 35,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "tomatoes-cored",
+        "displayName": "tomatoes, cored",
+        "amount": 1.75,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-plus-salt-for-salting-tomatoes",
+        "displayName": "table salt, plus salt for salting tomatoes",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-onion-sliced-thin",
+        "displayName": "red onion, sliced thin",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "displayName": "red wine vinegar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano-plus-extra-for-seasoning",
+        "displayName": "dried oregano, plus extra for seasoning",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "english-cucumber-quartered-lengthwise-and-cut-into-3-4-inch-chunks",
+        "displayName": "English cucumber, quartered lengthwise and cut into 3/4-inch chunks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bell-pepper-stemmed-seeded-and-cut-into-2-by-1-2-inch-strips",
+        "displayName": "bell pepper, stemmed, seeded, and cut into 2 by 1/2-inch strips",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pitted-kalamata-olives",
+        "displayName": "pitted kalamata olives",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "capers-rinsed",
+        "displayName": "capers, rinsed",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "block-feta-cheese-sliced-into-1-2-inch-thick-triangles",
+        "displayName": "block feta cheese, sliced into 1/2-inch-thick triangles",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut tomatoes into 1/2-inch-thick wedges. Cut wedges in half crosswise. Toss tomatoes and 1/2 teaspoon salt together in colander set in large bowl. Let drain for 30 minutes. Place onion in small bowl, cover with ice water, and let sit for 15 minutes. Whisk vinegar, oregano, pepper, and salt together in second small bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Discard tomato juice and transfer tomatoes to now-empty bowl. Drain onion and add to bowl with tomatoes. Add vinegar mixture, cucumber, bell pepper, olives, and capers and toss to combine. Drizzle with 1/4 cup oil and toss gently to coat. Season with salt and pepper to taste. Transfer to serving platter and top with feta. Season each slice of feta with extra oregano to taste. Drizzle feta with remaining 1 tablespoon oil. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 13384,
+    "end": 13426,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

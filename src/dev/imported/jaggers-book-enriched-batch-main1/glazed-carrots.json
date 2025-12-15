@@ -1,0 +1,119 @@
+{
+  "mapped": {
+    "id": "atk_glazed-carrots",
+    "name": "Glazed Carrots",
+    "slug": "glazed-carrots",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 20,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "carrots-about-6-medium-peeled-and-sliced-1-4-inch-thick-on-the-bias",
+        "displayName": "carrots (about 6 medium), peeled and sliced 1/4 inch thick on the bias",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-4-pieces",
+        "displayName": "unsalted butter, cut into 4 pieces",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "juice-from-1-lemon",
+        "displayName": "juice from 1 lemon",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring the carrots, broth, 1 tablespoon of the sugar, and the salt to a boil in a 12-inch nonstick skillet, covered, over medium-high heat. Reduce the heat to medium and simmer, stirring occasionally, until the carrots are almost tender when poked with the tip of a paring knife, about 5 minutes. Uncover, increase the heat to high, and simmer rapidly, stirring occasionally, until the liquid is reduced to about 2 tablespoons, 1 to 2 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add the remaining 2 tablespoons sugar and the butter to the skillet. Toss the carrots to coat and cook, stirring frequently, until the carrots are completely tender and the glaze is light gold, about 3 minutes. Off the heat, add the lemon juice and toss to coat. Transfer the carrots to a dish, scraping the glaze from the pan into the dish. Season with pepper to taste and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 57634,
+    "end": 57666,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

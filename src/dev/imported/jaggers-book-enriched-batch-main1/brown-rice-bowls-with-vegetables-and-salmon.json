@@ -1,0 +1,225 @@
+{
+  "mapped": {
+    "id": "atk_brown-rice-bowls-with-vegetables-and-salmon",
+    "name": "Brown Rice Bowls with Vegetables and Salmon",
+    "slug": "brown-rice-bowls-with-vegetables-and-salmon",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "vegetable-oil-divided",
+        "displayName": "vegetable oil, divided",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-white-and-green-parts-separated-and-sliced-thin-on-bias",
+        "displayName": "scallions, white and green parts separated and sliced thin on bias",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger-divided",
+        "displayName": "grated fresh ginger, divided",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "table-salt-divided-plus-salt-for-cooking-rice",
+        "displayName": "table salt, divided, plus salt for cooking rice",
+        "amount": 1.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "english-cucumber-quartered-lengthwise-seeded-and-sliced-on-bias-1-4-inch-thick",
+        "displayName": "English cucumber, quartered lengthwise, seeded, and sliced on bias 1/4 inch thick",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "CUCUMBER SALAD"
+      },
+      {
+        "ingredientId": "short-grain-brown-rice",
+        "displayName": "short-grain brown rice",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-sliced-on-bias-1-2-inch-thick",
+        "displayName": "carrots, peeled and sliced on bias 1/2 inch thick",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shiitake-mushrooms-stemmed-caps-larger-than-2-inches-halved",
+        "displayName": "shiitake mushrooms, stemmed, caps larger than 2 inches halved",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "skin-on-salmon-fillet-11-2-inches-thick-sliced-crosswise-into-4-equal-pieces",
+        "displayName": "skin-on salmon fillet, 11/2 inches thick, sliced crosswise into 4 equal pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "hoisin-sauce-divided",
+        "displayName": "hoisin sauce, divided",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "DRESSING"
+      },
+      {
+        "ingredientId": "sesame-seeds-toasted",
+        "displayName": "sesame seeds, toasted",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "sriracha-optional",
+        "displayName": "Sriracha (optional)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lowest position and heat oven to 500 degrees. Heat 2 tablespoons oil in large saucepan over medium heat until shimmering. Add scallion whites and 11/2 teaspoons ginger and cook, stirring constantly, until fragrant, about 30 seconds. Transfer scallion mixture to small bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring 6 cups water to boil in now-empty saucepan. While water is coming to boil, whisk vinegar, sugar, 3/4 teaspoon salt, and remaining 1/2 teaspoon ginger in medium bowl until sugar is dissolved. Add cucumber and stir until coated. Set aside, stirring occasionally."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add rice and 1 teaspoon salt to boiling water. Reduce heat and simmer until rice is tender, about 30 minutes. Drain rice well and return it to saucepan. Cover and set aside."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "While rice is cooking, toss carrots with 1 tablespoon oil and 1/2 teaspoon salt. Spread in even layer on half of rimmed baking sheet. Toss mushrooms with 2 tablespoons water, remaining 1 tablespoon oil, and remaining 1/2 teaspoon salt and spread in even layer on other half of sheet. Roast until vegetables are just beginning to soften and brown, about 10 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "While vegetables are cooking, make 2 shallow slashes about 1 inch apart along skin side of each piece of salmon, being careful not to cut into flesh. Brush flesh side of each piece with 1/2 teaspoon hoisin."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Reduce oven temperature to 275 degrees and remove baking sheet. Push vegetables to either side to clear space in middle of sheet. Carefully place salmon, skin side down, in clearing. Return sheet to oven and roast until vegetables are tender and browned and fillets register 125 degrees (for medium-rare), 10 to 12 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Measure out 1/4 cup cucumber liquid and add to scallion mixture. Whisk in remaining 2 teaspoons hoisin. Stir 2 tablespoons dressing into rice."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Spoon rice into 4 wide bowls. Place 1 piece of salmon on top of rice. Arrange carrots, mushrooms, and cucumbers in piles that cover rice. Drizzle salmon and vegetables with remaining dressing. Sprinkle with sesame seeds and scallion greens. Serve, passing sriracha separately, if using."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 42808,
+    "end": 42870,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

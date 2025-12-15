@@ -1,0 +1,160 @@
+{
+  "mapped": {
+    "id": "atk_rustic-country-bread",
+    "name": "Rustic Country Bread",
+    "slug": "rustic-country-bread",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 570,
+      "leftoverStrategy": "COOK_ONCE_EAT_TWICE",
+      "yieldText": "MAKES 1 large round loaf",
+      "baseServings": 1,
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "water-at-room-temperature",
+        "displayName": "water, at room temperature",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "51-2-ounces-bread-flour",
+        "displayName": "(51/2 ounces) bread flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "51-2-ounces-whole-wheat-flour",
+        "displayName": "(51/2 ounces) whole-wheat flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "161-2-to-191-4-ounces-bread-flour-plus-extra-for-the-dough-and-work-surface",
+        "displayName": "(161/2 to 191/4 ounces) bread flour, plus extra for the dough and work surface",
+        "amount": 165.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "23-4-ounces-rye-flour",
+        "displayName": "(23/4 ounces) rye flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-at-room-temperature",
+        "displayName": "water, at room temperature",
+        "amount": 1.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Prepare the sponge",
+        "durationMinutes": 300,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE SPONGE: Combine the water and yeast in a medium bowl and stir until the yeast is dissolved. Add the flours and stir with a rubber spatula to create a stiff, wet dough. Cover the bowl with plastic wrap and let sit at room temperature for at least 5 hours or up to 24 hours. (The sponge can be refrigerated for up to 24 hours; return to room temperature before continuing with the recipe.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE DOUGH: Using a rubber spatula, combine 3 cups of the bread flour, the rye flour, water, honey, and sponge in the bowl of a stand mixer. Knead the dough on low speed with the dough hook until smooth, about 15 minutes, adding the salt during the final 3 minutes. If more flour is needed, add the remaining 1/2 cup bread flour, 1 tablespoon at a time, until the dough clears the sides of the bowl but sticks to the bottom. Lightly oil a large bowl; transfer the dough to the bowl and cover with plastic wrap. Let the dough rise until tripled in size, about 2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer the dough to a lightly floured work surface. Flour the top of the dough. With floured hands, shape the dough into a round by pulling the edges into the middle and gathering it loosely together. Transfer the dough, seam side down, to an inverted baking sheet lined with parchment paper. Cover with plastic wrap and let rise until almost doubled in size, about 45 minutes. (The dough should barely spring back when poked with a knuckle.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, adjust an oven rack to the lower-middle position, place a baking stone on the rack, and heat the oven to 450 degrees at least 30 minutes before baking."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Use a razor blade or sharp knife to cut three slashes on the top of the dough. With scissors, trim the excess parchment around the dough. Lightly spray the dough with water."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Carefully slide the parchment with the dough onto the baking stone using a jerking motion. Bake until the crust is very dark brown and the center registers 210 degrees on an instant-read thermometer, 35 to 40 minutes, rotating the bread halfway through baking. Turn the oven off, open the oven door, and let the bread remain in the oven 10 minutes longer. Remove from the oven, transfer to a wire rack, and cool to room temperature, about 2 hours."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 64502,
+    "end": 64550,
+    "yieldLine": "MAKES 1 large round loaf"
+  },
+  "fit": true
+}

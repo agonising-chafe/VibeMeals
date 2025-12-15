@@ -1,0 +1,209 @@
+{
+  "mapped": {
+    "id": "atk_buffalo-cauliflower-bites",
+    "name": "Buffalo Cauliflower Bites",
+    "slug": "buffalo-cauliflower-bites",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "coconut-oil",
+        "displayName": "coconut oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "hot sauce",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "packed-dark-brown-sugar",
+        "displayName": "packed dark brown sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "displayName": "cider vinegar",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "quarts-peanut-or-vegetable-oil-for-frying",
+        "displayName": "quarts peanut or vegetable oil for frying",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "PEANUT",
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BATTER"
+      },
+      {
+        "ingredientId": "cornmeal",
+        "displayName": "cornmeal",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BATTER"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BATTER"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BATTER"
+      },
+      {
+        "ingredientId": "canned-coconut-milk",
+        "displayName": "canned coconut milk",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BATTER",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "displayName": "hot sauce",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BATTER"
+      },
+      {
+        "ingredientId": "cauliflower-florets-cut-into-11-2-inch-pieces",
+        "displayName": "cauliflower florets, cut into 11/2-inch pieces",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "recipe-vegan-ranch-dressing",
+        "displayName": "recipe Vegan Ranch Dressing",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE BUFFALO SAUCE: Melt coconut oil in small saucepan over low heat. Whisk in hot sauce, brown sugar, and vinegar until combined. Remove from heat and cover to keep warm; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE CAULIFLOWER: Line platter with triple layer of paper towels. Add oil to large Dutch oven until it measures about 11/2 inches deep and heat over medium-high heat to 400 degrees. While oil heats, combine cornstarch, cornmeal, salt, and pepper in small bowl. Whisk coconut milk and hot sauce together in large bowl. Add cauliflower and toss to coat well. Sprinkle cornstarch mixture over cauliflower; fold with rubber spatula until thoroughly coated."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Fry half of cauliflower, adding 1 or 2 pieces to oil at a time, until golden and crisp, gently stirring as needed to prevent pieces from sticking together, about 3 minutes. Using slotted spoon, transfer fried cauliflower to prepared platter."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Return oil to 400 degrees and repeat with remaining cauliflower. Transfer 1/2 cup sauce to clean large bowl, add fried cauliflower, and toss gently to coat. Serve immediately with dressing and remaining sauce."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "PEANUT",
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 946,
+    "end": 998,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,174 @@
+{
+  "mapped": {
+    "id": "atk_ihop-new-york-cheesecake-pancakes",
+    "name": "IHOP New York Cheesecake Pancakes",
+    "slug": "ihop-new-york-cheesecake-pancakes",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 5 (YIELDS 15 PANCAKES)",
+      "baseServings": 5
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "new-york-cheesecake-pancakes-have-become-one-of-ihop-s-most-popular-signature-pancakes-they-feature-rich-cream-cheese-studded-pancakes-topped-with-strawberry-jam-and-whipped-cream",
+        "displayName": "New York Cheesecake Pancakes have become one of IHOP’s most popular signature pancakes. They feature rich cream cheese–studded pancakes topped with strawberry jam and whipped cream.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "package-cream-cheese",
+        "displayName": "package cream cheese",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pancake-mix",
+        "displayName": "pancake mix",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-graham-cracker-crumbs",
+        "displayName": "½ cup graham cracker crumbs",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-granulated-sugar",
+        "displayName": "¼ cup granulated sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "whole-milk",
+        "displayName": "whole milk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cream-cheese-into-four-pieces-and-freeze-overnight",
+        "displayName": "cream cheese into four pieces and freeze overnight.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "the-next-day-preheat-a-griddle-over-medium-high-heat",
+        "displayName": "The next day, preheat a griddle over medium-high heat.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-large-bowl-combine-pancake-mix-graham-cracker-crumbs-sugar-milk-and-eggs-cut-frozen-cream-cheese-into-bite-sized-pieces-and-add-to-batter",
+        "displayName": "In a large bowl, combine pancake mix, graham cracker crumbs, sugar, milk, and eggs. Cut frozen cream cheese into bite-sized pieces and add to batter.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spray-griddle-with-nonstick-cooking-spray",
+        "displayName": "Spray griddle with nonstick cooking spray.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-cup-batter-onto-hot-griddle-and-cook-2-minutes-per-side-or-until-browned-transfer-to-a-plate-and-cover-with-a-clean-towel-to-keep-warm-while-you-prepare-remaining-batter-repeat-with-remaining-batter-serve",
+        "displayName": "Add ⅓ cup batter onto hot griddle and cook 2 minutes per side or until browned. Transfer to a plate and cover with a clean towel to keep warm while you prepare remaining batter. Repeat with remaining batter. Serve.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1370,
+    "end": 1416,
+    "yieldLine": "SERVES 5 (YIELDS 15 PANCAKES)"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

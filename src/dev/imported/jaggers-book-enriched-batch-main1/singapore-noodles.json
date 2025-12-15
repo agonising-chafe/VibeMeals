@@ -1,0 +1,237 @@
+{
+  "mapped": {
+    "id": "atk_singapore-noodles",
+    "name": "Singapore Noodles",
+    "slug": "singapore-noodles",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "plus-1-teaspoon-vegetable-oil",
+        "displayName": "plus 1 teaspoon vegetable oil",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "curry-powder",
+        "displayName": "curry powder",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cayenne-pepper-optional",
+        "displayName": "cayenne pepper (optional)",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "rice-vermicelli",
+        "displayName": "rice vermicelli",
+        "amount": 6,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shrimp-26-to-30-per-pound-peeled-deveined-see-this-page-tails-removed-and-cut-into-1-2-inch-pieces",
+        "displayName": "large shrimp (26 to 30 per pound), peeled, deveined (see this page), tails removed, and cut into 1/2-inch pieces",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "large-eggs-lightly-beaten",
+        "displayName": "large eggs, lightly beaten",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced-to-paste",
+        "displayName": "cloves, minced to paste",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-stemmed-seeded-and-cut-into-2-inch-long-matchsticks",
+        "displayName": "red bell pepper, stemmed, seeded, and cut into 2-inch-long matchsticks",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-shallots-sliced-thin",
+        "displayName": "large shallots, sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "2-cups-bean-sprouts",
+        "displayName": "(2 cups) bean sprouts",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-cut-into-1-2-inch-pieces",
+        "displayName": "scallions, cut into 1/2-inch pieces",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "lime-juice-plus-lime-wedges-for-serving",
+        "displayName": "lime juice, plus lime wedges for serving",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat 3 tablespoons oil, curry powder, and cayenne (if using) in 12-inch nonstick skillet over medium-low heat, stirring occasionally, until fragrant, about 4 minutes. Remove skillet from heat and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring 6 cups water to boil. Place noodles in large bowl. Pour boiling water over noodles and stir briefly. Soak noodles until flexible, but not soft, about 21/2 minutes, stirring once halfway through. Drain noodles briefly; do not wash bowl. Transfer noodles to cutting board. Using chef’s knife, cut pile of noodles roughly into thirds. Return noodles to bowl, add curry mixture, soy sauce, and sugar; using tongs, toss until well combined. Set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Wipe out skillet with paper towels. Heat 2 teaspoons oil in skillet over medium-high heat until shimmering. Add shrimp in even layer and cook without moving until bottom is browned, about 90 seconds. Stir and continue to cook until just cooked through, about 90 seconds longer. Push shrimp to one side of skillet. Add 1 teaspoon oil to cleared side of skillet. Add eggs to clearing, and sprinkle with 1/4 teaspoon salt. Using rubber spatula, stir eggs gently until set but still wet, about 1 minute. Stir eggs into shrimp and continue to cook, breaking up large pieces of egg, until eggs are fully cooked, about 30 seconds longer. Transfer shrimp-egg mixture to second large bowl."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Lower heat to medium. Heat remaining 1 teaspoon oil in now-empty skillet until shimmering. Add ginger and garlic and cook, stirring constantly, until fragrant, about 15 seconds. Add bell pepper and shallots. Cook, stirring frequently, until vegetables are crisp-tender, about 2 minutes. Transfer to bowl with shrimp."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Return again-empty skillet to medium-high heat, add chicken broth to skillet, and bring to simmer. Add noodles and cook, stirring frequently, until liquid is absorbed, about 2 minutes. Add noodles to bowl with shrimp and vegetable mixture and toss to combine. Add bean sprouts, scallions, and lime juice, and toss to combine. Transfer to warmed platter and serve immediately, passing lime wedges separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food",
+      "weeknight"
+    ],
+    "recipeAllergens": [
+      "SOY",
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 20795,
+    "end": 20857,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

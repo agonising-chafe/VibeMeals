@@ -1,0 +1,205 @@
+{
+  "mapped": {
+    "id": "atk_poached-fish-fillets-with-sherry-tomato-vinaigrette",
+    "name": "Poached Fish Fillets with Sherry-Tomato Vinaigrette",
+    "slug": "poached-fish-fillets-with-sherry-tomato-vinaigrette",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "BLENDER"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "skinless-white-fish-fillets-1-inch-thick",
+        "displayName": "skinless white fish fillets, 1 inch thick",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "Kosher salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "frozen-artichoke-hearts-thawed-patted-dry-and-sliced-in-half-lengthwise",
+        "displayName": "frozen artichoke hearts, thawed, patted dry, and sliced in half lengthwise",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "displayName": "olive oil",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-peeled",
+        "displayName": "onion, peeled",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cherry-tomatoes",
+        "displayName": "cherry tomatoes",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "small-shallot-peeled",
+        "displayName": "small shallot, peeled",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "sherry-vinegar",
+        "displayName": "sherry vinegar",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "kosher-salt-and-pepper",
+        "displayName": "Kosher salt and pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "VINAIGRETTE"
+      },
+      {
+        "ingredientId": "cherry-tomatoes-cut-into-1-8-inch-thick-rounds",
+        "displayName": "cherry tomatoes, cut into 1/8-inch-thick rounds",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 1,
+        "description": "Thaw artichoke hearts",
+        "strategy": "THAW",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE FISH: Adjust oven racks to middle and lower-middle positions and heat oven to 250 degrees. Pat fish dry with paper towels and season each fillet with 1/4 teaspoon salt. Let sit at room temperature for 20 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Meanwhile, toss artichokes with cornstarch in bowl to coat. Heat 1/2 cup oil in 10-inch nonstick ovensafe skillet over medium heat until shimmering. Shake excess cornstarch from artichokes and add to skillet; cook, stirring occasionally, until crisp and golden, 2 to 4 minutes. Add garlic and continue to cook until garlic is golden, 30 to 60 seconds. Strain oil through fine-mesh strainer into bowl. Transfer artichokes and garlic to ovensafe paper towel–lined plate and season with salt. Do not wash strainer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Return strained oil to skillet and add remaining 1/4 cup oil. Place onion half in center of pan. Let oil cool until it registers about 180 degrees, 5 to 8 minutes. Arrange fish fillets, skinned side up, around onion (oil should come roughly halfway up fillets). Spoon a little oil over each fillet, cover skillet, transfer to middle oven rack, and cook for 15 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove skillet from oven (skillet handle will be hot). Using 2 spatulas, carefully flip fillets. Cover skillet, return to middle rack, and place plate with artichokes and garlic on lower-middle rack. Continue to cook until fish registers 135 degrees, 9 to 14 minutes longer. Gently transfer fish to serving platter, reserving 1/2 cup oil, and tent fish loosely with aluminum foil. Turn off oven, leaving plate of artichokes in oven."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE VINAIGRETTE: Process cherry tomatoes, shallot, vinegar, 3/4 teaspoon salt, and 1/2 teaspoon pepper with reserved 1/2 cup fish cooking oil in blender until smooth, 1 to 2 minutes. Add any accumulated fish juices from platter, season with salt to taste, and blend for 10 seconds. Strain sauce through fine-mesh strainer; discard solids."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "To serve, pour vinaigrette around fish. Garnish each fillet with warmed crisped artichokes and garlic, tomato rounds, and parsley. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 43130,
+    "end": 43186,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

@@ -1,0 +1,164 @@
+{
+  "mapped": {
+    "id": "atk_homemade-naan",
+    "name": "Homemade Naan",
+    "slug": "homemade-naan",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 1500,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET",
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "MAKES 4 pieces",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "ice-water",
+        "displayName": "ice water",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "FROZEN",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plain-whole-milk-yogurt",
+        "displayName": "plain whole-milk yogurt",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "plus-1-teaspoon-vegetable-oil-divided",
+        "displayName": "plus 1 teaspoon vegetable oil, divided",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-yolk",
+        "displayName": "large egg yolk",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "10-ounces-all-purpose-flour",
+        "displayName": "(10 ounces) all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "instant-or-rapid-rise-yeast",
+        "displayName": "instant or rapid-rise yeast",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Refrigerate dough for 16 to 24 hours",
+        "durationMinutes": 960,
+        "waitKind": "SLOW_COOK",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "In measuring cup or small bowl, combine water, yogurt, 3 tablespoons oil, and egg yolk. Process flour, sugar, and yeast in food processor until combined, about 2 seconds. With processor running, slowly add water mixture; process until dough is just combined and no dry flour remains, about 10 seconds. Let dough stand for 10 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add salt to dough and process until dough forms satiny, sticky ball that clears sides of workbowl, 30 to 60 seconds. Transfer dough to lightly floured work surface and knead until smooth, about 1 minute. Shape dough into tight ball and place in large, lightly oiled bowl. Cover tightly with plastic wrap and refrigerate for 16 to 24 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Adjust oven rack to middle position and heat oven to 200 degrees. Place heatproof plate on rack. Transfer dough to lightly floured work surface and divide into 4 equal pieces. Shape each piece into smooth, tight ball. Place dough balls on lightly oiled baking sheet, at least 2 inches apart; cover loosely with plastic coated with vegetable oil spray. Let stand for 15 to 20 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer 1 ball to lightly floured work surface and sprinkle with flour. Using your hands and rolling pin, press and roll piece of dough into 9-inch round of even thickness, sprinkling dough and work surface with flour as needed to prevent sticking. Using fork, poke entire surface of round 20 to 25 times. Heat remaining 1 teaspoon oil in 12-inch cast-iron skillet over medium heat until shimmering. Wipe oil out of skillet completely with paper towels. Mist top of dough lightly with water. Place dough in pan, moistened side down; mist top surface of dough with water; and cover. Cook until bottom is browned in spots across surface, 2 to 4 minutes. Flip naan, cover, and continue to cook on second side until lightly browned, 2 to 3 minutes. (If naan puffs up, gently poke with fork to deflate.) Flip naan, brush top with about 1 teaspoon melted butter, transfer to plate in oven, and cover plate tightly with aluminum foil. Repeat rolling and cooking remaining 3 dough balls. Once last naan is baked, serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 65037,
+    "end": 65077,
+    "yieldLine": "MAKES 4 pieces"
+  },
+  "fit": true
+}

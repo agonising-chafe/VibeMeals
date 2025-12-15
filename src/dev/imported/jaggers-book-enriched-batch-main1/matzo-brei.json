@@ -1,0 +1,114 @@
+{
+  "mapped": {
+    "id": "atk_matzo-brei",
+    "name": "Matzo Brei",
+    "slug": "matzo-brei",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "NONE",
+      "baseServings": 2,
+      "yieldText": "SERVES 2"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter-or-schmaltz",
+        "displayName": "unsalted butter or schmaltz",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-onion",
+        "displayName": "chopped onion",
+        "amount": 0.6666666666666666,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "pepper-divided",
+        "displayName": "pepper, divided",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sheets-plain-unsalted-matzo-about-2-ounces-broken-into-approximate-11-2-inch-pieces",
+        "displayName": "sheets plain, unsalted matzo (about 2 ounces), broken into approximate 11/2-inch pieces",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Melt butter in 10-inch nonstick skillet over medium heat. Add onion, 1/4 teaspoon pepper, and 1/8 teaspoon salt and cook, stirring occasionally, until onion has softened and started to brown, 6 to 8 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While onion cooks, whisk eggs, remaining 1/4 teaspoon pepper, and remaining 1/8 teaspoon salt in medium bowl until no streaks of white remain. Add matzo pieces to egg mixture. Stir and fold until matzo is thoroughly coated with egg and pieces have softened (they should maintain their shape, but you should be able to break them easily with spatula), 2 to 4 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add matzo mixture to skillet and gently but constantly stir and fold mixture onto itself, scraping along bottom and sides of skillet as needed until eggs are soft and just set, about 2 minutes. Serve immediately, seasoning with salt and pepper to taste."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 3590,
+    "end": 3649,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": true
+}

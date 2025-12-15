@@ -1,0 +1,175 @@
+{
+  "mapped": {
+    "id": "atk_grilled-mojo-marinated-skirt-steak",
+    "name": "Grilled Mojo-Marinated Skirt Steak",
+    "slug": "grilled-mojo-marinated-skirt-steak",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 45,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 6,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "displayName": "soy sauce",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SOY"
+        ]
+      },
+      {
+        "ingredientId": "grated-lime-zest-plus-1-4-cup-juice-2-limes-divided",
+        "displayName": "grated lime zest plus 1/4 cup juice (2 limes), divided",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "displayName": "dried oregano",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "grated-orange-zest-plus-1-2-cup-juice",
+        "displayName": "grated orange zest plus 1/2 cup juice",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "skirt-steak-trimmed-and-cut-with-grain-into-6-to-8-inch-long-steaks",
+        "displayName": "skirt steak, trimmed and cut with grain into 6- to 8-inch-long steaks",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil-divided",
+        "displayName": "extra-virgin olive oil, divided",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-soda",
+        "displayName": "baking soda",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Marinate steak",
+        "durationMinutes": 60,
+        "startDelayMinutes": 60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine garlic, soy sauce, 2 tablespoons lime juice, cumin, oregano, 3/4 teaspoon salt, orange juice, and pepper flakes in 13 by 9-inch baking dish. Place steaks in dish. Flip steaks to coat both sides with marinade. Cover and refrigerate for 1 hour, flipping steaks halfway through refrigerating."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove steaks from marinade and transfer marinade to small saucepan. Pat steaks dry with paper towels. Combine 1 tablespoon oil and baking soda in small bowl. Rub oil mixture evenly onto both sides of each steak."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bring marinade to boil over high heat and boil for 30 seconds. Transfer to bowl and stir in lime zest, orange zest, remaining 2 tablespoons lime juice, and remaining 1 tablespoon oil. Set aside sauce."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Clean and oil cooking grate. Cook steaks on hotter side of grill until well browned and meat registers 130 to 135 degrees (for medium), 2 to 4 minutes per side. (Move steaks to cooler side of grill before taking temperature to prevent them from overcooking.) Transfer steaks to cutting board, tent with aluminum foil, and let rest for 10 minutes. Cut steaks on bias against grain into 1/2-inch-thick slices. Arrange slices on serving platter, drizzle with 2 tablespoons sauce, and serve, passing extra sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "SOY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 50490,
+    "end": 50538,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

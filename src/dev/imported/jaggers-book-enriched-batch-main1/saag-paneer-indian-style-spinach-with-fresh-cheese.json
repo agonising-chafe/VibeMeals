@@ -1,0 +1,320 @@
+{
+  "mapped": {
+    "id": "atk_saag-paneer-indian-style-spinach-with-fresh-cheese",
+    "name": "Saag Paneer (Indian-Style Spinach with Fresh Cheese)",
+    "slug": "saag-paneer-indian-style-spinach-with-fresh-cheese",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "BLENDER",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "quarts-whole-milk",
+        "displayName": "quarts whole milk",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CHEESE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 3,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "CHEESE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "CHEESE"
+      },
+      {
+        "ingredientId": "bag-curly-leaf-spinach-rinsed",
+        "displayName": "bag curly-leaf spinach, rinsed",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "mustard-greens-stemmed-and-rinsed",
+        "displayName": "mustard greens, stemmed and rinsed",
+        "amount": 12,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "cumin-seeds",
+        "displayName": "cumin seeds",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-coriander",
+        "displayName": "ground coriander",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "paprika",
+        "displayName": "paprika",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-cardamom",
+        "displayName": "ground cardamom",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "grated-fresh-ginger",
+        "displayName": "grated fresh ginger",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "jalape-o-chile-stemmed-seeded-and-minced",
+        "displayName": "jalapeño chile, stemmed, seeded, and minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained-and-chopped-coarse",
+        "displayName": "can diced tomatoes, drained and chopped coarse",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "roasted-cashews-chopped-coarse-divided",
+        "displayName": "roasted cashews, chopped coarse, divided",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "buttermilk",
+        "displayName": "buttermilk",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "chopped-fresh-cilantro",
+        "displayName": "chopped fresh cilantro",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE CHEESE: Line colander with triple layer of cheesecloth and set in sink. Bring milk to boil in Dutch oven over medium-high heat. Whisk in buttermilk and salt, turn off heat, and let stand for 1 minute. Pour milk mixture through cheesecloth and let curds drain for 15 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pull edges of cheesecloth together to form pouch. Twist edges of cheesecloth together, firmly squeezing out as much liquid as possible from cheese curds. Place taut, twisted cheese pouch between 2 large plates and weigh down top plate with heavy Dutch oven. Set aside at room temperature until cheese is firm and set, at least 45 minutes. Remove cheesecloth and cut cheese into 1/2-inch pieces. (Left uncut, cheese can be wrapped in plastic wrap and refrigerated for up to 3 days.)"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "FOR THE SPINACH SAUCE: Place spinach in large bowl, cover, and microwave until wilted, about 3 minutes. When cool enough to handle, chop enough spinach to measure 1/3 cup and set aside. Transfer remaining spinach to blender and wipe out bowl. Place mustard greens in now-empty bowl, cover, and microwave until wilted, about 4 minutes. When cool enough to handle, chop enough mustard greens to measure 1/3 cup and transfer to bowl with chopped spinach. Transfer remaining mustard greens to blender."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Meanwhile, melt butter in 12-inch skillet over medium-high heat. Add cumin seeds, coriander, paprika, cardamom, and cinnamon and cook until fragrant, about 30 seconds. Add onion and salt; cook, stirring frequently, until softened, about 3 minutes. Add garlic, ginger, and jalapeño; cook, stirring frequently, until lightly browned and just beginning to stick to pan, 2 to 3 minutes. Stir in tomatoes and cook mixture until pan is dry and tomatoes are beginning to brown, 3 to 4 minutes. Remove skillet from heat."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer half of onion mixture to blender with greens. Add 1/4 cup cashews and water; process until smooth, about 1 minute. Return puree to skillet."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Return skillet to medium-high heat, stir in chopped greens and buttermilk, and bring to simmer. Reduce heat to low; cover; and cook until flavors have blended, 5 minutes. Season with salt and pepper to taste. Gently fold in cheese cubes and cook until just heated through, 1 to 2 minutes. Transfer to serving dish, sprinkle with cilantro and remaining 1/4 cup cashews, and serve."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Bring milk to boil, curdle it with buttermilk, and let rest for 1 minute off heat. Pour curdled milk through cheesecloth-lined colander; let drain. Twist cheesecloth to squeeze out liquid."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Press cheese between plates topped with Dutch oven; let drain until firm. Slice into 1/2-inch pieces."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 47204,
+    "end": 47300,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

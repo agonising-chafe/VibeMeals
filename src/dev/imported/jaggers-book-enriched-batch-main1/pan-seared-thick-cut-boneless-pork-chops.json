@@ -1,0 +1,89 @@
+{
+  "mapped": {
+    "id": "atk_pan-seared-thick-cut-boneless-pork-chops",
+    "name": "Pan-Seared Thick-Cut Boneless Pork Chops",
+    "slug": "pan-seared-thick-cut-boneless-pork-chops",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 50,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "21-2-to-3-pound-boneless-center-cut-pork-loin-roast-trimmed",
+        "displayName": "(21/2- to 3-pound) boneless center-cut pork loin roast, trimmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position, place 12-inch cast-iron skillet on rack, and heat oven to 500 degrees. Meanwhile, cut roast crosswise into 4 chops of equal thickness."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "When oven reaches 500 degrees, pat chops dry with paper towels and sprinkle with salt and pepper. Using pot holders, remove skillet from oven and place over high heat. Being careful of hot skillet handle, add oil and heat until just smoking. Add chops and cook, without moving them, until lightly browned on first side, about 2 minutes. Flip chops and cook until lightly browned on second side, about 2 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Flip chops and continue to cook, flipping every 2 minutes and adjusting heat as necessary if chops brown too quickly or slowly, until exteriors are well browned and meat registers 125 to 130 degrees, 10 to 12 minutes longer. Transfer chops to platter, tent with aluminum foil, and let rest for 15 minutes (temperature will climb to 140 degrees). Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 37357,
+    "end": 37385,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

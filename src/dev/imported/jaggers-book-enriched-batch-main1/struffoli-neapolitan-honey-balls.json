@@ -1,0 +1,204 @@
+{
+  "mapped": {
+    "id": "atk_struffoli-neapolitan-honey-balls",
+    "name": "Struffoli (Neapolitan Honey Balls)",
+    "slug": "struffoli-neapolitan-honey-balls",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8 (Makes 41/2 cups)"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "10-ounces-all-purpose-flour",
+        "displayName": "(10 ounces) all-purpose flour",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "13-4-ounces-sugar",
+        "displayName": "(13/4 ounces) sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "baking-powder",
+        "displayName": "baking powder",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-lightly-beaten",
+        "displayName": "large eggs, lightly beaten",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-and-cooled-slightly",
+        "displayName": "unsalted butter, melted and cooled slightly",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "displayName": "vanilla extract",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "quarts-vegetable-oil-for-frying",
+        "displayName": "quarts vegetable oil for frying",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "honey",
+        "displayName": "honey",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "multicolored-nonpareils-plus-extra-for-garnish",
+        "displayName": "multicolored nonpareils, plus extra for garnish",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "sliced-almonds-toasted-optional",
+        "displayName": "sliced almonds, toasted (optional)",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "candied-orange-peel-chopped-fine-optional",
+        "displayName": "candied orange peel, chopped fine (optional)",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      },
+      {
+        "ingredientId": "cherries-optional",
+        "displayName": "cherries (optional)",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Line 2 rimmed baking sheets with parchment paper. Whisk flour, sugar, salt, and baking powder together in large bowl. Add eggs, melted butter, and vanilla and stir with rubber spatula until soft dough forms. Transfer dough to counter and knead briefly to bring together into ball, about 30 seconds. Dough will be slightly tacky. (Dough can be wrapped in plastic wrap and refrigerated for up to 24 hours.)"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add oil to large Dutch oven until it measures about 11/2 inches deep and heat over medium heat to 350 degrees. While oil heats, divide dough into 6 equal pieces, about 3 ounces each. Flatten 1 piece of dough into 5 by 3-inch rectangle, with shorter side facing you (lightly grease your hands and counter if dough sticks). Using bench scraper or sharp knife, cut dough lengthwise into 6 equal strips. Cut strips crosswise into 10 equal rows to create sixty 1/2-inch pieces. Separate dough pieces and place on prepared sheets, keeping pieces from touching (pieces needn’t be spherical). Repeat with remaining dough."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Line 13 by 9-inch baking pan with triple layer of paper towels. Place 25 to 30 struffoli in slotted spoon or spider skimmer (it’s OK if they touch). Gently submerge spoon in oil to transfer struffoli to pot (oil may foam slightly). Cook, stirring frequently, until struffoli are crisp and golden brown, 2 to 3 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer struffoli to prepared pan. Repeat with remaining dough (spoon may be hot), adjusting burner, if necessary, to maintain oil temperature between 350 and 365 degrees. Let struffoli cool completely, about 15 minutes (cooled struffoli can be stored in airtight container at room temperature for up to 3 days or frozen in zipper-lock bag for up to 1 month)."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Heat honey in large saucepan over medium-low heat until small bubbles break constantly and rapidly across surface. Off heat, add struffoli and stir until evenly coated. Return to heat and continue to cook, stirring occasionally, 4 minutes longer. Remove from heat and let struffoli cool in saucepan for 5 minutes. While struffoli cool, spray serving platter lightly with vegetable oil spray and wipe with paper towel, leaving thin film."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Add nonpareils to saucepan and stir to coat evenly. Stir in almonds and orange peel, if using. Using slotted spoon, lift struffoli from saucepan and transfer to prepared platter, piling into mound. Garnish with candied cherries, if using, and extra nonpareils. Let cool completely, about 20 minutes (Cooled struffoli can be covered with waxed paper or parchment paper and wrapped tightly in plastic wrap for up to 3 days). Use 2 spoons to transfer individual servings to plates or allow guests to pluck pieces from platter."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 75230,
+    "end": 75286,
+    "yieldLine": "SERVES 6 to 8 (Makes 41/2 cups)"
+  },
+  "fit": true
+}

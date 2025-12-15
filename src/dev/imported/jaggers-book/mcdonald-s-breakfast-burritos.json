@@ -1,0 +1,184 @@
+{
+  "mapped": {
+    "id": "atk_mcdonald-s-breakfast-burritos",
+    "name": "McDonald’s Breakfast Burritos",
+    "slug": "mcdonald-s-breakfast-burritos",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "nelly-quijano-a-cuban-immigrant-and-mcdonald-s-franchise-owner-from-houston-texas-is-credited-with-creating-the-chain-s-popular-breakfast-burrito-it-was-so-popular-it-rolled-out-nationwide-in-1989",
+        "displayName": "Nelly Quijano, a Cuban immigrant and McDonald’s franchise owner from Houston, Texas, is credited with creating the chain’s popular Breakfast Burrito. It was so popular it rolled out nationwide in 1989!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bulk-pork-breakfast-sausage",
+        "displayName": "bulk pork breakfast sausage",
+        "amount": 4,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "minced-yellow-onion",
+        "displayName": "minced yellow onion",
+        "amount": 4,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tablespoon-minced-mild-green-chilies",
+        "displayName": "½ tablespoon minced mild green chilies",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-eggs-beaten",
+        "displayName": "large eggs, beaten",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "⅛ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-ground-black-pepper",
+        "displayName": "⅛ teaspoon ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "8-inch-flour-tortillas",
+        "displayName": "(8-inch) flour tortillas",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "american-cheese",
+        "displayName": "American cheese",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-a-medium-skillet-over-medium-heat-add-sausage-and-onion-and-saut-3-4-minutes-until-sausage-is-browned-add-chilies-and-saut-1-minute-more",
+        "displayName": "Preheat a medium skillet over medium heat. Add sausage and onion and sauté 3–4 minutes until sausage is browned. Add chilies and sauté 1 minute more.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pour-eggs-into-pan-and-scramble-with-sausage-onion-and-chilies-stir-in-salt-and-pepper",
+        "displayName": "Pour eggs into pan and scramble with sausage, onion, and chilies. Stir in salt and pepper.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-tortillas-in-microwave-on-a-moist-paper-towel-1-minute",
+        "displayName": "Heat tortillas in microwave on a moist paper towel 1 minute.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-a-fourth-of-the-egg-mixture-and-1-slice-cheese-to-each-tortilla-and-roll-into-a-burrito-serve",
+        "displayName": "Add a fourth of the egg mixture and 1 slice cheese to each tortilla and roll into a burrito. Serve.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "mcdonald-s-pioneered-the-breakfast-fast-food-concept-with-the-introduction-of-the-egg-mcmuffin-in-1972-the-sandwich-was-created-by-franchise-owner-herb-petersen-and-the-name-was-coined-by-patty-turner-the-wife-of-a-corporate-executive",
+        "displayName": "McDonald’s pioneered the breakfast fast-food concept with the introduction of the Egg McMuffin in 1972. The sandwich was created by franchise owner Herb Petersen, and the name was coined by Patty Turner, the wife of a corporate executive.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 1507,
+    "end": 1553,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

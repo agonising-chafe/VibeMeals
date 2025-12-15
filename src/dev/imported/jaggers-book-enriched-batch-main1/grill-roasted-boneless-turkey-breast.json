@@ -1,0 +1,136 @@
+{
+  "mapped": {
+    "id": "atk_grill-roasted-boneless-turkey-breast",
+    "name": "Grill-Roasted Boneless Turkey Breast",
+    "slug": "grill-roasted-boneless-turkey-breast",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "GRILL",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 7,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "wood-chips-soaked-in-water-for-15-minutes-and-drained-optional",
+        "displayName": "wood chips, soaked in water for 15 minutes and drained (optional)",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "5-to-7-pound-whole-bone-in-turkey-breast-trimmed",
+        "displayName": "(5- to 7-pound) whole bone-in turkey breast, trimmed",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "Pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [
+      {
+        "durationMinutes": 15,
+        "description": "Soak wood chips in water",
+        "speculative": true,
+        "type": "LONG_PREP"
+      },
+      {
+        "durationMinutes": 60,
+        "description": "Refrigerate seasoned turkey breast",
+        "speculative": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Using large piece of heavy-duty aluminum foil, wrap soaked chips, if using, in foil packet and cut several vent holes in top."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove skin from breast meat and then cut along rib cage to remove breast halves (discard bones or save for stock). Pat turkey breast halves dry with paper towels and season with salt. Stack breast halves on top of one another with cut sides facing, and alternating thick and tapered ends. Stretch skin over exposed meat and tuck in ends. Tie kitchen twine lengthwise around roast. Then tie 5 to 7 pieces of twine at 1-inch intervals crosswise along roast. Transfer roast to wire rack set in rimmed baking sheet and refrigerate for 1 hour."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Rub surface of roast with oil and season with pepper. Place roast on grill (cool side if using charcoal). Cover (position lid vents over meat if using charcoal) and cook until roast registers 150 degrees, 40 minutes to 1 hour, turning 180 degrees halfway through cooking."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Slide roast to hot side of grill (if using charcoal) or turn all burners to medium-high (if using gas). Cook until roast is browned and skin is crisp on all sides, 8 to 10 minutes, rotating every 2 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Transfer roast to carving board, tent loosely with foil, and let rest for 15 minutes. Cut into 1/2-inch-thick slices, removing twine as you cut. Serve."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Starting at one side of the breast and using your fingers to separate the skin from the meat, peel the skin off the breast meat and reserve."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Using the tip of a knife, cut along the rib cage to remove each breast half completely."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Arrange one breast, cut side up; top with the second breast, cut side down, the thick end over the tapered end. Drape the skin over the breasts and tuck the ends under."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Tie a 3-foot piece of kitchen twine lengthwise around the roast. Then, tie five to seven pieces of twine at 1-inch intervals crosswise along the roast, starting at its center, then at either end, and then filling in the rest."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 55021,
+    "end": 55095,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

@@ -1,0 +1,95 @@
+{
+  "mapped": {
+    "id": "atk_grilled-corn-with-flavored-butter",
+    "name": "Grilled Corn with Flavored Butter",
+    "slug": "grilled-corn-with-flavored-butter",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "GRILL"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "recipe-basil-and-lemon-butter",
+        "displayName": "recipe Basil and Lemon Butter",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "Butter",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "13-by-9-inch-disposable-aluminum-roasting-pan",
+        "displayName": "(13 by 9-inch) disposable aluminum roasting pan",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ears-corn-husks-and-silk-removed",
+        "displayName": "ears corn, husks and silk removed",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place flavored butter in disposable pan. Brush corn evenly with oil and sprinkle with salt and pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Grill corn over hot fire, turning occasionally, until lightly charred on all sides, 5 to 9 minutes. Transfer corn to pan and cover tightly with aluminum foil."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Place pan on grill and cook, shaking pan frequently, until butter is sizzling, about 3 minutes. Remove pan from grill and carefully remove foil, allowing steam to escape away from you. Serve corn, spooning any butter in pan over individual ears."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56267,
+    "end": 56320,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

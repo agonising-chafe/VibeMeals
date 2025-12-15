@@ -1,0 +1,200 @@
+{
+  "mapped": {
+    "id": "atk_wild-rice-pilaf-with-pecans-and-dried-cranberries",
+    "name": "Wild Rice Pilaf with Pecans and Dried Cranberries",
+    "slug": "wild-rice-pilaf-with-pecans-and-dried-cranberries",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "low-sodium-chicken-broth",
+        "displayName": "low-sodium chicken broth",
+        "amount": 1.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme-divided-into-2-bundles-each-tied-together-with-kitchen-twine",
+        "displayName": "sprigs fresh thyme, divided into 2 bundles, each tied together with kitchen twine",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "wild-rice-rinsed-well-in-a-strainer",
+        "displayName": "wild rice, rinsed well in a strainer",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "long-grain-white-rice",
+        "displayName": "long-grain white rice",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-onion-minced",
+        "displayName": "medium onion, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "carrots-peeled-and-chopped-fine",
+        "displayName": "carrots, peeled and chopped fine",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "Table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "sweetened-or-unsweetened-dried-cranberries",
+        "displayName": "sweetened or unsweetened dried cranberries",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pecans-toasted-and-chopped-coarse",
+        "displayName": "pecans, toasted and chopped coarse",
+        "amount": 0.75,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "minced-fresh-parsley-leaves",
+        "displayName": "minced fresh parsley leaves",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "Ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Bring the chicken broth, 1/4 cup of the water, the bay leaves, and 1 bundle of the thyme to a boil in a medium saucepan over medium-high heat. Add the wild rice, cover, and reduce the heat to low; simmer until the rice is plump and tender and has absorbed most of the liquid, 35 to 45 minutes. Drain the rice in a fine-mesh strainer. Return the rice to the saucepan; cover to keep warm and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While the wild rice is cooking, place the white rice in a medium bowl and add water to cover by 2 inches; gently swish the grains to release excess starch. Carefully pour off the water, leaving the rice in the bowl. Repeat four to five times, until the water runs almost clear. Drain the rice in a fine-mesh strainer."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Melt the butter in a medium saucepan over medium-high heat. Add the onion, carrots, and 1 teaspoon salt; cook, stirring frequently, until softened but not browned, about 4 minutes. Stir in the rinsed white rice until coated with the butter; cook, stirring frequently, until the grains begin to turn translucent, about 3 minutes. Meanwhile, bring the remaining 21/4 cups water to a boil in a small saucepan or a microwave. Add the boiling water and the second thyme bundle to the white rice; return to a boil, then reduce the heat to low, sprinkle the cranberries evenly over the rice, and cover. Simmer until all of the liquid is absorbed, 16 to 18 minutes. Off the heat, fluff the rice with a fork and discard the bay leaves and thyme bundles."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Combine the wild rice, white rice mixture, pecans, and parsley in a large bowl; toss with a rubber spatula until the ingredients are evenly mixed. Season with salt and pepper to taste and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61366,
+    "end": 61416,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

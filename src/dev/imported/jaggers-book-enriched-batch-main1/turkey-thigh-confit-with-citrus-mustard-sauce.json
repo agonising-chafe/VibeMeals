@@ -1,0 +1,230 @@
+{
+  "mapped": {
+    "id": "atk_turkey-thigh-confit-with-citrus-mustard-sauce",
+    "name": "Turkey Thigh Confit with Citrus-Mustard Sauce",
+    "slug": "turkey-thigh-confit-with-citrus-mustard-sauce",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 600,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "FOOD_PROCESSOR"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-onions-chopped-coarse-43-4-cups",
+        "displayName": "large onions, chopped coarse (43/4 cups)",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt-for-curing",
+        "displayName": "table salt for curing",
+        "amount": 2.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1.5,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bone-in-turkey-thighs",
+        "displayName": "bone-in turkey thighs",
+        "amount": 4,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "duck-fat-chicken-fat-or-vegetable-oil-for-confit",
+        "displayName": "duck fat, chicken fat, or vegetable oil for confit",
+        "amount": 6,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "head-halved-crosswise",
+        "displayName": "head, halved crosswise",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "orange-marmalade",
+        "displayName": "orange marmalade",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "whole-grain-mustard",
+        "displayName": "whole-grain mustard",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "grated-lime-zest-plus-2-tablespoons-juice",
+        "displayName": "grated lime zest plus 2 tablespoons juice",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cayenne-pepper",
+        "displayName": "cayenne pepper",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [
+      {
+        "name": "Cure Turkey Thighs",
+        "description": "The turkey thighs need to cure in the refrigerator for 4 to 6 days.",
+        "durationMinutes": 5760,
+        "startDeltaMinutes": -5760,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "TO CURE: Process onions, thyme sprigs, 21/2 tablespoons salt, sugar, and pepper in food processor until finely chopped, about 20 seconds, scraping down sides of bowl as needed. Spread one-third of mixture evenly in bottom of 13 by 9-inch baking dish. Arrange turkey thighs, skin side up, in single layer in dish. Spread remaining onion mixture evenly over thighs. Wrap dish tightly with plastic wrap and refrigerate for 4 to 6 days (whatever is most convenient)."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "TO COOK: Adjust oven rack to lower-middle position and heat oven to 200 degrees. Remove thighs from onion mixture and rinse well (if you don’t have a garbage disposal, do not allow onion pieces to go down drain). Pat thighs dry with paper towels. Heat fat in large Dutch oven over medium heat to 165 degrees. Off heat, add turkey thighs, skin side down and in single layer, making sure thighs are completely submerged. Add garlic and bay leaves. Transfer to oven, uncovered, and cook until metal skewer inserted straight down into thickest part of largest thigh can be easily removed without lifting thigh, 4 to 5 hours. (To ensure that oven temperature remains steady, wait at least 20 minutes before retesting if turkey is not done.) Remove from oven."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "TO MAKE AHEAD: Let turkey cool completely in pot, about 2 hours; cover pot; and refrigerate for up to 6 days."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Uncover pot. Heat pot over medium-low heat until fat is melted, about 25 minutes. Increase heat to medium, maintaining bare simmer, and continue to cook until thickest part of largest thigh registers 135 to 140 degrees, about 30 minutes longer. (If turkey has been cooked in vegetable oil, heat pot over medium heat, maintaining bare simmer, until thickest part of largest thigh registers 135 to 140 degrees, about 30 minutes.)"
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "TO SERVE: Adjust oven rack to lower-middle position and heat oven to 500 degrees. While oven heats, crumple 20-inch length of aluminum foil into loose ball. Uncrumple foil, place in rimmed baking sheet, and top with wire rack. Using tongs, gently transfer thighs, skin side up, to prepared wire rack, being careful not to tear delicate skin. Set aside. Strain liquid through fine-mesh strainer into large bowl. Working in batches, pour liquid into fat separator, letting liquid settle for 5 minutes before separating fat from turkey stock. (Alternatively, use bulb baster to extract turkey stock from beneath fat.) Transfer 4 teaspoons turkey stock to small bowl; add marmalade; and microwave until mixture is fluid, about 30 seconds. Stir in mustard, lime zest and juice, salt, and cayenne. Transfer to serving bowl."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Transfer thighs to oven and roast until well browned, 12 to 15 minutes. Transfer thighs to cutting board, skin side up, and let rest until just cool enough to handle, about 15 minutes."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Flip 1 thigh skin side down. Using tip of paring knife, cut along sides of thighbone, exposing bone. Carefully remove bone and any stray bits of cartilage. Flip thigh skin side up. Using sharp chef’s knife, slice thigh crosswise 3/4 inch thick. Transfer to serving platter, skin side up. Repeat with remaining thighs. Serve, passing sauce separately."
+      },
+      {
+        "stepNumber": 8,
+        "instruction": "Place thigh skin side down. Using tip of paring knife, cut along sides of thighbone, exposing bone."
+      },
+      {
+        "stepNumber": 9,
+        "instruction": "Carefully remove bone and any stray bits of cartilage. Flip thigh skin side up."
+      },
+      {
+        "stepNumber": 10,
+        "instruction": "Using sharp chef’s knife, slice thigh crosswise 3/4 inch thick."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 30370,
+    "end": 30450,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

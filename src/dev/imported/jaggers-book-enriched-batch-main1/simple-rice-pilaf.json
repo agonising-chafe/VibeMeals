@@ -1,0 +1,108 @@
+{
+  "mapped": {
+    "id": "atk_simple-rice-pilaf",
+    "name": "Simple Rice Pilaf",
+    "slug": "simple-rice-pilaf",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 55,
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4",
+      "equipmentTags": []
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "basmati-or-long-grain-rice",
+        "displayName": "basmati or long-grain rice",
+        "amount": 1.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pinch-ground-black-pepper",
+        "displayName": "Pinch ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "small-onion-minced-about-1-2-cup",
+        "displayName": "small onion, minced (about 1/2 cup)",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Place the rice in a medium bowl and add enough water to cover by 2 inches; using your hands, gently swish the grains to release the excess starch. Carefully pour off the water, leaving the rice in the bowl. Repeat four to five times, until the water runs almost clear. Using a colander or fine-mesh strainer, drain the rice; place the colander over a bowl and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bring the water to a boil, covered, in a small saucepan over medium-high heat. Add the salt and pepper; cover to keep hot. Meanwhile, melt the butter in a large saucepan over medium heat; add the onion and cook until softened but not browned, about 4 minutes. Stir in the rice until coated with the butter; cook until the edges of the rice grains begin to turn translucent, about 3 minutes. Stir the hot seasoned water into the rice; return to a boil, then reduce the heat to low, cover, and simmer until all the liquid is absorbed, 16 to 18 minutes. Off the heat, remove the lid and place a clean dish towel folded in half over the saucepan; replace the lid. Let stand for 10 minutes; fluff the rice with a fork and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 61331,
+    "end": 61365,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

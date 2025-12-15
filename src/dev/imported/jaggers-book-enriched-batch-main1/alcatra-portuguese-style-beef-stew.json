@@ -1,0 +1,148 @@
+{
+  "mapped": {
+    "id": "atk_alcatra-portuguese-style-beef-stew",
+    "name": "Alcatra (Portuguese-Style Beef Stew)",
+    "slug": "alcatra-portuguese-style-beef-stew",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 240,
+      "equipmentTags": [
+        "DUTCH_OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "boneless-long-cut-beef-shanks",
+        "displayName": "boneless long-cut beef shanks",
+        "amount": 3,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-peeled-and-smashed",
+        "displayName": "cloves, peeled and smashed",
+        "amount": 5,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "allspice-berries",
+        "displayName": "allspice berries",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "displayName": "bay leaves",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "peppercorns",
+        "displayName": "peppercorns",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-onions-halved-and-sliced-thin",
+        "displayName": "large onions, halved and sliced thin",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 2.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "spanish-style-chorizo-sausage-cut-into-1-4-inch-thick-rounds",
+        "displayName": "Spanish-style chorizo sausage, cut into 1/4-inch-thick rounds",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to middle position and heat oven to 325 degrees. Trim away any fat or large pieces of connective tissue from exterior of shanks (silverskin can be left on meat). Cut each shank crosswise into 21/2-inch pieces. Sprinkle meat with salt."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Cut 8-inch square of triple-thickness cheesecloth. Place garlic, allspice berries, bay leaves, and peppercorns in center of cheesecloth and tie into bundle with kitchen twine. Arrange onions and spice bundle in Dutch oven in even layer. Add wine and cinnamon. Arrange shank pieces in single layer on top of onions. Cover and cook until beef is tender, about 31/2 hours."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Remove pot from oven and add chorizo. Using tongs, flip each piece of beef over, making sure that chorizo is submerged. Cover and let stand until chorizo is warmed through, about 20 minutes. Discard spice bundle. Season with salt and pepper to taste. Serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 8218,
+    "end": 8262,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

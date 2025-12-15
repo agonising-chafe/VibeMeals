@@ -1,0 +1,157 @@
+{
+  "mapped": {
+    "id": "atk_scrambled-eggs-with-sausage-sweet-pepper-and-cheddar-cheese",
+    "name": "Scrambled Eggs with Sausage, Sweet Pepper, and Cheddar Cheese",
+    "slug": "scrambled-eggs-with-sausage-sweet-pepper-and-cheddar-cheese",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 25,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "half-and-half",
+        "displayName": "half-and-half",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-black-pepper",
+        "displayName": "ground black pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sweet-italian-sausage-casings-removed-sausage-crumbled-into-1-2-inch-pieces",
+        "displayName": "sweet Italian sausage, casings removed, sausage crumbled into 1/2-inch pieces",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "red-bell-pepper-stemmed-seeded-and-cut-into-1-2-inch-cubes",
+        "displayName": "red bell pepper, stemmed, seeded, and cut into 1/2-inch cubes",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "scallions-white-and-green-parts-separated-both-sliced-thin-on-the-bias",
+        "displayName": "scallions, white and green parts separated, both sliced thin on the bias",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter",
+        "displayName": "unsalted butter",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sharp-cheddar-cheese-shredded-about-1-3-cup",
+        "displayName": "sharp cheddar cheese, shredded (about 1/3 cup)",
+        "amount": 1.5,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Whisk the eggs, half-and-half, salt, and pepper together in a medium bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Heat the oil in a 12-inch nonstick skillet over medium heat until shimmering. Add the sausage and cook until beginning to brown but still pink in the center, about 2 minutes. Add the bell pepper and scallion whites; continue to cook, stirring occasionally, until the sausage is cooked through and the pepper is beginning to brown, about 3 minutes. Spread the mixture in a single layer on a medium plate; set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Thoroughly wipe out the skillet with paper towels, add the butter, and melt over medium heat, swirling to coat the pan. Add the eggs and, using a heatproof rubber spatula, cook while gently pushing, lifting, and folding them from one side of the pan to the other as they form curds. Cook the eggs until large curds form but the eggs are still very moist, 2 to 3 minutes. Off the heat, gently fold in the sausage mixture and cheddar until evenly distributed; if the eggs are still underdone, return the skillet to medium heat for no longer than 30 seconds. Divide the eggs among individual plates, sprinkle with the scallion greens, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 3494,
+    "end": 3534,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

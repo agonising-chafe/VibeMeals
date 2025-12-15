@@ -1,0 +1,191 @@
+{
+  "mapped": {
+    "id": "atk_new-england-clambake",
+    "name": "New England Clambake",
+    "slug": "new-england-clambake",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "GRILL",
+        "LARGE_POT"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4 SEASON 26"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "table-salt-for-brining",
+        "displayName": "table salt, for brining",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ears-corn-husks-and-silk-removed",
+        "displayName": "ears corn, husks and silk removed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "plus-1-8-teaspoon-pepper-divided",
+        "displayName": "plus 1/8 teaspoon pepper, divided",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "small-red-potatoes-unpeeled-halved",
+        "displayName": "small red potatoes, unpeeled, halved",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "12-inch-wooden-skewers",
+        "displayName": "(12-inch) wooden skewers",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted-divided-plus-extra-for-serving",
+        "displayName": "unsalted butter, melted, divided, plus extra for serving",
+        "amount": 4,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "table-salt-divided",
+        "displayName": "table salt, divided",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "11-4-to-11-2-pound-live-lobsters",
+        "displayName": "(11/4- to 11/2-pound) live lobsters",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "kielbasa",
+        "displayName": "kielbasa",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "littleneck-clams-scrubbed",
+        "displayName": "littleneck clams, scrubbed",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "SHELLFISH"
+        ]
+      },
+      {
+        "ingredientId": "lemon-wedges",
+        "displayName": "Lemon wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 0.5,
+        "description": "Brine corn in salted water.",
+        "kind": "MARINATE",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Dissolve 1/2 cup salt in 4 quarts cold water in large pot. Add corn and soak for at least 30 minutes or up to 8 hours. Before grilling, remove corn from water, pat dry with paper towels, and sprinkle with 1/4 teaspoon pepper."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Skewer potatoes, then lay them in single layer on large plate. Brush with 1 tablespoon melted butter and sprinkle with 1/4 teaspoon salt and 1/8 teaspoon pepper. Microwave until potatoes begin to soften, about 6 minutes, flipping them halfway through microwaving. Brush with 1 tablespoon melted butter."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Split lobsters in half lengthwise, removing internal organs. Using back of chef’s knife, whack 1 side of each claw to crack shell. Brush tail meat with 1 tablespoon melted butter, and sprinkle with remaining 1/2 teaspoon salt and remaining 1/4 teaspoon pepper."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Clean and oil cooking grate. Place kielbasa, corn, and skewered potatoes on grill. Cook until kielbasa is seared and hot throughout, corn is lightly charred, and potatoes are brown and tender, 10 to 16 minutes, turning as needed. Transfer vegetables and sausage as they finish cooking to serving platter, and tent with aluminum foil."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Lay lobsters, flesh side down, and clams on grill. Cook until clams have opened and lobsters are cooked through, 8 to 14 minutes, flipping lobsters and brushing lobster tail meat with remaining 1 tablespoon butter halfway through grilling. As lobsters and clams finish cooking, transfer them to serving platter with vegetables and sausage, preserving any juices that have accumulated inside their shells."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Slice kielbasa into 1-inch pieces and remove skewers from potatoes. Serve with lemon wedges and extra melted butter. Use lobster picks to reach meat inside claws and knuckles."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "SHELLFISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 56090,
+    "end": 56142,
+    "yieldLine": "SERVES 4 SEASON 26"
+  },
+  "fit": true
+}

@@ -1,0 +1,263 @@
+{
+  "mapped": {
+    "id": "atk_eggplant-parmesan",
+    "name": "Eggplant Parmesan",
+    "slug": "eggplant-parmesan",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 135,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "SHEET_PAN",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6 to 8"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "globe-eggplant-2-medium-eggplants-cut-crosswise-into-1-4-inch-thick-rounds",
+        "displayName": "globe eggplant (2 medium eggplants), cut crosswise into 1/4-inch-thick rounds",
+        "amount": 2,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-for-salting-eggplant",
+        "displayName": "kosher salt, for salting eggplant",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread-torn-into-quarters",
+        "displayName": "high-quality white sandwich bread, torn into quarters",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREADING"
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-cup",
+        "displayName": "Parmesan cheese, grated (1 cup)",
+        "amount": 2,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BREADING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "pepper-divided",
+        "displayName": "pepper, divided",
+        "amount": 1.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREADING"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREADING"
+      },
+      {
+        "ingredientId": "unbleached-all-purpose-flour",
+        "displayName": "unbleached all-purpose flour",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "BREADING"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "displayName": "large eggs",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "BREADING"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cans-diced-tomatoes-divided",
+        "displayName": "cans diced tomatoes, divided",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "extra-virgin-olive-oil",
+        "displayName": "extra-virgin olive oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 4,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "red-pepper-flakes",
+        "displayName": "red pepper flakes",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "coarsely-chopped-fresh-basil-leaves",
+        "displayName": "coarsely chopped fresh basil leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "whole-milk-or-part-skim-mozzarella-cheese-shredded-2-cups",
+        "displayName": "whole-milk or part-skim mozzarella cheese, shredded (2 cups)",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "parmesan-cheese-grated-1-2-cup",
+        "displayName": "Parmesan cheese, grated (1/2 cup)",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "fresh-basil-leaves-torn-for-garnish",
+        "displayName": "fresh basil leaves, torn, for garnish",
+        "amount": 10,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Salt and drain the eggplant",
+        "durationMinutes": 45,
+        "optional": false,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE EGGPLANT: Toss half of eggplant slices and 11/2 teaspoons kosher salt in a large bowl until combined; transfer salted eggplant to large colander set over bowl. Repeat with remaining eggplant and kosher salt, placing second batch on top of first. Let stand until eggplant releases about 2 tablespoons liquid, 30 to 45 minutes. Spread eggplant slices on triple thickness of paper towels; cover with another triple thickness of paper towels. Press firmly on each slice to remove as much liquid as possible, then wipe off excess salt."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "While eggplant is draining, adjust oven racks to upper-middle and lower-middle positions, place rimmed baking sheet on each rack, and heat oven to 425 degrees. Process bread in food processor to fine, even crumbs, about 20 to 30 seconds. Transfer crumbs to shallow dish and stir in Parmesan, 1/2 teaspoon pepper, and salt; set aside. Wipe out workbowl (do not wash) and set aside."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Combine flour and remaining 1 teaspoon pepper in large zipper-lock bag; shake to combine. Beat eggs in second shallow dish. Place 8 to 10 eggplant slices in bag with flour; seal bag and shake to coat slices. Remove slices, shaking off excess flour, dip into eggs, let excess egg run off, then coat evenly with bread-crumb mixture; set breaded slices on wire rack set over baking sheet. Repeat with remaining eggplant."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Remove preheated baking sheets from oven; add 3 tablespoons vegetable oil to each sheet, tilting to coat evenly with oil. Place half of breaded eggplant slices on each sheet in single layer; bake until eggplant is well browned and crisp, about 30 minutes, switching and rotating baking sheets after 10 minutes, and flipping eggplant slices with wide spatula after 20 minutes. Do not turn off oven."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "FOR THE TOMATO SAUCE: While eggplant bakes, process 2 cans diced tomatoes in food processor until almost smooth, about 5 seconds. Heat olive oil, garlic, and red pepper flakes in large heavy-bottomed saucepan over medium-high heat, stirring occasionally, until fragrant and garlic is light golden, about 3 minutes; stir in processed tomatoes and remaining can of diced tomatoes. Bring sauce to boil, then reduce heat to medium-low and simmer, stirring occasionally, until slightly thickened and reduced, about 15 minutes (you should have about 4 cups). Stir in basil and season with table salt and pepper to taste."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "TO ASSEMBLE: Spread 1 cup of tomato sauce in bottom of 13 by 9-inch baking dish. Layer in half eggplant slices, overlapping slices to fit; distribute 1 cup more sauce over eggplant; sprinkle with half of mozzarella. Layer in remaining eggplant and dot with 1 cup more sauce, leaving majority of eggplant exposed so it will remain crisp; sprinkle with Parmesan and remaining mozzarella. Bake until bubbling and cheese is browned, 13 to 15 minutes. Let cool for 10 minutes, scatter basil over top, and serve, passing remaining tomato sauce separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 47842,
+    "end": 47910,
+    "yieldLine": "SERVES 6 to 8"
+  },
+  "fit": true
+}

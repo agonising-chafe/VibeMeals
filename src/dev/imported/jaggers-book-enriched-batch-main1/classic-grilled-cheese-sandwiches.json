@@ -1,0 +1,83 @@
+{
+  "mapped": {
+    "id": "atk_classic-grilled-cheese-sandwiches",
+    "name": "Classic Grilled Cheese Sandwiches",
+    "slug": "classic-grilled-cheese-sandwiches",
+    "metadata": {
+      "timeBand": "FAST",
+      "estimatedMinutes": 20,
+      "equipmentTags": [
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 2,
+      "yieldText": "SERVES 2"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "cheese-preferably-mild-cheddar-or-a-combination-of-cheeses-shredded-on-the-large-holes-of-a-box-grater-about-3-4-cup",
+        "displayName": "cheese (preferably mild cheddar) or a combination of cheeses, shredded on the large holes of a box grater (about 3/4 cup)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "APPROXIMATE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "high-quality-white-sandwich-bread",
+        "displayName": "high-quality white sandwich bread",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat a heavy 12-inch skillet over low to medium-low heat. Meanwhile, sprinkle the cheese evenly over two bread slices. Top each with a remaining bread slice, pressing down gently to set."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Brush the sandwich tops completely with half of the melted butter; place each sandwich, buttered side down, in the skillet. Brush the remaining side of each sandwich completely with the remaining butter. Cook until crisp and deep golden brown, 5 to 10 minutes per side, flipping the sandwiches back to the first side to reheat and crisp, about 15 seconds. Serve immediately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 48568,
+    "end": 48592,
+    "yieldLine": "SERVES 2"
+  },
+  "fit": true
+}

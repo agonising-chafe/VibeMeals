@@ -1,0 +1,232 @@
+{
+  "mapped": {
+    "id": "atk_steak-tacos",
+    "name": "Steak Tacos",
+    "slug": "steak-tacos",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "fresh-cilantro-leaves",
+        "displayName": "fresh cilantro leaves",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "scallions-roughly-chopped",
+        "displayName": "scallions, roughly chopped",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "jalape-o-chile-stemmed-and-roughly-chopped",
+        "displayName": "jalapeño chile, stemmed and roughly chopped",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "cloves-roughly-chopped",
+        "displayName": "cloves, roughly chopped",
+        "amount": 3,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "displayName": "ground cumin",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "lime-juice",
+        "displayName": "lime juice",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "MARINADE"
+      },
+      {
+        "ingredientId": "11-2-to-13-4-pound-flank-steak-trimmed-and-cut-lengthwise-with-grain-into-4-equal-pieces",
+        "displayName": "(11/2- to 13/4-pound) flank steak, trimmed and cut lengthwise (with grain) into 4 equal pieces",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-corn-tortillas-warmed",
+        "displayName": "(6-inch) corn tortillas, warmed",
+        "amount": 12,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "TACOS"
+      },
+      {
+        "ingredientId": "fresh-cilantro-leaves",
+        "displayName": "Fresh cilantro leaves",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "TACOS"
+      },
+      {
+        "ingredientId": "minced-white-onion",
+        "displayName": "Minced white onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "TACOS"
+      },
+      {
+        "ingredientId": "lime-wedges",
+        "displayName": "Lime wedges",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "TACOS"
+      }
+    ],
+    "preflight": [
+      {
+        "description": "Marinate steak",
+        "durationMinutes": 60,
+        "timeRelativeToMeal": -60,
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE MARINADE: Pulse cilantro, scallions, jalapeño, garlic, and cumin in food processor until finely chopped, 10 to 12 pulses, scraping down sides of bowl as necessary. Add oil and process until mixture is smooth and resembles pesto, about 15 seconds, scraping down sides as necessary. Transfer 2 tablespoons herb paste to medium bowl; whisk in lime juice and set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "FOR THE STEAK: Using dinner fork, poke each piece of steak 10 to 12 times on each side. Place in large baking dish; rub all sides of steak pieces evenly with salt and then coat with remaining herb paste. Cover with plastic wrap and refrigerate for at least 30 minutes or up to 1 hour."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Scrape herb paste off steak and sprinkle all sides of pieces evenly with sugar and pepper. Heat oil in 12-inch nonstick skillet over medium-high heat until just smoking. Place steak in skillet and cook until well browned, about 3 minutes. Flip steak and sear until second side is well browned, 2 to 3 minutes. Using tongs, stand each piece on cut side and cook, turning as necessary, until all cut sides are well browned and steak registers 125 to 130 degrees, 2 to 7 minutes. Transfer steak to cutting board and let rest for 5 minutes."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE TACOS: Slice steak against grain 1/8 inch thick. Transfer sliced steak to bowl with herb paste–lime juice mixture and toss to coat. Season with salt to taste. Spoon small amount of sliced steak into center of each warm tortilla and serve immediately, passing toppings separately."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 33817,
+    "end": 33877,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

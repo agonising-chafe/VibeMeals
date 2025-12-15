@@ -1,0 +1,126 @@
+{
+  "mapped": {
+    "id": "atk_pan-seared-chicken-breasts",
+    "name": "Pan-Seared Chicken Breasts",
+    "slug": "pan-seared-chicken-breasts",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 55,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET",
+        "BAKING_DISH"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 4,
+      "yieldText": "SERVES 4"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "6-to-8-ounce-boneless-skinless-chicken-breasts-trimmed",
+        "displayName": "(6- to 8-ounce) boneless, skinless chicken breasts, trimmed",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-melted",
+        "displayName": "unsalted butter, melted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "SAUCE",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "all-purpose-flour",
+        "displayName": "all-purpose flour",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "cornstarch",
+        "displayName": "cornstarch",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 275 degrees. Use fork to poke thickest half of each breast 5 or 6 times, then sprinkle each breast with 1/4 teaspoon salt. Place chicken, skin side down, in 13 by 9-inch baking dish and cover tightly with foil. Bake until chicken registers 145 to 150 degrees, 30 to 40 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Remove chicken from oven and transfer, skinned side up, to paper towel–lined plate; pat dry. Heat oil in 12-inch skillet over medium-high heat until just smoking. While pan is heating, whisk melted butter, flour, cornstarch, and pepper together in small bowl. Brush tops of chicken with half of butter mixture. Place chicken in skillet, coated side down, and cook until browned, 3 to 4 minutes. While chicken browns, brush second side with remaining butter mixture. Using tongs, flip chicken, reduce heat to medium, and cook until second side is browned and chicken registers 160 to 165 degrees, 3 to 4 minutes. Transfer chicken to platter and let rest while preparing pan sauce. (If not making pan sauce, let chicken rest for 5 minutes before serving.)"
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 22386,
+    "end": 22418,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": true
+}

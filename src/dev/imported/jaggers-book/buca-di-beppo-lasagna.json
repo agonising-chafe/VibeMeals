@@ -1,0 +1,234 @@
+{
+  "mapped": {
+    "id": "atk_buca-di-beppo-lasagna",
+    "name": "Buca di Beppo Lasagna",
+    "slug": "buca-di-beppo-lasagna",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 8",
+      "baseServings": 8
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "portions-of-lasagna-at-buca-di-beppo-are-known-for-their-size-this-copycat-version-has-all-the-towering-layers-and-all-the-flavor-and-makes-an-impressive-dish-for-friends-and-family",
+        "displayName": "Portions of lasagna at Buca di Beppo are known for their size! This copycat version has all the “towering” layers and all the flavor and makes an impressive dish for friends and family.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cups-whole-milk-ricotta-cheese",
+        "displayName": "½ cups whole milk ricotta cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "large-egg-beaten",
+        "displayName": "large egg, beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "garlic-minced",
+        "displayName": "garlic, minced",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water-for-boiling",
+        "displayName": "Water, for boiling",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "salt",
+        "displayName": "salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "box-dry-lasagna-noodles",
+        "displayName": "box dry lasagna noodles",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "tomato-sauce",
+        "displayName": "tomato sauce",
+        "amount": 8,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bulk-sweet-italian-sausage-cooked-and-crumbled",
+        "displayName": "bulk sweet Italian sausage, cooked and crumbled",
+        "amount": 16,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "marinara-sauce",
+        "displayName": "marinara sauce",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-mozzarella-cheese",
+        "displayName": "shredded mozzarella cheese",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-grated-parmesan-cheese",
+        "displayName": "½ cup grated Parmesan cheese",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-350-f-and-spray-a-9-inch-13-inch-baking-dish-with-nonstick-cooking-spray",
+        "displayName": "Preheat oven to 350°F and spray a 9-inch × 13-inch baking dish with nonstick cooking spray.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-add-ricotta-egg-and-garlic-mix-until-fully-combined-set-aside",
+        "displayName": "In a medium bowl, add ricotta, egg, and garlic. Mix until fully combined. Set aside.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-3-quart-saucepan-add-water-leaving-a-3-inch-gap-at-the-top-heat-over-high-heat-until-water-boils-add-salt-and-lasagna-noodles-and-boil-12-minutes-drain-and-rinse-noodles-with-cold-water",
+        "displayName": "In a 3-quart saucepan, add water, leaving a 3-inch gap at the top. Heat over high heat until water boils. Add salt and lasagna noodles and boil 12 minutes. Drain and rinse noodles with cold water.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-medium-bowl-combine-tomato-sauce-and-sausage-set-aside",
+        "displayName": "In a medium bowl, combine tomato sauce and sausage. Set aside.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-cup-marinara-sauce-to-bottom-of-prepared-dish-add-4-noodles-in-an-overlapping-layer-spread-cup-ricotta-mixture-over-noodles-and-add-cup-mozzarella-add-4-noodles-spread-1-cup-meat-sauce-over-noodles-and-sprinkle-with-cup-parmesan-cheese-add-4-noodles-spread-cup-ricotta-mixture-over-noodles-and-add-cup-mozzarella-add-4-noodles-and-1-cup-meat-sauce-add-remaining-noodles-and-spread-remaining-marinara-sauce-evenly-over-top",
+        "displayName": "Add ½ cup marinara sauce to bottom of prepared dish. Add 4 noodles in an overlapping layer, spread ¾ cup ricotta mixture over noodles, and add ½ cup mozzarella. Add 4 noodles, spread 1 cup meat sauce over noodles, and sprinkle with ¼ cup Parmesan cheese. Add 4 noodles, spread ¾ cup ricotta mixture over noodles, and add ½ cup mozzarella. Add 4 noodles and 1 cup meat sauce. Add remaining noodles and spread remaining marinara sauce evenly over top.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cover-dish-tightly-with-foil-sprayed-lightly-with-nonstick-cooking-spray-bake-1-hour-20-minutes-then-remove-foil-top-lasagna-with-remaining-mozzarella-and-parmesan-cheeses-and-return-to-oven-20-minutes-or-until-cheeses-are-melted-and-golden-brown",
+        "displayName": "Cover dish tightly with foil sprayed lightly with nonstick cooking spray. Bake 1 hour 20 minutes, then remove foil, top lasagna with remaining mozzarella and Parmesan cheeses, and return to oven 20 minutes or until cheeses are melted and golden brown.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "allow-to-rest-10-minutes-before-slicing-and-serving",
+        "displayName": "Allow to rest 10 minutes before slicing and serving.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 8041,
+    "end": 8095,
+    "yieldLine": "SERVES 8"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

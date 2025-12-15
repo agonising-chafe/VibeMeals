@@ -1,0 +1,101 @@
+{
+  "mapped": {
+    "id": "atk_grill-smoked-salmon",
+    "name": "Grill-Smoked Salmon",
+    "slug": "grill-smoked-salmon",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 60,
+      "equipmentTags": [
+        "GRILL",
+        "SHEET_PAN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "kosher salt",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-to-8-ounce-center-cut-skin-on-salmon-fillets",
+        "displayName": "(6- to 8-ounce) center-cut skin-on salmon fillets",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "FISH"
+        ]
+      },
+      {
+        "ingredientId": "wood-chips-half-of-chips-soaked-in-water-for-15-minutes-and-drained",
+        "displayName": "wood chips, half of chips soaked in water for 15 minutes and drained",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [
+      {
+        "hoursBefore": 1,
+        "description": "Refrigerate salmon, uncovered, for 1 hour after sprinkling with sugar mixture.",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine sugar and salt in bowl. Set wire rack in rimmed baking sheet, set salmon on rack, and sprinkle flesh side evenly with sugar mixture. Refrigerate, uncovered, for 1 hour. With paper towels, brush any excess salt and sugar from salmon and blot dry. Return fish on wire rack to refrigerator, uncovered, while preparing grill."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine soaked and unsoaked chips. Using large piece of heavy-duty aluminum foil, wrap chips in 8 by 41/2-inch foil packet. (Make sure chips do not poke holes in sides or bottom of packet.) Cut 2 evenly spaced 2-inch slits in top of packet."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Clean and oil cooking grate. Fold piece of heavy-duty foil into 18 by 6-inch rectangle. Place foil rectangle over cooler side of grill and place salmon pieces on foil, spaced at least 1/2 inch apart. Cover grill (positioning lid vent over fish if using charcoal) and cook until center of thickest part of fillet is still translucent when checked with tip of paring knife and registers 125 degrees (for medium-rare), 30 to 40 minutes. Transfer to platter and serve, or let cool to room temperature."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "FISH"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 55256,
+    "end": 55288,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

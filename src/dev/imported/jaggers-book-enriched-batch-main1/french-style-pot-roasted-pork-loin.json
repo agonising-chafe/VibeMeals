@@ -1,0 +1,219 @@
+{
+  "mapped": {
+    "id": "atk_french-style-pot-roasted-pork-loin",
+    "name": "French-Style Pot-Roasted Pork Loin",
+    "slug": "french-style-pot-roasted-pork-loin",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 180,
+      "equipmentTags": [
+        "DUTCH_OVEN",
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "unsalted-butter-cut-into-2-pieces",
+        "displayName": "unsalted butter, cut into 2 pieces",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "medium-garlic-cloves-sliced-thin",
+        "displayName": "medium garlic cloves, sliced thin",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "boneless-center-cut-pork-loin-roast-trimmed",
+        "displayName": "boneless center-cut pork loin roast, trimmed",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "kosher-salt-and-ground-black-pepper",
+        "displayName": "Kosher salt and ground black pepper",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "herbes-de-provence",
+        "displayName": "herbes de Provence",
+        "amount": 2,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "smith-apple-peeled-cored-and-cut-into-1-4-inch-pieces",
+        "displayName": "Smith apple, peeled, cored, and cut into 1/4-inch pieces",
+        "amount": 1,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "medium-onion-chopped-fine",
+        "displayName": "medium onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dry-white-wine",
+        "displayName": "dry white wine",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "sprigs-fresh-thyme",
+        "displayName": "sprigs fresh thyme",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bay-leaf",
+        "displayName": "bay leaf",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unflavored-gelatin",
+        "displayName": "unflavored gelatin",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-4-3-4-cup-low-sodium-chicken-broth",
+        "displayName": "1/4–3/4 cup low-sodium chicken broth",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chopped-fresh-parsley",
+        "displayName": "chopped fresh parsley",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust oven rack to lower-middle position and heat oven to 225 degrees. Melt 1 tablespoon butter in 8-inch skillet over medium-low heat. Add half of garlic and cook, stirring frequently, until golden, 5 to 7 minutes. Transfer mixture to bowl and refrigerate."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Position roast fat side up. Insert knife one-third of way up from bottom of roast along 1 long side and cut horizontally, stopping 1/2 inch before edge. Open up flap. Keeping knife parallel to cutting board, cut through thicker portion of roast about 1/2 inch from bottom of roast, keeping knife level with first cut and stopping about 1/2 inch before edge. Open up this flap. If uneven, cover with plastic wrap and use meat pounder to even out. Sprinkle 1 tablespoon salt over both sides of loin (1/2 tablespoon per side) and rub into pork until slightly tacky. Sprinkle sugar over inside of loin, then spread with cooled toasted garlic mixture. Starting from short side, fold roast back together like business letter (keeping fat on outside) and tie with twine at 1-inch intervals. Sprinkle tied roast evenly with herbes de Provence and season with pepper."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Heat 1 tablespoon oil in Dutch oven over medium heat until just smoking. Add roast, fat side down, and brown on fat side and sides (do not brown bottom of roast), 5 to 8 minutes. Transfer to large plate. Add remaining 1 tablespoon oil, apple, and onion; cook, stirring frequently, until onion is softened and browned, 5 to 7 minutes. Stir in remaining sliced garlic and cook until fragrant, about 30 seconds. Stir in wine, thyme, and bay leaf, and cook for 30 seconds. Return roast, fat side up, to pot; place large sheet of aluminum foil over pot and cover tightly with lid. Transfer pot to oven and cook until pork registers 140 degrees, 50 to 90 minutes (short, thick roasts will take longer than long, thin ones)."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer roast to carving board, tent loosely with foil, and let rest for 20 minutes. While pork rests, sprinkle gelatin over 1/4 cup chicken broth and let sit until gelatin softens, about 5 minutes. Remove and discard thyme sprigs and bay leaf from jus. Pour jus into 2-cup measuring cup and, if necessary, add chicken broth to measure 11/4 cups. Return jus to pot and bring to simmer over medium heat. Whisk softened gelatin mixture, remaining 1 tablespoon butter, and parsley into jus and season with salt and pepper to taste; remove from heat and cover to keep warm. Slice pork into 1/2-inch-thick slices, adding any accumulated juices to sauce. Serve pork, passing sauce separately."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Holding a chef’s knife parallel to the cutting board, insert the knife one-third of the way up from the bottom of the roast and cut horizontally, stopping 1/2 inch before the edge. Open up the flap."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Make another horizontal cut into the thicker portion of the roast. Open up this flap, smoothing out the butterflied rectangle of meat."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 39281,
+    "end": 39355,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

@@ -1,0 +1,271 @@
+{
+  "mapped": {
+    "id": "atk_mushroom-and-leek-galette-with-gorgonzola",
+    "name": "Mushroom and Leek Galette with Gorgonzola",
+    "slug": "mushroom-and-leek-galette-with-gorgonzola",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 150,
+      "equipmentTags": [
+        "OVEN",
+        "FOOD_PROCESSOR",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "61-4-ounces-all-purpose-flour",
+        "displayName": "(61/4 ounces) all-purpose flour",
+        "amount": 1.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "23-4-ounces-whole-wheat-flour",
+        "displayName": "(23/4 ounces) whole-wheat flour",
+        "amount": 0.5,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "WHEAT"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "sugar",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.75,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "unsalted-butter-cut-into-1-2-inch-pieces-and-chilled",
+        "displayName": "unsalted butter, cut into 1/2-inch pieces and chilled",
+        "amount": 10,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "ice-water",
+        "displayName": "ice water",
+        "amount": 7,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "OTHER",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "distilled-white-vinegar",
+        "displayName": "distilled white vinegar",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shiitake-mushrooms-stemmed-and-sliced-thin",
+        "displayName": "shiitake mushrooms, stemmed and sliced thin",
+        "amount": 1.25,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "olive-oil-divided",
+        "displayName": "olive oil, divided",
+        "amount": 5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "leeks-white-and-light-green-parts-only-sliced-1-2-inch-thick-and-washed-thoroughly-3-cups",
+        "displayName": "leeks, white and light green parts only, sliced 1/2 inch thick and washed thoroughly (3 cups)",
+        "amount": 1,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "minced-fresh-thyme",
+        "displayName": "minced fresh thyme",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "cr-me-fra-che",
+        "displayName": "crème fraîche",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "dijon-mustard",
+        "displayName": "Dijon mustard",
+        "amount": 1,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "gorgonzola-cheese-crumbled-3-4-cup",
+        "displayName": "Gorgonzola cheese, crumbled (3/4 cup)",
+        "amount": 3,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "FILLING",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "large-egg-lightly-beaten",
+        "displayName": "large egg, lightly beaten",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "component": "GLAZE",
+        "allergens": [
+          "EGG"
+        ]
+      },
+      {
+        "ingredientId": "kosher-salt",
+        "displayName": "Kosher salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "GLAZE"
+      },
+      {
+        "ingredientId": "minced-fresh-parsley",
+        "displayName": "minced fresh parsley",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED",
+        "component": "GARNISH"
+      }
+    ],
+    "preflight": [
+      {
+        "task": "Chill dough",
+        "durationMinutes": 45,
+        "optional": false,
+        "description": "Refrigerate dough for at least 45 minutes (up to 2 days).",
+        "type": "LONG_PREP"
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "FOR THE DOUGH: Pulse all-purpose flour, whole-wheat flour, sugar, and salt in food processor until combined, 2 to 3 pulses. Add butter and pulse until it forms pea-size pieces, about 10 pulses. Transfer mixture to medium bowl."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Sprinkle water and vinegar over mixture. With rubber spatula, use folding motion to mix until loose, shaggy mass forms with some dry flour remaining (do not overwork). Transfer mixture to center of large sheet of plastic wrap, press gently into rough 4-inch square, and wrap tightly. Refrigerate for at least 45 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer dough to lightly floured counter. Roll into 11 by 8-inch rectangle with short side of rectangle parallel to edge of counter. Using bench scraper, bring bottom third of dough up, then fold upper third over it, folding like business letter into 8 by 4-inch rectangle. Turn dough 90 degrees counterclockwise. Roll out dough again into 11 by 8-inch rectangle and fold into thirds again. Turn dough 90 degrees counterclockwise and repeat rolling and folding into thirds. After last fold, fold dough in half to create 4-inch square. Press top of dough gently to seal. Wrap in plastic and refrigerate for at least 45 minutes or up to 2 days."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "FOR THE FILLING: Microwave mushrooms in covered bowl until just tender, 3 to 5 minutes. Transfer to colander to drain; return to bowl. Meanwhile, heat 1 tablespoon oil in 12-inch skillet over medium heat until shimmering. Add leeks and thyme, cover, and cook, stirring occasionally, until leeks are tender and beginning to brown, 5 to 7 minutes. Transfer to bowl with mushrooms. Stir in crème fraîche and mustard. Season with salt and pepper to taste. Set aside."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Adjust oven rack to lower-middle position, place pizza stone on rack, and heat oven to 400 degrees. Line rimmed baking sheet with parchment paper. Remove dough from refrigerator and let stand at room temperature for 15 to 20 minutes. Roll out on generously floured counter (use up to 1/4 cup flour) to 14-inch circle about 1/8 inch thick. (Trim edges as needed to form rough circle.) Transfer dough to prepared baking sheet. With tip of paring knife, cut five 1/4-inch circles in dough (one at center and four evenly spaced halfway from center to edge of dough). Brush top of dough with 1 teaspoon oil."
+      },
+      {
+        "stepNumber": 6,
+        "instruction": "Spread half of filling evenly over dough, leaving 2-inch border around edge. Sprinkle with half of Gorgonzola, cover with remaining filling, and top with remaining Gorgonzola. Drizzle remaining 1 teaspoon oil over filling. Gently grasp 1 edge of dough and fold up outer 2 inches over filling. Repeat around circumference of tart, overlapping dough every 2 to 3 inches; gently pinch pleated dough to secure but do not press dough into filling. Brush dough with egg and sprinkle evenly with kosher salt."
+      },
+      {
+        "stepNumber": 7,
+        "instruction": "Lower oven temperature to 375 degrees. Bake until crust is deep golden brown and filling is beginning to brown, 35 to 45 minutes. Let tart cool on baking sheet on wire rack for 10 minutes. Using offset or wide metal spatula, loosen tart from parchment and carefully slide tart off parchment onto cutting board. Sprinkle with parsley, cut into wedges, and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "WHEAT",
+      "DAIRY",
+      "EGG"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 48314,
+    "end": 48398,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}

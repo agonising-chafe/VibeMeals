@@ -1,0 +1,241 @@
+{
+  "mapped": {
+    "id": "atk_chicken-in-mole-poblano-sauce",
+    "name": "Chicken in Mole-Poblano Sauce",
+    "slug": "chicken-in-mole-poblano-sauce",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 120,
+      "equipmentTags": [
+        "BLENDER",
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 5,
+      "yieldText": "SERVES 4 to 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "dried-ancho-chiles-stemmed-seeded-and-torn-into-2-inch-pieces-1-2-cup",
+        "displayName": "dried ancho chiles, stemmed, seeded, and torn into /2-inch pieces (1/2 cup)",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "dried-chipotle-chile-stemmed-seeded-and-torn-into-1-2-inch-pieces-scant-tablespoon",
+        "displayName": "dried chipotle chile, stemmed, seeded, and torn into 1/2-inch pieces (scant tablespoon)",
+        "amount": 0.5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "onion-chopped-fine",
+        "displayName": "onion, chopped fine",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "bittersweet-semisweet-or-mexican-chocolate-chopped-coarse",
+        "displayName": "bittersweet, semisweet, or Mexican chocolate, chopped coarse",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "ground-cloves",
+        "displayName": "ground cloves",
+        "amount": 0.125,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cloves-minced",
+        "displayName": "cloves, minced",
+        "amount": 2,
+        "unit": "GRAM",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "chicken-broth",
+        "displayName": "chicken broth",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-diced-tomatoes-drained",
+        "displayName": "can diced tomatoes, drained",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "VEG",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "raisins",
+        "displayName": "raisins",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "almond-butter",
+        "displayName": "almond butter",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FAT_OIL",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "TREE_NUT",
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "sesame-seeds-plus-extra-for-garnish-toasted",
+        "displayName": "sesame seeds, plus extra for garnish, toasted",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED",
+        "component": "GARNISH",
+        "allergens": [
+          "SESAME"
+        ]
+      },
+      {
+        "ingredientId": "sugar",
+        "displayName": "Sugar",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "bone-in-chicken-pieces-split-breasts-drumsticks-and-or-thighs-skin-removed-trimmed",
+        "displayName": "bone-in chicken pieces (split breasts, drumsticks, and/or thighs), skin removed, trimmed",
+        "amount": 3.5,
+        "unit": "LB",
+        "criticality": "CRITICAL",
+        "kind": "PROTEIN",
+        "shoppingCategory": "MEAT_SEAFOOD",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "table-salt",
+        "displayName": "table salt",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      },
+      {
+        "ingredientId": "pepper",
+        "displayName": "pepper",
+        "amount": 0.25,
+        "unit": "TSP",
+        "criticality": "NON_CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Toast anchos and chipotle in 12-inch skillet over medium heat, stirring frequently, until fragrant, 2 to 6 minutes; transfer to plate. Add oil and onion to now-empty skillet and cook over medium-high heat until softened, 5 to 7 minutes."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Stir in chocolate, cinnamon, cloves, and toasted chiles and cook until chocolate is melted and bubbly, about 2 minutes. Stir in garlic and cook until fragrant, about 30 seconds. Stir in broth, tomatoes, raisins, almond butter, and sesame seeds and bring to simmer. Reduce heat to medium and simmer gently, stirring occasionally, until slightly thickened and measures about 31/2 cups, about 7 minutes."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Transfer mixture to blender and process until smooth, about 20 seconds. Season with salt, pepper, and sugar to taste. (Sauce can be refrigerated for up to 3 days; loosen with water as needed before continuing.)"
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Adjust oven rack to middle position and heat oven to 400 degrees. Pat chicken dry with paper towels and sprinkle with salt and pepper. Arrange chicken in single layer in shallow baking dish and cover with mole sauce, turning to coat chicken evenly. Bake, uncovered, until breasts register 160 degrees, and thighs or drumsticks register 175 degrees, 35 to 45 minutes."
+      },
+      {
+        "stepNumber": 5,
+        "instruction": "Remove chicken from oven, tent with aluminum foil, and let rest for 5 to 10 minutes. Sprinkle with extra sesame seeds and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "TREE_NUT",
+      "DAIRY",
+      "SESAME"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 27006,
+    "end": 27064,
+    "yieldLine": "SERVES 4 to 6"
+  },
+  "fit": true
+}

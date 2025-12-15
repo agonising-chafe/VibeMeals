@@ -1,0 +1,244 @@
+{
+  "mapped": {
+    "id": "atk_taco-bell-mexican-pizza",
+    "name": "Taco Bell Mexican Pizza",
+    "slug": "taco-bell-mexican-pizza",
+    "metadata": {
+      "timeBand": "PROJECT",
+      "estimatedMinutes": 90,
+      "equipmentTags": [
+        "OVEN"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "yieldText": "SERVES 4",
+      "baseServings": 4
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "this-fan-favorite-was-created-in-1985-but-despite-its-popularity-was-removed-from-taco-bell-s-menu-in-2020-fans-started-a-petition-and-their-demand-ultimately-saw-its-return-in-2022",
+        "displayName": "This fan favorite was created in 1985 but despite its popularity was removed from Taco Bell’s menu in 2020. Fans started a petition and their demand ultimately saw its return in 2022!",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "pound-80-20-ground-beef",
+        "displayName": "½ pound 80/20 ground beef",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-salt",
+        "displayName": "½ teaspoon salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "teaspoon-dried-minced-onion",
+        "displayName": "¼ teaspoon dried minced onion",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "1-ounce-packet-taco-seasoning",
+        "displayName": "½ (1-ounce) packet taco seasoning",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "water",
+        "displayName": "water",
+        "amount": 2,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "vegetable-oil",
+        "displayName": "vegetable oil",
+        "amount": 1,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "6-inch-flour-tortillas",
+        "displayName": "(6-inch) flour tortillas",
+        "amount": 8,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "can-refried-beans",
+        "displayName": "can refried beans",
+        "amount": 1,
+        "unit": "OZ",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-mild-salsa",
+        "displayName": "½ cup mild salsa",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-cheddar-cheese",
+        "displayName": "shredded Cheddar cheese",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "shredded-monterey-jack-cheese",
+        "displayName": "shredded Monterey jack cheese",
+        "amount": 2,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "cup-diced-tomato",
+        "displayName": "⅓ cup diced tomato",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "preheat-oven-to-400-f",
+        "displayName": "Preheat oven to 400°F.",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "in-a-10-inch-skillet-over-medium-heat-add-ground-beef-cook-7-10-minutes-until-browned-drain-fat-from-pan-then-add-salt-onion-taco-seasoning-and-water-let-mixture-simmer-over-medium-heat-10-minutes-stirring-often",
+        "displayName": "In a 10-inch skillet over medium heat, add ground beef. Cook 7–10 minutes until browned. Drain fat from pan, then add salt, onion, taco seasoning, and water. Let mixture simmer over medium heat 10 minutes, stirring often.",
+        "amount": 2,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "heat-oil-in-another-10-inch-skillet-over-medium-high-heat-to-350-f",
+        "displayName": "Heat oil in another 10-inch skillet over medium-high heat to 350°F.",
+        "amount": 3,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "fry-each-tortilla-in-hot-oil-about-30-45-seconds-per-side-until-golden-brown-transfer-to-a-paper-towel-lined-plate-to-drain",
+        "displayName": "Fry each tortilla in hot oil about 30–45 seconds per side until golden brown. Transfer to a paper towel–lined plate to drain.",
+        "amount": 4,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "add-refried-beans-to-a-medium-microwave-safe-bowl-and-microwave-1-2-minutes-until-steaming-hot",
+        "displayName": "Add refried beans to a medium microwave-safe bowl and microwave 1–2 minutes until steaming hot.",
+        "amount": 5,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "place-4-tortillas-on-an-ungreased-half-baking-sheet-spread-cup-beans-on-each-tortilla-next-add-cup-meat-and-cup-each-cheddar-and-monterey-jack-cheese-then-top-with-1-tortilla-each",
+        "displayName": "Place 4 tortillas on an ungreased half baking sheet. Spread ⅓ cup beans on each tortilla. Next add ⅓ cup meat and ¼ cup each Cheddar and Monterey jack cheese, then top with 1 tortilla each.",
+        "amount": 6,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "top-tortillas-with-2-tablespoons-salsa-each-then-divide-remaining-cheeses-evenly-over-top-of-salsa-bake-8-12-minutes-until-cheeses-are-melted-garnish-with-tomato-enjoy-hot",
+        "displayName": "Top tortillas with 2 tablespoons salsa each, then divide remaining cheeses evenly over top of salsa. Bake 8–12 minutes until cheeses are melted. Garnish with tomato. Enjoy hot.",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "oceanofpdf-com",
+        "displayName": "OceanofPDF.com",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "FIXED"
+      }
+    ],
+    "preflight": [],
+    "steps": [],
+    "tags": [
+      "atk_source"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Everything Restaurant Copyc - Kelly Jaggers.txt",
+    "start": 7223,
+    "end": 7279,
+    "yieldLine": "SERVES 4"
+  },
+  "fit": false,
+  "fitReason": "too_few_steps"
+}

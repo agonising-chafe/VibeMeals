@@ -1,0 +1,182 @@
+{
+  "mapped": {
+    "id": "atk_best-baked-apples",
+    "name": "Best Baked Apples",
+    "slug": "best-baked-apples",
+    "metadata": {
+      "timeBand": "NORMAL",
+      "estimatedMinutes": 75,
+      "equipmentTags": [
+        "OVEN",
+        "LARGE_SKILLET"
+      ],
+      "leftoverStrategy": "EXPECTED",
+      "baseServings": 6,
+      "yieldText": "SERVES 6"
+    },
+    "scalable": true,
+    "ingredients": [
+      {
+        "ingredientId": "large-about-6-ounces-each-granny-smith-apples",
+        "displayName": "large (about 6 ounces each) Granny Smith apples",
+        "amount": 7,
+        "unit": "UNIT",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "FIXED"
+      },
+      {
+        "ingredientId": "3-4-stick-unsalted-butter-softened",
+        "displayName": "(3/4 stick) unsalted butter, softened",
+        "amount": 6,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "DAIRY",
+        "shoppingCategory": "DAIRY_EGGS",
+        "quantityKind": "FIXED",
+        "allergens": [
+          "DAIRY"
+        ]
+      },
+      {
+        "ingredientId": "dried-cranberries-chopped-coarse",
+        "displayName": "dried cranberries, chopped coarse",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "coarsely-chopped-pecans-toasted",
+        "displayName": "coarsely chopped pecans, toasted",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "FILLING",
+        "allergens": [
+          "TREE_NUT"
+        ]
+      },
+      {
+        "ingredientId": "packed-13-4-ounces-brown-sugar",
+        "displayName": "packed (13/4 ounces) brown sugar",
+        "amount": 0.25,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "OTHER",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "old-fashioned-oats",
+        "displayName": "old-fashioned oats",
+        "amount": 3,
+        "unit": "TBSP",
+        "criticality": "CRITICAL",
+        "kind": "CARB",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "finely-grated-zest-from-1-orange",
+        "displayName": "finely grated zest from 1 orange",
+        "amount": 1,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "ground-cinnamon",
+        "displayName": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "TSP",
+        "criticality": "CRITICAL",
+        "kind": "SPICE",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "pinch-table-salt",
+        "displayName": "Pinch table salt",
+        "amount": 1,
+        "unit": "UNIT",
+        "criticality": "NON_CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "TO_TASTE",
+        "component": "FILLING"
+      },
+      {
+        "ingredientId": "maple-syrup",
+        "displayName": "maple syrup",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "CONDIMENT",
+        "shoppingCategory": "PANTRY_DRY",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE"
+      },
+      {
+        "ingredientId": "plus-2-tablespoons-apple-cider",
+        "displayName": "plus 2 tablespoons apple cider",
+        "amount": 0.3333333333333333,
+        "unit": "CUP",
+        "criticality": "CRITICAL",
+        "kind": "FRUIT",
+        "shoppingCategory": "PRODUCE",
+        "quantityKind": "APPROXIMATE",
+        "component": "SAUCE"
+      }
+    ],
+    "preflight": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Adjust an oven rack to the middle position and heat the oven to 375 degrees. Peel, core, and cut 1 apple into 1/4-inch dice. Combine 5 tablespoons of the butter, the cranberries, pecans, brown sugar, oats, orange zest, cinnamon, salt, and diced apple in a large bowl; set aside."
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Shave a thin slice off the bottom (blossom end) of the remaining 6 apples to allow them to sit flat. Cut the top 1/2 inch off the stem end of the apples and reserve. Peel the apples and use a melon baller or small measuring spoon to remove a 11/2-inch-diameter core, being careful not to cut through the bottom of the apple."
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Melt the remaining 1 tablespoon butter in a 12-inch ovensafe nonstick skillet over medium heat. Once the foaming subsides, add the apples, stem side down, and cook until the cut surface is golden brown, about 3 minutes. Flip the apples, reduce the heat to low, and spoon the filling inside, mounding the excess filling over the cavities; top with the reserved apple caps. Add the maple syrup and 1/3 cup of the cider to the skillet. Transfer the skillet to the oven and bake until a skewer inserted into the apples meets little resistance, 35 to 40 minutes, basting every 10 minutes with the maple syrup mixture in the skillet."
+      },
+      {
+        "stepNumber": 4,
+        "instruction": "Transfer the apples to a serving platter. Stir up to 2 tablespoons of the remaining cider into the sauce in the skillet to adjust the consistency. Pour the sauce over the apples and serve."
+      }
+    ],
+    "tags": [
+      "atk_source",
+      "american",
+      "comfort_food"
+    ],
+    "recipeAllergens": [
+      "DAIRY",
+      "TREE_NUT"
+    ]
+  },
+  "raw": {
+    "source": "atk_book",
+    "bookPath": "C:\\Projects\\VibeMeals\\.txt recipe files\\The Complete America's Test Kit - America's Test Kitchen.txt",
+    "start": 80640,
+    "end": 80684,
+    "yieldLine": "SERVES 6"
+  },
+  "fit": true
+}
