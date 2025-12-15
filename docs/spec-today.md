@@ -1,10 +1,6 @@
-# Today – v1 Specification
-- Integration with calendar to surface "late night" or "busy day" context automatically.
-- If the main has book-authored accompaniments: "Make it a full meal" – opens a small list of the named side / sauce / appetizer / dessert recipes from the book for that main, filtered by constraints.
+
 # Today – v1 Specification
 
-**Version:** 1.1.1  
-**Status:** Implementation-Ready  
 **Wired to:** VibeMeals Vision v4.6.0 (`vision.md`); Data Model v1.4.1  
 **Golden Tests:** G1, G4, G6  
 **Last Updated:** December 12, 2025  
