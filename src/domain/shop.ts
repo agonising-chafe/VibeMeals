@@ -40,7 +40,7 @@ function nextShoppingItemId(): ShoppingItemId {
 export function buildShoppingList(
   plan: Plan,
   recipes: Recipe[],
-  _household?: HouseholdProfile,
+  household?: HouseholdProfile,
 ): ShoppingList {
   const recipeById = new Map<string, Recipe>();
   for (const r of recipes) recipeById.set(r.id, r);
@@ -51,6 +51,11 @@ export function buildShoppingList(
   function normDisplayName(name: string) {
     return name.trim().toLowerCase();
   }
+
+  // Determine if we need to filter gluten-containing ingredients
+  const noGluten = household?.dietConstraints?.includes('NO_GLUTEN');
+  // Regex for gluten sources
+  const glutenRegex = /wheat|flour|semolina|rye|barley/i;
 
   for (const day of plan.days) {
     if (!day.dinner || day.dinner.outEating) continue;
@@ -67,6 +72,13 @@ export function buildShoppingList(
       if (!recipe) continue;
 
       for (const ing of recipe.ingredients) {
+        // Allergen filtering for NO_GLUTEN
+        if (noGluten && (
+          ing.allergens?.includes('WHEAT') ||
+          glutenRegex.test(ing.displayName)
+        )) {
+          continue;
+        }
         // Guard: catch bad ingredients early
         if (
           ing.amount === undefined ||
@@ -83,7 +95,7 @@ export function buildShoppingList(
           );
         }
 
-        // Composite key: normalized displayName + unit
+        // Composite key: normalized displayName + unit (always consolidate by this)
         const compositeKey = normDisplayName(ing.displayName) + '|' + (ing.unit || '');
         let existing = acc.get(compositeKey);
         const amountForPlan = ing.amount * servingsMultiplier;
